@@ -53,6 +53,7 @@ Build execution is complete for **Task ID: `task-02-inspect`**. The repo now inc
 | Download implementation | `./src/download.py` | created |
 | Download tests | `./tests/test_download.py` | created |
 | Inspect implementation | `./src/inspect.py` | created |
+| Inspect core module | `./src/workbook_inspector.py` | created |
 | Inspect report | `./docs/inspection_report.md` | created |
 | Inspect tests | `./tests/test_inspect.py` | created |
 | Lead charter | `./.squad/agents/lead/charter.md` | created |

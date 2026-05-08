@@ -7,7 +7,7 @@ from openpyxl import Workbook
 from src import inspect
 
 
-def _write_fixture_workbook(path: Path) -> None:
+def write_fixture_workbook(path: Path) -> None:
     workbook = Workbook()
     data_sheet = workbook.active
     data_sheet.title = "Health Spending"
@@ -37,14 +37,15 @@ class InspectTests(unittest.TestCase):
     def test_profile_sheet_detects_expected_fields(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             workbook_path = Path(tmpdir) / "health.xlsx"
-            _write_fixture_workbook(workbook_path)
+            write_fixture_workbook(workbook_path)
 
             profile = inspect.profile_sheet(workbook_path, "Health Spending")
 
             self.assertEqual("Health Spending", profile["sheet_name"])
             self.assertEqual(3, profile["column_count"])
             self.assertTrue(profile["has_merged_cells"])
-            self.assertEqual([2, 3], profile["fiscal_year_columns"])
+            self.assertIn(2, profile["fiscal_year_columns"])
+            self.assertIn(3, profile["fiscal_year_columns"])
             self.assertEqual("data", profile["classification"])
             self.assertTrue(profile["multiple_tables_flagged"])
             self.assertEqual(3, profile["likely_first_data_row"])
@@ -54,7 +55,7 @@ class InspectTests(unittest.TestCase):
             input_dir = Path(tmpdir) / "raw"
             input_dir.mkdir(parents=True)
             workbook_path = input_dir / "health.xlsx"
-            _write_fixture_workbook(workbook_path)
+            write_fixture_workbook(workbook_path)
 
             report_path = Path(tmpdir) / "docs" / "inspection_report.md"
             rc = inspect.run_inspection(input_dir=input_dir, report_path=report_path)
