@@ -21,6 +21,7 @@ class DummyResponse:
 class DummySession:
     def __init__(self, responses_by_url):
         self.responses_by_url = responses_by_url
+        self.timeouts = []
 
     def __enter__(self):
         return self
@@ -29,6 +30,7 @@ class DummySession:
         return False
 
     def get(self, url, timeout):
+        self.timeouts.append(timeout)
         value = self.responses_by_url[url]
         if isinstance(value, Exception):
             raise value
@@ -70,6 +72,7 @@ class DownloadTests(unittest.TestCase):
                 )
 
             self.assertEqual(0, rc)
+            self.assertEqual([1, 1], dummy.timeouts)
             self.assertTrue((output_dir / "health.xlsx").exists())
 
             manifest = json.loads((output_dir / "manifest.json").read_text(encoding="utf-8"))
