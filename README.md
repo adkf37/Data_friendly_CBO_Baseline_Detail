@@ -4,8 +4,9 @@ This repository is building a reproducible pipeline that turns the Congressional
 
 ## Current Status
 
-- `task-01-download` is implemented, validated, and closed out for this loop.
-- The next build slice is `task-02-inspect`, which will profile the downloaded workbooks and produce `docs/inspection_report.md`.
+- `task-01-download` is implemented, validated, and closed out.
+- `task-02-inspect` is now implemented with `src/inspect.py`, `tests/test_inspect.py`, and `docs/inspection_report.md`.
+- The next build slice after validation is `task-02b-parse-plan`.
 - The full end-to-end pipeline (`run_pipeline.py`, transforms, schemas, verification) is still in progress.
 
 ## What Works Today
@@ -23,6 +24,17 @@ Expected outputs for the current slice:
 - downloaded Excel workbooks in `data/raw/`
 - manifest metadata in `data/raw/manifest.json`
 
+Inspection entrypoint:
+
+```bash
+python src/inspect.py --help
+python src/inspect.py
+```
+
+Expected inspection output:
+
+- workbook profile report in `docs/inspection_report.md`
+
 ## Validation Snapshot
 
 - `python -m unittest discover -s tests -v` passes
@@ -32,11 +44,10 @@ Expected outputs for the current slice:
 
 ## Planned Build Order
 
-1. `task-02-inspect`
-2. `task-02b-parse-plan`
-3. `task-03-transform`
-4. `task-04-schema`
-5. `task-05-verify`
-6. `task-06-pipeline`
+1. `task-02b-parse-plan`
+2. `task-03-transform`
+3. `task-04-schema`
+4. `task-05-verify`
+5. `task-06-pipeline`
 
 See `STATUS.md`, `.squad/sprint.md`, and `.squad/review_report.md` for the latest handoff state.

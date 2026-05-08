@@ -66,6 +66,14 @@
 
 ---
 
+### 2026-05-08 — task-02-inspect profiling heuristics and report format
+
+**Decision:** Implement `src/inspect.py` with read-only workbook inspection, heuristic sheet classification (`data` / `notes` / `metadata` / `unknown`), fiscal-year/unit inference, and markdown+JSON report output at `docs/inspection_report.md`.
+**Rationale:** The sprint handoff needs a reproducible inspection artifact that downstream parse planning can consume without manually reopening each workbook. Embedding both human-readable bullets and machine-readable JSON in the same report keeps the build slice small while still enabling the next `task-02b-parse-plan` handoff.
+**Task:** task-02-inspect
+
+---
+
 ## Governance
 
 - All meaningful changes require team consensus.
