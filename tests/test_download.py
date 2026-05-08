@@ -29,7 +29,7 @@ class DummySession:
     def __exit__(self, exc_type, exc, tb):
         return False
 
-    def get(self, url, timeout):
+    def get(self, url, timeout=None, **kwargs):
         self.timeouts.append(timeout)
         value = self.responses_by_url[url]
         if isinstance(value, Exception):

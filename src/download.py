@@ -31,7 +31,7 @@ def utc_now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
 
 
-def normalize_filename(source_url: str) -> str | None:
+def extract_xlsx_filename(source_url: str) -> str | None:
     path = urlparse(source_url).path
     filename = Path(path).name
     if not filename:
@@ -57,7 +57,7 @@ def discover_workbooks(html: str, base_url: str = INDEX_URL) -> list[WorkbookLin
         if not href:
             continue
         absolute_url = urljoin(base_url, href)
-        filename = normalize_filename(absolute_url)
+        filename = extract_xlsx_filename(absolute_url)
         if not filename:
             continue
         if absolute_url in seen:
@@ -104,6 +104,11 @@ def run_download(
     retries: int = 2,
     force: bool = False,
 ) -> int:
+    """Download discovered workbooks and write manifest metadata.
+
+    Manifest `downloaded_at` is an ISO timestamp for files downloaded in the
+    current run and `None` for files skipped because they already existed.
+    """
     output_dir.mkdir(parents=True, exist_ok=True)
     discovered_at = utc_now_iso()
     downloaded = 0
