@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Phase | validate-task-01-download |
-| Next Action | Closeout |
+| Phase | closeout-task-01-download |
+| Next Action | Build |
 | Last Updated | 2026-05-08 |
 | Squad Template | data_pipeline |
 | Priority | low |
@@ -12,10 +12,11 @@
 
 ## Current Objective
 
-Validate evidence is complete for **Task ID: `task-01-download`** from `.squad/sprint.md`. Existing unit tests, CLI checks, and mocked rerun/failure smoke checks passed; `.squad/validation_report.md` is ready for Closeout review before the backlog advances to `task-02-inspect`.
+Closeout is complete for **Task ID: `task-01-download`**. Validation evidence and handoff artifacts are in place, so Maestro should return to **Build** for the next explicit sprint item: **Task ID: `task-02-inspect`**.
 
 ## Recent Activity
 
+- 2026-05-08: Closeout completed for `task-01-download` — added handoff README, wrote `.squad/review_report.md`, and routed the repo back to Build for `task-02-inspect`
 - 2026-05-08: Validate executed for `task-01-download` — installed declared dependencies, ran unit tests and CLI/manual smoke checks, recorded one blocked live-site DNS check, and recommended Closeout
 - 2026-05-08: Build executed for `task-01-download` — added workbook discovery/download script, manifest generation, and focused unit tests
 - 2026-05-08: Squad Review complete — task files refined, parse-plan handoff added, `.squad/sprint.md` created, repo marked ready for build
@@ -46,6 +47,8 @@ Validate evidence is complete for **Task ID: `task-01-download`** from `.squad/s
 | Squad decisions | `./.squad/decisions.md` | created |
 | Sprint plan | `./.squad/sprint.md` | created |
 | Validation report | `./.squad/validation_report.md` | created |
+| Review report | `./.squad/review_report.md` | created |
+| Root README | `./README.md` | created |
 | Download implementation | `./src/download.py` | created |
 | Download tests | `./tests/test_download.py` | created |
 | Lead charter | `./.squad/agents/lead/charter.md` | created |
@@ -55,4 +58,4 @@ Validate evidence is complete for **Task ID: `task-01-download`** from `.squad/s
 
 ## Needs Human Input
 
-_(None — proceed to Closeout.)_
+_(None — automated work should resume with `task-02-inspect`.)_
