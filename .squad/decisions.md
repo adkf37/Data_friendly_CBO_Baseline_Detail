@@ -50,6 +50,14 @@
 
 ---
 
+### 2026-05-08 — Validate evidence supports closeout for task-01-download
+
+**Decision:** Advance `task-01-download` from Validate to Closeout.
+**Rationale:** Validation passed through the existing unittest suite, a repo-root CLI smoke check, deterministic mocked checks for skip/force manifest behavior, and a manual non-zero CLI failure-path check. A live fetch against `www.cbo.gov` was attempted but blocked by sandbox DNS resolution, so that single external smoke check is documented as non-blocking rather than treated as a product defect.
+**Task:** task-01-download
+
+---
+
 ## Governance
 
 - All meaningful changes require team consensus.

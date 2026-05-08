@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Phase | build-task-01-download |
-| Next Action | Validate |
+| Phase | validate-task-01-download |
+| Next Action | Closeout |
 | Last Updated | 2026-05-08 |
 | Squad Template | data_pipeline |
 | Priority | low |
@@ -12,10 +12,11 @@
 
 ## Current Objective
 
-Build slice complete for **Task ID: `task-01-download`** from `.squad/sprint.md`. Data Engineer implementation (`src/download.py`) and Tester coverage (`tests/test_download.py`) are in place; route to **Validate** for check evidence before moving to `task-02-inspect`.
+Validate evidence is complete for **Task ID: `task-01-download`** from `.squad/sprint.md`. Existing unit tests, CLI checks, and mocked rerun/failure smoke checks passed; `.squad/validation_report.md` is ready for Closeout review before the backlog advances to `task-02-inspect`.
 
 ## Recent Activity
 
+- 2026-05-08: Validate executed for `task-01-download` — installed declared dependencies, ran unit tests and CLI/manual smoke checks, recorded one blocked live-site DNS check, and recommended Closeout
 - 2026-05-08: Build executed for `task-01-download` — added workbook discovery/download script, manifest generation, and focused unit tests
 - 2026-05-08: Squad Review complete — task files refined, parse-plan handoff added, `.squad/sprint.md` created, repo marked ready for build
 - 2026-05-08: Squad Init complete — `.squad/` bootstrapped, team assembled, Ralph retired, charters written, decisions logged
@@ -44,6 +45,7 @@ Build slice complete for **Task ID: `task-01-download`** from `.squad/sprint.md`
 | Squad routing | `./.squad/routing.md` | created |
 | Squad decisions | `./.squad/decisions.md` | created |
 | Sprint plan | `./.squad/sprint.md` | created |
+| Validation report | `./.squad/validation_report.md` | created |
 | Download implementation | `./src/download.py` | created |
 | Download tests | `./tests/test_download.py` | created |
 | Lead charter | `./.squad/agents/lead/charter.md` | created |
@@ -53,4 +55,4 @@ Build slice complete for **Task ID: `task-01-download`** from `.squad/sprint.md`
 
 ## Needs Human Input
 
-_(None — proceed to Validate.)_
+_(None — proceed to Closeout.)_
