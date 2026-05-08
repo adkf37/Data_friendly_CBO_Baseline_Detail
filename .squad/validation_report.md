@@ -2,12 +2,12 @@
 
 **Date:** 2026-05-08  
 **Phase:** Validate  
-**Task ID:** `task-01-download`  
-**Recommendation:** Pass — advance to **Closeout**
+**Task ID:** `task-02-inspect`  
+**Recommendation:** Blocked — require human-provided workbook inputs or network access before advancing
 
 ## Scope
 
-Validate the current build slice for `task-01-download` (`src/download.py`, `tests/test_download.py`) against the backlog acceptance criteria and Maestro Validate-phase artifact requirements.
+Validate the current build slice for `task-02-inspect` (`src/inspect.py`, `src/workbook_inspector.py`, `tests/test_inspect.py`, and `docs/inspection_report.md`) against the task acceptance criteria and Maestro Validate-phase artifact requirements.
 
 ## Checks Run
 
@@ -18,7 +18,7 @@ python -m pip install -r requirements.txt
 ```
 
 - **Result:** Passed
-- **Evidence:** Installed declared runtime/test dependencies required by `src/download.py`, including `beautifulsoup4`, `lxml`, `openpyxl`, and `pandas`.
+- **Evidence:** Declared dependencies installed successfully in the fresh clone, including `openpyxl` required by the inspection workflow.
 
 ### 2. Existing unit tests
 
@@ -26,75 +26,61 @@ python -m pip install -r requirements.txt
 python -m unittest discover -s tests -v
 ```
 
-- **First attempt:** Blocked by fresh-environment dependency gap (`ModuleNotFoundError: No module named 'bs4'`)
-- **Second attempt after installing requirements:** Passed
-- **Evidence:** 3 tests passed covering `.xlsx` discovery vs `.pdf` exclusion, manifest generation, and no-link failure handling.
+- **Result:** Passed
+- **Evidence:** 5 tests passed total, including the two focused inspect tests covering sheet profiling heuristics and report generation against a synthetic workbook fixture.
 
 ### 3. CLI runnable-from-root smoke check
 
 ```bash
-python src/download.py --help
+python src/inspect.py --help
 ```
 
 - **Result:** Passed
-- **Evidence:** Help output rendered successfully from the repository root with `--force`, `--timeout`, `--retries`, `--index-url`, and `--output-dir` options.
+- **Evidence:** Help output rendered successfully from the repository root with `--input-dir` and `--output` options.
 
-### 4. Manual mocked rerun / force / manifest semantics check
+### 4. CLI execution against repository state
 
 ```bash
-python - <<'PY'
-# imports src.download, patches requests.Session, runs:
-# - initial download
-# - rerun without --force
-# - rerun with --force
-PY
+python src/inspect.py
 ```
 
-- **Result:** Passed
-- **Evidence:**
-  - First run downloaded the workbook and set `downloaded_at`
-  - Rerun without `--force` logged `SKIP`, preserved file bytes, and wrote `downloaded_at: null`
-  - Rerun with `--force` refreshed file bytes and set a new `downloaded_at`
+- **Result:** Passed with blocked validation outcome
+- **Evidence:** The command exited successfully and wrote `docs/inspection_report.md`, but reported `Inspected 0 workbook(s)` because `data/raw/` does not exist in this clone.
 
-### 5. Manual CLI non-zero failure-path check
+### 5. Artifact and acceptance-criteria review
 
 ```bash
-python src/download.py --index-url https://example.invalid --retries 0 --timeout 1 --output-dir /tmp/data-friendly-cbo-validate
+ls -ld data data/raw
+sed -n '1,80p' docs/inspection_report.md
 ```
 
-- **Result:** Passed
-- **Evidence:** Command printed `ERROR: Failed to fetch ...` and exited with status code `1`.
+- **Result:** Failed acceptance review
+- **Evidence:** `data/raw/` is absent, and the checked-in report only contains the empty-state message `No .xlsx files were found in data/raw/.` rather than workbook-by-workbook profiling output.
 
 ## Blocked Checks
 
-### Live CBO index smoke check
+### Profiling real downloaded CBO workbooks
 
 ```bash
 python - <<'PY'
-from src.download import INDEX_URL, discover_workbooks
 import requests
-response = requests.get(INDEX_URL, timeout=20)
-response.raise_for_status()
-links = discover_workbooks(response.text, base_url=INDEX_URL)
-print(len(links))
+requests.get("https://www.cbo.gov/data/baseline-projections-selected-programs", timeout=20)
 PY
 ```
 
 - **Result:** Blocked by sandbox DNS/network resolution
 - **Evidence:** `requests.exceptions.ConnectionError` caused by `NameResolutionError` for `www.cbo.gov`
-- **Impact:** Non-blocking for this validate loop because deterministic unit and mocked smoke checks cover the implemented acceptance criteria without requiring external connectivity
+- **Impact:** Without either live network access or checked-in/downloaded workbook inputs under `data/raw/`, Validate cannot confirm that every downloaded workbook receives a profile entry or that `docs/inspection_report.md` is detailed enough for the required parse-plan handoff.
 
 ## Acceptance Criteria Coverage
 
-- [x] `src/download.py` is runnable from the repository root
-- [x] The script filters discovery to `.xlsx` links and ignores `.pdf` links
-- [x] Discovered workbooks are written into the target output directory
-- [x] Re-running without `--force` skips existing files
-- [x] Re-running with `--force` refreshes existing files and manifest metadata
-- [x] `data/raw/manifest.json` structure includes the required fields
-- [x] The script exits non-zero with an informative error when discovery yields no Excel links or fetching fails
-- [ ] Live fetch from `https://www.cbo.gov/data/baseline-projections-selected-programs` (blocked by sandbox DNS)
+- [x] `src/inspect.py` is runnable from the repository root
+- [ ] Every workbook in `data/raw/` receives at least one profile entry in `docs/inspection_report.md`
+- [ ] Each sheet profile records sheet dimensions, inferred header rows, fiscal-year detection, unit detection, and sheet classification for the real downloaded workbook set
+- [ ] Sheets that appear to be notes/metadata or contain multiple tables are explicitly flagged in the checked-in inspection artifact for the real downloaded workbook set
+- [ ] The report is detailed enough for a human to draft a per-sheet transform plan without reopening the workbook
+- [ ] The script runs without error across all downloaded workbooks
 
 ## Recommendation
 
-Validation evidence is sufficient to advance `task-01-download` to **Closeout**. The only blocked item is a live-network smoke check against `www.cbo.gov`, which could not run in this sandbox, but the implemented behavior is otherwise covered by passing unit tests plus deterministic CLI/manual checks.
+Do **not** advance `task-02-inspect` to Closeout. The implementation is locally healthy enough to run and pass fixture tests, but the validation loop is blocked because the repository does not contain the downloaded workbook inputs needed to satisfy the task’s core acceptance criteria, and this sandbox cannot fetch them from `www.cbo.gov`. The next action should be **Human Blocked** until a person provides the required raw workbook inputs or unblocks network access; once those inputs exist, rerun Validate for `task-02-inspect`.
