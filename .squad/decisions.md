@@ -42,6 +42,14 @@
 
 ---
 
+### 2026-05-08 — Download manifest policy for task-01-download
+
+**Decision:** `src/download.py` records one manifest entry per discovered `.xlsx` workbook, including skipped existing files. For skipped files, `downloaded_at` is left `null` while `sha256` and `bytes` are computed from the on-disk file.
+**Rationale:** This preserves a complete, reproducible inventory of discovered workbook inputs while accurately distinguishing fresh downloads from cache hits on reruns without `--force`.
+**Task:** task-01-download
+
+---
+
 ## Governance
 
 - All meaningful changes require team consensus.

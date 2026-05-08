@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Phase | squad-review-complete |
-| Next Action | Build |
+| Phase | build-task-01-download |
+| Next Action | Validate |
 | Last Updated | 2026-05-08 |
 | Squad Template | data_pipeline |
 | Priority | low |
@@ -12,10 +12,11 @@
 
 ## Current Objective
 
-Squad review is complete. The backlog has explicit task inputs/outputs, the sprint queue is ordered in `.squad/sprint.md`, and the repo is ready to enter **Build** starting with `task-01-download`.
+Build slice complete for **Task ID: `task-01-download`** from `.squad/sprint.md`. Data Engineer implementation (`src/download.py`) and Tester coverage (`tests/test_download.py`) are in place; route to **Validate** for check evidence before moving to `task-02-inspect`.
 
 ## Recent Activity
 
+- 2026-05-08: Build executed for `task-01-download` — added workbook discovery/download script, manifest generation, and focused unit tests
 - 2026-05-08: Squad Review complete — task files refined, parse-plan handoff added, `.squad/sprint.md` created, repo marked ready for build
 - 2026-05-08: Squad Init complete — `.squad/` bootstrapped, team assembled, Ralph retired, charters written, decisions logged
 - 2026-05-08: Planner phase complete — backlog created, data sources identified, 6 tasks defined
@@ -43,6 +44,8 @@ Squad review is complete. The backlog has explicit task inputs/outputs, the spri
 | Squad routing | `./.squad/routing.md` | created |
 | Squad decisions | `./.squad/decisions.md` | created |
 | Sprint plan | `./.squad/sprint.md` | created |
+| Download implementation | `./src/download.py` | created |
+| Download tests | `./tests/test_download.py` | created |
 | Lead charter | `./.squad/agents/lead/charter.md` | created |
 | Data Engineer charter | `./.squad/agents/data-engineer/charter.md` | created |
 | Tester charter | `./.squad/agents/tester/charter.md` | created |
@@ -50,4 +53,4 @@ Squad review is complete. The backlog has explicit task inputs/outputs, the spri
 
 ## Needs Human Input
 
-_(None — proceed to Build.)_
+_(None — proceed to Validate.)_
