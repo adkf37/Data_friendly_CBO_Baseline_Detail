@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Phase | planner-complete |
-| Next Action | squad-init |
+| Phase | squad-init-complete |
+| Next Action | squad-review |
 | Last Updated | 2026-05-08 |
 | Squad Template | data_pipeline |
 | Priority | low |
@@ -12,10 +12,11 @@
 
 ## Current Objective
 
-Build a reproducible Python pipeline that downloads all CBO baseline-projection Excel files (~30 programs), transforms each into tidy long-format CSVs, generates data schemas, and verifies output totals against the source. Repo is now ready for **squad-init**.
+Squad initialized. Team (Lead, Data Engineer, Tester, Scribe) is in place. Next step: **squad-review** — tighten task definitions, surface risks, and produce an ordered sprint plan in `.squad/sprint.md`.
 
 ## Recent Activity
 
+- 2026-05-08: Squad Init complete — `.squad/` bootstrapped, team assembled, Ralph retired, charters written, decisions logged
 - 2026-05-08: Planner phase complete — backlog created, data sources identified, 6 tasks defined
 - 2026-05-08: Project activated by Maestro - GitHub repo created, initial task dispatched
 
@@ -36,7 +37,14 @@ Build a reproducible Python pipeline that downloads all CBO baseline-projection 
 | Task: Verify | `./backlog/tasks/task-05-verify.md` | created |
 | Task: Pipeline | `./backlog/tasks/task-06-pipeline.md` | created |
 | Requirements | `./requirements.txt` | created |
+| Squad team | `./.squad/team.md` | created |
+| Squad routing | `./.squad/routing.md` | created |
+| Squad decisions | `./.squad/decisions.md` | created |
+| Lead charter | `./.squad/agents/lead/charter.md` | created |
+| Data Engineer charter | `./.squad/agents/data-engineer/charter.md` | created |
+| Tester charter | `./.squad/agents/tester/charter.md` | created |
+| Scribe charter | `./.squad/agents/scribe/charter.md` | updated |
 
 ## Needs Human Input
 
-_(None — proceed to squad-init.)_
+_(None — proceed to squad-review.)_
