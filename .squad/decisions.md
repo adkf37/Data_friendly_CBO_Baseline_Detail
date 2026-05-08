@@ -58,6 +58,14 @@
 
 ---
 
+### 2026-05-08 — Closeout returns project to Build for workbook inspection
+
+**Decision:** Close out the `task-01-download` loop and return the repo to **Build** for `task-02-inspect`.
+**Rationale:** The download slice meets its documented acceptance criteria and now has closeout evidence plus a human-facing handoff README. The overall backlog is not complete, so the correct next step is the next ordered sprint item: workbook inspection and profiling.
+**Task:** task-02-inspect
+
+---
+
 ## Governance
 
 - All meaningful changes require team consensus.
