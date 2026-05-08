@@ -33,11 +33,11 @@ This document maps the project work to Maestro lifecycle phases.
 
 ## Phase 3 · Squad Review
 
-**Goal:** Tighten task definitions, surface risks, and produce an ordered sprint plan.
+**Goal:** Tighten task definitions, surface risks, route work to the correct squad members, and produce an ordered sprint plan.
 
 **Outputs:**
-- `backlog/tasks/` refined with acceptance criteria and estimates
-- `.squad/sprint.md` — ordered execution plan with owners and dependencies
+- `backlog/tasks/` refined with explicit inputs, outputs, dependencies, and acceptance criteria
+- `.squad/sprint.md` — ordered execution plan with owners, reviewers, and dependencies
 - `STATUS.md` updated to "ready for build"
 
 ---
@@ -49,12 +49,13 @@ This document maps the project work to Maestro lifecycle phases.
 **Slices (in order):**
 1. **Download** — scrape CBO index page, download all Excel files to `data/raw/`.
 2. **Inspect** — profile each Excel file (sheets, header rows, data ranges, units).
-3. **Transform (health programs)** — parse and normalize health program Excel files.
-4. **Transform (income security programs)** — parse and normalize income security files.
-5. **Transform (remaining programs)** — parse and normalize all remaining files.
-6. **Schema generation** — write schema files for every output CSV.
-7. **Verification** — reconcile output totals against source Excel values.
-8. **Pipeline runner** — wire all steps into a single reproducible entrypoint.
+3. **Parse plan** — convert inspection findings into a workbook/sheet manifest for transform + verify.
+4. **Transform (health programs)** — parse and normalize health program Excel files.
+5. **Transform (income security programs)** — parse and normalize income security files.
+6. **Transform (remaining programs)** — parse and normalize all remaining files.
+7. **Schema generation** — write schema files for every output CSV.
+8. **Verification** — reconcile output totals against source Excel values.
+9. **Pipeline runner** — wire all steps into a single reproducible entrypoint.
 
 **Outputs per slice:**
 - Working code in `src/`
