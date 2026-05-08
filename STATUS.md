@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Phase | squad-init-complete |
-| Next Action | squad-review |
+| Phase | squad-review-complete |
+| Next Action | Build |
 | Last Updated | 2026-05-08 |
 | Squad Template | data_pipeline |
 | Priority | low |
@@ -12,10 +12,11 @@
 
 ## Current Objective
 
-Squad initialized. Team (Lead, Data Engineer, Tester, Scribe) is in place. Next step: **squad-review** — tighten task definitions, surface risks, and produce an ordered sprint plan in `.squad/sprint.md`.
+Squad review is complete. The backlog has explicit task inputs/outputs, the sprint queue is ordered in `.squad/sprint.md`, and the repo is ready to enter **Build** starting with `task-01-download`.
 
 ## Recent Activity
 
+- 2026-05-08: Squad Review complete — task files refined, parse-plan handoff added, `.squad/sprint.md` created, repo marked ready for build
 - 2026-05-08: Squad Init complete — `.squad/` bootstrapped, team assembled, Ralph retired, charters written, decisions logged
 - 2026-05-08: Planner phase complete — backlog created, data sources identified, 6 tasks defined
 - 2026-05-08: Project activated by Maestro - GitHub repo created, initial task dispatched
@@ -32,6 +33,7 @@ Squad initialized. Team (Lead, Data Engineer, Tester, Scribe) is in place. Next 
 | Phases | `./backlog/phases.md` | created |
 | Task: Download | `./backlog/tasks/task-01-download.md` | created |
 | Task: Inspect | `./backlog/tasks/task-02-inspect.md` | created |
+| Task: Parse plan | `./backlog/tasks/task-02b-parse-plan.md` | created |
 | Task: Transform | `./backlog/tasks/task-03-transform.md` | created |
 | Task: Schema | `./backlog/tasks/task-04-schema.md` | created |
 | Task: Verify | `./backlog/tasks/task-05-verify.md` | created |
@@ -40,6 +42,7 @@ Squad initialized. Team (Lead, Data Engineer, Tester, Scribe) is in place. Next 
 | Squad team | `./.squad/team.md` | created |
 | Squad routing | `./.squad/routing.md` | created |
 | Squad decisions | `./.squad/decisions.md` | created |
+| Sprint plan | `./.squad/sprint.md` | created |
 | Lead charter | `./.squad/agents/lead/charter.md` | created |
 | Data Engineer charter | `./.squad/agents/data-engineer/charter.md` | created |
 | Tester charter | `./.squad/agents/tester/charter.md` | created |
@@ -47,4 +50,4 @@ Squad initialized. Team (Lead, Data Engineer, Tester, Scribe) is in place. Next 
 
 ## Needs Human Input
 
-_(None — proceed to squad-review.)_
+_(None — proceed to Build.)_

@@ -2,7 +2,8 @@
 
 **ID:** task-05-verify  
 **Phase:** Build / Validate  
-**Owner:** Tester  
+**Owner:** Data Engineer + Tester  
+**Reviewers:** Lead  
 **Priority:** High (quality gate)  
 **Estimated Effort:** Medium (one day)
 
@@ -10,30 +11,44 @@
 
 ## Objective
 
-Confirm that the numeric values in every processed CSV faithfully reproduce the values in the source Excel files. Catch rounding errors, dropped rows, mis-parsed units, and off-by-one fiscal year shifts.
+Confirm that processed CSV values faithfully reproduce the source workbook values for each included dataset, surfacing dropped rows, shifted fiscal years, unit mistakes, and double-counting before validate/closeout can pass.
+
+## Inputs
+
+- `data/raw/*.xlsx`
+- `data/processed/*.csv`
+- `config/workbook_parse_plan.yaml`
+
+## Outputs
+
+- `src/verify.py`
+- `docs/verification_report.md`
+
+## Required Workflow
+
+1. For each included parse-plan target, load the relevant source workbook/sheet values and compute comparison totals by fiscal year.
+2. Load the matching processed CSV rows and compute equivalent totals, excluding `is_total=True` rows unless the parse plan explicitly says otherwise.
+3. Compare source and processed totals using both:
+   - absolute tolerance suitable for the source unit
+   - relative tolerance of `0.01%`
+4. Write a human-readable report with pass/fail status, variances, and notes for any tolerated exceptions.
+5. Exit non-zero if any non-exempt comparison fails.
 
 ## Acceptance Criteria
 
-- [ ] Script `src/verify.py` exists and is runnable.
-- [ ] For each program, the script:
-  1. Reads the source Excel and sums values by fiscal year (for each data sheet).
-  2. Reads the processed CSV(s) for that program and sums values by fiscal year (excluding `is_total=True` rows to avoid double-counting).
-  3. Compares the two totals and flags any deviation > 0.01% as a failure.
-- [ ] Verification results are written to `docs/verification_report.md` with pass/fail per program and fiscal year.
-- [ ] Script exits with a non-zero code if any program has verification failures.
-- [ ] Zero failures is required before the Validate phase can be marked complete.
-
-## Implementation Notes
-
-- Use absolute difference and relative difference thresholds for comparison.
-- Log warnings (not failures) for programs where totals intentionally differ (e.g., rounding in source).
-- The verification report must be human-readable enough to diagnose failures without re-running the pipeline.
+- [ ] `src/verify.py` is runnable from the repository root.
+- [ ] Every included parse-plan dataset has a corresponding verification result.
+- [ ] `docs/verification_report.md` records pass/fail status and fiscal-year variance details for each dataset.
+- [ ] The verifier uses both absolute and relative tolerances and documents any tolerated exceptions.
+- [ ] The command exits non-zero when any non-exempt verification fails.
+- [ ] Validate cannot be marked complete until this report shows zero non-exempt failures.
 
 ## Dependencies
 
-- task-03-transform (processed CSVs must exist)
+- task-03-transform
+- task-02b-parse-plan
 
-## Test Approach
+## Test / Validation Approach
 
-- Unit-test the comparison logic with synthetic data that has a known discrepancy.
-- Integration test: run verify on real outputs and assert zero failures.
+- Unit-test comparison logic with synthetic data containing one passing and one failing case.
+- Integration-test the verifier against cached or fixture outputs and assert zero non-exempt failures.

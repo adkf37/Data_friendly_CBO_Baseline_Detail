@@ -34,9 +34,16 @@
 
 ---
 
+### 2026-05-08 — Squad review tightened build handoff
+
+**Decision:** Add an explicit workbook parse-plan task between inspection and transform, and align task ownership/review with `.squad/routing.md`.
+**Rationale:** Inspection findings alone are too loose for repeatable transform and verification work. A machine-readable parse plan closes the handoff gap, while corrected ownership makes sprint execution match the established squad roles.
+**Task:** squad-review, task-02b-parse-plan, .squad/sprint.md
+
+---
+
 ## Governance
 
 - All meaningful changes require team consensus.
 - Document architectural decisions here with the task ID that motivated the decision.
 - Keep history focused on work, decisions focused on direction.
-

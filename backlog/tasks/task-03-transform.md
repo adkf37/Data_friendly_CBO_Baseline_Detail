@@ -3,51 +3,77 @@
 **ID:** task-03-transform  
 **Phase:** Build  
 **Owner:** Data Engineer  
+**Reviewers:** Lead, Tester  
 **Priority:** High (core deliverable)  
-**Estimated Effort:** Large (multi-day, iterative per program group)
+**Estimated Effort:** Large (iterative by program group)
 
 ---
 
 ## Objective
 
-For each Excel file in `data/raw/`, parse every data sheet and produce one or more tidy (long-format) CSVs in `data/processed/`. Each row in a processed CSV represents a single observation: one program, one category, one fiscal year, one value.
+Use the workbook parse plan to convert CBO Excel sheets into tidy UTF-8 CSV datasets in `data/processed/`, preserving enough provenance for later schema generation and reconciliation.
+
+## Inputs
+
+- `data/raw/*.xlsx`
+- `config/workbook_parse_plan.yaml`
+- Design decisions from `.squad/decisions.md`
+
+## Outputs
+
+- `src/transform.py` and any supporting modules under `src/transformers/`
+- `data/processed/*.csv`
+- `data/processed/parse_errors.log`
+
+## Execution Slices
+
+Implement and validate this task in three slices so build work stays reviewable:
+
+1. Health programs
+2. Income security programs
+3. Remaining programs
+
+Each slice should update `.squad/decisions.md` with any new parser overrides before moving to the next slice.
+
+## Required Workflow
+
+1. Read parse-plan entries and skip sheets explicitly marked `include: false`.
+2. Normalize headers, including forward-filling merged header cells where needed.
+3. Reshape year columns into long form with one row per program/category/fiscal year.
+4. Preserve provenance in every row:
+
+   | Column | Type | Description |
+   |---|---|---|
+   | `program` | string | CBO program name |
+   | `category` | string | Line-item label after header normalization |
+   | `fiscal_year` | integer | Fiscal year |
+   | `value` | float | Parsed numeric value |
+   | `unit` | string | Unit of measure |
+   | `source_file` | string | Original workbook filename |
+   | `source_sheet` | string | Original sheet name |
+   | `is_total` | boolean | Whether the row is a total or subtotal |
+
+5. Name output datasets according to `output_dataset` in the parse plan so schema and verification steps have stable targets.
+6. Write parse failures to `data/processed/parse_errors.log`; do not silently drop failed sheets.
 
 ## Acceptance Criteria
 
-- [ ] Script `src/transform.py` (or modular `src/transformers/<program>.py` files) exists and is runnable.
-- [ ] Every Excel data sheet produces at least one corresponding CSV in `data/processed/`.
-- [ ] Output CSVs conform to the standard schema:
-
-  | Column | Type | Description |
-  |---|---|---|
-  | `program` | string | CBO program name (e.g., "Medicaid") |
-  | `category` | string | Sub-category or line item label |
-  | `fiscal_year` | integer | Fiscal year (e.g., 2025) |
-  | `value` | float | Numeric value |
-  | `unit` | string | Unit of measure (e.g., "billions of dollars") |
-  | `source_file` | string | Original Excel filename |
-  | `source_sheet` | string | Original sheet name |
-  | `is_total` | boolean | True if the row represents a total or subtotal line |
-
-- [ ] No wide/pivot format; all year columns are melted into `fiscal_year`/`value` rows.
-- [ ] Merged cells in headers are forward-filled correctly.
-- [ ] Rows that are totals or subtotals are flagged with a boolean `is_total` column.
-- [ ] Empty rows and footnote rows are dropped.
-- [ ] Processed CSVs are saved as UTF-8 encoded files.
-
-## Implementation Notes
-
-- Use `pandas` with `openpyxl` engine for reading.
-- Handle programs individually where header structures differ significantly.
-- Log a warning (do not fail) when a sheet cannot be parsed; record it in a `data/processed/parse_errors.log`.
-- Prefer general-purpose parsing logic; write program-specific overrides only when necessary.
+- [ ] `src/transform.py` is runnable from the repository root.
+- [ ] Every parse-plan sheet marked for inclusion produces at least one documented CSV or an explicit parse error entry.
+- [ ] Output CSVs contain the required columns and are encoded as UTF-8.
+- [ ] No output remains in wide format; year values are melted into `fiscal_year` / `value`.
+- [ ] Totals and subtotals are flagged with `is_total=True`.
+- [ ] Empty rows, narrative footnotes, and layout-only rows are excluded from outputs.
+- [ ] Output file names match the parse-plan `output_dataset` values.
+- [ ] Any duplicate `(program, category, fiscal_year, unit, source_sheet)` rows are either prevented or explicitly documented in parser-specific notes.
 
 ## Dependencies
 
-- task-02-inspect (profile report guides implementation)
+- task-02-inspect
+- task-02b-parse-plan
 
-## Test Approach
+## Test / Validation Approach
 
-- For each program, assert output CSV is non-empty and has the required columns.
-- For each program, assert `fiscal_year` values are integers in plausible range (e.g., 2000–2040).
-- For each program, assert no duplicate rows (program + category + fiscal_year must be unique, or document exceptions).
+- Unit-test header normalization and melt logic with synthetic workbook fixtures.
+- For each completed slice, assert every produced CSV is non-empty and contains the required columns.
+- Assert `fiscal_year` values are integers in a plausible range and parse errors are surfaced explicitly.

@@ -2,7 +2,8 @@
 
 **ID:** task-04-schema  
 **Phase:** Build  
-**Owner:** Scribe  
+**Owner:** Data Engineer  
+**Reviewers:** Scribe  
 **Priority:** Medium  
 **Estimated Effort:** Small-Medium (half-day to one day)
 
@@ -10,31 +11,44 @@
 
 ## Objective
 
-For every processed CSV in `data/processed/`, produce a corresponding schema file in `docs/schemas/` that documents each column's name, data type, allowed values or range, unit, and any relevant notes.
+Generate one schema document per processed dataset so contributors can understand the structure, units, provenance, and aggregation caveats of every CSV output without reverse-engineering the transform code.
+
+## Inputs
+
+- `data/processed/*.csv`
+- Output naming from `config/workbook_parse_plan.yaml`
+- Any parser notes recorded in `.squad/decisions.md`
+
+## Outputs
+
+- `src/generate_schemas.py` (or `src/schema.py`)
+- `docs/schemas/<csv_basename>.md`
+- `docs/schemas/README.md`
+
+## Required Workflow
+
+1. Enumerate every CSV in `data/processed/`.
+2. Generate a draft schema document for each CSV including:
+   - dataset purpose
+   - source workbook/sheet provenance
+   - column table with type, description, unit, example, and notes
+   - any known caveats such as `is_total=True` handling
+3. Build a master index file at `docs/schemas/README.md`.
+4. Hand schema drafts to Scribe for prose cleanup and consistency review before the task is considered done.
 
 ## Acceptance Criteria
 
-- [ ] Script or notebook `src/generate_schemas.py` auto-generates a draft schema from each processed CSV.
-- [ ] Each schema file is saved as `docs/schemas/<csv_basename>.md`.
-- [ ] Schema files include:
-  - Column name
-  - Data type (string, integer, float, boolean)
-  - Description
-  - Unit (where applicable)
-  - Example values
-  - Notes (e.g., "is_total=True rows are subtotals and should typically be excluded from aggregation")
-- [ ] A master index `docs/schemas/README.md` lists all schema files with a one-line description of each dataset.
-
-## Implementation Notes
-
-- Auto-generate from `pandas` `describe()` and `dtypes` to reduce manual effort.
-- Scribe agent reviews and enriches auto-generated drafts with context from the CBO source files.
+- [ ] Every CSV in `data/processed/` has a matching schema file in `docs/schemas/`.
+- [ ] Each schema file documents column name, data type, description, unit applicability, example values, and notes.
+- [ ] `docs/schemas/README.md` lists every dataset and links to its schema file.
+- [ ] Schema file names match CSV basenames exactly.
+- [ ] Schema docs explain how `is_total=True` rows should be interpreted for downstream analysis.
 
 ## Dependencies
 
-- task-03-transform (processed CSVs must exist)
+- task-03-transform
 
-## Test Approach
+## Test / Validation Approach
 
-- Assert a schema file exists for every CSV in `data/processed/`.
-- Assert each schema file contains the required column sections.
+- Assert there is a 1:1 mapping between processed CSVs and schema files.
+- Assert each schema file contains the required sections and a provenance note.
