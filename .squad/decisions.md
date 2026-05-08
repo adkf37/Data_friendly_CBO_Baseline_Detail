@@ -74,6 +74,14 @@
 
 ---
 
+### 2026-05-08 — Validate blocks closeout for task-02-inspect pending real workbook inputs
+
+**Decision:** Do not advance `task-02-inspect` to Closeout; set the repo to **Human Blocked** until real downloaded workbook inputs are available for validation.
+**Rationale:** The inspection code is runnable and the unittest suite passes, but the repository currently has no `data/raw/` workbook inputs, so `docs/inspection_report.md` only records the empty-state case (`Inspected 0 workbook(s)`). A fresh live fetch from `www.cbo.gov` is also blocked in this sandbox by DNS resolution failure, which prevents Validate from confirming the task’s core acceptance criteria on real workbook inputs.
+**Task:** task-02-inspect
+
+---
+
 ## Governance
 
 - All meaningful changes require team consensus.

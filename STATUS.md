@@ -2,20 +2,21 @@
 
 | Field | Value |
 |---|---|
-| Phase | build-task-02-inspect |
-| Next Action | Validate |
+| Phase | validate-task-02-inspect |
+| Next Action | Human Blocked |
 | Last Updated | 2026-05-08 |
 | Squad Template | data_pipeline |
 | Priority | low |
-| Blocking | None |
+| Blocking | Downloaded CBO workbook inputs unavailable; sandbox DNS cannot resolve `www.cbo.gov` |
 | GitHub Repo | https://github.com/adkf37/Data_friendly_CBO_Baseline_Detail |
 
 ## Current Objective
 
-Build execution is complete for **Task ID: `task-02-inspect`**. The repo now includes workbook inspection tooling (`src/inspect.py`), focused unit tests, and an inspection report artifact (`docs/inspection_report.md`). Route to **Validate** to confirm acceptance criteria and quality gates before advancing to `task-02b-parse-plan`.
+Validate completed for **Task ID: `task-02-inspect`**, but the loop is **blocked**. The inspection tooling is runnable and the test suite passes, yet the repository does not contain downloaded workbooks under `data/raw/`, so `docs/inspection_report.md` only captures the empty-state case instead of the workbook-by-workbook evidence required for the parse-plan handoff. A human must provide the raw workbook inputs or restore network access to `www.cbo.gov` before validation can be rerun.
 
 ## Recent Activity
 
+- 2026-05-08: Validate executed for `task-02-inspect` — passed unittest and CLI smoke checks, confirmed the inspection report is empty because `data/raw/` is missing, re-verified `www.cbo.gov` DNS resolution is blocked in the sandbox, and marked the loop Human Blocked
 - 2026-05-08: Build executed for `task-02-inspect` — added workbook/sheet profiling script, report generation, and focused inspect tests
 - 2026-05-08: Closeout completed for `task-01-download` — added handoff README, wrote `.squad/review_report.md`, and routed the repo back to Build for `task-02-inspect`
 - 2026-05-08: Validate executed for `task-01-download` — installed declared dependencies, ran unit tests and CLI/manual smoke checks, recorded one blocked live-site DNS check, and recommended Closeout
@@ -63,4 +64,7 @@ Build execution is complete for **Task ID: `task-02-inspect`**. The repo now inc
 
 ## Needs Human Input
 
-_(None — automated work should resume with `task-02-inspect`.)_
+- Provide the downloaded `.xlsx` workbook set under `data/raw/`, or
+- Restore sandbox/network access to `https://www.cbo.gov/data/baseline-projections-selected-programs`
+
+After either unblock, rerun **Validate** for `task-02-inspect` before advancing to `task-02b-parse-plan`.
