@@ -1,0 +1,210 @@
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
+Medicare,Mandatory Outlaysa,2025,1180.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Outlaysa,2026,1287.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Outlaysa,2027,1374.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Outlaysa,2028,1533.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Outlaysa,2029,1470.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Outlaysa,2030,1649.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Outlaysa,2031,1753.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Outlaysa,2032,1867.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Outlaysa,2033,2123.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Outlaysa,2035,2155.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Outlaysa,2036,2421.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Discretionary Outlays,2025,9.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Discretionary Outlays,2026,8.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Discretionary Outlays,2027,9.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Discretionary Outlays,2028,9.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Discretionary Outlays,2029,10.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Discretionary Outlays,2030,10.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Discretionary Outlays,2031,10.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Discretionary Outlays,2032,11.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Discretionary Outlays,2033,11.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Discretionary Outlays,2035,12.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Discretionary Outlays,2036,12.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Total Offsetting Receiptsb,2025,-192.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,true
+Medicare,Total Offsetting Receiptsb,2026,-224.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,true
+Medicare,Total Offsetting Receiptsb,2027,-234.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,true
+Medicare,Total Offsetting Receiptsb,2028,-249.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,true
+Medicare,Total Offsetting Receiptsb,2029,-266.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,true
+Medicare,Total Offsetting Receiptsb,2030,-292.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,true
+Medicare,Total Offsetting Receiptsb,2031,-316.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,true
+Medicare,Total Offsetting Receiptsb,2032,-340.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,true
+Medicare,Total Offsetting Receiptsb,2033,-368.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,true
+Medicare,Total Offsetting Receiptsb,2035,-422.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,true
+Medicare,Total Offsetting Receiptsb,2036,-451.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,true
+Medicare,Part A,2025,441.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A,2026,468.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A,2027,496.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A,2028,548.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A,2029,531.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A,2030,582.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A,2031,612.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A,2032,643.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A,2033,713.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A,2035,722.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A,2036,789.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B,2025,574.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B,2026,614.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B,2027,652.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B,2028,738.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B,2029,716.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B,2030,814.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B,2031,876.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B,2032,943.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B,2033,1086.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B,2035,1127.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B,2036,1277.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D,2025,163.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D,2026,202.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D,2027,222.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D,2028,245.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D,2029,221.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D,2030,250.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D,2031,262.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D,2032,278.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D,2033,322.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D,2035,304.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D,2036,352.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Administrationc,2025,3.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Administrationc,2026,2.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Administrationc,2027,2.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Administrationc,2028,2.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Administrationc,2029,3.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Administrationc,2030,3.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Administrationc,2031,3.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Administrationc,2032,3.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Administrationc,2033,3.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Administrationc,2035,3.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Mandatory Administrationc,2036,3.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A Premiums,2025,-5.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A Premiums,2026,-6.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A Premiums,2027,-6.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A Premiums,2028,-6.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A Premiums,2029,-6.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A Premiums,2030,-7.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A Premiums,2031,-7.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A Premiums,2032,-8.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A Premiums,2033,-8.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A Premiums,2035,-9.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part A Premiums,2036,-10.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B Premiums and Inflation Rebate Collectionsd,2025,-148.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B Premiums and Inflation Rebate Collectionsd,2026,-169.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B Premiums and Inflation Rebate Collectionsd,2027,-181.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B Premiums and Inflation Rebate Collectionsd,2028,-193.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B Premiums and Inflation Rebate Collectionsd,2029,-206.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B Premiums and Inflation Rebate Collectionsd,2030,-225.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B Premiums and Inflation Rebate Collectionsd,2031,-243.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B Premiums and Inflation Rebate Collectionsd,2032,-263.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B Premiums and Inflation Rebate Collectionsd,2033,-286.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B Premiums and Inflation Rebate Collectionsd,2035,-330.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part B Premiums and Inflation Rebate Collectionsd,2036,-354.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Premiums and Inflation Rebate Collectionse,2025,-6.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Premiums and Inflation Rebate Collectionse,2026,-16.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Premiums and Inflation Rebate Collectionse,2027,-11.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Premiums and Inflation Rebate Collectionse,2028,-13.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Premiums and Inflation Rebate Collectionse,2029,-14.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Premiums and Inflation Rebate Collectionse,2030,-20.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Premiums and Inflation Rebate Collectionse,2031,-23.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Premiums and Inflation Rebate Collectionse,2032,-25.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Premiums and Inflation Rebate Collectionse,2033,-26.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Premiums and Inflation Rebate Collectionse,2035,-31.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Premiums and Inflation Rebate Collectionse,2036,-33.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Payments by States,2025,-19.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Payments by States,2026,-20.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Payments by States,2027,-22.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Payments by States,2028,-23.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Payments by States,2029,-25.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Payments by States,2030,-26.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Payments by States,2031,-28.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Payments by States,2032,-30.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Payments by States,2033,-31.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Payments by States,2035,-35.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part D Payments by States,2036,-37.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Payments Recovered From Providersf,2025,-13.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Payments Recovered From Providersf,2026,-14.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Payments Recovered From Providersf,2027,-14.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Payments Recovered From Providersf,2028,-14.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Payments Recovered From Providersf,2029,-15.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Payments Recovered From Providersf,2030,-15.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Payments Recovered From Providersf,2031,-15.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Payments Recovered From Providersf,2032,-15.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Payments Recovered From Providersf,2033,-16.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Payments Recovered From Providersf,2035,-16.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Payments Recovered From Providersf,2036,-17.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Capitation Payments (Number per year)g,2025,12.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Capitation Payments (Number per year)g,2026,12.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Capitation Payments (Number per year)g,2027,12.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Capitation Payments (Number per year)g,2028,13.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Capitation Payments (Number per year)g,2029,11.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Capitation Payments (Number per year)g,2030,12.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Capitation Payments (Number per year)g,2031,12.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Capitation Payments (Number per year)g,2032,12.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Capitation Payments (Number per year)g,2033,13.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Capitation Payments (Number per year)g,2035,11.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Capitation Payments (Number per year)g,2036,12.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part Dh,2025,56231.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part Dh,2026,57378.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part Dh,2027,58576.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part Dh,2028,59752.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part Dh,2029,60881.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part Dh,2030,61800.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part Dh,2031,62513.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part Dh,2032,63139.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part Dh,2033,63728.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part Dh,2035,64973.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Part Dh,2036,65488.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Beginning-of-Year Balance,2025,235.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Beginning-of-Year Balance,2026,253.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Beginning-of-Year Balance,2027,277.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Beginning-of-Year Balance,2028,298.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Beginning-of-Year Balance,2029,290.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Beginning-of-Year Balance,2030,325.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Beginning-of-Year Balance,2031,333.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Beginning-of-Year Balance,2032,337.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Beginning-of-Year Balance,2033,334.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Beginning-of-Year Balance,2035,255.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Beginning-of-Year Balance,2036,252.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Noninterest Income (Mostly payroll taxes),2025,459.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Noninterest Income (Mostly payroll taxes),2026,488.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Noninterest Income (Mostly payroll taxes),2027,512.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Noninterest Income (Mostly payroll taxes),2028,535.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Noninterest Income (Mostly payroll taxes),2029,559.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Noninterest Income (Mostly payroll taxes),2030,584.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Noninterest Income (Mostly payroll taxes),2031,608.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Noninterest Income (Mostly payroll taxes),2032,633.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Noninterest Income (Mostly payroll taxes),2033,660.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Noninterest Income (Mostly payroll taxes),2035,716.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Noninterest Income (Mostly payroll taxes),2036,745.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Interest,2025,9.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Interest,2026,11.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Interest,2027,12.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Interest,2028,12.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Interest,2029,13.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Interest,2030,14.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Interest,2031,14.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Interest,2032,14.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Interest,2033,13.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Interest,2035,11.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Interest,2036,10.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Outlays,2025,450.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Outlays,2026,474.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Outlays,2027,503.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Outlays,2028,555.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Outlays,2029,537.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Outlays,2030,590.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Outlays,2031,619.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Outlays,2032,650.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Outlays,2033,721.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Outlays,2035,730.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Outlays,2036,797.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Surplus or Deficit (-),2025,18.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Surplus or Deficit (-),2026,24.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Surplus or Deficit (-),2027,20.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Surplus or Deficit (-),2028,-7.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Surplus or Deficit (-),2029,35.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Surplus or Deficit (-),2030,8.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Surplus or Deficit (-),2031,3.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Surplus or Deficit (-),2032,-3.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Surplus or Deficit (-),2033,-48.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Surplus or Deficit (-),2035,-4.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false
+Medicare,Surplus or Deficit (-),2036,-42.0,"Billions of dollars, by fiscal year",51302-2026-02-medicare.xlsx,Medicare_02-2026,false

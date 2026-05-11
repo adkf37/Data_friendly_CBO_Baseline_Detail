@@ -1,0 +1,91 @@
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
+Unemployment,Regular Benefits,2025,39730.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Regular Benefits,2026,43780.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Regular Benefits,2027,45790.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Regular Benefits,2028,47585.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Regular Benefits,2029,49055.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Regular Benefits,2030,50580.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Regular Benefits,2031,52240.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Regular Benefits,2032,53930.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Regular Benefits,2034,57195.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Regular Benefits,2035,58865.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Extended Benefits,2025,53.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Extended Benefits,2026,78.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Extended Benefits,2027,136.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Extended Benefits,2028,151.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Extended Benefits,2029,175.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Extended Benefits,2030,209.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Extended Benefits,2031,223.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Extended Benefits,2032,227.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Extended Benefits,2034,230.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Extended Benefits,2035,230.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Trade Adjustment Assistancea,2025,34.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Trade Adjustment Assistancea,2026,6.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Trade Adjustment Assistancea,2027,1.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Trade Adjustment Assistancea,2028,0.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Trade Adjustment Assistancea,2029,0.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Trade Adjustment Assistancea,2030,0.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Trade Adjustment Assistancea,2031,0.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Trade Adjustment Assistancea,2032,0.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Trade Adjustment Assistancea,2034,0.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Trade Adjustment Assistancea,2035,0.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Total Estimated Outlays,2025,39817.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,true
+Unemployment,Total Estimated Outlays,2026,43864.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,true
+Unemployment,Total Estimated Outlays,2027,45927.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,true
+Unemployment,Total Estimated Outlays,2028,47736.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,true
+Unemployment,Total Estimated Outlays,2029,49230.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,true
+Unemployment,Total Estimated Outlays,2030,50789.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,true
+Unemployment,Total Estimated Outlays,2031,52463.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,true
+Unemployment,Total Estimated Outlays,2032,54157.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,true
+Unemployment,Total Estimated Outlays,2034,57425.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,true
+Unemployment,Total Estimated Outlays,2035,59095.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,true
+Unemployment,First Payments (Millions of people),2025,5.6,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,First Payments (Millions of people),2026,6.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,First Payments (Millions of people),2027,6.1,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,First Payments (Millions of people),2028,6.1,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,First Payments (Millions of people),2029,6.1,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,First Payments (Millions of people),2030,6.1,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,First Payments (Millions of people),2031,6.1,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,First Payments (Millions of people),2032,6.2,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,First Payments (Millions of people),2034,6.2,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,First Payments (Millions of people),2035,6.2,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Weekly Benefit (Dollars),2025,457.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Weekly Benefit (Dollars),2026,472.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Weekly Benefit (Dollars),2027,488.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Weekly Benefit (Dollars),2028,503.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Weekly Benefit (Dollars),2029,518.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Weekly Benefit (Dollars),2030,534.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Weekly Benefit (Dollars),2031,550.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Weekly Benefit (Dollars),2032,566.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Weekly Benefit (Dollars),2034,600.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Weekly Benefit (Dollars),2035,617.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Duration (Weeks),2025,15.4,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Duration (Weeks),2026,15.5,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Duration (Weeks),2027,15.5,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Duration (Weeks),2028,15.5,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Duration (Weeks),2029,15.5,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Duration (Weeks),2030,15.5,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Duration (Weeks),2031,15.5,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Duration (Weeks),2032,15.5,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Duration (Weeks),2034,15.5,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Average Duration (Weeks),2035,15.5,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Labor Force (Millions of people),2025,169.9,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Labor Force (Millions of people),2026,173.0,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Labor Force (Millions of people),2027,173.9,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Labor Force (Millions of people),2028,174.5,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Labor Force (Millions of people),2029,175.1,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Labor Force (Millions of people),2030,175.8,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Labor Force (Millions of people),2031,176.6,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Labor Force (Millions of people),2032,177.4,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Labor Force (Millions of people),2034,178.6,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Labor Force (Millions of people),2035,179.2,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Unemployment Rate (Percent),2025,4.2,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Unemployment Rate (Percent),2026,4.4,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Unemployment Rate (Percent),2027,4.4,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Unemployment Rate (Percent),2028,4.4,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Unemployment Rate (Percent),2029,4.4,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Unemployment Rate (Percent),2030,4.4,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Unemployment Rate (Percent),2031,4.4,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Unemployment Rate (Percent),2032,4.4,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Unemployment Rate (Percent),2034,4.3,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false
+Unemployment,Unemployment Rate (Percent),2035,4.3,"Estimated outlays in millions of dollars, by fiscal year",51316-2025-01-unemployment.xlsx,UI and TAA_01-2025,false

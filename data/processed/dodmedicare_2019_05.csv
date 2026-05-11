@@ -1,0 +1,91 @@
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
+Dodmedicare,TRICARE for Lifea,2019,2389.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Lifea,2020,2414.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Lifea,2021,2437.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Lifea,2022,2443.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Lifea,2023,2471.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Lifea,2024,2501.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Lifea,2025,2530.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Lifea,2026,2559.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Lifea,2027,2585.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Lifea,2029,2621.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPb,2019,48.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPb,2020,48.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPb,2021,47.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPb,2022,46.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPb,2023,46.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPb,2024,45.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPb,2025,44.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPb,2026,43.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPb,2027,42.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPb,2029,40.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Total,2019,2437.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total,2020,2461.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total,2021,2484.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total,2022,2490.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total,2023,2517.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total,2024,2546.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total,2025,2574.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total,2026,2602.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total,2027,2627.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total,2029,2661.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Inpatient/outpatient,2019,1634.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Inpatient/outpatient,2020,1742.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Inpatient/outpatient,2021,1831.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Inpatient/outpatient,2022,1931.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Inpatient/outpatient,2023,2012.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Inpatient/outpatient,2024,2098.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Inpatient/outpatient,2025,2192.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Inpatient/outpatient,2026,2290.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Inpatient/outpatient,2027,2393.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Inpatient/outpatient,2029,2624.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Pharmacy,2019,1433.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Pharmacy,2020,1447.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Pharmacy,2021,1527.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Pharmacy,2022,1573.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Pharmacy,2023,1650.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Pharmacy,2024,1688.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Pharmacy,2025,1773.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Pharmacy,2026,1827.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Pharmacy,2027,1920.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Pharmacy,2029,2105.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,Total TRICARE for Life,2019,4023.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total TRICARE for Life,2020,4179.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total TRICARE for Life,2021,4392.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total TRICARE for Life,2022,4592.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total TRICARE for Life,2023,4796.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total TRICARE for Life,2024,4969.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total TRICARE for Life,2025,5201.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total TRICARE for Life,2026,5406.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total TRICARE for Life,2027,5661.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,Total TRICARE for Life,2029,6206.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,true
+Dodmedicare,USFHPc,2019,14990.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPc,2020,15609.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPc,2021,16321.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPc,2022,17076.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPc,2023,17865.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPc,2024,18692.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPc,2025,19591.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPc,2026,20534.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPc,2027,21522.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHPc,2029,23672.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Life,2019,9591.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Life,2020,10045.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Life,2021,10648.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Life,2022,11146.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Life,2023,11787.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Life,2024,12341.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Life,2025,13067.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Life,2026,13727.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Life,2027,14521.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,TRICARE for Life,2029,16047.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHP,2019,721.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHP,2020,744.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHP,2021,768.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHP,2022,793.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHP,2023,818.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHP,2024,842.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHP,2025,866.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHP,2026,888.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHP,2027,909.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false
+Dodmedicare,USFHP,2029,942.0,Cost per Beneficiary (Dollars),54946-2019-05-DoDMedicare.xlsx,Table 1,false

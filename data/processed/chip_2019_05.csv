@@ -1,0 +1,133 @@
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
+Chip,Budget Authoritya,2019,21.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget Authoritya,2020,24.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget Authoritya,2021,25.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget Authoritya,2022,26.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget Authoritya,2023,26.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget Authoritya,2024,16.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget Authoritya,2025,16.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget Authoritya,2026,17.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget Authoritya,2027,18.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget Authoritya,2028,15.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget Authoritya,2029,15.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Outlays,2019,18.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Outlays,2020,16.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Outlays,2021,14.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Outlays,2022,14.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Outlays,2023,15.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Outlays,2024,16.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Outlays,2025,16.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Outlays,2026,17.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Outlays,2027,18.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Outlays,2028,18.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Outlays,2029,19.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Children,2019,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Children,2020,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Children,2021,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Children,2022,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Children,2023,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Children,2024,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Children,2025,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Children,2026,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Children,2027,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Children,2028,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Children,2029,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Adults,2019,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Adults,2020,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Adults,2021,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Adults,2022,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Adults,2023,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Adults,2024,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Adults,2025,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Adults,2026,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Adults,2027,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Adults,2028,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Adults,2029,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Total Enrollment,2019,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Enrollment,2020,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Enrollment,2021,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Enrollment,2022,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Enrollment,2023,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Enrollment,2024,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Enrollment,2025,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Enrollment,2026,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Enrollment,2027,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Enrollment,2028,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Enrollment,2029,7.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Benefit Payments per Enrollee (dollars)c,2019,2570.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Benefit Payments per Enrollee (dollars)c,2020,2370.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Benefit Payments per Enrollee (dollars)c,2021,2050.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Benefit Payments per Enrollee (dollars)c,2022,2090.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Benefit Payments per Enrollee (dollars)c,2023,2180.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Benefit Payments per Enrollee (dollars)c,2024,2270.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Benefit Payments per Enrollee (dollars)c,2025,2370.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Benefit Payments per Enrollee (dollars)c,2026,2470.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Benefit Payments per Enrollee (dollars)c,2027,2580.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Benefit Payments per Enrollee (dollars)c,2028,2640.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Benefit Payments per Enrollee (dollars)c,2029,2750.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,(Millions of people),2019,10.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,(Millions of people),2020,10.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,(Millions of people),2021,10.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,(Millions of people),2022,10.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,(Millions of people),2023,10.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,(Millions of people),2024,10.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,(Millions of people),2025,10.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,(Millions of people),2026,10.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,(Millions of people),2027,10.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,(Millions of people),2028,10.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,(Millions of people),2029,10.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,New budget authority,2019,23.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,New budget authority,2020,24.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,New budget authority,2021,25.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,New budget authority,2022,26.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,New budget authority,2023,26.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,New budget authority,2024,16.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,New budget authority,2025,16.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,New budget authority,2026,17.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,New budget authority,2027,18.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,New budget authority,2028,15.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,New budget authority,2029,15.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,State allotments,2019,19.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,State allotments,2020,20.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,State allotments,2021,15.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,State allotments,2022,16.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,State allotments,2023,16.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,State allotments,2024,16.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,State allotments,2025,16.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,State allotments,2026,17.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,State allotments,2027,18.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,State allotments,2028,15.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,State allotments,2029,15.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Prior-year funds still available,2019,5.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Prior-year funds still available,2020,6.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Prior-year funds still available,2021,10.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Prior-year funds still available,2022,10.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Prior-year funds still available,2023,11.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Prior-year funds still available,2024,12.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Prior-year funds still available,2025,12.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Prior-year funds still available,2026,12.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Prior-year funds still available,2027,12.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Prior-year funds still available,2028,12.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Prior-year funds still available,2029,9.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget authority rescissions,2019,-2.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget authority rescissions,2020,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget authority rescissions,2021,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget authority rescissions,2022,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget authority rescissions,2023,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget authority rescissions,2024,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget authority rescissions,2025,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget authority rescissions,2026,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget authority rescissions,2027,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget authority rescissions,2028,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Budget authority rescissions,2029,0.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,false
+Chip,Total Funding Available,2019,26.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Funding Available,2020,30.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Funding Available,2021,35.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Funding Available,2022,36.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Funding Available,2023,37.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Funding Available,2024,28.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Funding Available,2025,28.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Funding Available,2026,29.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Funding Available,2027,30.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Funding Available,2028,27.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true
+Chip,Total Funding Available,2029,24.0,Federal Funding (Billions of dollars),51296-2019-05-CHIP.xlsx,Table 1,true

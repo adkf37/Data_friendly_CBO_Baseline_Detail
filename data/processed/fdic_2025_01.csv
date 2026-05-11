@@ -1,0 +1,49 @@
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
+Fdic,Estimated Outlays,2023,91756.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Estimated Outlays,2024,37150.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Estimated Outlays,2025,-24136.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Estimated Outlays,2026,-22634.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Estimated Outlays,2027,-19019.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Estimated Outlays,2028,-95641.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Estimated Outlays,2029,-11573.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Estimated Outlays,2030,-12127.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Estimated Outlays,2031,-12692.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Estimated Outlays,2032,-13178.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Estimated Outlays,2034,-14727.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Estimated Outlays,2035,-15480.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Federal Financing Bank Transactionsa,2023,50000.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Federal Financing Bank Transactionsa,2024,43333.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Federal Financing Bank Transactionsa,2025,0.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Federal Financing Bank Transactionsa,2026,0.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Federal Financing Bank Transactionsa,2027,0.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Federal Financing Bank Transactionsa,2028,-85000.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Federal Financing Bank Transactionsa,2029,0.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Federal Financing Bank Transactionsa,2030,0.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Federal Financing Bank Transactionsa,2031,0.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Federal Financing Bank Transactionsa,2032,0.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Federal Financing Bank Transactionsa,2034,0.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Federal Financing Bank Transactionsa,2035,0.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Deposit Insurance Fund Outlaysb,2023,43917.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Deposit Insurance Fund Outlaysb,2024,-2464.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Deposit Insurance Fund Outlaysb,2025,-22511.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Deposit Insurance Fund Outlaysb,2026,-20049.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Deposit Insurance Fund Outlaysb,2027,-15870.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Deposit Insurance Fund Outlaysb,2028,-7056.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Deposit Insurance Fund Outlaysb,2029,-7674.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Deposit Insurance Fund Outlaysb,2030,-7896.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Deposit Insurance Fund Outlaysb,2031,-8113.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Deposit Insurance Fund Outlaysb,2032,-8231.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Deposit Insurance Fund Outlaysb,2034,-8981.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Deposit Insurance Fund Outlaysb,2035,-9316.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Interest on U.S. Treasury Securities,2023,-2161.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Interest on U.S. Treasury Securities,2024,-3719.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Interest on U.S. Treasury Securities,2025,-1625.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Interest on U.S. Treasury Securities,2026,-2585.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Interest on U.S. Treasury Securities,2027,-3149.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Interest on U.S. Treasury Securities,2028,-3585.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Interest on U.S. Treasury Securities,2029,-3899.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Interest on U.S. Treasury Securities,2030,-4231.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Interest on U.S. Treasury Securities,2031,-4579.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Interest on U.S. Treasury Securities,2032,-4947.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Interest on U.S. Treasury Securities,2034,-5746.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false
+Fdic,Interest on U.S. Treasury Securities,2035,-6164.0,"Millions of dollars, by fiscal year",60394-2025-01-fdic.xlsx,FDIC_01-2025,false

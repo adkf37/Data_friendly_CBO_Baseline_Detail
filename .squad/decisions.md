@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — task-04-schema build: generate_schemas.py
+
+**Decision:** Implement `src/generate_schemas.py` as the schema generator for task-04-schema. The script reads all CSVs in `data/processed/`, generates one Markdown schema document per CSV at `docs/schemas/<basename>.md`, and produces a master index at `docs/schemas/README.md`. The schema for each CSV includes: dataset purpose, source provenance (from `source_file`/`source_sheet` columns), a full column table (name, type, description, unit, example, notes), and an explicit `is_total` interpretation section explaining double-counting risks.
+**Rationale:** The column schema is fixed and known from `transform.OUTPUT_COLUMNS`; the only dataset-level metadata that varies between CSVs is the provenance (source files/sheets), the unit, and the fiscal-year coverage — all of which can be read directly from the CSV rows without re-reading the parse plan. This approach keeps the generator self-contained and ensures that schema files always reflect the actual transform output rather than the parse plan intent. The `is_total` section is included in every schema file to satisfy the acceptance criterion about downstream aggregation caveats.
+**Task:** task-04-schema
+
+---
+
 ### 2026-05-11 — Closeout returns the repo to Build for task-04-schema
 
 **Decision:** Close out `task-03-transform` and return the repo to **Build** for `task-04-schema`.

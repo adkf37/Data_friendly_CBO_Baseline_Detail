@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Phase | closeout-task-03-transform |
-| Next Action | Build |
+| Phase | build-task-04-schema |
+| Next Action | Validate |
 | Last Updated | 2026-05-11 |
 | Squad Template | data_pipeline |
 | Priority | low |
@@ -12,10 +12,11 @@
 
 ## Current Objective
 
-Close out **Task ID: `task-03-transform`** by recording the final transform evidence for all three ordered slices and handing the repo back to **Build** for **`task-04-schema`**.
+Advance **Task ID: `task-04-schema`** — schema document generation for all processed CBO baseline CSVs.
 
 ## Recent Activity
 
+- 2026-05-11: Build advanced for **Task ID: `task-04-schema`** — implemented `src/generate_schemas.py`, which reads every CSV in `data/processed/`, generates a Markdown schema document at `docs/schemas/<basename>.md` (columns, provenance, `is_total` caveats), and writes a master index at `docs/schemas/README.md`. Ran the generator to produce 177 schema files with 1:1 coverage of all processed CSVs. Added 9 unit tests in `tests/test_generate_schemas.py`; full suite now passes 22 tests. Routed to Validate.
 - 2026-05-11: Closeout completed for **Task ID: `task-03-transform`** — independently rechecked `backlog/tasks/task-03-transform.md`, the sprint order, the latest validation evidence, a fresh `python -m unittest discover -s tests -v` run, `python src/transform.py --help`, a real `python src/transform.py --slice remaining-programs --output-dir /tmp/cbo_closeout_remaining` run, and a follow-up output audit. Confirmed the final remaining-programs slice satisfies the transform acceptance criteria (`remaining_plan_entries=120`, `datasets_written=73`, `missing_entries=0`, `datasets_with_duplicates=0`, `implausible_year_rows=0`), which closes out all three ordered transform slices and returns the repo to **Build** for `task-04-schema`.
 - 2026-05-11: Validate passed for **Task ID: `task-03-transform`** (remaining-programs slice) — reran dependency install, full unittest suite, repo-root CLI smoke check, a real `python src/transform.py --slice remaining-programs --output-dir /tmp/cbo_transform_validate_remaining` run, and an output-integrity audit. Validation caught and fixed an over-broad `"nutrition"` health keyword so `child_nutrition*` datasets route into the remaining-programs slice. After the fix, all 120 included remaining-programs parse-plan entries were accounted for via CSV output or explicit parse-error logging, 73 datasets were written with the required headers, duplicate keys remained at 0, and `implausible_year_rows=0`. Routed to Closeout.
 - 2026-05-11: Build advanced for **Task ID: `task-03-transform`** (remaining-programs slice) — added `remaining-programs` to `SLICE_CHOICES` and extended `_in_slice` in `src/transform.py` so the new slice selects all included parse-plan datasets that are not matched by health or income-security keywords. Added regression test `test_run_transform_remaining_programs_slice_excludes_health_and_income_security`. Full unittest suite passes 12 tests. Routed to Validate.
@@ -26,9 +27,8 @@ Close out **Task ID: `task-03-transform`** by recording the final transform evid
 
 ## Remaining Follow-up
 
-- **Next task:** **`task-04-schema`** is the next ordered automated work in `.squad/sprint.md`.
-- Known parser-improvement follow-up: 14 health-slice parse errors, 37 income-security parse errors, and 39 remaining-programs parse errors remain surfaced explicitly in `parse_errors.log`; these should guide later parser-improvement work but do not block transform closeout.
-- Verification and pipeline handoff remain downstream after schema generation, with `task-05-verify` and `task-06-pipeline` still pending.
+- **Next task:** **`task-04-schema`** requires Validate — run the schema integrity check (1:1 CSV/schema mapping assertion, required sections check) before proceeding.
+- Known parser-improvement follow-up: 14 health-slice parse errors, 37 income-security parse errors, and 39 remaining-programs parse errors remain surfaced explicitly in `parse_errors.log`; these should guide later parser-improvement work but do not block schema or verification closeout.
 
 ## Artifacts
 
@@ -38,14 +38,18 @@ Close out **Task ID: `task-03-transform`** by recording the final transform evid
 | FEEDBACK.md | `./FEEDBACK.md` | created |
 | Backlog README | `./backlog/README.md` | created |
 | Task: Transform | `./backlog/tasks/task-03-transform.md` | closed out |
+| Task: Schema | `./backlog/tasks/task-04-schema.md` | in progress |
 | Parse plan | `./config/workbook_parse_plan.yaml` | created |
 | Validation report | `./.squad/validation_report.md` | updated for remaining-programs Validate evidence |
 | Review report | `./.squad/review_report.md` | updated for final task-03-transform Closeout decision |
-| Squad decisions | `./.squad/decisions.md` | updated with final task-03-transform Closeout handoff |
+| Squad decisions | `./.squad/decisions.md` | updated with task-04-schema build decision |
 | Root README | `./README.md` | updated for task-03-transform handoff to task-04-schema |
-| Transform implementation | `./src/transform.py` | updated (remaining-programs slice added) |
-| Transform tests | `./tests/test_transform.py` | updated (remaining-programs regression test added) |
-| Processed outputs | `./data/processed/` | slice outputs validated in `/tmp/cbo_transform_validate_remaining` during Validate |
+| Transform implementation | `./src/transform.py` | complete (all slices) |
+| Schema generator | `./src/generate_schemas.py` | created |
+| Transform tests | `./tests/test_transform.py` | complete |
+| Schema tests | `./tests/test_generate_schemas.py` | created |
+| Processed outputs | `./data/processed/` | 177 CSVs generated |
+| Schema docs | `./docs/schemas/` | 177 schema files + README.md index |
 
 ## Needs Human Input
 

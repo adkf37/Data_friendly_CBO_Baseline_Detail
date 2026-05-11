@@ -1,0 +1,56 @@
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
+Medicaid,Estimated Outlaysa,2021,521.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Estimated Outlaysa,2022,589.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Estimated Outlaysa,2023,601.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Estimated Outlaysa,2024,545.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Estimated Outlaysa,2025,547.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Estimated Outlaysa,2026,578.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Estimated Outlaysa,2027,608.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Estimated Outlaysa,2028,639.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Estimated Outlaysa,2029,672.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Estimated Outlaysa,2031,749.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Estimated Outlaysa,2032,789.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Disproportionate Share Hospitals,2021,10.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Disproportionate Share Hospitals,2022,11.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Disproportionate Share Hospitals,2023,11.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Disproportionate Share Hospitals,2024,7.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Disproportionate Share Hospitals,2025,7.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Disproportionate Share Hospitals,2026,8.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Disproportionate Share Hospitals,2027,8.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Disproportionate Share Hospitals,2028,9.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Disproportionate Share Hospitals,2029,11.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Disproportionate Share Hospitals,2031,14.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Disproportionate Share Hospitals,2032,14.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Vaccines for Children,2021,5.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Vaccines for Children,2022,6.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Vaccines for Children,2023,6.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Vaccines for Children,2024,6.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Vaccines for Children,2025,7.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Vaccines for Children,2026,7.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Vaccines for Children,2027,7.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Vaccines for Children,2028,8.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Vaccines for Children,2029,8.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Vaccines for Children,2031,9.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Vaccines for Children,2032,10.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Administration,2021,20.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Administration,2022,21.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Administration,2023,22.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Administration,2024,22.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Administration,2025,23.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Administration,2026,23.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Administration,2027,24.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Administration,2028,25.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Administration,2029,26.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Administration,2031,29.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Administration,2032,30.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,false
+Medicaid,Total Enrolled Within a Fiscal Year,2021,102.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,true
+Medicaid,Total Enrolled Within a Fiscal Year,2022,106.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,true
+Medicaid,Total Enrolled Within a Fiscal Year,2023,104.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,true
+Medicaid,Total Enrolled Within a Fiscal Year,2024,95.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,true
+Medicaid,Total Enrolled Within a Fiscal Year,2025,89.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,true
+Medicaid,Total Enrolled Within a Fiscal Year,2026,90.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,true
+Medicaid,Total Enrolled Within a Fiscal Year,2027,90.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,true
+Medicaid,Total Enrolled Within a Fiscal Year,2028,90.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,true
+Medicaid,Total Enrolled Within a Fiscal Year,2029,90.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,true
+Medicaid,Total Enrolled Within a Fiscal Year,2031,92.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,true
+Medicaid,Total Enrolled Within a Fiscal Year,2032,92.0,"By Fiscal Year, Billions of Dollars",51301-2022-05-medicaid.xlsx,Medicaid_05-2022,true
