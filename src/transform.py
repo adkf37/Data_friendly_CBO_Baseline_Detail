@@ -108,19 +108,24 @@ def _infer_first_data_row(worksheet, plan: SheetPlan) -> int | None:
             continue
         if _looks_like_note(category):
             continue
-        has_value = any(_parse_number(worksheet.cell(row=row, column=col).value) is not None for col in plan.year_columns)
+        parsed_values = [_parse_number(worksheet.cell(row=row, column=col).value) for col in plan.year_columns]
+        has_value = any(value is not None for value in parsed_values)
         if has_value:
             return row
         if first_year_column > 2:
             fallback_category = _to_text(worksheet.cell(row=row, column=2).value)
-            if fallback_category and any(
-                _parse_number(worksheet.cell(row=row, column=col).value) is not None for col in plan.year_columns
-            ):
+            if fallback_category and has_value:
                 return row
     return None
 
 
 def _infer_program_name(filename: str) -> str:
+    """Infer a display program name from CBO workbook filenames.
+
+    Typical filenames follow `<id>-<year>-<month>-<program>.xlsx`, e.g.
+    `51293-2024-06-childnutrition.xlsx`. If this shape is not present, the
+    entire stem is used.
+    """
     stem = Path(filename).stem.replace("_", "-")
     parts = stem.split("-")
     if len(parts) >= 4:

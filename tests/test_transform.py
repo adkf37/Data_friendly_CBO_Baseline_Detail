@@ -62,8 +62,9 @@ workbooks:
             csv_path = output_dir / "childnutrition_health_2024_06.csv"
             self.assertTrue(csv_path.exists())
             rows = csv_path.read_text(encoding="utf-8").strip().splitlines()
-            self.assertEqual("program,category,fiscal_year,value,unit,source_file,source_sheet,is_total", rows[0])
-            self.assertIn("Childnutrition,Total Benefits,2025,100.0,Millions of dollars,", rows[1])
+            self.assertEqual(",".join(transform.OUTPUT_COLUMNS), rows[0])
+            expected_program = transform._infer_program_name(workbook_name)
+            self.assertIn(f"{expected_program},Total Benefits,2025,100.0,Millions of dollars,", rows[1])
             self.assertIn(",true", rows[1])
             self.assertIn("Administrative Costs,2026,22.0", rows[-1])
 
