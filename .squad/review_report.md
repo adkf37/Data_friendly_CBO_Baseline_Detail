@@ -2,11 +2,11 @@
 
 **Date:** 2026-05-11  
 **Phase:** Closeout  
-**Scope Reviewed:** `task-03-transform` (income-security slice)
+**Scope Reviewed:** `task-03-transform` (final closeout after remaining-programs slice)
 
 ## Final Decision
 
-**Return to Build — `task-03-transform`**
+**Return to Build — `task-04-schema`**
 
 ## Evidence Checked
 
@@ -17,27 +17,27 @@
   - `python -m pip install -r requirements.txt`
   - `python -m unittest discover -s tests -v`
   - `python src/transform.py --help`
-  - `python src/transform.py --slice income-security --output-dir /tmp/cbo_closeout_income`
-- Manual integrity audit of `/tmp/cbo_closeout_income` confirming:
-  - `income_plan_entries=118`
-  - `datasets_written=72`
-  - `parse_errors=37`
+  - `python src/transform.py --slice remaining-programs --output-dir /tmp/cbo_closeout_remaining`
+- Manual integrity audit of `/tmp/cbo_closeout_remaining` confirming:
+  - `remaining_plan_entries=120`
+  - `datasets_written=73`
+  - `parse_errors=39`
   - `missing_entries=0`
   - `empty_csvs=0`
   - `bad_headers=0`
+  - `wide_header_files=0`
   - `datasets_with_duplicates=0`
   - `implausible_year_rows=0`
   - `non_boolean_is_total_rows=0`
 
 ## Review Summary
 
-The `task-03-transform` income-security slice is complete for this loop. Closeout re-confirmed the Validate findings independently: the repository-root CLI is runnable, the full unittest suite passes, the real income-security transform writes 72 non-empty CSVs with the required columns, no successful dataset remains in wide format, duplicate output keys remain at zero, and the output audit confirms `implausible_year_rows=0`. The slice also satisfies the acceptance requirement that every included income-security parse-plan entry is accounted for by either a CSV output or an explicit parse-error entry (`missing_entries=0`).
+`task-03-transform` is complete for this loop. Closeout re-confirmed the latest Validate findings independently: the repository-root CLI is runnable, the full unittest suite passes, and the real remaining-programs transform writes 73 non-empty CSVs with the required columns while surfacing 39 explicit parse errors by design. The output audit confirms that every included remaining-programs parse-plan entry is accounted for by either a CSV output or an explicit parse-error entry (`missing_entries=0`), no successful dataset remains in wide format, duplicate output keys remain at zero, and `implausible_year_rows=0`.
 
-The project is not ready for a `Complete` decision because the sprint intentionally breaks `task-03-transform` into multiple ordered slices. The next explicit automated work is to continue **`task-03-transform`** with the remaining-programs slice before downstream schema, verification, and pipeline tasks can finish.
+Because the health, income-security, and remaining-programs slices now all have build/validate/closeout evidence, the transform task is ready to hand off downstream. The project is not ready for a `Complete` decision because schema generation, verification, and pipeline orchestration are still unfinished. Per `.squad/sprint.md`, the next explicit automated work is **`task-04-schema`**.
 
 ## Known Risks / Follow-up
 
-- The real income-security run still exits non-zero with 37 explicit parse errors recorded in `parse_errors.log`. These are documented follow-up items rather than a closeout blocker for this slice.
-- The earlier health slice still carries 14 explicit parse errors in `data/processed/parse_errors.log`; both sets of parser gaps should inform the remaining-programs implementation.
-- Downstream schema, verification, and pipeline work remain incomplete and still depend on finishing transform coverage first.
-- Because the next sprint item is another slice of the same task, Build should clearly treat the follow-up as the remaining-programs slice of `task-03-transform` to avoid reopening already closed health and income-security acceptance questions.
+- Real transform runs still surface explicit parse errors: 14 for the health slice, 37 for the income-security slice, and 39 for the remaining-programs slice. These are documented follow-up items rather than a closeout blocker because every included sheet is still accounted for.
+- `task-04-schema`, `task-05-verify`, and `task-06-pipeline` remain incomplete, so the repo is not yet ready for a final `Complete` decision.
+- Schema work should preserve the current stable dataset names and provenance columns established by `task-03-transform`.
