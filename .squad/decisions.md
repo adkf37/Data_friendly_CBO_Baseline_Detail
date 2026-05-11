@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — Validate advances task-04-schema to Closeout
+
+**Decision:** Advance `task-04-schema` from Validate to Closeout.
+**Rationale:** Validation reran the declared dependency install, the full unittest suite, a repo-root CLI smoke check for `python src/generate_schemas.py --help`, a real schema-generation run to `/tmp/cbo_schema_validate`, a 1:1 CSV/schema coverage audit, and a reproducibility diff against the checked-in `docs/schemas/` tree. The current build passed 22 tests, generated 177 schema docs for 177 processed CSVs with zero missing sections or README links, preserved provenance and `is_total` double-counting guidance in every schema, and reproduced the committed schema docs without drift, so the task meets its acceptance criteria and should advance to Closeout.
+**Task:** task-04-schema
+
+---
+
 ### 2026-05-11 — task-04-schema build: generate_schemas.py
 
 **Decision:** Implement `src/generate_schemas.py` as the schema generator for task-04-schema. The script reads all CSVs in `data/processed/`, generates one Markdown schema document per CSV at `docs/schemas/<basename>.md`, and produces a master index at `docs/schemas/README.md`. The schema for each CSV includes: dataset purpose, source provenance (from `source_file`/`source_sheet` columns), a full column table (name, type, description, unit, example, notes), and an explicit `is_total` interpretation section explaining double-counting risks.
