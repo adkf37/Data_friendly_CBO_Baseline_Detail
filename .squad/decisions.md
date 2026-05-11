@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — task-03-transform health slice parser baseline
+
+**Decision:** Implement a first-pass `src/transform.py` pipeline that consumes `config/workbook_parse_plan.yaml`, filters to the health slice, reshapes year columns into long-form rows, writes UTF-8 CSV outputs by `output_dataset`, and records failures in `data/processed/parse_errors.log`.
+**Rationale:** This advances the first ordered transform slice with a minimal but test-backed parser foundation that preserves provenance columns and surfaces failures explicitly for validation. Keeping health as the default slice matches the sprint order while still allowing an `--slice all` path for broader runs.
+**Task:** task-03-transform
+
+---
+
 ### 2026-05-08 — Squad Init complete (squad-init phase)
 
 **Decision:** Team composition set to Lead, Data Engineer, Tester, Scribe. Ralph retired.
