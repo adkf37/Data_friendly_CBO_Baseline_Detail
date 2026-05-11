@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — Validate advances task-03-transform health slice to Closeout
+
+**Decision:** Advance the `task-03-transform` health slice from Validate to Closeout.
+**Rationale:** Validation reran the declared dependency install, full unittest suite, repo-root CLI smoke check, a real `python src/transform.py --slice health --output-dir /tmp/cbo_transform_validate` run, and a follow-up integrity review of the generated CSVs. The integrity review used the plausible-year range already documented by the latest build decision (`PLAUSIBLE_YEAR_MIN = 2019`, `PLAUSIBLE_YEAR_MAX = 2040`) so the acceptance check matches the implemented parser behavior. The latest build now passes 9 tests, accounts for all 71 included health-sheet parse-plan entries via either CSV output or explicit parse-error logging, writes 38 non-empty datasets with the required headers, eliminates duplicate output keys, and reduces implausible fiscal-year rows to zero. The remaining 14 parse errors are surfaced explicitly in `parse_errors.log`, which satisfies the slice acceptance criteria while leaving a documented parser-improvement follow-up for later work.
+**Task:** task-03-transform
+
+---
+
 ### 2026-05-11 — task-03-transform plausible-year range filter
 
 **Decision:** Add `PLAUSIBLE_YEAR_MIN = 2019` and `PLAUSIBLE_YEAR_MAX = 2040` constants to `src/transform.py` and use them in `_extract_years` to silently skip any year column whose header year falls outside the plausible range. A column where the first matched header year is implausible (e.g., 2018 for a "prior-year actual" column in a 2019-05 CBO workbook) is dropped rather than included in the output.
