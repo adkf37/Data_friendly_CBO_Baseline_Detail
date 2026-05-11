@@ -20,6 +20,8 @@ from openpyxl import load_workbook
 YEAR_RE = re.compile(r"(19|20)\d{2}")
 NUMBER_RE = re.compile(r"^\(?[$]?\s*[-+]?\d[\d,]*(?:\.\d+)?\)?$")
 HEALTH_KEYWORDS = ("health", "medicare", "medicaid", "chip", "nutrition")
+PLAUSIBLE_YEAR_MIN = 2019
+PLAUSIBLE_YEAR_MAX = 2040
 
 OUTPUT_COLUMNS = [
     "program",
@@ -92,7 +94,9 @@ def _extract_years(worksheet, plan: SheetPlan) -> dict[int, int]:
             cell_text = _to_text(worksheet.cell(row=row, column=column).value)
             match = YEAR_RE.search(cell_text)
             if match:
-                years[column] = int(match.group(0))
+                year = int(match.group(0))
+                if PLAUSIBLE_YEAR_MIN <= year <= PLAUSIBLE_YEAR_MAX:
+                    years[column] = year
                 break
     return years
 
