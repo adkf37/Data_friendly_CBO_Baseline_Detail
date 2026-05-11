@@ -7,7 +7,7 @@ This repository is building a reproducible pipeline that turns the Congressional
 - `task-01-download` is implemented, validated, and closed out.
 - `task-02-inspect` and `task-02b-parse-plan` are implemented and complete.
 - `task-03-transform` health slice is implemented, validated, and closed out with `src/transform.py` plus `tests/test_transform.py`.
-- The next build slice is the income security slice of `task-03-transform`.
+- `src/transform.py` now supports `--slice income-security`, and that second `task-03-transform` slice is ready for validation.
 - The full end-to-end pipeline (`run_pipeline.py`, transforms, schemas, verification) is still in progress.
 
 ## What Works Today
@@ -28,6 +28,7 @@ Expected current outputs:
 - workbook profile report in `docs/inspection_report.md`
 - machine-readable parse plan in `config/workbook_parse_plan.yaml`
 - health-slice CSV outputs in `data/processed/`
+- income-security smoke outputs via `python src/transform.py --slice income-security --output-dir /tmp/cbo_transform_income`
 - explicit transform failures in `data/processed/parse_errors.log`
 
 ## Validation Snapshot
@@ -37,6 +38,7 @@ Expected current outputs:
 - `python src/inspect.py --help` runs from the repository root
 - `python src/transform.py --help` runs from the repository root
 - the validated health-slice transform writes 38 non-empty CSVs with required headers and `implausible_year_rows=0`
+- the income-security slice smoke run writes 72 CSVs and surfaces 37 explicit parse errors for follow-up validation
 - the real health-slice transform still logs 14 explicit parse errors, preserved as follow-up risk in `.squad/validation_report.md`
 
 ## Planned Build Order

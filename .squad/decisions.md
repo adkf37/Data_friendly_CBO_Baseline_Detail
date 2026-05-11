@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — task-03-transform income-security slice routing
+
+**Decision:** Extend `src/transform.py` with an explicit `income-security` slice that filters parse-plan entries by income-security dataset keywords, and expose it through the CLI as `python src/transform.py --slice income-security`.
+**Rationale:** The sprint's next unfinished build item after the closed health slice is `task-03-transform` for income security, but the transform entrypoint could previously target only `health` or `all`. Adding a dedicated income-security slice is the smallest implementation step that lets Validate exercise the second ordered transform slice separately from health and remaining-program datasets. The new regression test confirms the routing boundary directly, and a real smoke run over checked-in workbooks shows the slice now produces 72 income-security CSVs while preserving 37 explicit parse errors for follow-up review.
+**Task:** task-03-transform
+
+---
+
 ### 2026-05-11 — Closeout returns task-03-transform to Build for the next slice
 
 **Decision:** Close out the `task-03-transform` health slice and return the repo to **Build** for the next ordered `task-03-transform` slice.

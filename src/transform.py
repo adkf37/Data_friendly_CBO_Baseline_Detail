@@ -20,6 +20,27 @@ from openpyxl import load_workbook
 YEAR_RE = re.compile(r"(19|20)\d{2}")
 NUMBER_RE = re.compile(r"^\(?[$]?\s*[-+]?\d[\d,]*(?:\.\d+)?\)?$")
 HEALTH_KEYWORDS = ("health", "medicare", "medicaid", "chip", "nutrition")
+INCOME_SECURITY_KEYWORDS = (
+    "child_support",
+    "childsupport",
+    "csec",
+    "foster_care",
+    "fostercare",
+    "military_retirement",
+    "militaryretirement",
+    "snap",
+    "social_security",
+    "socialsecurity",
+    "ssi",
+    "student_loan",
+    "studentloan",
+    "tanf",
+    "unemployment",
+)
+SLICE_KEYWORDS = {
+    "health": HEALTH_KEYWORDS,
+    "income-security": INCOME_SECURITY_KEYWORDS,
+}
 PLAUSIBLE_YEAR_MIN = 2019
 PLAUSIBLE_YEAR_MAX = 2040
 
@@ -153,12 +174,12 @@ def _read_plan(path: Path) -> list[SheetPlan]:
 
 
 def _in_slice(plan: SheetPlan, slice_name: str) -> bool:
+    slice_name = slice_name.replace("_", "-").lower()
     if slice_name == "all":
         return True
-    if slice_name == "health":
-        dataset = plan.output_dataset.lower()
-        return any(keyword in dataset for keyword in HEALTH_KEYWORDS)
-    return False
+    dataset = plan.output_dataset.lower()
+    keywords = SLICE_KEYWORDS.get(slice_name, ())
+    return any(keyword in dataset for keyword in keywords)
 
 
 def _write_dataset(path: Path, rows: list[dict]) -> None:
@@ -272,7 +293,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--parse-plan", type=Path, default=Path("config/workbook_parse_plan.yaml"))
     parser.add_argument("--input-dir", type=Path, default=Path("data/raw"))
     parser.add_argument("--output-dir", type=Path, default=Path("data/processed"))
-    parser.add_argument("--slice", dest="slice_name", choices=["health", "all"], default="health")
+    parser.add_argument("--slice", dest="slice_name", choices=["health", "income-security", "all"], default="health")
     return parser.parse_args()
 
 
