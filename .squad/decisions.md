@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — Validate returns task-03-transform health slice to Build
+
+**Decision:** Do not advance the `task-03-transform` health slice past Validate; return it to **Build** for parser corrections.
+**Rationale:** The transform entrypoint is runnable and the unittest suite passes, but a real run against the checked-in health workbooks still exits non-zero with 14 explicit parse failures. More importantly, successful CSV outputs include implausible fiscal years (for example `1920`, `1950`, and `2096` in `child_nutrition_2019_05.csv`) and undocumented duplicate `(program, category, fiscal_year, unit, source_sheet)` keys across 25 datasets, so the slice does not yet satisfy the transform acceptance criteria.
+**Task:** task-03-transform
+
+---
+
 ### 2026-05-11 — task-03-transform health slice parser baseline
 
 **Decision:** Implement a first-pass `src/transform.py` pipeline that consumes `config/workbook_parse_plan.yaml`, filters to the health slice, reshapes year columns into long-form rows, writes UTF-8 CSV outputs by `output_dataset`, and records failures in `data/processed/parse_errors.log`.
