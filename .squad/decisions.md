@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — Closeout returns task-03-transform to Build for the remaining-programs slice
+
+**Decision:** Close out the `task-03-transform` income-security slice and return the repo to **Build** for the next ordered remaining-programs slice of `task-03-transform`.
+**Rationale:** Closeout rechecked the task definition, sprint order, latest validation report, fresh local `python -m unittest discover -s tests -v` and `python src/transform.py --help` results, a real `python src/transform.py --slice income-security --output-dir /tmp/cbo_closeout_income` run, and a follow-up integrity audit of the generated CSVs. The income-security slice now satisfies its acceptance criteria: all 118 included parse-plan entries were accounted for by either CSV output or explicit parse-error logging, 72 datasets were written with the required headers, duplicate keys stayed at zero, and implausible fiscal-year rows remained at zero. The remaining 37 parse errors are explicit parser-improvement follow-up, not a blocker, so the correct handoff is to continue the next ordered transform slice rather than reopen this closeout loop.
+**Task:** task-03-transform
+
+---
+
 ### 2026-05-11 — Validate advances task-03-transform income-security slice to Closeout
 
 **Decision:** Advance the `task-03-transform` income-security slice from Validate to Closeout.
