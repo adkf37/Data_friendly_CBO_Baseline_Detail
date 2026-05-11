@@ -68,7 +68,7 @@ def _write_processed_csv(path: Path, workbook: str, sheet: str, values: list[tup
 
 
 class VerifyTests(unittest.TestCase):
-    def test_run_verification_reports_pass_and_fail_and_returns_nonzero(self):
+    def test_verification_returns_nonzero_on_failure(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)
             raw_dir = root / "raw"
@@ -144,7 +144,7 @@ workbooks:
             self.assertIn("Status: **FAIL**", report)
             self.assertIn("| 2026 | 61.000000 | 999.000000", report)
 
-    def test_run_verification_include_totals_override_changes_result(self):
+    def test_verification_include_totals_affects_pass_fail_status(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)
             raw_dir = root / "raw"

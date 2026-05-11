@@ -22,6 +22,8 @@ RELATIVE_TOLERANCE = 0.0001  # 0.01%
 
 @dataclass(frozen=True)
 class VerificationPlan:
+    """Parse-plan fields required to verify one included workbook sheet target."""
+
     workbook: str
     sheet: str
     include: bool
@@ -82,6 +84,15 @@ def _read_plan(parse_plan_path: Path) -> list[VerificationPlan]:
 
 
 def _absolute_tolerance_for_unit(unit: str) -> float:
+    """Return unit-aware absolute tolerance used with 0.01% relative tolerance.
+
+    Thresholds are set so larger-scale units can absorb spreadsheet rounding:
+    - billions: 0.001 (one-million-dollar scale)
+    - millions: 0.01
+    - thousands: 1.0
+    - percent/share/rate: 0.001
+    """
+
     lowered = unit.lower()
     if "billion" in lowered:
         return 0.001
