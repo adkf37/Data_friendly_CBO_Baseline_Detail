@@ -1,0 +1,51 @@
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
+Ssi,Total Estimated Outlays,2025,64.9,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,true
+Ssi,Total Estimated Outlays,2026,66.6,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,true
+Ssi,Total Estimated Outlays,2027,68.6,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,true
+Ssi,Total Estimated Outlays,2028,76.4,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,true
+Ssi,Total Estimated Outlays,2029,67.2,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,true
+Ssi,Total Estimated Outlays,2030,75.1,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,true
+Ssi,Total Estimated Outlays,2031,77.4,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,true
+Ssi,Total Estimated Outlays,2032,79.7,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,true
+Ssi,Total Estimated Outlays,2034,84.6,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,true
+Ssi,Total Estimated Outlays,2035,80.1,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,true
+Ssi,Average Monthly Benefit Per Beneficiary (Dollars),2025,732.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Benefit Per Beneficiary (Dollars),2026,747.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Benefit Per Beneficiary (Dollars),2027,763.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Benefit Per Beneficiary (Dollars),2028,780.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Benefit Per Beneficiary (Dollars),2029,798.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Benefit Per Beneficiary (Dollars),2030,814.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Benefit Per Beneficiary (Dollars),2031,832.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Benefit Per Beneficiary (Dollars),2032,851.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Benefit Per Beneficiary (Dollars),2034,890.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Benefit Per Beneficiary (Dollars),2035,909.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Beneficiaries (Thousands of people),2025,7271.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Beneficiaries (Thousands of people),2026,7318.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Beneficiaries (Thousands of people),2027,7377.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Beneficiaries (Thousands of people),2028,7441.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Beneficiaries (Thousands of people),2029,7503.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Beneficiaries (Thousands of people),2030,7564.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Beneficiaries (Thousands of people),2031,7627.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Beneficiaries (Thousands of people),2032,7683.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Beneficiaries (Thousands of people),2034,7795.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Average Monthly Beneficiaries (Thousands of people),2035,7849.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,"Maximum Monthly Benefit (Individual, by calendar year)",2025,967.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,"Maximum Monthly Benefit (Individual, by calendar year)",2026,990.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,"Maximum Monthly Benefit (Individual, by calendar year)",2027,1015.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,"Maximum Monthly Benefit (Individual, by calendar year)",2028,1038.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,"Maximum Monthly Benefit (Individual, by calendar year)",2029,1062.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,"Maximum Monthly Benefit (Individual, by calendar year)",2030,1085.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,"Maximum Monthly Benefit (Individual, by calendar year)",2031,1109.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,"Maximum Monthly Benefit (Individual, by calendar year)",2032,1133.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,"Maximum Monthly Benefit (Individual, by calendar year)",2034,1184.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,"Maximum Monthly Benefit (Individual, by calendar year)",2035,1210.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Number of Payments (By fiscal year)a,2025,12.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Number of Payments (By fiscal year)a,2026,12.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Number of Payments (By fiscal year)a,2027,12.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Number of Payments (By fiscal year)a,2028,13.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Number of Payments (By fiscal year)a,2029,11.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Number of Payments (By fiscal year)a,2030,12.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Number of Payments (By fiscal year)a,2031,12.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Number of Payments (By fiscal year)a,2032,12.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Number of Payments (By fiscal year)a,2034,12.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false
+Ssi,Number of Payments (By fiscal year)a,2035,11.0,"Billions of dollars, by fiscal year",51313-2025-01-ssi.xlsx,SSI_01-2025,false

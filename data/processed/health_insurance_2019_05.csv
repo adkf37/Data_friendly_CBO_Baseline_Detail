@@ -1,0 +1,919 @@
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
+Health Insurance,Total Population Under Age 65,2019,272.611306,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Total Population Under Age 65,2020,272.963227,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Total Population Under Age 65,2021,273.392321,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Total Population Under Age 65,2022,273.8118,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Total Population Under Age 65,2023,274.217522,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Total Population Under Age 65,2024,274.721256,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Total Population Under Age 65,2025,275.181939,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Total Population Under Age 65,2026,275.559702,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Total Population Under Age 65,2027,276.011327,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Total Population Under Age 65,2028,276.498465,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Total Population Under Age 65,2029,277.039089,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Employment-Based Coverage,2019,158.85139498409808,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Employment-Based Coverage,2020,158.73712594550565,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Employment-Based Coverage,2021,158.37718269669773,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Employment-Based Coverage,2022,158.2783405311059,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Employment-Based Coverage,2023,158.06192240356282,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Employment-Based Coverage,2024,157.96175281224535,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Employment-Based Coverage,2025,157.73004508570904,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Employment-Based Coverage,2026,157.8709114642673,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Employment-Based Coverage,2027,157.8835394840483,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Employment-Based Coverage,2028,158.10908725253248,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Employment-Based Coverage,2029,158.16963251905932,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Blind and Disabled,2019,7.03,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Blind and Disabled,2020,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Blind and Disabled,2021,6.99,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Blind and Disabled,2022,7.01,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Blind and Disabled,2023,7.04,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Blind and Disabled,2024,7.08,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Blind and Disabled,2025,7.14,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Blind and Disabled,2026,7.19,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Blind and Disabled,2027,7.26,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Blind and Disabled,2028,7.33,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Blind and Disabled,2029,7.4,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Children,2019,29.84,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Children,2020,29.59,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Children,2021,29.7,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Children,2022,29.92,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Children,2023,30.07,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Children,2024,30.14,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Children,2025,30.18,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Children,2026,30.2,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Children,2027,30.22,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Children,2028,30.25,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Children,2029,30.28,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2019,11.96,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2020,12.09,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2021,12.39,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2022,12.79,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2023,13.12,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2024,13.39,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2025,13.61,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2026,13.79,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2027,13.91,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2028,14.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2029,14.08,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Otherwise eligible for Medicaid,2019,12.58,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Otherwise eligible for Medicaid,2020,12.44,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Otherwise eligible for Medicaid,2021,12.42,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Otherwise eligible for Medicaid,2022,12.48,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Otherwise eligible for Medicaid,2023,12.52,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Otherwise eligible for Medicaid,2024,12.54,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Otherwise eligible for Medicaid,2025,12.58,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Otherwise eligible for Medicaid,2026,12.61,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Otherwise eligible for Medicaid,2027,12.63,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Otherwise eligible for Medicaid,2028,12.63,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Otherwise eligible for Medicaid,2029,12.63,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,CHIP,2019,6.987778097356189,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,CHIP,2020,6.929103926959699,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,CHIP,2021,6.895531079144609,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,CHIP,2022,6.889261239679753,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,CHIP,2023,6.887691653567511,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,CHIP,2024,6.899219883902938,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,CHIP,2025,6.903546730446964,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,CHIP,2026,6.905810982503455,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,CHIP,2027,6.912527511890428,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,CHIP,2028,6.9301692156899355,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,CHIP,2029,6.947855943500185,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Subtotal,2019,68.39777809735618,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Subtotal,2020,68.0491039269597,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Subtotal,2021,68.3955310791446,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Subtotal,2022,69.08926123967976,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Subtotal,2023,69.63769165356752,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Subtotal,2024,70.04921988390294,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Subtotal,2025,70.41354673044697,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Subtotal,2026,70.69581098250346,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Subtotal,2027,70.93252751189043,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Subtotal,2028,71.14016921568992,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Subtotal,2029,71.33785594350019,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,true
+Health Insurance,Subsidized,2019,8.09568580766536,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Subsidized,2020,7.7194507258262774,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Subsidized,2021,7.171534178099607,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Subsidized,2022,6.974103055795799,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Subsidized,2023,6.8421361766096656,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Subsidized,2024,6.6817868563152665,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Subsidized,2025,6.637739270030255,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Subsidized,2026,6.439911636099074,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Subsidized,2027,6.20572931278116,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Subsidized,2028,6.08225042756676,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Subsidized,2029,6.006829201508282,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Unsubsidized,2019,1.2374860779398684,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Unsubsidized,2020,0.95368573614964,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Unsubsidized,2021,0.982431791476259,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Unsubsidized,2022,0.9620397882118854,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Unsubsidized,2023,0.9597972168054584,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Unsubsidized,2024,0.9464575252663632,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Unsubsidized,2025,0.9972760049407507,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Unsubsidized,2026,0.9475253772405772,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Unsubsidized,2027,0.9522533827971591,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Unsubsidized,2028,0.9463609928439705,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Unsubsidized,2029,0.9556752837951403,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2019,4.808551847258087,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2020,4.653606947948661,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2021,4.349878619194177,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2022,4.249986825100686,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2023,4.303991645315287,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2024,4.362944851126021,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2025,4.462923221232568,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2026,4.415751850964717,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2027,4.4387357929431985,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2028,4.349151018151895,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2029,4.394599446433952,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Coverage through the Basic Health Programc,2019,0.8712760399999999,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Coverage through the Basic Health Programc,2020,0.8421057467826119,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Coverage through the Basic Health Programc,2021,0.8116439234213473,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Coverage through the Basic Health Programc,2022,0.8148326958304837,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Coverage through the Basic Health Programc,2023,0.8190601118268004,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Coverage through the Basic Health Programc,2024,0.8217785128882411,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Coverage through the Basic Health Programc,2025,0.8261190616814373,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Coverage through the Basic Health Programc,2026,0.8297005555298025,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Coverage through the Basic Health Programc,2027,0.8319784299558051,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Coverage through the Basic Health Programc,2028,0.8357993462054552,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Coverage through the Basic Health Programc,2029,0.8395913112698967,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Medicared,2019,8.152433561065106,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Medicared,2020,8.052241623417581,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Medicared,2021,8.00485508828796,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Medicared,2022,7.980189799621532,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Medicared,2023,7.993651337281834,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Medicared,2024,8.006173109359954,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Medicared,2025,8.023474618446642,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Medicared,2026,8.04917483112559,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Medicared,2027,8.061415120301382,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Medicared,2028,8.077115383904752,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Medicared,2029,8.089683849249337,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Other Coveragee,2019,2.969308070092474,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Other Coveragee,2020,2.9119909979875924,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Other Coveragee,2021,2.963203881018815,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Other Coveragee,2022,3.0007010416983286,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Other Coveragee,2023,3.0286182643901642,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Other Coveragee,2024,3.063141834247951,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Other Coveragee,2025,3.0880958537246403,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Other Coveragee,2026,3.1285861106911934,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Other Coveragee,2027,3.1541923735872843,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Other Coveragee,2028,3.1604024511771636,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Other Coveragee,2029,3.189132880106247,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Uninsuredf,2019,30.483515917272243,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Uninsuredf,2020,32.07679758528951,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Uninsuredf,2021,33.34516956191523,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Uninsuredf,2022,33.416881681166274,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Uninsuredf,2023,33.543674783404384,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Uninsuredf,2024,33.86055872418484,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Uninsuredf,2025,34.055976667895905,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Uninsuredf,2026,34.28336876019463,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Uninsuredf,2027,34.72147351785289,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Uninsuredf,2028,34.96911457154164,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Uninsuredf,2029,35.28532459424753,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Number of Insured People,2019,242.12779008272776,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Number of Insured People,2020,240.8864294147105,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Number of Insured People,2021,240.04715143808477,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Number of Insured People,2022,240.39491831883373,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Number of Insured People,2023,240.6738472165956,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Number of Insured People,2024,240.86069727581514,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Number of Insured People,2025,241.1259623321041,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Number of Insured People,2026,241.27633323980538,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Number of Insured People,2027,241.2898534821471,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Number of Insured People,2028,241.52935042845837,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Number of Insured People,2029,241.75376440575246,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Including all U.S. residents,2019,88.81795609853678,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Including all U.S. residents,2020,88.24867439551134,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Including all U.S. residents,2021,87.8031798991475,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Including all U.S. residents,2022,87.7956751019619,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Including all U.S. residents,2023,87.76749401761263,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Including all U.S. residents,2024,87.67457632612715,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Including all U.S. residents,2025,87.62419627114556,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Including all U.S. residents,2026,87.55864209774961,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Including all U.S. residents,2027,87.42027224199647,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Including all U.S. residents,2028,87.35287207777387,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Including all U.S. residents,2029,87.26341300008839,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Excluding unauthorized immigrants,2019,90.61135190560893,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Excluding unauthorized immigrants,2020,90.01738572497952,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Excluding unauthorized immigrants,2021,89.55561167172908,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Excluding unauthorized immigrants,2022,89.56880627106194,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Excluding unauthorized immigrants,2023,89.53985799609654,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Excluding unauthorized immigrants,2024,89.44490455866514,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Excluding unauthorized immigrants,2025,89.41511217348035,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Excluding unauthorized immigrants,2026,89.35444314108058,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Excluding unauthorized immigrants,2027,89.2344386997437,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Excluding unauthorized immigrants,2028,89.1784003140204,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Excluding unauthorized immigrants,2029,89.0999478183993,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1-1,false
+Health Insurance,Total Population Under Age 65,2019,273.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Total Population Under Age 65,2020,273.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Total Population Under Age 65,2021,273.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Total Population Under Age 65,2022,274.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Total Population Under Age 65,2023,274.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Total Population Under Age 65,2024,275.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Total Population Under Age 65,2025,275.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Total Population Under Age 65,2026,276.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Total Population Under Age 65,2027,276.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Total Population Under Age 65,2028,276.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Total Population Under Age 65,2029,277.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Employment-Based Coverage,2019,159.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Employment-Based Coverage,2020,159.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Employment-Based Coverage,2021,159.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Employment-Based Coverage,2022,159.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Employment-Based Coverage,2023,158.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Employment-Based Coverage,2024,158.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Employment-Based Coverage,2025,158.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Employment-Based Coverage,2026,158.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Employment-Based Coverage,2027,158.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Employment-Based Coverage,2028,159.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Employment-Based Coverage,2029,159.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Blind and disabled,2019,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Blind and disabled,2020,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Blind and disabled,2021,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Blind and disabled,2022,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Blind and disabled,2023,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Blind and disabled,2024,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Blind and disabled,2025,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Blind and disabled,2026,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Blind and disabled,2027,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Blind and disabled,2028,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Blind and disabled,2029,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Children,2019,30.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Children,2020,30.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Children,2021,30.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Children,2022,30.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Children,2023,30.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Children,2024,30.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Children,2025,30.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Children,2026,30.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Children,2027,30.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Children,2028,30.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Children,2029,30.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2019,12.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2020,12.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2021,12.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2022,13.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2023,13.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2024,13.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2025,14.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2026,14.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2027,14.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2028,14.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2029,14.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults otherwise eligible for Medicaid,2019,13.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults otherwise eligible for Medicaid,2020,12.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults otherwise eligible for Medicaid,2021,12.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults otherwise eligible for Medicaid,2022,12.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults otherwise eligible for Medicaid,2023,13.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults otherwise eligible for Medicaid,2024,13.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults otherwise eligible for Medicaid,2025,13.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults otherwise eligible for Medicaid,2026,13.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults otherwise eligible for Medicaid,2027,13.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults otherwise eligible for Medicaid,2028,13.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Adults otherwise eligible for Medicaid,2029,13.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,CHIP,2019,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,CHIP,2020,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,CHIP,2021,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,CHIP,2022,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,CHIP,2023,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,CHIP,2024,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,CHIP,2025,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,CHIP,2026,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,CHIP,2027,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,CHIP,2028,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,CHIP,2029,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Subtotal,2019,69.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Subtotal,2020,68.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Subtotal,2021,68.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Subtotal,2022,69.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Subtotal,2023,70.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Subtotal,2024,70.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Subtotal,2025,70.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Subtotal,2026,71.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Subtotal,2027,71.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Subtotal,2028,71.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Subtotal,2029,71.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Subsidized,2019,8.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Subsidized,2020,8.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Subsidized,2021,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Subsidized,2022,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Subsidized,2023,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Subsidized,2024,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Subsidized,2025,7.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Subsidized,2026,6.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Subsidized,2027,6.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Subsidized,2028,6.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Subsidized,2029,6.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Unsubsidized,2019,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Unsubsidized,2020,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Unsubsidized,2021,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Unsubsidized,2022,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Unsubsidized,2023,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Unsubsidized,2024,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Unsubsidized,2025,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Unsubsidized,2026,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Unsubsidized,2027,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Unsubsidized,2028,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Unsubsidized,2029,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2019,5.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2020,5.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2021,4.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2022,4.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2023,4.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2024,4.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2025,4.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2026,4.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2027,4.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2028,4.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Nongroup coverage purchased outside marketplaces,2029,4.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,"Total, nongroup coverage",2019,14.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,"Total, nongroup coverage",2020,13.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,"Total, nongroup coverage",2021,13.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,"Total, nongroup coverage",2022,12.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,"Total, nongroup coverage",2023,12.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,"Total, nongroup coverage",2024,12.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,"Total, nongroup coverage",2025,12.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,"Total, nongroup coverage",2026,12.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,"Total, nongroup coverage",2027,12.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,"Total, nongroup coverage",2028,11.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,"Total, nongroup coverage",2029,11.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,true
+Health Insurance,Coverage through the Basic Health Program c,2019,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Coverage through the Basic Health Program c,2020,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Coverage through the Basic Health Program c,2021,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Coverage through the Basic Health Program c,2022,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Coverage through the Basic Health Program c,2023,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Coverage through the Basic Health Program c,2024,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Coverage through the Basic Health Program c,2025,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Coverage through the Basic Health Program c,2026,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Coverage through the Basic Health Program c,2027,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Coverage through the Basic Health Program c,2028,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Coverage through the Basic Health Program c,2029,1.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Medicare d,2019,8.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Medicare d,2020,8.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Medicare d,2021,8.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Medicare d,2022,8.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Medicare d,2023,8.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Medicare d,2024,8.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Medicare d,2025,8.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Medicare d,2026,8.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Medicare d,2027,8.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Medicare d,2028,8.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Medicare d,2029,8.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Other Coverage e,2019,3.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Other Coverage e,2020,3.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Other Coverage e,2021,3.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Other Coverage e,2022,3.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Other Coverage e,2023,3.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Other Coverage e,2024,3.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Other Coverage e,2025,3.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Other Coverage e,2026,3.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Other Coverage e,2027,3.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Other Coverage e,2028,3.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Other Coverage e,2029,3.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Uninsured f,2019,30.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Uninsured f,2020,32.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Uninsured f,2021,33.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Uninsured f,2022,33.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Uninsured f,2023,34.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Uninsured f,2024,34.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Uninsured f,2025,34.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Uninsured f,2026,34.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Uninsured f,2027,35.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Uninsured f,2028,35.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Uninsured f,2029,35.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Number of Insured People,2019,242.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Number of Insured People,2020,241.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Number of Insured People,2021,240.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Number of Insured People,2022,240.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Number of Insured People,2023,241.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Number of Insured People,2024,241.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Number of Insured People,2025,241.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Number of Insured People,2026,241.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Number of Insured People,2027,241.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Number of Insured People,2028,241.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Number of Insured People,2029,242.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Including all U.S. residents,2019,89.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Including all U.S. residents,2020,88.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Including all U.S. residents,2021,88.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Including all U.S. residents,2022,88.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Including all U.S. residents,2023,88.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Including all U.S. residents,2024,88.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Including all U.S. residents,2025,88.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Including all U.S. residents,2026,88.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Including all U.S. residents,2027,87.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Including all U.S. residents,2028,87.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Including all U.S. residents,2029,87.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Excluding noncitizens not lawfully present,2019,91.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Excluding noncitizens not lawfully present,2020,90.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Excluding noncitizens not lawfully present,2021,90.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Excluding noncitizens not lawfully present,2022,90.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Excluding noncitizens not lawfully present,2023,90.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Excluding noncitizens not lawfully present,2024,89.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Excluding noncitizens not lawfully present,2025,89.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Excluding noncitizens not lawfully present,2026,89.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Excluding noncitizens not lawfully present,2027,89.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Excluding noncitizens not lawfully present,2028,89.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,Excluding noncitizens not lawfully present,2029,89.0,"Millions of People, by Calendar Year",51298-2019-05-Health-Insurance.xlsx,Table 1,false
+Health Insurance,"Tax exclusion for employment-based coveragea,b",2019,283.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,"Tax exclusion for employment-based coveragea,b",2020,301.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,"Tax exclusion for employment-based coveragea,b",2021,320.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,"Tax exclusion for employment-based coveragea,b",2022,341.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,"Tax exclusion for employment-based coveragea,b",2023,363.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,"Tax exclusion for employment-based coveragea,b",2024,387.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,"Tax exclusion for employment-based coveragea,b",2025,410.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,"Tax exclusion for employment-based coveragea,b",2026,466.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,"Tax exclusion for employment-based coveragea,b",2027,502.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,"Tax exclusion for employment-based coveragea,b",2028,530.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,"Tax exclusion for employment-based coveragea,b",2029,562.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Income tax deduction for self-employment health insurancec,2019,4.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Income tax deduction for self-employment health insurancec,2020,4.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Income tax deduction for self-employment health insurancec,2021,3.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Income tax deduction for self-employment health insurancec,2022,3.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Income tax deduction for self-employment health insurancec,2023,3.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Income tax deduction for self-employment health insurancec,2024,4.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Income tax deduction for self-employment health insurancec,2025,4.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Income tax deduction for self-employment health insurancec,2026,4.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Income tax deduction for self-employment health insurancec,2027,5.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Income tax deduction for self-employment health insurancec,2028,5.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Income tax deduction for self-employment health insurancec,2029,5.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Subtotal,2019,287.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,Subtotal,2020,305.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,Subtotal,2021,323.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,Subtotal,2022,344.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,Subtotal,2023,366.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,Subtotal,2024,391.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,Subtotal,2025,414.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,Subtotal,2026,470.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,Subtotal,2027,507.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,Subtotal,2028,535.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,Subtotal,2029,567.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,Blind and Disabled,2019,109.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Blind and Disabled,2020,115.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Blind and Disabled,2021,121.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Blind and Disabled,2022,127.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Blind and Disabled,2023,135.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Blind and Disabled,2024,143.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Blind and Disabled,2025,152.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Blind and Disabled,2026,161.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Blind and Disabled,2027,172.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Blind and Disabled,2028,182.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Blind and Disabled,2029,194.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Children,2019,76.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Children,2020,80.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Children,2021,85.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Children,2022,91.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Children,2023,96.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Children,2024,102.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Children,2025,108.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Children,2026,114.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Children,2027,120.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Children,2028,126.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Children,2029,133.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2019,66.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2020,66.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2021,70.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2022,76.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2023,83.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2024,89.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2025,95.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2026,102.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2027,108.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2028,115.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Adults Made Eligible for Medicaid by the ACA,2029,121.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Otherwise eligible for Medicaid,2019,46.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Otherwise eligible for Medicaid,2020,48.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Otherwise eligible for Medicaid,2021,51.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Otherwise eligible for Medicaid,2022,54.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Otherwise eligible for Medicaid,2023,58.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Otherwise eligible for Medicaid,2024,61.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Otherwise eligible for Medicaid,2025,65.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Otherwise eligible for Medicaid,2026,68.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Otherwise eligible for Medicaid,2027,72.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Otherwise eligible for Medicaid,2028,76.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Otherwise eligible for Medicaid,2029,81.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,CHIP,2019,18.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,CHIP,2020,16.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,CHIP,2021,14.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,CHIP,2022,14.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,CHIP,2023,15.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,CHIP,2024,16.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,CHIP,2025,16.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,CHIP,2026,17.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,CHIP,2027,18.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,CHIP,2028,18.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,CHIP,2029,19.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit outlays,2019,43.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit outlays,2020,44.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit outlays,2021,43.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit outlays,2022,45.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit outlays,2023,47.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit outlays,2024,49.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit outlays,2025,52.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit outlays,2026,54.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit outlays,2027,55.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit outlays,2028,56.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit outlays,2029,57.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit revenue reductions,2019,9.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit revenue reductions,2020,10.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit revenue reductions,2021,9.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit revenue reductions,2022,10.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit revenue reductions,2023,10.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit revenue reductions,2024,11.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit revenue reductions,2025,11.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit revenue reductions,2026,12.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit revenue reductions,2027,12.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit revenue reductions,2028,12.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Premium tax credit revenue reductions,2029,12.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,"Subtotal, premium tax credits",2019,53.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,"Subtotal, premium tax credits",2020,53.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,"Subtotal, premium tax credits",2021,53.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,"Subtotal, premium tax credits",2022,55.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,"Subtotal, premium tax credits",2023,58.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,"Subtotal, premium tax credits",2024,60.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,"Subtotal, premium tax credits",2025,64.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,"Subtotal, premium tax credits",2026,66.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,"Subtotal, premium tax credits",2027,67.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,"Subtotal, premium tax credits",2028,68.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,"Subtotal, premium tax credits",2029,70.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,true
+Health Insurance,Outlays for the Basic Health Program,2019,5.796132407240033,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Outlays for the Basic Health Program,2020,5.990726633296848,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Outlays for the Basic Health Program,2021,6.233897866129582,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Outlays for the Basic Health Program,2022,6.694477114083504,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Outlays for the Basic Health Program,2023,7.139908003240495,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Outlays for the Basic Health Program,2024,7.491873371770409,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Outlays for the Basic Health Program,2025,7.899954559390968,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Outlays for the Basic Health Program,2026,8.361036327979981,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Outlays for the Basic Health Program,2027,8.67980966938876,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Outlays for the Basic Health Program,2028,9.14391283583722,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Outlays for the Basic Health Program,2029,9.590401964534038,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Collections for risk adjustment and reinsurance,2019,-5.759,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Collections for risk adjustment and reinsurance,2020,-5.309,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Collections for risk adjustment and reinsurance,2021,-5.587,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Collections for risk adjustment and reinsurance,2022,-5.865,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Collections for risk adjustment and reinsurance,2023,-6.046,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Collections for risk adjustment and reinsurance,2024,-6.373,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Collections for risk adjustment and reinsurance,2025,-6.664,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Collections for risk adjustment and reinsurance,2026,-6.977,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Collections for risk adjustment and reinsurance,2027,-7.302,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Collections for risk adjustment and reinsurance,2028,-7.567,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Collections for risk adjustment and reinsurance,2029,-7.892,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Payments for risk adjustment and reinsurance,2019,9.118,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Payments for risk adjustment and reinsurance,2020,5.334,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Payments for risk adjustment and reinsurance,2021,5.763,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Payments for risk adjustment and reinsurance,2022,5.874,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Payments for risk adjustment and reinsurance,2023,6.001,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Payments for risk adjustment and reinsurance,2024,6.291,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Payments for risk adjustment and reinsurance,2025,6.591,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Payments for risk adjustment and reinsurance,2026,6.899,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Payments for risk adjustment and reinsurance,2027,7.221,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Payments for risk adjustment and reinsurance,2028,7.501,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Payments for risk adjustment and reinsurance,2029,7.811,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Medicaree,2019,86.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Medicaree,2020,88.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Medicaree,2021,92.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Medicaree,2022,96.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Medicaree,2023,100.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Medicaree,2024,104.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Medicaree,2025,109.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Medicaree,2026,114.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Medicaree,2027,120.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Medicaree,2028,127.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Medicaree,2029,131.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plansf,2019,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plansf,2020,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plansf,2021,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plansf,2022,-2.0545658024872187,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plansf,2023,-7.292082749526315,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plansf,2024,-8.522593047082756,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plansf,2025,-9.796567676498272,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plansf,2026,-12.145641588908706,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plansf,2027,-16.221548034426824,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plansf,2028,-18.659989716859787,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plansf,2029,-21.52786286537829,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Penalty payments by uninsured people,2019,-3.47710394265233,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Penalty payments by uninsured people,2020,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Penalty payments by uninsured people,2021,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Penalty payments by uninsured people,2022,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Penalty payments by uninsured people,2023,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Penalty payments by uninsured people,2024,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Penalty payments by uninsured people,2025,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Penalty payments by uninsured people,2026,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Penalty payments by uninsured people,2027,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Penalty payments by uninsured people,2028,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Penalty payments by uninsured people,2029,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net receipts from tax on health insurance providersg,2019,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net receipts from tax on health insurance providersg,2020,-12.954,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net receipts from tax on health insurance providersg,2021,-13.71,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net receipts from tax on health insurance providersg,2022,-14.535,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net receipts from tax on health insurance providersg,2023,-15.393,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net receipts from tax on health insurance providersg,2024,-16.271,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net receipts from tax on health insurance providersg,2025,-17.161,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net receipts from tax on health insurance providersg,2026,-17.003,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net receipts from tax on health insurance providersg,2027,-17.852,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net receipts from tax on health insurance providersg,2028,-18.732,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net receipts from tax on health insurance providersg,2029,-20.183,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of employer penaltiesf,2019,-7.817739541500002,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of employer penaltiesf,2020,-9.275465856000002,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of employer penaltiesf,2021,-8.561328900000001,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of employer penaltiesf,2022,-6.1350891,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of employer penaltiesf,2023,-6.4033941,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of employer penaltiesf,2024,-6.7196964,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of employer penaltiesf,2025,-7.0276100999999995,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of employer penaltiesf,2026,-7.326316800000002,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of employer penaltiesf,2027,-7.634583900000001,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of employer penaltiesf,2028,-8.0196225,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Gross collections of employer penaltiesf,2029,-7.3261308000000005,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net Subsidies,2019,737.247346103972,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net Subsidies,2020,755.190449278486,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net Subsidies,2021,793.5856007779477,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net Subsidies,2022,842.0888540671018,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net Subsidies,2023,889.2390574698136,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net Subsidies,2024,941.1185878374033,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net Subsidies,2025,997.1562051053064,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net Subsidies,2026,1084.8287881413637,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net Subsidies,2027,1149.4394117249537,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net Subsidies,2028,1210.8758700205333,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Net Subsidies,2029,1276.9460271436708,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Basic Health Program Enrollee (Dollars),2019,6490.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Basic Health Program Enrollee (Dollars),2020,6960.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Basic Health Program Enrollee (Dollars),2021,7370.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Basic Health Program Enrollee (Dollars),2022,8030.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Basic Health Program Enrollee (Dollars),2023,8600.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Basic Health Program Enrollee (Dollars),2024,9120.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Basic Health Program Enrollee (Dollars),2025,9790.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Basic Health Program Enrollee (Dollars),2026,10270.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Basic Health Program Enrollee (Dollars),2027,10720.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Basic Health Program Enrollee (Dollars),2028,11160.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Basic Health Program Enrollee (Dollars),2029,11980.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Taxable Compensation,2019,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Taxable Compensation,2020,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Taxable Compensation,2021,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Taxable Compensation,2022,-6.347325154161475,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Taxable Compensation,2023,-14.256761525733538,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Taxable Compensation,2024,-17.660816755931315,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Taxable Compensation,2025,-21.755118581837458,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Taxable Compensation,2026,-25.028883921872225,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Taxable Compensation,2027,-30.83162144254712,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Taxable Compensation,2028,-35.36312322340923,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,Taxable Compensation,2029,-42.15622276742773,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2-1,false
+Health Insurance,"Tax exclusion for employment-based coverage a,b",2019,283.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Tax exclusion for employment-based coverage a,b",2020,301.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Tax exclusion for employment-based coverage a,b",2021,320.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Tax exclusion for employment-based coverage a,b",2022,341.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Tax exclusion for employment-based coverage a,b",2023,363.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Tax exclusion for employment-based coverage a,b",2024,387.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Tax exclusion for employment-based coverage a,b",2025,410.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Tax exclusion for employment-based coverage a,b",2026,466.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Tax exclusion for employment-based coverage a,b",2027,502.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Tax exclusion for employment-based coverage a,b",2028,530.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Tax exclusion for employment-based coverage a,b",2029,562.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Income tax deduction for self-employment health insurance c,2019,4.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Income tax deduction for self-employment health insurance c,2020,4.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Income tax deduction for self-employment health insurance c,2021,3.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Income tax deduction for self-employment health insurance c,2022,3.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Income tax deduction for self-employment health insurance c,2023,3.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Income tax deduction for self-employment health insurance c,2024,4.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Income tax deduction for self-employment health insurance c,2025,4.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Income tax deduction for self-employment health insurance c,2026,4.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Income tax deduction for self-employment health insurance c,2027,5.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Income tax deduction for self-employment health insurance c,2028,5.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Income tax deduction for self-employment health insurance c,2029,5.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Subtotal,2019,287.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,true
+Health Insurance,Subtotal,2020,304.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,true
+Health Insurance,Subtotal,2021,324.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,true
+Health Insurance,Subtotal,2022,344.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,true
+Health Insurance,Subtotal,2023,367.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,true
+Health Insurance,Subtotal,2024,390.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,true
+Health Insurance,Subtotal,2025,414.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,true
+Health Insurance,Subtotal,2026,470.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,true
+Health Insurance,Subtotal,2027,507.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,true
+Health Insurance,Subtotal,2028,534.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,true
+Health Insurance,Subtotal,2029,567.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,true
+Health Insurance,Blind and disabled,2019,109.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Blind and disabled,2020,115.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Blind and disabled,2021,121.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Blind and disabled,2022,127.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Blind and disabled,2023,135.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Blind and disabled,2024,143.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Blind and disabled,2025,152.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Blind and disabled,2026,161.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Blind and disabled,2027,172.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Blind and disabled,2028,182.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Blind and disabled,2029,194.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Children,2019,76.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Children,2020,80.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Children,2021,85.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Children,2022,91.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Children,2023,96.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Children,2024,102.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Children,2025,108.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Children,2026,114.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Children,2027,120.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Children,2028,126.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Children,2029,133.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2019,66.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2020,66.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2021,70.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2022,76.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2023,83.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2024,89.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2025,95.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2026,102.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2027,108.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2028,115.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2029,121.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults otherwise eligible for Medicaid,2019,46.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults otherwise eligible for Medicaid,2020,48.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults otherwise eligible for Medicaid,2021,51.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults otherwise eligible for Medicaid,2022,54.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults otherwise eligible for Medicaid,2023,58.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults otherwise eligible for Medicaid,2024,61.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults otherwise eligible for Medicaid,2025,65.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults otherwise eligible for Medicaid,2026,68.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults otherwise eligible for Medicaid,2027,72.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults otherwise eligible for Medicaid,2028,76.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Adults otherwise eligible for Medicaid,2029,81.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,CHIP,2019,18.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,CHIP,2020,16.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,CHIP,2021,14.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,CHIP,2022,14.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,CHIP,2023,15.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,CHIP,2024,16.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,CHIP,2025,16.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,CHIP,2026,17.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,CHIP,2027,18.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,CHIP,2028,18.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,CHIP,2029,19.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit outlays,2019,43.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit outlays,2020,44.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit outlays,2021,43.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit outlays,2022,45.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit outlays,2023,47.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit outlays,2024,49.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit outlays,2025,52.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit outlays,2026,54.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit outlays,2027,55.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit outlays,2028,56.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit outlays,2029,57.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit revenue reductions,2019,9.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit revenue reductions,2020,10.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit revenue reductions,2021,9.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit revenue reductions,2022,10.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit revenue reductions,2023,10.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit revenue reductions,2024,11.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit revenue reductions,2025,11.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit revenue reductions,2026,12.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit revenue reductions,2027,12.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit revenue reductions,2028,12.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Premium tax credit revenue reductions,2029,12.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Outlays for the Basic Health Program,2019,6.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Outlays for the Basic Health Program,2020,6.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Outlays for the Basic Health Program,2021,6.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Outlays for the Basic Health Program,2022,7.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Outlays for the Basic Health Program,2023,7.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Outlays for the Basic Health Program,2024,7.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Outlays for the Basic Health Program,2025,8.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Outlays for the Basic Health Program,2026,8.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Outlays for the Basic Health Program,2027,9.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Outlays for the Basic Health Program,2028,9.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Outlays for the Basic Health Program,2029,10.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Collections for risk adjustment and reinsurance,2019,-6.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Collections for risk adjustment and reinsurance,2020,-5.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Collections for risk adjustment and reinsurance,2021,-6.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Collections for risk adjustment and reinsurance,2022,-6.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Collections for risk adjustment and reinsurance,2023,-6.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Collections for risk adjustment and reinsurance,2024,-6.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Collections for risk adjustment and reinsurance,2025,-7.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Collections for risk adjustment and reinsurance,2026,-7.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Collections for risk adjustment and reinsurance,2027,-7.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Collections for risk adjustment and reinsurance,2028,-8.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Collections for risk adjustment and reinsurance,2029,-8.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Payments for risk adjustment and reinsurance,2019,9.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Payments for risk adjustment and reinsurance,2020,5.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Payments for risk adjustment and reinsurance,2021,6.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Payments for risk adjustment and reinsurance,2022,6.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Payments for risk adjustment and reinsurance,2023,6.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Payments for risk adjustment and reinsurance,2024,6.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Payments for risk adjustment and reinsurance,2025,7.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Payments for risk adjustment and reinsurance,2026,7.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Payments for risk adjustment and reinsurance,2027,7.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Payments for risk adjustment and reinsurance,2028,8.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Payments for risk adjustment and reinsurance,2029,8.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Medicare e,2019,86.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Medicare e,2020,88.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Medicare e,2021,92.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Medicare e,2022,96.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Medicare e,2023,100.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Medicare e,2024,104.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Medicare e,2025,109.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Medicare e,2026,114.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Medicare e,2027,120.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Medicare e,2028,127.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Medicare e,2029,131.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plans f,2019,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plans f,2020,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plans f,2021,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plans f,2022,-2.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plans f,2023,-7.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plans f,2024,-9.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plans f,2025,-10.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plans f,2026,-12.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plans f,2027,-16.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plans f,2028,-19.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plans f,2029,-22.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Penalty payments by uninsured people,2019,-3.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Penalty payments by uninsured people,2020,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Penalty payments by uninsured people,2021,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Penalty payments by uninsured people,2022,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Penalty payments by uninsured people,2023,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Penalty payments by uninsured people,2024,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Penalty payments by uninsured people,2025,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Penalty payments by uninsured people,2026,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Penalty payments by uninsured people,2027,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Penalty payments by uninsured people,2028,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Penalty payments by uninsured people,2029,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net receipts from tax on health insurance providers g,2019,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net receipts from tax on health insurance providers g,2020,-13.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net receipts from tax on health insurance providers g,2021,-14.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net receipts from tax on health insurance providers g,2022,-15.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net receipts from tax on health insurance providers g,2023,-15.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net receipts from tax on health insurance providers g,2024,-16.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net receipts from tax on health insurance providers g,2025,-17.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net receipts from tax on health insurance providers g,2026,-17.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net receipts from tax on health insurance providers g,2027,-18.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net receipts from tax on health insurance providers g,2028,-19.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net receipts from tax on health insurance providers g,2029,-20.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of employer penalties f,2019,-8.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of employer penalties f,2020,-9.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of employer penalties f,2021,-9.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of employer penalties f,2022,-6.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of employer penalties f,2023,-6.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of employer penalties f,2024,-7.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of employer penalties f,2025,-7.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of employer penalties f,2026,-7.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of employer penalties f,2027,-8.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of employer penalties f,2028,-8.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Gross collections of employer penalties f,2029,-7.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net Subsidies,2019,737.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net Subsidies,2020,755.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net Subsidies,2021,794.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net Subsidies,2022,842.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net Subsidies,2023,889.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net Subsidies,2024,941.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net Subsidies,2025,997.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net Subsidies,2026,1085.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net Subsidies,2027,1149.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net Subsidies,2028,1211.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Net Subsidies,2029,1277.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Collections of Excise Tax on High-Premium Insurance Plans, Including the Associated Effects on Revenues of Changes in Taxable Compensation",2019,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Collections of Excise Tax on High-Premium Insurance Plans, Including the Associated Effects on Revenues of Changes in Taxable Compensation",2020,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Collections of Excise Tax on High-Premium Insurance Plans, Including the Associated Effects on Revenues of Changes in Taxable Compensation",2021,0.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Collections of Excise Tax on High-Premium Insurance Plans, Including the Associated Effects on Revenues of Changes in Taxable Compensation",2022,-6.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Collections of Excise Tax on High-Premium Insurance Plans, Including the Associated Effects on Revenues of Changes in Taxable Compensation",2023,-14.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Collections of Excise Tax on High-Premium Insurance Plans, Including the Associated Effects on Revenues of Changes in Taxable Compensation",2024,-18.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Collections of Excise Tax on High-Premium Insurance Plans, Including the Associated Effects on Revenues of Changes in Taxable Compensation",2025,-22.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Collections of Excise Tax on High-Premium Insurance Plans, Including the Associated Effects on Revenues of Changes in Taxable Compensation",2026,-25.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Collections of Excise Tax on High-Premium Insurance Plans, Including the Associated Effects on Revenues of Changes in Taxable Compensation",2027,-31.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Collections of Excise Tax on High-Premium Insurance Plans, Including the Associated Effects on Revenues of Changes in Taxable Compensation",2028,-35.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,"Collections of Excise Tax on High-Premium Insurance Plans, Including the Associated Effects on Revenues of Changes in Taxable Compensation",2029,-42.0,"Billions of Dollars, by Fiscal Year",51298-2019-05-Health-Insurance.xlsx,Table 2,false
+Health Insurance,Total Population,2019,273.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,true
+Health Insurance,Employment-Based Coverage,2019,159.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Made eligible for Medicaid by the ACA,2019,12.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Otherwise eligible for Medicaid,2019,48.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,CHIP,2019,6.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Total,2019,66.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,true
+Health Insurance,Subsidized nongroup,2019,7.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Unsubsidized nongroup,2019,5.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Coverage through the Basic Health Programc,2019,1.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Medicared,2019,8.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Other Coveragee,2019,5.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Uninsuredf,2019,32.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Tax exclusion for employment-based coverageh,2019,276.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Income tax deduction for self-employment health insurancei,2019,5.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Small-employer tax credits,2019,1.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Subtotal,2019,282.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,true
+Health Insurance,Premium tax credits,2019,53.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Outlays for the Basic Health Program,2019,4.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Medicarek,2019,84.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plansl,2019,0.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Penalty payments by uninsured people,2019,-3.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Net receipts from tax on health insurance providersm,2019,0.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Gross collections of employer penaltiesl,2019,-8.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Net Subsidiesm,2019,723.0,(Millions of people)a,51298-2019-05-Health-Insurance.xlsx,Table 3-1,false
+Health Insurance,Total Population,2019,273.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,true
+Health Insurance,Employment-Based Coverage,2019,159.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Adults made eligible for Medicaid by the ACA,2019,12.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,People otherwise eligible for Medicaid,2019,48.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,CHIP,2019,6.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Total,2019,66.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,true
+Health Insurance,Subsidized nongroup,2019,7.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Unsubsidized nongroup,2019,5.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,"Total, nongroup coverage",2019,12.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,true
+Health Insurance,Coverage through the Basic Health Program c,2019,1.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Medicare d,2019,8.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Other Coverage e,2019,5.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Uninsured f,2019,32.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Tax exclusion for employment-based coverage h,2019,276.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Income tax deduction for self-employment health insurance i,2019,5.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Small-employer tax credits,2019,1.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Subtotal,2019,282.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,true
+Health Insurance,Premium tax credits,2019,53.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Outlays for the Basic Health Program,2019,4.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Medicare k,2019,84.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Gross collections of excise tax on high-premium insurance plans l,2019,0.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Penalty payments by uninsured people,2019,-3.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Net receipts from tax on health insurance providers m,2019,0.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Gross collections of employer penalties l,2019,-8.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false
+Health Insurance,Net Subsidies,2019,723.0,Insurance Coverage for the Yeara (Millions of people),51298-2019-05-Health-Insurance.xlsx,Table 3,false

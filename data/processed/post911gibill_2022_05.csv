@@ -1,0 +1,41 @@
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
+Post911Gibill,Total Payments,2022,9264.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Payments,2023,10087.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Payments,2024,11009.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Payments,2025,11733.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Payments,2026,12174.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Payments,2027,12620.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Payments,2028,13079.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Payments,2029,13582.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Payments,2031,14572.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Payments,2032,15097.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Adjustment for Timing Shiftsa,2022,542.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Adjustment for Timing Shiftsa,2023,53.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Adjustment for Timing Shiftsa,2024,-595.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Adjustment for Timing Shiftsa,2025,0.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Adjustment for Timing Shiftsa,2026,0.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Adjustment for Timing Shiftsa,2027,0.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Adjustment for Timing Shiftsa,2028,727.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Adjustment for Timing Shiftsa,2029,-727.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Adjustment for Timing Shiftsa,2031,0.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Adjustment for Timing Shiftsa,2032,0.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Total Beneficiaries,2022,594759.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Beneficiaries,2023,639366.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Beneficiaries,2024,671334.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Beneficiaries,2025,688117.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Beneficiaries,2026,688117.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Beneficiaries,2027,688668.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Beneficiaries,2028,689425.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Beneficiaries,2029,690115.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Beneficiaries,2031,690253.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Total Beneficiaries,2032,690253.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,true
+Post911Gibill,Average Annual Benefits (Dollars),2022,15590.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Average Annual Benefits (Dollars),2023,15778.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Average Annual Benefits (Dollars),2024,16385.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Average Annual Benefits (Dollars),2025,17051.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Average Annual Benefits (Dollars),2026,17692.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Average Annual Benefits (Dollars),2027,18325.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Average Annual Benefits (Dollars),2028,18985.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Average Annual Benefits (Dollars),2029,19666.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Average Annual Benefits (Dollars),2031,21111.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false
+Post911Gibill,Average Annual Benefits (Dollars),2032,21872.0,"By Fiscal Year, Millions of Dollars",53726-2022-05-post911gibill.xlsx,Post911_05-2022,false

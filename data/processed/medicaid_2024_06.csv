@@ -1,0 +1,51 @@
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
+Medicaid,Estimated Outlaysa,2024,607.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Estimated Outlaysa,2025,600.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Estimated Outlaysa,2026,614.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Estimated Outlaysa,2027,642.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Estimated Outlaysa,2028,680.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Estimated Outlaysa,2029,717.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Estimated Outlaysa,2030,756.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Estimated Outlaysa,2031,796.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Estimated Outlaysa,2033,886.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Estimated Outlaysa,2034,933.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Disproportionate Share Hospitals,2024,11.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Disproportionate Share Hospitals,2025,8.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Disproportionate Share Hospitals,2026,8.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Disproportionate Share Hospitals,2027,8.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Disproportionate Share Hospitals,2028,10.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Disproportionate Share Hospitals,2029,11.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Disproportionate Share Hospitals,2030,12.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Disproportionate Share Hospitals,2031,13.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Disproportionate Share Hospitals,2033,13.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Disproportionate Share Hospitals,2034,14.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Vaccines for Children,2024,5.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Vaccines for Children,2025,6.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Vaccines for Children,2026,6.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Vaccines for Children,2027,6.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Vaccines for Children,2028,7.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Vaccines for Children,2029,7.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Vaccines for Children,2030,7.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Vaccines for Children,2031,8.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Vaccines for Children,2033,9.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Vaccines for Children,2034,9.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Administration,2024,21.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Administration,2025,22.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Administration,2026,23.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Administration,2027,24.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Administration,2028,25.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Administration,2029,26.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Administration,2030,27.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Administration,2031,28.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Administration,2033,31.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Administration,2034,33.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,false
+Medicaid,Total Enrolled Within a Fiscal Year,2024,100.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,true
+Medicaid,Total Enrolled Within a Fiscal Year,2025,96.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,true
+Medicaid,Total Enrolled Within a Fiscal Year,2026,97.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,true
+Medicaid,Total Enrolled Within a Fiscal Year,2027,98.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,true
+Medicaid,Total Enrolled Within a Fiscal Year,2028,98.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,true
+Medicaid,Total Enrolled Within a Fiscal Year,2029,98.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,true
+Medicaid,Total Enrolled Within a Fiscal Year,2030,98.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,true
+Medicaid,Total Enrolled Within a Fiscal Year,2031,99.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,true
+Medicaid,Total Enrolled Within a Fiscal Year,2033,101.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,true
+Medicaid,Total Enrolled Within a Fiscal Year,2034,102.0,"Billions of dollars, by fiscal year",51301-2024-06-medicaid.xlsx,Medicaid_06-2024-rev,true

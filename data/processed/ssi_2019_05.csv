@@ -1,0 +1,121 @@
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
+Ssi,Aged,2019,1113.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Aged,2020,1112.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Aged,2021,1114.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Aged,2022,1120.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Aged,2023,1128.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Aged,2024,1142.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Aged,2025,1156.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Aged,2026,1171.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Aged,2028,1206.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Aged,2029,1225.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled adults,2019,5674.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled adults,2020,5640.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled adults,2021,5626.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled adults,2022,5625.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled adults,2023,5637.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled adults,2024,5666.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled adults,2025,5692.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled adults,2026,5724.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled adults,2028,5806.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled adults,2029,5855.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled children,2019,1134.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled children,2020,1128.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled children,2021,1124.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled children,2022,1128.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled children,2023,1135.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled children,2024,1146.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled children,2025,1155.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled children,2026,1164.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled children,2028,1186.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Blind and disabled children,2029,1197.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Total,2019,7922.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Total,2020,7880.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Total,2021,7865.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Total,2022,7873.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Total,2023,7900.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Total,2024,7954.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Total,2025,8002.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Total,2026,8059.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Total,2028,8198.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Total,2029,8277.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Average Across All Groups,2019,583.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Average Across All Groups,2020,600.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Average Across All Groups,2021,616.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Average Across All Groups,2022,633.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Average Across All Groups,2023,650.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Average Across All Groups,2024,667.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Average Across All Groups,2025,684.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Average Across All Groups,2026,701.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Average Across All Groups,2028,736.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Average Across All Groups,2029,753.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Maximum Monthly Benefit (Individual),2019,771.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Maximum Monthly Benefit (Individual),2020,787.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Maximum Monthly Benefit (Individual),2021,808.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Maximum Monthly Benefit (Individual),2022,829.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Maximum Monthly Benefit (Individual),2023,850.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Maximum Monthly Benefit (Individual),2024,870.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Maximum Monthly Benefit (Individual),2025,891.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Maximum Monthly Benefit (Individual),2026,911.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Maximum Monthly Benefit (Individual),2028,954.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Maximum Monthly Benefit (Individual),2029,976.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Percentage Change,2019,2.8000000000000003,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Percentage Change,2020,2.1,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Percentage Change,2021,2.6,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Percentage Change,2022,2.6,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Percentage Change,2023,2.5,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Percentage Change,2024,2.4,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Percentage Change,2025,2.4,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Percentage Change,2026,2.3,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Percentage Change,2028,2.3,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Percentage Change,2029,2.3,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Number of Paymentsa,2019,12.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Number of Paymentsa,2020,12.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Number of Paymentsa,2021,12.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Number of Paymentsa,2022,13.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Number of Paymentsa,2023,12.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Number of Paymentsa,2024,11.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Number of Paymentsa,2025,12.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Number of Paymentsa,2026,12.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Number of Paymentsa,2028,13.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Number of Paymentsa,2029,11.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Other,2019,0.1,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Other,2020,0.7,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Other,2021,0.5,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Other,2022,0.6,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Other,2023,0.7,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Other,2024,0.8,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Other,2025,0.8,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Other,2026,0.8,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Other,2028,0.7,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Other,2029,1.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,Subtotal,2019,55.6,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Subtotal,2020,56.8,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Subtotal,2021,58.3,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Subtotal,2022,64.8,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Subtotal,2023,61.8,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Subtotal,2024,58.4,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Subtotal,2025,65.6,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Subtotal,2026,67.7,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Subtotal,2028,78.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,Subtotal,2029,68.7,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,and Demonstration Projects,2019,0.2,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,and Demonstration Projects,2020,0.2,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,and Demonstration Projects,2021,0.2,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,and Demonstration Projects,2022,0.2,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,and Demonstration Projects,2023,0.2,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,and Demonstration Projects,2024,0.2,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,and Demonstration Projects,2025,0.2,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,and Demonstration Projects,2026,0.2,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,and Demonstration Projects,2028,0.2,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,and Demonstration Projects,2029,0.2,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,false
+Ssi,"Total, Mandatory Outlays",2019,55.8,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,"Total, Mandatory Outlays",2020,57.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,"Total, Mandatory Outlays",2021,58.4,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,"Total, Mandatory Outlays",2022,65.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,"Total, Mandatory Outlays",2023,62.0,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,"Total, Mandatory Outlays",2024,58.6,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,"Total, Mandatory Outlays",2025,65.8,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,"Total, Mandatory Outlays",2026,67.9,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,"Total, Mandatory Outlays",2028,78.2,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
+Ssi,"Total, Mandatory Outlays",2029,68.9,Average Monthly Federal Benefit on December 31 (Dollars),51313-2019-05-SSI.xlsx,Table 1,true
