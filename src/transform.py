@@ -41,7 +41,7 @@ SLICE_KEYWORDS = {
     "health": HEALTH_KEYWORDS,
     "income-security": INCOME_SECURITY_KEYWORDS,
 }
-SLICE_CHOICES = ("health", "income-security", "all")
+SLICE_CHOICES = ("health", "income-security", "remaining-programs", "all")
 PLAUSIBLE_YEAR_MIN = 2019
 PLAUSIBLE_YEAR_MAX = 2040
 
@@ -178,6 +178,10 @@ def _in_slice(plan: SheetPlan, slice_name: str) -> bool:
     if slice_name == "all":
         return True
     dataset = plan.output_dataset.lower()
+    if slice_name == "remaining-programs":
+        return not any(kw in dataset for kw in HEALTH_KEYWORDS) and not any(
+            kw in dataset for kw in INCOME_SECURITY_KEYWORDS
+        )
     keywords = SLICE_KEYWORDS.get(slice_name, ())
     return any(keyword in dataset for keyword in keywords)
 
