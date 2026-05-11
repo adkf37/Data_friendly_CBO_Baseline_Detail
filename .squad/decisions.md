@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — task-03-transform plausible-year range filter
+
+**Decision:** Add `PLAUSIBLE_YEAR_MIN = 2019` and `PLAUSIBLE_YEAR_MAX = 2040` constants to `src/transform.py` and use them in `_extract_years` to silently skip any year column whose header year falls outside the plausible range. A column where the first matched header year is implausible (e.g., 2018 for a "prior-year actual" column in a 2019-05 CBO workbook) is dropped rather than included in the output.
+**Rationale:** CBO 2019-05 workbooks legitimately include one or more historical fiscal years (for example 2018 as the prior-year actual, or 2012-2018 for the Child Nutrition CNP sheet) alongside the projected baseline years. These historical years fall outside the project's accepted fiscal-year range and caused the validation to fail with 98 implausible-year rows. Filtering at the year-extraction step (rather than at row-write time) is the most targeted correction: it skips the column cleanly and does not depend on per-file overrides in the parse plan.
+**Task:** task-03-transform
+
+---
+
 ### 2026-05-11 — Validate keeps task-03-transform in Build after rerun
 
 **Decision:** Do not advance the `task-03-transform` health slice to Closeout; return it to **Build** for one more parser correction pass.

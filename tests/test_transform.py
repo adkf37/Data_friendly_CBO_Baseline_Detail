@@ -119,6 +119,66 @@ workbooks:
             self.assertIn("missing-health.xlsx", error_text)
             self.assertIn("workbook not found", error_text)
 
+    def test_run_transform_excludes_pre_plausible_year_columns(self):
+        """Year columns whose header year is before PLAUSIBLE_YEAR_MIN are silently dropped."""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            input_dir = root / "raw"
+            output_dir = root / "processed"
+            input_dir.mkdir(parents=True)
+
+            workbook_name = "51302-2019-05-Medicare.xlsx"
+            workbook = Workbook()
+            sheet = workbook.active
+            sheet.title = "Table 1"
+            # Column 2 = 2018 (prior-year actual — outside plausible range)
+            # Column 3 = 2019, Column 4 = 2020 (plausible projection years)
+            sheet["B1"] = 2018
+            sheet["C1"] = 2019
+            sheet["D1"] = 2020
+            sheet["A2"] = "Total Outlays"
+            sheet["B2"] = 700
+            sheet["C2"] = 765
+            sheet["D2"] = 814
+            workbook.save(input_dir / workbook_name)
+
+            parse_plan = root / "workbook_parse_plan.yaml"
+            parse_plan.write_text(
+                """
+workbooks:
+  - workbook: 51302-2019-05-Medicare.xlsx
+    sheets:
+      - sheet: Table 1
+        include: true
+        output_dataset: medicare_2019_05
+        header_rows: 1-1
+        first_data_row: 2
+        year_columns: [2, 3, 4]
+        unit: Medicare Totals (Billions of dollars)
+                """.strip()
+                + "\n",
+                encoding="utf-8",
+            )
+
+            rc = transform.run_transform(
+                parse_plan_path=parse_plan,
+                input_dir=input_dir,
+                output_dir=output_dir,
+                slice_name="health",
+            )
+
+            self.assertEqual(0, rc)
+            csv_path = output_dir / "medicare_2019_05.csv"
+            self.assertTrue(csv_path.exists())
+            with csv_path.open(encoding="utf-8", newline="") as handle:
+                rows = list(DictReader(handle))
+
+            fiscal_years = [row["fiscal_year"] for row in rows]
+            self.assertNotIn("2018", fiscal_years, "Pre-2019 year column must be excluded")
+            self.assertIn("2019", fiscal_years)
+            self.assertIn("2020", fiscal_years)
+            self.assertEqual(2, len(rows))
+
     def test_run_transform_prefers_header_years_and_deduplicates_keys(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)
