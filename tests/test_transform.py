@@ -24,7 +24,82 @@ def _write_health_workbook(path: Path) -> None:
     workbook.save(path)
 
 
+def _write_income_security_workbook(path: Path) -> None:
+    workbook = Workbook()
+    sheet = workbook.active
+    sheet.title = "Income Security"
+    sheet["A1"] = "Income Security Program"
+    sheet["B1"] = "2025"
+    sheet["C1"] = "2026"
+    sheet["A2"] = "Total Benefits"
+    sheet["B2"] = 100
+    sheet["C2"] = 110
+    sheet["A3"] = "Administrative Costs"
+    sheet["B3"] = 20
+    sheet["C3"] = 22
+    workbook.save(path)
+
+
 class TransformTests(unittest.TestCase):
+    def test_run_transform_income_security_slice_excludes_health_datasets(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            input_dir = root / "raw"
+            output_dir = root / "processed"
+            input_dir.mkdir(parents=True)
+
+            health_workbook = "51293-2024-06-childnutrition.xlsx"
+            income_workbook = "51312-2024-06-snap.xlsx"
+            _write_health_workbook(input_dir / health_workbook)
+            _write_income_security_workbook(input_dir / income_workbook)
+            parse_plan = root / "workbook_parse_plan.yaml"
+            parse_plan.write_text(
+                """
+workbooks:
+  - workbook: 51293-2024-06-childnutrition.xlsx
+    sheets:
+      - sheet: Health
+        include: true
+        output_dataset: childnutrition_health_2024_06
+        header_rows: 1-1
+        first_data_row: 2
+        year_columns: [2, 3]
+        unit: Millions of dollars
+  - workbook: 51312-2024-06-snap.xlsx
+    sheets:
+      - sheet: Income Security
+        include: true
+        output_dataset: snap_2024_06
+        header_rows: 1-1
+        first_data_row: 2
+        year_columns: [2, 3]
+        unit: Millions of dollars
+                """.strip()
+                + "\n",
+                encoding="utf-8",
+            )
+
+            rc = transform.run_transform(
+                parse_plan_path=parse_plan,
+                input_dir=input_dir,
+                output_dir=output_dir,
+                slice_name="income-security",
+            )
+
+            self.assertEqual(0, rc)
+            self.assertFalse((output_dir / "childnutrition_health_2024_06.csv").exists())
+            csv_path = output_dir / "snap_2024_06.csv"
+            self.assertTrue(csv_path.exists())
+            with csv_path.open(encoding="utf-8", newline="") as handle:
+                rows = list(DictReader(handle))
+            self.assertEqual(4, len(rows))
+            self.assertEqual({"Snap"}, {row["program"] for row in rows})
+            self.assertEqual({"51312-2024-06-snap.xlsx"}, {row["source_file"] for row in rows})
+            self.assertEqual({"Income Security"}, {row["source_sheet"] for row in rows})
+            self.assertEqual({"Total Benefits", "Administrative Costs"}, {row["category"] for row in rows})
+            self.assertEqual({"2025", "2026"}, {row["fiscal_year"] for row in rows})
+            self.assertEqual("", (output_dir / "parse_errors.log").read_text(encoding="utf-8"))
+
     def test_run_transform_health_slice_writes_tidy_csv(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)
@@ -118,6 +193,17 @@ workbooks:
             error_text = (root / "processed" / "parse_errors.log").read_text(encoding="utf-8")
             self.assertIn("missing-health.xlsx", error_text)
             self.assertIn("workbook not found", error_text)
+
+    def test_run_transform_rejects_unknown_slice(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            with self.assertRaisesRegex(ValueError, "Unsupported slice: unknown"):
+                transform.run_transform(
+                    parse_plan_path=root / "workbook_parse_plan.yaml",
+                    input_dir=root / "raw",
+                    output_dir=root / "processed",
+                    slice_name="unknown",
+                )
 
     def test_run_transform_excludes_pre_plausible_year_columns(self):
         """Year columns whose header year is before PLAUSIBLE_YEAR_MIN are silently dropped."""
