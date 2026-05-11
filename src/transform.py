@@ -218,8 +218,9 @@ def run_transform(
                     value = _parse_number(worksheet.cell(row=row, column=column).value)
                     if value is None:
                         continue
+                    program_name = _infer_program_name(plan.workbook)
                     key = (
-                        _infer_program_name(plan.workbook),
+                        program_name,
                         category,
                         year,
                         plan.unit,
@@ -230,7 +231,7 @@ def run_transform(
                     seen_keys_by_dataset[plan.output_dataset].add(key)
                     records_by_dataset[plan.output_dataset].append(
                         {
-                            "program": key[0],
+                            "program": program_name,
                             "category": category,
                             "fiscal_year": year,
                             "value": value,
