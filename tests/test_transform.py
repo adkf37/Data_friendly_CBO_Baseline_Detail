@@ -194,6 +194,17 @@ workbooks:
             self.assertIn("missing-health.xlsx", error_text)
             self.assertIn("workbook not found", error_text)
 
+    def test_run_transform_rejects_unknown_slice(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            with self.assertRaisesRegex(ValueError, "Unsupported slice: unknown"):
+                transform.run_transform(
+                    parse_plan_path=root / "workbook_parse_plan.yaml",
+                    input_dir=root / "raw",
+                    output_dir=root / "processed",
+                    slice_name="unknown",
+                )
+
     def test_run_transform_excludes_pre_plausible_year_columns(self):
         """Year columns whose header year is before PLAUSIBLE_YEAR_MIN are silently dropped."""
         with tempfile.TemporaryDirectory() as tmpdir:

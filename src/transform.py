@@ -41,6 +41,7 @@ SLICE_KEYWORDS = {
     "health": HEALTH_KEYWORDS,
     "income-security": INCOME_SECURITY_KEYWORDS,
 }
+SLICE_CHOICES = ("health", "income-security", "all")
 PLAUSIBLE_YEAR_MIN = 2019
 PLAUSIBLE_YEAR_MAX = 2040
 
@@ -199,6 +200,8 @@ def run_transform(
     output_dir: Path = Path("data/processed"),
     slice_name: str = "health",
 ) -> int:
+    if slice_name not in SLICE_CHOICES:
+        raise ValueError(f"Unsupported slice: {slice_name}")
     plans = [plan for plan in _read_plan(parse_plan_path) if plan.include and _in_slice(plan, slice_name)]
     records_by_dataset: dict[str, list[dict]] = defaultdict(list)
     seen_keys_by_dataset: dict[str, set[tuple[str, str, int, str, str]]] = defaultdict(set)
@@ -292,7 +295,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--parse-plan", type=Path, default=Path("config/workbook_parse_plan.yaml"))
     parser.add_argument("--input-dir", type=Path, default=Path("data/raw"))
     parser.add_argument("--output-dir", type=Path, default=Path("data/processed"))
-    parser.add_argument("--slice", dest="slice_name", choices=["health", "income-security", "all"], default="health")
+    parser.add_argument("--slice", dest="slice_name", choices=SLICE_CHOICES, default="health")
     return parser.parse_args()
 
 
