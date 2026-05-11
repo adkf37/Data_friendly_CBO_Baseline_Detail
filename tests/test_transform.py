@@ -66,10 +66,9 @@ workbooks:
                 rows = list(DictReader(handle))
             self.assertEqual(transform.OUTPUT_COLUMNS, list(rows[0].keys()))
             self.assertEqual(4, len(rows))
-            expected_program = transform._infer_program_name(workbook_name)
             self.assertEqual(
                 {
-                    "program": expected_program,
+                    "program": "Childnutrition",
                     "category": "Total Benefits",
                     "fiscal_year": "2025",
                     "value": "100.0",
