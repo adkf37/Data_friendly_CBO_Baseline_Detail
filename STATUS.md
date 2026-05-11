@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Phase | validate-task-04-schema |
-| Next Action | Closeout |
+| Phase | build-task-05-verify |
+| Next Action | Build |
 | Last Updated | 2026-05-11 |
 | Squad Template | data_pipeline |
 | Priority | low |
@@ -12,10 +12,11 @@
 
 ## Current Objective
 
-Advance **Task ID: `task-04-schema`** to Closeout with validation evidence confirming full schema coverage, required sections, and reproducible checked-in docs.
+Begin **Task ID: `task-05-verify`** with `task-04-schema` fully closed out and the repository ready for verification work.
 
 ## Recent Activity
 
+- 2026-05-11: Closeout completed for **Task ID: `task-04-schema`** — independently rechecked `STATUS.md`, `backlog/tasks/task-04-schema.md`, `.squad/sprint.md`, `.squad/validation_report.md`, and `README.md`, then reran `python -m pip install -r requirements.txt`, `python -m unittest discover -s tests -v`, `python src/generate_schemas.py --help`, a real `python src/generate_schemas.py --schemas-dir /tmp/cbo_closeout_schema` run, a schema coverage/required-sections audit, and `diff -rq docs/schemas /tmp/cbo_closeout_schema`. Confirmed `processed_csvs=177`, `schema_docs=177`, `missing_schemas=0`, `missing_sections=0`, `missing_column_details=0`, `missing_is_total_guidance=0`, `missing_provenance_values=0`, and `missing_readme_links=0`, with no drift from the checked-in schema docs. Returned the repo to **Build** for `task-05-verify`.
 - 2026-05-11: Validate passed for **Task ID: `task-04-schema`** — reran dependency install, the full unittest suite, a repo-root CLI smoke check for `python src/generate_schemas.py --help`, a real schema-generation run to `/tmp/cbo_schema_validate`, a 1:1 CSV/schema coverage audit, and a reproducibility diff against `docs/schemas/`. Validation confirmed `processed_csvs=177`, `schema_docs=177`, `missing_schemas=0`, `missing_sections=0`, `missing_column_details=0`, `missing_is_total_guidance=0`, `missing_provenance_values=0`, and `missing_readme_links=0`, with no drift between the checked-in schema docs and a fresh generation run. Routed to Closeout.
 - 2026-05-11: Build advanced for **Task ID: `task-04-schema`** — implemented `src/generate_schemas.py`, which reads every CSV in `data/processed/`, generates a Markdown schema document at `docs/schemas/<basename>.md` (columns, provenance, `is_total` caveats), and writes a master index at `docs/schemas/README.md`. Ran the generator to produce 177 schema files with 1:1 coverage of all processed CSVs. Added 9 unit tests in `tests/test_generate_schemas.py`; full suite now passes 22 tests. Routed to Validate.
 - 2026-05-11: Closeout completed for **Task ID: `task-03-transform`** — independently rechecked `backlog/tasks/task-03-transform.md`, the sprint order, the latest validation evidence, a fresh `python -m unittest discover -s tests -v` run, `python src/transform.py --help`, a real `python src/transform.py --slice remaining-programs --output-dir /tmp/cbo_closeout_remaining` run, and a follow-up output audit. Confirmed the final remaining-programs slice satisfies the transform acceptance criteria (`remaining_plan_entries=120`, `datasets_written=73`, `missing_entries=0`, `datasets_with_duplicates=0`, `implausible_year_rows=0`), which closes out all three ordered transform slices and returns the repo to **Build** for `task-04-schema`.
@@ -28,8 +29,9 @@ Advance **Task ID: `task-04-schema`** to Closeout with validation evidence confi
 
 ## Remaining Follow-up
 
-- **Next task:** **`task-04-schema`** requires Closeout — independently review the validation evidence and, if accepted, hand the repo to the next ordered sprint item `task-05-verify`.
+- **Next task:** **`task-05-verify`** should implement `src/verify.py` and `docs/verification_report.md`, covering every included parse-plan dataset with documented pass/fail variance results and non-zero exit behavior for non-exempt failures.
 - Known parser-improvement follow-up: 14 health-slice parse errors, 37 income-security parse errors, and 39 remaining-programs parse errors remain surfaced explicitly in `parse_errors.log`; these should guide later parser-improvement work but do not block schema or verification closeout.
+- After verification closes out, the remaining ordered automation work is `task-06-pipeline`.
 
 ## Artifacts
 
@@ -39,12 +41,12 @@ Advance **Task ID: `task-04-schema`** to Closeout with validation evidence confi
 | FEEDBACK.md | `./FEEDBACK.md` | created |
 | Backlog README | `./backlog/README.md` | created |
 | Task: Transform | `./backlog/tasks/task-03-transform.md` | closed out |
-| Task: Schema | `./backlog/tasks/task-04-schema.md` | validated; ready for closeout |
+| Task: Schema | `./backlog/tasks/task-04-schema.md` | closed out |
 | Parse plan | `./config/workbook_parse_plan.yaml` | created |
 | Validation report | `./.squad/validation_report.md` | updated for task-04-schema Validate evidence |
-| Review report | `./.squad/review_report.md` | updated for final task-03-transform Closeout decision |
-| Squad decisions | `./.squad/decisions.md` | updated with task-04-schema validation decision |
-| Root README | `./README.md` | updated for task-03-transform handoff to task-04-schema |
+| Review report | `./.squad/review_report.md` | updated for task-04-schema Closeout decision |
+| Squad decisions | `./.squad/decisions.md` | updated with task-04-schema closeout decision |
+| Root README | `./README.md` | updated for task-04-schema handoff to task-05-verify |
 | Transform implementation | `./src/transform.py` | complete (all slices) |
 | Schema generator | `./src/generate_schemas.py` | created |
 | Transform tests | `./tests/test_transform.py` | complete |

@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — Closeout returns the repo to Build for task-05-verify
+
+**Decision:** Close out `task-04-schema` and return the repo to **Build** for `task-05-verify`.
+**Rationale:** Independent closeout rechecked `STATUS.md`, `backlog/tasks/task-04-schema.md`, `.squad/sprint.md`, the latest validation report, and the root `README.md`, then reran `python -m pip install -r requirements.txt`, `python -m unittest discover -s tests -v`, `python src/generate_schemas.py --help`, a real `python src/generate_schemas.py --schemas-dir /tmp/cbo_closeout_schema` run, a schema coverage/required-sections audit, and `diff -rq docs/schemas /tmp/cbo_closeout_schema`. The closeout evidence confirmed that all 177 processed CSVs still have matching schema docs, every schema includes the required sections, provenance, output-column details, and `is_total` guidance, and the checked-in schema docs reproduce without drift. With schema coverage closed out, the correct handoff is the next sprint item (`task-05-verify`) rather than reopening schema work.
+**Task:** task-05-verify
+
+---
+
 ### 2026-05-11 — Validate advances task-04-schema to Closeout
 
 **Decision:** Advance `task-04-schema` from Validate to Closeout.
