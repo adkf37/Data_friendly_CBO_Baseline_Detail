@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Phase | validate-task-03-transform-health-slice |
-| Next Action | Build |
+| Phase | build-task-03-transform-health-slice |
+| Next Action | Validate |
 | Last Updated | 2026-05-11 |
 | Squad Template | data_pipeline |
 | Priority | low |
@@ -12,10 +12,11 @@
 
 ## Current Objective
 
-Validate **Task ID: `task-03-transform`** (health slice) — validation found the first-pass transform runnable and unit-tested, but the real health-slice run still produces parse failures, implausible fiscal years, and undocumented duplicate output rows. Return to Build to fix header/year inference and duplicate handling before rerunning Validate.
+Build **Task ID: `task-03-transform`** (health slice) — improve fiscal-year extraction reliability by preferring top-of-header year cells and prevent duplicate `(program, category, fiscal_year, unit, source_sheet)` output keys. Route to Validate for rerun on real health-slice workbooks.
 
 ## Recent Activity
 
+- 2026-05-11: Build advanced for **Task ID: `task-03-transform`** (health slice) — updated year extraction to prioritize top header rows and added key-level deduplication in `src/transform.py`; added focused regression test for header-year preference plus duplicate prevention. Full unittest suite passes (`python -m unittest discover -s tests -v`). Routed to Validate.
 - 2026-05-11: Validate executed for **Task ID: `task-03-transform`** (health slice) — dependency install, full unittest suite, CLI help, and a real health-slice transform run completed. Validation failed because the run logged 14 parse errors and the generated CSVs include implausible fiscal years plus undocumented duplicate keys across 25 datasets. Routed back to Build for `task-03-transform`.
 - 2026-05-11: Tasks 01, 02, 02b marked complete. Generated `config/workbook_parse_plan.yaml` (230 workbooks, 335 sheets, 299 included). Advanced to Build for `task-03-transform`
 - 2026-05-11: Downloaded 230 of 244 historical CBO xlsx workbooks via Wayback Machine; 14 Feb-2026 files unavailable. Regenerated `docs/inspection_report.md` with full dataset (230 workbooks, 12,280 lines)
