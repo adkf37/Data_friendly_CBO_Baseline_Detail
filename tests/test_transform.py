@@ -194,6 +194,87 @@ workbooks:
             self.assertIn("missing-health.xlsx", error_text)
             self.assertIn("workbook not found", error_text)
 
+    def test_run_transform_remaining_programs_slice_excludes_health_and_income_security(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            input_dir = root / "raw"
+            output_dir = root / "processed"
+            input_dir.mkdir(parents=True)
+
+            health_workbook = "51293-2024-06-childnutrition.xlsx"
+            income_workbook = "51312-2024-06-snap.xlsx"
+            other_workbook = "51315-2024-06-defense.xlsx"
+
+            _write_health_workbook(input_dir / health_workbook)
+            _write_income_security_workbook(input_dir / income_workbook)
+
+            # Write a simple "other/remaining programs" workbook
+            wb = Workbook()
+            ws = wb.active
+            ws.title = "Defense"
+            ws["A1"] = "Defense Program"
+            ws["B1"] = "2025"
+            ws["C1"] = "2026"
+            ws["A2"] = "Total Outlays"
+            ws["B2"] = 800
+            ws["C2"] = 850
+            wb.save(input_dir / other_workbook)
+
+            parse_plan = root / "workbook_parse_plan.yaml"
+            parse_plan.write_text(
+                """
+workbooks:
+  - workbook: 51293-2024-06-childnutrition.xlsx
+    sheets:
+      - sheet: Health
+        include: true
+        output_dataset: childnutrition_health_2024_06
+        header_rows: 1-1
+        first_data_row: 2
+        year_columns: [2, 3]
+        unit: Millions of dollars
+  - workbook: 51312-2024-06-snap.xlsx
+    sheets:
+      - sheet: Income Security
+        include: true
+        output_dataset: snap_2024_06
+        header_rows: 1-1
+        first_data_row: 2
+        year_columns: [2, 3]
+        unit: Millions of dollars
+  - workbook: 51315-2024-06-defense.xlsx
+    sheets:
+      - sheet: Defense
+        include: true
+        output_dataset: defense_2024_06
+        header_rows: 1-1
+        first_data_row: 2
+        year_columns: [2, 3]
+        unit: Billions of dollars
+                """.strip()
+                + "\n",
+                encoding="utf-8",
+            )
+
+            rc = transform.run_transform(
+                parse_plan_path=parse_plan,
+                input_dir=input_dir,
+                output_dir=output_dir,
+                slice_name="remaining-programs",
+            )
+
+            self.assertEqual(0, rc)
+            self.assertFalse((output_dir / "childnutrition_health_2024_06.csv").exists())
+            self.assertFalse((output_dir / "snap_2024_06.csv").exists())
+            csv_path = output_dir / "defense_2024_06.csv"
+            self.assertTrue(csv_path.exists())
+            with csv_path.open(encoding="utf-8", newline="") as handle:
+                rows = list(DictReader(handle))
+            self.assertEqual(2, len(rows))
+            self.assertEqual({"Defense"}, {row["program"] for row in rows})
+            self.assertEqual({"2025", "2026"}, {row["fiscal_year"] for row in rows})
+            self.assertEqual("", (output_dir / "parse_errors.log").read_text(encoding="utf-8"))
+
     def test_run_transform_rejects_unknown_slice(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)

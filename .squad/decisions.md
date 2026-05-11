@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — task-03-transform remaining-programs slice
+
+**Decision:** Add `remaining-programs` to `SLICE_CHOICES` in `src/transform.py` and extend `_in_slice` so that the `remaining-programs` slice selects all included parse-plan datasets whose `output_dataset` name does not match any health or income-security keyword. Expose the new slice through the CLI as `--slice remaining-programs`. Added regression test `test_run_transform_remaining_programs_slice_excludes_health_and_income_security`.
+**Rationale:** The sprint's next unfinished ordered task after the income-security closeout is the remaining-programs slice of `task-03-transform`. Implementing the slice as a complement of health + income-security is the smallest correct approach: it does not require adding new keyword lists for every remaining program group (defense, education, veterans, etc.) and guarantees full parse-plan coverage once `--slice all` or targeted per-program runs are used. The regression test confirms the routing boundary against synthetic health, income-security, and "other" workbooks in a single run.
+**Task:** task-03-transform
+
+---
+
 ### 2026-05-11 — Closeout returns task-03-transform to Build for the remaining-programs slice
 
 **Decision:** Close out the `task-03-transform` income-security slice and return the repo to **Build** for the next ordered remaining-programs slice of `task-03-transform`.
