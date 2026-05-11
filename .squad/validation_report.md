@@ -27,7 +27,7 @@ python -m unittest discover -s tests -v
 ```
 
 - **Result:** Passed
-- **Evidence:** 7 tests passed total, including the two focused transform tests that verify tidy CSV output and explicit parse-error logging.
+- **Evidence:** 8 tests passed total, including the new transform regression that verifies top-header year preference and duplicate-key suppression.
 
 ### 3. CLI runnable-from-root smoke check
 
@@ -45,7 +45,7 @@ python src/transform.py --slice health --output-dir /tmp/cbo_transform_validate
 ```
 
 - **Result:** Failed
-- **Evidence:** Command exited with status 1 after `Transform complete. slice=health, datasets=38, rows=10090, errors=14`.
+- **Evidence:** Command exited with status 1 after `Transform complete. slice=health, datasets=38, rows=8371, errors=14`.
 - **Parse-error sample:**  
   - `51293-2020-01-childnutrition.xlsx	CNP	no fiscal years inferred`
   - `51298-2019-05-Health-Insurance.xlsx	Table 4-1	year_columns missing`
@@ -77,6 +77,8 @@ missing = []
 required = ["program", "category", "fiscal_year", "value", "unit", "source_file", "source_sheet", "is_total"]
 duplicates = []
 implausible_years = []
+empty_csvs = []
+bad_headers = []
 
 for workbook, sheet, dataset in plans:
     csv_path = out / f"{dataset}.csv"
@@ -86,7 +88,12 @@ for workbook, sheet, dataset in plans:
 for csv_path in sorted(out.glob("*.csv")):
     with csv_path.open(encoding="utf-8", newline="") as handle:
         reader = csv.DictReader(handle)
+        fieldnames = reader.fieldnames or []
         rows = list(reader)
+    if fieldnames != required:
+        bad_headers.append((csv_path.name, fieldnames))
+    if not rows:
+        empty_csvs.append(csv_path.name)
     seen = Counter()
     for row in rows:
         key = (row["program"], row["category"], row["fiscal_year"], row["unit"], row["source_sheet"])
@@ -102,6 +109,8 @@ print(f"health_plan_entries={len(plans)}")
 print(f"datasets_written={len(list(out.glob('*.csv')))}")
 print(f"parse_errors={len(error_lines)}")
 print(f"missing_entries={len(missing)}")
+print(f"empty_csvs={len(empty_csvs)}")
+print(f"bad_headers={len(bad_headers)}")
 print(f"datasets_with_duplicates={len(duplicates)}")
 print(f"implausible_year_rows={len(implausible_years)}")
 PY
@@ -110,9 +119,14 @@ PY
 - **Result:** Failed
 - **Evidence:**  
   - All 71 included health-sheet parse-plan entries were accounted for by either an output CSV or an explicit parse-error entry (`missing_entries=0`), so no sheet was silently dropped.  
-  - 38 datasets were written and all were non-empty with the required columns and UTF-8 CSV headers.  
-  - 25 datasets contained duplicate `(program, category, fiscal_year, unit, source_sheet)` keys without any parser-note documentation in the build slice.  
-  - Generated output includes implausible fiscal years; for example `/tmp/cbo_transform_validate/child_nutrition_2019_05.csv` starts with `1920`, `1950`, `2096`, and repeated `2021` rows for the same category. This violates the transform task’s expectation that `fiscal_year` values stay in a plausible range and that duplicate rows are prevented or explicitly documented.
+  - 38 datasets were written and all were non-empty with the required UTF-8 headers (`empty_csvs=0`, `bad_headers=0`).  
+  - Duplicate `(program, category, fiscal_year, unit, source_sheet)` keys were eliminated (`datasets_with_duplicates=0`), so the latest build fixed that part of the prior validation failure.  
+  - Generated output still includes 98 implausible fiscal-year rows concentrated in four 2019-05 datasets:
+    - `child_nutrition_2019_05.csv` — 42 rows with years `2012`-`2018`
+    - `chip_2019_05.csv` — 12 rows with year `2018`
+    - `medicaid_2019_05.csv` — 8 rows with year `2018`
+    - `medicare_2019_05.csv` — 36 rows with year `2018`
+  - Example bad row from `/tmp/cbo_transform_validate/child_nutrition_2019_05.csv`: `category=Paid`, `fiscal_year=2012`, `source_sheet=CNP May 2019`. This keeps the slice outside the task’s “plausible fiscal year” validation expectation.
 
 ## Blocked Checks
 
@@ -125,11 +139,11 @@ PY
 - [x] Output CSVs are written as UTF-8 and contain the required columns
 - [x] Output rows are melted into `fiscal_year` / `value` columns rather than remaining in wide format
 - [x] Totals and subtotals are flagged with `is_total=true`
-- [ ] Empty rows, narrative footnotes, and layout-only rows are excluded from outputs
+- [ ] Empty rows, narrative footnotes, and layout-only rows are excluded from outputs for the affected 2019-05 health datasets
 - [x] Output file names match parse-plan `output_dataset` values for the successful datasets
-- [ ] Duplicate `(program, category, fiscal_year, unit, source_sheet)` rows are prevented or explicitly documented
+- [x] Duplicate `(program, category, fiscal_year, unit, source_sheet)` rows are prevented
 - [ ] Fiscal-year inference is reliable for the full health slice
 
 ## Recommendation
 
-Return the repo to **Build** for `task-03-transform`. The health-slice implementation is runnable and test-backed, but it is not yet ready to advance because the real workbook run still produces 14 parse failures and the generated CSVs contain implausible fiscal years plus undocumented duplicate keys across 25 datasets. The next build step should focus on correcting year/header inference for the affected health workbooks and preventing or documenting duplicate output rows before Validate is rerun.
+Return the repo to **Build** for `task-03-transform`. The health-slice implementation is runnable, fully unit-tested, and no longer emits duplicate keys, but it is not ready to advance because a real health run still produces 14 explicit parse errors and 98 implausible fiscal-year rows in four 2019-05 datasets. The next build step should focus on correcting header/year inference for those 2019-05 health workbooks and then rerun Validate on the same real-slice checks.
