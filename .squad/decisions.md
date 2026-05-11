@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — Validate advances task-03-transform remaining-programs slice to Closeout
+
+**Decision:** Advance the `task-03-transform` remaining-programs slice from Validate to Closeout.
+**Rationale:** Validation reran the declared dependency install, full unittest suite, repo-root CLI smoke check, a real `python src/transform.py --slice remaining-programs --output-dir /tmp/cbo_transform_validate_remaining` run, and a follow-up integrity review of the generated CSVs. Validation also caught and fixed an over-broad `"nutrition"` health keyword that had been silently routing `child_nutrition*` datasets out of the remaining-programs slice; after that targeted correction, all 120 included remaining-programs parse-plan entries were accounted for by either CSV output or explicit parse-error logging, 73 non-empty datasets were written with the required headers, duplicate keys stayed at zero, and implausible fiscal-year rows remained at zero. The remaining 39 parse errors are surfaced explicitly in `parse_errors.log`, which satisfies the slice acceptance criteria while leaving a documented parser-improvement follow-up for later schema and verification work.
+**Task:** task-03-transform
+
+---
+
 ### 2026-05-11 — task-03-transform remaining-programs slice
 
 **Decision:** Add `remaining-programs` to `SLICE_CHOICES` in `src/transform.py` and extend `_in_slice` so that the `remaining-programs` slice selects all included parse-plan datasets whose `output_dataset` name does not match any health or income-security keyword. Expose the new slice through the CLI as `--slice remaining-programs`. Added regression test `test_run_transform_remaining_programs_slice_excludes_health_and_income_security`.

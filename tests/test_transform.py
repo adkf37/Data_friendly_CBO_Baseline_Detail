@@ -41,6 +41,21 @@ def _write_income_security_workbook(path: Path) -> None:
 
 
 class TransformTests(unittest.TestCase):
+    def test_child_nutrition_dataset_routes_to_remaining_programs_slice(self):
+        plan = transform.SheetPlan(
+            workbook="51293-2024-06-childnutrition.xlsx",
+            sheet="CNP",
+            include=True,
+            output_dataset="childnutrition_2024_06",
+            header_end_row=1,
+            first_data_row=2,
+            year_columns=[2, 3],
+            unit="Millions of dollars",
+        )
+
+        self.assertFalse(transform._in_slice(plan, "health"))
+        self.assertTrue(transform._in_slice(plan, "remaining-programs"))
+
     def test_run_transform_income_security_slice_excludes_health_datasets(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)
