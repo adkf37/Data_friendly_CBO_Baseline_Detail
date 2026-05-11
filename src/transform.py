@@ -174,7 +174,6 @@ def _read_plan(path: Path) -> list[SheetPlan]:
 
 
 def _in_slice(plan: SheetPlan, slice_name: str) -> bool:
-    slice_name = slice_name.replace("_", "-").lower()
     if slice_name == "all":
         return True
     dataset = plan.output_dataset.lower()

@@ -24,6 +24,22 @@ def _write_health_workbook(path: Path) -> None:
     workbook.save(path)
 
 
+def _write_income_security_workbook(path: Path) -> None:
+    workbook = Workbook()
+    sheet = workbook.active
+    sheet.title = "Health"
+    sheet["A1"] = "Income Security Program"
+    sheet["B1"] = "2025"
+    sheet["C1"] = "2026"
+    sheet["A2"] = "Total Benefits"
+    sheet["B2"] = 100
+    sheet["C2"] = 110
+    sheet["A3"] = "Administrative Costs"
+    sheet["B3"] = 20
+    sheet["C3"] = 22
+    workbook.save(path)
+
+
 class TransformTests(unittest.TestCase):
     def test_run_transform_income_security_slice_excludes_health_datasets(self):
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -35,7 +51,7 @@ class TransformTests(unittest.TestCase):
             health_workbook = "51293-2024-06-childnutrition.xlsx"
             income_workbook = "51312-2024-06-snap.xlsx"
             _write_health_workbook(input_dir / health_workbook)
-            _write_health_workbook(input_dir / income_workbook)
+            _write_income_security_workbook(input_dir / income_workbook)
             parse_plan = root / "workbook_parse_plan.yaml"
             parse_plan.write_text(
                 """
