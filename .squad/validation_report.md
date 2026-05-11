@@ -7,7 +7,7 @@
 
 ## Scope
 
-Validate the latest `task-03-transform` health-slice build (`src/transform.py` and `tests/test_transform.py`) against the transform acceptance criteria and the sprint commitment for the first ordered transform slice.
+Validate the latest `task-03-transform` income-security-slice build (`src/transform.py` and `tests/test_transform.py`) against the transform acceptance criteria and the sprint commitment for the second ordered transform slice.
 
 ## Checks Run
 
@@ -27,7 +27,7 @@ python -m unittest discover -s tests -v
 ```
 
 - **Result:** Passed
-- **Evidence:** 9 tests passed total, including transform regressions for plausible-year filtering, header-year preference, and duplicate-key suppression.
+- **Evidence:** 11 tests passed total, including the income-security slice regression `test_run_transform_income_security_slice_excludes_health_datasets` plus the earlier transform guards for plausible-year filtering, header-year preference, and duplicate-key suppression.
 
 ### 3. CLI runnable-from-root smoke check
 
@@ -36,42 +36,60 @@ python src/transform.py --help
 ```
 
 - **Result:** Passed
-- **Evidence:** Help output rendered successfully from the repository root with `--parse-plan`, `--input-dir`, `--output-dir`, and `--slice` options.
+- **Evidence:** Help output rendered successfully from the repository root with `--parse-plan`, `--input-dir`, `--output-dir`, and `--slice {health,income-security,all}` options.
 
-### 4. Real health-slice transform run
+### 4. Real income-security transform run
 
 ```bash
-python src/transform.py --slice health --output-dir /tmp/cbo_transform_validate
+python src/transform.py --slice income-security --output-dir /tmp/cbo_transform_validate_income
 ```
 
 - **Result:** Passed with explicit parse-error logging
-- **Evidence:** Command reported `Transform complete. slice=health, datasets=38, rows=8273, errors=14` and exited non-zero because parse errors are surfaced by design.
+- **Evidence:** Command reported `Transform complete. slice=income-security, datasets=72, rows=7779, errors=37` and exited non-zero because parse errors are surfaced by design.
 - **Parse-error sample:**  
-  - `51293-2020-01-childnutrition.xlsx	CNP	no fiscal years inferred`
-  - `51293-2020-03-childnutrition.xlsx	CNP	no fiscal years inferred`
-  - `51298-2019-05-Health-Insurance.xlsx	Table 4-1	year_columns missing`
+  - `51295-2021-02-childsupportenforcement.xlsx	1-CSE_2-2021	no fiscal years inferred`
+  - `51299-2021-02-fostercare.xlsx	Foster Care 2-2021	no fiscal years inferred`
+  - `51310-2019-05-Student-Loan.xlsx	Table 2	no fiscal years inferred`
 
-### 5. Health-slice coverage and output integrity review
+### 5. Income-security coverage and output integrity review
 
 ```bash
 python - <<'PY'
 from pathlib import Path
 import csv
-import yaml
 from collections import Counter
+import yaml
 
 root = Path("/home/runner/work/Data_friendly_CBO_Baseline_Detail/Data_friendly_CBO_Baseline_Detail")
-out = Path("/tmp/cbo_transform_validate")
+out = Path("/tmp/cbo_transform_validate_income")
 payload = yaml.safe_load((root / "config/workbook_parse_plan.yaml").read_text(encoding="utf-8")) or {}
-health_keywords = ("health", "medicare", "medicaid", "chip", "nutrition")
+keywords = (
+    "child_support",
+    "childsupport",
+    "csec",
+    "foster_care",
+    "fostercare",
+    "military_retirement",
+    "militaryretirement",
+    "snap",
+    "social_security",
+    "socialsecurity",
+    "ssi",
+    "student_loan",
+    "studentloan",
+    "tanf",
+    "unemployment",
+)
 plans = []
 for workbook in payload.get("workbooks", []):
     for sheet in workbook.get("sheets", []):
-        dataset = str(sheet.get("output_dataset", ""))
-        if sheet.get("include") and any(keyword in dataset.lower() for keyword in health_keywords):
-            plans.append((workbook["workbook"], sheet["sheet"], dataset))
+        dataset = str(sheet.get("output_dataset", "")).lower()
+        if sheet.get("include") and any(keyword in dataset for keyword in keywords):
+            plans.append((workbook["workbook"], sheet["sheet"], str(sheet.get("output_dataset", ""))))
 
-error_lines = [line for line in (out / "parse_errors.log").read_text(encoding="utf-8").splitlines() if line.strip()]
+error_lines = [
+    line for line in (out / "parse_errors.log").read_text(encoding="utf-8").splitlines() if line.strip()
+]
 error_keys = {(line.split("\t")[0], line.split("\t")[1]) for line in error_lines}
 missing = []
 required = ["program", "category", "fiscal_year", "value", "unit", "source_file", "source_sheet", "is_total"]
@@ -79,6 +97,8 @@ duplicates = []
 implausible_years = []
 empty_csvs = []
 bad_headers = []
+wide_header_files = []
+non_boolean_is_total = []
 
 for workbook, sheet, dataset in plans:
     csv_path = out / f"{dataset}.csv"
@@ -92,6 +112,8 @@ for csv_path in sorted(out.glob("*.csv")):
         rows = list(reader)
     if fieldnames != required:
         bad_headers.append((csv_path.name, fieldnames))
+    if fieldnames and any(name.isdigit() for name in fieldnames):
+        wide_header_files.append(csv_path.name)
     if not rows:
         empty_csvs.append(csv_path.name)
     seen = Counter()
@@ -101,27 +123,33 @@ for csv_path in sorted(out.glob("*.csv")):
         year = int(row["fiscal_year"])
         if year < 2019 or year > 2040:
             implausible_years.append((csv_path.name, row))
+        if row["is_total"] not in {"true", "false"}:
+            non_boolean_is_total.append((csv_path.name, row["is_total"]))
     dup_keys = [key for key, count in seen.items() if count > 1]
     if dup_keys:
         duplicates.append((csv_path.name, len(dup_keys)))
 
-print(f"health_plan_entries={len(plans)}")
+print(f"income_plan_entries={len(plans)}")
 print(f"datasets_written={len(list(out.glob('*.csv')))}")
 print(f"parse_errors={len(error_lines)}")
 print(f"missing_entries={len(missing)}")
 print(f"empty_csvs={len(empty_csvs)}")
 print(f"bad_headers={len(bad_headers)}")
+print(f"wide_header_files={len(wide_header_files)}")
 print(f"datasets_with_duplicates={len(duplicates)}")
 print(f"implausible_year_rows={len(implausible_years)}")
+print(f"non_boolean_is_total_rows={len(non_boolean_is_total)}")
 PY
 ```
 
 - **Result:** Passed
 - **Evidence:**  
-  - All 71 included health-sheet parse-plan entries were accounted for by either an output CSV or an explicit parse-error entry (`missing_entries=0`), so no sheet was silently dropped.  
-  - 38 datasets were written and all were non-empty with the required UTF-8 headers (`empty_csvs=0`, `bad_headers=0`).  
+  - All 118 included income-security-sheet parse-plan entries were accounted for by either an output CSV or an explicit parse-error entry (`missing_entries=0`), so no sheet was silently dropped.  
+  - 72 datasets were written and all were non-empty with the required UTF-8 headers (`empty_csvs=0`, `bad_headers=0`).  
+  - No successful dataset remained in wide format (`wide_header_files=0`).  
   - Duplicate `(program, category, fiscal_year, unit, source_sheet)` keys were eliminated (`datasets_with_duplicates=0`).  
-  - Implausible fiscal-year rows were fully eliminated (`implausible_year_rows=0`) when checked against the repository's documented plausible-year range `[2019, 2040]`, resolving the prior validation failure on the four 2019-05 health datasets.
+  - Implausible fiscal-year rows were fully eliminated (`implausible_year_rows=0`) when checked against the repository's documented plausible-year range `[2019, 2040]`.  
+  - `is_total` values remained normalized to `true` / `false` across the validated outputs (`non_boolean_is_total_rows=0`).
 
 ## Blocked Checks
 
@@ -133,16 +161,17 @@ PY
 - [x] Every parse-plan sheet marked for inclusion produces at least one documented CSV or an explicit parse error entry
 - [x] Output CSVs are written as UTF-8 and contain the required columns
 - [x] Output rows are melted into `fiscal_year` / `value` columns rather than remaining in wide format
-- [x] Totals and subtotals are flagged with `is_total=true`
-- [x] Empty rows, narrative footnotes, and layout-only rows are excluded from outputs for the validated health datasets
+- [x] Totals and subtotals are flagged with `is_total=true` / `false`
+- [x] Empty rows, narrative footnotes, and layout-only rows are excluded from outputs for the validated income-security datasets
 - [x] Output file names match the parse-plan `output_dataset` values for the successful datasets
 - [x] Duplicate `(program, category, fiscal_year, unit, source_sheet)` rows are prevented
-- [x] Fiscal-year inference is reliable for the validated health slice
+- [x] Fiscal-year inference is reliable for the validated income-security slice
 
 ## Remaining Risks / Follow-up
 
-- The real health-slice run still surfaces 14 explicit parse errors. That does not violate this slice’s acceptance criteria because those sheets are documented in `parse_errors.log`, but Closeout should preserve them as known follow-up work for later transform coverage improvements.
+- The real income-security run still surfaces 37 explicit parse errors. That does not violate this slice’s acceptance criteria because those sheets are documented in `parse_errors.log`, but Closeout should preserve them as known parser-improvement follow-up work before the final remaining-programs slice and later verification work.
+- `task-03-transform` still has one remaining ordered build slice (`remaining programs`) before downstream schema, verification, and pipeline tasks can complete.
 
 ## Recommendation
 
-Advance the repo to **Closeout** for `task-03-transform`. The health-slice implementation is runnable from the repo root, the full unittest suite passes, the real slice writes valid non-empty CSVs for all successful datasets, every included sheet is accounted for, duplicate keys are prevented, and the prior implausible-year defect is resolved.
+Advance the repo to **Closeout** for `task-03-transform`. The income-security slice is runnable from the repo root, the full unittest suite passes, the real slice writes valid non-empty CSVs for all successful datasets, every included sheet is accounted for, duplicate keys are prevented, and the outputs stay within the documented plausible fiscal-year range.

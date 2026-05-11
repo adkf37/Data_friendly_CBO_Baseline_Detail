@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — Validate advances task-03-transform income-security slice to Closeout
+
+**Decision:** Advance the `task-03-transform` income-security slice from Validate to Closeout.
+**Rationale:** Validation reran the declared dependency install, full unittest suite, repo-root CLI smoke check, a real `python src/transform.py --slice income-security --output-dir /tmp/cbo_transform_validate_income` run, and a follow-up integrity review of the generated CSVs. The latest build now passes 11 tests, accounts for all 118 included income-security parse-plan entries via either CSV output or explicit parse-error logging, writes 72 non-empty datasets with the required headers, eliminates duplicate output keys, and keeps implausible fiscal-year rows at zero. The remaining 37 parse errors are surfaced explicitly in `parse_errors.log`, which satisfies the slice acceptance criteria while leaving a documented parser-improvement follow-up for later work.
+**Task:** task-03-transform
+
+---
+
 ### 2026-05-11 — task-03-transform income-security slice routing
 
 **Decision:** Extend `src/transform.py` with an explicit `income-security` slice that filters parse-plan entries by income-security dataset keywords, and expose it through the CLI as `python src/transform.py --slice income-security`.
