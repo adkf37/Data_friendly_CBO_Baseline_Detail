@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Phase | build-task-03-transform |
-| Next Action | Build |
+| Phase | build-task-03-transform-health-slice |
+| Next Action | Validate |
 | Last Updated | 2026-05-11 |
 | Squad Template | data_pipeline |
 | Priority | low |
@@ -12,12 +12,13 @@
 
 ## Current Objective
 
-Build **Task ID: `task-03-transform`** — implement the transform step that reads workbooks from `data/raw/` using `config/workbook_parse_plan.yaml` and produces tidy output datasets. Tasks 01, 02, and 02b are complete.
+Build **Task ID: `task-03-transform`** (health slice) — implemented initial transform tooling in `src/transform.py` to read parse-plan entries, reshape year columns to tidy output, and log parse errors. Added focused transform tests.
 
 ## Recent Activity
 
 - 2026-05-11: Tasks 01, 02, 02b marked complete. Generated `config/workbook_parse_plan.yaml` (230 workbooks, 335 sheets, 299 included). Advanced to Build for `task-03-transform`
 - 2026-05-11: Downloaded 230 of 244 historical CBO xlsx workbooks via Wayback Machine; 14 Feb-2026 files unavailable. Regenerated `docs/inspection_report.md` with full dataset (230 workbooks, 12,280 lines)
+- 2026-05-11: Build advanced for **Task ID: `task-03-transform`** health slice — added `src/transform.py` CLI/runner, created parse-error logging, and added `tests/test_transform.py` (2 tests passing). Routed to Validate.
 
 - 2026-05-08: Validate executed for `task-02-inspect` — passed unittest and CLI smoke checks, confirmed the inspection report is empty because `data/raw/` is missing, re-verified `www.cbo.gov` DNS resolution is blocked in the sandbox, and marked the loop Human Blocked
 - 2026-05-08: Build executed for `task-02-inspect` — added workbook/sheet profiling script, report generation, and focused inspect tests
@@ -67,7 +68,4 @@ Build **Task ID: `task-03-transform`** — implement the transform step that rea
 
 ## Needs Human Input
 
-- Provide the downloaded `.xlsx` workbook set under `data/raw/`, or
-- Restore sandbox/network access to `https://www.cbo.gov/data/baseline-projections-selected-programs`
-
-After either unblock, rerun **Validate** for `task-02-inspect` before advancing to `task-02b-parse-plan`.
+- None at this time.
