@@ -2,12 +2,12 @@
 
 **Date:** 2026-05-11  
 **Phase:** Validate  
-**Task ID:** `task-03-transform`  
-**Recommendation:** Pass — advance to Closeout for `task-03-transform`
+**Task ID:** `task-04-schema`  
+**Recommendation:** Pass — advance to Closeout for `task-04-schema`
 
 ## Scope
 
-Validate the latest `task-03-transform` remaining-programs build (`src/transform.py` and `tests/test_transform.py`) against the transform acceptance criteria and the sprint commitment for the third ordered transform slice.
+Validate the latest `task-04-schema` build (`src/generate_schemas.py`, `docs/schemas/`, and `tests/test_generate_schemas.py`) against the schema-task acceptance criteria and the sprint commitment for the next ordered build item after transform closeout.
 
 ## Checks Run
 
@@ -18,7 +18,7 @@ python -m pip install -r requirements.txt
 ```
 
 - **Result:** Passed
-- **Evidence:** Declared dependencies installed successfully, including `openpyxl` and `PyYAML` required by the transform workflow.
+- **Evidence:** Declared dependencies installed successfully, including `openpyxl` and `PyYAML`, and no extra setup was required beyond `requirements.txt`.
 
 ### 2. Existing unit tests
 
@@ -27,154 +27,113 @@ python -m unittest discover -s tests -v
 ```
 
 - **Result:** Passed
-- **Evidence:** 13 tests passed total, including the new routing regression `test_child_nutrition_dataset_routes_to_remaining_programs_slice` plus the remaining-programs, income-security, plausible-year, and duplicate-key transform guards.
+- **Evidence:** 22 tests passed total, including the schema-generator coverage, README index, provenance, and `is_total` guidance checks in `tests/test_generate_schemas.py`.
 
 ### 3. CLI runnable-from-root smoke check
 
 ```bash
-python src/transform.py --help
+python src/generate_schemas.py --help
 ```
 
 - **Result:** Passed
-- **Evidence:** Help output rendered successfully from the repository root with `--parse-plan`, `--input-dir`, `--output-dir`, and `--slice {health,income-security,remaining-programs,all}` options.
+- **Evidence:** Help output rendered successfully from the repository root with `--processed-dir` and `--schemas-dir` options.
 
-### 4. Real remaining-programs transform run
+### 4. Real schema-generation run
 
 ```bash
-python src/transform.py --slice remaining-programs --output-dir /tmp/cbo_transform_validate_remaining
+python src/generate_schemas.py --schemas-dir /tmp/cbo_schema_validate
 ```
 
-- **Result:** Passed with explicit parse-error logging
-- **Evidence:** Command reported `Transform complete. slice=remaining-programs, datasets=73, rows=5427, errors=39` and exited non-zero because parse errors are surfaced by design.
-- **Parse-error sample:**  
-  - `51293-2020-01-childnutrition.xlsx	CNP	no fiscal years inferred`
-  - `51293-2021-07-childnutrition.xlsx	Child Nutrition_07-2021	no fiscal years inferred`
-  - `51297-2020-03-mortgages.xlsx	Mortgage Programs	sheet not found`
+- **Result:** Passed
+- **Evidence:** Command completed successfully and reported `Schema generation complete. datasets=177, schemas_dir=/tmp/cbo_schema_validate, index=/tmp/cbo_schema_validate/README.md`.
 
-### 5. Remaining-programs coverage and output integrity review
+### 5. Schema coverage and required-section audit
 
 ```bash
 python - <<'PY'
 from pathlib import Path
 import csv
-from collections import Counter
-import yaml
 
 root = Path("/home/runner/work/Data_friendly_CBO_Baseline_Detail/Data_friendly_CBO_Baseline_Detail")
-out = Path("/tmp/cbo_transform_validate_remaining")
-payload = yaml.safe_load((root / "config/workbook_parse_plan.yaml").read_text(encoding="utf-8")) or {}
-health_keywords = ("health", "medicare", "medicaid", "chip")
-income_keywords = (
-    "child_support",
-    "childsupport",
-    "csec",
-    "foster_care",
-    "fostercare",
-    "military_retirement",
-    "militaryretirement",
-    "snap",
-    "social_security",
-    "socialsecurity",
-    "ssi",
-    "student_loan",
-    "studentloan",
-    "tanf",
-    "unemployment",
-)
-plans = []
-for workbook in payload.get("workbooks", []):
-    for sheet in workbook.get("sheets", []):
-        dataset = str(sheet.get("output_dataset", "")).lower()
-        if sheet.get("include") and not any(keyword in dataset for keyword in health_keywords) and not any(
-            keyword in dataset for keyword in income_keywords
-        ):
-            plans.append((workbook["workbook"], sheet["sheet"], str(sheet.get("output_dataset", ""))))
+processed = root / "data" / "processed"
+schemas = Path("/tmp/cbo_schema_validate")
+processed_names = sorted(p.stem for p in processed.glob("*.csv"))
+schema_names = sorted(p.stem for p in schemas.glob("*.md") if p.name != "README.md")
+missing_schemas = sorted(set(processed_names) - set(schema_names))
+extra_schemas = sorted(set(schema_names) - set(processed_names))
+required_sections = ["## Purpose", "## Provenance", "## Columns", "## is_total Interpretation"]
+missing_sections = []
+missing_column_details = []
+missing_is_total_guidance = []
+missing_provenance_values = []
+required_columns = ["program", "category", "fiscal_year", "value", "unit", "source_file", "source_sheet", "is_total"]
 
-error_lines = [
-    line for line in (out / "parse_errors.log").read_text(encoding="utf-8").splitlines() if line.strip()
-]
-error_keys = {(line.split("\t")[0], line.split("\t")[1]) for line in error_lines}
-missing = []
-required = ["program", "category", "fiscal_year", "value", "unit", "source_file", "source_sheet", "is_total"]
-duplicates = []
-implausible_years = []
-empty_csvs = []
-bad_headers = []
-wide_header_files = []
-non_boolean_is_total = []
-
-for workbook, sheet, dataset in plans:
-    csv_path = out / f"{dataset}.csv"
-    if not csv_path.exists() and (workbook, sheet) not in error_keys:
-        missing.append((workbook, sheet, dataset))
-
-for csv_path in sorted(out.glob("*.csv")):
+for csv_path in sorted(processed.glob("*.csv")):
+    schema_path = schemas / f"{csv_path.stem}.md"
+    content = schema_path.read_text(encoding="utf-8")
+    for section in required_sections:
+        if section not in content:
+            missing_sections.append((csv_path.stem, section))
+    for column in required_columns:
+        if f"`{column}`" not in content:
+            missing_column_details.append((csv_path.stem, column))
+    if "double-counting" not in content:
+        missing_is_total_guidance.append(csv_path.stem)
     with csv_path.open(encoding="utf-8", newline="") as handle:
         reader = csv.DictReader(handle)
-        fieldnames = reader.fieldnames or []
-        rows = list(reader)
-    if fieldnames != required:
-        bad_headers.append((csv_path.name, fieldnames))
-    if fieldnames and any(name.isdigit() for name in fieldnames):
-        wide_header_files.append(csv_path.name)
-    if not rows:
-        empty_csvs.append(csv_path.name)
-    seen = Counter()
-    for row in rows:
-        key = (row["program"], row["category"], row["fiscal_year"], row["unit"], row["source_sheet"])
-        seen[key] += 1
-        year = int(row["fiscal_year"])
-        if year < 2019 or year > 2040:
-            implausible_years.append((csv_path.name, row))
-        if row["is_total"] not in {"true", "false"}:
-            non_boolean_is_total.append((csv_path.name, row["is_total"]))
-    dup_keys = [key for key, count in seen.items() if count > 1]
-    if dup_keys:
-        duplicates.append((csv_path.name, len(dup_keys)))
+        first_row = next(reader, None)
+    if first_row:
+        if first_row["source_file"] not in content or first_row["source_sheet"] not in content:
+            missing_provenance_values.append(csv_path.stem)
 
-print(f"remaining_plan_entries={len(plans)}")
-print(f"datasets_written={len(list(out.glob('*.csv')))}")
-print(f"parse_errors={len(error_lines)}")
-print(f"missing_entries={len(missing)}")
-print(f"empty_csvs={len(empty_csvs)}")
-print(f"bad_headers={len(bad_headers)}")
-print(f"wide_header_files={len(wide_header_files)}")
-print(f"datasets_with_duplicates={len(duplicates)}")
-print(f"implausible_year_rows={len(implausible_years)}")
-print(f"non_boolean_is_total_rows={len(non_boolean_is_total)}")
+readme = (schemas / "README.md").read_text(encoding="utf-8")
+missing_readme_links = [name for name in processed_names if f"[{name}.md]({name}.md)" not in readme]
+
+print(f"processed_csvs={len(processed_names)}")
+print(f"schema_docs={len(schema_names)}")
+print(f"missing_schemas={len(missing_schemas)}")
+print(f"extra_schemas={len(extra_schemas)}")
+print(f"missing_sections={len(missing_sections)}")
+print(f"missing_column_details={len(missing_column_details)}")
+print(f"missing_is_total_guidance={len(missing_is_total_guidance)}")
+print(f"missing_provenance_values={len(missing_provenance_values)}")
+print(f"missing_readme_links={len(missing_readme_links)}")
 PY
 ```
 
 - **Result:** Passed
 - **Evidence:**  
-  - All 120 included remaining-programs parse-plan entries were accounted for by either an output CSV or an explicit parse-error entry (`missing_entries=0`), so no sheet was silently dropped.  
-  - 73 datasets were written and all were non-empty with the required UTF-8 headers (`empty_csvs=0`, `bad_headers=0`).  
-  - No successful dataset remained in wide format (`wide_header_files=0`).  
-  - Duplicate `(program, category, fiscal_year, unit, source_sheet)` keys were eliminated (`datasets_with_duplicates=0`).  
-  - Implausible fiscal-year rows were fully eliminated (`implausible_year_rows=0`) when checked against the repository's documented plausible-year range `[2019, 2040]`.  
-  - `is_total` values remained normalized to `true` / `false` across the validated outputs (`non_boolean_is_total_rows=0`).
+  - The generator preserved a strict 1:1 mapping between processed CSVs and schema docs (`processed_csvs=177`, `schema_docs=177`, `missing_schemas=0`, `extra_schemas=0`).  
+  - Every generated schema contained the required sections and all output-column details (`missing_sections=0`, `missing_column_details=0`).  
+  - Every generated schema documented `is_total` double-counting guidance and included real provenance values from the CSVs (`missing_is_total_guidance=0`, `missing_provenance_values=0`).  
+  - The generated `docs/schemas/README.md` equivalent linked every dataset schema (`missing_readme_links=0`).
+
+### 6. Reproducibility drift check against checked-in schema docs
+
+```bash
+diff -rq docs/schemas /tmp/cbo_schema_validate
+```
+
+- **Result:** Passed
+- **Evidence:** No output from `diff -rq`, so the checked-in `docs/schemas/` tree matches a fresh run of the current schema generator exactly.
 
 ## Blocked Checks
 
-- None. The required local validation checks were runnable in this sandbox using the checked-in raw workbooks.
+- None. The required local validation checks were runnable in this sandbox using the checked-in processed CSVs.
 
 ## Acceptance Criteria Coverage
 
-- [x] `src/transform.py` is runnable from the repository root
-- [x] Every parse-plan sheet marked for inclusion produces at least one documented CSV or an explicit parse error entry
-- [x] Output CSVs are written as UTF-8 and contain the required columns
-- [x] Output rows are melted into `fiscal_year` / `value` columns rather than remaining in wide format
-- [x] Totals and subtotals are flagged with `is_total=true` / `false`
-- [x] Empty rows, narrative footnotes, and layout-only rows are excluded from outputs for the validated remaining-programs datasets
-- [x] Output file names match the parse-plan `output_dataset` values for the successful datasets
-- [x] Duplicate `(program, category, fiscal_year, unit, source_sheet)` rows are prevented
-- [x] Fiscal-year inference is reliable for the validated remaining-programs slice
+- [x] Every CSV in `data/processed/` has a matching schema file in `docs/schemas/`
+- [x] Each schema file documents column name, data type, description, unit applicability, example values, and notes
+- [x] `docs/schemas/README.md` lists every dataset and links to its schema file
+- [x] Schema file names match CSV basenames exactly
+- [x] Schema docs explain how `is_total=True` rows should be interpreted for downstream analysis
 
 ## Remaining Risks / Follow-up
 
-- The real remaining-programs run still surfaces 39 explicit parse errors. That does not violate this slice’s acceptance criteria because those sheets are documented in `parse_errors.log`, but Closeout should preserve them as known parser-improvement follow-up work before schema generation and later verification work.
-- `task-03-transform` has now completed all three ordered slices, so the next delivery loop after Closeout should move downstream to `task-04-schema`.
+- The generator and checked-in schema docs are currently aligned, but Closeout should preserve that the project still has downstream backlog work in `task-05-verify` and `task-06-pipeline`.
+- Existing transform parse errors remain documented in `data/processed/parse_errors.log`; they do not block schema closeout, but they remain relevant context for later verification work.
 
 ## Recommendation
 
-Advance the repo to **Closeout** for `task-03-transform`. The remaining-programs slice is runnable from the repo root, the full unittest suite passes, the real slice writes valid non-empty CSVs for all successful datasets, every included sheet is accounted for, duplicate keys are prevented, and the outputs stay within the documented plausible fiscal-year range.
+Advance the repo to **Closeout** for `task-04-schema`. The schema generator is runnable from the repo root, the full unittest suite passes, a real generation run produces complete 1:1 schema coverage for all 177 processed CSVs, each schema includes the required provenance and `is_total` guidance, and the checked-in schema docs are reproducible from the current implementation.
