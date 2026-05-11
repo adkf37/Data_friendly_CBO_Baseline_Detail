@@ -205,6 +205,7 @@ def run_transform(
                 continue
 
             rows_written = 0
+            program_name = _infer_program_name(plan.workbook)
             for row in range(first_data_row, worksheet.max_row + 1):
                 category = _to_text(worksheet.cell(row=row, column=1).value)
                 if not category:
@@ -218,7 +219,6 @@ def run_transform(
                     value = _parse_number(worksheet.cell(row=row, column=column).value)
                     if value is None:
                         continue
-                    program_name = _infer_program_name(plan.workbook)
                     key = (
                         program_name,
                         category,

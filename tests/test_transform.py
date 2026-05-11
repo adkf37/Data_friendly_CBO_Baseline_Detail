@@ -138,8 +138,8 @@ workbooks:
             sheet["B3"] = 200
             sheet["C3"] = 210
             sheet["A4"] = "Paid"
-            sheet["B4"] = 200
-            sheet["C4"] = 210
+            sheet["B4"] = 201
+            sheet["C4"] = 211
             workbook.save(input_dir / workbook_name)
 
             parse_plan = root / "workbook_parse_plan.yaml"
@@ -175,6 +175,7 @@ workbooks:
             self.assertEqual(2, len(rows))
             self.assertEqual(["2024", "2025"], [row["fiscal_year"] for row in rows])
             self.assertEqual(["200.0", "210.0"], [row["value"] for row in rows])
+            self.assertNotIn("2096", [row["fiscal_year"] for row in rows])
 
 
 if __name__ == "__main__":
