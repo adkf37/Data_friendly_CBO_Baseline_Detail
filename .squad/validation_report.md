@@ -121,7 +121,7 @@ PY
   - All 71 included health-sheet parse-plan entries were accounted for by either an output CSV or an explicit parse-error entry (`missing_entries=0`), so no sheet was silently dropped.  
   - 38 datasets were written and all were non-empty with the required UTF-8 headers (`empty_csvs=0`, `bad_headers=0`).  
   - Duplicate `(program, category, fiscal_year, unit, source_sheet)` keys were eliminated (`datasets_with_duplicates=0`).  
-  - Implausible fiscal-year rows were fully eliminated (`implausible_year_rows=0`), resolving the prior validation failure on the four 2019-05 health datasets.
+  - Implausible fiscal-year rows were fully eliminated (`implausible_year_rows=0`) when checked against the repository's documented plausible-year range `[2019, 2040]`, resolving the prior validation failure on the four 2019-05 health datasets.
 
 ## Blocked Checks
 
