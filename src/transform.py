@@ -243,7 +243,10 @@ def run_transform(
         _write_dataset(output_dir / f"{dataset}.csv", rows)
 
     error_path = output_dir / "parse_errors.log"
-    error_path.write_text("\n".join(errors) + ("\n" if errors else ""), encoding="utf-8")
+    error_body = "\n".join(errors)
+    if errors:
+        error_body += "\n"
+    error_path.write_text(error_body, encoding="utf-8")
     print(
         f"Transform complete. slice={slice_name}, datasets={len(records_by_dataset)}, "
         f"rows={sum(len(rows) for rows in records_by_dataset.values())}, errors={len(errors)}"

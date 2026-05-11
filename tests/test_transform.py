@@ -1,5 +1,6 @@
 import tempfile
 import unittest
+from csv import DictReader
 from pathlib import Path
 
 from openpyxl import Workbook
@@ -61,12 +62,27 @@ workbooks:
             self.assertEqual(0, rc)
             csv_path = output_dir / "childnutrition_health_2024_06.csv"
             self.assertTrue(csv_path.exists())
-            rows = csv_path.read_text(encoding="utf-8").strip().splitlines()
-            self.assertEqual(",".join(transform.OUTPUT_COLUMNS), rows[0])
+            with csv_path.open(encoding="utf-8", newline="") as handle:
+                rows = list(DictReader(handle))
+            self.assertEqual(transform.OUTPUT_COLUMNS, list(rows[0].keys()))
+            self.assertEqual(4, len(rows))
             expected_program = transform._infer_program_name(workbook_name)
-            self.assertIn(f"{expected_program},Total Benefits,2025,100.0,Millions of dollars,", rows[1])
-            self.assertIn(",true", rows[1])
-            self.assertIn("Administrative Costs,2026,22.0", rows[-1])
+            self.assertEqual(
+                {
+                    "program": expected_program,
+                    "category": "Total Benefits",
+                    "fiscal_year": "2025",
+                    "value": "100.0",
+                    "unit": "Millions of dollars",
+                    "source_file": workbook_name,
+                    "source_sheet": "Health",
+                    "is_total": "true",
+                },
+                rows[0],
+            )
+            self.assertEqual("Administrative Costs", rows[-1]["category"])
+            self.assertEqual("2026", rows[-1]["fiscal_year"])
+            self.assertEqual("22.0", rows[-1]["value"])
 
             parse_errors = (output_dir / "parse_errors.log").read_text(encoding="utf-8")
             self.assertEqual("", parse_errors)
