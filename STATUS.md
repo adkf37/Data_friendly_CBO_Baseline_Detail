@@ -2,8 +2,8 @@
 
 | Field | Value |
 |---|---|
-| Phase | build-task-03-transform-health-slice |
-| Next Action | Validate |
+| Phase | validate-task-03-transform-health-slice |
+| Next Action | Closeout |
 | Last Updated | 2026-05-11 |
 | Squad Template | data_pipeline |
 | Priority | low |
@@ -12,10 +12,11 @@
 
 ## Current Objective
 
-Validate **Task ID: `task-03-transform`** (health slice) — confirm the plausible-year filter fix. All 98 implausible fiscal-year rows are now eliminated from the four 2019-05 health datasets. The full unittest suite passes (9 tests). Routed to Validate.
+Close out **Task ID: `task-03-transform`** (health slice) — validation confirmed the plausible-year filter fix. The full unittest suite passes (9 tests), every included health-sheet entry is accounted for by either CSV output or `parse_errors.log`, duplicate keys are gone, and implausible fiscal-year rows are now 0. Remaining explicit parse errors should be carried as follow-up risk, not a Validate blocker.
 
 ## Recent Activity
 
+- 2026-05-11: Validate passed for **Task ID: `task-03-transform`** (health slice) — dependency install, full unittest suite, CLI smoke check, real health-slice transform run, and output integrity review completed. All 71 included health-sheet entries were accounted for, 38 datasets were written with the required headers, duplicate keys remained at 0, and `implausible_year_rows=0`. Routed to Closeout with 14 explicit parse errors preserved as follow-up risk in `parse_errors.log`.
 - 2026-05-11: Build advanced for **Task ID: `task-03-transform`** (health slice) — added `PLAUSIBLE_YEAR_MIN`/`PLAUSIBLE_YEAR_MAX` constants and updated `_extract_years` in `src/transform.py` to skip year columns whose header year falls outside the plausible range [2019, 2040]. Added regression test `test_run_transform_excludes_pre_plausible_year_columns`. Real health-slice run now produces `implausible_year_rows=0` (was 98). Full unittest suite passes 9 tests. Routed to Validate.
 - 2026-05-11: Validate reran for **Task ID: `task-03-transform`** (health slice) — dependency install, full unittest suite, CLI smoke check, and real health-slice transform run completed. Duplicate-key failures were fixed, but 98 implausible fiscal-year rows remain across four 2019-05 datasets (`child_nutrition_2019_05`, `chip_2019_05`, `medicaid_2019_05`, `medicare_2019_05`). Routed back to Build for `task-03-transform`.
 - 2026-05-11: Build advanced for **Task ID: `task-03-transform`** (health slice) — updated year extraction to prioritize top header rows and added key-level deduplication in `src/transform.py`; added focused regression test for header-year preference plus duplicate prevention. Full unittest suite passes (`python -m unittest discover -s tests -v`). Routed to Validate.
