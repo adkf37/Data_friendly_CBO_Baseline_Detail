@@ -27,7 +27,7 @@ def _write_health_workbook(path: Path) -> None:
 def _write_income_security_workbook(path: Path) -> None:
     workbook = Workbook()
     sheet = workbook.active
-    sheet.title = "Health"
+    sheet.title = "Income Security"
     sheet["A1"] = "Income Security Program"
     sheet["B1"] = "2025"
     sheet["C1"] = "2026"
@@ -67,7 +67,7 @@ workbooks:
         unit: Millions of dollars
   - workbook: 51312-2024-06-snap.xlsx
     sheets:
-      - sheet: Health
+      - sheet: Income Security
         include: true
         output_dataset: snap_2024_06
         header_rows: 1-1
@@ -93,7 +93,11 @@ workbooks:
             with csv_path.open(encoding="utf-8", newline="") as handle:
                 rows = list(DictReader(handle))
             self.assertEqual(4, len(rows))
-            self.assertEqual("Snap", rows[0]["program"])
+            self.assertEqual({"Snap"}, {row["program"] for row in rows})
+            self.assertEqual({"51312-2024-06-snap.xlsx"}, {row["source_file"] for row in rows})
+            self.assertEqual({"Income Security"}, {row["source_sheet"] for row in rows})
+            self.assertEqual({"Total Benefits", "Administrative Costs"}, {row["category"] for row in rows})
+            self.assertEqual({"2025", "2026"}, {row["fiscal_year"] for row in rows})
             self.assertEqual("", (output_dir / "parse_errors.log").read_text(encoding="utf-8"))
 
     def test_run_transform_health_slice_writes_tidy_csv(self):
