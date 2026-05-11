@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — Closeout returns the repo to Build for task-04-schema
+
+**Decision:** Close out `task-03-transform` and return the repo to **Build** for `task-04-schema`.
+**Rationale:** Independent closeout rechecked `STATUS.md`, `backlog/tasks/task-03-transform.md`, `.squad/sprint.md`, the latest validation report, a fresh `python -m unittest discover -s tests -v` run, `python src/transform.py --help`, a real `python src/transform.py --slice remaining-programs --output-dir /tmp/cbo_closeout_remaining` run, and a follow-up output-integrity audit. That final audit confirmed the remaining-programs slice closes the transform task cleanly: all 120 included parse-plan entries were accounted for, 73 datasets were written with the required headers, no successful dataset remained in wide format, duplicate output keys stayed at zero, and implausible fiscal years stayed at zero. The three ordered transform slices now all have closeout evidence, so the correct handoff is the next sprint item (`task-04-schema`) rather than reopening transform work.
+**Task:** task-04-schema
+
+---
+
 ### 2026-05-11 — Validate advances task-03-transform remaining-programs slice to Closeout
 
 **Decision:** Advance the `task-03-transform` remaining-programs slice from Validate to Closeout.
