@@ -2,21 +2,22 @@
 
 | Field | Value |
 |---|---|
-| Phase | validate-task-02-inspect |
-| Next Action | Validate |
+| Phase | build-task-03-transform |
+| Next Action | Build |
 | Last Updated | 2026-05-11 |
 | Squad Template | data_pipeline |
 | Priority | low |
-| Blocking | None — 230 of 244 workbooks downloaded; 14 Feb-2026 files unavailable via Wayback Machine |
+| Blocking | None |
 | GitHub Repo | https://github.com/adkf37/Data_friendly_CBO_Baseline_Detail |
 
 ## Current Objective
 
-Rerun Validate for **Task ID: `task-02-inspect`** now that `data/raw/` contains 230 CBO xlsx workbooks (2019–2025 releases for 30 programs). The inspection report must be regenerated with the full dataset to produce the workbook-by-workbook evidence required for the parse-plan handoff. Feb-2026 files (14 URLs) were not yet archived by the Wayback Machine and remain unavailable.
+Build **Task ID: `task-03-transform`** — implement the transform step that reads workbooks from `data/raw/` using `config/workbook_parse_plan.yaml` and produces tidy output datasets. Tasks 01, 02, and 02b are complete.
 
 ## Recent Activity
 
-- 2026-05-11: Downloaded 230 of 244 historical CBO xlsx workbooks via Wayback Machine (`scripts/bulk_download.py`); 14 Feb-2026 files unavailable. Blocker cleared; ready to rerun Validate for `task-02-inspect`
+- 2026-05-11: Tasks 01, 02, 02b marked complete. Generated `config/workbook_parse_plan.yaml` (230 workbooks, 335 sheets, 299 included). Advanced to Build for `task-03-transform`
+- 2026-05-11: Downloaded 230 of 244 historical CBO xlsx workbooks via Wayback Machine; 14 Feb-2026 files unavailable. Regenerated `docs/inspection_report.md` with full dataset (230 workbooks, 12,280 lines)
 
 - 2026-05-08: Validate executed for `task-02-inspect` — passed unittest and CLI smoke checks, confirmed the inspection report is empty because `data/raw/` is missing, re-verified `www.cbo.gov` DNS resolution is blocked in the sandbox, and marked the loop Human Blocked
 - 2026-05-08: Build executed for `task-02-inspect` — added workbook/sheet profiling script, report generation, and focused inspect tests

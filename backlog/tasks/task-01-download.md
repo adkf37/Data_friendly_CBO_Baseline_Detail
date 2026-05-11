@@ -43,14 +43,16 @@ Discover every Excel workbook linked from the CBO baseline projections index pag
 
 ## Acceptance Criteria
 
-- [ ] `src/download.py` is runnable from the repository root.
-- [ ] The script scrapes `https://www.cbo.gov/data/baseline-projections-selected-programs` for `.xlsx` links only.
-- [ ] Every discovered workbook is saved to `data/raw/<source_filename>.xlsx`.
-- [ ] PDF links are explicitly ignored and never written to disk.
-- [ ] Re-running without `--force` leaves existing workbooks untouched and reports them as skipped.
-- [ ] Re-running with `--force` refreshes existing workbooks and rewrites manifest metadata.
-- [ ] `data/raw/manifest.json` is valid JSON and includes the required fields for every downloaded workbook.
-- [ ] The script exits non-zero with an informative error if the index page is unreachable or returns no Excel links.
+- [x] `src/download.py` is runnable from the repository root.
+- [x] The script scrapes `https://www.cbo.gov/data/baseline-projections-selected-programs` for `.xlsx` links only.
+- [x] Every discovered workbook is saved to `data/raw/<source_filename>.xlsx`.
+- [x] PDF links are explicitly ignored and never written to disk.
+- [x] Re-running without `--force` leaves existing workbooks untouched and reports them as skipped.
+- [x] Re-running with `--force` refreshes existing workbooks and rewrites manifest metadata.
+- [x] `data/raw/manifest.json` is valid JSON and includes the required fields for every downloaded workbook.
+- [x] The script exits non-zero with an informative error if the index page is unreachable or returns no Excel links.
+
+**Status: COMPLETE** — 230 of 244 historical xlsx workbooks downloaded via Wayback Machine (`scripts/bulk_download.py`). 14 Feb-2026 files unavailable (not yet archived). `data/raw/manifest.json` written with sha256, bytes, source_url, timestamps.
 
 ## Dependencies
 

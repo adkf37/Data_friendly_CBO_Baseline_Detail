@@ -40,12 +40,14 @@ Profile every downloaded workbook so the team can decide which sheets should be 
 
 ## Acceptance Criteria
 
-- [ ] `src/inspect.py` is runnable from the repository root.
-- [ ] Every workbook in `data/raw/` receives at least one profile entry in `docs/inspection_report.md`.
-- [ ] Each sheet profile records sheet dimensions, inferred header rows, fiscal-year detection, unit detection, and sheet classification.
-- [ ] Sheets that appear to be notes/metadata or contain multiple tables are explicitly flagged.
-- [ ] The report is detailed enough for a human to draft a per-sheet transform plan without reopening the workbook.
-- [ ] The script runs without error across all downloaded workbooks.
+- [x] `src/inspect.py` is runnable from the repository root.
+- [x] Every workbook in `data/raw/` receives at least one profile entry in `docs/inspection_report.md`.
+- [x] Each sheet profile records sheet dimensions, inferred header rows, fiscal-year detection, unit detection, and sheet classification.
+- [x] Sheets that appear to be notes/metadata or contain multiple tables are explicitly flagged.
+- [x] The report is detailed enough for a human to draft a per-sheet transform plan without reopening the workbook.
+- [x] The script runs without error across all downloaded workbooks.
+
+**Status: COMPLETE** — 230 workbooks inspected; `docs/inspection_report.md` generated (328KB, 12,280 lines). 335 sheets profiled across all workbooks.
 
 ## Dependencies
 
