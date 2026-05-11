@@ -3,18 +3,20 @@
 | Field | Value |
 |---|---|
 | Phase | validate-task-02-inspect |
-| Next Action | Human Blocked |
-| Last Updated | 2026-05-08 |
+| Next Action | Validate |
+| Last Updated | 2026-05-11 |
 | Squad Template | data_pipeline |
 | Priority | low |
-| Blocking | Downloaded CBO workbook inputs unavailable; sandbox DNS cannot resolve `www.cbo.gov` |
+| Blocking | None — 230 of 244 workbooks downloaded; 14 Feb-2026 files unavailable via Wayback Machine |
 | GitHub Repo | https://github.com/adkf37/Data_friendly_CBO_Baseline_Detail |
 
 ## Current Objective
 
-Validate completed for **Task ID: `task-02-inspect`**, but the loop is **blocked**. The inspection tooling is runnable and the test suite passes, yet the repository does not contain downloaded workbooks under `data/raw/`, so `docs/inspection_report.md` only captures the empty-state case instead of the workbook-by-workbook evidence required for the parse-plan handoff. A human must provide the raw workbook inputs or restore network access to `www.cbo.gov` before validation can be rerun.
+Rerun Validate for **Task ID: `task-02-inspect`** now that `data/raw/` contains 230 CBO xlsx workbooks (2019–2025 releases for 30 programs). The inspection report must be regenerated with the full dataset to produce the workbook-by-workbook evidence required for the parse-plan handoff. Feb-2026 files (14 URLs) were not yet archived by the Wayback Machine and remain unavailable.
 
 ## Recent Activity
+
+- 2026-05-11: Downloaded 230 of 244 historical CBO xlsx workbooks via Wayback Machine (`scripts/bulk_download.py`); 14 Feb-2026 files unavailable. Blocker cleared; ready to rerun Validate for `task-02-inspect`
 
 - 2026-05-08: Validate executed for `task-02-inspect` — passed unittest and CLI smoke checks, confirmed the inspection report is empty because `data/raw/` is missing, re-verified `www.cbo.gov` DNS resolution is blocked in the sandbox, and marked the loop Human Blocked
 - 2026-05-08: Build executed for `task-02-inspect` — added workbook/sheet profiling script, report generation, and focused inspect tests
