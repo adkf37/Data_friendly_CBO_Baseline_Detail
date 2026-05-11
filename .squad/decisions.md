@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — Validate keeps task-03-transform in Build after rerun
+
+**Decision:** Do not advance the `task-03-transform` health slice to Closeout; return it to **Build** for one more parser correction pass.
+**Rationale:** The rerun validation materially improved the slice: `python -m unittest discover -s tests -v` now passes 8 tests, the repo-root CLI smoke check still works, and duplicate `(program, category, fiscal_year, unit, source_sheet)` keys dropped to zero across the real health outputs. However, the real `python src/transform.py --slice health --output-dir /tmp/cbo_transform_validate` run still exits non-zero with 14 explicit parse errors, and the generated CSVs retain 98 implausible fiscal-year rows concentrated in four 2019-05 datasets (`child_nutrition_2019_05.csv`, `chip_2019_05.csv`, `medicaid_2019_05.csv`, `medicare_2019_05.csv`), so the transform acceptance criteria are still not met.
+**Task:** task-03-transform
+
+---
+
 ### 2026-05-11 — task-03-transform health slice header-year and duplicate-key guards
 
 **Decision:** Update transform parsing to infer fiscal years from top-to-bottom header scanning (instead of bottom-up) and suppress duplicate output keys per dataset for `(program, category, fiscal_year, unit, source_sheet)`.
