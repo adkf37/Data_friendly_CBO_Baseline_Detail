@@ -101,7 +101,6 @@ def _extract_years(worksheet, plan: SheetPlan) -> dict[int, int]:
 
 
 def _infer_first_data_row(worksheet, plan: SheetPlan) -> int | None:
-    first_year_column = min(plan.year_columns)
     for row in range(plan.header_end_row + 1, worksheet.max_row + 1):
         category = _to_text(worksheet.cell(row=row, column=1).value)
         if not category:
@@ -112,10 +111,6 @@ def _infer_first_data_row(worksheet, plan: SheetPlan) -> int | None:
         has_value = any(value is not None for value in parsed_values)
         if has_value:
             return row
-        if first_year_column > 2:
-            fallback_category = _to_text(worksheet.cell(row=row, column=2).value)
-            if fallback_category and has_value:
-                return row
     return None
 
 
