@@ -2,42 +2,42 @@
 
 **Date:** 2026-05-11  
 **Phase:** Closeout  
-**Scope Reviewed:** `task-03-transform` (final closeout after remaining-programs slice)
+**Scope Reviewed:** `task-04-schema`
 
 ## Final Decision
 
-**Return to Build — `task-04-schema`**
+**Return to Build — `task-05-verify`**
 
 ## Evidence Checked
 
-- `STATUS.md`, `backlog/README.md`, `backlog/tasks/task-03-transform.md`, and `.squad/sprint.md` to confirm the active scope, acceptance criteria, and next ordered work
+- `STATUS.md`, `backlog/README.md`, `backlog/tasks/task-04-schema.md`, and `.squad/sprint.md` to confirm the active scope, acceptance criteria, and next ordered work
 - `.squad/validation_report.md` for the latest Validate-phase evidence and risk framing
-- `README.md`, `src/transform.py`, and `tests/test_transform.py` for the current handoff state and implemented transform behavior
+- `README.md`, `src/generate_schemas.py`, `docs/schemas/`, and `tests/test_generate_schemas.py` for the current handoff state and implemented schema behavior
 - Fresh local verification run from the repository root:
   - `python -m pip install -r requirements.txt`
   - `python -m unittest discover -s tests -v`
-  - `python src/transform.py --help`
-  - `python src/transform.py --slice remaining-programs --output-dir /tmp/cbo_closeout_remaining`
-- Manual integrity audit of `/tmp/cbo_closeout_remaining` confirming:
-  - `remaining_plan_entries=120`
-  - `datasets_written=73`
-  - `parse_errors=39`
-  - `missing_entries=0`
-  - `empty_csvs=0`
-  - `bad_headers=0`
-  - `wide_header_files=0`
-  - `datasets_with_duplicates=0`
-  - `implausible_year_rows=0`
-  - `non_boolean_is_total_rows=0`
+  - `python src/generate_schemas.py --help`
+  - `python src/generate_schemas.py --schemas-dir /tmp/cbo_closeout_schema`
+- Manual schema audit of `/tmp/cbo_closeout_schema` confirming:
+  - `processed_csvs=177`
+  - `schema_docs=177`
+  - `missing_schemas=0`
+  - `extra_schemas=0`
+  - `missing_sections=0`
+  - `missing_column_details=0`
+  - `missing_is_total_guidance=0`
+  - `missing_provenance_values=0`
+  - `missing_readme_links=0`
+- Reproducibility check: `diff -rq docs/schemas /tmp/cbo_closeout_schema` produced no output
 
 ## Review Summary
 
-`task-03-transform` is complete for this loop. Closeout re-confirmed the latest Validate findings independently: the repository-root CLI is runnable, the full unittest suite passes, and the real remaining-programs transform writes 73 non-empty CSVs with the required columns while surfacing 39 explicit parse errors by design. The output audit confirms that every included remaining-programs parse-plan entry is accounted for by either a CSV output or an explicit parse-error entry (`missing_entries=0`), no successful dataset remains in wide format, duplicate output keys remain at zero, and `implausible_year_rows=0`.
+`task-04-schema` is complete for this loop. Closeout re-confirmed the latest Validate findings independently: the repository-root schema CLI is runnable, the full unittest suite passes, and a real schema-generation run reproduces all 177 checked-in schema docs. The audit confirms a strict 1:1 mapping between processed CSVs and schema files, required sections are present in every schema, every output column is documented, provenance values from the CSVs are preserved, `is_total` double-counting guidance is present everywhere, and the checked-in `docs/schemas/` tree matches a fresh run exactly.
 
-Because the health, income-security, and remaining-programs slices now all have build/validate/closeout evidence, the transform task is ready to hand off downstream. The project is not ready for a `Complete` decision because schema generation, verification, and pipeline orchestration are still unfinished. Per `.squad/sprint.md`, the next explicit automated work is **`task-04-schema`**.
+Because `task-04-schema` now has build/validate/closeout evidence, the project is ready to hand off to the next ordered sprint item. The repo is not ready for a `Complete` decision because verification and pipeline orchestration remain unfinished. Per `.squad/sprint.md`, the next explicit automated work is **`task-05-verify`**.
 
 ## Known Risks / Follow-up
 
-- Real transform runs still surface explicit parse errors: 14 for the health slice, 37 for the income-security slice, and 39 for the remaining-programs slice. These are documented follow-up items rather than a closeout blocker because every included sheet is still accounted for.
-- `task-04-schema`, `task-05-verify`, and `task-06-pipeline` remain incomplete, so the repo is not yet ready for a final `Complete` decision.
-- Schema work should preserve the current stable dataset names and provenance columns established by `task-03-transform`.
+- Real transform runs still surface explicit parse errors: 14 for the health slice, 37 for the income-security slice, and 39 for the remaining-programs slice. These remain documented follow-up items for later parser hardening and verification interpretation, not a schema-closeout blocker.
+- `task-05-verify` and `task-06-pipeline` remain incomplete, so the repo is not yet ready for a final `Complete` decision.
+- Verification work should preserve the current dataset names, provenance columns, and `is_total` caveats now documented in `docs/schemas/`.
