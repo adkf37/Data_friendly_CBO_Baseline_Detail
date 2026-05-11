@@ -19,7 +19,7 @@ from openpyxl import load_workbook
 
 YEAR_RE = re.compile(r"(19|20)\d{2}")
 NUMBER_RE = re.compile(r"^\(?[$]?\s*[-+]?\d[\d,]*(?:\.\d+)?\)?$")
-HEALTH_KEYWORDS = ("health", "medicare", "medicaid", "chip", "nutrition")
+HEALTH_KEYWORDS = ("health", "medicare", "medicaid", "chip")
 INCOME_SECURITY_KEYWORDS = (
     "child_support",
     "childsupport",

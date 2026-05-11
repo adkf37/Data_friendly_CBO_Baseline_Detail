@@ -7,7 +7,7 @@
 
 ## Scope
 
-Validate the latest `task-03-transform` income-security-slice build (`src/transform.py` and `tests/test_transform.py`) against the transform acceptance criteria and the sprint commitment for the second ordered transform slice.
+Validate the latest `task-03-transform` remaining-programs build (`src/transform.py` and `tests/test_transform.py`) against the transform acceptance criteria and the sprint commitment for the third ordered transform slice.
 
 ## Checks Run
 
@@ -27,7 +27,7 @@ python -m unittest discover -s tests -v
 ```
 
 - **Result:** Passed
-- **Evidence:** 11 tests passed total, including the income-security slice regression `test_run_transform_income_security_slice_excludes_health_datasets` plus the earlier transform guards for plausible-year filtering, header-year preference, and duplicate-key suppression.
+- **Evidence:** 13 tests passed total, including the new routing regression `test_child_nutrition_dataset_routes_to_remaining_programs_slice` plus the remaining-programs, income-security, plausible-year, and duplicate-key transform guards.
 
 ### 3. CLI runnable-from-root smoke check
 
@@ -36,22 +36,22 @@ python src/transform.py --help
 ```
 
 - **Result:** Passed
-- **Evidence:** Help output rendered successfully from the repository root with `--parse-plan`, `--input-dir`, `--output-dir`, and `--slice {health,income-security,all}` options.
+- **Evidence:** Help output rendered successfully from the repository root with `--parse-plan`, `--input-dir`, `--output-dir`, and `--slice {health,income-security,remaining-programs,all}` options.
 
-### 4. Real income-security transform run
+### 4. Real remaining-programs transform run
 
 ```bash
-python src/transform.py --slice income-security --output-dir /tmp/cbo_transform_validate_income
+python src/transform.py --slice remaining-programs --output-dir /tmp/cbo_transform_validate_remaining
 ```
 
 - **Result:** Passed with explicit parse-error logging
-- **Evidence:** Command reported `Transform complete. slice=income-security, datasets=72, rows=7779, errors=37` and exited non-zero because parse errors are surfaced by design.
+- **Evidence:** Command reported `Transform complete. slice=remaining-programs, datasets=73, rows=5427, errors=39` and exited non-zero because parse errors are surfaced by design.
 - **Parse-error sample:**  
-  - `51295-2021-02-childsupportenforcement.xlsx	1-CSE_2-2021	no fiscal years inferred`
-  - `51299-2021-02-fostercare.xlsx	Foster Care 2-2021	no fiscal years inferred`
-  - `51310-2019-05-Student-Loan.xlsx	Table 2	no fiscal years inferred`
+  - `51293-2020-01-childnutrition.xlsx	CNP	no fiscal years inferred`
+  - `51293-2021-07-childnutrition.xlsx	Child Nutrition_07-2021	no fiscal years inferred`
+  - `51297-2020-03-mortgages.xlsx	Mortgage Programs	sheet not found`
 
-### 5. Income-security coverage and output integrity review
+### 5. Remaining-programs coverage and output integrity review
 
 ```bash
 python - <<'PY'
@@ -61,9 +61,10 @@ from collections import Counter
 import yaml
 
 root = Path("/home/runner/work/Data_friendly_CBO_Baseline_Detail/Data_friendly_CBO_Baseline_Detail")
-out = Path("/tmp/cbo_transform_validate_income")
+out = Path("/tmp/cbo_transform_validate_remaining")
 payload = yaml.safe_load((root / "config/workbook_parse_plan.yaml").read_text(encoding="utf-8")) or {}
-keywords = (
+health_keywords = ("health", "medicare", "medicaid", "chip")
+income_keywords = (
     "child_support",
     "childsupport",
     "csec",
@@ -84,7 +85,9 @@ plans = []
 for workbook in payload.get("workbooks", []):
     for sheet in workbook.get("sheets", []):
         dataset = str(sheet.get("output_dataset", "")).lower()
-        if sheet.get("include") and any(keyword in dataset for keyword in keywords):
+        if sheet.get("include") and not any(keyword in dataset for keyword in health_keywords) and not any(
+            keyword in dataset for keyword in income_keywords
+        ):
             plans.append((workbook["workbook"], sheet["sheet"], str(sheet.get("output_dataset", ""))))
 
 error_lines = [
@@ -129,7 +132,7 @@ for csv_path in sorted(out.glob("*.csv")):
     if dup_keys:
         duplicates.append((csv_path.name, len(dup_keys)))
 
-print(f"income_plan_entries={len(plans)}")
+print(f"remaining_plan_entries={len(plans)}")
 print(f"datasets_written={len(list(out.glob('*.csv')))}")
 print(f"parse_errors={len(error_lines)}")
 print(f"missing_entries={len(missing)}")
@@ -144,8 +147,8 @@ PY
 
 - **Result:** Passed
 - **Evidence:**  
-  - All 118 included income-security-sheet parse-plan entries were accounted for by either an output CSV or an explicit parse-error entry (`missing_entries=0`), so no sheet was silently dropped.  
-  - 72 datasets were written and all were non-empty with the required UTF-8 headers (`empty_csvs=0`, `bad_headers=0`).  
+  - All 120 included remaining-programs parse-plan entries were accounted for by either an output CSV or an explicit parse-error entry (`missing_entries=0`), so no sheet was silently dropped.  
+  - 73 datasets were written and all were non-empty with the required UTF-8 headers (`empty_csvs=0`, `bad_headers=0`).  
   - No successful dataset remained in wide format (`wide_header_files=0`).  
   - Duplicate `(program, category, fiscal_year, unit, source_sheet)` keys were eliminated (`datasets_with_duplicates=0`).  
   - Implausible fiscal-year rows were fully eliminated (`implausible_year_rows=0`) when checked against the repository's documented plausible-year range `[2019, 2040]`.  
@@ -162,16 +165,16 @@ PY
 - [x] Output CSVs are written as UTF-8 and contain the required columns
 - [x] Output rows are melted into `fiscal_year` / `value` columns rather than remaining in wide format
 - [x] Totals and subtotals are flagged with `is_total=true` / `false`
-- [x] Empty rows, narrative footnotes, and layout-only rows are excluded from outputs for the validated income-security datasets
+- [x] Empty rows, narrative footnotes, and layout-only rows are excluded from outputs for the validated remaining-programs datasets
 - [x] Output file names match the parse-plan `output_dataset` values for the successful datasets
 - [x] Duplicate `(program, category, fiscal_year, unit, source_sheet)` rows are prevented
-- [x] Fiscal-year inference is reliable for the validated income-security slice
+- [x] Fiscal-year inference is reliable for the validated remaining-programs slice
 
 ## Remaining Risks / Follow-up
 
-- The real income-security run still surfaces 37 explicit parse errors. That does not violate this slice’s acceptance criteria because those sheets are documented in `parse_errors.log`, but Closeout should preserve them as known parser-improvement follow-up work before the final remaining-programs slice and later verification work.
-- `task-03-transform` still has one remaining ordered build slice (`remaining programs`) before downstream schema, verification, and pipeline tasks can complete.
+- The real remaining-programs run still surfaces 39 explicit parse errors. That does not violate this slice’s acceptance criteria because those sheets are documented in `parse_errors.log`, but Closeout should preserve them as known parser-improvement follow-up work before schema generation and later verification work.
+- `task-03-transform` has now completed all three ordered slices, so the next delivery loop after Closeout should move downstream to `task-04-schema`.
 
 ## Recommendation
 
-Advance the repo to **Closeout** for `task-03-transform`. The income-security slice is runnable from the repo root, the full unittest suite passes, the real slice writes valid non-empty CSVs for all successful datasets, every included sheet is accounted for, duplicate keys are prevented, and the outputs stay within the documented plausible fiscal-year range.
+Advance the repo to **Closeout** for `task-03-transform`. The remaining-programs slice is runnable from the repo root, the full unittest suite passes, the real slice writes valid non-empty CSVs for all successful datasets, every included sheet is accounted for, duplicate keys are prevented, and the outputs stay within the documented plausible fiscal-year range.
