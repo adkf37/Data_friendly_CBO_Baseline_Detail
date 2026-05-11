@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — task-03-transform health slice header-year and duplicate-key guards
+
+**Decision:** Update transform parsing to infer fiscal years from top-to-bottom header scanning (instead of bottom-up) and suppress duplicate output keys per dataset for `(program, category, fiscal_year, unit, source_sheet)`.
+**Rationale:** Validation found implausible years that were being pulled from lower data rows when `header_rows` bounds were broad, plus undocumented duplicate keys across many health datasets. Prioritizing top header cells materially reduces header/data cross-contamination, and key-level deduplication enforces the task acceptance requirement to prevent duplicate output keys.
+**Task:** task-03-transform
+
+---
+
 ### 2026-05-11 — Validate returns task-03-transform health slice to Build
 
 **Decision:** Do not advance the `task-03-transform` health slice past Validate; return it to **Build** for parser corrections.

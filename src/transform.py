@@ -88,15 +88,12 @@ def _looks_like_note(category: str) -> bool:
 def _extract_years(worksheet, plan: SheetPlan) -> dict[int, int]:
     years: dict[int, int] = {}
     for column in plan.year_columns:
-        year = None
-        for row in range(plan.header_end_row, 0, -1):
+        for row in range(1, plan.header_end_row + 1):
             cell_text = _to_text(worksheet.cell(row=row, column=column).value)
             match = YEAR_RE.search(cell_text)
             if match:
-                year = int(match.group(0))
+                years[column] = int(match.group(0))
                 break
-        if year is not None:
-            years[column] = year
     return years
 
 
@@ -180,6 +177,7 @@ def run_transform(
 ) -> int:
     plans = [plan for plan in _read_plan(parse_plan_path) if plan.include and _in_slice(plan, slice_name)]
     records_by_dataset: dict[str, list[dict]] = defaultdict(list)
+    seen_keys_by_dataset: dict[str, set[tuple[str, str, int, str, str]]] = defaultdict(set)
     errors: list[str] = []
 
     for plan in plans:
@@ -207,6 +205,7 @@ def run_transform(
                 continue
 
             rows_written = 0
+            program_name = _infer_program_name(plan.workbook)
             for row in range(first_data_row, worksheet.max_row + 1):
                 category = _to_text(worksheet.cell(row=row, column=1).value)
                 if not category:
@@ -220,9 +219,19 @@ def run_transform(
                     value = _parse_number(worksheet.cell(row=row, column=column).value)
                     if value is None:
                         continue
+                    key = (
+                        program_name,
+                        category,
+                        year,
+                        plan.unit,
+                        plan.sheet,
+                    )
+                    if key in seen_keys_by_dataset[plan.output_dataset]:
+                        continue
+                    seen_keys_by_dataset[plan.output_dataset].add(key)
                     records_by_dataset[plan.output_dataset].append(
                         {
-                            "program": _infer_program_name(plan.workbook),
+                            "program": program_name,
                             "category": category,
                             "fiscal_year": year,
                             "value": value,
