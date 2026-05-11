@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — Closeout returns task-03-transform to Build for the next slice
+
+**Decision:** Close out the `task-03-transform` health slice and return the repo to **Build** for the next ordered `task-03-transform` slice.
+**Rationale:** Closeout rechecked the task definition, sprint order, latest validation report, fresh local unittest/CLI results, and a real `python src/transform.py --slice health --output-dir /tmp/cbo_closeout_health` run. The health slice now satisfies its acceptance criteria: 38 datasets were written, all included health-sheet entries were accounted for via CSV output or explicit parse-error logging, duplicate keys stayed at zero, and implausible fiscal-year rows were eliminated. The remaining 14 parse errors are explicit follow-up risk, not a blocker, so the correct handoff is to continue `task-03-transform` with the next slice rather than reopen this closeout loop.
+**Task:** task-03-transform
+
+---
+
 ### 2026-05-11 — Validate advances task-03-transform health slice to Closeout
 
 **Decision:** Advance the `task-03-transform` health slice from Validate to Closeout.
