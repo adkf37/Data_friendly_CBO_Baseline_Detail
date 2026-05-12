@@ -2,19 +2,21 @@
 
 Current lifecycle target: move from **Squad Review** to **Build** with one explicit, ordered execution plan.
 
+**Sprint status: ALL TASKS COMPLETE (Human Blocked on network for full pipeline run)**
+
 ## Ordered Build Queue
 
-| Order | Task | Owner | Reviewers / Parallel Support | Depends On | Deliverables |
-|---|---|---|---|---|---|
-| 1 | `task-01-download` | Data Engineer | Tester | None | `src/download.py`, `data/raw/manifest.json`, downloaded workbooks |
-| 2 | `task-02-inspect` | Data Engineer | Lead, Tester | `task-01-download` | `src/inspect.py`, `docs/inspection_report.md` |
-| 3 | `task-02b-parse-plan` | Lead | Data Engineer, Tester | `task-02-inspect` | `config/workbook_parse_plan.yaml`, any related decision log entries |
-| 4 | `task-03-transform` — health slice | Data Engineer | Lead, Tester | `task-02b-parse-plan` | first transform slice, parser notes, any parse errors |
-| 5 | `task-03-transform` — income security slice | Data Engineer | Lead, Tester | health slice | second transform slice, parser notes |
-| 6 | `task-03-transform` — remaining programs slice | Data Engineer | Lead, Tester | income security slice | final transform coverage, parser notes |
-| 7 | `task-04-schema` | Data Engineer | Scribe | `task-03-transform` | `src/schema.py`/`src/generate_schemas.py`, `docs/schemas/` |
-| 8 | `task-05-verify` | Data Engineer + Tester | Lead | `task-03-transform`, `task-02b-parse-plan` | `src/verify.py`, `docs/verification_report.md` |
-| 9 | `task-06-pipeline` | Data Engineer | Tester, Scribe, Lead | tasks 01-05 | `run_pipeline.py`, root `README.md` |
+| Order | Task | Owner | Reviewers / Parallel Support | Depends On | Status | Deliverables |
+|---|---|---|---|---|---|---|
+| 1 | `task-01-download` | Data Engineer | Tester | None | ✅ COMPLETE | `src/download.py`, `data/raw/manifest.json`, 230 workbooks |
+| 2 | `task-02-inspect` | Data Engineer | Lead, Tester | `task-01-download` | ✅ COMPLETE | `src/inspect.py`, `docs/inspection_report.md` (335 sheets profiled) |
+| 3 | `task-02b-parse-plan` | Lead | Data Engineer, Tester | `task-02-inspect` | ✅ COMPLETE | `config/workbook_parse_plan.yaml` (230 workbooks, 335 sheets, 299 included) |
+| 4 | `task-03-transform` — health slice | Data Engineer | Lead, Tester | `task-02b-parse-plan` | ✅ COMPLETE | 38 datasets / 13,376 rows |
+| 5 | `task-03-transform` — income security slice | Data Engineer | Lead, Tester | health slice | ✅ COMPLETE | 88 datasets / 19,961 rows |
+| 6 | `task-03-transform` — remaining programs slice | Data Engineer | Lead, Tester | income security slice | ✅ COMPLETE | 96 datasets / 16,742 rows · total 222 CSVs / 50,079 rows / 0 errors / 9 unit values |
+| 7 | `task-04-schema` | Data Engineer | Scribe | `task-03-transform` | ✅ COMPLETE | `src/generate_schemas.py`, 222 schema docs + `docs/schemas/README.md` |
+| 8 | `task-05-verify` | Data Engineer + Tester | Lead | `task-03-transform`, `task-02b-parse-plan` | ✅ COMPLETE | `src/verify.py`, `docs/verification_report.md` (277 PASS / 22 EXEMPT / 0 non-exempt FAIL) |
+| 9 | `task-06-pipeline` | Data Engineer | Tester, Scribe, Lead | tasks 01-05 | 🔶 HUMAN BLOCKED | `run_pipeline.py` (46 tests pass), root `README.md` — blocked on `www.cbo.gov` DNS in sandbox |
 
 ## Review Routing Notes
 

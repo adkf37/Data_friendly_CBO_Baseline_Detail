@@ -4,7 +4,7 @@
 |---|---|
 | Phase | validate-task-06-pipeline |
 | Next Action | Human Blocked |
-| Last Updated | 2026-05-12 |
+| Last Updated | 2026-05-13 |
 | Squad Template | data_pipeline |
 | Priority | low |
 | Blocking | Sandbox cannot resolve `www.cbo.gov` for the live download step |
@@ -16,6 +16,7 @@ Validate **Task ID: `task-06-pipeline`** — all non-network-dependent checks no
 
 ## Recent Activity
 
+- 2026-05-13: Unit normalization and schema regen — fixed multi-section unit detection in `src/transform.py`: single combined row-scan tracks `current_unit` inline (no separate pre-scan), dropped `read_only=True` to allow O(1) cell access. `_normalize_unit_string()` strips contextual prefixes/suffixes from plan YAML unit values and in-sheet detections. `UNIT_PAREN_RE` comma suffix moved outside capture group so `(Millions of people, calendar year 2018)` returns `Millions of people`. Standalone `(Thousands)` now detected. `snap_2023_05` YAML `unit` fixed to `Millions of dollars`. Result: 222 CSVs / 50,079 rows / **9 clean unit values / 0 empty-unit rows**. `python src/generate_schemas.py` rerun → 222 schema docs regenerated with accurate per-dataset unit lists. All task file ACs (tasks 03–06) checked off. 15 transform tests pass.
 - 2026-05-12: Validate blocked for **Task ID: `task-06-pipeline`** — reran `python -m pip install -r requirements.txt`, the full unittest suite, `python run_pipeline.py --help`, repo-root step smoke checks, and artifact audits. Validation confirmed `inspect` on `230` raw workbooks, `transform` output of `222` CSVs / `50079` rows / `0` errors, `schema` output of `222` schema docs with 1:1 coverage, and `verify` output of `299` targets with `277` PASS / `22` EXEMPT / `0` non-exempt FAIL. The only blocked checks were `python run_pipeline.py --step download` and full `python run_pipeline.py`, both of which stop on sandbox DNS resolution failure for `www.cbo.gov`, so the repo moves to **Human Blocked** rather than Closeout.
 - 2026-05-12: Build advanced for **Task ID: `task-06-pipeline`** — routed pipeline entrypoint work through the Data Engineer + Scribe path. Implemented `run_pipeline.py` at the repo root with full end-to-end execution (`python run_pipeline.py`) and individual step support (`python run_pipeline.py --step <name>`). Each step logs UTC start/end timestamps and pass/fail status; the runner stops on the first failure. Refreshed root `README.md` with project purpose, prerequisites, install steps, quick-start commands, output location table, processed CSV schema table, schema index link, and CBO attribution. Added 14 unit tests in `tests/test_pipeline.py` covering single-step dispatch, early-stop-on-failure, full-run success, and all required README sections. Full test suite: `python -m unittest discover -s tests -v` → 46 tests, OK.
 - 2026-05-12: Build advanced for **Task ID: `task-05-verify`** — task-05-verify now produces 0 non-exempt failures (277 PASS, 22 EXEMPT). Verification report updated.

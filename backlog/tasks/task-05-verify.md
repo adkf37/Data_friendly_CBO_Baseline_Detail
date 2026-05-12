@@ -36,12 +36,14 @@ Confirm that processed CSV values faithfully reproduce the source workbook value
 
 ## Acceptance Criteria
 
-- [ ] `src/verify.py` is runnable from the repository root.
-- [ ] Every included parse-plan dataset has a corresponding verification result.
-- [ ] `docs/verification_report.md` records pass/fail status and fiscal-year variance details for each dataset.
-- [ ] The verifier uses both absolute and relative tolerances and documents any tolerated exceptions.
-- [ ] The command exits non-zero when any non-exempt verification fails.
-- [ ] Validate cannot be marked complete until this report shows zero non-exempt failures.
+- [x] `src/verify.py` is runnable from the repository root.
+- [x] Every included parse-plan dataset has a corresponding verification result.
+- [x] `docs/verification_report.md` records pass/fail status and fiscal-year variance details for each dataset.
+- [x] The verifier uses both absolute and relative tolerances and documents any tolerated exceptions.
+- [x] The command exits non-zero when any non-exempt verification fails.
+- [x] Validate cannot be marked complete until this report shows zero non-exempt failures.
+
+**Status: COMPLETE** — `docs/verification_report.md` shows 299 targets: 277 PASS / 22 EXEMPT / 0 non-exempt FAIL. Verifier uses unit-aware absolute tolerance and 0.01% relative tolerance; all exemptions documented. Exits non-zero on any non-exempt failure.
 
 ## Dependencies
 

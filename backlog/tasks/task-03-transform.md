@@ -58,14 +58,16 @@ Each slice should update `.squad/decisions.md` with any new parser overrides bef
 
 ## Acceptance Criteria
 
-- [ ] `src/transform.py` is runnable from the repository root.
-- [ ] Every parse-plan sheet marked for inclusion produces at least one documented CSV or an explicit parse error entry.
-- [ ] Output CSVs contain the required columns and are encoded as UTF-8.
-- [ ] No output remains in wide format; year values are melted into `fiscal_year` / `value`.
-- [ ] Totals and subtotals are flagged with `is_total=True`.
-- [ ] Empty rows, narrative footnotes, and layout-only rows are excluded from outputs.
-- [ ] Output file names match the parse-plan `output_dataset` values.
-- [ ] Any duplicate `(program, category, fiscal_year, unit, source_sheet)` rows are either prevented or explicitly documented in parser-specific notes.
+- [x] `src/transform.py` is runnable from the repository root.
+- [x] Every parse-plan sheet marked for inclusion produces at least one documented CSV or an explicit parse error entry.
+- [x] Output CSVs contain the required columns and are encoded as UTF-8.
+- [x] No output remains in wide format; year values are melted into `fiscal_year` / `value`.
+- [x] Totals and subtotals are flagged with `is_total=True`.
+- [x] Empty rows, narrative footnotes, and layout-only rows are excluded from outputs.
+- [x] Output file names match the parse-plan `output_dataset` values.
+- [x] Any duplicate `(program, category, fiscal_year, unit, source_sheet)` rows are either prevented or explicitly documented in parser-specific notes.
+
+**Status: COMPLETE** — All 3 slices complete: health (38 datasets / 13,376 rows), income-security (88 / 19,961), remaining-programs (96 / 16,742). Total: 222 CSVs / 50,079 rows / 0 errors. Unit detection implemented: inline section-header scanning tracks `current_unit` per row across multi-section sheets. 9 clean unit values, 0 empty-unit rows. 15 unit tests pass.
 
 ## Dependencies
 

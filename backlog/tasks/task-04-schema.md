@@ -38,11 +38,13 @@ Generate one schema document per processed dataset so contributors can understan
 
 ## Acceptance Criteria
 
-- [ ] Every CSV in `data/processed/` has a matching schema file in `docs/schemas/`.
-- [ ] Each schema file documents column name, data type, description, unit applicability, example values, and notes.
-- [ ] `docs/schemas/README.md` lists every dataset and links to its schema file.
-- [ ] Schema file names match CSV basenames exactly.
-- [ ] Schema docs explain how `is_total=True` rows should be interpreted for downstream analysis.
+- [x] Every CSV in `data/processed/` has a matching schema file in `docs/schemas/`.
+- [x] Each schema file documents column name, data type, description, unit applicability, example values, and notes.
+- [x] `docs/schemas/README.md` lists every dataset and links to its schema file.
+- [x] Schema file names match CSV basenames exactly.
+- [x] Schema docs explain how `is_total=True` rows should be interpreted for downstream analysis.
+
+**Status: COMPLETE** — `src/generate_schemas.py` generates 222 schema docs (1:1 with processed CSVs) plus `docs/schemas/README.md` index. Each schema includes provenance, column table with unit/example/notes, and `is_total` aggregation caveat. Regenerated after unit normalization fix to reflect accurate unit lists per dataset.
 
 ## Dependencies
 
