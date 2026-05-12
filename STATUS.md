@@ -2,9 +2,9 @@
 
 | Field | Value |
 |---|---|
-| Phase | build-task-05-verify |
-| Next Action | Validate |
-| Last Updated | 2026-05-11 |
+| Phase | validate-task-05-verify |
+| Next Action | Build |
+| Last Updated | 2026-05-12 |
 | Squad Template | data_pipeline |
 | Priority | low |
 | Blocking | None |
@@ -12,10 +12,11 @@
 
 ## Current Objective
 
-`task-05-verify` build implementation is complete (`src/verify.py`, `tests/test_verify.py`, and `docs/verification_report.md`), and the repo is ready for **Validate** to independently review verification behavior and reported failures.
+Validate reviewed `task-05-verify` and found that the repository-scale reconciliation gate still fails (`275` non-exempt failures in `docs/verification_report.md`), so the repo returns to **Build** for parser/parse-plan/output-alignment fixes before verification can advance.
 
 ## Recent Activity
 
+- 2026-05-12: Validate failed for **Task ID: `task-05-verify`** — reran `python -m pip install -r requirements.txt`, the full unittest suite, `python src/verify.py --help`, and a real `python src/verify.py` reconciliation run. Validation confirmed the verifier is runnable and that all 299 included parse-plan targets appear in `docs/verification_report.md`, but the repository-scale run still exits non-zero with `24` PASS and `275` non-exempt FAIL results. Supporting audit evidence shows the failures cluster around concrete implementation gaps (`processed CSV missing=122`, `no fiscal years inferred from source=120`, `parse plan has no year_columns=42`, `sheet missing=10`), so the repo returns to **Build** for `task-05-verify`.
 - 2026-05-11: Build advanced for **Task ID: `task-05-verify`** — routed verification work through the Data Engineer + Tester path in `.squad/routing.md`, implemented `src/verify.py` to compare source workbook totals to processed CSV totals by fiscal year with both absolute unit-aware tolerance and a `0.01%` relative tolerance, and to exit non-zero on non-exempt failures. Added focused unit tests in `tests/test_verify.py` covering pass/fail reporting, non-zero exit behavior, and default `is_total` exclusion with parse-plan override support (`verification_include_totals: true`). Ran `python -m unittest tests.test_verify -v` (pass) and generated `docs/verification_report.md` via `python src/verify.py`, which recorded 299 included verification targets with 24 PASS and 275 non-exempt FAIL results for follow-up in Validate.
 - 2026-05-11: Closeout completed for **Task ID: `task-04-schema`** — independently rechecked `STATUS.md`, `backlog/tasks/task-04-schema.md`, `.squad/sprint.md`, `.squad/validation_report.md`, and `README.md`, then reran `python -m pip install -r requirements.txt`, `python -m unittest discover -s tests -v`, `python src/generate_schemas.py --help`, a real `python src/generate_schemas.py --schemas-dir /tmp/cbo_closeout_schema` run, a schema coverage/required-sections audit, and `diff -rq docs/schemas /tmp/cbo_closeout_schema`. Confirmed `processed_csvs=177`, `schema_docs=177`, `missing_schemas=0`, `missing_sections=0`, `missing_column_details=0`, `missing_is_total_guidance=0`, `missing_provenance_values=0`, and `missing_readme_links=0`, with no drift from the checked-in schema docs. Returned the repo to **Build** for `task-05-verify`.
 - 2026-05-11: Validate passed for **Task ID: `task-04-schema`** — reran dependency install, the full unittest suite, a repo-root CLI smoke check for `python src/generate_schemas.py --help`, a real schema-generation run to `/tmp/cbo_schema_validate`, a 1:1 CSV/schema coverage audit, and a reproducibility diff against `docs/schemas/`. Validation confirmed `processed_csvs=177`, `schema_docs=177`, `missing_schemas=0`, `missing_sections=0`, `missing_column_details=0`, `missing_is_total_guidance=0`, `missing_provenance_values=0`, and `missing_readme_links=0`, with no drift between the checked-in schema docs and a fresh generation run. Routed to Closeout.
@@ -30,8 +31,9 @@
 
 ## Remaining Follow-up
 
-- **Next phase:** **Validate `task-05-verify`** by rerunning the full unittest suite, smoke-checking `python src/verify.py --help`, rerunning `python src/verify.py`, and reviewing whether the 275 non-exempt verification failures in `docs/verification_report.md` are true mismatches vs. parser/reporting defects.
-- Known parser-improvement follow-up: 14 health-slice parse errors, 37 income-security parse errors, and 39 remaining-programs parse errors remain surfaced explicitly in `parse_errors.log`; these should guide later parser-improvement work but do not block schema or verification closeout.
+- **Next phase:** **Build `task-05-verify`** by reducing the `275` non-exempt verification failures to zero so Validate can pass.
+- Prioritize the failure clusters surfaced by Validate: missing processed datasets, source sheets with no inferred fiscal years, parse-plan entries missing `year_columns`, and workbook/sheet mismatches.
+- Known parser-improvement follow-up: 14 health-slice parse errors, 37 income-security parse errors, and 39 remaining-programs parse errors remain surfaced explicitly in `parse_errors.log`; these likely overlap with the current verification failures and should guide the next Build loop.
 - After verification closes out, the remaining ordered automation work is `task-06-pipeline`.
 
 ## Artifacts
@@ -43,11 +45,11 @@
 | Backlog README | `./backlog/README.md` | created |
 | Task: Transform | `./backlog/tasks/task-03-transform.md` | closed out |
 | Task: Schema | `./backlog/tasks/task-04-schema.md` | closed out |
-| Task: Verify | `./backlog/tasks/task-05-verify.md` | build advanced |
+| Task: Verify | `./backlog/tasks/task-05-verify.md` | validate failed; returned to build |
 | Parse plan | `./config/workbook_parse_plan.yaml` | created |
-| Validation report | `./.squad/validation_report.md` | updated for task-04-schema Validate evidence |
+| Validation report | `./.squad/validation_report.md` | updated for task-05-verify Validate evidence (failed; returned to Build) |
 | Review report | `./.squad/review_report.md` | updated for task-04-schema Closeout decision |
-| Squad decisions | `./.squad/decisions.md` | updated with task-04-schema closeout decision |
+| Squad decisions | `./.squad/decisions.md` | updated with task-05-verify validation decision |
 | Root README | `./README.md` | updated for task-04-schema handoff to task-05-verify |
 | Transform implementation | `./src/transform.py` | complete (all slices) |
 | Schema generator | `./src/generate_schemas.py` | created |

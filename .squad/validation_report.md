@@ -1,13 +1,13 @@
 # Validation Report - Data_friendly_CBO_Baseline_Detail
 
-**Date:** 2026-05-11  
+**Date:** 2026-05-12  
 **Phase:** Validate  
-**Task ID:** `task-04-schema`  
-**Recommendation:** Pass — advance to Closeout for `task-04-schema`
+**Task ID:** `task-05-verify`  
+**Recommendation:** Fail — return to Build for `task-05-verify`
 
 ## Scope
 
-Validate the latest `task-04-schema` build (`src/generate_schemas.py`, `docs/schemas/`, and `tests/test_generate_schemas.py`) against the schema-task acceptance criteria and the sprint commitment for the next ordered build item after transform closeout.
+Validate the latest `task-05-verify` build (`src/verify.py`, `tests/test_verify.py`, and `docs/verification_report.md`) against the verification-task acceptance criteria and the sprint commitment for the next ordered build item after schema closeout.
 
 ## Checks Run
 
@@ -18,7 +18,7 @@ python -m pip install -r requirements.txt
 ```
 
 - **Result:** Passed
-- **Evidence:** Declared dependencies installed successfully, including `openpyxl` and `PyYAML`, and no extra setup was required beyond `requirements.txt`.
+- **Evidence:** Declared dependencies installed successfully from `requirements.txt`; no extra setup was required to run the verifier, tests, or workbook reconciliation.
 
 ### 2. Existing unit tests
 
@@ -27,113 +27,103 @@ python -m unittest discover -s tests -v
 ```
 
 - **Result:** Passed
-- **Evidence:** 22 tests passed total, including the schema-generator coverage, README index, provenance, and `is_total` guidance checks in `tests/test_generate_schemas.py`.
+- **Evidence:** 24 tests passed total, including `tests/test_verify.py` coverage for pass/fail reporting, non-zero exit behavior, and `verification_include_totals` handling.
 
 ### 3. CLI runnable-from-root smoke check
 
 ```bash
-python src/generate_schemas.py --help
+python src/verify.py --help
 ```
 
 - **Result:** Passed
-- **Evidence:** Help output rendered successfully from the repository root with `--processed-dir` and `--schemas-dir` options.
+- **Evidence:** Help output rendered successfully from the repository root with `--parse-plan`, `--input-dir`, `--processed-dir`, and `--report` options.
 
-### 4. Real schema-generation run
+### 4. Real verification run
 
 ```bash
-python src/generate_schemas.py --schemas-dir /tmp/cbo_schema_validate
+python src/verify.py
 ```
 
-- **Result:** Passed
-- **Evidence:** Command completed successfully and reported `Schema generation complete. datasets=177, schemas_dir=/tmp/cbo_schema_validate, index=/tmp/cbo_schema_validate/README.md`.
+- **Result:** Failed
+- **Evidence:** Command regenerated `docs/verification_report.md`, printed `Verification complete. targets=299, pass=24, exempt=0, non_exempt_failures=275, report=docs/verification_report.md`, and exited with status code `1`.
 
-### 5. Schema coverage and required-section audit
+### 5. Parse-plan/report coverage and data-presence audit
 
 ```bash
 python - <<'PY'
 from pathlib import Path
-import csv
+import yaml
 
 root = Path("/home/runner/work/Data_friendly_CBO_Baseline_Detail/Data_friendly_CBO_Baseline_Detail")
-processed = root / "data" / "processed"
-schemas = Path("/tmp/cbo_schema_validate")
-processed_names = sorted(p.stem for p in processed.glob("*.csv"))
-schema_names = sorted(p.stem for p in schemas.glob("*.md") if p.name != "README.md")
-missing_schemas = sorted(set(processed_names) - set(schema_names))
-extra_schemas = sorted(set(schema_names) - set(processed_names))
-required_sections = ["## Purpose", "## Provenance", "## Columns", "## is_total Interpretation"]
-missing_sections = []
-missing_column_details = []
-missing_is_total_guidance = []
-missing_provenance_values = []
-required_columns = ["program", "category", "fiscal_year", "value", "unit", "source_file", "source_sheet", "is_total"]
+parse_plan = yaml.safe_load((root / "config" / "workbook_parse_plan.yaml").read_text(encoding="utf-8")) or {}
+include_count = 0
+for workbook in parse_plan.get("workbooks", []):
+    for sheet in workbook.get("sheets", []):
+        if sheet.get("include"):
+            include_count += 1
 
-for csv_path in sorted(processed.glob("*.csv")):
-    schema_path = schemas / f"{csv_path.stem}.md"
-    content = schema_path.read_text(encoding="utf-8")
-    for section in required_sections:
-        if section not in content:
-            missing_sections.append((csv_path.stem, section))
-    for column in required_columns:
-        if f"`{column}`" not in content:
-            missing_column_details.append((csv_path.stem, column))
-    if "double-counting" not in content:
-        missing_is_total_guidance.append(csv_path.stem)
-    with csv_path.open(encoding="utf-8", newline="") as handle:
-        reader = csv.DictReader(handle)
-        first_row = next(reader, None)
-    if first_row:
-        if first_row["source_file"] not in content or first_row["source_sheet"] not in content:
-            missing_provenance_values.append(csv_path.stem)
+raw_files = sorted((root / "data" / "raw").glob("*.xlsx"))
+processed_files = sorted((root / "data" / "processed").glob("*.csv"))
+empty_processed = [p.name for p in processed_files if p.stat().st_size == 0]
+report = (root / "docs" / "verification_report.md").read_text(encoding="utf-8")
+report_sections = report.count("## `")
 
-readme = (schemas / "README.md").read_text(encoding="utf-8")
-missing_readme_links = [name for name in processed_names if f"[{name}.md]({name}.md)" not in readme]
-
-print(f"processed_csvs={len(processed_names)}")
-print(f"schema_docs={len(schema_names)}")
-print(f"missing_schemas={len(missing_schemas)}")
-print(f"extra_schemas={len(extra_schemas)}")
-print(f"missing_sections={len(missing_sections)}")
-print(f"missing_column_details={len(missing_column_details)}")
-print(f"missing_is_total_guidance={len(missing_is_total_guidance)}")
-print(f"missing_provenance_values={len(missing_provenance_values)}")
-print(f"missing_readme_links={len(missing_readme_links)}")
+print(f"raw_xlsx={len(raw_files)}")
+print(f"processed_csv={len(processed_files)}")
+print(f"empty_processed={len(empty_processed)}")
+print(f"included_parse_targets={include_count}")
+print(f"report_sections={report_sections}")
 PY
 ```
 
 - **Result:** Passed
-- **Evidence:**  
-  - The generator preserved a strict 1:1 mapping between processed CSVs and schema docs (`processed_csvs=177`, `schema_docs=177`, `missing_schemas=0`, `extra_schemas=0`).  
-  - Every generated schema contained the required sections and all output-column details (`missing_sections=0`, `missing_column_details=0`).  
-  - Every generated schema documented `is_total` double-counting guidance and included real provenance values from the CSVs (`missing_is_total_guidance=0`, `missing_provenance_values=0`).  
-  - The generated `docs/schemas/README.md` equivalent linked every dataset schema (`missing_readme_links=0`).
+- **Evidence:** Validation confirmed the repo has `raw_xlsx=230`, `processed_csv=177`, `empty_processed=0`, `included_parse_targets=299`, and `report_sections=299`, so every included parse-plan target has a corresponding verification section even though most currently fail reconciliation.
 
-### 6. Reproducibility drift check against checked-in schema docs
+### 6. Verification failure-pattern audit
 
 ```bash
-diff -rq docs/schemas /tmp/cbo_schema_validate
+python - <<'PY'
+from pathlib import Path
+
+report = (Path("/home/runner/work/Data_friendly_CBO_Baseline_Detail/Data_friendly_CBO_Baseline_Detail") / "docs" / "verification_report.md").read_text(encoding="utf-8")
+patterns = {
+    "processed_csv_missing": "processed CSV missing:",
+    "no_fiscal_years": "no fiscal years inferred from source",
+    "sheet_missing": "sheet missing:",
+    "no_year_columns": "parse plan has no year_columns",
+    "no_processed_rows": "no processed rows matched source_file/source_sheet scope",
+}
+for label, token in patterns.items():
+    print(f"{label}={report.count(token)}")
+PY
 ```
 
 - **Result:** Passed
-- **Evidence:** No output from `diff -rq`, so the checked-in `docs/schemas/` tree matches a fresh run of the current schema generator exactly.
+- **Evidence:** The report’s failure notes are concentrated in concrete implementation gaps rather than validation setup problems: `processed_csv_missing=122`, `no_fiscal_years=120`, `sheet_missing=10`, `no_year_columns=42`, and `no_processed_rows=58`.
 
 ## Blocked Checks
 
-- None. The required local validation checks were runnable in this sandbox using the checked-in processed CSVs.
+- None. The required local validation checks were runnable in this sandbox using the checked-in workbooks, parse plan, processed CSVs, and verifier implementation.
 
 ## Acceptance Criteria Coverage
 
-- [x] Every CSV in `data/processed/` has a matching schema file in `docs/schemas/`
-- [x] Each schema file documents column name, data type, description, unit applicability, example values, and notes
-- [x] `docs/schemas/README.md` lists every dataset and links to its schema file
-- [x] Schema file names match CSV basenames exactly
-- [x] Schema docs explain how `is_total=True` rows should be interpreted for downstream analysis
+- [x] `src/verify.py` is runnable from the repository root
+- [x] Every included parse-plan dataset has a corresponding verification result
+- [x] `docs/verification_report.md` records pass/fail status and fiscal-year variance details for each dataset
+- [x] The verifier uses both absolute and relative tolerances and documents any tolerated exceptions
+- [x] The command exits non-zero when non-exempt verification fails
+- [ ] Validate cannot be marked complete because `docs/verification_report.md` still shows `275` non-exempt failures (requirement: zero non-exempt failures)
 
 ## Remaining Risks / Follow-up
 
-- The generator and checked-in schema docs are currently aligned, but Closeout should preserve that the project still has downstream backlog work in `task-05-verify` and `task-06-pipeline`.
-- Existing transform parse errors remain documented in `data/processed/parse_errors.log`; they do not block schema closeout, but they remain relevant context for later verification work.
+- `task-05-verify` does not yet satisfy its Validate-phase gate because the repository-scale reconciliation run still fails for most included targets.
+- The failure notes point to several explicit Build follow-ups that need implementation work in the parser/parse-plan/output alignment before Validate can pass:
+  - missing processed datasets for many included targets (`processed CSV missing` appears 122 times)
+  - source-sheet parsing gaps where the verifier cannot infer fiscal years (`no fiscal years inferred from source` appears 120 times)
+  - parse-plan incompleteness (`parse plan has no year_columns` appears 42 times)
+  - workbook/sheet-name mismatches (`sheet missing` appears 10 times)
+- `task-06-pipeline` should remain queued until `task-05-verify` can produce a zero-non-exempt-failure report.
 
 ## Recommendation
 
-Advance the repo to **Closeout** for `task-04-schema`. The schema generator is runnable from the repo root, the full unittest suite passes, a real generation run produces complete 1:1 schema coverage for all 177 processed CSVs, each schema includes the required provenance and `is_total` guidance, and the checked-in schema docs are reproducible from the current implementation.
+Return the repo to **Build** for `task-05-verify`. The validation workflow itself is runnable and reproducible, but the required repository-scale verification gate is not met: the real `python src/verify.py` run still exits non-zero and produces `275` non-exempt failures in `docs/verification_report.md`, so the task does not meet its acceptance criteria and cannot advance to Closeout yet.

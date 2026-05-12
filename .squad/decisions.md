@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-12 — Validate returns task-05-verify to Build
+
+**Decision:** Return `task-05-verify` from Validate to **Build**.
+**Rationale:** Independent validation reran `python -m pip install -r requirements.txt`, `python -m unittest discover -s tests -v`, `python src/verify.py --help`, and a real `python src/verify.py` reconciliation run from the repository root. The verifier is runnable and its focused tests pass, and validation confirmed that all 299 included parse-plan targets have corresponding report sections, but the repository-scale run still exits non-zero and regenerates `docs/verification_report.md` with `24` PASS, `0` EXEMPT, and `275` non-exempt FAIL results. Supporting audit evidence shows the failures cluster around concrete implementation gaps (`processed CSV missing=122`, `no fiscal years inferred from source=120`, `parse plan has no year_columns=42`, `no processed rows matched source_file/source_sheet scope=58`, `sheet missing=10`), so the task does not satisfy the requirement that Validate cannot pass until the verification report shows zero non-exempt failures.
+**Task:** task-05-verify
+
+---
+
 ### 2026-05-11 — task-05-verify build implementation
 
 **Decision:** Implement `src/verify.py` and `tests/test_verify.py`, and generate `docs/verification_report.md` for `task-05-verify`.
