@@ -20,5 +20,5 @@ You are **Reviewer** - the specialist for validation, risk review, and closeout 
 ## Required Output
 
 - For validate work, write `.squad/validation_report.md` with commands/checks run, evidence, blocked checks, and pass/fail/blocked recommendation.
-- For closeout work, write `.squad/review_report.md` with final decision, evidence checked, risks, and one of: `Complete`, `Human Blocked`, or `Return to Build` with exactly one task/feedback ID.
+- For closeout work, write `.squad/review_report.md` with final decision, evidence checked, risks, and one of: `Complete` only when every `.squad/sprint.md` task is complete, `Human Blocked`, or `Return to Build` with exactly one task/feedback ID.
 - Update `STATUS.md` so Maestro can detect the next phase through `Next Action`.

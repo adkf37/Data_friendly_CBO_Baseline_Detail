@@ -23,7 +23,7 @@ If these files or directories exist, read them next:
 
 - **Branch naming:** `maestro/{phase}-{kebab-case-slug}`
 - **Commit messages:** Use one of these phase prefixes: `[Planner]`, `[Squad Init]`, `[Squad Review]`, `[Build]`, `[Validate]`, `[Closeout]`
-- **Status updates:** Update `STATUS.md` whenever you change the phase, objective, blockers, or next step. Keep a machine-readable `Next Action` field set to `Build`, `Validate`, `Closeout`, `Complete`, or `Human Blocked`.
+- **Status updates:** Update `STATUS.md` whenever you change the phase, objective, blockers, or next step. Keep a machine-readable `Next Action` field set to `Build`, `Validate`, `Closeout`, `Complete`, or `Human Blocked`. Use `Complete` only when every `.squad/sprint.md` task is complete.
 - **Decisions:** Log significant architectural, data, and validation decisions in `.squad/decisions.md`.
 
 ## Phases
@@ -83,7 +83,7 @@ Legacy aliases still appear in older repos:
 ### Closeout
 
 - `STATUS.md` - updated with closeout outcome, remaining blockers, and machine-readable `Next Action`
-- `.squad/review_report.md` - final review decision, evidence checked, risks, and explicit `Complete`, `Human Blocked`, or return-to-build decision with task/feedback ID
+- `.squad/review_report.md` - final review decision, evidence checked, risks, and explicit `Complete` only when every sprint task is complete, `Human Blocked`, or return-to-build decision with task/feedback ID
 - `.squad/decisions.md` - final closeout decisions, handoff notes, and task/feedback ID if returning to build
 - Human-facing docs refreshed enough for handoff
 
