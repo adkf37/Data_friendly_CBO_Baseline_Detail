@@ -17,7 +17,7 @@ Tidy long-form CBO baseline data for the **Medicaid** program(s), extracted from
 |---|---|
 | Source file(s) | `51301-2024-06-medicaid.xlsx` |
 | Source sheet(s) | `Medicaid_06-2024-rev` |
-| Unit(s) | Billions of dollars, Dollars, Millions of people |
+| Unit(s) | Billions of dollars, Dollars per enrollee, Millions of people |
 
 ## Columns
 

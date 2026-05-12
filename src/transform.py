@@ -58,6 +58,14 @@ UNIT_PAREN_RE = re.compile(
 # Standalone "Dollars" or "(Dollars)" with optional footnote marker.
 DOLLARS_LINE_RE = re.compile(r"^\s*\(?\s*dollars\s*\)?\s*[a-z]?\s*$", re.IGNORECASE)
 DOLLARS_PAREN_RE = re.compile(r"\(\s*dollars\s*\)\s*[a-z]?\s*$", re.IGNORECASE)
+# Per-capita qualifiers that differentiate "Dollars per enrollee" from plain
+# "Dollars". Matches the noun that follows "per" in section headers like
+# "Average Federal Spending per Enrollee (Dollars)" or
+# "Cost per Beneficiary (Dollars)".
+_PER_QUALIFIER_RE = re.compile(
+    r"\bper\s+(enrollee|beneficiar(?:y|ies)|participant|recipient|person|worker|capita)\b",
+    re.IGNORECASE,
+)
 # Maximum rows to scan beyond the declared header when searching for year labels.
 MAX_YEAR_SCAN_ROWS = 30
 # When parse-plan year_columns are absent, scan only a bounded number of leading
@@ -198,6 +206,9 @@ def _extract_unit_declaration(text: str) -> str | None:
         return "Dollars"
     paren_dollars = DOLLARS_PAREN_RE.search(stripped)
     if paren_dollars:
+        per_m = _PER_QUALIFIER_RE.search(stripped)
+        if per_m:
+            return f"Dollars per {per_m.group(1).lower()}"
         return "Dollars"
     # Form 2: unit phrase inside trailing parenthetical (e.g. section header).
     paren_match = UNIT_PAREN_RE.search(stripped)

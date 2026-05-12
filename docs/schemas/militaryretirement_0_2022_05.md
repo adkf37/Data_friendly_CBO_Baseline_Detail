@@ -15,7 +15,7 @@ Tidy long-form CBO baseline data for the **Militaryretirement 0** program(s), ex
 |---|---|
 | Source file(s) | `51303-2022-05-militaryretirement_0.xlsx` |
 | Source sheet(s) | `Mil Retirement_5-2022` |
-| Unit(s) | Billions of dollars, Dollars, Thousands of people |
+| Unit(s) | Billions of dollars, Dollars per participant, Thousands of people |
 
 ## Columns
 

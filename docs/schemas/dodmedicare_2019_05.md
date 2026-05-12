@@ -17,7 +17,7 @@ Tidy long-form CBO baseline data for the **Dodmedicare** program(s), extracted f
 |---|---|
 | Source file(s) | `54946-2019-05-DoDMedicare.xlsx` |
 | Source sheet(s) | `Table 1` |
-| Unit(s) | Dollars, Millions of dollars, Thousands |
+| Unit(s) | Dollars per beneficiary, Millions of dollars, Thousands |
 
 ## Columns
 
