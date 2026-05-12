@@ -1,730 +1,730 @@
 program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Studentloan,Program Accounta,2020,6225.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Accounta,2021,-3563.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Accounta,2022,-3179.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Accounta,2023,-2791.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Accounta,2024,-2813.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Accounta,2025,-3221.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Accounta,2026,-3185.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Accounta,2027,-3768.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Accounta,2028,-4023.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Accounta,2029,-4397.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Accounta,2030,-4259.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2020,63691.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2021,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2022,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2023,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2024,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2025,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2026,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2027,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2028,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2029,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2030,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,"Subtotal, Direct Loans",2020,69916.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Direct Loans",2021,-3563.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Direct Loans",2022,-3179.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Direct Loans",2023,-2791.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Direct Loans",2024,-2813.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Direct Loans",2025,-3221.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Direct Loans",2026,-3185.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Direct Loans",2027,-3768.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Direct Loans",2028,-4023.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Direct Loans",2029,-4397.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Direct Loans",2030,-4259.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,Program Liquidating Account and,2020,10.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Liquidating Account and,2021,10.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Liquidating Account and,2022,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Liquidating Account and,2023,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Liquidating Account and,2024,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Liquidating Account and,2025,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Liquidating Account and,2026,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Liquidating Account and,2027,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Liquidating Account and,2028,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Liquidating Account and,2029,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Program Liquidating Account and,2030,7.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Federal Student Loan Reserve Fund,2020,-172.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Federal Student Loan Reserve Fund,2021,-137.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Federal Student Loan Reserve Fund,2022,-107.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Federal Student Loan Reserve Fund,2023,-80.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Federal Student Loan Reserve Fund,2024,-60.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Federal Student Loan Reserve Fund,2025,-46.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Federal Student Loan Reserve Fund,2026,-38.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Federal Student Loan Reserve Fund,2027,-30.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Federal Student Loan Reserve Fund,2028,-28.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Federal Student Loan Reserve Fund,2029,-26.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Federal Student Loan Reserve Fund,2030,-25.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2020,6395.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2021,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2022,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2023,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2024,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2025,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2026,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2027,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2028,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2029,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Credit Reestimates and Modificationsb,2030,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,"Subtotal, Guaranteed Loans",2020,6405.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Guaranteed Loans",2021,10.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Guaranteed Loans",2022,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Guaranteed Loans",2023,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Guaranteed Loans",2024,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Guaranteed Loans",2025,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Guaranteed Loans",2026,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Guaranteed Loans",2027,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Guaranteed Loans",2028,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Guaranteed Loans",2029,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Guaranteed Loans",2030,7.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,Student Aid Administration (Discretionary)c,2020,1769.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Discretionary)c,2021,1812.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Discretionary)c,2022,1856.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Discretionary)c,2023,1900.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Discretionary)c,2024,1945.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Discretionary)c,2025,1991.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Discretionary)c,2026,2036.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Discretionary)c,2027,2083.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Discretionary)c,2028,2130.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Discretionary)c,2029,2177.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Discretionary)c,2030,2226.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Mandatory)d,2020,1304.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Mandatory)d,2021,1326.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Mandatory)d,2022,1356.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Mandatory)d,2023,1395.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Mandatory)d,2024,1441.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Mandatory)d,2025,1478.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Mandatory)d,2026,1506.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Mandatory)d,2027,1534.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Mandatory)d,2028,1562.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Mandatory)d,2029,1591.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,Student Aid Administration (Mandatory)d,2030,1621.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,false
-Studentloan,"Subtotal, Student Aid Administration",2020,3073.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Student Aid Administration",2021,3138.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Student Aid Administration",2022,3212.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Student Aid Administration",2023,3295.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Student Aid Administration",2024,3386.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Student Aid Administration",2025,3469.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Student Aid Administration",2026,3542.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Student Aid Administration",2027,3617.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Student Aid Administration",2028,3692.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Student Aid Administration",2029,3768.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,"Subtotal, Student Aid Administration",2030,3847.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,Total Student Loans,2020,79394.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,Total Student Loans,2021,-415.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,Total Student Loans,2022,42.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,Total Student Loans,2023,513.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,Total Student Loans,2024,582.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,Total Student Loans,2025,257.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,Total Student Loans,2026,365.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,Total Student Loans,2027,-143.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,Total Student Loans,2028,-323.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,Total Student Loans,2029,-621.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,Total Student Loans,2030,-405.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 1,true
-Studentloan,Net Annual Loan Volume (Millions of dollars),2020,92310.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2021,93366.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2022,95470.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2023,98445.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2024,102115.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2025,105958.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2026,110039.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2027,113537.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2028,116595.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2029,119720.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2030,122763.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2020,15183.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2021,15161.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2022,15241.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2023,15556.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2024,16033.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2025,16518.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2026,17049.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2027,17399.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2028,17611.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2029,17826.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2030,18036.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2020,6080.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2021,6158.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2022,6264.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2023,6328.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2024,6369.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2025,6415.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2026,6454.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2027,6526.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2028,6620.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2029,6716.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2030,6807.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2020,-5.14,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2021,-3.49,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2022,-3.06,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2023,-2.62,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2024,-2.54,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2025,-2.79,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2026,-2.66,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2027,-3.04,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2028,-3.15,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2029,-3.35,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2030,-3.16,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2020,19306.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2021,19307.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2022,19472.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2023,19863.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2024,20682.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2025,21540.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2026,22542.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2027,23136.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2028,23511.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2029,23893.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2030,24281.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2020,5741.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2021,5685.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2022,5676.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2023,5733.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2024,5910.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2025,6095.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2026,6315.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2027,6417.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2028,6457.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2029,6497.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2030,6537.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2020,3363.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2021,3396.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2022,3430.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2023,3465.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2024,3499.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2025,3534.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2026,3570.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2027,3605.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2028,3641.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2029,3678.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2030,3715.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2020,7.51,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2021,9.15,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2022,10.23,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2023,10.77,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2024,10.64,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2025,10.61,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2026,10.58,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2027,10.4,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2028,10.43,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2029,10.41,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2030,10.45,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2020,21464.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2021,21715.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2022,22087.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2023,23081.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2024,24218.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2025,25370.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2026,26576.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2027,27571.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2028,28297.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2029,29042.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2030,29807.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2020,6102.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2021,6112.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2022,6156.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2023,6369.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2024,6617.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2025,6862.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2026,7118.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2027,7311.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2028,7429.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2029,7549.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2030,7671.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2020,3517.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2021,3553.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2022,3588.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2023,3624.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2024,3660.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2025,3697.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2026,3734.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2027,3771.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2028,3809.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2029,3847.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2030,3885.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2020,-2.77,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2021,-1.05,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2022,-0.77,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2023,-0.79,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2024,-1.01,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2025,-1.23,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2026,-1.37,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2027,-1.61,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2028,-1.46,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2029,-1.61,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2030,-1.56,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2020,27434.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2021,27204.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2022,27664.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2023,28143.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2024,28879.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2025,29635.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2026,30410.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2027,31206.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2028,32023.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2029,32861.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2030,33720.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2020,1810.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2021,1801.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2022,1812.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2023,1823.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2024,1851.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2025,1878.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2026,1907.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2027,1935.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2028,1964.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2029,1994.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2030,2024.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2020,15157.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2021,15101.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2022,15267.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2023,15435.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2024,15605.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2025,15776.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2026,15950.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2027,16125.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2028,16303.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2029,16482.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2030,16663.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2020,-4.63,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2021,-2.82,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2022,-2.63,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2023,-2.31,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2024,-2.52,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2025,-3.11,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2026,-3.2,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2027,-3.71,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2028,-4.09,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2029,-4.45,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2030,-4.54,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2020,11232.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2021,11896.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2022,12608.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2023,13294.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2024,13900.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2025,14599.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2026,15305.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2027,16018.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2028,16747.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2029,17486.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2030,18102.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2020,598.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2021,617.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2022,638.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2023,657.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2024,670.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2025,686.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2026,702.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2027,717.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2028,731.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2029,745.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2030,752.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2020,18796.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2021,19266.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2022,19747.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2023,20241.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2024,20747.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2025,21266.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2026,21797.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2027,22342.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2028,22901.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2029,23473.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2030,24060.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2020,0.22,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2021,1.97,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2022,2.02,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2023,3.79,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2024,4.98,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2025,4.19,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2026,4.92,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2027,3.73,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2028,3.31,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2029,2.87,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2030,3.98,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2020,12874.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2021,13244.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2022,13640.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2023,14064.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2024,14435.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2025,14815.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2026,15205.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2027,15606.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2028,16017.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2029,16439.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Annual Loan Volume (Millions of dollars),2030,16852.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2020,932.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2021,945.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2022,959.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2023,974.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2024,985.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2025,996.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2026,1007.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2027,1018.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2028,1030.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2029,1041.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Net Number of Loans (Thousands),2030,1052.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2020,13806.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2021,14013.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2022,14224.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2023,14437.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2024,14653.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2025,14873.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2026,15096.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2027,15323.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2028,15553.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2029,15786.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Average Loan Amount (Dollars),2030,16023.0,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2020,-33.78,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2021,-31.83,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2022,-31.33,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2023,-31.2,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2024,-31.29,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2025,-31.21,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2026,-31.09,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2027,-31.07,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2028,-30.98,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2029,-30.84,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Subsidy Rate (Percent)b,2030,-30.54,Net Annual Loan Volume (Millions of dollars),51310-2020-03-studentloan.xlsx,Table 2,false
-Studentloan,Administrative Account,2020,405.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2021,398.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2022,391.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2023,382.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2024,372.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2025,361.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2026,350.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2027,338.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2028,326.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2029,312.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2030,297.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2020,409.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2021,400.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2022,393.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2023,384.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2024,374.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2025,363.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2026,353.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2027,341.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2028,329.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2029,315.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2030,301.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Default Prevention Fee Paid,2020,10.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Default Prevention Fee Paid,2021,10.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Default Prevention Fee Paid,2022,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Default Prevention Fee Paid,2023,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Default Prevention Fee Paid,2024,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Default Prevention Fee Paid,2025,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Default Prevention Fee Paid,2026,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Default Prevention Fee Paid,2027,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Default Prevention Fee Paid,2028,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Default Prevention Fee Paid,2029,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Default Prevention Fee Paid,2030,7.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,to Guaranty Agencies a,2020,10.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,to Guaranty Agencies a,2021,10.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,to Guaranty Agencies a,2022,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,to Guaranty Agencies a,2023,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,to Guaranty Agencies a,2024,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,to Guaranty Agencies a,2025,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,to Guaranty Agencies a,2026,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,to Guaranty Agencies a,2027,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,to Guaranty Agencies a,2028,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,to Guaranty Agencies a,2029,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,to Guaranty Agencies a,2030,7.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Loan Collection Costs,2020,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Loan Collection Costs,2021,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Loan Collection Costs,2022,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Loan Collection Costs,2023,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Loan Collection Costs,2024,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Loan Collection Costs,2025,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Loan Collection Costs,2026,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Loan Collection Costs,2027,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Loan Collection Costs,2028,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Loan Collection Costs,2029,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Loan Collection Costs,2030,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,on Pre-1992 loans a,2020,7.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,on Pre-1992 loans a,2021,4.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,on Pre-1992 loans a,2022,3.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,on Pre-1992 loans a,2023,2.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,on Pre-1992 loans a,2024,2.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,on Pre-1992 loans a,2025,1.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,on Pre-1992 loans a,2026,1.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,on Pre-1992 loans a,2027,1.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,on Pre-1992 loans a,2028,1.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,on Pre-1992 loans a,2029,1.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,on Pre-1992 loans a,2030,1.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,"Subtotal, Mandatory",2020,415.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2021,408.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2022,400.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2023,391.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2024,381.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2025,370.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2026,358.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2027,346.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2028,334.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2029,320.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2030,304.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,Outlays,2020,426.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2021,414.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2022,405.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2023,395.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2024,385.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2025,373.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2026,362.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2027,350.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2028,338.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2029,324.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2030,309.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2020,899.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2021,927.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2022,965.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2023,1013.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2024,1070.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2025,1118.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2026,1156.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2027,1195.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2028,1236.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2029,1279.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Administrative Account,2030,1323.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2020,876.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2021,920.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2022,956.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2023,1001.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2024,1056.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2025,1106.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2026,1146.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2027,1185.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2028,1226.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2029,1269.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2030,1312.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,"Subtotal, Mandatory",2020,899.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2021,927.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2022,965.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2023,1013.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2024,1070.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2025,1118.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2026,1156.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2027,1195.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2028,1236.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2029,1279.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,"Subtotal, Mandatory",2030,1323.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,Outlays,2020,876.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2021,920.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2022,956.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2023,1001.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2024,1056.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2025,1106.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2026,1146.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2027,1185.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2028,1226.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2029,1269.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2030,1312.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Total Mandatory,2020,1314.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,Total Mandatory,2021,1335.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,Total Mandatory,2022,1365.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,Total Mandatory,2023,1404.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,Total Mandatory,2024,1451.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,Total Mandatory,2025,1488.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,Total Mandatory,2026,1514.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,Total Mandatory,2027,1541.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,Total Mandatory,2028,1570.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,Total Mandatory,2029,1599.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,Total Mandatory,2030,1627.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,true
-Studentloan,Outlays,2020,1302.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2021,1334.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2022,1361.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2023,1396.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2024,1441.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2025,1479.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2026,1508.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2027,1535.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2028,1564.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2029,1593.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2030,1621.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2020,1769.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2021,1812.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2022,1856.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2023,1900.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2024,1945.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2025,1991.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2026,2036.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2027,2083.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2028,2130.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2029,2177.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2030,2226.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2020,1723.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2021,1779.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2022,1826.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2023,1872.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2024,1916.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2025,1962.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2026,2007.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2027,2053.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2028,2100.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2029,2147.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2030,2195.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2020,3083.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2021,3147.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2022,3221.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2023,3304.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2024,3396.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2025,3479.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2026,3550.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2027,3624.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2028,3700.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2029,3776.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Budget Authority,2030,3853.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2020,3025.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2021,3113.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2022,3187.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2023,3268.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2024,3357.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2025,3441.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2026,3515.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2027,3588.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2028,3664.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2029,3740.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Outlays,2030,3816.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 3,false
-Studentloan,Program Costs,2020,28502.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2021,18470.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2022,19185.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2023,20062.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2024,20884.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2025,21409.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2026,22310.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2027,22664.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2028,23120.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2029,23458.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2030,24226.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Account (Subsidy),2020,6395.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Account (Subsidy),2021,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Account (Subsidy),2022,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Account (Subsidy),2023,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Account (Subsidy),2024,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Account (Subsidy),2025,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Account (Subsidy),2026,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Account (Subsidy),2027,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Account (Subsidy),2028,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Account (Subsidy),2029,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Account (Subsidy),2030,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Liquidating Account,2020,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Liquidating Account,2021,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Liquidating Account,2022,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Liquidating Account,2023,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Liquidating Account,2024,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Liquidating Account,2025,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Liquidating Account,2026,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Liquidating Account,2027,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Liquidating Account,2028,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Liquidating Account,2029,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Guaranteed Loan Program Liquidating Account,2030,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Federal Student Loan  Reserve Fund,2020,-182.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Federal Student Loan  Reserve Fund,2021,-147.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Federal Student Loan  Reserve Fund,2022,-116.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Federal Student Loan  Reserve Fund,2023,-89.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Federal Student Loan  Reserve Fund,2024,-69.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Federal Student Loan  Reserve Fund,2025,-55.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Federal Student Loan  Reserve Fund,2026,-46.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Federal Student Loan  Reserve Fund,2027,-38.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Federal Student Loan  Reserve Fund,2028,-36.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Federal Student Loan  Reserve Fund,2029,-34.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Federal Student Loan  Reserve Fund,2030,-32.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2020,63691.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2021,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2022,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2023,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2024,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2025,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2026,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2027,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2028,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2029,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2030,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,"Subtotal, Direct Loans",2020,92193.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Direct Loans",2021,18470.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Direct Loans",2022,19185.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Direct Loans",2023,20062.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Direct Loans",2024,20884.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Direct Loans",2025,21409.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Direct Loans",2026,22310.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Direct Loans",2027,22664.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Direct Loans",2028,23120.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Direct Loans",2029,23458.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Direct Loans",2030,24226.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,Program Costs,2020,10.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2021,10.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2022,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2023,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2024,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2025,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2026,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2027,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2028,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2029,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Program Costs,2030,7.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2020,6395.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2021,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2022,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2023,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2024,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2025,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2026,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2027,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2028,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2029,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Credit Reestimates and Modificationsa,2030,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,"Subtotal, Guaranteed Loans",2020,6405.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Guaranteed Loans",2021,10.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Guaranteed Loans",2022,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Guaranteed Loans",2023,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Guaranteed Loans",2024,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Guaranteed Loans",2025,9.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Guaranteed Loans",2026,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Guaranteed Loans",2027,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Guaranteed Loans",2028,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Guaranteed Loans",2029,8.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,"Subtotal, Guaranteed Loans",2030,7.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,Student Aid Administration (Discretionary),2020,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Discretionary),2021,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Discretionary),2022,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Discretionary),2023,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Discretionary),2024,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Discretionary),2025,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Discretionary),2026,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Discretionary),2027,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Discretionary),2028,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Discretionary),2029,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Discretionary),2030,0.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Mandatory),2020,1304.302222222222,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Mandatory),2021,1325.5242085320187,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Mandatory),2022,1355.9607112142237,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Mandatory),2023,1395.337150490099,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Mandatory),2024,1441.2989294362058,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Mandatory),2025,1478.1041819417565,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Mandatory),2026,1506.1152795262085,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Mandatory),2027,1533.6461325668276,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Mandatory),2028,1561.9259974495542,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Mandatory),2029,1591.141343114662,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration (Mandatory),2030,1620.623508047524,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration,2020,3073.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration,2021,3138.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration,2022,3212.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration,2023,3295.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration,2024,3386.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration,2025,3469.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration,2026,3542.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration,2027,3617.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration,2028,3692.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration,2029,3768.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Student Aid Administration,2030,3847.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,false
-Studentloan,Total Student Loans,2020,101671.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,Total Student Loans,2021,21618.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,Total Student Loans,2022,22406.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,Total Student Loans,2023,23366.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,Total Student Loans,2024,24279.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,Total Student Loans,2025,24887.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,Total Student Loans,2026,25860.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,Total Student Loans,2027,26289.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,Total Student Loans,2028,26820.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,Total Student Loans,2029,27234.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
-Studentloan,Total Student Loans,2030,28080.0,Millions of Dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,Program Accounta,2020,6225.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Accounta,2021,-3563.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Accounta,2022,-3179.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Accounta,2023,-2791.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Accounta,2024,-2813.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Accounta,2025,-3221.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Accounta,2026,-3185.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Accounta,2027,-3768.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Accounta,2028,-4023.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Accounta,2029,-4397.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Accounta,2030,-4259.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2020,63691.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2021,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2022,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2023,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2024,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2025,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2026,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2027,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2028,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2029,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2030,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,"Subtotal, Direct Loans",2020,69916.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Direct Loans",2021,-3563.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Direct Loans",2022,-3179.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Direct Loans",2023,-2791.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Direct Loans",2024,-2813.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Direct Loans",2025,-3221.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Direct Loans",2026,-3185.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Direct Loans",2027,-3768.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Direct Loans",2028,-4023.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Direct Loans",2029,-4397.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Direct Loans",2030,-4259.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,Program Liquidating Account and,2020,10.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Liquidating Account and,2021,10.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Liquidating Account and,2022,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Liquidating Account and,2023,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Liquidating Account and,2024,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Liquidating Account and,2025,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Liquidating Account and,2026,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Liquidating Account and,2027,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Liquidating Account and,2028,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Liquidating Account and,2029,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Program Liquidating Account and,2030,7.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Federal Student Loan Reserve Fund,2020,-172.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Federal Student Loan Reserve Fund,2021,-137.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Federal Student Loan Reserve Fund,2022,-107.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Federal Student Loan Reserve Fund,2023,-80.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Federal Student Loan Reserve Fund,2024,-60.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Federal Student Loan Reserve Fund,2025,-46.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Federal Student Loan Reserve Fund,2026,-38.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Federal Student Loan Reserve Fund,2027,-30.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Federal Student Loan Reserve Fund,2028,-28.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Federal Student Loan Reserve Fund,2029,-26.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Federal Student Loan Reserve Fund,2030,-25.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2020,6395.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2021,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2022,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2023,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2024,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2025,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2026,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2027,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2028,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2029,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Credit Reestimates and Modificationsb,2030,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,"Subtotal, Guaranteed Loans",2020,6405.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Guaranteed Loans",2021,10.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Guaranteed Loans",2022,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Guaranteed Loans",2023,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Guaranteed Loans",2024,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Guaranteed Loans",2025,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Guaranteed Loans",2026,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Guaranteed Loans",2027,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Guaranteed Loans",2028,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Guaranteed Loans",2029,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Guaranteed Loans",2030,7.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,Student Aid Administration (Discretionary)c,2020,1769.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Discretionary)c,2021,1812.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Discretionary)c,2022,1856.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Discretionary)c,2023,1900.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Discretionary)c,2024,1945.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Discretionary)c,2025,1991.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Discretionary)c,2026,2036.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Discretionary)c,2027,2083.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Discretionary)c,2028,2130.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Discretionary)c,2029,2177.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Discretionary)c,2030,2226.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Mandatory)d,2020,1304.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Mandatory)d,2021,1326.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Mandatory)d,2022,1356.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Mandatory)d,2023,1395.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Mandatory)d,2024,1441.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Mandatory)d,2025,1478.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Mandatory)d,2026,1506.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Mandatory)d,2027,1534.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Mandatory)d,2028,1562.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Mandatory)d,2029,1591.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,Student Aid Administration (Mandatory)d,2030,1621.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,false
+Studentloan,"Subtotal, Student Aid Administration",2020,3073.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Student Aid Administration",2021,3138.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Student Aid Administration",2022,3212.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Student Aid Administration",2023,3295.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Student Aid Administration",2024,3386.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Student Aid Administration",2025,3469.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Student Aid Administration",2026,3542.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Student Aid Administration",2027,3617.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Student Aid Administration",2028,3692.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Student Aid Administration",2029,3768.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,"Subtotal, Student Aid Administration",2030,3847.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,Total Student Loans,2020,79394.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,Total Student Loans,2021,-415.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,Total Student Loans,2022,42.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,Total Student Loans,2023,513.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,Total Student Loans,2024,582.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,Total Student Loans,2025,257.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,Total Student Loans,2026,365.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,Total Student Loans,2027,-143.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,Total Student Loans,2028,-323.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,Total Student Loans,2029,-621.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,Total Student Loans,2030,-405.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 1,true
+Studentloan,Net Annual Loan Volume (Millions of dollars),2020,92310.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2021,93366.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2022,95470.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2023,98445.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2024,102115.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2025,105958.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2026,110039.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2027,113537.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2028,116595.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2029,119720.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2030,122763.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2020,15183.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2021,15161.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2022,15241.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2023,15556.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2024,16033.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2025,16518.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2026,17049.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2027,17399.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2028,17611.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2029,17826.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2030,18036.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2020,6080.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2021,6158.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2022,6264.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2023,6328.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2024,6369.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2025,6415.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2026,6454.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2027,6526.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2028,6620.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2029,6716.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2030,6807.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2020,-5.14,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2021,-3.49,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2022,-3.06,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2023,-2.62,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2024,-2.54,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2025,-2.79,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2026,-2.66,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2027,-3.04,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2028,-3.15,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2029,-3.35,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2030,-3.16,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2020,19306.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2021,19307.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2022,19472.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2023,19863.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2024,20682.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2025,21540.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2026,22542.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2027,23136.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2028,23511.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2029,23893.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2030,24281.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2020,5741.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2021,5685.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2022,5676.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2023,5733.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2024,5910.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2025,6095.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2026,6315.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2027,6417.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2028,6457.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2029,6497.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2030,6537.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2020,3363.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2021,3396.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2022,3430.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2023,3465.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2024,3499.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2025,3534.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2026,3570.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2027,3605.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2028,3641.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2029,3678.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2030,3715.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2020,7.51,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2021,9.15,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2022,10.23,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2023,10.77,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2024,10.64,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2025,10.61,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2026,10.58,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2027,10.4,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2028,10.43,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2029,10.41,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2030,10.45,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2020,21464.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2021,21715.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2022,22087.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2023,23081.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2024,24218.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2025,25370.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2026,26576.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2027,27571.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2028,28297.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2029,29042.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2030,29807.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2020,6102.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2021,6112.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2022,6156.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2023,6369.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2024,6617.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2025,6862.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2026,7118.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2027,7311.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2028,7429.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2029,7549.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2030,7671.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2020,3517.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2021,3553.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2022,3588.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2023,3624.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2024,3660.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2025,3697.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2026,3734.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2027,3771.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2028,3809.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2029,3847.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2030,3885.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2020,-2.77,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2021,-1.05,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2022,-0.77,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2023,-0.79,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2024,-1.01,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2025,-1.23,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2026,-1.37,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2027,-1.61,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2028,-1.46,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2029,-1.61,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2030,-1.56,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2020,27434.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2021,27204.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2022,27664.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2023,28143.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2024,28879.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2025,29635.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2026,30410.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2027,31206.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2028,32023.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2029,32861.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2030,33720.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2020,1810.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2021,1801.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2022,1812.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2023,1823.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2024,1851.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2025,1878.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2026,1907.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2027,1935.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2028,1964.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2029,1994.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2030,2024.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2020,15157.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2021,15101.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2022,15267.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2023,15435.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2024,15605.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2025,15776.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2026,15950.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2027,16125.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2028,16303.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2029,16482.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2030,16663.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2020,-4.63,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2021,-2.82,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2022,-2.63,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2023,-2.31,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2024,-2.52,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2025,-3.11,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2026,-3.2,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2027,-3.71,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2028,-4.09,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2029,-4.45,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2030,-4.54,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2020,11232.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2021,11896.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2022,12608.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2023,13294.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2024,13900.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2025,14599.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2026,15305.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2027,16018.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2028,16747.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2029,17486.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2030,18102.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2020,598.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2021,617.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2022,638.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2023,657.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2024,670.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2025,686.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2026,702.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2027,717.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2028,731.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2029,745.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2030,752.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2020,18796.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2021,19266.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2022,19747.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2023,20241.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2024,20747.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2025,21266.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2026,21797.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2027,22342.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2028,22901.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2029,23473.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2030,24060.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2020,0.22,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2021,1.97,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2022,2.02,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2023,3.79,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2024,4.98,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2025,4.19,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2026,4.92,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2027,3.73,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2028,3.31,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2029,2.87,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2030,3.98,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2020,12874.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2021,13244.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2022,13640.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2023,14064.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2024,14435.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2025,14815.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2026,15205.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2027,15606.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2028,16017.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2029,16439.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2030,16852.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2020,932.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2021,945.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2022,959.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2023,974.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2024,985.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2025,996.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2026,1007.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2027,1018.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2028,1030.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2029,1041.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Net Number of Loans (Thousands),2030,1052.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2020,13806.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2021,14013.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2022,14224.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2023,14437.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2024,14653.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2025,14873.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2026,15096.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2027,15323.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2028,15553.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2029,15786.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Average Loan Amount (Dollars),2030,16023.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2020,-33.78,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2021,-31.83,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2022,-31.33,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2023,-31.2,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2024,-31.29,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2025,-31.21,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2026,-31.09,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2027,-31.07,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2028,-30.98,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2029,-30.84,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Subsidy Rate (Percent)b,2030,-30.54,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 2,false
+Studentloan,Administrative Account,2020,405.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2021,398.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2022,391.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2023,382.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2024,372.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2025,361.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2026,350.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2027,338.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2028,326.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2029,312.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2030,297.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2020,409.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2021,400.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2022,393.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2023,384.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2024,374.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2025,363.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2026,353.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2027,341.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2028,329.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2029,315.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2030,301.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Default Prevention Fee Paid,2020,10.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Default Prevention Fee Paid,2021,10.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Default Prevention Fee Paid,2022,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Default Prevention Fee Paid,2023,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Default Prevention Fee Paid,2024,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Default Prevention Fee Paid,2025,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Default Prevention Fee Paid,2026,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Default Prevention Fee Paid,2027,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Default Prevention Fee Paid,2028,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Default Prevention Fee Paid,2029,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Default Prevention Fee Paid,2030,7.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,to Guaranty Agencies a,2020,10.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,to Guaranty Agencies a,2021,10.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,to Guaranty Agencies a,2022,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,to Guaranty Agencies a,2023,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,to Guaranty Agencies a,2024,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,to Guaranty Agencies a,2025,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,to Guaranty Agencies a,2026,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,to Guaranty Agencies a,2027,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,to Guaranty Agencies a,2028,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,to Guaranty Agencies a,2029,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,to Guaranty Agencies a,2030,7.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Loan Collection Costs,2020,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Loan Collection Costs,2021,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Loan Collection Costs,2022,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Loan Collection Costs,2023,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Loan Collection Costs,2024,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Loan Collection Costs,2025,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Loan Collection Costs,2026,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Loan Collection Costs,2027,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Loan Collection Costs,2028,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Loan Collection Costs,2029,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Loan Collection Costs,2030,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,on Pre-1992 loans a,2020,7.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,on Pre-1992 loans a,2021,4.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,on Pre-1992 loans a,2022,3.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,on Pre-1992 loans a,2023,2.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,on Pre-1992 loans a,2024,2.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,on Pre-1992 loans a,2025,1.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,on Pre-1992 loans a,2026,1.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,on Pre-1992 loans a,2027,1.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,on Pre-1992 loans a,2028,1.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,on Pre-1992 loans a,2029,1.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,on Pre-1992 loans a,2030,1.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,"Subtotal, Mandatory",2020,415.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2021,408.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2022,400.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2023,391.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2024,381.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2025,370.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2026,358.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2027,346.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2028,334.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2029,320.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2030,304.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,Outlays,2020,426.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2021,414.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2022,405.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2023,395.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2024,385.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2025,373.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2026,362.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2027,350.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2028,338.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2029,324.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2030,309.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2020,899.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2021,927.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2022,965.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2023,1013.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2024,1070.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2025,1118.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2026,1156.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2027,1195.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2028,1236.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2029,1279.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Administrative Account,2030,1323.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2020,876.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2021,920.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2022,956.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2023,1001.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2024,1056.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2025,1106.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2026,1146.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2027,1185.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2028,1226.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2029,1269.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2030,1312.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,"Subtotal, Mandatory",2020,899.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2021,927.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2022,965.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2023,1013.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2024,1070.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2025,1118.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2026,1156.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2027,1195.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2028,1236.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2029,1279.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,"Subtotal, Mandatory",2030,1323.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,Outlays,2020,876.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2021,920.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2022,956.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2023,1001.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2024,1056.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2025,1106.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2026,1146.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2027,1185.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2028,1226.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2029,1269.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2030,1312.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Total Mandatory,2020,1314.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,Total Mandatory,2021,1335.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,Total Mandatory,2022,1365.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,Total Mandatory,2023,1404.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,Total Mandatory,2024,1451.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,Total Mandatory,2025,1488.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,Total Mandatory,2026,1514.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,Total Mandatory,2027,1541.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,Total Mandatory,2028,1570.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,Total Mandatory,2029,1599.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,Total Mandatory,2030,1627.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,true
+Studentloan,Outlays,2020,1302.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2021,1334.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2022,1361.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2023,1396.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2024,1441.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2025,1479.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2026,1508.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2027,1535.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2028,1564.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2029,1593.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2030,1621.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2020,1769.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2021,1812.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2022,1856.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2023,1900.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2024,1945.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2025,1991.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2026,2036.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2027,2083.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2028,2130.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2029,2177.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2030,2226.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2020,1723.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2021,1779.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2022,1826.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2023,1872.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2024,1916.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2025,1962.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2026,2007.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2027,2053.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2028,2100.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2029,2147.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2030,2195.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2020,3083.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2021,3147.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2022,3221.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2023,3304.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2024,3396.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2025,3479.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2026,3550.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2027,3624.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2028,3700.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2029,3776.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Budget Authority,2030,3853.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2020,3025.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2021,3113.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2022,3187.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2023,3268.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2024,3357.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2025,3441.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2026,3515.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2027,3588.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2028,3664.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2029,3740.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Outlays,2030,3816.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 3,false
+Studentloan,Program Costs,2020,28502.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2021,18470.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2022,19185.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2023,20062.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2024,20884.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2025,21409.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2026,22310.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2027,22664.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2028,23120.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2029,23458.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2030,24226.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Account (Subsidy),2020,6395.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Account (Subsidy),2021,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Account (Subsidy),2022,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Account (Subsidy),2023,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Account (Subsidy),2024,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Account (Subsidy),2025,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Account (Subsidy),2026,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Account (Subsidy),2027,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Account (Subsidy),2028,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Account (Subsidy),2029,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Account (Subsidy),2030,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Liquidating Account,2020,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Liquidating Account,2021,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Liquidating Account,2022,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Liquidating Account,2023,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Liquidating Account,2024,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Liquidating Account,2025,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Liquidating Account,2026,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Liquidating Account,2027,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Liquidating Account,2028,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Liquidating Account,2029,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Guaranteed Loan Program Liquidating Account,2030,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Federal Student Loan  Reserve Fund,2020,-182.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Federal Student Loan  Reserve Fund,2021,-147.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Federal Student Loan  Reserve Fund,2022,-116.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Federal Student Loan  Reserve Fund,2023,-89.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Federal Student Loan  Reserve Fund,2024,-69.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Federal Student Loan  Reserve Fund,2025,-55.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Federal Student Loan  Reserve Fund,2026,-46.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Federal Student Loan  Reserve Fund,2027,-38.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Federal Student Loan  Reserve Fund,2028,-36.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Federal Student Loan  Reserve Fund,2029,-34.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Federal Student Loan  Reserve Fund,2030,-32.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2020,63691.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2021,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2022,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2023,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2024,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2025,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2026,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2027,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2028,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2029,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2030,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,"Subtotal, Direct Loans",2020,92193.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Direct Loans",2021,18470.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Direct Loans",2022,19185.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Direct Loans",2023,20062.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Direct Loans",2024,20884.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Direct Loans",2025,21409.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Direct Loans",2026,22310.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Direct Loans",2027,22664.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Direct Loans",2028,23120.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Direct Loans",2029,23458.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Direct Loans",2030,24226.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,Program Costs,2020,10.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2021,10.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2022,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2023,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2024,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2025,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2026,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2027,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2028,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2029,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Program Costs,2030,7.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2020,6395.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2021,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2022,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2023,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2024,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2025,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2026,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2027,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2028,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2029,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Credit Reestimates and Modificationsa,2030,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,"Subtotal, Guaranteed Loans",2020,6405.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Guaranteed Loans",2021,10.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Guaranteed Loans",2022,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Guaranteed Loans",2023,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Guaranteed Loans",2024,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Guaranteed Loans",2025,9.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Guaranteed Loans",2026,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Guaranteed Loans",2027,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Guaranteed Loans",2028,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Guaranteed Loans",2029,8.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,"Subtotal, Guaranteed Loans",2030,7.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,Student Aid Administration (Discretionary),2020,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Discretionary),2021,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Discretionary),2022,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Discretionary),2023,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Discretionary),2024,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Discretionary),2025,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Discretionary),2026,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Discretionary),2027,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Discretionary),2028,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Discretionary),2029,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Discretionary),2030,0.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Mandatory),2020,1304.302222222222,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Mandatory),2021,1325.5242085320187,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Mandatory),2022,1355.9607112142237,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Mandatory),2023,1395.337150490099,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Mandatory),2024,1441.2989294362058,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Mandatory),2025,1478.1041819417565,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Mandatory),2026,1506.1152795262085,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Mandatory),2027,1533.6461325668276,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Mandatory),2028,1561.9259974495542,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Mandatory),2029,1591.141343114662,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration (Mandatory),2030,1620.623508047524,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration,2020,3073.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration,2021,3138.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration,2022,3212.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration,2023,3295.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration,2024,3386.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration,2025,3469.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration,2026,3542.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration,2027,3617.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration,2028,3692.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration,2029,3768.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Student Aid Administration,2030,3847.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,false
+Studentloan,Total Student Loans,2020,101671.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,Total Student Loans,2021,21618.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,Total Student Loans,2022,22406.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,Total Student Loans,2023,23366.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,Total Student Loans,2024,24279.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,Total Student Loans,2025,24887.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,Total Student Loans,2026,25860.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,Total Student Loans,2027,26289.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,Total Student Loans,2028,26820.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,Total Student Loans,2029,27234.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
+Studentloan,Total Student Loans,2030,28080.0,Millions of dollars,51310-2020-03-studentloan.xlsx,Table 5,true
 Studentloan,All Loans,2020,16.19,Percent,51310-2020-03-studentloan.xlsx,Table 6,false
 Studentloan,All Loans,2021,17.38,Percent,51310-2020-03-studentloan.xlsx,Table 6,false
 Studentloan,All Loans,2022,17.65,Percent,51310-2020-03-studentloan.xlsx,Table 6,false

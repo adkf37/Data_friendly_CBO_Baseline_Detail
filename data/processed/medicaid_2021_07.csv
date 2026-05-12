@@ -1,313 +1,313 @@
 program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Medicaid,Estimated Outlaysa,2020,458.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Estimated Outlaysa,2021,519.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Estimated Outlaysa,2022,545.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Estimated Outlaysa,2023,513.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Estimated Outlaysa,2024,520.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Estimated Outlaysa,2025,542.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Estimated Outlaysa,2026,571.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Estimated Outlaysa,2027,602.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Estimated Outlaysa,2028,636.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Estimated Outlaysa,2029,671.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Estimated Outlaysa,2030,709.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Estimated Outlaysa,2031,748.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Fee for service,2020,99.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Fee for service,2021,113.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Fee for service,2022,115.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Fee for service,2023,105.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Fee for service,2024,108.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Fee for service,2025,112.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Fee for service,2026,118.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Fee for service,2027,123.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Fee for service,2028,129.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Fee for service,2029,135.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Fee for service,2030,142.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Fee for service,2031,148.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Managed care,2020,207.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Managed care,2021,234.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Managed care,2022,242.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Managed care,2023,239.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Managed care,2024,248.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Managed care,2025,263.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Managed care,2026,279.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Managed care,2027,298.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Managed care,2028,318.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Managed care,2029,338.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Managed care,2030,360.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Managed care,2031,384.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Medicare premiums,2020,12.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Medicare premiums,2021,14.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Medicare premiums,2022,15.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Medicare premiums,2023,14.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Medicare premiums,2024,15.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Medicare premiums,2025,16.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Medicare premiums,2026,17.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Medicare premiums,2027,18.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Medicare premiums,2028,20.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Medicare premiums,2029,21.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Medicare premiums,2030,23.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Medicare premiums,2031,25.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Institutional care,2020,39.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Institutional care,2021,43.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Institutional care,2022,43.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Institutional care,2023,39.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Institutional care,2024,39.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Institutional care,2025,39.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Institutional care,2026,39.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Institutional care,2027,40.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Institutional care,2028,41.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Institutional care,2029,41.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Institutional care,2030,42.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Institutional care,2031,42.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Home- and community-based care,2020,69.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Home- and community-based care,2021,81.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Home- and community-based care,2022,94.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Home- and community-based care,2023,80.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Home- and community-based care,2024,78.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Home- and community-based care,2025,79.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Home- and community-based care,2026,82.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Home- and community-based care,2027,86.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Home- and community-based care,2028,90.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Home- and community-based care,2029,93.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Home- and community-based care,2030,97.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Home- and community-based care,2031,101.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Subtotal,2020,426.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Subtotal,2021,484.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Subtotal,2022,509.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Subtotal,2023,476.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Subtotal,2024,488.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Subtotal,2025,509.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Subtotal,2026,536.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Subtotal,2027,566.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Subtotal,2028,597.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Subtotal,2029,629.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Subtotal,2030,664.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Subtotal,2031,700.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Disproportionate Share Hospitals,2020,10.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Disproportionate Share Hospitals,2021,11.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Disproportionate Share Hospitals,2022,12.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Disproportionate Share Hospitals,2023,11.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Disproportionate Share Hospitals,2024,5.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Disproportionate Share Hospitals,2025,6.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Disproportionate Share Hospitals,2026,6.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Disproportionate Share Hospitals,2027,6.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Disproportionate Share Hospitals,2028,7.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Disproportionate Share Hospitals,2029,9.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Disproportionate Share Hospitals,2030,11.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Disproportionate Share Hospitals,2031,13.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Vaccines for Children,2020,3.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Vaccines for Children,2021,4.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Vaccines for Children,2022,5.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Vaccines for Children,2023,5.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Vaccines for Children,2024,6.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Vaccines for Children,2025,6.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Vaccines for Children,2026,6.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Vaccines for Children,2027,7.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Vaccines for Children,2028,7.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Vaccines for Children,2029,7.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Vaccines for Children,2030,8.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Vaccines for Children,2031,8.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Administration,2020,19.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Administration,2021,19.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Administration,2022,20.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Administration,2023,20.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Administration,2024,21.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Administration,2025,22.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Administration,2026,23.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Administration,2027,24.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Administration,2028,25.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Administration,2029,26.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Administration,2030,27.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Administration,2031,28.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2020,57.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2021,67.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2022,70.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2023,61.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2024,60.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2025,61.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2026,64.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2027,66.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2028,69.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2029,71.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2030,74.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2031,76.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2020,137.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2021,159.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2022,166.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2023,149.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2024,151.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2025,155.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2026,162.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2027,169.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2028,177.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2029,185.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2030,193.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2031,202.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2020,89.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2021,95.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2022,100.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2023,94.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2024,98.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2025,101.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2026,106.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2027,112.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2028,118.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2029,124.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2030,131.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2031,138.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2020,66.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2021,73.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2022,77.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2023,78.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2024,80.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2025,85.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2026,90.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2027,95.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2028,100.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2029,106.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2030,113.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2031,120.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2020,80.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2021,91.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2022,94.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2023,95.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2024,100.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2025,106.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2026,114.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2027,123.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2028,133.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2029,142.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2030,153.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2031,163.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2020,7.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2021,7.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2022,7.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2023,7.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2024,6.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2025,7.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2026,7.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2027,7.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2028,7.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2029,7.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2030,7.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2031,7.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2020,9.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2021,10.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2022,9.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2023,9.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2024,9.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2025,9.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2026,9.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2027,9.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2028,9.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2029,9.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2030,9.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2031,9.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2020,32.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2021,31.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2022,31.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2023,31.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2024,30.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2025,30.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2026,30.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2027,30.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2028,30.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2029,30.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2030,30.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2031,30.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2020,16.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2021,16.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2022,16.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2023,16.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2024,15.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2025,15.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2026,15.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2027,15.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2028,15.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2029,15.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2030,15.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Traditional eligibility categories,2031,15.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2020,13.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2021,14.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2022,14.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2023,14.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2024,14.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2025,14.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2026,14.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2027,14.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2028,14.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2029,15.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2030,15.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults—Made eligible by the ACA,2031,15.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Total Enrolled Within a Fiscal Year,2020,91.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Total Enrolled Within a Fiscal Year,2021,92.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Total Enrolled Within a Fiscal Year,2022,92.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Total Enrolled Within a Fiscal Year,2023,91.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Total Enrolled Within a Fiscal Year,2024,89.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Total Enrolled Within a Fiscal Year,2025,90.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Total Enrolled Within a Fiscal Year,2026,90.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Total Enrolled Within a Fiscal Year,2027,90.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Total Enrolled Within a Fiscal Year,2028,90.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Total Enrolled Within a Fiscal Year,2029,91.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Total Enrolled Within a Fiscal Year,2030,91.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Total Enrolled Within a Fiscal Year,2031,92.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
-Medicaid,Aged,2020,8730.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2021,9820.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2022,10680.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2023,9300.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2024,9310.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2025,9430.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2026,9720.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2027,10060.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2028,10410.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2029,10760.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2030,11120.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Aged,2031,11500.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2020,14530.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2021,16530.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2022,17560.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2023,15960.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2024,16400.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2025,16890.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2026,17630.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2027,18480.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2028,19350.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2029,20230.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2030,21130.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Blind and Disabled,2031,22050.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2020,2840.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2021,3060.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2022,3220.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2023,3070.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2024,3230.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2025,3370.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2026,3540.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2027,3740.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2028,3940.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2029,4140.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2030,4350.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Children,2031,4560.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Traditional eligibility categories,2020,4170.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Traditional eligibility categories,2021,4440.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Traditional eligibility categories,2022,4730.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Traditional eligibility categories,2023,4950.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Traditional eligibility categories,2024,5240.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Traditional eligibility categories,2025,5540.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Traditional eligibility categories,2026,5870.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Traditional eligibility categories,2027,6210.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Traditional eligibility categories,2028,6590.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Traditional eligibility categories,2029,6990.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Traditional eligibility categories,2030,7390.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Traditional eligibility categories,2031,7850.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Made eligible by the ACA,2020,5990.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Made eligible by the ACA,2021,6520.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Made eligible by the ACA,2022,6790.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Made eligible by the ACA,2023,6810.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Made eligible by the ACA,2024,7270.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Made eligible by the ACA,2025,7680.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Made eligible by the ACA,2026,8110.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Made eligible by the ACA,2027,8570.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Made eligible by the ACA,2028,9170.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Made eligible by the ACA,2029,9720.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Made eligible by the ACA,2030,10220.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
-Medicaid,Adults–Made eligible by the ACA,2031,10750.0,"Billions of dollars, by fiscal year",51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Estimated Outlaysa,2020,458.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Estimated Outlaysa,2021,519.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Estimated Outlaysa,2022,545.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Estimated Outlaysa,2023,513.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Estimated Outlaysa,2024,520.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Estimated Outlaysa,2025,542.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Estimated Outlaysa,2026,571.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Estimated Outlaysa,2027,602.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Estimated Outlaysa,2028,636.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Estimated Outlaysa,2029,671.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Estimated Outlaysa,2030,709.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Estimated Outlaysa,2031,748.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Fee for service,2020,99.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Fee for service,2021,113.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Fee for service,2022,115.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Fee for service,2023,105.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Fee for service,2024,108.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Fee for service,2025,112.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Fee for service,2026,118.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Fee for service,2027,123.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Fee for service,2028,129.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Fee for service,2029,135.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Fee for service,2030,142.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Fee for service,2031,148.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Managed care,2020,207.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Managed care,2021,234.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Managed care,2022,242.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Managed care,2023,239.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Managed care,2024,248.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Managed care,2025,263.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Managed care,2026,279.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Managed care,2027,298.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Managed care,2028,318.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Managed care,2029,338.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Managed care,2030,360.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Managed care,2031,384.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Medicare premiums,2020,12.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Medicare premiums,2021,14.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Medicare premiums,2022,15.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Medicare premiums,2023,14.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Medicare premiums,2024,15.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Medicare premiums,2025,16.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Medicare premiums,2026,17.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Medicare premiums,2027,18.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Medicare premiums,2028,20.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Medicare premiums,2029,21.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Medicare premiums,2030,23.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Medicare premiums,2031,25.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Institutional care,2020,39.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Institutional care,2021,43.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Institutional care,2022,43.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Institutional care,2023,39.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Institutional care,2024,39.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Institutional care,2025,39.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Institutional care,2026,39.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Institutional care,2027,40.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Institutional care,2028,41.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Institutional care,2029,41.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Institutional care,2030,42.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Institutional care,2031,42.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Home- and community-based care,2020,69.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Home- and community-based care,2021,81.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Home- and community-based care,2022,94.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Home- and community-based care,2023,80.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Home- and community-based care,2024,78.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Home- and community-based care,2025,79.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Home- and community-based care,2026,82.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Home- and community-based care,2027,86.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Home- and community-based care,2028,90.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Home- and community-based care,2029,93.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Home- and community-based care,2030,97.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Home- and community-based care,2031,101.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Subtotal,2020,426.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Subtotal,2021,484.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Subtotal,2022,509.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Subtotal,2023,476.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Subtotal,2024,488.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Subtotal,2025,509.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Subtotal,2026,536.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Subtotal,2027,566.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Subtotal,2028,597.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Subtotal,2029,629.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Subtotal,2030,664.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Subtotal,2031,700.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Disproportionate Share Hospitals,2020,10.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Disproportionate Share Hospitals,2021,11.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Disproportionate Share Hospitals,2022,12.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Disproportionate Share Hospitals,2023,11.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Disproportionate Share Hospitals,2024,5.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Disproportionate Share Hospitals,2025,6.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Disproportionate Share Hospitals,2026,6.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Disproportionate Share Hospitals,2027,6.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Disproportionate Share Hospitals,2028,7.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Disproportionate Share Hospitals,2029,9.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Disproportionate Share Hospitals,2030,11.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Disproportionate Share Hospitals,2031,13.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Vaccines for Children,2020,3.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Vaccines for Children,2021,4.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Vaccines for Children,2022,5.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Vaccines for Children,2023,5.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Vaccines for Children,2024,6.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Vaccines for Children,2025,6.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Vaccines for Children,2026,6.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Vaccines for Children,2027,7.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Vaccines for Children,2028,7.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Vaccines for Children,2029,7.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Vaccines for Children,2030,8.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Vaccines for Children,2031,8.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Administration,2020,19.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Administration,2021,19.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Administration,2022,20.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Administration,2023,20.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Administration,2024,21.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Administration,2025,22.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Administration,2026,23.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Administration,2027,24.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Administration,2028,25.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Administration,2029,26.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Administration,2030,27.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Administration,2031,28.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2020,57.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2021,67.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2022,70.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2023,61.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2024,60.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2025,61.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2026,64.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2027,66.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2028,69.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2029,71.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2030,74.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2031,76.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2020,137.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2021,159.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2022,166.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2023,149.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2024,151.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2025,155.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2026,162.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2027,169.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2028,177.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2029,185.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2030,193.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2031,202.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2020,89.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2021,95.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2022,100.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2023,94.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2024,98.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2025,101.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2026,106.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2027,112.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2028,118.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2029,124.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2030,131.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2031,138.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2020,66.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2021,73.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2022,77.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2023,78.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2024,80.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2025,85.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2026,90.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2027,95.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2028,100.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2029,106.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2030,113.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2031,120.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2020,80.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2021,91.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2022,94.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2023,95.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2024,100.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2025,106.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2026,114.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2027,123.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2028,133.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2029,142.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2030,153.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2031,163.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2020,7.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2021,7.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2022,7.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2023,7.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2024,6.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2025,7.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2026,7.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2027,7.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2028,7.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2029,7.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2030,7.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2031,7.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2020,9.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2021,10.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2022,9.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2023,9.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2024,9.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2025,9.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2026,9.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2027,9.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2028,9.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2029,9.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2030,9.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2031,9.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2020,32.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2021,31.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2022,31.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2023,31.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2024,30.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2025,30.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2026,30.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2027,30.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2028,30.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2029,30.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2030,30.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2031,30.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2020,16.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2021,16.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2022,16.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2023,16.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2024,15.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2025,15.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2026,15.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2027,15.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2028,15.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2029,15.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2030,15.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Traditional eligibility categories,2031,15.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2020,13.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2021,14.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2022,14.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2023,14.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2024,14.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2025,14.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2026,14.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2027,14.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2028,14.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2029,15.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2030,15.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults—Made eligible by the ACA,2031,15.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Total Enrolled Within a Fiscal Year,2020,91.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Total Enrolled Within a Fiscal Year,2021,92.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Total Enrolled Within a Fiscal Year,2022,92.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Total Enrolled Within a Fiscal Year,2023,91.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Total Enrolled Within a Fiscal Year,2024,89.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Total Enrolled Within a Fiscal Year,2025,90.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Total Enrolled Within a Fiscal Year,2026,90.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Total Enrolled Within a Fiscal Year,2027,90.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Total Enrolled Within a Fiscal Year,2028,90.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Total Enrolled Within a Fiscal Year,2029,91.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Total Enrolled Within a Fiscal Year,2030,91.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Total Enrolled Within a Fiscal Year,2031,92.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,true
+Medicaid,Aged,2020,8730.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2021,9820.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2022,10680.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2023,9300.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2024,9310.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2025,9430.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2026,9720.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2027,10060.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2028,10410.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2029,10760.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2030,11120.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Aged,2031,11500.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2020,14530.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2021,16530.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2022,17560.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2023,15960.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2024,16400.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2025,16890.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2026,17630.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2027,18480.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2028,19350.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2029,20230.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2030,21130.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Blind and Disabled,2031,22050.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2020,2840.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2021,3060.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2022,3220.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2023,3070.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2024,3230.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2025,3370.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2026,3540.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2027,3740.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2028,3940.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2029,4140.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2030,4350.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Children,2031,4560.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Traditional eligibility categories,2020,4170.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Traditional eligibility categories,2021,4440.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Traditional eligibility categories,2022,4730.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Traditional eligibility categories,2023,4950.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Traditional eligibility categories,2024,5240.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Traditional eligibility categories,2025,5540.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Traditional eligibility categories,2026,5870.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Traditional eligibility categories,2027,6210.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Traditional eligibility categories,2028,6590.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Traditional eligibility categories,2029,6990.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Traditional eligibility categories,2030,7390.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Traditional eligibility categories,2031,7850.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Made eligible by the ACA,2020,5990.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Made eligible by the ACA,2021,6520.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Made eligible by the ACA,2022,6790.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Made eligible by the ACA,2023,6810.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Made eligible by the ACA,2024,7270.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Made eligible by the ACA,2025,7680.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Made eligible by the ACA,2026,8110.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Made eligible by the ACA,2027,8570.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Made eligible by the ACA,2028,9170.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Made eligible by the ACA,2029,9720.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Made eligible by the ACA,2030,10220.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false
+Medicaid,Adults–Made eligible by the ACA,2031,10750.0,Billions of dollars,51301-2021-07-medicaid.xlsx,Medicaid_07-2021,false

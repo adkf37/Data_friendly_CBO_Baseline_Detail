@@ -1,352 +1,352 @@
 program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Medicare,Mandatory Outlaysa,2021,868.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Outlaysa,2022,983.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Outlaysa,2023,1019.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Outlaysa,2024,1034.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Outlaysa,2025,1165.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Outlaysa,2026,1262.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Outlaysa,2027,1360.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Outlaysa,2028,1541.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Outlaysa,2029,1480.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Outlaysa,2030,1672.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Outlaysa,2031,1782.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Outlaysa,2032,1929.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Discretionary Outlays,2021,8.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Discretionary Outlays,2022,7.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Discretionary Outlays,2023,8.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Discretionary Outlays,2024,9.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Discretionary Outlays,2025,9.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Discretionary Outlays,2026,10.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Discretionary Outlays,2027,10.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Discretionary Outlays,2028,10.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Discretionary Outlays,2029,11.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Discretionary Outlays,2030,11.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Discretionary Outlays,2031,12.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Discretionary Outlays,2032,12.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Gross Outlays,2021,875.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Gross Outlays,2022,991.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Gross Outlays,2023,1027.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Gross Outlays,2024,1043.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Gross Outlays,2025,1174.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Gross Outlays,2026,1272.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Gross Outlays,2027,1370.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Gross Outlays,2028,1552.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Gross Outlays,2029,1490.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Gross Outlays,2030,1683.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Gross Outlays,2031,1794.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Gross Outlays,2032,1941.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Total Offsetting Receiptsb,2021,-180.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Offsetting Receiptsb,2022,-216.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Offsetting Receiptsb,2023,-170.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Offsetting Receiptsb,2024,-181.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Offsetting Receiptsb,2025,-198.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Offsetting Receiptsb,2026,-216.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Offsetting Receiptsb,2027,-234.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Offsetting Receiptsb,2028,-253.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Offsetting Receiptsb,2029,-272.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Offsetting Receiptsb,2030,-293.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Offsetting Receiptsb,2031,-317.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Offsetting Receiptsb,2032,-345.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Net Outlays (Gross outlays minus receipts),2021,695.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Outlays (Gross outlays minus receipts),2022,775.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Outlays (Gross outlays minus receipts),2023,857.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Outlays (Gross outlays minus receipts),2024,862.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Outlays (Gross outlays minus receipts),2025,976.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Outlays (Gross outlays minus receipts),2026,1056.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Outlays (Gross outlays minus receipts),2027,1137.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Outlays (Gross outlays minus receipts),2028,1299.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Outlays (Gross outlays minus receipts),2029,1219.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Outlays (Gross outlays minus receipts),2030,1390.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Outlays (Gross outlays minus receipts),2031,1477.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Outlays (Gross outlays minus receipts),2032,1597.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Mandatory Outlays,2021,688.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Mandatory Outlays,2022,768.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Mandatory Outlays,2023,848.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Mandatory Outlays,2024,853.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Mandatory Outlays,2025,967.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Mandatory Outlays,2026,1047.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Mandatory Outlays,2027,1127.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Mandatory Outlays,2028,1289.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Mandatory Outlays,2029,1208.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Mandatory Outlays,2030,1379.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Mandatory Outlays,2031,1465.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Net Mandatory Outlays,2032,1585.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A,2021,354.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A,2022,388.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A,2023,404.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A,2024,410.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A,2025,454.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A,2026,481.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A,2027,508.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A,2028,562.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A,2029,541.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A,2030,596.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A,2031,624.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A,2032,670.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B,2021,413.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B,2022,475.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B,2023,494.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B,2024,503.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B,2025,570.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B,2026,616.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B,2027,669.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B,2028,765.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B,2029,743.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B,2030,847.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B,2031,916.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B,2032,999.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part Dc,2021,98.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part Dc,2022,119.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part Dc,2023,119.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part Dc,2024,118.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part Dc,2025,138.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part Dc,2026,163.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part Dc,2027,181.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part Dc,2028,212.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part Dc,2029,192.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part Dc,2030,225.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part Dc,2031,239.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part Dc,2032,258.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Total Benefits,2021,865.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2022,981.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2023,1016.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2024,1031.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2025,1162.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2026,1260.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2027,1358.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2028,1539.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2029,1477.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2030,1669.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2031,1779.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2032,1927.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Mandatory Administrationd,2021,2.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Administrationd,2022,2.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Administrationd,2023,2.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Administrationd,2024,3.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Administrationd,2025,3.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Administrationd,2026,2.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Administrationd,2027,2.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Administrationd,2028,2.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Administrationd,2029,3.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Administrationd,2030,3.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Administrationd,2031,3.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Mandatory Administrationd,2032,3.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Total Mandatory Outlays,2021,868.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Mandatory Outlays,2022,983.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Mandatory Outlays,2023,1019.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Mandatory Outlays,2024,1034.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Mandatory Outlays,2025,1165.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Mandatory Outlays,2026,1262.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Mandatory Outlays,2027,1360.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Mandatory Outlays,2028,1541.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Mandatory Outlays,2029,1480.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Mandatory Outlays,2030,1672.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Mandatory Outlays,2031,1782.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Mandatory Outlays,2032,1929.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Hospital Inpatient Services,2021,147.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Inpatient Services,2022,145.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Inpatient Services,2023,146.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Inpatient Services,2024,150.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Inpatient Services,2025,155.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Inpatient Services,2026,159.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Inpatient Services,2027,165.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Inpatient Services,2028,170.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Inpatient Services,2029,176.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Inpatient Services,2030,183.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Inpatient Services,2031,187.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Inpatient Services,2032,200.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Skilled Nursing Facilities,2021,29.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Skilled Nursing Facilities,2022,28.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Skilled Nursing Facilities,2023,27.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Skilled Nursing Facilities,2024,28.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Skilled Nursing Facilities,2025,28.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Skilled Nursing Facilities,2026,28.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Skilled Nursing Facilities,2027,28.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Skilled Nursing Facilities,2028,29.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Skilled Nursing Facilities,2029,30.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Skilled Nursing Facilities,2030,30.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Skilled Nursing Facilities,2031,31.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Skilled Nursing Facilities,2032,32.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Physician Fee Schedule,2021,66.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Physician Fee Schedule,2022,72.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Physician Fee Schedule,2023,73.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Physician Fee Schedule,2024,70.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Physician Fee Schedule,2025,69.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Physician Fee Schedule,2026,70.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Physician Fee Schedule,2027,71.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Physician Fee Schedule,2028,73.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Physician Fee Schedule,2029,75.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Physician Fee Schedule,2030,77.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Physician Fee Schedule,2031,80.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Physician Fee Schedule,2032,82.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Outpatient Services,2021,60.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Outpatient Services,2022,64.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Outpatient Services,2023,66.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Outpatient Services,2024,70.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Outpatient Services,2025,75.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Outpatient Services,2026,81.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Outpatient Services,2027,88.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Outpatient Services,2028,96.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Outpatient Services,2029,104.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Outpatient Services,2030,114.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Outpatient Services,2031,124.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Hospital Outpatient Services,2032,138.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Home Health Agencies,2021,17.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Home Health Agencies,2022,17.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Home Health Agencies,2023,17.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Home Health Agencies,2024,17.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Home Health Agencies,2025,18.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Home Health Agencies,2026,18.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Home Health Agencies,2027,19.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Home Health Agencies,2028,19.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Home Health Agencies,2029,20.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Home Health Agencies,2030,21.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Home Health Agencies,2031,21.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Home Health Agencies,2032,23.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Group Plans (Includes Medicare Advantage),2021,340.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Group Plans (Includes Medicare Advantage),2022,427.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Group Plans (Includes Medicare Advantage),2023,460.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Group Plans (Includes Medicare Advantage),2024,463.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Group Plans (Includes Medicare Advantage),2025,557.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Group Plans (Includes Medicare Advantage),2026,611.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Group Plans (Includes Medicare Advantage),2027,668.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Group Plans (Includes Medicare Advantage),2028,794.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Group Plans (Includes Medicare Advantage),2029,723.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Group Plans (Includes Medicare Advantage),2030,853.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Group Plans (Includes Medicare Advantage),2031,921.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Group Plans (Includes Medicare Advantage),2032,998.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part De,2021,98.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part De,2022,119.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part De,2023,119.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part De,2024,118.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part De,2025,138.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part De,2026,163.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part De,2027,181.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part De,2028,212.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part De,2029,192.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part De,2030,225.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part De,2031,239.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part De,2032,258.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Low-income subsidy (Non-add),2021,34.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Low-income subsidy (Non-add),2022,43.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Low-income subsidy (Non-add),2023,42.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Low-income subsidy (Non-add),2024,41.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Low-income subsidy (Non-add),2025,48.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Low-income subsidy (Non-add),2026,46.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Low-income subsidy (Non-add),2027,47.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Low-income subsidy (Non-add),2028,55.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Low-income subsidy (Non-add),2029,51.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Low-income subsidy (Non-add),2030,59.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Low-income subsidy (Non-add),2031,62.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Low-income subsidy (Non-add),2032,67.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Other servicesf,2021,108.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Other servicesf,2022,109.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Other servicesf,2023,108.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Other servicesf,2024,115.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Other servicesf,2025,122.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Other servicesf,2026,130.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Other servicesf,2027,138.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Other servicesf,2028,146.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Other servicesf,2029,157.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Other servicesf,2030,166.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Other servicesf,2031,176.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Other servicesf,2032,196.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Total Benefits,2021,865.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2022,981.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2023,1016.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2024,1031.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2025,1162.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2026,1260.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2027,1358.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2028,1539.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2029,1477.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2030,1669.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2031,1779.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total Benefits,2032,1927.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Part A Premiums,2021,-4.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A Premiums,2022,-5.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A Premiums,2023,-5.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A Premiums,2024,-5.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A Premiums,2025,-5.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A Premiums,2026,-5.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A Premiums,2027,-5.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A Premiums,2028,-6.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A Premiums,2029,-6.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A Premiums,2030,-6.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A Premiums,2031,-6.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part A Premiums,2032,-7.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B Premiumsg,2021,-114.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B Premiumsg,2022,-131.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B Premiumsg,2023,-133.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B Premiumsg,2024,-142.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B Premiumsg,2025,-156.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B Premiumsg,2026,-170.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B Premiumsg,2027,-185.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B Premiumsg,2028,-201.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B Premiumsg,2029,-216.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B Premiumsg,2030,-234.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B Premiumsg,2031,-253.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part B Premiumsg,2032,-276.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Premiumsh,2021,-6.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Premiumsh,2022,-6.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Premiumsh,2023,-6.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Premiumsh,2024,-6.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Premiumsh,2025,-7.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Premiumsh,2026,-8.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Premiumsh,2027,-8.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Premiumsh,2028,-9.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Premiumsh,2029,-9.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Premiumsh,2030,-10.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Premiumsh,2031,-11.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Premiumsh,2032,-12.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Payments by States,2021,-12.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Payments by States,2022,-12.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Payments by States,2023,-15.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Payments by States,2024,-16.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Payments by States,2025,-17.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Payments by States,2026,-19.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Payments by States,2027,-20.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Payments by States,2028,-22.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Payments by States,2029,-23.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Payments by States,2030,-25.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Payments by States,2031,-26.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Part D Payments by States,2032,-28.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Payments Recovered from Providersi,2021,-45.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Payments Recovered from Providersi,2022,-63.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Payments Recovered from Providersi,2023,-12.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Payments Recovered from Providersi,2024,-13.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Payments Recovered from Providersi,2025,-13.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Payments Recovered from Providersi,2026,-14.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Payments Recovered from Providersi,2027,-15.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Payments Recovered from Providersi,2028,-17.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Payments Recovered from Providersi,2029,-18.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Payments Recovered from Providersi,2030,-19.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Payments Recovered from Providersi,2031,-21.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Payments Recovered from Providersi,2032,-23.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Total,2021,-180.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total,2022,-216.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total,2023,-170.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total,2024,-181.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total,2025,-198.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total,2026,-216.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total,2027,-234.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total,2028,-253.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total,2029,-272.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total,2030,-293.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total,2031,-317.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Total,2032,-345.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,true
-Medicare,Capitation Payments (Number per year)j,2021,12.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Capitation Payments (Number per year)j,2022,13.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Capitation Payments (Number per year)j,2023,12.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Capitation Payments (Number per year)j,2024,11.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Capitation Payments (Number per year)j,2025,12.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Capitation Payments (Number per year)j,2026,12.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Capitation Payments (Number per year)j,2027,12.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Capitation Payments (Number per year)j,2028,13.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Capitation Payments (Number per year)j,2029,11.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Capitation Payments (Number per year)j,2030,12.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Capitation Payments (Number per year)j,2031,12.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
-Medicare,Capitation Payments (Number per year)j,2032,12.0,"By Fiscal Year, Billions of Dollars",51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Outlaysa,2021,868.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Outlaysa,2022,983.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Outlaysa,2023,1019.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Outlaysa,2024,1034.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Outlaysa,2025,1165.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Outlaysa,2026,1262.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Outlaysa,2027,1360.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Outlaysa,2028,1541.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Outlaysa,2029,1480.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Outlaysa,2030,1672.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Outlaysa,2031,1782.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Outlaysa,2032,1929.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Discretionary Outlays,2021,8.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Discretionary Outlays,2022,7.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Discretionary Outlays,2023,8.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Discretionary Outlays,2024,9.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Discretionary Outlays,2025,9.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Discretionary Outlays,2026,10.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Discretionary Outlays,2027,10.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Discretionary Outlays,2028,10.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Discretionary Outlays,2029,11.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Discretionary Outlays,2030,11.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Discretionary Outlays,2031,12.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Discretionary Outlays,2032,12.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Gross Outlays,2021,875.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Gross Outlays,2022,991.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Gross Outlays,2023,1027.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Gross Outlays,2024,1043.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Gross Outlays,2025,1174.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Gross Outlays,2026,1272.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Gross Outlays,2027,1370.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Gross Outlays,2028,1552.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Gross Outlays,2029,1490.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Gross Outlays,2030,1683.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Gross Outlays,2031,1794.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Gross Outlays,2032,1941.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Total Offsetting Receiptsb,2021,-180.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Offsetting Receiptsb,2022,-216.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Offsetting Receiptsb,2023,-170.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Offsetting Receiptsb,2024,-181.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Offsetting Receiptsb,2025,-198.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Offsetting Receiptsb,2026,-216.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Offsetting Receiptsb,2027,-234.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Offsetting Receiptsb,2028,-253.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Offsetting Receiptsb,2029,-272.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Offsetting Receiptsb,2030,-293.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Offsetting Receiptsb,2031,-317.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Offsetting Receiptsb,2032,-345.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Net Outlays (Gross outlays minus receipts),2021,695.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Outlays (Gross outlays minus receipts),2022,775.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Outlays (Gross outlays minus receipts),2023,857.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Outlays (Gross outlays minus receipts),2024,862.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Outlays (Gross outlays minus receipts),2025,976.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Outlays (Gross outlays minus receipts),2026,1056.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Outlays (Gross outlays minus receipts),2027,1137.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Outlays (Gross outlays minus receipts),2028,1299.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Outlays (Gross outlays minus receipts),2029,1219.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Outlays (Gross outlays minus receipts),2030,1390.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Outlays (Gross outlays minus receipts),2031,1477.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Outlays (Gross outlays minus receipts),2032,1597.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Mandatory Outlays,2021,688.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Mandatory Outlays,2022,768.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Mandatory Outlays,2023,848.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Mandatory Outlays,2024,853.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Mandatory Outlays,2025,967.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Mandatory Outlays,2026,1047.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Mandatory Outlays,2027,1127.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Mandatory Outlays,2028,1289.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Mandatory Outlays,2029,1208.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Mandatory Outlays,2030,1379.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Mandatory Outlays,2031,1465.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Net Mandatory Outlays,2032,1585.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A,2021,354.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A,2022,388.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A,2023,404.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A,2024,410.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A,2025,454.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A,2026,481.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A,2027,508.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A,2028,562.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A,2029,541.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A,2030,596.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A,2031,624.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A,2032,670.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B,2021,413.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B,2022,475.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B,2023,494.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B,2024,503.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B,2025,570.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B,2026,616.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B,2027,669.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B,2028,765.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B,2029,743.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B,2030,847.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B,2031,916.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B,2032,999.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part Dc,2021,98.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part Dc,2022,119.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part Dc,2023,119.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part Dc,2024,118.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part Dc,2025,138.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part Dc,2026,163.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part Dc,2027,181.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part Dc,2028,212.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part Dc,2029,192.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part Dc,2030,225.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part Dc,2031,239.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part Dc,2032,258.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Total Benefits,2021,865.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2022,981.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2023,1016.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2024,1031.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2025,1162.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2026,1260.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2027,1358.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2028,1539.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2029,1477.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2030,1669.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2031,1779.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2032,1927.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Mandatory Administrationd,2021,2.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Administrationd,2022,2.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Administrationd,2023,2.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Administrationd,2024,3.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Administrationd,2025,3.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Administrationd,2026,2.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Administrationd,2027,2.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Administrationd,2028,2.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Administrationd,2029,3.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Administrationd,2030,3.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Administrationd,2031,3.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Mandatory Administrationd,2032,3.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Total Mandatory Outlays,2021,868.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Mandatory Outlays,2022,983.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Mandatory Outlays,2023,1019.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Mandatory Outlays,2024,1034.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Mandatory Outlays,2025,1165.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Mandatory Outlays,2026,1262.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Mandatory Outlays,2027,1360.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Mandatory Outlays,2028,1541.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Mandatory Outlays,2029,1480.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Mandatory Outlays,2030,1672.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Mandatory Outlays,2031,1782.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Mandatory Outlays,2032,1929.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Hospital Inpatient Services,2021,147.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Inpatient Services,2022,145.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Inpatient Services,2023,146.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Inpatient Services,2024,150.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Inpatient Services,2025,155.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Inpatient Services,2026,159.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Inpatient Services,2027,165.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Inpatient Services,2028,170.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Inpatient Services,2029,176.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Inpatient Services,2030,183.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Inpatient Services,2031,187.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Inpatient Services,2032,200.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Skilled Nursing Facilities,2021,29.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Skilled Nursing Facilities,2022,28.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Skilled Nursing Facilities,2023,27.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Skilled Nursing Facilities,2024,28.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Skilled Nursing Facilities,2025,28.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Skilled Nursing Facilities,2026,28.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Skilled Nursing Facilities,2027,28.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Skilled Nursing Facilities,2028,29.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Skilled Nursing Facilities,2029,30.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Skilled Nursing Facilities,2030,30.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Skilled Nursing Facilities,2031,31.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Skilled Nursing Facilities,2032,32.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Physician Fee Schedule,2021,66.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Physician Fee Schedule,2022,72.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Physician Fee Schedule,2023,73.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Physician Fee Schedule,2024,70.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Physician Fee Schedule,2025,69.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Physician Fee Schedule,2026,70.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Physician Fee Schedule,2027,71.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Physician Fee Schedule,2028,73.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Physician Fee Schedule,2029,75.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Physician Fee Schedule,2030,77.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Physician Fee Schedule,2031,80.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Physician Fee Schedule,2032,82.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Outpatient Services,2021,60.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Outpatient Services,2022,64.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Outpatient Services,2023,66.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Outpatient Services,2024,70.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Outpatient Services,2025,75.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Outpatient Services,2026,81.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Outpatient Services,2027,88.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Outpatient Services,2028,96.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Outpatient Services,2029,104.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Outpatient Services,2030,114.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Outpatient Services,2031,124.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Hospital Outpatient Services,2032,138.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Home Health Agencies,2021,17.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Home Health Agencies,2022,17.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Home Health Agencies,2023,17.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Home Health Agencies,2024,17.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Home Health Agencies,2025,18.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Home Health Agencies,2026,18.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Home Health Agencies,2027,19.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Home Health Agencies,2028,19.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Home Health Agencies,2029,20.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Home Health Agencies,2030,21.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Home Health Agencies,2031,21.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Home Health Agencies,2032,23.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Group Plans (Includes Medicare Advantage),2021,340.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Group Plans (Includes Medicare Advantage),2022,427.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Group Plans (Includes Medicare Advantage),2023,460.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Group Plans (Includes Medicare Advantage),2024,463.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Group Plans (Includes Medicare Advantage),2025,557.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Group Plans (Includes Medicare Advantage),2026,611.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Group Plans (Includes Medicare Advantage),2027,668.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Group Plans (Includes Medicare Advantage),2028,794.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Group Plans (Includes Medicare Advantage),2029,723.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Group Plans (Includes Medicare Advantage),2030,853.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Group Plans (Includes Medicare Advantage),2031,921.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Group Plans (Includes Medicare Advantage),2032,998.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part De,2021,98.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part De,2022,119.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part De,2023,119.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part De,2024,118.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part De,2025,138.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part De,2026,163.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part De,2027,181.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part De,2028,212.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part De,2029,192.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part De,2030,225.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part De,2031,239.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part De,2032,258.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Low-income subsidy (Non-add),2021,34.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Low-income subsidy (Non-add),2022,43.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Low-income subsidy (Non-add),2023,42.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Low-income subsidy (Non-add),2024,41.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Low-income subsidy (Non-add),2025,48.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Low-income subsidy (Non-add),2026,46.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Low-income subsidy (Non-add),2027,47.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Low-income subsidy (Non-add),2028,55.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Low-income subsidy (Non-add),2029,51.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Low-income subsidy (Non-add),2030,59.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Low-income subsidy (Non-add),2031,62.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Low-income subsidy (Non-add),2032,67.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Other servicesf,2021,108.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Other servicesf,2022,109.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Other servicesf,2023,108.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Other servicesf,2024,115.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Other servicesf,2025,122.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Other servicesf,2026,130.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Other servicesf,2027,138.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Other servicesf,2028,146.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Other servicesf,2029,157.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Other servicesf,2030,166.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Other servicesf,2031,176.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Other servicesf,2032,196.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Total Benefits,2021,865.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2022,981.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2023,1016.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2024,1031.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2025,1162.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2026,1260.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2027,1358.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2028,1539.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2029,1477.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2030,1669.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2031,1779.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total Benefits,2032,1927.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Part A Premiums,2021,-4.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A Premiums,2022,-5.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A Premiums,2023,-5.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A Premiums,2024,-5.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A Premiums,2025,-5.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A Premiums,2026,-5.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A Premiums,2027,-5.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A Premiums,2028,-6.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A Premiums,2029,-6.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A Premiums,2030,-6.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A Premiums,2031,-6.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part A Premiums,2032,-7.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B Premiumsg,2021,-114.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B Premiumsg,2022,-131.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B Premiumsg,2023,-133.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B Premiumsg,2024,-142.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B Premiumsg,2025,-156.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B Premiumsg,2026,-170.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B Premiumsg,2027,-185.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B Premiumsg,2028,-201.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B Premiumsg,2029,-216.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B Premiumsg,2030,-234.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B Premiumsg,2031,-253.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part B Premiumsg,2032,-276.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Premiumsh,2021,-6.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Premiumsh,2022,-6.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Premiumsh,2023,-6.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Premiumsh,2024,-6.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Premiumsh,2025,-7.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Premiumsh,2026,-8.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Premiumsh,2027,-8.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Premiumsh,2028,-9.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Premiumsh,2029,-9.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Premiumsh,2030,-10.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Premiumsh,2031,-11.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Premiumsh,2032,-12.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Payments by States,2021,-12.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Payments by States,2022,-12.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Payments by States,2023,-15.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Payments by States,2024,-16.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Payments by States,2025,-17.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Payments by States,2026,-19.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Payments by States,2027,-20.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Payments by States,2028,-22.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Payments by States,2029,-23.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Payments by States,2030,-25.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Payments by States,2031,-26.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Part D Payments by States,2032,-28.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Payments Recovered from Providersi,2021,-45.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Payments Recovered from Providersi,2022,-63.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Payments Recovered from Providersi,2023,-12.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Payments Recovered from Providersi,2024,-13.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Payments Recovered from Providersi,2025,-13.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Payments Recovered from Providersi,2026,-14.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Payments Recovered from Providersi,2027,-15.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Payments Recovered from Providersi,2028,-17.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Payments Recovered from Providersi,2029,-18.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Payments Recovered from Providersi,2030,-19.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Payments Recovered from Providersi,2031,-21.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Payments Recovered from Providersi,2032,-23.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Total,2021,-180.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total,2022,-216.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total,2023,-170.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total,2024,-181.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total,2025,-198.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total,2026,-216.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total,2027,-234.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total,2028,-253.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total,2029,-272.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total,2030,-293.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total,2031,-317.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Total,2032,-345.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,true
+Medicare,Capitation Payments (Number per year)j,2021,12.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Capitation Payments (Number per year)j,2022,13.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Capitation Payments (Number per year)j,2023,12.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Capitation Payments (Number per year)j,2024,11.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Capitation Payments (Number per year)j,2025,12.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Capitation Payments (Number per year)j,2026,12.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Capitation Payments (Number per year)j,2027,12.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Capitation Payments (Number per year)j,2028,13.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Capitation Payments (Number per year)j,2029,11.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Capitation Payments (Number per year)j,2030,12.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Capitation Payments (Number per year)j,2031,12.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
+Medicare,Capitation Payments (Number per year)j,2032,12.0,Billions of dollars,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
 Medicare,PPS Market Basket Increase,2021,2.4,Percent,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
 Medicare,PPS Market Basket Increase,2022,2.7,Percent,51302-2022-05-medicare.xlsx,Medicare_05-2022,false
 Medicare,PPS Market Basket Increase,2023,4.2,Percent,51302-2022-05-medicare.xlsx,Medicare_05-2022,false

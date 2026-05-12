@@ -1,112 +1,112 @@
 program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Socialsecurity,Retired workers,2019,45094.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2020,46702.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2021,48216.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2022,49746.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2023,51294.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2024,52834.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2025,54325.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2026,55790.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2027,57365.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2028,58818.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2029,60203.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2030,61490.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2019,2416.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2020,2377.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2021,2311.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2022,2235.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2023,2123.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2024,2121.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2025,2118.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2026,2112.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2027,2103.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2028,2092.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2029,2081.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2030,2065.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2019,712.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2020,728.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2021,740.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2022,751.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2023,762.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2024,770.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2025,778.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2026,784.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2027,793.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2028,800.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2029,805.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2030,807.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2019,1927.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2020,1941.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2021,1957.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2022,1973.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2023,1991.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2024,2009.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2025,2026.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2026,2045.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2027,2067.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2028,2091.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2029,2117.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2030,2142.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2019,117.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2020,113.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2021,108.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2022,104.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2023,100.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2024,96.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2025,93.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2026,89.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2027,87.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2028,84.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2029,81.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2030,79.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2019,3632.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2020,3514.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2021,3422.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2022,3334.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2023,3225.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2024,3082.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2025,2937.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2026,2846.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2027,2733.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2028,2622.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2029,2524.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2030,2426.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2019,246.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2020,242.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2021,235.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2022,227.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2023,221.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2024,215.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2025,208.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2026,201.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2027,194.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2028,187.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2029,181.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2030,177.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2019,1.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2020,1.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2021,1.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2022,1.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2023,1.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2024,1.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2025,1.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2026,1.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2027,1.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2028,1.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2029,1.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2030,1.0,,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Total Beneficiaries,2019,54146.0,,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2020,55619.0,,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2021,56989.0,,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2022,58371.0,,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2023,59717.0,,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2024,61127.0,,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2025,62485.0,,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2026,63868.0,,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2027,65342.0,,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2028,66695.0,,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2029,67992.0,,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2030,69185.0,,51308-2020-03-socialsecurity.xlsx,OASI,true
+Socialsecurity,Retired workers,2019,45094.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Retired workers,2020,46702.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Retired workers,2021,48216.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Retired workers,2022,49746.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Retired workers,2023,51294.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Retired workers,2024,52834.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Retired workers,2025,54325.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Retired workers,2026,55790.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Retired workers,2027,57365.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Retired workers,2028,58818.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Retired workers,2029,60203.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Retired workers,2030,61490.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Wives and husbands,2019,2416.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Wives and husbands,2020,2377.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Wives and husbands,2021,2311.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Wives and husbands,2022,2235.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Wives and husbands,2023,2123.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Wives and husbands,2024,2121.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Wives and husbands,2025,2118.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Wives and husbands,2026,2112.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Wives and husbands,2027,2103.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Wives and husbands,2028,2092.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Wives and husbands,2029,2081.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Wives and husbands,2030,2065.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2019,712.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2020,728.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2021,740.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2022,751.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2023,762.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2024,770.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2025,778.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2026,784.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2027,793.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2028,800.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2029,805.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2030,807.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2019,1927.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2020,1941.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2021,1957.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2022,1973.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2023,1991.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2024,2009.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2025,2026.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2026,2045.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2027,2067.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2028,2091.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2029,2117.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Children,2030,2142.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Mothers and fathers,2019,117.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Mothers and fathers,2020,113.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Mothers and fathers,2021,108.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Mothers and fathers,2022,104.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Mothers and fathers,2023,100.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Mothers and fathers,2024,96.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Mothers and fathers,2025,93.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Mothers and fathers,2026,89.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Mothers and fathers,2027,87.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Mothers and fathers,2028,84.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Mothers and fathers,2029,81.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Mothers and fathers,2030,79.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Aged widows and widowers,2019,3632.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Aged widows and widowers,2020,3514.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Aged widows and widowers,2021,3422.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Aged widows and widowers,2022,3334.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Aged widows and widowers,2023,3225.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Aged widows and widowers,2024,3082.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Aged widows and widowers,2025,2937.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Aged widows and widowers,2026,2846.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Aged widows and widowers,2027,2733.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Aged widows and widowers,2028,2622.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Aged widows and widowers,2029,2524.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Aged widows and widowers,2030,2426.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Disabled widows and widowers,2019,246.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Disabled widows and widowers,2020,242.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Disabled widows and widowers,2021,235.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Disabled widows and widowers,2022,227.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Disabled widows and widowers,2023,221.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Disabled widows and widowers,2024,215.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Disabled widows and widowers,2025,208.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Disabled widows and widowers,2026,201.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Disabled widows and widowers,2027,194.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Disabled widows and widowers,2028,187.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Disabled widows and widowers,2029,181.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Disabled widows and widowers,2030,177.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Parents,2019,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Parents,2020,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Parents,2021,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Parents,2022,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Parents,2023,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Parents,2024,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Parents,2025,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Parents,2026,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Parents,2027,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Parents,2028,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Parents,2029,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Parents,2030,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
+Socialsecurity,Total Beneficiaries,2019,54146.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
+Socialsecurity,Total Beneficiaries,2020,55619.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
+Socialsecurity,Total Beneficiaries,2021,56989.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
+Socialsecurity,Total Beneficiaries,2022,58371.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
+Socialsecurity,Total Beneficiaries,2023,59717.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
+Socialsecurity,Total Beneficiaries,2024,61127.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
+Socialsecurity,Total Beneficiaries,2025,62485.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
+Socialsecurity,Total Beneficiaries,2026,63868.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
+Socialsecurity,Total Beneficiaries,2027,65342.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
+Socialsecurity,Total Beneficiaries,2028,66695.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
+Socialsecurity,Total Beneficiaries,2029,67992.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
+Socialsecurity,Total Beneficiaries,2030,69185.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
 Socialsecurity,Retired workers,2019,1500.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
 Socialsecurity,Retired workers,2020,1557.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
 Socialsecurity,Retired workers,2021,1617.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false

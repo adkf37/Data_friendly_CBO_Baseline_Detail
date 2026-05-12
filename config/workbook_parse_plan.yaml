@@ -5522,7 +5522,7 @@ workbooks:
     - 12
     - 13
     - 14
-    unit: ''
+    unit: 'Millions of dollars'
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split

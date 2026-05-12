@@ -1,253 +1,253 @@
 program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Snap,Budget Authority,2020,61853.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2021,60193.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2022,60406.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2023,61300.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2024,62094.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2025,62781.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2026,63496.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2027,64424.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2028,65771.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2029,67311.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2030,68873.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2020,61923.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2021,60276.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2022,60395.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2023,61256.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2024,62055.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2025,62746.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2026,63460.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2027,64378.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2028,65703.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2029,67234.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2030,68795.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Total Benefits,2020,54466.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2021,52620.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2022,52619.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2023,53276.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2024,53842.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2025,54300.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2026,54785.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2027,55472.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2028,56573.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2029,57863.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2030,59168.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Assistance for Puerto Rico and American Samoa,2020,1946.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2021,1971.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2022,2017.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2023,2066.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2024,2116.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2025,2163.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2026,2208.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2027,2254.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2028,2302.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2029,2349.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2030,2400.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2020,5441.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2021,5602.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2022,5769.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2023,5958.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2024,6137.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2025,6318.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2026,6502.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2027,6698.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2028,6896.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2029,7099.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2030,7305.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2020,123.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2021,124.57,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2022,128.97,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2023,132.93,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2024,137.21,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2025,140.97,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2026,144.48,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2027,148.64,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2028,152.57,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2029,156.56,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2030,160.61,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2020,36.9,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2021,35.2,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2022,34.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2023,33.4,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2024,32.7,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2025,32.1,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2026,31.6,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2027,31.1,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2028,30.9,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2029,30.8,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2030,30.7,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2021,101.3,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2022,102.4,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2023,102.4,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2024,102.4,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2025,102.2,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2026,102.1,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2027,102.1,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2028,102.1,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2029,102.1,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2030,102.1,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2020,3.5,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2021,3.5,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2022,3.8,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2023,4.1,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2024,4.3,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2025,4.5,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2026,4.6,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2027,4.6,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2028,4.5,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2029,4.5,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2030,4.5,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2020,2020.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2021,2021.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2022,2022.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2023,2023.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2024,2024.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2025,2025.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2026,2026.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2027,2027.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2028,2028.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2029,2029.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2030,2030.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2020,3906.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2021,4030.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2022,4160.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2023,4299.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2024,4442.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2025,4587.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2026,4734.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2027,4884.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2028,5036.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2029,5192.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2030,5350.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2020,434.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2021,443.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2022,453.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2023,464.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2024,475.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2025,486.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2026,497.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2027,509.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2028,521.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2029,532.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2030,545.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2020,176.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2021,183.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2022,184.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2023,198.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2024,196.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2025,194.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2026,193.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2027,200.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2028,206.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2029,212.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2030,218.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2020,441.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2021,451.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2022,463.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2023,475.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2024,487.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2025,498.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2026,510.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2027,521.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2028,533.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2029,545.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2030,557.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2020,12.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2021,12.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2022,12.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2023,12.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2024,12.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2025,12.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2026,12.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2027,12.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2028,12.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2029,12.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2030,12.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2020,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2021,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2022,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2023,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2024,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2025,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2026,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2027,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2028,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2029,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2030,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2020,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2021,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2022,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2023,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2024,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2025,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2026,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2027,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2028,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2029,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2030,5.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2020,310.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2021,314.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2022,320.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2023,327.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2024,335.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2025,342.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2026,350.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2027,357.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2028,364.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2029,372.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2030,380.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2020,153.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2021,159.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2022,166.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2023,173.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2024,181.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2025,188.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2026,197.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2027,205.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2028,214.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2029,224.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2030,234.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Total,2020,5441.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2021,5602.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2022,5769.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2023,5958.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2024,6137.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2025,6318.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2026,6502.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2027,6698.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2028,6896.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2029,7099.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2030,7305.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,100 Percent Federal Funds,2020,124.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2021,124.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2022,124.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2023,124.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2024,124.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2025,124.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2026,124.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2027,124.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2028,124.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2029,124.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2030,124.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2020,310.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2021,319.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2022,329.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2023,340.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2024,351.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2025,362.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2026,373.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2027,385.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2028,397.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2029,409.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2030,421.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Total,2020,434.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2021,443.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2022,453.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2023,464.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2024,475.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2025,486.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2026,497.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2027,509.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2028,521.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2029,532.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2030,545.0,Millions of Dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Budget Authority,2020,61853.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Budget Authority,2021,60193.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Budget Authority,2022,60406.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Budget Authority,2023,61300.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Budget Authority,2024,62094.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Budget Authority,2025,62781.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Budget Authority,2026,63496.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Budget Authority,2027,64424.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Budget Authority,2028,65771.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Budget Authority,2029,67311.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Budget Authority,2030,68873.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Outlays,2020,61923.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Outlays,2021,60276.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Outlays,2022,60395.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Outlays,2023,61256.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Outlays,2024,62055.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Outlays,2025,62746.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Outlays,2026,63460.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Outlays,2027,64378.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Outlays,2028,65703.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Outlays,2029,67234.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Outlays,2030,68795.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Total Benefits,2020,54466.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total Benefits,2021,52620.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total Benefits,2022,52619.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total Benefits,2023,53276.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total Benefits,2024,53842.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total Benefits,2025,54300.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total Benefits,2026,54785.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total Benefits,2027,55472.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total Benefits,2028,56573.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total Benefits,2029,57863.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total Benefits,2030,59168.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Assistance for Puerto Rico and American Samoa,2020,1946.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Assistance for Puerto Rico and American Samoa,2021,1971.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Assistance for Puerto Rico and American Samoa,2022,2017.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Assistance for Puerto Rico and American Samoa,2023,2066.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Assistance for Puerto Rico and American Samoa,2024,2116.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Assistance for Puerto Rico and American Samoa,2025,2163.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Assistance for Puerto Rico and American Samoa,2026,2208.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Assistance for Puerto Rico and American Samoa,2027,2254.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Assistance for Puerto Rico and American Samoa,2028,2302.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Assistance for Puerto Rico and American Samoa,2029,2349.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Assistance for Puerto Rico and American Samoa,2030,2400.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Administrative Costs, Other",2020,5441.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Administrative Costs, Other",2021,5602.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Administrative Costs, Other",2022,5769.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Administrative Costs, Other",2023,5958.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Administrative Costs, Other",2024,6137.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Administrative Costs, Other",2025,6318.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Administrative Costs, Other",2026,6502.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Administrative Costs, Other",2027,6698.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Administrative Costs, Other",2028,6896.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Administrative Costs, Other",2029,7099.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Administrative Costs, Other",2030,7305.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Dollars per person),2020,123.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Dollars per person),2021,124.57,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Dollars per person),2022,128.97,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Dollars per person),2023,132.93,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Dollars per person),2024,137.21,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Dollars per person),2025,140.97,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Dollars per person),2026,144.48,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Dollars per person),2027,148.64,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Dollars per person),2028,152.57,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Dollars per person),2029,156.56,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Dollars per person),2030,160.61,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Millions of people),2020,36.9,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Millions of people),2021,35.2,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Millions of people),2022,34.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Millions of people),2023,33.4,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Millions of people),2024,32.7,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Millions of people),2025,32.1,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Millions of people),2026,31.6,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Millions of people),2027,31.1,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Millions of people),2028,30.9,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Millions of people),2029,30.8,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,(Millions of people),2030,30.7,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Year, Lagged (Percent)",2021,101.3,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Year, Lagged (Percent)",2022,102.4,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Year, Lagged (Percent)",2023,102.4,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Year, Lagged (Percent)",2024,102.4,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Year, Lagged (Percent)",2025,102.2,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Year, Lagged (Percent)",2026,102.1,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Year, Lagged (Percent)",2027,102.1,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Year, Lagged (Percent)",2028,102.1,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Year, Lagged (Percent)",2029,102.1,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,"Year, Lagged (Percent)",2030,102.1,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Fiscal Year Average,2020,3.5,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Fiscal Year Average,2021,3.5,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Fiscal Year Average,2022,3.8,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Fiscal Year Average,2023,4.1,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Fiscal Year Average,2024,4.3,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Fiscal Year Average,2025,4.5,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Fiscal Year Average,2026,4.6,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Fiscal Year Average,2027,4.6,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Fiscal Year Average,2028,4.5,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Fiscal Year Average,2029,4.5,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Fiscal Year Average,2030,4.5,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,2020,2020,2020.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,2020,2021,2021.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,2020,2022,2022.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,2020,2023,2023.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,2020,2024,2024.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,2020,2025,2025.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,2020,2026,2026.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,2020,2027,2027.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,2020,2028,2028.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,2020,2029,2029.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,2020,2030,2030.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,State Administrationa,2020,3906.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,State Administrationa,2021,4030.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,State Administrationa,2022,4160.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,State Administrationa,2023,4299.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,State Administrationa,2024,4442.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,State Administrationa,2025,4587.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,State Administrationa,2026,4734.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,State Administrationa,2027,4884.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,State Administrationa,2028,5036.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,State Administrationa,2029,5192.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,State Administrationa,2030,5350.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Employment and Training,2020,434.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Employment and Training,2021,443.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Employment and Training,2022,453.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Employment and Training,2023,464.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Employment and Training,2024,475.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Employment and Training,2025,486.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Employment and Training,2026,497.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Employment and Training,2027,509.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Employment and Training,2028,521.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Employment and Training,2029,532.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Employment and Training,2030,545.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Other Program Costs,2020,176.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Other Program Costs,2021,183.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Other Program Costs,2022,184.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Other Program Costs,2023,198.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Other Program Costs,2024,196.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Other Program Costs,2025,194.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Other Program Costs,2026,193.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Other Program Costs,2027,200.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Other Program Costs,2028,206.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Other Program Costs,2029,212.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Other Program Costs,2030,218.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Nutrition Education,2020,441.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Nutrition Education,2021,451.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Nutrition Education,2022,463.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Nutrition Education,2023,475.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Nutrition Education,2024,487.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Nutrition Education,2025,498.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Nutrition Education,2026,510.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Nutrition Education,2027,521.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Nutrition Education,2028,533.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Nutrition Education,2029,545.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Nutrition Education,2030,557.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Northern Mariana Islands,2020,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Northern Mariana Islands,2021,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Northern Mariana Islands,2022,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Northern Mariana Islands,2023,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Northern Mariana Islands,2024,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Northern Mariana Islands,2025,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Northern Mariana Islands,2026,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Northern Mariana Islands,2027,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Northern Mariana Islands,2028,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Northern Mariana Islands,2029,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Northern Mariana Islands,2030,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Community Food Projects,2020,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Community Food Projects,2021,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Community Food Projects,2022,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Community Food Projects,2023,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Community Food Projects,2024,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Community Food Projects,2025,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Community Food Projects,2026,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Community Food Projects,2027,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Community Food Projects,2028,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Community Food Projects,2029,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Community Food Projects,2030,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Program Access Grants,2020,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Program Access Grants,2021,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Program Access Grants,2022,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Program Access Grants,2023,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Program Access Grants,2024,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Program Access Grants,2025,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Program Access Grants,2026,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Program Access Grants,2027,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Program Access Grants,2028,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Program Access Grants,2029,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Program Access Grants,2030,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Emergency Food Assistance Commodities,2020,310.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Emergency Food Assistance Commodities,2021,314.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Emergency Food Assistance Commodities,2022,320.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Emergency Food Assistance Commodities,2023,327.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Emergency Food Assistance Commodities,2024,335.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Emergency Food Assistance Commodities,2025,342.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Emergency Food Assistance Commodities,2026,350.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Emergency Food Assistance Commodities,2027,357.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Emergency Food Assistance Commodities,2028,364.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Emergency Food Assistance Commodities,2029,372.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Emergency Food Assistance Commodities,2030,380.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Food Donations on Indian Reservations,2020,153.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Food Donations on Indian Reservations,2021,159.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Food Donations on Indian Reservations,2022,166.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Food Donations on Indian Reservations,2023,173.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Food Donations on Indian Reservations,2024,181.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Food Donations on Indian Reservations,2025,188.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Food Donations on Indian Reservations,2026,197.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Food Donations on Indian Reservations,2027,205.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Food Donations on Indian Reservations,2028,214.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Food Donations on Indian Reservations,2029,224.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Food Donations on Indian Reservations,2030,234.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Total,2020,5441.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2021,5602.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2022,5769.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2023,5958.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2024,6137.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2025,6318.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2026,6502.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2027,6698.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2028,6896.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2029,7099.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2030,7305.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,100 Percent Federal Funds,2020,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,100 Percent Federal Funds,2021,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,100 Percent Federal Funds,2022,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,100 Percent Federal Funds,2023,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,100 Percent Federal Funds,2024,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,100 Percent Federal Funds,2025,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,100 Percent Federal Funds,2026,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,100 Percent Federal Funds,2027,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,100 Percent Federal Funds,2028,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,100 Percent Federal Funds,2029,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,100 Percent Federal Funds,2030,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,50 Percent Federal Funds,2020,310.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,50 Percent Federal Funds,2021,319.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,50 Percent Federal Funds,2022,329.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,50 Percent Federal Funds,2023,340.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,50 Percent Federal Funds,2024,351.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,50 Percent Federal Funds,2025,362.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,50 Percent Federal Funds,2026,373.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,50 Percent Federal Funds,2027,385.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,50 Percent Federal Funds,2028,397.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,50 Percent Federal Funds,2029,409.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,50 Percent Federal Funds,2030,421.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
+Snap,Total,2020,434.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2021,443.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2022,453.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2023,464.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2024,475.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2025,486.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2026,497.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2027,509.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2028,521.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2029,532.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+Snap,Total,2030,545.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true

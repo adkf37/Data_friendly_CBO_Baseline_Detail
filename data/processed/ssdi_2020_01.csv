@@ -1,76 +1,76 @@
 program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Ssdi,Men,2019,4230.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Men,2020,4150.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Men,2021,4154.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Men,2022,4175.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Men,2023,4213.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Men,2024,4259.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Men,2025,4316.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Men,2026,4368.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Men,2027,4369.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Men,2028,4374.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Men,2029,4382.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Men,2030,4397.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Women,2019,4153.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Women,2020,4104.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Women,2021,4130.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Women,2022,4168.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Women,2023,4219.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Women,2024,4272.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Women,2025,4332.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Women,2026,4388.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Women,2027,4392.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Women,2028,4399.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Women,2029,4407.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Women,2030,4423.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,All Disabled Workers,2019,8383.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,All Disabled Workers,2020,8253.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,All Disabled Workers,2021,8284.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,All Disabled Workers,2022,8343.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,All Disabled Workers,2023,8432.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,All Disabled Workers,2024,8531.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,All Disabled Workers,2025,8647.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,All Disabled Workers,2026,8756.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,All Disabled Workers,2027,8761.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,All Disabled Workers,2028,8774.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,All Disabled Workers,2029,8789.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,All Disabled Workers,2030,8819.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Spouses,2019,113.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Spouses,2020,108.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Spouses,2021,106.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Spouses,2022,104.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Spouses,2023,103.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Spouses,2024,101.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Spouses,2025,100.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Spouses,2026,99.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Spouses,2027,97.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Spouses,2028,95.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Spouses,2029,92.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Spouses,2030,91.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Children,2019,1434.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Children,2020,1390.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Children,2021,1368.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Children,2022,1358.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Children,2023,1359.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Children,2024,1361.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Children,2025,1367.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Children,2026,1374.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Children,2027,1377.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Children,2028,1381.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Children,2029,1382.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Children,2030,1381.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Total,2019,9930.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,true
-Ssdi,Total,2020,9751.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,true
-Ssdi,Total,2021,9758.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,true
-Ssdi,Total,2022,9805.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,true
-Ssdi,Total,2023,9894.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,true
-Ssdi,Total,2024,9993.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,true
-Ssdi,Total,2025,10114.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,true
-Ssdi,Total,2026,10229.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,true
-Ssdi,Total,2027,10235.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,true
-Ssdi,Total,2028,10250.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,true
-Ssdi,Total,2029,10263.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,true
-Ssdi,Total,2030,10291.0,Average Monthly Benefit on December 31 (Dollars),51307-2020-01-ssdi.xlsx,SSDI,true
+Ssdi,Men,2019,4230.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Men,2020,4150.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Men,2021,4154.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Men,2022,4175.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Men,2023,4213.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Men,2024,4259.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Men,2025,4316.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Men,2026,4368.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Men,2027,4369.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Men,2028,4374.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Men,2029,4382.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Men,2030,4397.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Women,2019,4153.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Women,2020,4104.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Women,2021,4130.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Women,2022,4168.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Women,2023,4219.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Women,2024,4272.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Women,2025,4332.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Women,2026,4388.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Women,2027,4392.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Women,2028,4399.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Women,2029,4407.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Women,2030,4423.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,All Disabled Workers,2019,8383.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,All Disabled Workers,2020,8253.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,All Disabled Workers,2021,8284.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,All Disabled Workers,2022,8343.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,All Disabled Workers,2023,8432.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,All Disabled Workers,2024,8531.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,All Disabled Workers,2025,8647.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,All Disabled Workers,2026,8756.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,All Disabled Workers,2027,8761.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,All Disabled Workers,2028,8774.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,All Disabled Workers,2029,8789.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,All Disabled Workers,2030,8819.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Spouses,2019,113.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Spouses,2020,108.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Spouses,2021,106.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Spouses,2022,104.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Spouses,2023,103.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Spouses,2024,101.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Spouses,2025,100.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Spouses,2026,99.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Spouses,2027,97.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Spouses,2028,95.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Spouses,2029,92.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Spouses,2030,91.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Children,2019,1434.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Children,2020,1390.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Children,2021,1368.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Children,2022,1358.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Children,2023,1359.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Children,2024,1361.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Children,2025,1367.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Children,2026,1374.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Children,2027,1377.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Children,2028,1381.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Children,2029,1382.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Children,2030,1381.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Total,2019,9930.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,true
+Ssdi,Total,2020,9751.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,true
+Ssdi,Total,2021,9758.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,true
+Ssdi,Total,2022,9805.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,true
+Ssdi,Total,2023,9894.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,true
+Ssdi,Total,2024,9993.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,true
+Ssdi,Total,2025,10114.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,true
+Ssdi,Total,2026,10229.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,true
+Ssdi,Total,2027,10235.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,true
+Ssdi,Total,2028,10250.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,true
+Ssdi,Total,2029,10263.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,true
+Ssdi,Total,2030,10291.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,true
 Ssdi,Men,2019,1385.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
 Ssdi,Men,2020,1424.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
 Ssdi,Men,2021,1467.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
@@ -131,54 +131,54 @@ Ssdi,Children,2027,505.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
 Ssdi,Children,2028,521.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
 Ssdi,Children,2029,539.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
 Ssdi,Children,2030,558.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Start of Year,2019,8537.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Start of Year,2020,8383.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Start of Year,2021,8253.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Start of Year,2022,8284.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Start of Year,2023,8343.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Start of Year,2024,8432.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Start of Year,2025,8531.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Start of Year,2026,8647.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Start of Year,2027,8756.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Start of Year,2028,8761.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Start of Year,2029,8774.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Start of Year,2030,8789.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Awards,2019,739.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Awards,2020,739.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Awards,2021,796.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Awards,2022,830.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Awards,2023,870.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Awards,2024,886.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Awards,2025,906.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Awards,2026,912.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Awards,2027,919.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Awards,2028,920.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Awards,2029,923.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Awards,2030,935.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Exits,2019,-893.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Exits,2020,-869.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Exits,2021,-764.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Exits,2022,-772.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Exits,2023,-781.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Exits,2024,-787.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Exits,2025,-790.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Exits,2026,-803.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Exits,2027,-914.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Exits,2028,-907.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Exits,2029,-908.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,Exits,2030,-904.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,End of Year,2019,8383.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,End of Year,2020,8253.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,End of Year,2021,8284.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,End of Year,2022,8343.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,End of Year,2023,8432.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,End of Year,2024,8531.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,End of Year,2025,8647.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,End of Year,2026,8756.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,End of Year,2027,8761.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,End of Year,2028,8774.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,End of Year,2029,8789.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
-Ssdi,End of Year,2030,8819.0,Dollars,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Start of Year,2019,8537.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Start of Year,2020,8383.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Start of Year,2021,8253.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Start of Year,2022,8284.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Start of Year,2023,8343.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Start of Year,2024,8432.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Start of Year,2025,8531.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Start of Year,2026,8647.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Start of Year,2027,8756.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Start of Year,2028,8761.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Start of Year,2029,8774.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Start of Year,2030,8789.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Awards,2019,739.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Awards,2020,739.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Awards,2021,796.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Awards,2022,830.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Awards,2023,870.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Awards,2024,886.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Awards,2025,906.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Awards,2026,912.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Awards,2027,919.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Awards,2028,920.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Awards,2029,923.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Awards,2030,935.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Exits,2019,-893.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Exits,2020,-869.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Exits,2021,-764.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Exits,2022,-772.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Exits,2023,-781.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Exits,2024,-787.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Exits,2025,-790.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Exits,2026,-803.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Exits,2027,-914.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Exits,2028,-907.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Exits,2029,-908.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,Exits,2030,-904.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,End of Year,2019,8383.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,End of Year,2020,8253.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,End of Year,2021,8284.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,End of Year,2022,8343.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,End of Year,2023,8432.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,End of Year,2024,8531.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,End of Year,2025,8647.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,End of Year,2026,8756.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,End of Year,2027,8761.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,End of Year,2028,8774.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,End of Year,2029,8789.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
+Ssdi,End of Year,2030,8819.0,Thousands,51307-2020-01-ssdi.xlsx,SSDI,false
 Ssdi,Disabled workers,2019,125.2,Billions of dollars,51307-2020-01-ssdi.xlsx,SSDI,false
 Ssdi,Disabled workers,2020,125.6,Billions of dollars,51307-2020-01-ssdi.xlsx,SSDI,false
 Ssdi,Disabled workers,2021,129.0,Billions of dollars,51307-2020-01-ssdi.xlsx,SSDI,false

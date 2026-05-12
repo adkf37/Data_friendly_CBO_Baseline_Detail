@@ -43,13 +43,16 @@ _UNIT_PHRASE = (
     r"|dollars\s+per\s+\w+(?:\s+\w+)?"  # "Dollars per enrollee", "Dollars per recipient"
     r"|percent(?:age)?(?:\s+of\s+\w+(?:\s+\w+)?)?"
     r"|number\s+of\s+\w+(?:\s+\w+)?"
+    r"|(?:billions?|millions?|thousands?|trillions?)"  # standalone quantity, e.g. "(Thousands)"
 )
 UNIT_LINE_RE = re.compile(
     rf"^\s*(?:\(\s*)?({_UNIT_PHRASE})\b[^()]*$",
     re.IGNORECASE,
 )
+# Comma-qualified suffix (e.g. ", calendar year 2018") is consumed but NOT
+# captured so the group returns only the clean unit phrase.
 UNIT_PAREN_RE = re.compile(
-    rf"\(\s*({_UNIT_PHRASE}(?:\s*,\s*[^()]+?)?)\s*\)\s*[a-z]?\s*$",
+    rf"\(\s*({_UNIT_PHRASE})\s*(?:,\s*[^()]+?)?\s*\)\s*[a-z]?\s*$",
     re.IGNORECASE,
 )
 # Standalone "Dollars" or "(Dollars)" with optional footnote marker.
@@ -207,6 +210,26 @@ def _extract_unit_declaration(text: str) -> str | None:
     return None
 
 
+def _normalize_unit_string(s: str) -> str:
+    """Normalize a raw unit label (e.g. from the parse-plan YAML) to a consistent
+    unit string.
+
+    Handles embedded phrases such as ``'By Fiscal Year, Billions of Dollars'``
+    or ``'Outlays in Millions of Dollars, by Fiscal Year'`` by finding the unit
+    phrase anywhere in the string.  Returns the phrase with first-letter
+    capitalisation and the remainder lower-cased for consistency across vintages.
+    """
+    if not s:
+        return s
+    phrase = _extract_unit_declaration(s)
+    if phrase is None:
+        m = re.search(rf"({_UNIT_PHRASE})", s, re.IGNORECASE)
+        phrase = m.group(1).strip() if m else None
+    if phrase:
+        return phrase[:1].upper() + phrase[1:].lower()
+    return s.strip()
+
+
 def _build_unit_map(worksheet, plan: SheetPlan, year_columns: list[int]) -> dict[int, str]:
     """Return a map of *row* -> unit string in effect for that row.
 
@@ -347,7 +370,7 @@ def _read_plan(path: Path) -> list[SheetPlan]:
                     header_end_row=_header_end_row(str(sheet_entry.get("header_rows", "1-1"))),
                     first_data_row=sheet_entry.get("first_data_row"),
                     year_columns=[int(column) for column in sheet_entry.get("year_columns", [])],
-                    unit=str(sheet_entry.get("unit", "")).strip(),
+                    unit=_normalize_unit_string(str(sheet_entry.get("unit", "")).strip()),
                     verification_exempt=bool(sheet_entry.get("verification_exempt", False)),
                 )
             )
@@ -429,7 +452,7 @@ def run_transform(
                     if not has_numeric:
                         detected = _extract_unit_declaration(text_a)
                         if detected:
-                            current_unit = detected
+                            current_unit = _normalize_unit_string(detected)
                         if row < first_data_row:
                             continue
                         # Non-numeric header row in data section — skip as data.
@@ -465,7 +488,7 @@ def run_transform(
                             "category": category,
                             "fiscal_year": year,
                             "value": value,
-                            "unit": current_unit,
+                            "unit": current_unit or "Unknown",
                             "source_file": plan.workbook,
                             "source_sheet": plan.sheet,
                             "is_total": str(_is_total(category)).lower(),
