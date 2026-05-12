@@ -15,7 +15,7 @@ Tidy long-form CBO baseline data for the **Childnutrition 0** program(s), extrac
 |---|---|
 | Source file(s) | `51293-2022-05-childnutrition_0.xlsx` |
 | Source sheet(s) | `Child Nutrition_05-2022` |
-| Unit(s) | By Fiscal Year, Millions of Dollars |
+| Unit(s) | Millions of dollars |
 
 ## Columns
 
@@ -25,7 +25,7 @@ Tidy long-form CBO baseline data for the **Childnutrition 0** program(s), extrac
 | `category` | string | Line-item label as it appears in the source worksheet after header normalization. | N/A | `Budget Authority` | Rows where ``is_total`` is ``true`` represent aggregated totals or subtotals and should be excluded from sum-based aggregations to avoid double-counting. |
 | `fiscal_year` | integer | Federal fiscal year to which the value applies (Oct 1 – Sep 30). | Year | `2022` | Only years in the range 2019–2040 are included; historical prior-year columns outside that range are silently dropped by the transform. |
 | `value` | float | Parsed numeric value from the source cell. | See ``unit`` column | `38642.0` | Negative values indicate outflows or reductions. Values originally enclosed in parentheses (e.g. ``(123)``) are converted to negative floats. |
-| `unit` | string | Unit of measure for the ``value`` column, sourced from the parse plan. | N/A | `By Fiscal Year, Millions of Dollars` | Common values include 'Millions of dollars', 'Billions of dollars', and 'Thousands'. |
+| `unit` | string | Unit of measure for the ``value`` column, sourced from the parse plan. | N/A | `Millions of dollars` | Common values include 'Millions of dollars', 'Billions of dollars', and 'Thousands'. |
 | `source_file` | string | Original CBO workbook filename from ``data/raw/``. | N/A | `51293-2022-05-childnutrition_0.xlsx` | Use this column to trace any row back to its exact source workbook. |
 | `source_sheet` | string | Worksheet name within the source workbook. | N/A | `Child Nutrition_05-2022` | Combine with ``source_file`` for a fully qualified provenance reference. |
 | `is_total` | boolean | ``true`` if the category label contains the word 'total' or 'subtotal', indicating an aggregated row. | N/A | `false` | **Always filter ``is_total = true`` rows out before computing sums or averages** across categories to avoid double-counting. Retain them for headline/summary views. |

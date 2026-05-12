@@ -17,7 +17,7 @@ Tidy long-form CBO baseline data for the **Dodmedicare** program(s), extracted f
 |---|---|
 | Source file(s) | `54946-2021-07-dodmedicare.xlsx` |
 | Source sheet(s) | `DoD-MERHCF_07-2021` |
-| Unit(s) | Millions of dollars, by fiscal year |
+| Unit(s) | Millions of dollars |
 
 ## Columns
 
@@ -27,7 +27,7 @@ Tidy long-form CBO baseline data for the **Dodmedicare** program(s), extracted f
 | `category` | string | Line-item label as it appears in the source worksheet after header normalization. | N/A | `Estimated Outlays From the MERHCF` | Rows where ``is_total`` is ``true`` represent aggregated totals or subtotals and should be excluded from sum-based aggregations to avoid double-counting. |
 | `fiscal_year` | integer | Federal fiscal year to which the value applies (Oct 1 – Sep 30). | Year | `2021` | Only years in the range 2019–2040 are included; historical prior-year columns outside that range are silently dropped by the transform. |
 | `value` | float | Parsed numeric value from the source cell. | See ``unit`` column | `11258.0` | Negative values indicate outflows or reductions. Values originally enclosed in parentheses (e.g. ``(123)``) are converted to negative floats. |
-| `unit` | string | Unit of measure for the ``value`` column, sourced from the parse plan. | N/A | `Millions of dollars, by fiscal year` | Common values include 'Millions of dollars', 'Billions of dollars', and 'Thousands'. |
+| `unit` | string | Unit of measure for the ``value`` column, sourced from the parse plan. | N/A | `Millions of dollars` | Common values include 'Millions of dollars', 'Billions of dollars', and 'Thousands'. |
 | `source_file` | string | Original CBO workbook filename from ``data/raw/``. | N/A | `54946-2021-07-dodmedicare.xlsx` | Use this column to trace any row back to its exact source workbook. |
 | `source_sheet` | string | Worksheet name within the source workbook. | N/A | `DoD-MERHCF_07-2021` | Combine with ``source_file`` for a fully qualified provenance reference. |
 | `is_total` | boolean | ``true`` if the category label contains the word 'total' or 'subtotal', indicating an aggregated row. | N/A | `false` | **Always filter ``is_total = true`` rows out before computing sums or averages** across categories to avoid double-counting. Retain them for headline/summary views. |

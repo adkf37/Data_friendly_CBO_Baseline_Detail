@@ -17,7 +17,7 @@ Tidy long-form CBO baseline data for the **Pellgrant** program(s), extracted fro
 |---|---|
 | Source file(s) | `51304-2022-05-pellgrant.xlsx` |
 | Source sheet(s) | `Pell_05-2022` |
-| Unit(s) | By fiscal year, budget authority in millions of dollars |
+| Unit(s) | Millions of dollars |
 
 ## Columns
 
@@ -27,7 +27,7 @@ Tidy long-form CBO baseline data for the **Pellgrant** program(s), extracted fro
 | `category` | string | Line-item label as it appears in the source worksheet after header normalization. | N/A | `Regular Discretionary Appropriationa` | Rows where ``is_total`` is ``true`` represent aggregated totals or subtotals and should be excluded from sum-based aggregations to avoid double-counting. |
 | `fiscal_year` | integer | Federal fiscal year to which the value applies (Oct 1 – Sep 30). | Year | `2019` | Only years in the range 2019–2040 are included; historical prior-year columns outside that range are silently dropped by the transform. |
 | `value` | float | Parsed numeric value from the source cell. | See ``unit`` column | `21875.0` | Negative values indicate outflows or reductions. Values originally enclosed in parentheses (e.g. ``(123)``) are converted to negative floats. |
-| `unit` | string | Unit of measure for the ``value`` column, sourced from the parse plan. | N/A | `By fiscal year, budget authority in m...` | Common values include 'Millions of dollars', 'Billions of dollars', and 'Thousands'. |
+| `unit` | string | Unit of measure for the ``value`` column, sourced from the parse plan. | N/A | `Millions of dollars` | Common values include 'Millions of dollars', 'Billions of dollars', and 'Thousands'. |
 | `source_file` | string | Original CBO workbook filename from ``data/raw/``. | N/A | `51304-2022-05-pellgrant.xlsx` | Use this column to trace any row back to its exact source workbook. |
 | `source_sheet` | string | Worksheet name within the source workbook. | N/A | `Pell_05-2022` | Combine with ``source_file`` for a fully qualified provenance reference. |
 | `is_total` | boolean | ``true`` if the category label contains the word 'total' or 'subtotal', indicating an aggregated row. | N/A | `false` | **Always filter ``is_total = true`` rows out before computing sums or averages** across categories to avoid double-counting. Retain them for headline/summary views. |
