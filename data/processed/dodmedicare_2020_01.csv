@@ -54,6 +54,28 @@ Dodmedicare,Pharmacy,2027,1916.0,Cost per Beneficiary (Dollars),54946-2020-01-do
 Dodmedicare,Pharmacy,2028,1992.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
 Dodmedicare,Pharmacy,2029,2092.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
 Dodmedicare,Pharmacy,2030,2183.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Inpatient/outpatient,2020,701.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Inpatient/outpatient,2021,730.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Inpatient/outpatient,2022,761.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Inpatient/outpatient,2023,801.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Inpatient/outpatient,2024,831.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Inpatient/outpatient,2025,868.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Inpatient/outpatient,2026,907.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Inpatient/outpatient,2027,948.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Inpatient/outpatient,2028,992.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Inpatient/outpatient,2029,1038.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Inpatient/outpatient,2030,1087.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Pharmacy,2020,297.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Pharmacy,2021,310.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Pharmacy,2022,326.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Pharmacy,2023,344.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Pharmacy,2024,360.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Pharmacy,2025,376.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Pharmacy,2026,394.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Pharmacy,2027,412.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Pharmacy,2028,433.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Pharmacy,2029,455.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Pharmacy,2030,479.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
 Dodmedicare,Total TRICARE for Life,2020,4204.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,true
 Dodmedicare,Total TRICARE for Life,2021,4412.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,true
 Dodmedicare,Total TRICARE for Life,2022,4566.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,true
@@ -98,3 +120,14 @@ Dodmedicare,USFHP,2027,924.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmed
 Dodmedicare,USFHP,2028,942.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
 Dodmedicare,USFHP,2029,957.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
 Dodmedicare,USFHP,2030,971.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,false
+Dodmedicare,Total,2020,10862.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,true
+Dodmedicare,Total,2021,11458.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,true
+Dodmedicare,Total,2022,11952.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,true
+Dodmedicare,Total,2023,12594.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,true
+Dodmedicare,Total,2024,13117.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,true
+Dodmedicare,Total,2025,13835.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,true
+Dodmedicare,Total,2026,14487.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,true
+Dodmedicare,Total,2027,15261.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,true
+Dodmedicare,Total,2028,16012.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,true
+Dodmedicare,Total,2029,16827.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,true
+Dodmedicare,Total,2030,17629.0,Cost per Beneficiary (Dollars),54946-2020-01-dodmedicare.xlsx,DoD-MERHCF,true

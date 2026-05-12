@@ -335,6 +335,18 @@ Medicare,760,2027,1341.0,Medicare Totals (Billions of dollars),51302-2020-03-med
 Medicare,760,2028,1438.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
 Medicare,760,2029,1548.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
 Medicare,760,2030,1687.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Total Mandatory Outlays,2019,10.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
+Medicare,Total Mandatory Outlays,2020,6.800000000000001,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
+Medicare,Total Mandatory Outlays,2021,7.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
+Medicare,Total Mandatory Outlays,2022,12.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
+Medicare,Total Mandatory Outlays,2023,3.5,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
+Medicare,Total Mandatory Outlays,2024,2.7,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
+Medicare,Total Mandatory Outlays,2025,12.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
+Medicare,Total Mandatory Outlays,2026,7.4,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
+Medicare,Total Mandatory Outlays,2027,7.4,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
+Medicare,Total Mandatory Outlays,2028,12.3,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
+Medicare,Total Mandatory Outlays,2029,-1.8,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
+Medicare,Total Mandatory Outlays,2030,14.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
 Medicare,Total Offsetting Receipts,2019,7.2,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
 Medicare,Total Offsetting Receipts,2020,6.4,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
 Medicare,Total Offsetting Receipts,2021,10.3,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
@@ -347,6 +359,18 @@ Medicare,Total Offsetting Receipts,2027,8.1,Medicare Totals (Billions of dollars
 Medicare,Total Offsetting Receipts,2028,8.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
 Medicare,Total Offsetting Receipts,2029,8.4,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
 Medicare,Total Offsetting Receipts,2030,8.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
+Medicare,Net Mandatory Outlays,2019,10.600000000000001,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Net Mandatory Outlays,2020,6.9,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Net Mandatory Outlays,2021,6.300000000000001,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Net Mandatory Outlays,2022,12.8,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Net Mandatory Outlays,2023,2.6,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Net Mandatory Outlays,2024,1.6,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Net Mandatory Outlays,2025,13.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Net Mandatory Outlays,2026,7.300000000000001,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Net Mandatory Outlays,2027,7.2,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Net Mandatory Outlays,2028,13.3,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Net Mandatory Outlays,2029,-3.9000000000000004,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Net Mandatory Outlays,2030,15.4,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
 Medicare,Part A benefits,2019,6.4,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
 Medicare,Part A benefits,2020,5.7,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
 Medicare,Part A benefits,2021,6.800000000000001,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
@@ -395,6 +419,42 @@ Medicare,Total Medicare benefits,2027,7.4,Medicare Totals (Billions of dollars),
 Medicare,Total Medicare benefits,2028,7.2,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
 Medicare,Total Medicare benefits,2029,7.7,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
 Medicare,Total Medicare benefits,2030,9.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
+Medicare,Part A benefits,2019,3.7,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A benefits,2020,3.1,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A benefits,2021,4.1000000000000005,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A benefits,2022,4.2,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A benefits,2023,4.2,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A benefits,2024,4.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A benefits,2025,3.9000000000000004,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A benefits,2026,3.8000000000000003,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A benefits,2027,3.8000000000000003,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A benefits,2028,3.8000000000000003,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A benefits,2029,4.2,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A benefits,2030,6.5,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B benefits,2019,7.300000000000001,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B benefits,2020,5.6000000000000005,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B benefits,2021,4.6000000000000005,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B benefits,2022,5.1000000000000005,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B benefits,2023,5.1000000000000005,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B benefits,2024,5.300000000000001,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B benefits,2025,5.4,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B benefits,2026,5.5,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B benefits,2027,5.7,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B benefits,2028,5.7,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B benefits,2029,6.5,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B benefits,2030,7.800000000000001,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part D benefits,2019,-7.9,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part D benefits,2020,3.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part D benefits,2021,4.1000000000000005,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part D benefits,2022,4.5,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part D benefits,2023,5.300000000000001,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part D benefits,2024,5.4,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part D benefits,2025,5.4,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part D benefits,2026,5.4,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part D benefits,2027,5.4,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part D benefits,2028,5.4,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part D benefits,2029,5.5,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part D benefits,2030,5.5,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
 Medicare,2.9000000000000004,2019,2.9000000000000004,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
 Medicare,2.9000000000000004,2020,3.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
 Medicare,2.9000000000000004,2021,3.4000000000000004,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
@@ -443,6 +503,30 @@ Medicare,0.8,2027,0.8,Medicare Totals (Billions of dollars),51302-2020-03-medica
 Medicare,0.8,2028,0.7000000000000001,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
 Medicare,0.8,2029,0.7000000000000001,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
 Medicare,0.8,2030,0.8,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A,2019,61.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A,2020,62.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A,2021,64.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A,2022,66.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A,2023,67.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A,2024,69.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A,2025,71.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A,2026,72.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A,2027,74.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A,2028,76.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A,2029,77.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part A,2030,78.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B,2019,56.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B,2020,57.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B,2021,58.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B,2022,60.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B,2023,62.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B,2024,63.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B,2025,65.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B,2026,66.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B,2027,68.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B,2028,70.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B,2029,71.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Part B,2030,72.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
 Medicare,Part D (i),2019,47.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
 Medicare,Part D (i),2020,48.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
 Medicare,Part D (i),2021,50.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
@@ -602,6 +686,18 @@ Medicare,Part D Payments by States,2027,-19.0,Medicare Totals (Billions of dolla
 Medicare,Part D Payments by States,2028,-20.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
 Medicare,Part D Payments by States,2029,-21.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
 Medicare,Part D Payments by States,2030,-22.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Amounts Paid to Providers and Recovered (f),2019,-12.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Amounts Paid to Providers and Recovered (f),2020,-12.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Amounts Paid to Providers and Recovered (f),2021,-13.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Amounts Paid to Providers and Recovered (f),2022,-14.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Amounts Paid to Providers and Recovered (f),2023,-14.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Amounts Paid to Providers and Recovered (f),2024,-15.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Amounts Paid to Providers and Recovered (f),2025,-17.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Amounts Paid to Providers and Recovered (f),2026,-18.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Amounts Paid to Providers and Recovered (f),2027,-19.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Amounts Paid to Providers and Recovered (f),2028,-21.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Amounts Paid to Providers and Recovered (f),2029,-23.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
+Medicare,Amounts Paid to Providers and Recovered (f),2030,-25.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,false
 Medicare,"Subtotal, Offsetting Receipts",2019,-131.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
 Medicare,"Subtotal, Offsetting Receipts",2020,-140.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
 Medicare,"Subtotal, Offsetting Receipts",2021,-154.0,Medicare Totals (Billions of dollars),51302-2020-03-medicare.xlsx,Medicare,true
