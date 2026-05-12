@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-12 — task-05-verify build slice: infer fiscal-year columns when parse-plan year_columns are missing
+
+**Decision:** Update `src/transform.py` and `src/verify.py` so both workflows infer active fiscal-year columns from worksheet headers when parse-plan `year_columns` is omitted, instead of failing immediately.
+**Rationale:** The latest Validate evidence for `task-05-verify` surfaced a distinct failure cluster (`parse plan has no year_columns=42`). Both transform and verify previously hard-failed on missing `year_columns`, which blocked these datasets even when year labels were present in workbook headers. This is the smallest targeted parser/output-alignment fix for the identified cluster: derive year columns from detected header years (`_extract_years` keys), reuse those inferred columns for first-data-row inference and row aggregation, and add focused regressions in `tests/test_transform.py` and `tests/test_verify.py` to lock behavior.
+**Task:** task-05-verify
+
+---
+
 ### 2026-05-12 — Validate returns task-05-verify to Build
 
 **Decision:** Return `task-05-verify` from Validate to **Build**.
