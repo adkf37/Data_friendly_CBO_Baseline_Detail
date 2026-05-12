@@ -2,7 +2,7 @@
 
 **Dataset:** `socialsecurity_2020_01`  
 **Vintage:** 2020-01  
-**Rows:** 185  
+**Rows:** 405  
 **Fiscal years covered:** 2019–2030  
 
 ## Purpose

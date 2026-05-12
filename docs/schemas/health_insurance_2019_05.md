@@ -2,7 +2,7 @@
 
 **Dataset:** `health_insurance_2019_05`  
 **Vintage:** 2019-05  
-**Rows:** 918  
+**Rows:** 1,065  
 **Fiscal years covered:** 2019–2029  
 
 ## Purpose

@@ -2,7 +2,7 @@
 
 **Dataset:** `premium_tax_credit_2024_07`  
 **Vintage:** 2024-07  
-**Rows:** 30  
+**Rows:** 33  
 **Fiscal years covered:** 2024–2034  
 
 ## Purpose

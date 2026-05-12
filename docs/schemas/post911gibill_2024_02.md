@@ -2,7 +2,7 @@
 
 **Dataset:** `post911gibill_2024_02`  
 **Vintage:** 2024-02  
-**Rows:** 40  
+**Rows:** 55  
 **Fiscal years covered:** 2024–2034  
 
 ## Purpose

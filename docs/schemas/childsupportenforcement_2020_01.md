@@ -2,7 +2,7 @@
 
 **Dataset:** `childsupportenforcement_2020_01`  
 **Vintage:** 2020-01  
-**Rows:** 50  
+**Rows:** 55  
 **Fiscal years covered:** 2020–2030  
 
 ## Purpose

@@ -2,7 +2,7 @@
 
 **Dataset:** `veteransbenefit_2024_02`  
 **Vintage:** 2024-02  
-**Rows:** 20  
+**Rows:** 132  
 **Fiscal years covered:** 2024–2034  
 
 ## Purpose

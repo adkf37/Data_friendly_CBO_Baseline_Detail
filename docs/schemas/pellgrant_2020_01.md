@@ -2,7 +2,7 @@
 
 **Dataset:** `pellgrant_2020_01`  
 **Vintage:** 2020-01  
-**Rows:** 98  
+**Rows:** 253  
 **Fiscal years covered:** 2019–2030  
 
 ## Purpose
@@ -16,7 +16,7 @@ Tidy long-form CBO baseline data for the **Pellgrant** program(s), extracted fro
 | Field | Value |
 |---|---|
 | Source file(s) | `51304-2020-01-pellgrant.xlsx` |
-| Source sheet(s) | `Cumulative Shortfall-Surplus`, `Pell Program Costs` |
+| Source sheet(s) | `Cumulative Shortfall-Surplus`, `Pell Grant Baseline`, `Pell Program Costs` |
 | Unit(s) | Millions of Dollars, by Fiscal Year |
 
 ## Columns

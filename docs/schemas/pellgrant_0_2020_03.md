@@ -2,7 +2,7 @@
 
 **Dataset:** `pellgrant_0_2020_03`  
 **Vintage:** 2020-03  
-**Rows:** 96  
+**Rows:** 251  
 **Fiscal years covered:** 2019–2030  
 
 ## Purpose
@@ -16,8 +16,8 @@ Tidy long-form CBO baseline data for the **Pellgrant 0** program(s), extracted f
 | Field | Value |
 |---|---|
 | Source file(s) | `51304-2020-03-pellgrant_0.xlsx` |
-| Source sheet(s) | `Cumulative Shortfall-Surplus`, `Pell Program Costs` |
-| Unit(s) | Assumed Discretionary Maximum Award (Dollars)a, Historical Pell Grant Funding and Program Costs (Millions of dollars) |
+| Source sheet(s) | `Cumulative Shortfall-Surplus`, `Pell Grant Baseline`, `Pell Program Costs` |
+| Unit(s) | Assumed Discretionary Maximum Award (Dollars)a, Budget Authority Needed to Support a Maximum Award of $5,285 and Available Funding (Millions of dollars), Historical Pell Grant Funding and Program Costs (Millions of dollars) |
 
 ## Columns
 

@@ -2,7 +2,7 @@
 
 **Dataset:** `student_loan_2019_05`  
 **Vintage:** 2019-05  
-**Rows:** 170  
+**Rows:** 638  
 **Fiscal years covered:** 2019–2029  
 
 ## Purpose
@@ -16,8 +16,8 @@ Tidy long-form CBO baseline data for the **Student Loan** program(s), extracted 
 | Field | Value |
 |---|---|
 | Source file(s) | `51310-2019-05-Student-Loan.xlsx` |
-| Source sheet(s) | `Table 1`, `Table 6` |
-| Unit(s) | Millions of Dollars, by Fiscal Year, Percent |
+| Source sheet(s) | `Table 1`, `Table 2`, `Table 3`, `Table 5`, `Table 6` |
+| Unit(s) | Millions of Dollars, by Fiscal Year, Net Annual Loan Volume (Millions of dollars), Percent |
 
 ## Columns
 

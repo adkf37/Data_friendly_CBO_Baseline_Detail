@@ -2,7 +2,7 @@
 
 **Dataset:** `trustfund_2020_01`  
 **Vintage:** 2020-01  
-**Rows:** 143  
+**Rows:** 204  
 **Fiscal years covered:** 2019–2030  
 
 ## Purpose

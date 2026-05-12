@@ -2,7 +2,7 @@
 
 **Dataset:** `medicare_2022_05`  
 **Vintage:** 2022-05  
-**Rows:** 339  
+**Rows:** 511  
 **Fiscal years covered:** 2021–2032  
 
 ## Purpose
