@@ -7,6 +7,7 @@ Chip,Budget Authoritya,2026,18.0,"By Fiscal Year, Billions of Dollars",51296-202
 Chip,Budget Authoritya,2027,19.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
 Chip,Budget Authoritya,2028,20.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
 Chip,Budget Authoritya,2029,20.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Budget Authoritya,2030,15.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
 Chip,Budget Authoritya,2031,15.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
 Chip,Budget Authoritya,2032,15.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
 Chip,Budget Authoritya,2033,15.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
@@ -18,6 +19,91 @@ Chip,Outlays,2026,18.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.
 Chip,Outlays,2027,19.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
 Chip,Outlays,2028,20.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
 Chip,Outlays,2029,20.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Outlays,2030,21.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
 Chip,Outlays,2031,22.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
 Chip,Outlays,2032,20.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
 Chip,Outlays,2033,15.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Millions of children,2022,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Millions of children,2023,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Millions of children,2024,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Millions of children,2025,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Millions of children,2026,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Millions of children,2027,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Millions of children,2028,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Millions of children,2029,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Millions of children,2030,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Millions of children,2031,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Millions of children,2032,6.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Millions of children,2033,4.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Total Enrollment,2022,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Enrollment,2023,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Enrollment,2024,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Enrollment,2025,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Enrollment,2026,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Enrollment,2027,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Enrollment,2028,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Enrollment,2029,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Enrollment,2030,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Enrollment,2031,7.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Enrollment,2032,6.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Enrollment,2033,4.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Benefit Payments per Enrollee (Dollars),2022,2357.714285714286,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Benefit Payments per Enrollee (Dollars),2023,2445.3360080240723,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Benefit Payments per Enrollee (Dollars),2024,2443.8210329449,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Benefit Payments per Enrollee (Dollars),2025,2543.4814064534803,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Benefit Payments per Enrollee (Dollars),2026,2658.660844250364,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Benefit Payments per Enrollee (Dollars),2027,2753.1821506949523,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Benefit Payments per Enrollee (Dollars),2028,2864.496260448746,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Benefit Payments per Enrollee (Dollars),2029,2975.491634869387,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Benefit Payments per Enrollee (Dollars),2030,3058.814901730713,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Benefit Payments per Enrollee (Dollars),2031,3171.9185109189507,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Benefit Payments per Enrollee (Dollars),2032,3292.532942898975,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Benefit Payments per Enrollee (Dollars),2033,3417.447306791569,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,State allotments,2022,19.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,State allotments,2023,17.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,State allotments,2024,18.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,State allotments,2025,18.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,State allotments,2026,18.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,State allotments,2027,19.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,State allotments,2028,20.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,State allotments,2029,20.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,State allotments,2030,15.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,State allotments,2031,15.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,State allotments,2032,15.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,State allotments,2033,15.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Prior-year funds available,2022,8.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Prior-year funds available,2023,10.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Prior-year funds available,2024,10.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Prior-year funds available,2025,11.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Prior-year funds available,2026,11.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Prior-year funds available,2027,11.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Prior-year funds available,2028,11.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Prior-year funds available,2029,12.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Prior-year funds available,2030,12.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Prior-year funds available,2031,6.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Prior-year funds available,2032,0.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Prior-year funds available,2033,0.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Redistribution funds,2022,3.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Redistribution funds,2023,4.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Redistribution funds,2024,4.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Redistribution funds,2025,4.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Redistribution funds,2026,4.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Redistribution funds,2027,4.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Redistribution funds,2028,4.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Redistribution funds,2029,4.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Redistribution funds,2030,4.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Redistribution funds,2031,4.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Redistribution funds,2032,4.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Redistribution funds,2033,0.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,false
+Chip,Total Available Funding,2022,30.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Available Funding,2023,31.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Available Funding,2024,32.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Available Funding,2025,33.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Available Funding,2026,33.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Available Funding,2027,34.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Available Funding,2028,35.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Available Funding,2029,36.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Available Funding,2030,31.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Available Funding,2031,25.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Available Funding,2032,19.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
+Chip,Total Available Funding,2033,15.0,"By Fiscal Year, Billions of Dollars",51296-2023-05-chip.xlsx,CHIP_05-2023,true
