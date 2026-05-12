@@ -362,6 +362,13 @@ workbooks:
             self.assertEqual(2, len(rows))
 
     def test_run_transform_prefers_header_years_and_deduplicates_keys(self):
+        """Header-declared years are preferred over stale in-data years.
+
+        Rows with the same category but *different* values represent distinct
+        sub-programs and must both appear in the output.  Only rows where
+        (program, category, year, unit, sheet, value) are all identical are
+        treated as exact duplicates and suppressed.
+        """
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)
             input_dir = root / "raw"
@@ -375,13 +382,19 @@ workbooks:
             sheet["A1"] = "Health Program"
             sheet["B1"] = "2024"
             sheet["C1"] = "2025"
+            # Stale year value in the data area — must not become a fiscal year label.
             sheet["B2"] = 2096
+            # Two distinct sub-program rows (different values → both kept).
             sheet["A3"] = "Paid"
             sheet["B3"] = 200
             sheet["C3"] = 210
-            sheet["A4"] = "Paid"
-            sheet["B4"] = 201
-            sheet["C4"] = 211
+            sheet["A4"] = "Free"
+            sheet["B4"] = 50
+            sheet["C4"] = 55
+            # Exact duplicate of row 3 (same category AND same values → dropped).
+            sheet["A5"] = "Paid"
+            sheet["B5"] = 200
+            sheet["C5"] = 210
             workbook.save(input_dir / workbook_name)
 
             parse_plan = root / "workbook_parse_plan.yaml"
@@ -414,10 +427,14 @@ workbooks:
             with csv_path.open(encoding="utf-8", newline="") as handle:
                 rows = list(DictReader(handle))
 
-            self.assertEqual(2, len(rows))
-            self.assertEqual(["2024", "2025"], [row["fiscal_year"] for row in rows])
-            self.assertEqual(["200.0", "210.0"], [row["value"] for row in rows])
-            self.assertNotIn("2096", [row["fiscal_year"] for row in rows])
+            # 2 distinct categories × 2 fiscal years = 4 rows; exact duplicate of
+            # row 3 is suppressed so the total remains 4, not 6.
+            self.assertEqual(4, len(rows))
+            fiscal_years = [row["fiscal_year"] for row in rows]
+            self.assertEqual(["2024", "2025", "2024", "2025"], fiscal_years)
+            values = [row["value"] for row in rows]
+            self.assertEqual(["200.0", "210.0", "50.0", "55.0"], values)
+            self.assertNotIn("2096", fiscal_years)
 
     def test_extract_years_scans_beyond_header_end_row(self):
         """Years in a row below the declared header_end_row are still found."""

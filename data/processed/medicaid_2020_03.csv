@@ -79,6 +79,26 @@ Medicaid,Long-term care,2027,4.6,2020-2030 (Percent),51301-2020-03-medicaid.xlsx
 Medicaid,Long-term care,2028,4.7,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
 Medicaid,Long-term care,2029,4.8,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
 Medicaid,Long-term care,2030,4.9,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Disproportionate Share Hospitals,2020,-26.9,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Disproportionate Share Hospitals,2021,-39.6,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Disproportionate Share Hospitals,2022,6.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Disproportionate Share Hospitals,2023,6.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Disproportionate Share Hospitals,2024,5.6,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Disproportionate Share Hospitals,2025,5.2,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Disproportionate Share Hospitals,2026,20.8,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Disproportionate Share Hospitals,2027,20.8,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Disproportionate Share Hospitals,2028,20.7,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Disproportionate Share Hospitals,2029,19.5,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Disproportionate Share Hospitals,2030,9.9,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Vaccines for Children,2020,4.8,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Vaccines for Children,2021,4.6,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Vaccines for Children,2022,6.1,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Vaccines for Children,2023,6.2,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Vaccines for Children,2024,6.1,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Vaccines for Children,2026,5.9,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Vaccines for Children,2028,6.2,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Vaccines for Children,2029,6.3,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Vaccines for Children,2030,6.4,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
 Medicaid,Aged,2019,50.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
 Medicaid,Aged,2020,52.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
 Medicaid,Aged,2021,54.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
@@ -127,6 +147,54 @@ Medicaid,Adults,2027,212.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medic
 Medicaid,Adults,2028,224.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
 Medicaid,Adults,2029,236.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
 Medicaid,Adults,2030,249.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2019,6.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2020,6.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2021,6.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2022,7.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2023,7.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2024,7.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2025,7.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2026,7.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2027,7.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2028,7.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2029,7.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2030,7.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2019,9.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2020,9.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2021,9.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2022,9.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2023,9.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2024,9.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2025,10.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2026,10.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2027,10.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2028,10.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2029,10.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2030,10.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2019,31.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2020,30.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2021,30.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2022,30.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2023,30.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2024,30.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2025,30.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2026,30.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2027,30.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2028,30.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2029,30.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2030,30.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2019,27.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2020,27.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2021,27.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2022,28.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2023,28.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2024,28.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2025,29.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2026,29.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2027,29.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2028,29.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2029,29.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2030,29.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
 Medicaid,Total Enrolled Within a Fiscal Year,2019,95.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,true
 Medicaid,Total Enrolled Within a Fiscal Year,2020,94.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,true
 Medicaid,Total Enrolled Within a Fiscal Year,2021,94.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,true
@@ -139,3 +207,51 @@ Medicaid,Total Enrolled Within a Fiscal Year,2027,98.0,2020-2030 (Percent),51301
 Medicaid,Total Enrolled Within a Fiscal Year,2028,98.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,true
 Medicaid,Total Enrolled Within a Fiscal Year,2029,98.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,true
 Medicaid,Total Enrolled Within a Fiscal Year,2030,99.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,true
+Medicaid,Aged,2019,7840.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2020,8150.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2021,8420.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2022,8620.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2023,8900.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2024,9200.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2025,9520.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2026,9840.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2027,10180.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2028,10530.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2029,10890.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Aged,2030,11270.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2019,12440.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2020,13260.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2021,13990.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2022,14580.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2023,15320.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2024,16100.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2025,16910.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2026,17740.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2027,18610.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2028,19530.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2029,20500.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Blind and Disabled,2030,21510.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2019,2430.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2020,2600.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2021,2770.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2022,2910.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2023,3070.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2024,3250.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2025,3430.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2026,3610.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2027,3810.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2028,4010.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2029,4230.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Children,2030,4460.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2019,4720.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2020,5030.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2021,5330.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2022,5610.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2023,5920.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2024,6250.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2025,6580.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2026,6940.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2027,7310.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2028,7700.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2029,8110.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false
+Medicaid,Adults,2030,8570.0,2020-2030 (Percent),51301-2020-03-medicaid.xlsx,Medicaid,false

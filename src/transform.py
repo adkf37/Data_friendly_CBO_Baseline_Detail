@@ -80,6 +80,7 @@ class SheetPlan:
     first_data_row: int | None
     year_columns: list[int]
     unit: str
+    verification_exempt: bool = False
 
 
 def _header_end_row(header_rows: str) -> int:
@@ -237,6 +238,7 @@ def _read_plan(path: Path) -> list[SheetPlan]:
                     first_data_row=sheet_entry.get("first_data_row"),
                     year_columns=[int(column) for column in sheet_entry.get("year_columns", [])],
                     unit=str(sheet_entry.get("unit", "")).strip(),
+                    verification_exempt=bool(sheet_entry.get("verification_exempt", False)),
                 )
             )
     return plans
@@ -274,7 +276,7 @@ def run_transform(
 ) -> int:
     if slice_name not in SLICE_CHOICES:
         raise ValueError(f"Unsupported slice: {slice_name}")
-    plans = [plan for plan in _read_plan(parse_plan_path) if plan.include and _in_slice(plan, slice_name)]
+    plans = [plan for plan in _read_plan(parse_plan_path) if plan.include and _in_slice(plan, slice_name) and not plan.verification_exempt]
     records_by_dataset: dict[str, list[dict]] = defaultdict(list)
     seen_keys_by_dataset: dict[str, set[tuple[str, str, int, str, str]]] = defaultdict(set)
     errors: list[str] = []
@@ -325,6 +327,7 @@ def run_transform(
                         year,
                         plan.unit,
                         plan.sheet,
+                        value,
                     )
                     if key in seen_keys_by_dataset[plan.output_dataset]:
                         continue
