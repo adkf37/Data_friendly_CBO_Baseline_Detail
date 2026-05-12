@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-11 — task-05-verify build implementation
+
+**Decision:** Implement `src/verify.py` and `tests/test_verify.py`, and generate `docs/verification_report.md` for `task-05-verify`.
+**Rationale:** The sprint’s next unfinished item after `task-04-schema` is verification/reconciliation, which routes to **Data Engineer + Tester** per `.squad/routing.md`. The verifier now checks every included parse-plan sheet target, compares source-vs-processed fiscal-year totals with both unit-aware absolute tolerance and a `0.01%` relative tolerance, excludes `is_total` rows by default unless `verification_include_totals: true` is set in the parse plan, and exits non-zero on non-exempt failures. Focused tests cover pass/fail behavior and totals override behavior, and a real run produced a repository-scale report (`targets=299`, `pass=24`, `non_exempt_failures=275`) for Validate follow-up.
+**Task:** task-05-verify
+
+---
+
 ### 2026-05-11 — Closeout returns the repo to Build for task-05-verify
 
 **Decision:** Close out `task-04-schema` and return the repo to **Build** for `task-05-verify`.
