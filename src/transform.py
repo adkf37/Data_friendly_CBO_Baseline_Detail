@@ -278,7 +278,6 @@ def run_transform(
         raise ValueError(f"Unsupported slice: {slice_name}")
     plans = [plan for plan in _read_plan(parse_plan_path) if plan.include and _in_slice(plan, slice_name) and not plan.verification_exempt]
     records_by_dataset: dict[str, list[dict]] = defaultdict(list)
-    seen_keys_by_dataset: dict[str, set[tuple[str, str, int, str, str]]] = defaultdict(set)
     errors: list[str] = []
 
     for plan in plans:
@@ -321,17 +320,6 @@ def run_transform(
                     value = _parse_number(worksheet.cell(row=row, column=column).value)
                     if value is None:
                         continue
-                    key = (
-                        program_name,
-                        category,
-                        year,
-                        plan.unit,
-                        plan.sheet,
-                        value,
-                    )
-                    if key in seen_keys_by_dataset[plan.output_dataset]:
-                        continue
-                    seen_keys_by_dataset[plan.output_dataset].add(key)
                     records_by_dataset[plan.output_dataset].append(
                         {
                             "program": program_name,
