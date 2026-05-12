@@ -419,6 +419,122 @@ workbooks:
             self.assertEqual(["200.0", "210.0"], [row["value"] for row in rows])
             self.assertNotIn("2096", [row["fiscal_year"] for row in rows])
 
+    def test_extract_years_scans_beyond_header_end_row(self):
+        """Years in a row below the declared header_end_row are still found."""
+        workbook = Workbook()
+        ws = workbook.active
+        ws.title = "Data"
+        # Row 1 (header): category label only — no year values
+        ws["A1"] = "Category"
+        # Row 4: year values as integers (below header_rows: 1-1)
+        ws["B4"] = 2020
+        ws["C4"] = 2021
+        # Row 5: data
+        ws["A5"] = "Budget Authority"
+        ws["B5"] = 100
+        ws["C5"] = 110
+
+        plan = transform.SheetPlan(
+            workbook="test.xlsx",
+            sheet="Data",
+            include=True,
+            output_dataset="test_dataset",
+            header_end_row=1,  # declared header covers only row 1
+            first_data_row=5,
+            year_columns=[2, 3],
+            unit="Millions of dollars",
+        )
+
+        years = transform._extract_years(ws, plan)
+        self.assertEqual({2: 2020, 3: 2021}, years, "Years below declared header_end_row must be found")
+
+    def test_extract_years_skips_datetime_cells(self):
+        """Datetime objects (publication dates) in year columns must not be treated as fiscal years."""
+        import datetime as dt
+
+        workbook = Workbook()
+        ws = workbook.active
+        ws.title = "Data"
+        # Row 1: a publication date datetime in column 2 — must not become a fiscal year label
+        ws.cell(row=1, column=2).value = dt.datetime(2020, 5, 2)
+        # Row 2: actual integer year value in column 2
+        ws.cell(row=2, column=2).value = 2025
+        ws.cell(row=3, column=1).value = "Program Detail"
+        ws.cell(row=3, column=2).value = 500
+
+        plan = transform.SheetPlan(
+            workbook="test.xlsx",
+            sheet="Data",
+            include=True,
+            output_dataset="test_dataset",
+            header_end_row=1,
+            first_data_row=3,
+            year_columns=[2],
+            unit="Millions",
+        )
+
+        years = transform._extract_years(ws, plan)
+        # The datetime in row 1 must be skipped; row 2 (integer 2025) is not in
+        # the declared header, but MAX_YEAR_SCAN_ROWS extends the search.
+        self.assertEqual({2: 2025}, years, "datetime cell must be ignored; integer year row must be found")
+
+    def test_find_sheet_exact_match(self):
+        self.assertEqual("MySheet", transform._find_sheet(["MySheet", "Other"], "MySheet"))
+
+    def test_find_sheet_trailing_space_match(self):
+        """Sheet names with trailing spaces in the workbook are matched against the parse plan entry."""
+        self.assertEqual("MySheet ", transform._find_sheet(["MySheet ", "Other"], "MySheet"))
+
+    def test_find_sheet_returns_none_when_not_found(self):
+        self.assertIsNone(transform._find_sheet(["Other", "Another"], "Missing"))
+
+    def test_run_transform_handles_trailing_space_sheet_name(self):
+        """Transform succeeds when the workbook sheet has a trailing space not in the parse plan."""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            input_dir = root / "raw"
+            output_dir = root / "processed"
+            input_dir.mkdir(parents=True)
+
+            workbook_name = "51297-2020-03-mortgages.xlsx"
+            wb = Workbook()
+            ws = wb.active
+            ws.title = "Mortgage Programs "  # trailing space
+            ws["A1"] = "Category"
+            ws["B1"] = "2025"
+            ws["A2"] = "Total Outlays"
+            ws["B2"] = 500
+            wb.save(input_dir / workbook_name)
+
+            parse_plan = root / "workbook_parse_plan.yaml"
+            parse_plan.write_text(
+                """
+workbooks:
+  - workbook: 51297-2020-03-mortgages.xlsx
+    sheets:
+      - sheet: Mortgage Programs
+        include: true
+        output_dataset: mortgages_2020_03
+        header_rows: 1-1
+        first_data_row: 2
+        year_columns: [2]
+        unit: Millions of dollars
+                """.strip()
+                + "\n",
+                encoding="utf-8",
+            )
+
+            rc = transform.run_transform(
+                parse_plan_path=parse_plan,
+                input_dir=input_dir,
+                output_dir=output_dir,
+                slice_name="remaining-programs",
+            )
+
+            self.assertEqual(0, rc)
+            csv_path = output_dir / "mortgages_2020_03.csv"
+            self.assertTrue(csv_path.exists(), "CSV should be written even when sheet name has trailing space")
+
 
 if __name__ == "__main__":
     unittest.main()

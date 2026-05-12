@@ -1,7 +1,32 @@
 program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
+Studentloan,Budget Authority,2022,4071.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Budget Authority,2023,-1522.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Budget Authority,2024,-2304.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Budget Authority,2025,-2405.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Budget Authority,2026,-1211.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Budget Authority,2027,208.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Budget Authority,2028,643.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Budget Authority,2029,459.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Budget Authority,2030,57.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Budget Authority,2031,-37.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Budget Authority,2032,-37.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Outlays,2022,4484.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Outlays,2023,-1032.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Outlays,2024,-1903.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Outlays,2025,-2183.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Outlays,2026,-1525.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Outlays,2027,-331.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Outlays,2028,347.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Outlays,2029,360.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Outlays,2030,72.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Outlays,2031,-108.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
+Studentloan,Outlays,2032,-108.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T1-FCRA_05-2022,false
 Studentloan,Amended Return of Title IV Requirements for Direct Loans,2020,0.5,"Billions of dollars, by fiscal year in which costs were recorded",51310-2022-05-studentloan.xlsx,T3-Pandemic Relief_05-2022,false
 Studentloan,Amended Return of Title IV Requirements for Direct Loans,2021,0.0,"Billions of dollars, by fiscal year in which costs were recorded",51310-2022-05-studentloan.xlsx,T3-Pandemic Relief_05-2022,false
 Studentloan,Amended Return of Title IV Requirements for Direct Loans,2022,0.0,"Billions of dollars, by fiscal year in which costs were recorded",51310-2022-05-studentloan.xlsx,T3-Pandemic Relief_05-2022,false
+Studentloan,Total,2020,41.9,"Billions of dollars, by fiscal year in which costs were recorded",51310-2022-05-studentloan.xlsx,T3-Pandemic Relief_05-2022,true
+Studentloan,Total,2021,55.9,"Billions of dollars, by fiscal year in which costs were recorded",51310-2022-05-studentloan.xlsx,T3-Pandemic Relief_05-2022,true
+Studentloan,Total,2022,15.0,"Billions of dollars, by fiscal year in which costs were recorded",51310-2022-05-studentloan.xlsx,T3-Pandemic Relief_05-2022,true
 Studentloan,Net Annual Loan Volume (Millions of dollars),2022,83533.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Net Annual Loan Volume (Millions of dollars),2023,84883.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Net Annual Loan Volume (Millions of dollars),2024,87352.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
@@ -10,6 +35,7 @@ Studentloan,Net Annual Loan Volume (Millions of dollars),2026,93167.0,Net Annual
 Studentloan,Net Annual Loan Volume (Millions of dollars),2027,95856.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Net Annual Loan Volume (Millions of dollars),2028,98272.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Net Annual Loan Volume (Millions of dollars),2029,100735.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2030,103249.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Net Annual Loan Volume (Millions of dollars),2031,105812.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Net Annual Loan Volume (Millions of dollars),2032,108443.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Net Number of Loans (Thousands),2022,12725.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
@@ -20,6 +46,7 @@ Studentloan,Net Number of Loans (Thousands),2026,13581.0,Net Annual Loan Volume 
 Studentloan,Net Number of Loans (Thousands),2027,13805.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Net Number of Loans (Thousands),2028,13974.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Net Number of Loans (Thousands),2029,14144.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
+Studentloan,Net Number of Loans (Thousands),2030,14314.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Net Number of Loans (Thousands),2031,14481.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Net Number of Loans (Thousands),2032,14650.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Average Loan Amount (Dollars),2022,6564.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
@@ -30,6 +57,7 @@ Studentloan,Average Loan Amount (Dollars),2026,6860.0,Net Annual Loan Volume (Mi
 Studentloan,Average Loan Amount (Dollars),2027,6943.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Average Loan Amount (Dollars),2028,7033.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Average Loan Amount (Dollars),2029,7122.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
+Studentloan,Average Loan Amount (Dollars),2030,7213.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Average Loan Amount (Dollars),2031,7307.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Average Loan Amount (Dollars),2032,7402.0,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Subsidy Rate (Percent)b,2022,-0.45,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
@@ -40,8 +68,31 @@ Studentloan,Subsidy Rate (Percent)b,2026,-1.25,Net Annual Loan Volume (Millions 
 Studentloan,Subsidy Rate (Percent)b,2027,0.09,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Subsidy Rate (Percent)b,2028,0.48,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Subsidy Rate (Percent)b,2029,0.3,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
+Studentloan,Subsidy Rate (Percent)b,2030,-0.06,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Subsidy Rate (Percent)b,2031,-0.13,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
 Studentloan,Subsidy Rate (Percent)b,2032,-0.3,Net Annual Loan Volume (Millions of dollars),51310-2022-05-studentloan.xlsx,T4-NewLoans-FCRA_05-2022,false
+Studentloan,Budget Authority,2022,144.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Budget Authority,2023,313.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Budget Authority,2024,303.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Budget Authority,2025,293.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Budget Authority,2026,283.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Budget Authority,2027,271.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Budget Authority,2028,259.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Budget Authority,2029,246.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Budget Authority,2030,232.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Budget Authority,2031,218.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Budget Authority,2032,218.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Outlays,2022,143.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Outlays,2023,504.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Outlays,2024,306.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Outlays,2025,295.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Outlays,2026,285.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Outlays,2027,274.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Outlays,2028,262.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Outlays,2029,249.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Outlays,2030,235.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Outlays,2031,221.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
+Studentloan,Outlays,2032,218.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T5-Admin_05-2022,false
 Studentloan,All Loans,2022,9.96,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,All Loans,2023,9.12,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,All Loans,2024,8.63,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
@@ -51,6 +102,7 @@ Studentloan,All Loans,2027,11.09,"By Fiscal Year, Percent",51310-2022-05-student
 Studentloan,All Loans,2028,11.42,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,All Loans,2029,11.29,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,All Loans,2030,10.89,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
+Studentloan,All Loans,2031,10.85,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,All Loans,2032,10.59,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Subsidized Loans,2022,23.62,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Subsidized Loans,2023,24.55,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
@@ -61,6 +113,7 @@ Studentloan,Subsidized Loans,2027,27.14,"By Fiscal Year, Percent",51310-2022-05-
 Studentloan,Subsidized Loans,2028,27.7,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Subsidized Loans,2029,27.38,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Subsidized Loans,2030,27.29,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
+Studentloan,Subsidized Loans,2031,27.25,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Subsidized Loans,2032,27.15,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Unsubsidized Loans: Undergraduate,2022,14.6,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Unsubsidized Loans: Undergraduate,2023,13.17,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
@@ -71,6 +124,7 @@ Studentloan,Unsubsidized Loans: Undergraduate,2027,14.23,"By Fiscal Year, Percen
 Studentloan,Unsubsidized Loans: Undergraduate,2028,14.64,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Unsubsidized Loans: Undergraduate,2029,14.35,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Unsubsidized Loans: Undergraduate,2030,14.28,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
+Studentloan,Unsubsidized Loans: Undergraduate,2031,14.51,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Unsubsidized Loans: Undergraduate,2032,14.47,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Unsubsidized Loans: Graduate,2022,6.43,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Unsubsidized Loans: Graduate,2023,5.77,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
@@ -81,6 +135,7 @@ Studentloan,Unsubsidized Loans: Graduate,2027,7.65,"By Fiscal Year, Percent",513
 Studentloan,Unsubsidized Loans: Graduate,2028,8.01,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Unsubsidized Loans: Graduate,2029,8.31,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Unsubsidized Loans: Graduate,2030,7.81,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
+Studentloan,Unsubsidized Loans: Graduate,2031,7.56,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Unsubsidized Loans: Graduate,2032,7.08,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,GradPLUS Loans for Students,2022,10.49,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,GradPLUS Loans for Students,2023,11.22,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
@@ -91,6 +146,7 @@ Studentloan,GradPLUS Loans for Students,2027,15.58,"By Fiscal Year, Percent",513
 Studentloan,GradPLUS Loans for Students,2028,15.76,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,GradPLUS Loans for Students,2029,15.54,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,GradPLUS Loans for Students,2030,14.5,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
+Studentloan,GradPLUS Loans for Students,2031,14.52,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,GradPLUS Loans for Students,2032,14.29,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Parent Loans,2022,-10.49,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Parent Loans,2023,-15.04,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
@@ -101,4 +157,27 @@ Studentloan,Parent Loans,2027,-14.52,"By Fiscal Year, Percent",51310-2022-05-stu
 Studentloan,Parent Loans,2028,-14.12,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Parent Loans,2029,-14.18,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Parent Loans,2030,-14.18,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
+Studentloan,Parent Loans,2031,-13.95,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
 Studentloan,Parent Loans,2032,-13.99,"By Fiscal Year, Percent",51310-2022-05-studentloan.xlsx,T7-Subsidies_05-2022,false
+Studentloan,Budget Authority,2022,13906.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Budget Authority,2023,8855.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Budget Authority,2024,8625.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Budget Authority,2025,8973.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Budget Authority,2026,10464.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Budget Authority,2027,12120.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Budget Authority,2028,12789.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Budget Authority,2029,12967.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Budget Authority,2030,12823.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Budget Authority,2031,13089.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Budget Authority,2032,13299.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Outlays,2022,13373.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Outlays,2023,7991.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Outlays,2024,7610.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Outlays,2025,7754.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Outlays,2026,8722.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Outlays,2027,10144.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Outlays,2028,11029.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Outlays,2029,11323.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Outlays,2030,11296.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Outlays,2031,11404.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false
+Studentloan,Outlays,2032,11637.0,"By Fiscal Year, Millions of Dollars",51310-2022-05-studentloan.xlsx,T8-FV_05-2022,false

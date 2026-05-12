@@ -1,4 +1,26 @@
 program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
+Studentloan,Budget Authority,2024,31648.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Budget Authority,2025,18612.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Budget Authority,2026,19266.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Budget Authority,2027,20414.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Budget Authority,2028,21237.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Budget Authority,2029,21851.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Budget Authority,2030,22703.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Budget Authority,2031,23540.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Budget Authority,2032,24160.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Budget Authority,2033,24612.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Budget Authority,2034,24819.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Outlays,2024,27656.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Outlays,2025,16689.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Outlays,2026,16737.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Outlays,2027,17610.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Outlays,2028,18432.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Outlays,2029,19028.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Outlays,2030,19715.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Outlays,2031,20464.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Outlays,2032,21078.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Outlays,2033,21532.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
+Studentloan,Outlays,2034,21792.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT1_6-24,false
 Studentloan,Net Annual Loan Volume (Millions of dollars),2024,85864.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Net Annual Loan Volume (Millions of dollars),2025,89912.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Net Annual Loan Volume (Millions of dollars),2026,93510.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
@@ -7,6 +29,7 @@ Studentloan,Net Annual Loan Volume (Millions of dollars),2028,98885.0,Net Annual
 Studentloan,Net Annual Loan Volume (Millions of dollars),2029,101024.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Net Annual Loan Volume (Millions of dollars),2030,103105.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Net Annual Loan Volume (Millions of dollars),2031,105243.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
+Studentloan,Net Annual Loan Volume (Millions of dollars),2032,107441.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Net Annual Loan Volume (Millions of dollars),2033,109699.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Net Annual Loan Volume (Millions of dollars),2034,112020.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Net Number of Loans (Thousands)b,2024,12252.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
@@ -17,6 +40,7 @@ Studentloan,Net Number of Loans (Thousands)b,2028,13136.0,Net Annual Loan Volume
 Studentloan,Net Number of Loans (Thousands)b,2029,13230.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Net Number of Loans (Thousands)b,2030,13325.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Net Number of Loans (Thousands)b,2031,13420.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
+Studentloan,Net Number of Loans (Thousands)b,2032,13516.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Net Number of Loans (Thousands)b,2033,13613.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Net Number of Loans (Thousands)b,2034,13711.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Average Loan Amount (Dollars),2024,7008.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
@@ -27,6 +51,7 @@ Studentloan,Average Loan Amount (Dollars),2028,7528.0,Net Annual Loan Volume (Mi
 Studentloan,Average Loan Amount (Dollars),2029,7636.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Average Loan Amount (Dollars),2030,7738.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Average Loan Amount (Dollars),2031,7842.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
+Studentloan,Average Loan Amount (Dollars),2032,7949.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Average Loan Amount (Dollars),2033,8058.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Average Loan Amount (Dollars),2034,8170.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Subsidized,2024,15829.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
@@ -37,6 +62,7 @@ Studentloan,Subsidized,2028,17840.0,Net Annual Loan Volume (Millions of dollars)
 Studentloan,Subsidized,2029,18120.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Subsidized,2030,18405.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Subsidized,2031,18695.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
+Studentloan,Subsidized,2032,18989.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Subsidized,2033,19288.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Subsidized,2034,19592.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Unsubsidized Undergraduate,2024,17429.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
@@ -47,6 +73,7 @@ Studentloan,Unsubsidized Undergraduate,2028,19776.0,Net Annual Loan Volume (Mill
 Studentloan,Unsubsidized Undergraduate,2029,20123.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Unsubsidized Undergraduate,2030,20426.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Unsubsidized Undergraduate,2031,20734.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
+Studentloan,Unsubsidized Undergraduate,2032,21046.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Unsubsidized Undergraduate,2033,21363.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Unsubsidized Undergraduate,2034,21684.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Unsubsidized Graduate,2024,28651.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
@@ -57,6 +84,7 @@ Studentloan,Unsubsidized Graduate,2028,32568.0,Net Annual Loan Volume (Millions 
 Studentloan,Unsubsidized Graduate,2029,33041.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Unsubsidized Graduate,2030,33455.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Unsubsidized Graduate,2031,33874.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
+Studentloan,Unsubsidized Graduate,2032,34298.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Unsubsidized Graduate,2033,34728.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Unsubsidized Graduate,2034,35163.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,GradPLUS,2024,13662.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
@@ -67,6 +95,7 @@ Studentloan,GradPLUS,2028,16803.0,Net Annual Loan Volume (Millions of dollars),5
 Studentloan,GradPLUS,2029,17567.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,GradPLUS,2030,18365.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,GradPLUS,2031,19200.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
+Studentloan,GradPLUS,2032,20073.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,GradPLUS,2033,20985.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,GradPLUS,2034,21939.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Parent PLUS,2024,10294.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
@@ -77,6 +106,7 @@ Studentloan,Parent PLUS,2028,11898.0,Net Annual Loan Volume (Millions of dollars
 Studentloan,Parent PLUS,2029,12173.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Parent PLUS,2030,12454.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Parent PLUS,2031,12741.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
+Studentloan,Parent PLUS,2032,13034.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Parent PLUS,2033,13335.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,Parent PLUS,2034,13643.0,Net Annual Loan Volume (Millions of dollars),51310-2024-06-studentloan.xlsx,studentloanT3_6-24,false
 Studentloan,All Loans,2024,20.2,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
@@ -88,6 +118,7 @@ Studentloan,All Loans,2029,19.0,"Percent, by fiscal year",51310-2024-06-studentl
 Studentloan,All Loans,2030,19.4,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,All Loans,2031,19.7,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,All Loans,2032,19.8,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,All Loans,2033,19.8,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,All Loans,2034,19.5,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Subsidized,2024,34.8,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Subsidized,2025,33.5,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
@@ -98,6 +129,7 @@ Studentloan,Subsidized,2029,32.9,"Percent, by fiscal year",51310-2024-06-student
 Studentloan,Subsidized,2030,33.2,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Subsidized,2031,33.5,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Subsidized,2032,33.5,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,Subsidized,2033,33.5,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Subsidized,2034,33.2,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Unsubsidized Undergraduate,2024,27.2,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Unsubsidized Undergraduate,2025,25.3,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
@@ -108,6 +140,7 @@ Studentloan,Unsubsidized Undergraduate,2029,26.0,"Percent, by fiscal year",51310
 Studentloan,Unsubsidized Undergraduate,2030,26.1,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Unsubsidized Undergraduate,2031,26.5,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Unsubsidized Undergraduate,2032,26.4,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,Unsubsidized Undergraduate,2033,26.5,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Unsubsidized Undergraduate,2034,26.5,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Unsubsidized Graduate,2024,18.9,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Unsubsidized Graduate,2025,16.3,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
@@ -118,6 +151,7 @@ Studentloan,Unsubsidized Graduate,2029,17.7,"Percent, by fiscal year",51310-2024
 Studentloan,Unsubsidized Graduate,2030,18.1,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Unsubsidized Graduate,2031,18.2,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Unsubsidized Graduate,2032,18.4,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,Unsubsidized Graduate,2033,18.2,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Unsubsidized Graduate,2034,18.0,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,GradPLUS,2024,24.8,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,GradPLUS,2025,23.1,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
@@ -128,6 +162,7 @@ Studentloan,GradPLUS,2029,23.8,"Percent, by fiscal year",51310-2024-06-studentlo
 Studentloan,GradPLUS,2030,24.2,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,GradPLUS,2031,24.7,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,GradPLUS,2032,24.8,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,GradPLUS,2033,24.7,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,GradPLUS,2034,24.1,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Parent PLUS,2024,-16.5,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Parent PLUS,2025,-17.7,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
@@ -138,7 +173,41 @@ Studentloan,Parent PLUS,2029,-16.4,"Percent, by fiscal year",51310-2024-06-stude
 Studentloan,Parent PLUS,2030,-15.9,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Parent PLUS,2031,-15.4,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Parent PLUS,2032,-14.9,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,Parent PLUS,2033,-14.7,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
 Studentloan,Parent PLUS,2034,-14.6,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,Parent PLUSb,2024,-16.5,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,Parent PLUSb,2025,-17.7,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,Parent PLUSb,2026,-18.1,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,Parent PLUSb,2027,-17.6,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,Parent PLUSb,2028,-17.0,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,Parent PLUSb,2029,-16.4,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,Parent PLUSb,2030,-15.9,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,Parent PLUSb,2031,-15.4,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,Parent PLUSb,2032,-14.9,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,Parent PLUSb,2033,-14.7,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,Parent PLUSb,2034,-14.6,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT4_6-24,false
+Studentloan,Budget Authority,2024,25723.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Budget Authority,2025,25089.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Budget Authority,2026,26020.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Budget Authority,2027,27229.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Budget Authority,2028,28132.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Budget Authority,2029,28843.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Budget Authority,2030,29782.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Budget Authority,2031,30647.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Budget Authority,2032,31341.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Budget Authority,2033,31908.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Budget Authority,2034,32163.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Outlays,2024,23164.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Outlays,2025,22288.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Outlays,2026,22653.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Outlays,2027,23647.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Outlays,2028,24532.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Outlays,2029,25210.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Outlays,2030,25979.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Outlays,2031,26773.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Outlays,2032,27439.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Outlays,2033,27983.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
+Studentloan,Outlays,2034,28310.0,"Millions of dollars, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT6_6-24,false
 Studentloan,All Loans,2024,26.4,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,All Loans,2025,24.6,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,All Loans,2026,24.5,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
@@ -148,6 +217,7 @@ Studentloan,All Loans,2029,25.2,"Percent, by fiscal year",51310-2024-06-studentl
 Studentloan,All Loans,2030,25.5,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,All Loans,2031,25.7,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,All Loans,2032,25.7,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,All Loans,2033,25.7,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,All Loans,2034,25.3,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Subsidized,2024,39.1,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Subsidized,2025,37.9,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
@@ -158,6 +228,7 @@ Studentloan,Subsidized,2029,37.3,"Percent, by fiscal year",51310-2024-06-student
 Studentloan,Subsidized,2030,37.6,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Subsidized,2031,37.8,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Subsidized,2032,37.8,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,Subsidized,2033,37.7,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Subsidized,2034,37.4,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Unsubsidized Undergraduate,2024,32.3,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Unsubsidized Undergraduate,2025,30.6,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
@@ -168,6 +239,7 @@ Studentloan,Unsubsidized Undergraduate,2029,31.0,"Percent, by fiscal year",51310
 Studentloan,Unsubsidized Undergraduate,2030,31.1,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Unsubsidized Undergraduate,2031,31.3,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Unsubsidized Undergraduate,2032,31.3,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,Unsubsidized Undergraduate,2033,31.3,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Unsubsidized Undergraduate,2034,31.3,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Unsubsidized Graduate,2024,24.3,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Unsubsidized Graduate,2025,21.9,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
@@ -178,6 +250,7 @@ Studentloan,Unsubsidized Graduate,2029,22.9,"Percent, by fiscal year",51310-2024
 Studentloan,Unsubsidized Graduate,2030,23.3,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Unsubsidized Graduate,2031,23.3,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Unsubsidized Graduate,2032,23.4,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,Unsubsidized Graduate,2033,23.2,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Unsubsidized Graduate,2034,22.8,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,GradPLUS,2024,30.8,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,GradPLUS,2025,29.4,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
@@ -188,6 +261,7 @@ Studentloan,GradPLUS,2029,30.0,"Percent, by fiscal year",51310-2024-06-studentlo
 Studentloan,GradPLUS,2030,30.4,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,GradPLUS,2031,30.6,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,GradPLUS,2032,30.6,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,GradPLUS,2033,30.5,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,GradPLUS,2034,29.7,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Parent PLUS,2024,-3.1,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Parent PLUS,2025,-4.1,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
@@ -198,4 +272,16 @@ Studentloan,Parent PLUS,2029,-3.4,"Percent, by fiscal year",51310-2024-06-studen
 Studentloan,Parent PLUS,2030,-2.9,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Parent PLUS,2031,-2.5,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Parent PLUS,2032,-2.1,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,Parent PLUS,2033,-1.9,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
 Studentloan,Parent PLUS,2034,-1.8,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,Parent PLUSb,2024,-3.1,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,Parent PLUSb,2025,-4.1,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,Parent PLUSb,2026,-4.6,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,Parent PLUSb,2027,-4.3,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,Parent PLUSb,2028,-3.8,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,Parent PLUSb,2029,-3.4,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,Parent PLUSb,2030,-2.9,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,Parent PLUSb,2031,-2.5,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,Parent PLUSb,2032,-2.1,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,Parent PLUSb,2033,-1.9,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false
+Studentloan,Parent PLUSb,2034,-1.8,"Percent, by fiscal year",51310-2024-06-studentloan.xlsx,studentloanT7_6-24,false

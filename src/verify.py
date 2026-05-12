@@ -121,9 +121,10 @@ def _aggregate_source_totals(plan: VerificationPlan, input_dir: Path) -> tuple[d
 
     workbook = load_workbook(workbook_path, read_only=True, data_only=True)
     try:
-        if plan.sheet not in workbook.sheetnames:
+        actual_sheet = transform._find_sheet(workbook.sheetnames, plan.sheet)
+        if actual_sheet is None:
             return {}, [f"sheet missing: {plan.sheet}"]
-        worksheet = workbook[plan.sheet]
+        worksheet = workbook[actual_sheet]
         sheet_plan = transform.SheetPlan(
             workbook=plan.workbook,
             sheet=plan.sheet,
@@ -145,7 +146,7 @@ def _aggregate_source_totals(plan: VerificationPlan, input_dir: Path) -> tuple[d
         totals_by_year: dict[int, float] = {}
         rows_seen = 0
         for row in range(first_data_row, worksheet.max_row + 1):
-            category = transform._to_text(worksheet.cell(row=row, column=1).value)
+            category = transform._get_row_category(worksheet, row)
             if not category or transform._looks_like_note(category):
                 continue
             if not plan.verification_include_totals and transform._is_total(category):

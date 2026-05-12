@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import datetime
 import re
 import sys
 from collections import defaultdict
@@ -19,6 +20,18 @@ from openpyxl import load_workbook
 
 YEAR_RE = re.compile(r"(19|20)\d{2}")
 NUMBER_RE = re.compile(r"^\(?[$]?\s*[-+]?\d[\d,]*(?:\.\d+)?\)?$")
+# Strict pattern for fiscal-year column header cells.  The year must be the
+# primary content: allows an optional "FY"/"fiscal year" prefix and a short
+# trailing qualifier (e.g. "actual", "est.", "projected"), but rejects
+# publication-date strings such as "February 2021" or "2021 to 2031".
+YEAR_LABEL_RE = re.compile(
+    r"^\s*(?:fy\s*|f\.y\.\s*|fiscal\s+year\s*)?((19|20)\d{2})"
+    r"(?:\s*(?:actual|est(?:imate[ds]?)?\.?|proj(?:ect(?:ed|ion)?)?\.?|baseline))?"
+    r"\s*$",
+    re.IGNORECASE,
+)
+# Maximum rows to scan beyond the declared header when searching for year labels.
+MAX_YEAR_SCAN_ROWS = 30
 HEALTH_KEYWORDS = ("health", "medicare", "medicaid", "chip")
 INCOME_SECURITY_KEYWORDS = (
     "child_support",
@@ -109,23 +122,62 @@ def _looks_like_note(category: str) -> bool:
     return lowered.startswith("note") or lowered.startswith("source")
 
 
+def _get_row_category(worksheet, row: int) -> str:
+    """Return the category text for *row*.
+
+    Checks columns 1, 2, and 3 in order, returning the first non-empty value.
+    This handles workbooks that use an indented multi-column layout where the
+    category label appears in column 2 or 3 with earlier columns left blank.
+    """
+    for col in (1, 2, 3):
+        cat = _to_text(worksheet.cell(row=row, column=col).value)
+        if cat:
+            return cat
+    return ""
+
+
 def _extract_years(worksheet, plan: SheetPlan) -> dict[int, int]:
+    """Return a mapping of column index → fiscal year found in that column's header.
+
+    Scans up to ``MAX_YEAR_SCAN_ROWS`` rows (or the declared ``header_end_row``,
+    whichever is larger) so that sheets whose year row falls below the declared
+    header boundary are still handled correctly.
+
+    * ``datetime`` / ``date`` cell values are skipped (publication timestamps).
+    * Integer/float values are matched directly against the plausible-year range.
+    * String values are matched with ``YEAR_LABEL_RE``, which requires the year
+      to be the primary cell content.  This prevents publication-date strings
+      like "February 2021" from being mis-classified as fiscal-year labels.
+    """
     years: dict[int, int] = {}
+    max_scan = max(plan.header_end_row, min(MAX_YEAR_SCAN_ROWS, worksheet.max_row))
     for column in plan.year_columns:
-        for row in range(1, plan.header_end_row + 1):
-            cell_text = _to_text(worksheet.cell(row=row, column=column).value)
-            match = YEAR_RE.search(cell_text)
-            if match:
-                year = int(match.group(0))
+        for row in range(1, max_scan + 1):
+            value = worksheet.cell(row=row, column=column).value
+            # Skip datetime / date objects — publication timestamps, not year labels.
+            if isinstance(value, (datetime.datetime, datetime.date)):
+                continue
+            # Integer or float: test the value directly.
+            if isinstance(value, (int, float)):
+                year = int(value)
                 if PLAUSIBLE_YEAR_MIN <= year <= PLAUSIBLE_YEAR_MAX:
                     years[column] = year
-                break
+                    break
+                continue  # value out of range — check the next row
+            # String: require the cell to be essentially just a year label.
+            cell_text = _to_text(value)
+            match = YEAR_LABEL_RE.match(cell_text)
+            if match:
+                year = int(match.group(1))
+                if PLAUSIBLE_YEAR_MIN <= year <= PLAUSIBLE_YEAR_MAX:
+                    years[column] = year
+                    break  # stop as soon as a valid year label is found
     return years
 
 
 def _infer_first_data_row(worksheet, plan: SheetPlan) -> int | None:
     for row in range(plan.header_end_row + 1, worksheet.max_row + 1):
-        category = _to_text(worksheet.cell(row=row, column=1).value)
+        category = _get_row_category(worksheet, row)
         if not category:
             continue
         if _looks_like_note(category):
@@ -151,6 +203,22 @@ def _infer_program_name(filename: str) -> str:
     else:
         name = stem
     return " ".join(token for token in re.split(r"[-\s]+", name) if token).title()
+
+
+def _find_sheet(sheetnames: list[str], target: str) -> str | None:
+    """Return the actual sheet name from *sheetnames* that matches *target*.
+
+    Tries an exact match first, then falls back to a whitespace-stripped
+    comparison so that sheet names with incidental trailing spaces (a common
+    Excel authoring artefact) are handled transparently.
+    """
+    if target in sheetnames:
+        return target
+    target_stripped = target.strip()
+    for name in sheetnames:
+        if name.strip() == target_stripped:
+            return name
+    return None
 
 
 def _read_plan(path: Path) -> list[SheetPlan]:
@@ -222,10 +290,11 @@ def run_transform(
 
         workbook = load_workbook(workbook_path, read_only=True, data_only=True)
         try:
-            if plan.sheet not in workbook.sheetnames:
+            actual_sheet = _find_sheet(workbook.sheetnames, plan.sheet)
+            if actual_sheet is None:
                 _append_error(errors, plan.workbook, plan.sheet, "sheet not found")
                 continue
-            worksheet = workbook[plan.sheet]
+            worksheet = workbook[actual_sheet]
             years = _extract_years(worksheet, plan)
             if not years:
                 _append_error(errors, plan.workbook, plan.sheet, "no fiscal years inferred")
@@ -238,7 +307,7 @@ def run_transform(
             rows_written = 0
             program_name = _infer_program_name(plan.workbook)
             for row in range(first_data_row, worksheet.max_row + 1):
-                category = _to_text(worksheet.cell(row=row, column=1).value)
+                category = _get_row_category(worksheet, row)
                 if not category:
                     continue
                 if _looks_like_note(category):
