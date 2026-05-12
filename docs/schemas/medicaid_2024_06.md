@@ -2,7 +2,7 @@
 
 **Dataset:** `medicaid_2024_06`  
 **Vintage:** 2024-06  
-**Rows:** 50  
+**Rows:** 308  
 **Fiscal years covered:** 2024–2034  
 
 ## Purpose

@@ -2,7 +2,7 @@
 
 **Dataset:** `child_nutrition_2019_05`  
 **Vintage:** 2019-05  
-**Rows:** 36  
+**Rows:** 102  
 **Fiscal years covered:** 2019–2024  
 
 ## Purpose

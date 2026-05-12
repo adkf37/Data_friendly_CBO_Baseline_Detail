@@ -2,7 +2,7 @@
 
 **Dataset:** `dodmedicare_2019_05`  
 **Vintage:** 2019-05  
-**Rows:** 90  
+**Rows:** 132  
 **Fiscal years covered:** 2019–2029  
 
 ## Purpose

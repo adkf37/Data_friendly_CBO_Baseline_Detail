@@ -2,7 +2,7 @@
 
 **Dataset:** `mortgages_2024_06`  
 **Vintage:** 2024-06  
-**Rows:** 10  
+**Rows:** 153  
 **Fiscal years covered:** 2024–2034  
 
 ## Purpose

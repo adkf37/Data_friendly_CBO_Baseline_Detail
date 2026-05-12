@@ -2,7 +2,7 @@
 
 **Dataset:** `unemployment_2023_05`  
 **Vintage:** 2023-05  
-**Rows:** 70  
+**Rows:** 143  
 **Fiscal years covered:** 2023–2033  
 
 ## Purpose

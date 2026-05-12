@@ -2,7 +2,7 @@
 
 **Dataset:** `pell_grant_2019_05`  
 **Vintage:** 2019-05  
-**Rows:** 80  
+**Rows:** 244  
 **Fiscal years covered:** 2019–2029  
 
 ## Purpose
@@ -16,7 +16,7 @@ Tidy long-form CBO baseline data for the **Pell Grant** program(s), extracted fr
 | Field | Value |
 |---|---|
 | Source file(s) | `51304-2019-05-Pell-Grant.xlsx` |
-| Source sheet(s) | `Table 1`, `Table 3` |
+| Source sheet(s) | `Table 1`, `Table 2`, `Table 3` |
 | Unit(s) | Millions of Dollars, by Fiscal Year |
 
 ## Columns

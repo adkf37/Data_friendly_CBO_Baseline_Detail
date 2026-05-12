@@ -2,7 +2,7 @@
 
 **Dataset:** `childnutrition_2023_05`  
 **Vintage:** 2023-05  
-**Rows:** 20  
+**Rows:** 186  
 **Fiscal years covered:** 2023–2033  
 
 ## Purpose

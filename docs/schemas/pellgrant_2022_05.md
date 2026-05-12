@@ -2,7 +2,7 @@
 
 **Dataset:** `pellgrant_2022_05`  
 **Vintage:** 2022-05  
-**Rows:** 30  
+**Rows:** 116  
 **Fiscal years covered:** 2019–2022  
 
 ## Purpose

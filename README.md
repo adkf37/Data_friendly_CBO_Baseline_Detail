@@ -1,56 +1,105 @@
 # Data Friendly CBO Baseline Detail
 
-This repository is building a reproducible pipeline that turns the Congressional Budget Office's baseline detail workbooks into machine-readable, tidy datasets.
+A reproducible pipeline that turns the [Congressional Budget Office's](https://www.cbo.gov/) baseline detail workbooks into machine-readable, tidy CSV datasets.
 
-## Current Status
+> **CBO Attribution:** All source data is published by the Congressional Budget Office. Downloaded workbooks are available at <https://www.cbo.gov/data/baseline-projections-selected-programs>. The CBO grants permission to reproduce its data for non-commercial purposes with attribution.
 
-- `task-01-download` is implemented, validated, and closed out.
-- `task-02-inspect` and `task-02b-parse-plan` are implemented and complete.
-- `task-03-transform` is implemented, validated, and closed out across the health, income-security, and remaining-programs slices.
-- `task-04-schema` is implemented, validated, and closed out with reproducible docs for all processed CSVs.
-- The transform CLI now supports `--slice health`, `--slice income-security`, `--slice remaining-programs`, and `--slice all`.
-- The next ordered build target is `task-05-verify`.
-- The full end-to-end pipeline (`run_pipeline.py`, transforms, schemas, verification) is still in progress.
+## Project Purpose
 
-## What Works Today
+The CBO publishes fiscal-year baseline projections for federal programs (Medicare, Medicaid, Social Security, student loans, veterans benefits, and more) as Excel workbooks. This pipeline:
 
-Implemented entrypoints today:
+1. **Downloads** the workbooks from the CBO index page.
+2. **Inspects** each workbook and generates a structural profile report.
+3. **Transforms** every included sheet into a tidy CSV with consistent columns.
+4. **Documents** each processed dataset with a Markdown schema file.
+5. **Verifies** that processed CSV totals match source workbook values within tolerance.
+
+## Prerequisites
+
+- Python 3.9 or later
+- Internet access for the `download` step (subsequent steps use cached files in `data/raw/`)
+
+## Install
 
 ```bash
 python -m pip install -r requirements.txt
-python src/download.py --help
-python src/inspect.py --help
-python src/transform.py --help
-python src/generate_schemas.py --help
 ```
 
-Expected current outputs:
+## Quick Start
 
-- downloaded Excel workbooks in `data/raw/`
-- manifest metadata in `data/raw/manifest.json`
-- workbook profile report in `docs/inspection_report.md`
-- machine-readable parse plan in `config/workbook_parse_plan.yaml`
-- transform CSV outputs in `data/processed/` or a caller-supplied `--output-dir`
-- schema docs in `docs/schemas/` with an index at `docs/schemas/README.md`
-- validated remaining-programs outputs via `python src/transform.py --slice remaining-programs --output-dir /tmp/cbo_closeout_remaining`
-- explicit transform failures in `data/processed/parse_errors.log`
+Run the full end-to-end pipeline:
 
-## Validation Snapshot
+```bash
+python run_pipeline.py
+```
 
-- `python -m unittest discover -s tests -v` passes
-- `python src/download.py --help` runs from the repository root
-- `python src/inspect.py --help` runs from the repository root
-- `python src/transform.py --help` runs from the repository root
-- `python src/generate_schemas.py --help` runs from the repository root
-- the closed-out health slice writes 38 non-empty CSVs with required headers and `implausible_year_rows=0`
-- the closed-out income-security slice writes 72 non-empty CSVs with required headers, `missing_entries=0`, `datasets_with_duplicates=0`, and `implausible_year_rows=0`
-- the closed-out remaining-programs slice writes 73 non-empty CSVs with required headers, `missing_entries=0`, `datasets_with_duplicates=0`, and `implausible_year_rows=0`
-- the closed-out schema task maintains a 1:1 mapping between 177 processed CSVs and 177 schema docs with reproducible checked-in output
-- real transform runs still surface explicit parse errors for follow-up (14 health, 37 income-security, 39 remaining-programs), but each included parse-plan sheet is accounted for by either CSV output or logged parse error
+Run a single step:
 
-## Planned Build Order
+```bash
+python run_pipeline.py --step download   # download workbooks → data/raw/
+python run_pipeline.py --step inspect    # profile workbooks  → docs/inspection_report.md
+python run_pipeline.py --step transform  # extract CSVs       → data/processed/
+python run_pipeline.py --step schema     # generate schemas   → docs/schemas/
+python run_pipeline.py --step verify     # reconcile outputs  → docs/verification_report.md
+```
 
-1. `task-05-verify`
-2. `task-06-pipeline`
+Individual step scripts are also runnable directly:
 
-See `STATUS.md`, `.squad/sprint.md`, and `.squad/review_report.md` for the latest handoff state.
+```bash
+python src/download.py --help
+python src/inspect.py --help
+python src/transform.py --slice all --help
+python src/generate_schemas.py --help
+python src/verify.py --help
+```
+
+## Output Locations
+
+| Output | Location | Description |
+|---|---|---|
+| Raw workbooks | `data/raw/*.xlsx` | Downloaded CBO Excel workbooks |
+| Manifest | `data/raw/manifest.json` | Download provenance metadata |
+| Inspection report | `docs/inspection_report.md` | Structural profile of every workbook |
+| Parse plan | `config/workbook_parse_plan.yaml` | Sheet-level instructions for the transformer |
+| Processed CSVs | `data/processed/*.csv` | Tidy fiscal-year data, one file per dataset |
+| Parse error log | `data/processed/parse_errors.log` | Sheets that could not be parsed (see note) |
+| Schema docs | `docs/schemas/*.md` | Column-level documentation per dataset |
+| Schema index | `docs/schemas/README.md` | Master index linking all schema files |
+| Verification report | `docs/verification_report.md` | Source-vs-processed reconciliation results |
+
+> **Parse errors:** Some workbooks have non-standard layouts (merged cells, rotated headers, or no detectable fiscal-year columns) that prevent automatic parsing. These are logged in `parse_errors.log` and left for manual follow-up rather than silently dropped.
+
+## Processed CSV Schema
+
+Every file in `data/processed/` contains these columns:
+
+| Column | Type | Description |
+|---|---|---|
+| `program` | string | Program name inferred from the source workbook filename |
+| `category` | string | Row label from the source worksheet (e.g. "Mandatory outlays") |
+| `fiscal_year` | integer | Federal fiscal year (October 1 – September 30) |
+| `value` | float | Value in the unit indicated by the `unit` column |
+| `unit` | string | Unit of measurement (e.g. "Millions of dollars, by fiscal year") |
+| `source_file` | string | Source workbook filename |
+| `source_sheet` | string | Source worksheet name within the workbook |
+| `is_total` | boolean | `true` if the row appears to be a subtotal or grand total |
+
+> **`is_total` note:** Rows flagged `is_total=true` may overlap with non-total rows, causing double-counting if aggregated naïvely. Filter `is_total != 'true'` for most aggregations. See individual schema docs in `docs/schemas/` for dataset-specific guidance.
+
+## Schema Links
+
+Full column-level documentation for every processed dataset is in [`docs/schemas/README.md`](docs/schemas/README.md).
+
+## Validation
+
+Run the test suite:
+
+```bash
+python -m unittest discover -s tests -v
+```
+
+The verification step (`python run_pipeline.py --step verify`) reconciles all processed CSVs against their source workbooks and writes `docs/verification_report.md`. The pipeline exits non-zero if any non-exempt comparison fails.
+
+## Attribution
+
+Source data: Congressional Budget Office — *Baseline Projections for Selected Programs* (<https://www.cbo.gov/data/baseline-projections-selected-programs>). All workbooks are published by the CBO and reproduced here for non-commercial research purposes.

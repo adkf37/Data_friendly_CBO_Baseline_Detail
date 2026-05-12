@@ -2,7 +2,7 @@
 
 **Dataset:** `fostercare_2020_01`  
 **Vintage:** 2020-01  
-**Rows:** 170  
+**Rows:** 275  
 **Fiscal years covered:** 2020–2030  
 
 ## Purpose

@@ -2,7 +2,7 @@
 
 **Dataset:** `militaryretirement_2020_01`  
 **Vintage:** 2020-01  
-**Rows:** 40  
+**Rows:** 99  
 **Fiscal years covered:** 2020–2030  
 
 ## Purpose

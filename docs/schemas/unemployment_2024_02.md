@@ -2,7 +2,7 @@
 
 **Dataset:** `unemployment_2024_02`  
 **Vintage:** 2024-02  
-**Rows:** 70  
+**Rows:** 143  
 **Fiscal years covered:** 2024–2034  
 
 ## Purpose

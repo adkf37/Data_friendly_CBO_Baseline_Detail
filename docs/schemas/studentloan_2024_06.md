@@ -2,7 +2,7 @@
 
 **Dataset:** `studentloan_2024_06`  
 **Vintage:** 2024-06  
-**Rows:** 200  
+**Rows:** 800  
 **Fiscal years covered:** 2024–2034  
 
 ## Purpose
@@ -14,20 +14,20 @@ Tidy long-form CBO baseline data for the **Studentloan** program(s), extracted f
 | Field | Value |
 |---|---|
 | Source file(s) | `51310-2024-06-studentloan.xlsx` |
-| Source sheet(s) | `studentloanT3_6-24`, `studentloanT4_6-24`, `studentloanT7_6-24` |
-| Unit(s) | Net Annual Loan Volume (Millions of dollars), Percent, by fiscal year |
+| Source sheet(s) | `studentloanT1_6-24`, `studentloanT3_6-24`, `studentloanT4_6-24`, `studentloanT6_6-24`, `studentloanT7_6-24` |
+| Unit(s) | Millions of dollars, by fiscal year, Net Annual Loan Volume (Millions of dollars), Percent, by fiscal year |
 
 ## Columns
 
 | Column | Type | Description | Unit | Example | Notes |
 |---|---|---|---|---|---|
 | `program` | string | CBO program name inferred from the source workbook filename. | N/A | `Studentloan` | Derived from the workbook filename; may include a version suffix for older files. |
-| `category` | string | Line-item label as it appears in the source worksheet after header normalization. | N/A | `Net Annual Loan Volume (Millions of d...` | Rows where ``is_total`` is ``true`` represent aggregated totals or subtotals and should be excluded from sum-based aggregations to avoid double-counting. |
+| `category` | string | Line-item label as it appears in the source worksheet after header normalization. | N/A | `Budget Authority` | Rows where ``is_total`` is ``true`` represent aggregated totals or subtotals and should be excluded from sum-based aggregations to avoid double-counting. |
 | `fiscal_year` | integer | Federal fiscal year to which the value applies (Oct 1 – Sep 30). | Year | `2024` | Only years in the range 2019–2040 are included; historical prior-year columns outside that range are silently dropped by the transform. |
-| `value` | float | Parsed numeric value from the source cell. | See ``unit`` column | `85864.0` | Negative values indicate outflows or reductions. Values originally enclosed in parentheses (e.g. ``(123)``) are converted to negative floats. |
-| `unit` | string | Unit of measure for the ``value`` column, sourced from the parse plan. | N/A | `Net Annual Loan Volume (Millions of d...` | Common values include 'Millions of dollars', 'Billions of dollars', and 'Thousands'. |
+| `value` | float | Parsed numeric value from the source cell. | See ``unit`` column | `31648.0` | Negative values indicate outflows or reductions. Values originally enclosed in parentheses (e.g. ``(123)``) are converted to negative floats. |
+| `unit` | string | Unit of measure for the ``value`` column, sourced from the parse plan. | N/A | `Millions of dollars, by fiscal year` | Common values include 'Millions of dollars', 'Billions of dollars', and 'Thousands'. |
 | `source_file` | string | Original CBO workbook filename from ``data/raw/``. | N/A | `51310-2024-06-studentloan.xlsx` | Use this column to trace any row back to its exact source workbook. |
-| `source_sheet` | string | Worksheet name within the source workbook. | N/A | `studentloanT3_6-24` | Combine with ``source_file`` for a fully qualified provenance reference. |
+| `source_sheet` | string | Worksheet name within the source workbook. | N/A | `studentloanT1_6-24` | Combine with ``source_file`` for a fully qualified provenance reference. |
 | `is_total` | boolean | ``true`` if the category label contains the word 'total' or 'subtotal', indicating an aggregated row. | N/A | `false` | **Always filter ``is_total = true`` rows out before computing sums or averages** across categories to avoid double-counting. Retain them for headline/summary views. |
 
 ## is_total Interpretation

@@ -2,12 +2,14 @@
 
 **Dataset:** `trustfund_2025_01`  
 **Vintage:** 2025-01  
-**Rows:** 88  
+**Rows:** 253  
 **Fiscal years covered:** 2024–2035  
 
 ## Purpose
 
 Tidy long-form CBO baseline data for the **Trustfund** program(s), extracted from CBO budget baseline workbooks published by the Congressional Budget Office. Each row represents a single program/category/fiscal-year observation.
+
+> **Aggregation caveat:** This dataset contains rows where `is_total = true`. These rows represent summary totals or subtotals drawn directly from the source worksheet. **Exclude `is_total = true` rows before summing across categories** to avoid double-counting.
 
 ## Provenance
 

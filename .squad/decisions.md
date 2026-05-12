@@ -2,10 +2,18 @@
 
 ## Active Decisions
 
-### 2026-05-12 — task-05-verify build slice: infer fiscal-year columns when parse-plan year_columns are missing
+### 2026-05-12 — task-06-pipeline build: run_pipeline.py and README refresh
 
-**Decision:** Update `src/transform.py` and `src/verify.py` so both workflows infer active fiscal-year columns from worksheet headers when parse-plan `year_columns` is omitted, instead of failing immediately.
-**Rationale:** The latest Validate evidence for `task-05-verify` surfaced a distinct failure cluster (`parse plan has no year_columns=42`). Both transform and verify previously hard-failed on missing `year_columns`, which blocked these datasets even when year labels were present in workbook headers. This is the smallest targeted parser/output-alignment fix for the identified cluster: derive year columns from detected header years (`_extract_years` keys), reuse those inferred columns for first-data-row inference and row aggregation, and add focused regressions in `tests/test_transform.py` and `tests/test_verify.py` to lock behavior.
+**Decision:** Implement `run_pipeline.py` as the canonical pipeline entrypoint for task-06-pipeline, and do a full refresh of root `README.md` to satisfy the task's documentation acceptance criteria.
+**Rationale:** The sprint's next unfinished item after `task-05-verify` is the pipeline entrypoint. The runner imports step functions directly from `src.*` (rather than spawning subprocesses) for reliability and testability. `--step all` (transform slice) calls `run_transform(slice_name="all")` so all datasets are covered in a single pass. The README refresh adds all required sections (project purpose, prerequisites, install, quick start, output locations with table, processed CSV schema table, schema index link, CBO attribution) and replaces the stale "in progress" status notes with current facts. 14 unit tests in `tests/test_pipeline.py` cover: single-step dispatch, early-stop-on-failure, full-run success, and all required README sections.
+**Task:** task-06-pipeline
+
+---
+
+### 2026-05-12 — task-05-verify closed out: 0 non-exempt failures
+
+**Decision:** Mark task-05-verify as closed out. The verification report now shows 277 PASS / 22 EXEMPT / 0 non-exempt FAIL across all 299 included parse-plan targets.
+**Rationale:** A re-run of `python src/verify.py` from the repo root produced verification complete with 0 non-exempt failures. The year-column inference work from the previous build slice resolved the remaining failure clusters. The exemptions (22) are all documented historical-comparison tables that are not fiscal-year time-series and are explicitly marked `verification_exempt: true` in the parse plan.
 **Task:** task-05-verify
 
 ---

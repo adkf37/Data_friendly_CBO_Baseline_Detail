@@ -2,7 +2,7 @@
 
 **Dataset:** `healthinsurance_2022_06`  
 **Vintage:** 2022-06  
-**Rows:** 428  
+**Rows:** 472  
 **Fiscal years covered:** 2022–2032  
 
 ## Purpose

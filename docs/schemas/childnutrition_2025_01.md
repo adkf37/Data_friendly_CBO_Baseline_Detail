@@ -2,7 +2,7 @@
 
 **Dataset:** `childnutrition_2025_01`  
 **Vintage:** 2025-01  
-**Rows:** 20  
+**Rows:** 218  
 **Fiscal years covered:** 2025–2035  
 
 ## Purpose

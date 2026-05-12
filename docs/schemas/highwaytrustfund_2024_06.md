@@ -2,7 +2,7 @@
 
 **Dataset:** `highwaytrustfund_2024_06`  
 **Vintage:** 2024-06  
-**Rows:** 58  
+**Rows:** 108  
 **Fiscal years covered:** 2023–2034  
 
 ## Purpose
