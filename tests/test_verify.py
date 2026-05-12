@@ -224,6 +224,56 @@ workbooks:
             self.assertEqual(1, rc_include)
             self.assertIn("Status: **FAIL**", report_include.read_text(encoding="utf-8"))
 
+    def test_verification_infers_year_columns_when_missing_from_parse_plan(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            raw_dir = root / "raw"
+            processed_dir = root / "processed"
+            raw_dir.mkdir(parents=True)
+
+            workbook_name = "51293-2024-06-childnutrition.xlsx"
+            _write_workbook(raw_dir / workbook_name)
+            _write_processed_csv(
+                processed_dir / "pass_dataset.csv",
+                workbook=workbook_name,
+                sheet="Passing",
+                values=[
+                    ("Program Detail", 2025, 30, False),
+                    ("Program Detail", 2026, 31, False),
+                ],
+            )
+
+            parse_plan_path = root / "parse_missing_year_columns.yaml"
+            parse_plan_path.write_text(
+                """
+workbooks:
+  - workbook: 51293-2024-06-childnutrition.xlsx
+    sheets:
+      - sheet: Passing
+        include: true
+        output_dataset: pass_dataset
+        verification_target: pass-missing-year-columns
+        header_rows: 1-1
+        first_data_row: 2
+        unit: Millions of dollars
+                """.strip()
+                + "\n",
+                encoding="utf-8",
+            )
+
+            report_path = root / "verification_report.md"
+            rc = verify.run_verification(
+                parse_plan_path=parse_plan_path,
+                input_dir=raw_dir,
+                processed_dir=processed_dir,
+                report_path=report_path,
+            )
+
+            self.assertEqual(0, rc)
+            report = report_path.read_text(encoding="utf-8")
+            self.assertIn("`pass-missing-year-columns`", report)
+            self.assertIn("Status: **PASS**", report)
+
 
 if __name__ == "__main__":
     unittest.main()

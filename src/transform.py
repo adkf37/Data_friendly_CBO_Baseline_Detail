@@ -32,6 +32,10 @@ YEAR_LABEL_RE = re.compile(
 )
 # Maximum rows to scan beyond the declared header when searching for year labels.
 MAX_YEAR_SCAN_ROWS = 30
+# When parse-plan year_columns are absent, scan only a bounded number of leading
+# columns. CBO fiscal-year tables are left-aligned and this avoids O(max_column)
+# scans on very wide worksheets.
+MAX_INFERRED_YEAR_COLUMNS = 30
 HEALTH_KEYWORDS = ("health", "medicare", "medicaid", "chip")
 INCOME_SECURITY_KEYWORDS = (
     "child_support",
@@ -152,7 +156,13 @@ def _extract_years(worksheet, plan: SheetPlan) -> dict[int, int]:
     """
     years: dict[int, int] = {}
     max_scan = max(plan.header_end_row, min(MAX_YEAR_SCAN_ROWS, worksheet.max_row))
-    for column in plan.year_columns:
+    using_inferred_columns = not plan.year_columns
+    if plan.year_columns:
+        columns_to_scan = plan.year_columns
+    else:
+        max_inferred_column = min(worksheet.max_column, MAX_INFERRED_YEAR_COLUMNS)
+        columns_to_scan = list(range(1, max_inferred_column + 1))
+    for column in columns_to_scan:
         for row in range(1, max_scan + 1):
             value = worksheet.cell(row=row, column=column).value
             # Skip datetime / date objects — publication timestamps, not year labels.
@@ -173,17 +183,22 @@ def _extract_years(worksheet, plan: SheetPlan) -> dict[int, int]:
                 if PLAUSIBLE_YEAR_MIN <= year <= PLAUSIBLE_YEAR_MAX:
                     years[column] = year
                     break  # stop as soon as a valid year label is found
+        if using_inferred_columns and len(years) >= MAX_INFERRED_YEAR_COLUMNS:
+            break
     return years
 
 
-def _infer_first_data_row(worksheet, plan: SheetPlan) -> int | None:
+def _infer_first_data_row(worksheet, plan: SheetPlan, year_columns: list[int] | None = None) -> int | None:
+    active_year_columns = year_columns if year_columns is not None else plan.year_columns
+    if not active_year_columns:
+        return None
     for row in range(plan.header_end_row + 1, worksheet.max_row + 1):
         category = _get_row_category(worksheet, row)
         if not category:
             continue
         if _looks_like_note(category):
             continue
-        parsed_values = [_parse_number(worksheet.cell(row=row, column=col).value) for col in plan.year_columns]
+        parsed_values = [_parse_number(worksheet.cell(row=row, column=col).value) for col in active_year_columns]
         has_value = any(value is not None for value in parsed_values)
         if has_value:
             return row
@@ -285,10 +300,6 @@ def run_transform(
         if not workbook_path.exists():
             _append_error(errors, plan.workbook, plan.sheet, "workbook not found")
             continue
-        if not plan.year_columns:
-            _append_error(errors, plan.workbook, plan.sheet, "year_columns missing")
-            continue
-
         workbook = load_workbook(workbook_path, read_only=True, data_only=True)
         try:
             actual_sheet = _find_sheet(workbook.sheetnames, plan.sheet)
@@ -300,7 +311,8 @@ def run_transform(
             if not years:
                 _append_error(errors, plan.workbook, plan.sheet, "no fiscal years inferred")
                 continue
-            first_data_row = plan.first_data_row or _infer_first_data_row(worksheet, plan)
+            active_year_columns = sorted(years)
+            first_data_row = plan.first_data_row or _infer_first_data_row(worksheet, plan, active_year_columns)
             if first_data_row is None:
                 _append_error(errors, plan.workbook, plan.sheet, "could not infer first data row")
                 continue
@@ -313,7 +325,7 @@ def run_transform(
                     continue
                 if _looks_like_note(category):
                     continue
-                for column in plan.year_columns:
+                for column in active_year_columns:
                     year = years.get(column)
                     if year is None:
                         continue

@@ -67,8 +67,8 @@ class TransformTests(unittest.TestCase):
             income_workbook = "51312-2024-06-snap.xlsx"
             _write_health_workbook(input_dir / health_workbook)
             _write_income_security_workbook(input_dir / income_workbook)
-            parse_plan = root / "workbook_parse_plan.yaml"
-            parse_plan.write_text(
+            parse_plan_path = root / "workbook_parse_plan.yaml"
+            parse_plan_path.write_text(
                 """
 workbooks:
   - workbook: 51293-2024-06-childnutrition.xlsx
@@ -95,7 +95,7 @@ workbooks:
             )
 
             rc = transform.run_transform(
-                parse_plan_path=parse_plan,
+                parse_plan_path=parse_plan_path,
                 input_dir=input_dir,
                 output_dir=output_dir,
                 slice_name="income-security",
@@ -124,8 +124,8 @@ workbooks:
 
             workbook_name = "51293-2024-06-childnutrition.xlsx"
             _write_health_workbook(input_dir / workbook_name)
-            parse_plan = root / "workbook_parse_plan.yaml"
-            parse_plan.write_text(
+            parse_plan_path = root / "workbook_parse_plan.yaml"
+            parse_plan_path.write_text(
                 """
 workbooks:
   - workbook: 51293-2024-06-childnutrition.xlsx
@@ -143,7 +143,7 @@ workbooks:
             )
 
             rc = transform.run_transform(
-                parse_plan_path=parse_plan,
+                parse_plan_path=parse_plan_path,
                 input_dir=input_dir,
                 output_dir=output_dir,
                 slice_name="health",
@@ -175,6 +175,48 @@ workbooks:
 
             parse_errors = (output_dir / "parse_errors.log").read_text(encoding="utf-8")
             self.assertEqual("", parse_errors)
+
+    def test_run_transform_infers_year_columns_when_missing_from_parse_plan(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            input_dir = root / "raw"
+            output_dir = root / "processed"
+            input_dir.mkdir(parents=True)
+
+            workbook_name = "51293-2024-06-childnutrition.xlsx"
+            _write_health_workbook(input_dir / workbook_name)
+            parse_plan_path = root / "workbook_parse_plan.yaml"
+            parse_plan_path.write_text(
+                """
+workbooks:
+  - workbook: 51293-2024-06-childnutrition.xlsx
+    sheets:
+      - sheet: Health
+        include: true
+        output_dataset: childnutrition_health_2024_06
+        header_rows: 1-1
+        first_data_row: 2
+        unit: Millions of dollars
+                """.strip()
+                + "\n",
+                encoding="utf-8",
+            )
+
+            rc = transform.run_transform(
+                parse_plan_path=parse_plan_path,
+                input_dir=input_dir,
+                output_dir=output_dir,
+                slice_name="health",
+            )
+
+            self.assertEqual(0, rc)
+            csv_path = output_dir / "childnutrition_health_2024_06.csv"
+            self.assertTrue(csv_path.exists())
+            with csv_path.open(encoding="utf-8", newline="") as handle:
+                rows = list(DictReader(handle))
+            self.assertEqual(4, len(rows))
+            self.assertEqual({"2025", "2026"}, {row["fiscal_year"] for row in rows})
+            self.assertEqual("", (output_dir / "parse_errors.log").read_text(encoding="utf-8"))
 
     def test_run_transform_logs_parse_errors(self):
         with tempfile.TemporaryDirectory() as tmpdir:

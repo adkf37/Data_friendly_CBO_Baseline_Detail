@@ -116,8 +116,6 @@ def _aggregate_source_totals(plan: VerificationPlan, input_dir: Path) -> tuple[d
     workbook_path = input_dir / plan.workbook
     if not workbook_path.exists():
         return {}, [f"workbook missing: {plan.workbook}"]
-    if not plan.year_columns:
-        return {}, ["parse plan has no year_columns"]
 
     workbook = load_workbook(workbook_path, read_only=True, data_only=True)
     try:
@@ -138,8 +136,11 @@ def _aggregate_source_totals(plan: VerificationPlan, input_dir: Path) -> tuple[d
         years = transform._extract_years(worksheet, sheet_plan)
         if not years:
             return {}, ["no fiscal years inferred from source"]
+        active_year_columns = sorted(years)
 
-        first_data_row = plan.first_data_row or transform._infer_first_data_row(worksheet, sheet_plan)
+        first_data_row = plan.first_data_row or transform._infer_first_data_row(
+            worksheet, sheet_plan, active_year_columns
+        )
         if first_data_row is None:
             return {}, ["could not infer first data row"]
 
@@ -151,7 +152,7 @@ def _aggregate_source_totals(plan: VerificationPlan, input_dir: Path) -> tuple[d
                 continue
             if not plan.verification_include_totals and transform._is_total(category):
                 continue
-            for column in plan.year_columns:
+            for column in active_year_columns:
                 fiscal_year = years.get(column)
                 if fiscal_year is None:
                     continue
