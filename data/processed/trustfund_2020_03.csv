@@ -1,205 +1,205 @@
 program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Trustfund,Payroll Tax Revenues,2019,914.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Payroll Tax Revenues,2020,960.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Payroll Tax Revenues,2021,1001.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Payroll Tax Revenues,2022,1040.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Payroll Tax Revenues,2023,1079.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Payroll Tax Revenues,2024,1119.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Payroll Tax Revenues,2025,1159.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Payroll Tax Revenues,2026,1201.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Payroll Tax Revenues,2027,1245.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Payroll Tax Revenues,2028,1291.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Payroll Tax Revenues,2029,1338.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Payroll Tax Revenues,2030,1386.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Income taxes on benefits,2019,36.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Income taxes on benefits,2020,41.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Income taxes on benefits,2021,44.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Income taxes on benefits,2022,47.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Income taxes on benefits,2023,50.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Income taxes on benefits,2024,53.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Income taxes on benefits,2025,57.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Income taxes on benefits,2026,67.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Income taxes on benefits,2027,73.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Income taxes on benefits,2028,78.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Income taxes on benefits,2029,84.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Income taxes on benefits,2030,89.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,"Federal payroll tax, employer sharea",2019,18.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,"Federal payroll tax, employer sharea",2020,18.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,"Federal payroll tax, employer sharea",2021,19.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,"Federal payroll tax, employer sharea",2022,20.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,"Federal payroll tax, employer sharea",2023,20.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,"Federal payroll tax, employer sharea",2024,21.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,"Federal payroll tax, employer sharea",2025,22.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,"Federal payroll tax, employer sharea",2026,23.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,"Federal payroll tax, employer sharea",2027,23.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,"Federal payroll tax, employer sharea",2028,24.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,"Federal payroll tax, employer sharea",2029,25.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,"Federal payroll tax, employer sharea",2030,25.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Interesta,2019,83.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Interesta,2020,80.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Interesta,2021,74.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Interesta,2022,71.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Interesta,2023,66.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Interesta,2024,62.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Interesta,2025,59.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Interesta,2026,56.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Interesta,2027,51.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Interesta,2028,45.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Interesta,2029,37.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Interesta,2030,27.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,"Subtotal, Other Income",2019,137.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,"Subtotal, Other Income",2020,139.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,"Subtotal, Other Income",2021,137.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,"Subtotal, Other Income",2022,137.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,"Subtotal, Other Income",2023,136.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,"Subtotal, Other Income",2024,137.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,"Subtotal, Other Income",2025,138.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,"Subtotal, Other Income",2026,146.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,"Subtotal, Other Income",2027,148.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,"Subtotal, Other Income",2028,148.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,"Subtotal, Other Income",2029,146.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,"Subtotal, Other Income",2030,141.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Income,2019,1051.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Income,2020,1099.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Income,2021,1138.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Income,2022,1177.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Income,2023,1215.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Income,2024,1255.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Income,2025,1298.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Income,2026,1347.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Income,2027,1393.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Income,2028,1439.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Income,2029,1484.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Income,2030,1527.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Benefits,2019,1033.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Benefits,2020,1086.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Benefits,2021,1148.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Benefits,2022,1218.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Benefits,2023,1293.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Benefits,2024,1371.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Benefits,2025,1454.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Benefits,2026,1539.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Benefits,2027,1629.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Benefits,2028,1722.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Benefits,2029,1817.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Benefits,2030,1916.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Discretionary Administration,2019,6.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Discretionary Administration,2020,6.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Discretionary Administration,2021,6.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Discretionary Administration,2022,6.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Discretionary Administration,2023,7.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Discretionary Administration,2024,7.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Discretionary Administration,2025,7.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Discretionary Administration,2026,7.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Discretionary Administration,2027,8.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Discretionary Administration,2028,8.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Discretionary Administration,2029,8.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Discretionary Administration,2030,8.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Treasury Administration,2019,1.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Treasury Administration,2020,1.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Treasury Administration,2021,1.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Treasury Administration,2022,1.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Treasury Administration,2023,1.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Treasury Administration,2024,1.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Treasury Administration,2025,1.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Treasury Administration,2026,1.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Treasury Administration,2027,1.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Treasury Administration,2028,1.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Treasury Administration,2029,1.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Treasury Administration,2030,1.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Railroad Retirement Transfer,2019,5.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Railroad Retirement Transfer,2020,5.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Railroad Retirement Transfer,2021,5.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Railroad Retirement Transfer,2022,5.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Railroad Retirement Transfer,2023,5.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Railroad Retirement Transfer,2024,5.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Railroad Retirement Transfer,2025,5.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Railroad Retirement Transfer,2026,5.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Railroad Retirement Transfer,2027,5.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Railroad Retirement Transfer,2028,5.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Railroad Retirement Transfer,2029,5.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Railroad Retirement Transfer,2030,6.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,Total Outgo,2019,1045.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Outgo,2020,1097.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Outgo,2021,1159.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Outgo,2022,1230.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Outgo,2023,1305.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Outgo,2024,1384.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Outgo,2025,1467.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Outgo,2026,1552.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Outgo,2027,1642.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Outgo,2028,1736.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Outgo,2029,1831.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,Total Outgo,2030,1930.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
-Trustfund,OASI,2019,3.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2020,3.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2021,-23.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2022,-56.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2023,-93.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2024,-130.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2025,-169.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2026,-203.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2027,-244.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2028,-293.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2029,-343.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2030,-398.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2019,3.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2020,-2.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2021,2.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2022,3.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2023,2.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2024,1.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2025,0.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2026,-2.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2027,-5.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2028,-3.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2029,-4.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2030,-5.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2019,-76.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2020,-74.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2021,-94.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2022,-124.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2023,-156.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2024,-189.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2025,-226.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2026,-257.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2027,-293.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2028,-336.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2029,-378.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2030,-423.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2019,0.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2020,-4.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2021,-1.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2022,0.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2023,0.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2024,-1.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2025,-3.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2026,-5.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2027,-8.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2028,-6.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2029,-6.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2030,-7.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2019,2804.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2020,2807.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2021,2784.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2022,2729.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2023,2636.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2024,2506.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2025,2337.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2026,2134.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2027,1890.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2028,1596.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2029,1253.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,OASI,2030,855.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2019,96.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2020,95.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2021,96.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2022,99.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2023,101.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2024,103.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2025,103.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2026,100.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2027,95.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2028,92.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2029,88.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
-Trustfund,DI,2030,82.0,"Billions of Dollars, by Fiscal Year",51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Payroll Tax Revenues,2019,914.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Payroll Tax Revenues,2020,960.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Payroll Tax Revenues,2021,1001.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Payroll Tax Revenues,2022,1040.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Payroll Tax Revenues,2023,1079.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Payroll Tax Revenues,2024,1119.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Payroll Tax Revenues,2025,1159.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Payroll Tax Revenues,2026,1201.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Payroll Tax Revenues,2027,1245.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Payroll Tax Revenues,2028,1291.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Payroll Tax Revenues,2029,1338.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Payroll Tax Revenues,2030,1386.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Income taxes on benefits,2019,36.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Income taxes on benefits,2020,41.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Income taxes on benefits,2021,44.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Income taxes on benefits,2022,47.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Income taxes on benefits,2023,50.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Income taxes on benefits,2024,53.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Income taxes on benefits,2025,57.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Income taxes on benefits,2026,67.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Income taxes on benefits,2027,73.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Income taxes on benefits,2028,78.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Income taxes on benefits,2029,84.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Income taxes on benefits,2030,89.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,"Federal payroll tax, employer sharea",2019,18.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,"Federal payroll tax, employer sharea",2020,18.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,"Federal payroll tax, employer sharea",2021,19.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,"Federal payroll tax, employer sharea",2022,20.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,"Federal payroll tax, employer sharea",2023,20.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,"Federal payroll tax, employer sharea",2024,21.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,"Federal payroll tax, employer sharea",2025,22.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,"Federal payroll tax, employer sharea",2026,23.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,"Federal payroll tax, employer sharea",2027,23.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,"Federal payroll tax, employer sharea",2028,24.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,"Federal payroll tax, employer sharea",2029,25.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,"Federal payroll tax, employer sharea",2030,25.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Interesta,2019,83.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Interesta,2020,80.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Interesta,2021,74.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Interesta,2022,71.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Interesta,2023,66.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Interesta,2024,62.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Interesta,2025,59.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Interesta,2026,56.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Interesta,2027,51.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Interesta,2028,45.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Interesta,2029,37.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Interesta,2030,27.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,"Subtotal, Other Income",2019,137.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,"Subtotal, Other Income",2020,139.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,"Subtotal, Other Income",2021,137.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,"Subtotal, Other Income",2022,137.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,"Subtotal, Other Income",2023,136.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,"Subtotal, Other Income",2024,137.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,"Subtotal, Other Income",2025,138.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,"Subtotal, Other Income",2026,146.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,"Subtotal, Other Income",2027,148.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,"Subtotal, Other Income",2028,148.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,"Subtotal, Other Income",2029,146.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,"Subtotal, Other Income",2030,141.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Income,2019,1051.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Income,2020,1099.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Income,2021,1138.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Income,2022,1177.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Income,2023,1215.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Income,2024,1255.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Income,2025,1298.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Income,2026,1347.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Income,2027,1393.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Income,2028,1439.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Income,2029,1484.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Income,2030,1527.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Benefits,2019,1033.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Benefits,2020,1086.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Benefits,2021,1148.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Benefits,2022,1218.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Benefits,2023,1293.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Benefits,2024,1371.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Benefits,2025,1454.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Benefits,2026,1539.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Benefits,2027,1629.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Benefits,2028,1722.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Benefits,2029,1817.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Benefits,2030,1916.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Discretionary Administration,2019,6.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Discretionary Administration,2020,6.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Discretionary Administration,2021,6.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Discretionary Administration,2022,6.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Discretionary Administration,2023,7.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Discretionary Administration,2024,7.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Discretionary Administration,2025,7.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Discretionary Administration,2026,7.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Discretionary Administration,2027,8.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Discretionary Administration,2028,8.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Discretionary Administration,2029,8.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Discretionary Administration,2030,8.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Treasury Administration,2019,1.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Treasury Administration,2020,1.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Treasury Administration,2021,1.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Treasury Administration,2022,1.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Treasury Administration,2023,1.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Treasury Administration,2024,1.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Treasury Administration,2025,1.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Treasury Administration,2026,1.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Treasury Administration,2027,1.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Treasury Administration,2028,1.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Treasury Administration,2029,1.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Treasury Administration,2030,1.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Railroad Retirement Transfer,2019,5.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Railroad Retirement Transfer,2020,5.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Railroad Retirement Transfer,2021,5.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Railroad Retirement Transfer,2022,5.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Railroad Retirement Transfer,2023,5.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Railroad Retirement Transfer,2024,5.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Railroad Retirement Transfer,2025,5.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Railroad Retirement Transfer,2026,5.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Railroad Retirement Transfer,2027,5.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Railroad Retirement Transfer,2028,5.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Railroad Retirement Transfer,2029,5.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Railroad Retirement Transfer,2030,6.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,Total Outgo,2019,1045.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Outgo,2020,1097.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Outgo,2021,1159.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Outgo,2022,1230.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Outgo,2023,1305.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Outgo,2024,1384.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Outgo,2025,1467.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Outgo,2026,1552.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Outgo,2027,1642.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Outgo,2028,1736.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Outgo,2029,1831.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,Total Outgo,2030,1930.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,true
+Trustfund,OASI,2019,3.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2020,3.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2021,-23.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2022,-56.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2023,-93.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2024,-130.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2025,-169.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2026,-203.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2027,-244.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2028,-293.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2029,-343.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2030,-398.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2019,3.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2020,-2.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2021,2.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2022,3.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2023,2.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2024,1.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2025,0.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2026,-2.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2027,-5.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2028,-3.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2029,-4.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2030,-5.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2019,-76.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2020,-74.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2021,-94.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2022,-124.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2023,-156.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2024,-189.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2025,-226.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2026,-257.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2027,-293.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2028,-336.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2029,-378.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2030,-423.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2019,0.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2020,-4.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2021,-1.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2022,0.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2023,0.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2024,-1.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2025,-3.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2026,-5.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2027,-8.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2028,-6.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2029,-6.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2030,-7.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2019,2804.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2020,2807.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2021,2784.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2022,2729.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2023,2636.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2024,2506.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2025,2337.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2026,2134.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2027,1890.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2028,1596.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2029,1253.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,OASI,2030,855.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2019,96.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2020,95.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2021,96.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2022,99.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2023,101.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2024,103.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2025,103.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2026,100.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2027,95.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2028,92.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2029,88.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false
+Trustfund,DI,2030,82.0,Billions of Dollars,51309-2020-03-trustfund.xlsx,Social Security Trust Funds,false

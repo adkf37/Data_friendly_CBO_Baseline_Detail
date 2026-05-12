@@ -1,474 +1,474 @@
 program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Healthinsurance,Total Population,2023,336.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Total Population,2024,337.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Total Population,2025,339.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Total Population,2026,340.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Total Population,2027,342.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Total Population,2028,344.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Total Population,2029,345.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Total Population,2030,347.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Total Population,2031,348.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Total Population,2032,350.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Total Population,2033,351.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Insured people,2023,311.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Insured people,2024,310.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Insured people,2025,311.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Insured people,2026,311.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Insured people,2027,312.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Insured people,2028,314.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Insured people,2029,315.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Insured people,2030,317.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Insured people,2031,319.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Insured people,2032,320.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Insured people,2033,322.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured people,2023,24.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured people,2024,27.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured people,2025,28.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured people,2026,29.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured people,2027,30.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured people,2028,30.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured people,2029,30.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured people,2030,29.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured people,2031,29.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured people,2032,29.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured people,2033,29.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Employment-Based Coverage,2023,161.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Employment-Based Coverage,2024,161.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Employment-Based Coverage,2025,161.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Employment-Based Coverage,2026,162.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Employment-Based Coverage,2027,163.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Employment-Based Coverage,2028,164.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Employment-Based Coverage,2029,164.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Employment-Based Coverage,2030,164.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Employment-Based Coverage,2031,165.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Employment-Based Coverage,2032,165.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Employment-Based Coverage,2033,166.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People age 65 or older in Medicaid,2023,5.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People age 65 or older in Medicaid,2024,5.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People age 65 or older in Medicaid,2025,5.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People age 65 or older in Medicaid,2026,5.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People age 65 or older in Medicaid,2027,6.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People age 65 or older in Medicaid,2028,6.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People age 65 or older in Medicaid,2029,6.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People age 65 or older in Medicaid,2030,6.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People age 65 or older in Medicaid,2031,6.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People age 65 or older in Medicaid,2032,6.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People age 65 or older in Medicaid,2033,6.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Blind and disabled people in Medicaid,2023,7.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Blind and disabled people in Medicaid,2024,7.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Blind and disabled people in Medicaid,2025,7.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Blind and disabled people in Medicaid,2026,7.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Blind and disabled people in Medicaid,2027,7.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Blind and disabled people in Medicaid,2028,7.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Blind and disabled people in Medicaid,2029,7.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Blind and disabled people in Medicaid,2030,7.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Blind and disabled people in Medicaid,2031,8.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Blind and disabled people in Medicaid,2032,8.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Blind and disabled people in Medicaid,2033,8.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Children in Medicaid,2023,35.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Children in Medicaid,2024,32.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Children in Medicaid,2025,31.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Children in Medicaid,2026,30.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Children in Medicaid,2027,30.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Children in Medicaid,2028,30.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Children in Medicaid,2029,30.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Children in Medicaid,2030,30.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Children in Medicaid,2031,30.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Children in Medicaid,2032,31.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Children in Medicaid,2033,31.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2023,17.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2024,14.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2025,13.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2026,13.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2027,14.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2028,14.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2029,14.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2030,14.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2031,14.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2032,14.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2033,15.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2023,17.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2024,14.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2025,13.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2026,13.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2027,13.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2028,13.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2029,13.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2030,13.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2031,13.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2032,13.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2033,13.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,CHIP,2023,7.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,CHIP,2024,7.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,CHIP,2025,7.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,CHIP,2026,6.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,CHIP,2027,6.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,CHIP,2028,6.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,CHIP,2029,6.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,CHIP,2030,6.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,CHIP,2031,6.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,CHIP,2032,5.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,CHIP,2033,4.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Subtotal,2023,90.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Subtotal,2024,81.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Subtotal,2025,78.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Subtotal,2026,78.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Subtotal,2027,78.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Subtotal,2028,78.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Subtotal,2029,78.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Subtotal,2030,79.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Subtotal,2031,79.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Subtotal,2032,79.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Subtotal,2033,79.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Medicare,2023,60.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Medicare,2024,61.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Medicare,2025,62.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Medicare,2026,64.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Medicare,2027,65.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Medicare,2028,67.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Medicare,2029,68.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Medicare,2030,69.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Medicare,2031,70.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Medicare,2032,71.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Medicare,2033,72.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Subsidized,2023,14.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Subsidized,2024,16.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Subsidized,2025,16.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Subsidized,2026,12.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Subsidized,2027,11.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Subsidized,2028,11.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Subsidized,2029,11.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Subsidized,2030,11.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Subsidized,2031,11.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Subsidized,2032,11.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Subsidized,2033,11.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Unsubsidized,2023,1.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Unsubsidized,2024,1.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Unsubsidized,2025,1.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Unsubsidized,2026,2.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Unsubsidized,2027,1.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Unsubsidized,2028,1.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Unsubsidized,2029,1.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Unsubsidized,2030,1.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Unsubsidized,2031,1.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Unsubsidized,2032,1.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Unsubsidized,2033,1.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,"Subtotal, purchased through marketplaces",2023,15.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, purchased through marketplaces",2024,17.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, purchased through marketplaces",2025,18.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, purchased through marketplaces",2026,14.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, purchased through marketplaces",2027,12.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, purchased through marketplaces",2028,12.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, purchased through marketplaces",2029,12.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, purchased through marketplaces",2030,12.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, purchased through marketplaces",2031,12.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, purchased through marketplaces",2032,12.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, purchased through marketplaces",2033,13.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Purchased outside marketplaces,2023,3.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Purchased outside marketplaces,2024,3.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Purchased outside marketplaces,2025,4.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Purchased outside marketplaces,2026,5.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Purchased outside marketplaces,2027,5.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Purchased outside marketplaces,2028,5.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Purchased outside marketplaces,2029,5.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Purchased outside marketplaces,2030,5.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Purchased outside marketplaces,2031,5.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Purchased outside marketplaces,2032,5.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Purchased outside marketplaces,2033,5.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,"Subtotal, nongroup coverage",2023,18.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, nongroup coverage",2024,21.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, nongroup coverage",2025,22.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, nongroup coverage",2026,20.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, nongroup coverage",2027,18.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, nongroup coverage",2028,18.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, nongroup coverage",2029,18.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, nongroup coverage",2030,17.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, nongroup coverage",2031,18.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, nongroup coverage",2032,18.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,"Subtotal, nongroup coverage",2033,18.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,true
-Healthinsurance,Basic Health Program,2023,1.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Basic Health Program,2024,1.1,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Basic Health Program,2025,1.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Basic Health Program,2026,1.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Basic Health Program,2027,1.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Basic Health Program,2028,1.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Basic Health Program,2029,1.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Basic Health Program,2030,1.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Basic Health Program,2031,1.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Basic Health Program,2032,1.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Basic Health Program,2033,1.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Other Coverage,2023,6.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Other Coverage,2024,6.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Other Coverage,2025,6.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Other Coverage,2026,6.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Other Coverage,2027,6.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Other Coverage,2028,6.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Other Coverage,2029,6.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Other Coverage,2030,6.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Other Coverage,2031,6.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Other Coverage,2032,6.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Other Coverage,2033,6.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People With Multiple Sources of Coverage,2023,26.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People With Multiple Sources of Coverage,2024,21.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People With Multiple Sources of Coverage,2025,20.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People With Multiple Sources of Coverage,2026,21.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People With Multiple Sources of Coverage,2027,21.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People With Multiple Sources of Coverage,2028,21.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People With Multiple Sources of Coverage,2029,21.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People With Multiple Sources of Coverage,2030,21.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People With Multiple Sources of Coverage,2031,21.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People With Multiple Sources of Coverage,2032,21.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,People With Multiple Sources of Coverage,2033,22.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2023,0.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2024,0.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2025,0.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2026,0.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2027,0.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2028,0.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2029,0.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2030,0.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2031,0.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2032,0.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2033,0.9,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Share of the Population That Is Uninsured (Percent),2023,7.2,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Share of the Population That Is Uninsured (Percent),2024,8.0,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Share of the Population That Is Uninsured (Percent),2025,8.3,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Share of the Population That Is Uninsured (Percent),2026,8.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Share of the Population That Is Uninsured (Percent),2027,8.8,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Share of the Population That Is Uninsured (Percent),2028,8.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Share of the Population That Is Uninsured (Percent),2029,8.7,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Share of the Population That Is Uninsured (Percent),2030,8.6,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Share of the Population That Is Uninsured (Percent),2031,8.5,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Share of the Population That Is Uninsured (Percent),2032,8.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Share of the Population That Is Uninsured (Percent),2033,8.4,"Millions of People, by Calendar Year",51298-2023-09-healthinsurance.xlsx,Table 1,false
-Healthinsurance,Tax exclusion for employment-based coverage,2023,345.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Tax exclusion for employment-based coverage,2024,365.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Tax exclusion for employment-based coverage,2025,391.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Tax exclusion for employment-based coverage,2026,451.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Tax exclusion for employment-based coverage,2027,495.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Tax exclusion for employment-based coverage,2028,523.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Tax exclusion for employment-based coverage,2029,550.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Tax exclusion for employment-based coverage,2030,578.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Tax exclusion for employment-based coverage,2031,608.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Tax exclusion for employment-based coverage,2032,641.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Tax exclusion for employment-based coverage,2033,676.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Income tax deduction for self-employment health insurance,2023,4.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Income tax deduction for self-employment health insurance,2024,5.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Income tax deduction for self-employment health insurance,2025,5.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Income tax deduction for self-employment health insurance,2026,7.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Income tax deduction for self-employment health insurance,2027,8.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Income tax deduction for self-employment health insurance,2028,8.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Income tax deduction for self-employment health insurance,2029,9.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Income tax deduction for self-employment health insurance,2030,9.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Income tax deduction for self-employment health insurance,2031,10.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Income tax deduction for self-employment health insurance,2032,10.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Income tax deduction for self-employment health insurance,2033,11.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Gross collections of penalty payments from employers,2023,-1.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Gross collections of penalty payments from employers,2024,-1.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Gross collections of penalty payments from employers,2025,-1.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Gross collections of penalty payments from employers,2026,-1.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Gross collections of penalty payments from employers,2027,-1.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Gross collections of penalty payments from employers,2028,-1.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Gross collections of penalty payments from employers,2029,-1.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Gross collections of penalty payments from employers,2030,-1.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Gross collections of penalty payments from employers,2031,-1.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Gross collections of penalty payments from employers,2032,-1.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Gross collections of penalty payments from employers,2033,-1.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Subtotal,2023,348.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2024,369.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2025,395.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2026,457.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2027,501.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2028,530.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2029,558.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2030,586.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2031,616.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2032,650.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2033,686.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,65 or older in Medicaid,2023,100.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,65 or older in Medicaid,2024,95.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,65 or older in Medicaid,2025,97.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,65 or older in Medicaid,2026,105.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,65 or older in Medicaid,2027,113.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,65 or older in Medicaid,2028,119.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,65 or older in Medicaid,2029,126.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,65 or older in Medicaid,2030,134.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,65 or older in Medicaid,2031,141.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,65 or older in Medicaid,2032,149.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,65 or older in Medicaid,2033,156.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Blind and disabled people in Medicaid,2023,160.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Blind and disabled people in Medicaid,2024,147.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Blind and disabled people in Medicaid,2025,151.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Blind and disabled people in Medicaid,2026,160.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Blind and disabled people in Medicaid,2027,170.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Blind and disabled people in Medicaid,2028,179.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Blind and disabled people in Medicaid,2029,189.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Blind and disabled people in Medicaid,2030,199.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Blind and disabled people in Medicaid,2031,211.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Blind and disabled people in Medicaid,2032,224.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Blind and disabled people in Medicaid,2033,236.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Children in Medicaid,2023,64.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Children in Medicaid,2024,54.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Children in Medicaid,2025,54.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Children in Medicaid,2026,57.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Children in Medicaid,2027,60.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Children in Medicaid,2028,62.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Children in Medicaid,2029,66.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Children in Medicaid,2030,69.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Children in Medicaid,2031,73.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Children in Medicaid,2032,79.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Children in Medicaid,2033,86.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2023,125.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2024,114.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2025,110.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2026,119.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2027,128.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2028,138.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2029,148.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2030,158.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2031,170.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2032,183.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults made eligible for Medicaid by the ACA,2033,197.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2023,82.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2024,70.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2025,66.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2026,71.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2027,76.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2028,79.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2029,84.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2030,90.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2031,96.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2032,102.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Adults otherwise eligible for Medicaid,2033,109.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,CHIP,2023,17.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,CHIP,2024,17.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,CHIP,2025,18.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,CHIP,2026,18.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,CHIP,2027,19.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,CHIP,2028,20.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,CHIP,2029,20.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,CHIP,2030,21.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,CHIP,2031,22.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,CHIP,2032,20.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,CHIP,2033,15.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Subtotal,2023,547.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2024,497.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2025,495.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2026,530.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2027,566.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2028,597.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2029,633.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2030,671.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2031,713.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2032,756.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2033,799.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Medicare,2023,813.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Medicare,2024,862.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Medicare,2025,907.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Medicare,2026,972.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Medicare,2027,1041.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Medicare,2028,1112.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Medicare,2029,1188.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Medicare,2030,1270.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Medicare,2031,1359.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Medicare,2032,1454.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Medicare,2033,1572.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for premium tax credits and 1332 waivers,2023,71.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for premium tax credits and 1332 waivers,2024,85.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for premium tax credits and 1332 waivers,2025,92.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for premium tax credits and 1332 waivers,2026,71.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for premium tax credits and 1332 waivers,2027,71.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for premium tax credits and 1332 waivers,2028,74.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for premium tax credits and 1332 waivers,2029,78.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for premium tax credits and 1332 waivers,2030,81.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for premium tax credits and 1332 waivers,2031,84.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for premium tax credits and 1332 waivers,2032,90.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for premium tax credits and 1332 waivers,2033,96.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Revenue reductions from premium tax credits,2023,11.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Revenue reductions from premium tax credits,2024,13.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Revenue reductions from premium tax credits,2025,17.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Revenue reductions from premium tax credits,2026,19.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Revenue reductions from premium tax credits,2027,11.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Revenue reductions from premium tax credits,2028,11.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Revenue reductions from premium tax credits,2029,11.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Revenue reductions from premium tax credits,2030,12.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Revenue reductions from premium tax credits,2031,12.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Revenue reductions from premium tax credits,2032,12.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Revenue reductions from premium tax credits,2033,13.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for the Basic Health Program,2023,10.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for the Basic Health Program,2024,10.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for the Basic Health Program,2025,10.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for the Basic Health Program,2026,9.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for the Basic Health Program,2027,10.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for the Basic Health Program,2028,11.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for the Basic Health Program,2029,11.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for the Basic Health Program,2030,12.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for the Basic Health Program,2031,12.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for the Basic Health Program,2032,13.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Outlays for the Basic Health Program,2033,14.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Collections for risk adjustment,2023,-7.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Collections for risk adjustment,2024,-8.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Collections for risk adjustment,2025,-9.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Collections for risk adjustment,2026,-10.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Collections for risk adjustment,2027,-10.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Collections for risk adjustment,2028,-10.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Collections for risk adjustment,2029,-10.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Collections for risk adjustment,2030,-10.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Collections for risk adjustment,2031,-11.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Collections for risk adjustment,2032,-11.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Collections for risk adjustment,2033,-12.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Payments for risk adjustment,2023,7.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Payments for risk adjustment,2024,7.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Payments for risk adjustment,2025,8.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Payments for risk adjustment,2026,9.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Payments for risk adjustment,2027,10.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Payments for risk adjustment,2028,10.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Payments for risk adjustment,2029,10.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Payments for risk adjustment,2030,10.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Payments for risk adjustment,2031,11.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Payments for risk adjustment,2032,12.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Payments for risk adjustment,2033,12.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Subtotal,2023,92.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2024,108.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2025,118.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2026,98.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2027,92.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2028,96.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2029,100.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2030,104.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2031,108.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2032,115.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Subtotal,2033,122.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,true
-Healthinsurance,Other Federal Spending Associated With Health Benefits,2023,43.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Other Federal Spending Associated With Health Benefits,2024,41.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Other Federal Spending Associated With Health Benefits,2025,42.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Other Federal Spending Associated With Health Benefits,2026,47.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Other Federal Spending Associated With Health Benefits,2027,51.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Other Federal Spending Associated With Health Benefits,2028,55.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Other Federal Spending Associated With Health Benefits,2029,58.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Other Federal Spending Associated With Health Benefits,2030,63.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Other Federal Spending Associated With Health Benefits,2031,67.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Other Federal Spending Associated With Health Benefits,2032,72.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Other Federal Spending Associated With Health Benefits,2033,78.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net Subsidies,2023,1844.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net Subsidies,2024,1878.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net Subsidies,2025,1957.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net Subsidies,2026,2104.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net Subsidies,2027,2252.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net Subsidies,2028,2390.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net Subsidies,2029,2537.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net Subsidies,2030,2694.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net Subsidies,2031,2864.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net Subsidies,2032,3048.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net Subsidies,2033,3257.0,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net subsidies as a percentage of GDP,2023,7.03,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net subsidies as a percentage of GDP,2024,6.887,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net subsidies as a percentage of GDP,2025,6.841,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net subsidies as a percentage of GDP,2026,7.03,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net subsidies as a percentage of GDP,2027,7.206,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net subsidies as a percentage of GDP,2028,7.349,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net subsidies as a percentage of GDP,2029,7.502,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net subsidies as a percentage of GDP,2030,7.667,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net subsidies as a percentage of GDP,2031,7.848,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net subsidies as a percentage of GDP,2032,8.048,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
-Healthinsurance,Net subsidies as a percentage of GDP,2033,8.29,"Billions of Dollars, by Fiscal Year",51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Total Population,2023,336.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Total Population,2024,337.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Total Population,2025,339.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Total Population,2026,340.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Total Population,2027,342.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Total Population,2028,344.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Total Population,2029,345.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Total Population,2030,347.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Total Population,2031,348.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Total Population,2032,350.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Total Population,2033,351.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Insured people,2023,311.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Insured people,2024,310.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Insured people,2025,311.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Insured people,2026,311.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Insured people,2027,312.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Insured people,2028,314.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Insured people,2029,315.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Insured people,2030,317.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Insured people,2031,319.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Insured people,2032,320.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Insured people,2033,322.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured people,2023,24.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured people,2024,27.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured people,2025,28.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured people,2026,29.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured people,2027,30.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured people,2028,30.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured people,2029,30.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured people,2030,29.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured people,2031,29.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured people,2032,29.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured people,2033,29.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Employment-Based Coverage,2023,161.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Employment-Based Coverage,2024,161.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Employment-Based Coverage,2025,161.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Employment-Based Coverage,2026,162.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Employment-Based Coverage,2027,163.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Employment-Based Coverage,2028,164.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Employment-Based Coverage,2029,164.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Employment-Based Coverage,2030,164.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Employment-Based Coverage,2031,165.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Employment-Based Coverage,2032,165.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Employment-Based Coverage,2033,166.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People age 65 or older in Medicaid,2023,5.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People age 65 or older in Medicaid,2024,5.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People age 65 or older in Medicaid,2025,5.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People age 65 or older in Medicaid,2026,5.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People age 65 or older in Medicaid,2027,6.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People age 65 or older in Medicaid,2028,6.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People age 65 or older in Medicaid,2029,6.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People age 65 or older in Medicaid,2030,6.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People age 65 or older in Medicaid,2031,6.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People age 65 or older in Medicaid,2032,6.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People age 65 or older in Medicaid,2033,6.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Blind and disabled people in Medicaid,2023,7.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Blind and disabled people in Medicaid,2024,7.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Blind and disabled people in Medicaid,2025,7.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Blind and disabled people in Medicaid,2026,7.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Blind and disabled people in Medicaid,2027,7.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Blind and disabled people in Medicaid,2028,7.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Blind and disabled people in Medicaid,2029,7.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Blind and disabled people in Medicaid,2030,7.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Blind and disabled people in Medicaid,2031,8.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Blind and disabled people in Medicaid,2032,8.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Blind and disabled people in Medicaid,2033,8.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Children in Medicaid,2023,35.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Children in Medicaid,2024,32.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Children in Medicaid,2025,31.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Children in Medicaid,2026,30.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Children in Medicaid,2027,30.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Children in Medicaid,2028,30.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Children in Medicaid,2029,30.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Children in Medicaid,2030,30.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Children in Medicaid,2031,30.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Children in Medicaid,2032,31.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Children in Medicaid,2033,31.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2023,17.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2024,14.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2025,13.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2026,13.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2027,14.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2028,14.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2029,14.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2030,14.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2031,14.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2032,14.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2033,15.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2023,17.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2024,14.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2025,13.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2026,13.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2027,13.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2028,13.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2029,13.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2030,13.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2031,13.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2032,13.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2033,13.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,CHIP,2023,7.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,CHIP,2024,7.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,CHIP,2025,7.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,CHIP,2026,6.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,CHIP,2027,6.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,CHIP,2028,6.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,CHIP,2029,6.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,CHIP,2030,6.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,CHIP,2031,6.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,CHIP,2032,5.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,CHIP,2033,4.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Subtotal,2023,90.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Subtotal,2024,81.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Subtotal,2025,78.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Subtotal,2026,78.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Subtotal,2027,78.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Subtotal,2028,78.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Subtotal,2029,78.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Subtotal,2030,79.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Subtotal,2031,79.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Subtotal,2032,79.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Subtotal,2033,79.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Medicare,2023,60.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Medicare,2024,61.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Medicare,2025,62.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Medicare,2026,64.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Medicare,2027,65.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Medicare,2028,67.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Medicare,2029,68.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Medicare,2030,69.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Medicare,2031,70.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Medicare,2032,71.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Medicare,2033,72.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Subsidized,2023,14.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Subsidized,2024,16.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Subsidized,2025,16.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Subsidized,2026,12.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Subsidized,2027,11.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Subsidized,2028,11.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Subsidized,2029,11.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Subsidized,2030,11.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Subsidized,2031,11.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Subsidized,2032,11.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Subsidized,2033,11.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Unsubsidized,2023,1.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Unsubsidized,2024,1.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Unsubsidized,2025,1.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Unsubsidized,2026,2.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Unsubsidized,2027,1.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Unsubsidized,2028,1.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Unsubsidized,2029,1.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Unsubsidized,2030,1.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Unsubsidized,2031,1.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Unsubsidized,2032,1.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Unsubsidized,2033,1.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,"Subtotal, purchased through marketplaces",2023,15.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, purchased through marketplaces",2024,17.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, purchased through marketplaces",2025,18.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, purchased through marketplaces",2026,14.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, purchased through marketplaces",2027,12.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, purchased through marketplaces",2028,12.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, purchased through marketplaces",2029,12.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, purchased through marketplaces",2030,12.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, purchased through marketplaces",2031,12.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, purchased through marketplaces",2032,12.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, purchased through marketplaces",2033,13.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Purchased outside marketplaces,2023,3.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Purchased outside marketplaces,2024,3.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Purchased outside marketplaces,2025,4.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Purchased outside marketplaces,2026,5.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Purchased outside marketplaces,2027,5.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Purchased outside marketplaces,2028,5.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Purchased outside marketplaces,2029,5.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Purchased outside marketplaces,2030,5.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Purchased outside marketplaces,2031,5.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Purchased outside marketplaces,2032,5.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Purchased outside marketplaces,2033,5.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,"Subtotal, nongroup coverage",2023,18.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, nongroup coverage",2024,21.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, nongroup coverage",2025,22.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, nongroup coverage",2026,20.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, nongroup coverage",2027,18.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, nongroup coverage",2028,18.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, nongroup coverage",2029,18.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, nongroup coverage",2030,17.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, nongroup coverage",2031,18.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, nongroup coverage",2032,18.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,"Subtotal, nongroup coverage",2033,18.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,true
+Healthinsurance,Basic Health Program,2023,1.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Basic Health Program,2024,1.1,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Basic Health Program,2025,1.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Basic Health Program,2026,1.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Basic Health Program,2027,1.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Basic Health Program,2028,1.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Basic Health Program,2029,1.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Basic Health Program,2030,1.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Basic Health Program,2031,1.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Basic Health Program,2032,1.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Basic Health Program,2033,1.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Other Coverage,2023,6.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Other Coverage,2024,6.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Other Coverage,2025,6.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Other Coverage,2026,6.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Other Coverage,2027,6.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Other Coverage,2028,6.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Other Coverage,2029,6.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Other Coverage,2030,6.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Other Coverage,2031,6.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Other Coverage,2032,6.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Other Coverage,2033,6.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People With Multiple Sources of Coverage,2023,26.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People With Multiple Sources of Coverage,2024,21.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People With Multiple Sources of Coverage,2025,20.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People With Multiple Sources of Coverage,2026,21.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People With Multiple Sources of Coverage,2027,21.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People With Multiple Sources of Coverage,2028,21.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People With Multiple Sources of Coverage,2029,21.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People With Multiple Sources of Coverage,2030,21.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People With Multiple Sources of Coverage,2031,21.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People With Multiple Sources of Coverage,2032,21.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,People With Multiple Sources of Coverage,2033,22.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2023,0.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2024,0.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2025,0.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2026,0.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2027,0.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2028,0.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2029,0.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2030,0.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2031,0.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2032,0.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Uninsured People With Medicare Part A or Part B Only,2033,0.9,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Share of the Population That Is Uninsured (Percent),2023,7.2,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Share of the Population That Is Uninsured (Percent),2024,8.0,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Share of the Population That Is Uninsured (Percent),2025,8.3,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Share of the Population That Is Uninsured (Percent),2026,8.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Share of the Population That Is Uninsured (Percent),2027,8.8,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Share of the Population That Is Uninsured (Percent),2028,8.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Share of the Population That Is Uninsured (Percent),2029,8.7,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Share of the Population That Is Uninsured (Percent),2030,8.6,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Share of the Population That Is Uninsured (Percent),2031,8.5,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Share of the Population That Is Uninsured (Percent),2032,8.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Share of the Population That Is Uninsured (Percent),2033,8.4,Millions of People,51298-2023-09-healthinsurance.xlsx,Table 1,false
+Healthinsurance,Tax exclusion for employment-based coverage,2023,345.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Tax exclusion for employment-based coverage,2024,365.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Tax exclusion for employment-based coverage,2025,391.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Tax exclusion for employment-based coverage,2026,451.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Tax exclusion for employment-based coverage,2027,495.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Tax exclusion for employment-based coverage,2028,523.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Tax exclusion for employment-based coverage,2029,550.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Tax exclusion for employment-based coverage,2030,578.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Tax exclusion for employment-based coverage,2031,608.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Tax exclusion for employment-based coverage,2032,641.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Tax exclusion for employment-based coverage,2033,676.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Income tax deduction for self-employment health insurance,2023,4.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Income tax deduction for self-employment health insurance,2024,5.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Income tax deduction for self-employment health insurance,2025,5.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Income tax deduction for self-employment health insurance,2026,7.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Income tax deduction for self-employment health insurance,2027,8.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Income tax deduction for self-employment health insurance,2028,8.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Income tax deduction for self-employment health insurance,2029,9.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Income tax deduction for self-employment health insurance,2030,9.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Income tax deduction for self-employment health insurance,2031,10.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Income tax deduction for self-employment health insurance,2032,10.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Income tax deduction for self-employment health insurance,2033,11.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Gross collections of penalty payments from employers,2023,-1.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Gross collections of penalty payments from employers,2024,-1.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Gross collections of penalty payments from employers,2025,-1.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Gross collections of penalty payments from employers,2026,-1.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Gross collections of penalty payments from employers,2027,-1.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Gross collections of penalty payments from employers,2028,-1.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Gross collections of penalty payments from employers,2029,-1.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Gross collections of penalty payments from employers,2030,-1.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Gross collections of penalty payments from employers,2031,-1.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Gross collections of penalty payments from employers,2032,-1.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Gross collections of penalty payments from employers,2033,-1.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Subtotal,2023,348.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2024,369.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2025,395.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2026,457.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2027,501.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2028,530.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2029,558.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2030,586.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2031,616.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2032,650.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2033,686.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,65 or older in Medicaid,2023,100.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,65 or older in Medicaid,2024,95.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,65 or older in Medicaid,2025,97.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,65 or older in Medicaid,2026,105.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,65 or older in Medicaid,2027,113.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,65 or older in Medicaid,2028,119.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,65 or older in Medicaid,2029,126.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,65 or older in Medicaid,2030,134.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,65 or older in Medicaid,2031,141.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,65 or older in Medicaid,2032,149.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,65 or older in Medicaid,2033,156.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Blind and disabled people in Medicaid,2023,160.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Blind and disabled people in Medicaid,2024,147.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Blind and disabled people in Medicaid,2025,151.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Blind and disabled people in Medicaid,2026,160.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Blind and disabled people in Medicaid,2027,170.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Blind and disabled people in Medicaid,2028,179.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Blind and disabled people in Medicaid,2029,189.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Blind and disabled people in Medicaid,2030,199.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Blind and disabled people in Medicaid,2031,211.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Blind and disabled people in Medicaid,2032,224.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Blind and disabled people in Medicaid,2033,236.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Children in Medicaid,2023,64.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Children in Medicaid,2024,54.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Children in Medicaid,2025,54.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Children in Medicaid,2026,57.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Children in Medicaid,2027,60.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Children in Medicaid,2028,62.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Children in Medicaid,2029,66.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Children in Medicaid,2030,69.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Children in Medicaid,2031,73.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Children in Medicaid,2032,79.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Children in Medicaid,2033,86.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2023,125.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2024,114.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2025,110.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2026,119.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2027,128.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2028,138.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2029,148.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2030,158.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2031,170.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2032,183.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults made eligible for Medicaid by the ACA,2033,197.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2023,82.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2024,70.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2025,66.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2026,71.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2027,76.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2028,79.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2029,84.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2030,90.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2031,96.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2032,102.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Adults otherwise eligible for Medicaid,2033,109.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,CHIP,2023,17.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,CHIP,2024,17.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,CHIP,2025,18.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,CHIP,2026,18.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,CHIP,2027,19.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,CHIP,2028,20.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,CHIP,2029,20.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,CHIP,2030,21.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,CHIP,2031,22.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,CHIP,2032,20.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,CHIP,2033,15.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Subtotal,2023,547.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2024,497.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2025,495.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2026,530.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2027,566.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2028,597.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2029,633.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2030,671.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2031,713.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2032,756.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2033,799.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Medicare,2023,813.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Medicare,2024,862.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Medicare,2025,907.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Medicare,2026,972.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Medicare,2027,1041.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Medicare,2028,1112.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Medicare,2029,1188.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Medicare,2030,1270.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Medicare,2031,1359.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Medicare,2032,1454.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Medicare,2033,1572.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for premium tax credits and 1332 waivers,2023,71.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for premium tax credits and 1332 waivers,2024,85.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for premium tax credits and 1332 waivers,2025,92.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for premium tax credits and 1332 waivers,2026,71.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for premium tax credits and 1332 waivers,2027,71.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for premium tax credits and 1332 waivers,2028,74.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for premium tax credits and 1332 waivers,2029,78.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for premium tax credits and 1332 waivers,2030,81.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for premium tax credits and 1332 waivers,2031,84.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for premium tax credits and 1332 waivers,2032,90.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for premium tax credits and 1332 waivers,2033,96.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Revenue reductions from premium tax credits,2023,11.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Revenue reductions from premium tax credits,2024,13.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Revenue reductions from premium tax credits,2025,17.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Revenue reductions from premium tax credits,2026,19.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Revenue reductions from premium tax credits,2027,11.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Revenue reductions from premium tax credits,2028,11.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Revenue reductions from premium tax credits,2029,11.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Revenue reductions from premium tax credits,2030,12.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Revenue reductions from premium tax credits,2031,12.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Revenue reductions from premium tax credits,2032,12.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Revenue reductions from premium tax credits,2033,13.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for the Basic Health Program,2023,10.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for the Basic Health Program,2024,10.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for the Basic Health Program,2025,10.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for the Basic Health Program,2026,9.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for the Basic Health Program,2027,10.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for the Basic Health Program,2028,11.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for the Basic Health Program,2029,11.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for the Basic Health Program,2030,12.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for the Basic Health Program,2031,12.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for the Basic Health Program,2032,13.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Outlays for the Basic Health Program,2033,14.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Collections for risk adjustment,2023,-7.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Collections for risk adjustment,2024,-8.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Collections for risk adjustment,2025,-9.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Collections for risk adjustment,2026,-10.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Collections for risk adjustment,2027,-10.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Collections for risk adjustment,2028,-10.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Collections for risk adjustment,2029,-10.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Collections for risk adjustment,2030,-10.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Collections for risk adjustment,2031,-11.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Collections for risk adjustment,2032,-11.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Collections for risk adjustment,2033,-12.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Payments for risk adjustment,2023,7.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Payments for risk adjustment,2024,7.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Payments for risk adjustment,2025,8.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Payments for risk adjustment,2026,9.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Payments for risk adjustment,2027,10.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Payments for risk adjustment,2028,10.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Payments for risk adjustment,2029,10.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Payments for risk adjustment,2030,10.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Payments for risk adjustment,2031,11.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Payments for risk adjustment,2032,12.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Payments for risk adjustment,2033,12.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Subtotal,2023,92.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2024,108.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2025,118.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2026,98.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2027,92.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2028,96.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2029,100.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2030,104.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2031,108.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2032,115.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Subtotal,2033,122.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,true
+Healthinsurance,Other Federal Spending Associated With Health Benefits,2023,43.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Other Federal Spending Associated With Health Benefits,2024,41.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Other Federal Spending Associated With Health Benefits,2025,42.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Other Federal Spending Associated With Health Benefits,2026,47.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Other Federal Spending Associated With Health Benefits,2027,51.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Other Federal Spending Associated With Health Benefits,2028,55.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Other Federal Spending Associated With Health Benefits,2029,58.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Other Federal Spending Associated With Health Benefits,2030,63.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Other Federal Spending Associated With Health Benefits,2031,67.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Other Federal Spending Associated With Health Benefits,2032,72.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Other Federal Spending Associated With Health Benefits,2033,78.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net Subsidies,2023,1844.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net Subsidies,2024,1878.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net Subsidies,2025,1957.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net Subsidies,2026,2104.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net Subsidies,2027,2252.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net Subsidies,2028,2390.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net Subsidies,2029,2537.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net Subsidies,2030,2694.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net Subsidies,2031,2864.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net Subsidies,2032,3048.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net Subsidies,2033,3257.0,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net subsidies as a percentage of GDP,2023,7.03,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net subsidies as a percentage of GDP,2024,6.887,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net subsidies as a percentage of GDP,2025,6.841,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net subsidies as a percentage of GDP,2026,7.03,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net subsidies as a percentage of GDP,2027,7.206,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net subsidies as a percentage of GDP,2028,7.349,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net subsidies as a percentage of GDP,2029,7.502,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net subsidies as a percentage of GDP,2030,7.667,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net subsidies as a percentage of GDP,2031,7.848,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net subsidies as a percentage of GDP,2032,8.048,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false
+Healthinsurance,Net subsidies as a percentage of GDP,2033,8.29,Billions of Dollars,51298-2023-09-healthinsurance.xlsx,Table 2,false

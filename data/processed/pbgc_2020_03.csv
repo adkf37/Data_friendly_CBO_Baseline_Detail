@@ -1,145 +1,145 @@
 program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Pbgc,Single-Employer Benefit Payments,2019,5791.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Single-Employer Benefit Payments,2020,5877.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Single-Employer Benefit Payments,2021,6410.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Single-Employer Benefit Payments,2022,6920.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Single-Employer Benefit Payments,2023,7800.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Single-Employer Benefit Payments,2024,8650.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Single-Employer Benefit Payments,2025,9080.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Single-Employer Benefit Payments,2026,9450.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Single-Employer Benefit Payments,2027,9610.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Single-Employer Benefit Payments,2028,9190.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Single-Employer Benefit Payments,2029,8910.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Single-Employer Benefit Payments,2030,8960.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Multiemployer Financial Assistancea,2019,160.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Multiemployer Financial Assistancea,2020,217.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Multiemployer Financial Assistancea,2021,318.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Multiemployer Financial Assistancea,2022,540.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Multiemployer Financial Assistancea,2023,612.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Multiemployer Financial Assistancea,2024,636.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Multiemployer Financial Assistancea,2025,763.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Multiemployer Financial Assistancea,2026,1327.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Multiemployer Financial Assistancea,2027,1211.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Multiemployer Financial Assistancea,2028,346.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Multiemployer Financial Assistancea,2029,355.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Multiemployer Financial Assistancea,2030,365.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Administration,2019,529.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Administration,2020,541.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Administration,2021,555.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Administration,2022,569.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Administration,2023,583.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Administration,2024,598.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Administration,2025,612.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Administration,2026,625.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Administration,2027,639.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Administration,2028,654.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Administration,2029,668.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Administration,2030,683.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Gross Outlays,2019,6480.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Gross Outlays,2020,6635.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Gross Outlays,2021,7283.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Gross Outlays,2022,8029.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Gross Outlays,2023,8995.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Gross Outlays,2024,9883.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Gross Outlays,2025,10454.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Gross Outlays,2026,11402.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Gross Outlays,2027,11461.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Gross Outlays,2028,10189.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Gross Outlays,2029,9933.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Gross Outlays,2030,10007.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Premiumsb,2019,-5708.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Premiumsb,2020,-6763.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Premiumsb,2021,-6347.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Premiumsb,2022,-6117.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Premiumsb,2023,-5850.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Premiumsb,2024,-5592.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Premiumsb,2025,-9266.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Premiumsb,2026,-994.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Premiumsb,2027,-4573.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Premiumsb,2028,-4155.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Premiumsb,2029,-3702.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Premiumsb,2030,-3212.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Interest on U.S. Treasury Securities,2019,-1988.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Interest on U.S. Treasury Securities,2020,-1792.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Interest on U.S. Treasury Securities,2021,-2193.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Interest on U.S. Treasury Securities,2022,-2629.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Interest on U.S. Treasury Securities,2023,-3022.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Interest on U.S. Treasury Securities,2024,-3325.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Interest on U.S. Treasury Securities,2025,-3679.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Interest on U.S. Treasury Securities,2026,-3994.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Interest on U.S. Treasury Securities,2027,-4107.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Interest on U.S. Treasury Securities,2028,-4349.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Interest on U.S. Treasury Securities,2029,-4623.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Interest on U.S. Treasury Securities,2030,-4892.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Other Receiptsc,2019,-4412.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Other Receiptsc,2020,-4370.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Other Receiptsc,2021,-4737.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Other Receiptsc,2022,-5086.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Other Receiptsc,2023,-5679.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Other Receiptsc,2024,-6252.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Other Receiptsc,2025,-6549.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Other Receiptsc,2026,-6806.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Other Receiptsc,2027,-6924.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Other Receiptsc,2028,-6660.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Other Receiptsc,2029,-6489.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Other Receiptsc,2030,-6536.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,Total Offsetting Receipts,2019,-12108.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Offsetting Receipts,2020,-12925.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Offsetting Receipts,2021,-13277.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Offsetting Receipts,2022,-13832.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Offsetting Receipts,2023,-14551.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Offsetting Receipts,2024,-15169.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Offsetting Receipts,2025,-19494.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Offsetting Receipts,2026,-11794.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Offsetting Receipts,2027,-15604.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Offsetting Receipts,2028,-15164.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Offsetting Receipts,2029,-14814.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Offsetting Receipts,2030,-14640.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Net Outlays,2019,-5628.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Net Outlays,2020,-6290.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Net Outlays,2021,-5994.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Net Outlays,2022,-5803.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Net Outlays,2023,-5556.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Net Outlays,2024,-5286.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Net Outlays,2025,-9040.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Net Outlays,2026,-392.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Net Outlays,2027,-4143.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Net Outlays,2028,-4975.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Net Outlays,2029,-4881.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,Total Net Outlays,2030,-4633.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,true
-Pbgc,End-of-Year Revolving Fund Balance,2019,43713.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,End-of-Year Revolving Fund Balance,2020,50003.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,End-of-Year Revolving Fund Balance,2021,55997.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,End-of-Year Revolving Fund Balance,2022,61800.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,End-of-Year Revolving Fund Balance,2023,67355.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,End-of-Year Revolving Fund Balance,2024,72642.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,End-of-Year Revolving Fund Balance,2025,81681.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,End-of-Year Revolving Fund Balance,2026,82073.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,End-of-Year Revolving Fund Balance,2027,86216.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,End-of-Year Revolving Fund Balance,2028,91192.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,End-of-Year Revolving Fund Balance,2029,96073.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,End-of-Year Revolving Fund Balance,2030,100706.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,resulting from the exhaustion of the,2019,2019.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,resulting from the exhaustion of the,2020,2020.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,resulting from the exhaustion of the,2021,2021.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,resulting from the exhaustion of the,2022,2022.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,resulting from the exhaustion of the,2023,2023.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,resulting from the exhaustion of the,2024,2024.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,resulting from the exhaustion of the,2025,2025.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,resulting from the exhaustion of the,2026,2026.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,resulting from the exhaustion of the,2027,2027.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,resulting from the exhaustion of the,2028,2028.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,resulting from the exhaustion of the,2029,2029.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,resulting from the exhaustion of the,2030,2030.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,revolving fund (Millions of dollars),2019,0.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,revolving fund (Millions of dollars),2020,0.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,revolving fund (Millions of dollars),2021,0.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,revolving fund (Millions of dollars),2022,0.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,revolving fund (Millions of dollars),2023,0.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,revolving fund (Millions of dollars),2024,0.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,revolving fund (Millions of dollars),2025,0.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,revolving fund (Millions of dollars),2026,0.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,revolving fund (Millions of dollars),2027,679.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,revolving fund (Millions of dollars),2028,1809.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,revolving fund (Millions of dollars),2029,1923.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
-Pbgc,revolving fund (Millions of dollars),2030,1998.0,"Millions of Dollars, by Fiscal Year",51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Single-Employer Benefit Payments,2019,5791.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Single-Employer Benefit Payments,2020,5877.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Single-Employer Benefit Payments,2021,6410.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Single-Employer Benefit Payments,2022,6920.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Single-Employer Benefit Payments,2023,7800.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Single-Employer Benefit Payments,2024,8650.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Single-Employer Benefit Payments,2025,9080.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Single-Employer Benefit Payments,2026,9450.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Single-Employer Benefit Payments,2027,9610.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Single-Employer Benefit Payments,2028,9190.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Single-Employer Benefit Payments,2029,8910.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Single-Employer Benefit Payments,2030,8960.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Multiemployer Financial Assistancea,2019,160.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Multiemployer Financial Assistancea,2020,217.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Multiemployer Financial Assistancea,2021,318.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Multiemployer Financial Assistancea,2022,540.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Multiemployer Financial Assistancea,2023,612.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Multiemployer Financial Assistancea,2024,636.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Multiemployer Financial Assistancea,2025,763.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Multiemployer Financial Assistancea,2026,1327.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Multiemployer Financial Assistancea,2027,1211.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Multiemployer Financial Assistancea,2028,346.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Multiemployer Financial Assistancea,2029,355.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Multiemployer Financial Assistancea,2030,365.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Administration,2019,529.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Administration,2020,541.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Administration,2021,555.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Administration,2022,569.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Administration,2023,583.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Administration,2024,598.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Administration,2025,612.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Administration,2026,625.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Administration,2027,639.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Administration,2028,654.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Administration,2029,668.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Administration,2030,683.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Gross Outlays,2019,6480.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Gross Outlays,2020,6635.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Gross Outlays,2021,7283.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Gross Outlays,2022,8029.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Gross Outlays,2023,8995.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Gross Outlays,2024,9883.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Gross Outlays,2025,10454.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Gross Outlays,2026,11402.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Gross Outlays,2027,11461.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Gross Outlays,2028,10189.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Gross Outlays,2029,9933.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Gross Outlays,2030,10007.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Premiumsb,2019,-5708.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Premiumsb,2020,-6763.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Premiumsb,2021,-6347.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Premiumsb,2022,-6117.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Premiumsb,2023,-5850.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Premiumsb,2024,-5592.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Premiumsb,2025,-9266.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Premiumsb,2026,-994.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Premiumsb,2027,-4573.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Premiumsb,2028,-4155.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Premiumsb,2029,-3702.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Premiumsb,2030,-3212.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Interest on U.S. Treasury Securities,2019,-1988.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Interest on U.S. Treasury Securities,2020,-1792.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Interest on U.S. Treasury Securities,2021,-2193.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Interest on U.S. Treasury Securities,2022,-2629.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Interest on U.S. Treasury Securities,2023,-3022.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Interest on U.S. Treasury Securities,2024,-3325.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Interest on U.S. Treasury Securities,2025,-3679.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Interest on U.S. Treasury Securities,2026,-3994.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Interest on U.S. Treasury Securities,2027,-4107.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Interest on U.S. Treasury Securities,2028,-4349.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Interest on U.S. Treasury Securities,2029,-4623.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Interest on U.S. Treasury Securities,2030,-4892.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Other Receiptsc,2019,-4412.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Other Receiptsc,2020,-4370.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Other Receiptsc,2021,-4737.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Other Receiptsc,2022,-5086.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Other Receiptsc,2023,-5679.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Other Receiptsc,2024,-6252.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Other Receiptsc,2025,-6549.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Other Receiptsc,2026,-6806.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Other Receiptsc,2027,-6924.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Other Receiptsc,2028,-6660.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Other Receiptsc,2029,-6489.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Other Receiptsc,2030,-6536.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,Total Offsetting Receipts,2019,-12108.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Offsetting Receipts,2020,-12925.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Offsetting Receipts,2021,-13277.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Offsetting Receipts,2022,-13832.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Offsetting Receipts,2023,-14551.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Offsetting Receipts,2024,-15169.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Offsetting Receipts,2025,-19494.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Offsetting Receipts,2026,-11794.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Offsetting Receipts,2027,-15604.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Offsetting Receipts,2028,-15164.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Offsetting Receipts,2029,-14814.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Offsetting Receipts,2030,-14640.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Net Outlays,2019,-5628.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Net Outlays,2020,-6290.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Net Outlays,2021,-5994.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Net Outlays,2022,-5803.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Net Outlays,2023,-5556.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Net Outlays,2024,-5286.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Net Outlays,2025,-9040.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Net Outlays,2026,-392.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Net Outlays,2027,-4143.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Net Outlays,2028,-4975.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Net Outlays,2029,-4881.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,Total Net Outlays,2030,-4633.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,true
+Pbgc,End-of-Year Revolving Fund Balance,2019,43713.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,End-of-Year Revolving Fund Balance,2020,50003.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,End-of-Year Revolving Fund Balance,2021,55997.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,End-of-Year Revolving Fund Balance,2022,61800.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,End-of-Year Revolving Fund Balance,2023,67355.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,End-of-Year Revolving Fund Balance,2024,72642.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,End-of-Year Revolving Fund Balance,2025,81681.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,End-of-Year Revolving Fund Balance,2026,82073.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,End-of-Year Revolving Fund Balance,2027,86216.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,End-of-Year Revolving Fund Balance,2028,91192.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,End-of-Year Revolving Fund Balance,2029,96073.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,End-of-Year Revolving Fund Balance,2030,100706.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,resulting from the exhaustion of the,2019,2019.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,resulting from the exhaustion of the,2020,2020.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,resulting from the exhaustion of the,2021,2021.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,resulting from the exhaustion of the,2022,2022.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,resulting from the exhaustion of the,2023,2023.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,resulting from the exhaustion of the,2024,2024.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,resulting from the exhaustion of the,2025,2025.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,resulting from the exhaustion of the,2026,2026.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,resulting from the exhaustion of the,2027,2027.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,resulting from the exhaustion of the,2028,2028.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,resulting from the exhaustion of the,2029,2029.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,resulting from the exhaustion of the,2030,2030.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,revolving fund (Millions of dollars),2019,0.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,revolving fund (Millions of dollars),2020,0.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,revolving fund (Millions of dollars),2021,0.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,revolving fund (Millions of dollars),2022,0.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,revolving fund (Millions of dollars),2023,0.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,revolving fund (Millions of dollars),2024,0.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,revolving fund (Millions of dollars),2025,0.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,revolving fund (Millions of dollars),2026,0.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,revolving fund (Millions of dollars),2027,679.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,revolving fund (Millions of dollars),2028,1809.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,revolving fund (Millions of dollars),2029,1923.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false
+Pbgc,revolving fund (Millions of dollars),2030,1998.0,Millions of Dollars,51305-2020-03-pbgc.xlsx,PBGC,false

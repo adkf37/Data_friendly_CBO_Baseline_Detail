@@ -30,6 +30,31 @@ YEAR_LABEL_RE = re.compile(
     r"\s*$",
     re.IGNORECASE,
 )
+# Unit-declaration detection: section headers that announce the unit for the
+# rows that follow.  CBO workbooks often contain multiple sub-sections per
+# sheet (e.g. budget in "Billions of dollars" followed by enrollment in
+# "Millions of people" followed by per-enrollee figures in "Dollars").  These
+# patterns match either a standalone unit line or a unit inside a parenthetical
+# at the end of a section header (with an optional trailing footnote letter).
+_UNIT_PHRASE = (
+    r"(?:billions?|millions?|thousands?|trillions?|hundreds?)\s+of\s+"
+    r"(?:dollars?|people|beneficiaries|enrollees|recipients|households|"
+    r"borrowers|loans|workers|cases|claims|jobs|hours|units|barrels|tons)"
+    r"|dollars\s+per\s+\w+(?:\s+\w+)?"  # "Dollars per enrollee", "Dollars per recipient"
+    r"|percent(?:age)?(?:\s+of\s+\w+(?:\s+\w+)?)?"
+    r"|number\s+of\s+\w+(?:\s+\w+)?"
+)
+UNIT_LINE_RE = re.compile(
+    rf"^\s*(?:\(\s*)?({_UNIT_PHRASE})\b[^()]*$",
+    re.IGNORECASE,
+)
+UNIT_PAREN_RE = re.compile(
+    rf"\(\s*({_UNIT_PHRASE}(?:\s*,\s*[^()]+?)?)\s*\)\s*[a-z]?\s*$",
+    re.IGNORECASE,
+)
+# Standalone "Dollars" or "(Dollars)" with optional footnote marker.
+DOLLARS_LINE_RE = re.compile(r"^\s*\(?\s*dollars\s*\)?\s*[a-z]?\s*$", re.IGNORECASE)
+DOLLARS_PAREN_RE = re.compile(r"\(\s*dollars\s*\)\s*[a-z]?\s*$", re.IGNORECASE)
 # Maximum rows to scan beyond the declared header when searching for year labels.
 MAX_YEAR_SCAN_ROWS = 30
 # When parse-plan year_columns are absent, scan only a bounded number of leading
@@ -139,6 +164,76 @@ def _get_row_category(worksheet, row: int) -> str:
         if cat:
             return cat
     return ""
+
+
+def _extract_unit_declaration(text: str) -> str | None:
+    """Return the normalized unit string declared by *text*, or None.
+
+    Detects three forms of unit declaration:
+
+    1. A line whose primary content is a unit phrase, e.g.
+       ``"Billions of dollars, by fiscal year"`` -> ``"Billions of dollars"``.
+    2. A unit phrase inside a trailing parenthetical, e.g.
+       ``"Federal Benefit Payments by Eligibility Category (Billions of dollars)"``
+       -> ``"Billions of dollars"``.
+    3. The standalone word ``"Dollars"`` (optionally with a footnote letter
+       suffix), e.g. ``"Average Federal Spending per Enrollee (Dollars)c"``
+       -> ``"Dollars"``.
+
+    The returned string preserves the matched phrase's capitalization but
+    strips footnote markers and surrounding punctuation so values are
+    comparable downstream.
+    """
+    if not text:
+        return None
+    stripped = text.strip()
+    if not stripped:
+        return None
+    # Form 3: standalone "Dollars" (line or paren); test first because it's
+    # narrower than the generic phrase matcher.
+    if DOLLARS_LINE_RE.match(stripped):
+        return "Dollars"
+    paren_dollars = DOLLARS_PAREN_RE.search(stripped)
+    if paren_dollars:
+        return "Dollars"
+    # Form 2: unit phrase inside trailing parenthetical (e.g. section header).
+    paren_match = UNIT_PAREN_RE.search(stripped)
+    if paren_match:
+        return paren_match.group(1).strip().rstrip(",").strip()
+    # Form 1: line whose primary content is a unit phrase.
+    line_match = UNIT_LINE_RE.match(stripped)
+    if line_match:
+        return line_match.group(1).strip().rstrip(",").strip()
+    return None
+
+
+def _build_unit_map(worksheet, plan: SheetPlan, year_columns: list[int]) -> dict[int, str]:
+    """Return a map of *row* -> unit string in effect for that row.
+
+    Pre-scans the sheet row-by-row, updating the running unit whenever a row's
+    column-A text contains a unit declaration (see :func:`_extract_unit_declaration`).
+    Rows that contain numeric data in any year column are NOT treated as unit
+    declarations even if their text matches a unit pattern, because legitimate
+    data rows occasionally include unit-like words.
+
+    The default starting unit is ``plan.unit`` (from the parse plan), so sheets
+    with no mid-sheet unit changes preserve their existing behavior.
+    """
+    row_unit: dict[int, str] = {}
+    current = plan.unit
+    for row in range(1, worksheet.max_row + 1):
+        text_a = _to_text(worksheet.cell(row=row, column=1).value)
+        if text_a:
+            has_numeric_data = any(
+                _parse_number(worksheet.cell(row=row, column=col).value) is not None
+                for col in year_columns
+            )
+            if not has_numeric_data:
+                detected = _extract_unit_declaration(text_a)
+                if detected:
+                    current = detected
+        row_unit[row] = current
+    return row_unit
 
 
 def _extract_years(worksheet, plan: SheetPlan) -> dict[int, int]:
@@ -300,7 +395,7 @@ def run_transform(
         if not workbook_path.exists():
             _append_error(errors, plan.workbook, plan.sheet, "workbook not found")
             continue
-        workbook = load_workbook(workbook_path, read_only=True, data_only=True)
+        workbook = load_workbook(workbook_path, data_only=True)
         try:
             actual_sheet = _find_sheet(workbook.sheetnames, plan.sheet)
             if actual_sheet is None:
@@ -317,9 +412,41 @@ def run_transform(
                 _append_error(errors, plan.workbook, plan.sheet, "could not infer first data row")
                 continue
 
+            # Single combined pass: track running unit AND collect data rows together.
+            # Starting from row 1 (not first_data_row) ensures unit declarations in
+            # header sections (e.g. row 11 in Medicaid) are seen before data rows.
+            current_unit = plan.unit
             rows_written = 0
             program_name = _infer_program_name(plan.workbook)
-            for row in range(first_data_row, worksheet.max_row + 1):
+            for row in range(1, worksheet.max_row + 1):
+                text_a = _to_text(worksheet.cell(row=row, column=1).value)
+                # Check for a unit-declaration row: has col-A text, no numeric data.
+                if text_a:
+                    has_numeric = any(
+                        _parse_number(worksheet.cell(row=row, column=col).value) is not None
+                        for col in active_year_columns
+                    )
+                    if not has_numeric:
+                        detected = _extract_unit_declaration(text_a)
+                        if detected:
+                            current_unit = detected
+                        if row < first_data_row:
+                            continue
+                        # Non-numeric header row in data section — skip as data.
+                        continue
+                    # Row has numeric data — emit if past header.
+                    if row < first_data_row:
+                        continue
+                else:
+                    if row < first_data_row:
+                        continue
+                    # Blank col-A row in data section — check cols 2-3 for category.
+                    has_numeric = any(
+                        _parse_number(worksheet.cell(row=row, column=col).value) is not None
+                        for col in active_year_columns
+                    )
+                    if not has_numeric:
+                        continue
                 category = _get_row_category(worksheet, row)
                 if not category:
                     continue
@@ -338,7 +465,7 @@ def run_transform(
                             "category": category,
                             "fiscal_year": year,
                             "value": value,
-                            "unit": plan.unit,
+                            "unit": current_unit,
                             "source_file": plan.workbook,
                             "source_sheet": plan.sheet,
                             "is_total": str(_is_total(category)).lower(),
