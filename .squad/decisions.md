@@ -2,6 +2,14 @@
 
 ## Active Decisions
 
+### 2026-05-12 — Validate blocks task-06-pipeline on sandbox network access
+
+**Decision:** Mark Validate for `task-06-pipeline` as **Human Blocked** pending one rerun in a network-enabled environment.
+**Rationale:** Independent validation reran `python -m pip install -r requirements.txt`, `python -m unittest discover -s tests -v`, `python run_pipeline.py --help`, repo-root single-step smoke checks, and data-integrity audits. All non-network-dependent evidence passed: tests `46/46`, `inspect` processed `230` raw workbooks, `transform` generated `222` CSVs with `50079` rows and `0` errors, `schema` reproduced `222` schema docs with no coverage gaps, and `verify` reported `299` targets with `277` PASS / `22` EXEMPT / `0` non-exempt FAIL. The only remaining blocked checks are `python run_pipeline.py --step download` and the full `python run_pipeline.py` run, both of which stop on sandbox DNS resolution failure for `www.cbo.gov` before any local runner bug is observed.
+**Task:** task-06-pipeline
+
+---
+
 ### 2026-05-12 — task-06-pipeline build: run_pipeline.py and README refresh
 
 **Decision:** Implement `run_pipeline.py` as the canonical pipeline entrypoint for task-06-pipeline, and do a full refresh of root `README.md` to satisfy the task's documentation acceptance criteria.

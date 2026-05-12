@@ -2,20 +2,21 @@
 
 | Field | Value |
 |---|---|
-| Phase | build-task-06-pipeline |
-| Next Action | Validate |
+| Phase | validate-task-06-pipeline |
+| Next Action | Human Blocked |
 | Last Updated | 2026-05-12 |
 | Squad Template | data_pipeline |
 | Priority | low |
-| Blocking | None |
+| Blocking | Sandbox cannot resolve `www.cbo.gov` for the live download step |
 | GitHub Repo | https://github.com/adkf37/Data_friendly_CBO_Baseline_Detail |
 
 ## Current Objective
 
-Advance **Task ID: `task-06-pipeline`** — canonical pipeline entrypoint and refreshed documentation now complete. `run_pipeline.py` exists at the repo root and supports `--step <name>` for all five steps (download, inspect, transform, schema, verify). All 46 unit tests pass. Next action: Validate.
+Validate **Task ID: `task-06-pipeline`** — all non-network-dependent checks now pass. `run_pipeline.py` is the canonical repo-root entrypoint, all `46` unit tests pass, `inspect` / `transform` / `schema` / `verify` succeed from the repo root, and `docs/verification_report.md` shows `277` PASS / `22` EXEMPT / `0` non-exempt FAIL. The remaining validation gap is the live `download` step, which is blocked in this sandbox because `www.cbo.gov` cannot be resolved. Next action: Human Blocked.
 
 ## Recent Activity
 
+- 2026-05-12: Validate blocked for **Task ID: `task-06-pipeline`** — reran `python -m pip install -r requirements.txt`, the full unittest suite, `python run_pipeline.py --help`, repo-root step smoke checks, and artifact audits. Validation confirmed `inspect` on `230` raw workbooks, `transform` output of `222` CSVs / `50079` rows / `0` errors, `schema` output of `222` schema docs with 1:1 coverage, and `verify` output of `299` targets with `277` PASS / `22` EXEMPT / `0` non-exempt FAIL. The only blocked checks were `python run_pipeline.py --step download` and full `python run_pipeline.py`, both of which stop on sandbox DNS resolution failure for `www.cbo.gov`, so the repo moves to **Human Blocked** rather than Closeout.
 - 2026-05-12: Build advanced for **Task ID: `task-06-pipeline`** — routed pipeline entrypoint work through the Data Engineer + Scribe path. Implemented `run_pipeline.py` at the repo root with full end-to-end execution (`python run_pipeline.py`) and individual step support (`python run_pipeline.py --step <name>`). Each step logs UTC start/end timestamps and pass/fail status; the runner stops on the first failure. Refreshed root `README.md` with project purpose, prerequisites, install steps, quick-start commands, output location table, processed CSV schema table, schema index link, and CBO attribution. Added 14 unit tests in `tests/test_pipeline.py` covering single-step dispatch, early-stop-on-failure, full-run success, and all required README sections. Full test suite: `python -m unittest discover -s tests -v` → 46 tests, OK.
 - 2026-05-12: Build advanced for **Task ID: `task-05-verify`** — task-05-verify now produces 0 non-exempt failures (277 PASS, 22 EXEMPT). Verification report updated.
 - 2026-05-12: Validate failed for **Task ID: `task-05-verify`** — reran `python -m pip install -r requirements.txt`, the full unittest suite, `python src/verify.py --help`, and a real `python src/verify.py` reconciliation run. Validation confirmed the verifier is runnable and that all 299 included parse-plan targets appear in `docs/verification_report.md`, but the repository-scale run still exits non-zero with `24` PASS and `275` non-exempt FAIL results. Supporting audit evidence shows the failures cluster around concrete implementation gaps (`processed CSV missing=122`, `no fiscal years inferred from source=120`, `parse plan has no year_columns=42`, `sheet missing=10`), so the repo returns to **Build** for `task-05-verify`.
@@ -33,7 +34,7 @@ Advance **Task ID: `task-06-pipeline`** — canonical pipeline entrypoint and re
 
 ## Remaining Follow-up
 
-- **Next phase:** Validate `task-06-pipeline` — run full test suite, smoke-test `python run_pipeline.py --help` and individual `--step` invocations, confirm `README.md` sections and CBO attribution, and check that verification exits zero.
+- **Next phase:** Human Blocked — rerun `python run_pipeline.py --step download` and full `python run_pipeline.py` from a network-enabled environment that can resolve and reach `https://www.cbo.gov/data/baseline-projections-selected-programs`.
 - Known parser-improvement follow-up: 14 health-slice parse errors, 37 income-security parse errors, and 39 remaining-programs parse errors remain in `parse_errors.log`; these are non-blocking for the pipeline task.
 
 ## Artifacts
@@ -46,11 +47,11 @@ Advance **Task ID: `task-06-pipeline`** — canonical pipeline entrypoint and re
 | Task: Transform | `./backlog/tasks/task-03-transform.md` | closed out |
 | Task: Schema | `./backlog/tasks/task-04-schema.md` | closed out |
 | Task: Verify | `./backlog/tasks/task-05-verify.md` | closed out (0 non-exempt failures) |
-| Task: Pipeline | `./backlog/tasks/task-06-pipeline.md` | build complete — ready for Validate |
+| Task: Pipeline | `./backlog/tasks/task-06-pipeline.md` | validate blocked — network-enabled download/full-run smoke check pending |
 | Parse plan | `./config/workbook_parse_plan.yaml` | created |
-| Validation report | `./.squad/validation_report.md` | updated for task-05-verify |
+| Validation report | `./.squad/validation_report.md` | updated for task-06-pipeline |
 | Review report | `./.squad/review_report.md` | updated for task-04-schema Closeout decision |
-| Squad decisions | `./.squad/decisions.md` | updated with task-06-pipeline build decisions |
+| Squad decisions | `./.squad/decisions.md` | updated with task-06-pipeline validation evidence |
 | Root README | `./README.md` | updated for task-06-pipeline (full doc refresh) |
 | Pipeline entrypoint | `./run_pipeline.py` | created |
 | Pipeline tests | `./tests/test_pipeline.py` | created (14 tests) |
@@ -60,10 +61,10 @@ Advance **Task ID: `task-06-pipeline`** — canonical pipeline entrypoint and re
 | Transform tests | `./tests/test_transform.py` | complete + missing-year-columns regression |
 | Schema tests | `./tests/test_generate_schemas.py` | created |
 | Verification tests | `./tests/test_verify.py` | created + missing-year-columns regression |
-| Processed outputs | `./data/processed/` | 177 CSVs generated |
-| Schema docs | `./docs/schemas/` | 177 schema files + README.md index |
+| Processed outputs | `./data/processed/` | 222 CSVs generated |
+| Schema docs | `./docs/schemas/` | 222 schema files + README.md index |
 | Verification report | `./docs/verification_report.md` | 277 pass / 22 exempt / 0 non-exempt fail |
 
 ## Needs Human Input
 
-- None at this time.
+- A network-enabled rerun of `python run_pipeline.py --step download` and `python run_pipeline.py` is required to complete Validate for `task-06-pipeline`; this sandbox cannot resolve `www.cbo.gov`.
