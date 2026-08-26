@@ -1081,7 +1081,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: historical comparison table (Sept 2017 vs May 2018 vs Actual 2018); not a fiscal-year time-series
       — standard year-column verification does not apply
   - sheet: Table 4
@@ -1097,7 +1097,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: historical comparison table (Sept 2017 vs May 2018 vs Actual 2018); not a fiscal-year time-series
       — standard year-column verification does not apply
 - workbook: 51298-2020-03-healthinsurance.xlsx
@@ -1238,7 +1238,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: historical comparison table; not a fiscal-year time-series — standard year-column verification
       does not apply
 - workbook: 51298-2020-09-healthinsurance.xlsx
@@ -1392,7 +1392,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: historical comparison table; not a fiscal-year time-series — standard year-column verification
       does not apply
 - workbook: 51298-2021-07-healthinsurance.xlsx
@@ -4644,7 +4644,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: interest rate table (Projection of Borrower Interest Rates, by award year); no plausible fiscal-year
       column structure — standard year-column verification does not apply
   - sheet: Table 5
@@ -4795,7 +4795,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: interest rate table (by award year, percent); no fiscal-year dollar column structure — standard
       year-column verification does not apply
   - sheet: T6-FV_07-2021
@@ -4963,7 +4963,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: interest rate table (by award year, percent); no fiscal-year dollar column structure — standard
       year-column verification does not apply
   - sheet: T7-Subsidies_05-2022
@@ -5115,7 +5115,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: interest rate table (by award year, percent); no fiscal-year dollar column structure — standard
       year-column verification does not apply
   - sheet: T6-Subsidies_05-2023
@@ -5267,7 +5267,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: interest rate table (by award year, percent); no fiscal-year dollar column structure — standard
       year-column verification does not apply
   - sheet: studentloanT6_6-24
@@ -6506,7 +6506,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
       during automated inspection
 - workbook: 51317-2020-03-usda.xlsx
@@ -6524,7 +6524,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
       during automated inspection
 - workbook: 51317-2021-02-usda.xlsx
@@ -6542,7 +6542,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
       during automated inspection
 - workbook: 51317-2021-07-usda.xlsx
@@ -6560,7 +6560,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
       during automated inspection
 - workbook: 51317-2022-05-usda.xlsx
@@ -6578,7 +6578,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
       during automated inspection
 - workbook: 51317-2023-02-usda.xlsx
@@ -6596,7 +6596,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
       during automated inspection
   - sheet: Appendix Function 300 02-2023
@@ -6627,7 +6627,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
       during automated inspection
   - sheet: App 117-169 CCC funding
@@ -6643,7 +6643,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: complex multi-table farm programs appendix sheet; no reliable fiscal-year column structure
       identified during automated inspection
 - workbook: 51317-2024-02-usda.xlsx
@@ -6661,7 +6661,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
       during automated inspection
   - sheet: App PL 117-169
@@ -6704,7 +6704,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
       during automated inspection
   - sheet: AppA_USDAFarmProg_06-2024
@@ -6720,7 +6720,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: complex multi-table farm programs appendix; no reliable fiscal-year column structure identified
       during automated inspection
   - sheet: AppB_USDAFarmProg_06-2024
@@ -6736,7 +6736,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: complex multi-table farm programs appendix; no reliable fiscal-year column structure identified
       during automated inspection
 - workbook: 51317-2025-01-usda.xlsx
@@ -6754,7 +6754,7 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
-    verification_exempt: true
+    verification_exempt: false
     verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
       during automated inspection
   - sheet: AppA_USDA Baseline_01-2025

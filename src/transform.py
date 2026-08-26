@@ -30,6 +30,15 @@ YEAR_LABEL_RE = re.compile(
     r"\s*$",
     re.IGNORECASE,
 )
+SHORT_YEAR_RANGE_RE = re.compile(
+    r"^\s*((?:19|20)\d{2})\s*[-–—]\s*(\d{2})\s*$",
+    re.IGNORECASE,
+)
+PERIOD_DECLARATION_RE = re.compile(
+    r"\b(calendar|fiscal|award|school)\s+year\s+((?:19|20)\d{2})"
+    r"(?:\s*[-–—]\s*((?:19|20)?\d{2}))?\b",
+    re.IGNORECASE,
+)
 # Unit-declaration detection: section headers that announce the unit for the
 # rows that follow.  CBO workbooks often contain multiple sub-sections per
 # sheet (e.g. budget in "Billions of dollars" followed by enrollment in
@@ -39,7 +48,8 @@ YEAR_LABEL_RE = re.compile(
 _UNIT_PHRASE = (
     r"(?:billions?|millions?|thousands?|trillions?|hundreds?)\s+of\s+"
     r"(?:dollars?|people|beneficiaries|enrollees|recipients|households|"
-    r"borrowers|loans|workers|cases|claims|jobs|hours|units|barrels|tons)"
+    r"borrowers|loans|workers|cases|claims|jobs|hours|units|barrels|tons|"
+    r"adults|children|students|veterans|survivors|participants|families|awards)"
     r"|dollars\s+per\s+\w+(?:\s+\w+)?"  # "Dollars per enrollee", "Dollars per recipient"
     r"|percent(?:age)?(?:\s+of\s+\w+(?:\s+\w+)?)?"
     r"|number\s+of\s+\w+(?:\s+\w+)?"
@@ -95,8 +105,12 @@ SLICE_KEYWORDS = {
     "income-security": INCOME_SECURITY_KEYWORDS,
 }
 SLICE_CHOICES = ("health", "income-security", "remaining-programs", "all")
-PLAUSIBLE_YEAR_MIN = 2019
-PLAUSIBLE_YEAR_MAX = 2040
+# Source workbooks contain useful historical actuals well before the baseline
+# publication year.  The bounds are deliberately broad and are used only for
+# recognizing year headers, not for deciding which observations deserve to be
+# retained.
+PLAUSIBLE_YEAR_MIN = 1900
+PLAUSIBLE_YEAR_MAX = 2100
 
 OUTPUT_COLUMNS = [
     "program",
@@ -107,7 +121,63 @@ OUTPUT_COLUMNS = [
     "source_file",
     "source_sheet",
     "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column",
 ]
+
+
+CANONICAL_PROGRAMS = {
+    "51293": "Child Nutrition",
+    "51295": "Child Support Enforcement",
+    "51296": "CHIP",
+    "51297": "Mortgages",
+    "51298": "Health Insurance",
+    "51299": "Foster Care",
+    "51300": "Highway Trust Fund",
+    "51301": "Medicaid",
+    "51302": "Medicare",
+    "51303": "Military Retirement",
+    "51304": "Pell Grant",
+    "51305": "PBGC",
+    "51307": "SSDI",
+    "51308": "Social Security",
+    "51309": "Social Security Trust Funds",
+    "51310": "Student Loans",
+    "51312": "SNAP",
+    "51313": "SSI",
+    "51314": "TANF",
+    "51316": "Unemployment Insurance",
+    "51317": "USDA Farm Programs",
+    "53725": "Veterans Benefits",
+    "53726": "Post-9/11 GI Bill",
+    "54946": "DoD Medicare",
+    "59126": "Airport and Airway Trust Fund",
+    "60044": "Toxic Exposures Fund",
+    "60394": "FDIC",
+    "60523": "Premium Tax Credit",
+    "61170": "Customs Fees",
+}
+
+
+@dataclass(frozen=True)
+class PeriodColumn:
+    column: int
+    period_type: str
+    start_year: int | None
+    end_year: int | None
+    label: str
+
+
+@dataclass(frozen=True)
+class PeriodBlock:
+    header_row: int
+    periods: tuple[PeriodColumn, ...]
 
 
 @dataclass(frozen=True)
@@ -133,7 +203,9 @@ def _header_end_row(header_rows: str) -> int:
 def _to_text(value: object) -> str:
     if value is None:
         return ""
-    return str(value).strip()
+    # Excel labels frequently contain embedded line breaks and alignment-only
+    # whitespace. Collapse them so each CSV observation remains a physical row.
+    return " ".join(str(value).split())
 
 
 def _parse_number(value: object) -> float | None:
@@ -241,6 +313,291 @@ def _normalize_unit_string(s: str) -> str:
     return s.strip()
 
 
+def _program_id(filename: str) -> str:
+    """Return the stable CBO source identifier at the start of a filename."""
+
+    match = re.match(r"^(\d+)-", Path(filename).name)
+    return match.group(1) if match else ""
+
+
+def _canonical_program_name(filename: str) -> str:
+    """Return a stable program label, falling back to the legacy inference."""
+
+    return CANONICAL_PROGRAMS.get(_program_id(filename), _infer_program_name(filename))
+
+
+def _exact_year(value: object) -> int | None:
+    """Recognize a cell whose complete value is a four-digit year."""
+
+    if isinstance(value, (datetime.datetime, datetime.date, bool)) or value is None:
+        return None
+    if isinstance(value, (int, float)):
+        if float(value).is_integer():
+            year = int(value)
+            if PLAUSIBLE_YEAR_MIN <= year <= PLAUSIBLE_YEAR_MAX:
+                return year
+        return None
+    match = YEAR_LABEL_RE.match(_to_text(value))
+    if not match:
+        return None
+    year = int(match.group(1))
+    return year if PLAUSIBLE_YEAR_MIN <= year <= PLAUSIBLE_YEAR_MAX else None
+
+
+def _short_year_range(value: object) -> tuple[int, int] | None:
+    """Recognize academic-style labels such as ``2024-25``."""
+
+    if not isinstance(value, str):
+        return None
+    match = SHORT_YEAR_RANGE_RE.match(_to_text(value))
+    if not match:
+        return None
+    start = int(match.group(1))
+    end = (start // 100) * 100 + int(match.group(2))
+    if end <= start:
+        end += 100
+    return (start, end) if end == start + 1 else None
+
+
+def _range_period_type(worksheet, header_row: int) -> str:
+    text = " ".join(
+        value
+        for row in range(max(1, header_row - 8), header_row + 1)
+        for _, value in _row_text_cells(worksheet, row)
+    ).lower()
+    return "school_year" if "school year" in text else "award_year"
+
+
+def _period_declaration(text_cells: list[tuple[int, str]]) -> tuple[str, int, int, str] | None:
+    """Extract an explicitly named period from prose or a section label."""
+
+    for _, text in text_cells:
+        match = PERIOD_DECLARATION_RE.search(text)
+        if not match:
+            continue
+        period_type = f"{match.group(1).lower()}_year"
+        start = int(match.group(2))
+        end_text = match.group(3)
+        if end_text:
+            if len(end_text) == 2:
+                end = (start // 100) * 100 + int(end_text)
+                if end <= start:
+                    end += 100
+            else:
+                end = int(end_text)
+        else:
+            end = start
+        return period_type, start, end, str(start) if start == end else f"{start}-{end}"
+    return None
+
+
+def _longest_consecutive_run(year_cells: list[tuple[int, int]]) -> int:
+    """Return the longest adjacent-column run whose years increase by one."""
+
+    longest = current = 0
+    previous: tuple[int, int] | None = None
+    for item in sorted(year_cells):
+        if previous and item[0] == previous[0] + 1 and item[1] == previous[1] + 1:
+            current += 1
+        else:
+            current = 1
+        longest = max(longest, current)
+        previous = item
+    return longest
+
+
+def _candidate_header_rows(worksheet, plan: SheetPlan) -> list[int]:
+    """Find coordinated year-header rows rather than scanning columns alone.
+
+    A real header normally contains a consecutive run of years across adjacent
+    columns.  Requiring that pattern prevents ordinary data values such as
+    1,919 or 2,030 from being mistaken for column headers.
+    """
+
+    planned = set(plan.year_columns)
+    columns = sorted(planned) if planned else list(range(1, min(worksheet.max_column, 60) + 1))
+    initial_header_limit = max(
+        plan.header_end_row,
+        (plan.first_data_row - 1) if plan.first_data_row and plan.first_data_row > 1 else 0,
+        min(MAX_YEAR_SCAN_ROWS, worksheet.max_row),
+    )
+    candidates: list[int] = []
+    for row in range(1, worksheet.max_row + 1):
+        year_cells = []
+        for column in columns:
+            value = worksheet.cell(row, column).value
+            year = _exact_year(value)
+            short_range = _short_year_range(value)
+            if year is not None:
+                year_cells.append((column, year))
+            elif short_range is not None:
+                year_cells.append((column, short_range[0]))
+        if not year_cells:
+            continue
+        longest = _longest_consecutive_run(year_cells)
+        # Two-year and one-year tables are accepted only in the initial header
+        # area and only when the parse plan identifies the relevant columns.
+        is_header = longest >= 3
+        if not is_header and row <= initial_header_limit:
+            is_header = longest >= 2 or (len(planned) == 1 and len(year_cells) == 1)
+        if is_header:
+            candidates.append(row)
+    return candidates
+
+
+def _cumulative_start(worksheet, header_row: int, column: int, end_year: int) -> int | None:
+    """Read stacked headers such as ``2025-`` above ``2029``."""
+
+    for row in range(header_row - 1, max(0, header_row - 4), -1):
+        text = _to_text(worksheet.cell(row=row, column=column).value)
+        match = re.search(r"((?:19|20)\d{2})\s*[-–—]\s*$", text)
+        if match:
+            start = int(match.group(1))
+            if start < end_year:
+                return start
+    return None
+
+
+def _period_blocks(worksheet, plan: SheetPlan) -> list[PeriodBlock]:
+    """Return every coordinated period block on a worksheet."""
+
+    blocks: list[PeriodBlock] = []
+    planned = set(plan.year_columns)
+    columns = sorted(planned) if planned else list(range(1, min(worksheet.max_column, 60) + 1))
+    for header_row in _candidate_header_rows(worksheet, plan):
+        periods_by_column: dict[int, PeriodColumn] = {}
+        for column in columns:
+            header_value = worksheet.cell(header_row, column).value
+            short_range = _short_year_range(header_value)
+            if short_range is not None:
+                start_year, end_year = short_range
+                periods_by_column[column] = PeriodColumn(
+                    column=column,
+                    period_type=_range_period_type(worksheet, header_row),
+                    start_year=start_year,
+                    end_year=end_year,
+                    label=f"{start_year}-{end_year}",
+                )
+                continue
+
+            end_year = _exact_year(header_value)
+            if end_year is not None:
+                start_year = _cumulative_start(worksheet, header_row, column, end_year)
+                if start_year is not None:
+                    periods_by_column[column] = PeriodColumn(
+                        column=column,
+                        period_type="cumulative_fiscal_years",
+                        start_year=start_year,
+                        end_year=end_year,
+                        label=f"{start_year}-{end_year}",
+                    )
+                else:
+                    periods_by_column[column] = PeriodColumn(
+                        column=column,
+                        period_type="fiscal_year",
+                        start_year=end_year,
+                        end_year=end_year,
+                        label=str(end_year),
+                    )
+                continue
+
+            # Some vintages put complete cumulative labels (for example,
+            # ``2023-2027``) in a row immediately above the annual-year row.
+            for candidate_row in range(header_row, max(0, header_row - 4), -1):
+                text = _to_text(worksheet.cell(candidate_row, column).value)
+                match = re.fullmatch(r"\s*((?:19|20)\d{2})\s*[-–—]\s*((?:19|20)\d{2})\s*", text)
+                if match and int(match.group(1)) < int(match.group(2)):
+                    periods_by_column[column] = PeriodColumn(
+                        column=column,
+                        period_type="cumulative_fiscal_years",
+                        start_year=int(match.group(1)),
+                        end_year=int(match.group(2)),
+                        label=f"{match.group(1)}-{match.group(2)}",
+                    )
+                    break
+
+        if not periods_by_column:
+            continue
+
+        # Split blocks only on true blank-column gaps. Cumulative columns are
+        # adjacent to annual columns and intentionally remain in the same block.
+        groups: list[list[PeriodColumn]] = []
+        for period in [periods_by_column[column] for column in sorted(periods_by_column)]:
+            if not groups or period.column > groups[-1][-1].column + 1:
+                groups.append([period])
+            else:
+                groups[-1].append(period)
+        for group in groups:
+            if len(group) < 2 and len(columns) != 1:
+                continue
+            blocks.append(PeriodBlock(header_row=header_row, periods=tuple(group)))
+    return blocks
+
+
+def _period_type_for_row(default_type: str, text: str) -> str:
+    """Apply row-level period semantics explicitly stated by the source."""
+
+    if default_type == "cumulative_fiscal_years":
+        return default_type
+    lowered = text.lower()
+    if "calendar year" in lowered:
+        return "calendar_year"
+    if "award year" in lowered:
+        return "award_year"
+    if "school year" in lowered:
+        return "school_year"
+    return default_type
+
+
+def _is_meaningful_text(text: str) -> bool:
+    if not text:
+        return False
+    stripped = text.strip()
+    if not stripped or re.fullmatch(r"[_—–-]+", stripped):
+        return False
+    lowered = stripped.lower()
+    if lowered in {"continued", "congressional budget office"}:
+        return False
+    if re.fullmatch(r"cbo.?s\s+.+\s+baseline", lowered):
+        return False
+    if re.fullmatch(r"(?:january|february|march|april|may|june|july|august|september|october|november|december)\s+\d{4}", lowered):
+        return False
+    return True
+
+
+def _row_text_cells(worksheet, row: int, max_column: int | None = None) -> list[tuple[int, str]]:
+    limit = min(worksheet.max_column, max_column or worksheet.max_column, 80)
+    cells: list[tuple[int, str]] = []
+    for column in range(1, limit + 1):
+        value = worksheet.cell(row=row, column=column).value
+        if isinstance(value, str):
+            text = _to_text(value)
+            if _is_meaningful_text(text):
+                cells.append((column, text))
+    return cells
+
+
+def _row_unit(text_cells: list[tuple[int, str]]) -> str | None:
+    detected: list[str] = []
+    for _, text in text_cells:
+        unit = _extract_unit_declaration(text)
+        if unit:
+            detected.append(_normalize_unit_string(unit))
+    return detected[-1] if detected else None
+
+
+def _unit_for_category(category_path: str, current_unit: str) -> str:
+    """Use an explicit metric label when it is more specific than sheet metadata."""
+
+    explicit = _extract_unit_declaration(category_path)
+    if explicit:
+        return _normalize_unit_string(explicit)
+    lowered = category_path.lower()
+    if "%" in category_path or "interest rate" in lowered:
+        return "Percent"
+    return current_unit or "Unknown"
+
+
 def _build_unit_map(worksheet, plan: SheetPlan, year_columns: list[int]) -> dict[int, str]:
     """Return a map of *row* -> unit string in effect for that row.
 
@@ -271,50 +628,21 @@ def _build_unit_map(worksheet, plan: SheetPlan, year_columns: list[int]) -> dict
 
 
 def _extract_years(worksheet, plan: SheetPlan) -> dict[int, int]:
-    """Return a mapping of column index → fiscal year found in that column's header.
+    """Return the annual fiscal-year columns in the first detected block.
 
-    Scans up to ``MAX_YEAR_SCAN_ROWS`` rows (or the declared ``header_end_row``,
-    whichever is larger) so that sheets whose year row falls below the declared
-    header boundary are still handled correctly.
-
-    * ``datetime`` / ``date`` cell values are skipped (publication timestamps).
-    * Integer/float values are matched directly against the plausible-year range.
-    * String values are matched with ``YEAR_LABEL_RE``, which requires the year
-      to be the primary cell content.  This prevents publication-date strings
-      like "February 2021" from being mis-classified as fiscal-year labels.
+    The transformation itself consumes :func:`_period_blocks` so cumulative
+    and non-fiscal periods are preserved without overloading ``fiscal_year``.
     """
-    years: dict[int, int] = {}
-    max_scan = max(plan.header_end_row, min(MAX_YEAR_SCAN_ROWS, worksheet.max_row))
-    using_inferred_columns = not plan.year_columns
-    if plan.year_columns:
-        columns_to_scan = plan.year_columns
-    else:
-        max_inferred_column = min(worksheet.max_column, MAX_INFERRED_YEAR_COLUMNS)
-        columns_to_scan = list(range(1, max_inferred_column + 1))
-    for column in columns_to_scan:
-        for row in range(1, max_scan + 1):
-            value = worksheet.cell(row=row, column=column).value
-            # Skip datetime / date objects — publication timestamps, not year labels.
-            if isinstance(value, (datetime.datetime, datetime.date)):
-                continue
-            # Integer or float: test the value directly.
-            if isinstance(value, (int, float)):
-                year = int(value)
-                if PLAUSIBLE_YEAR_MIN <= year <= PLAUSIBLE_YEAR_MAX:
-                    years[column] = year
-                    break
-                continue  # value out of range — check the next row
-            # String: require the cell to be essentially just a year label.
-            cell_text = _to_text(value)
-            match = YEAR_LABEL_RE.match(cell_text)
-            if match:
-                year = int(match.group(1))
-                if PLAUSIBLE_YEAR_MIN <= year <= PLAUSIBLE_YEAR_MAX:
-                    years[column] = year
-                    break  # stop as soon as a valid year label is found
-        if using_inferred_columns and len(years) >= MAX_INFERRED_YEAR_COLUMNS:
-            break
-    return years
+
+    for block in _period_blocks(worksheet, plan):
+        years = {
+            period.column: period.end_year
+            for period in block.periods
+            if period.period_type == "fiscal_year" and period.end_year is not None
+        }
+        if years:
+            return years
+    return {}
 
 
 def _infer_first_data_row(worksheet, plan: SheetPlan, year_columns: list[int] | None = None) -> int | None:
@@ -403,13 +731,361 @@ def _in_slice(plan: SheetPlan, slice_name: str) -> bool:
 def _write_dataset(path: Path, rows: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=OUTPUT_COLUMNS)
+        writer = csv.DictWriter(handle, fieldnames=OUTPUT_COLUMNS, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
 
 def _append_error(errors: list[str], workbook: str, sheet: str, reason: str) -> None:
     errors.append(f"{workbook}\t{sheet}\t{reason}")
+
+
+def _category_path(section_by_column: dict[int, str], category: str, category_column: int) -> str:
+    """Combine structural headings with a leaf label without duplicating text."""
+
+    parts: list[str] = []
+    for column, heading in sorted(section_by_column.items()):
+        if column > category_column:
+            continue
+        normalized = heading.strip()
+        if normalized and (not parts or normalized.casefold() != parts[-1].casefold()):
+            parts.append(normalized)
+    if not parts or category.casefold() != parts[-1].casefold():
+        parts.append(category)
+    return " / ".join(parts)
+
+
+def _combined_category_path(
+    structural: dict[int, str], inline: dict[int, str], category: str, category_column: int
+) -> str:
+    """Build a path when structural and inline labels share indentation columns."""
+
+    parts: list[str] = []
+    for headings, include_same_column in ((structural, True), (inline, False)):
+        for column, heading in sorted(headings.items()):
+            if column > category_column or (column == category_column and not include_same_column):
+                continue
+            normalized = heading.strip()
+            if normalized and normalized.casefold() not in {part.casefold() for part in parts}:
+                parts.append(normalized)
+    if category.casefold() not in {part.casefold() for part in parts}:
+        parts.append(category)
+    return " / ".join(parts)
+
+
+def _record(
+    plan: SheetPlan,
+    category: str,
+    category_path: str,
+    period_type: str,
+    start_year: int | None,
+    end_year: int | None,
+    period_label: str,
+    value: float,
+    unit: str,
+    row: int,
+    column: int,
+) -> dict:
+    """Build one normalized observation with complete source-cell lineage."""
+
+    program_id = _program_id(plan.workbook)
+    fiscal_year: int | str = end_year if period_type == "fiscal_year" and end_year is not None else ""
+    return {
+        "program": _canonical_program_name(plan.workbook),
+        "category": category,
+        "fiscal_year": fiscal_year,
+        "value": value,
+        "unit": unit or "Unknown",
+        "source_file": plan.workbook,
+        "source_sheet": plan.sheet,
+        "is_total": str(_is_total(category_path)).lower(),
+        "program_id": program_id,
+        "category_path": category_path,
+        "period_type": period_type,
+        "period_start_year": start_year if start_year is not None else "",
+        "period_end_year": end_year if end_year is not None else "",
+        "period_label": period_label,
+        "source_row": row,
+        "source_column": column,
+    }
+
+
+def _heading_candidates(text_cells: list[tuple[int, str]], period_start_column: int) -> list[tuple[int, str]]:
+    candidates: list[tuple[int, str]] = []
+    for column, text in text_cells:
+        if column >= period_start_column or _looks_like_note(text):
+            continue
+        if _parse_number(text) is not None or _exact_year(text) is not None:
+            continue
+        if _extract_unit_declaration(text) and re.fullmatch(r"\s*\(?\s*" + _UNIT_PHRASE + r"[^)]*\)?\s*", text, re.IGNORECASE):
+            continue
+        candidates.append((column, text))
+    return candidates
+
+
+def _update_sections(section_by_column: dict[int, str], headings: list[tuple[int, str]]) -> None:
+    for column, heading in headings:
+        for existing_column in [key for key in section_by_column if key >= column]:
+            del section_by_column[existing_column]
+        section_by_column[column] = heading
+
+
+def _nearest_table_heading(worksheet, header_row: int, period_start_column: int) -> str:
+    """Return the closest descriptive title immediately above a period header."""
+
+    for row in range(header_row - 1, max(0, header_row - 9), -1):
+        candidates = _heading_candidates(_row_text_cells(worksheet, row), period_start_column)
+        for _, text in reversed(candidates):
+            lowered = text.lower()
+            if lowered in {"actual", "estimated", "projected", "actual and projected"}:
+                continue
+            if "baseline" in lowered and ("cbo" in lowered or "budget office" in lowered):
+                continue
+            return text
+    return ""
+
+
+def _records_from_period_table(worksheet, plan: SheetPlan, blocks: list[PeriodBlock]) -> list[dict]:
+    """Parse column-oriented tables while preserving headings and period types."""
+
+    blocks_by_row: dict[int, list[PeriodColumn]] = defaultdict(list)
+    for block in blocks:
+        blocks_by_row[block.header_row].extend(block.periods)
+
+    current_periods: list[PeriodColumn] = []
+    current_unit = plan.unit
+    section_by_column: dict[int, str] = {}
+    inline_by_column: dict[int, str] = {}
+    pending_label: tuple[int, str, int] | None = None
+    records: list[dict] = []
+    minimum_data_row = plan.first_data_row or min(block.header_row for block in blocks) + 1
+    first_period_column = min(period.column for block in blocks for period in block.periods)
+    table_heading = ""
+
+    for row in range(1, worksheet.max_row + 1):
+        text_cells = _row_text_cells(worksheet, row)
+        detected_unit = _row_unit(text_cells)
+        if detected_unit:
+            current_unit = detected_unit
+
+        if row in blocks_by_row:
+            unique = {period.column: period for period in blocks_by_row[row]}
+            current_periods = [unique[column] for column in sorted(unique)]
+            table_heading = _nearest_table_heading(worksheet, row, min(unique)) or table_heading
+            section_by_column.clear()
+            inline_by_column.clear()
+            pending_label = None
+            continue
+        if not current_periods:
+            if row >= minimum_data_row:
+                headings = _heading_candidates(text_cells, first_period_column)
+                if headings:
+                    _update_sections(section_by_column, headings)
+                    inline_by_column.clear()
+            continue
+        if row < minimum_data_row:
+            period_start_column = min(period.column for period in current_periods)
+            headings = _heading_candidates(text_cells, period_start_column)
+            if headings:
+                _update_sections(section_by_column, headings)
+                inline_by_column.clear()
+            continue
+
+        period_start_column = min(period.column for period in current_periods)
+        numeric_periods = [
+            (period, value)
+            for period in current_periods
+            if (value := _parse_number(worksheet.cell(row=row, column=period.column).value)) is not None
+        ]
+        headings = _heading_candidates(text_cells, period_start_column)
+
+        if not numeric_periods:
+            if headings:
+                _update_sections(section_by_column, headings)
+                inline_by_column.clear()
+                pending_label = (*headings[-1], row)
+            continue
+
+        label_candidates = headings
+        if label_candidates:
+            category_column, category = label_candidates[-1]
+        elif pending_label and row - pending_label[2] <= 2:
+            category_column, category, _ = pending_label
+        else:
+            category_column, category = 1, f"Unlabeled value (row {row})"
+        if _looks_like_note(category):
+            continue
+
+        if len(label_candidates) > 1:
+            _update_sections(inline_by_column, label_candidates[:-1])
+        category_path = _combined_category_path(section_by_column, inline_by_column, category, category_column)
+        if table_heading and not category_path.casefold().startswith(table_heading.casefold()):
+            category_path = f"{table_heading} / {category_path}"
+        explicit_unit = _row_unit(label_candidates)
+        unit = explicit_unit or _unit_for_category(category_path, current_unit)
+        for period, value in numeric_periods:
+            period_type = _period_type_for_row(period.period_type, category_path)
+            records.append(
+                _record(
+                    plan=plan,
+                    category=category,
+                    category_path=category_path,
+                    period_type=period_type,
+                    start_year=period.start_year,
+                    end_year=period.end_year,
+                    period_label=period.label,
+                    value=value,
+                    unit=unit,
+                    row=row,
+                    column=period.column,
+                )
+            )
+        pending_label = None
+    return records
+
+
+def _column_heading(worksheet, row: int, column: int) -> str:
+    """Find the nearest text header above a value in a nonstandard table."""
+
+    for candidate_row in range(row - 1, max(0, row - 12), -1):
+        text = _to_text(worksheet.cell(candidate_row, column).value)
+        if text and _is_meaningful_text(text) and _parse_number(text) is None:
+            return text
+    return ""
+
+
+def _generic_column_contexts(worksheet, first_data_row: int, max_column: int) -> dict[int, str]:
+    """Build scenario/estimate labels for columns in comparison-style tables."""
+
+    contexts: dict[int, str] = {}
+    for column in range(1, max_column + 1):
+        parts: list[str] = []
+        for row in range(1, first_data_row):
+            text = _to_text(worksheet.cell(row, column).value)
+            lowered = text.lower()
+            if not text or not _is_meaningful_text(text) or len(text) > 80:
+                continue
+            if _extract_unit_declaration(text) or _period_declaration([(column, text)]):
+                continue
+            if any(
+                phrase in lowered
+                for phrase in (
+                    "congressional budget office",
+                    "baseline projections",
+                    "selected categories",
+                    "table ",
+                )
+            ):
+                continue
+            if text.casefold() not in {part.casefold() for part in parts}:
+                parts.append(text.replace("\n", " "))
+        if parts:
+            contexts[column] = " ".join(parts[-2:])
+    return contexts
+
+
+def _records_from_generic_table(worksheet, plan: SheetPlan) -> list[dict]:
+    """Represent nonstandard included sheets without inventing annual semantics.
+
+    Every emitted measure retains its exact source coordinate.  A leading year
+    key is used when present; otherwise the period is explicitly ``unmapped``.
+    """
+
+    first_row = plan.first_data_row or plan.header_end_row + 1
+    max_column = min(worksheet.max_column, 200)
+    current_unit = plan.unit
+    current_period: tuple[str, int, int, str] | None = None
+    section_by_column: dict[int, str] = {}
+    inline_by_column: dict[int, str] = {}
+    records: list[dict] = []
+    column_contexts = _generic_column_contexts(worksheet, first_row, max_column)
+
+    for row in range(1, worksheet.max_row + 1):
+        text_cells = _row_text_cells(worksheet, row, max_column)
+        detected_unit = _row_unit(text_cells)
+        if detected_unit:
+            current_unit = detected_unit
+        declared_period = _period_declaration(text_cells)
+        if declared_period:
+            current_period = declared_period
+        if row < first_row:
+            continue
+
+        numeric_cells = [
+            (column, value)
+            for column in range(1, max_column + 1)
+            if (value := _parse_number(worksheet.cell(row=row, column=column).value)) is not None
+        ]
+        if not numeric_cells:
+            headings = _heading_candidates(text_cells, max_column + 1)
+            if headings:
+                _update_sections(section_by_column, headings)
+                inline_by_column.clear()
+            continue
+
+        leading_year: tuple[int, int] | None = None
+        for column, _ in numeric_cells:
+            year = _exact_year(worksheet.cell(row=row, column=column).value)
+            if year is not None and column <= 3:
+                leading_year = (column, year)
+                break
+
+        for column, value in numeric_cells:
+            if leading_year and column == leading_year[0]:
+                continue
+            labels = [item for item in text_cells if item[0] < column and _parse_number(item[1]) is None]
+            if labels:
+                category_column, category = labels[-1]
+            else:
+                header = _column_heading(worksheet, row, column)
+                category_column = column
+                category = header or f"Unlabeled value (row {row}, column {column})"
+            if _looks_like_note(category):
+                continue
+            if labels and len(labels) > 1:
+                _update_sections(inline_by_column, labels[:-1])
+            category_path = _combined_category_path(section_by_column, inline_by_column, category, category_column)
+            if leading_year:
+                period_type = _period_type_for_row("fiscal_year", category_path)
+                start_year = end_year = leading_year[1]
+                period_label = str(leading_year[1])
+            elif current_period:
+                period_type, start_year, end_year, period_label = current_period
+            else:
+                period_type = "unmapped"
+                start_year = end_year = None
+                period_label = "Not identified in source headers"
+            column_context = column_contexts.get(column, "")
+            if column_context and column_context.casefold() not in category_path.casefold():
+                category_path = f"{category_path} / {column_context}"
+            records.append(
+                _record(
+                    plan=plan,
+                    category=category,
+                    category_path=category_path,
+                    period_type=period_type,
+                    start_year=start_year,
+                    end_year=end_year,
+                    period_label=period_label,
+                    value=value,
+                    unit=_unit_for_category(category_path, current_unit),
+                    row=row,
+                    column=column,
+                )
+            )
+    return records
+
+
+def _records_for_sheet(worksheet, plan: SheetPlan) -> tuple[list[dict], str | None]:
+    blocks = _period_blocks(worksheet, plan)
+    if blocks:
+        return _records_from_period_table(worksheet, plan, blocks), None
+    records = _records_from_generic_table(worksheet, plan)
+    if records and all(record["period_type"] != "unmapped" for record in records):
+        warning = "nonstandard comparison layout; used coordinate-preserving comparison parser"
+    else:
+        warning = "no coordinated period header; used coordinate-preserving generic parser"
+    return records, warning
 
 
 def run_transform(
@@ -420,98 +1096,42 @@ def run_transform(
 ) -> int:
     if slice_name not in SLICE_CHOICES:
         raise ValueError(f"Unsupported slice: {slice_name}")
-    plans = [plan for plan in _read_plan(parse_plan_path) if plan.include and _in_slice(plan, slice_name) and not plan.verification_exempt]
+    plans = [plan for plan in _read_plan(parse_plan_path) if plan.include and _in_slice(plan, slice_name)]
     records_by_dataset: dict[str, list[dict]] = defaultdict(list)
     errors: list[str] = []
+    warnings: list[str] = []
 
+    plans_by_workbook: dict[str, list[SheetPlan]] = defaultdict(list)
     for plan in plans:
-        workbook_path = input_dir / plan.workbook
+        plans_by_workbook[plan.workbook].append(plan)
+
+    for workbook_name, workbook_plans in plans_by_workbook.items():
+        workbook_path = input_dir / workbook_name
         if not workbook_path.exists():
-            _append_error(errors, plan.workbook, plan.sheet, "workbook not found")
+            for plan in workbook_plans:
+                _append_error(errors, plan.workbook, plan.sheet, "workbook not found")
             continue
         workbook = load_workbook(workbook_path, data_only=True)
         try:
-            actual_sheet = _find_sheet(workbook.sheetnames, plan.sheet)
-            if actual_sheet is None:
-                _append_error(errors, plan.workbook, plan.sheet, "sheet not found")
-                continue
-            worksheet = workbook[actual_sheet]
-            years = _extract_years(worksheet, plan)
-            if not years:
-                _append_error(errors, plan.workbook, plan.sheet, "no fiscal years inferred")
-                continue
-            active_year_columns = sorted(years)
-            first_data_row = plan.first_data_row or _infer_first_data_row(worksheet, plan, active_year_columns)
-            if first_data_row is None:
-                _append_error(errors, plan.workbook, plan.sheet, "could not infer first data row")
-                continue
-
-            # Single combined pass: track running unit AND collect data rows together.
-            # Starting from row 1 (not first_data_row) ensures unit declarations in
-            # header sections (e.g. row 11 in Medicaid) are seen before data rows.
-            current_unit = plan.unit
-            rows_written = 0
-            program_name = _infer_program_name(plan.workbook)
-            for row in range(1, worksheet.max_row + 1):
-                text_a = _to_text(worksheet.cell(row=row, column=1).value)
-                # Check for a unit-declaration row: has col-A text, no numeric data.
-                if text_a:
-                    has_numeric = any(
-                        _parse_number(worksheet.cell(row=row, column=col).value) is not None
-                        for col in active_year_columns
-                    )
-                    if not has_numeric:
-                        detected = _extract_unit_declaration(text_a)
-                        if detected:
-                            current_unit = _normalize_unit_string(detected)
-                        if row < first_data_row:
-                            continue
-                        # Non-numeric header row in data section — skip as data.
-                        continue
-                    # Row has numeric data — emit if past header.
-                    if row < first_data_row:
-                        continue
-                else:
-                    if row < first_data_row:
-                        continue
-                    # Blank col-A row in data section — check cols 2-3 for category.
-                    has_numeric = any(
-                        _parse_number(worksheet.cell(row=row, column=col).value) is not None
-                        for col in active_year_columns
-                    )
-                    if not has_numeric:
-                        continue
-                category = _get_row_category(worksheet, row)
-                if not category:
+            for plan in workbook_plans:
+                actual_sheet = _find_sheet(workbook.sheetnames, plan.sheet)
+                if actual_sheet is None:
+                    _append_error(errors, plan.workbook, plan.sheet, "sheet not found")
                     continue
-                if _looks_like_note(category):
-                    continue
-                for column in active_year_columns:
-                    year = years.get(column)
-                    if year is None:
-                        continue
-                    value = _parse_number(worksheet.cell(row=row, column=column).value)
-                    if value is None:
-                        continue
-                    records_by_dataset[plan.output_dataset].append(
-                        {
-                            "program": program_name,
-                            "category": category,
-                            "fiscal_year": year,
-                            "value": value,
-                            "unit": current_unit or "Unknown",
-                            "source_file": plan.workbook,
-                            "source_sheet": plan.sheet,
-                            "is_total": str(_is_total(category)).lower(),
-                        }
-                    )
-                    rows_written += 1
-            if rows_written == 0:
-                _append_error(errors, plan.workbook, plan.sheet, "no data rows parsed")
+                worksheet = workbook[actual_sheet]
+                sheet_records, warning = _records_for_sheet(worksheet, plan)
+                records_by_dataset[plan.output_dataset].extend(sheet_records)
+                if warning:
+                    warnings.append(f"{plan.workbook}\t{plan.sheet}\t{warning}")
+                if not sheet_records:
+                    _append_error(errors, plan.workbook, plan.sheet, "no data rows parsed")
         finally:
             workbook.close()
 
     output_dir.mkdir(parents=True, exist_ok=True)
+    if slice_name == "all":
+        for existing_csv in output_dir.glob("*.csv"):
+            existing_csv.unlink()
     for dataset, rows in records_by_dataset.items():
         _write_dataset(output_dir / f"{dataset}.csv", rows)
 
@@ -520,9 +1140,15 @@ def run_transform(
     if errors:
         error_body += "\n"
     error_path.write_text(error_body, encoding="utf-8")
+    warning_path = output_dir / "parse_warnings.log"
+    warning_body = "\n".join(warnings)
+    if warnings:
+        warning_body += "\n"
+    warning_path.write_text(warning_body, encoding="utf-8")
     print(
         f"Transform complete. slice={slice_name}, datasets={len(records_by_dataset)}, "
-        f"rows={sum(len(rows) for rows in records_by_dataset.values())}, errors={len(errors)}"
+        f"rows={sum(len(rows) for rows in records_by_dataset.values())}, "
+        f"errors={len(errors)}, warnings={len(warnings)}"
     )
     return 1 if errors else 0
 

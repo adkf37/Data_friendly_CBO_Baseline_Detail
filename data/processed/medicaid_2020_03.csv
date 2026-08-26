@@ -1,259 +1,317 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Medicaid,Disproportionate Share Hospitals,2019,10.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2020,8.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2021,5.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2022,5.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2023,5.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2024,5.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2025,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2026,7.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2027,8.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2028,10.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2029,12.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2030,13.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2019,4.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2020,4.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2021,5.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2022,5.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2023,5.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2024,5.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2025,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2026,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2027,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2028,7.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2029,7.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2030,8.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Administration,2019,18.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Administration,2020,19.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Administration,2021,20.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Administration,2022,21.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Administration,2023,22.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Administration,2024,23.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Administration,2025,24.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Administration,2026,25.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Administration,2027,27.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Administration,2028,28.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Administration,2029,29.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Administration,2030,31.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Fee for service,2020,8.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Fee for service,2021,4.3,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Fee for service,2022,4.2,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Fee for service,2023,5.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Fee for service,2024,5.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Fee for service,2025,5.5,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Fee for service,2026,5.3,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Fee for service,2027,5.2,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Fee for service,2028,5.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Fee for service,2029,5.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Fee for service,2030,5.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Managed care,2020,3.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Managed care,2021,6.9,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Managed care,2022,6.4,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Managed care,2023,7.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Managed care,2024,6.8,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Managed care,2025,6.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Managed care,2026,6.4,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Managed care,2027,6.4,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Managed care,2028,6.2,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Managed care,2029,6.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Managed care,2030,6.4,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Medicare premiums,2020,7.4,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Medicare premiums,2021,10.5,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Medicare premiums,2022,7.8,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Medicare premiums,2023,6.9,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Medicare premiums,2024,7.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Medicare premiums,2025,6.8,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Medicare premiums,2026,6.5,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Medicare premiums,2027,6.4,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Medicare premiums,2028,6.3,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Medicare premiums,2029,6.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Medicare premiums,2030,5.9,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Long-term care,2020,3.5,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Long-term care,2021,3.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Long-term care,2022,3.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Long-term care,2023,4.3,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Long-term care,2024,4.5,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Long-term care,2025,4.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Long-term care,2026,4.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Long-term care,2027,4.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Long-term care,2028,4.7,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Long-term care,2029,4.8,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Long-term care,2030,4.9,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2020,-26.9,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2021,-39.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2022,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2023,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2024,5.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2025,5.2,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2026,20.8,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2027,20.8,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2028,20.7,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2029,19.5,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Disproportionate Share Hospitals,2030,9.9,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2020,4.8,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2021,4.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2022,6.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2023,6.2,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2024,6.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2025,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2026,5.9,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2027,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2028,6.2,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2029,6.3,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Vaccines for Children,2030,6.4,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2019,50.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2020,52.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2021,54.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2022,56.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2023,59.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2024,61.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2025,64.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2026,68.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2027,71.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2028,75.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2029,78.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2030,82.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2019,118.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2020,125.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2021,132.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2022,137.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2023,144.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2024,152.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2025,161.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2026,170.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2027,179.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2028,190.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2029,201.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2030,212.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2019,75.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2020,78.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2021,83.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2022,87.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2023,93.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2024,98.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2025,104.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2026,110.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2027,115.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2028,122.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2029,128.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2030,136.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2019,129.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2020,137.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2021,145.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2022,154.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2023,165.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2024,177.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2025,188.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2026,199.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2027,212.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2028,224.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2029,236.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2030,249.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2019,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2020,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2021,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2022,7.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2023,7.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2024,7.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2025,7.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2026,7.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2027,7.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2028,7.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2029,7.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2030,7.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2019,9.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2020,9.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2021,9.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2022,9.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2023,9.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2024,9.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2025,10.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2026,10.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2027,10.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2028,10.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2029,10.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2030,10.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2019,31.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2020,30.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2021,30.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2022,30.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2023,30.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2024,30.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2025,30.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2026,30.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2027,30.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2028,30.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2029,30.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2030,30.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2019,27.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2020,27.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2021,27.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2022,28.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2023,28.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2024,28.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2025,29.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2026,29.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2027,29.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2028,29.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2029,29.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2030,29.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Total Enrolled Within a Fiscal Year,2019,95.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true
-Medicaid,Total Enrolled Within a Fiscal Year,2020,94.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true
-Medicaid,Total Enrolled Within a Fiscal Year,2021,94.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true
-Medicaid,Total Enrolled Within a Fiscal Year,2022,94.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true
-Medicaid,Total Enrolled Within a Fiscal Year,2023,95.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true
-Medicaid,Total Enrolled Within a Fiscal Year,2024,96.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true
-Medicaid,Total Enrolled Within a Fiscal Year,2025,97.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true
-Medicaid,Total Enrolled Within a Fiscal Year,2026,97.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true
-Medicaid,Total Enrolled Within a Fiscal Year,2027,98.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true
-Medicaid,Total Enrolled Within a Fiscal Year,2028,98.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true
-Medicaid,Total Enrolled Within a Fiscal Year,2029,98.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true
-Medicaid,Total Enrolled Within a Fiscal Year,2030,99.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true
-Medicaid,Aged,2019,7840.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2020,8150.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2021,8420.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2022,8620.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2023,8900.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2024,9200.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2025,9520.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2026,9840.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2027,10180.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2028,10530.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2029,10890.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Aged,2030,11270.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2019,12440.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2020,13260.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2021,13990.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2022,14580.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2023,15320.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2024,16100.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2025,16910.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2026,17740.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2027,18610.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2028,19530.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2029,20500.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Blind and Disabled,2030,21510.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2019,2430.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2020,2600.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2021,2770.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2022,2910.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2023,3070.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2024,3250.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2025,3430.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2026,3610.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2027,3810.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2028,4010.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2029,4230.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Children,2030,4460.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2019,4720.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2020,5030.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2021,5330.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2022,5610.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2023,5920.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2024,6250.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2025,6580.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2026,6940.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2027,7310.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2028,7700.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2029,8110.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
-Medicaid,Adults,2030,8570.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+Medicaid,Disproportionate Share Hospitals,2019,10.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2019,2019,2019,17,6
+Medicaid,Disproportionate Share Hospitals,2020,8.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2020,2020,2020,17,7
+Medicaid,Disproportionate Share Hospitals,2021,5.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2021,2021,2021,17,8
+Medicaid,Disproportionate Share Hospitals,2022,5.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2022,2022,2022,17,9
+Medicaid,Disproportionate Share Hospitals,2023,5.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2023,2023,2023,17,10
+Medicaid,Disproportionate Share Hospitals,2024,5.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2024,2024,2024,17,11
+Medicaid,Disproportionate Share Hospitals,2025,6.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2025,2025,2025,17,12
+Medicaid,Disproportionate Share Hospitals,2026,7.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2026,2026,2026,17,13
+Medicaid,Disproportionate Share Hospitals,2027,8.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2027,2027,2027,17,14
+Medicaid,Disproportionate Share Hospitals,2028,10.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2028,2028,2028,17,15
+Medicaid,Disproportionate Share Hospitals,2029,12.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2029,2029,2029,17,16
+Medicaid,Disproportionate Share Hospitals,2030,13.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2030,2030,2030,17,17
+Medicaid,Vaccines for Children,2019,4.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2019,2019,2019,18,6
+Medicaid,Vaccines for Children,2020,4.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2020,2020,2020,18,7
+Medicaid,Vaccines for Children,2021,5.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2021,2021,2021,18,8
+Medicaid,Vaccines for Children,2022,5.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2022,2022,2022,18,9
+Medicaid,Vaccines for Children,2023,5.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2023,2023,2023,18,10
+Medicaid,Vaccines for Children,2024,5.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2024,2024,2024,18,11
+Medicaid,Vaccines for Children,2025,6.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2025,2025,2025,18,12
+Medicaid,Vaccines for Children,2026,6.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2026,2026,2026,18,13
+Medicaid,Vaccines for Children,2027,6.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2027,2027,2027,18,14
+Medicaid,Vaccines for Children,2028,7.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2028,2028,2028,18,15
+Medicaid,Vaccines for Children,2029,7.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2029,2029,2029,18,16
+Medicaid,Vaccines for Children,2030,8.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2030,2030,2030,18,17
+Medicaid,Administration,2019,18.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Administration,fiscal_year,2019,2019,2019,19,6
+Medicaid,Administration,2020,19.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Administration,fiscal_year,2020,2020,2020,19,7
+Medicaid,Administration,2021,20.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Administration,fiscal_year,2021,2021,2021,19,8
+Medicaid,Administration,2022,21.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Administration,fiscal_year,2022,2022,2022,19,9
+Medicaid,Administration,2023,22.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Administration,fiscal_year,2023,2023,2023,19,10
+Medicaid,Administration,2024,23.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Administration,fiscal_year,2024,2024,2024,19,11
+Medicaid,Administration,2025,24.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Administration,fiscal_year,2025,2025,2025,19,12
+Medicaid,Administration,2026,25.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Administration,fiscal_year,2026,2026,2026,19,13
+Medicaid,Administration,2027,27.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Administration,fiscal_year,2027,2027,2027,19,14
+Medicaid,Administration,2028,28.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Administration,fiscal_year,2028,2028,2028,19,15
+Medicaid,Administration,2029,29.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Administration,fiscal_year,2029,2029,2029,19,16
+Medicaid,Administration,2030,31.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Administration,fiscal_year,2030,2030,2030,19,17
+Medicaid,Total,2019,408.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Long-term care / Subtotal / Total,fiscal_year,2019,2019,2019,21,6
+Medicaid,Total,2020,423.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Long-term care / Subtotal / Total,fiscal_year,2020,2020,2020,21,7
+Medicaid,Total,2021,443.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Long-term care / Subtotal / Total,fiscal_year,2021,2021,2021,21,8
+Medicaid,Total,2022,465.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Long-term care / Subtotal / Total,fiscal_year,2022,2022,2022,21,9
+Medicaid,Total,2023,493.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Long-term care / Subtotal / Total,fiscal_year,2023,2023,2023,21,10
+Medicaid,Total,2024,522.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Long-term care / Subtotal / Total,fiscal_year,2024,2024,2024,21,11
+Medicaid,Total,2025,552.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Long-term care / Subtotal / Total,fiscal_year,2025,2025,2025,21,12
+Medicaid,Total,2026,585.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Long-term care / Subtotal / Total,fiscal_year,2026,2026,2026,21,13
+Medicaid,Total,2027,619.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Long-term care / Subtotal / Total,fiscal_year,2027,2027,2027,21,14
+Medicaid,Total,2028,654.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Long-term care / Subtotal / Total,fiscal_year,2028,2028,2028,21,15
+Medicaid,Total,2029,691.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Long-term care / Subtotal / Total,fiscal_year,2029,2029,2029,21,16
+Medicaid,Total,2030,731.0,Billions of dollars,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Long-term care / Subtotal / Total,fiscal_year,2030,2030,2030,21,17
+Medicaid,Fee for service,2020,8.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Fee for service,fiscal_year,2020,2020,2020,26,7
+Medicaid,Fee for service,2021,4.3,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Fee for service,fiscal_year,2021,2021,2021,26,8
+Medicaid,Fee for service,2022,4.2,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Fee for service,fiscal_year,2022,2022,2022,26,9
+Medicaid,Fee for service,2023,5.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Fee for service,fiscal_year,2023,2023,2023,26,10
+Medicaid,Fee for service,2024,5.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Fee for service,fiscal_year,2024,2024,2024,26,11
+Medicaid,Fee for service,2025,5.5,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Fee for service,fiscal_year,2025,2025,2025,26,12
+Medicaid,Fee for service,2026,5.3,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Fee for service,fiscal_year,2026,2026,2026,26,13
+Medicaid,Fee for service,2027,5.2,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Fee for service,fiscal_year,2027,2027,2027,26,14
+Medicaid,Fee for service,2028,5.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Fee for service,fiscal_year,2028,2028,2028,26,15
+Medicaid,Fee for service,2029,5.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Fee for service,fiscal_year,2029,2029,2029,26,16
+Medicaid,Fee for service,2030,5.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Fee for service,fiscal_year,2030,2030,2030,26,17
+Medicaid,Managed care,2020,3.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Managed care,fiscal_year,2020,2020,2020,27,7
+Medicaid,Managed care,2021,6.9,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Managed care,fiscal_year,2021,2021,2021,27,8
+Medicaid,Managed care,2022,6.4,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Managed care,fiscal_year,2022,2022,2022,27,9
+Medicaid,Managed care,2023,7.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Managed care,fiscal_year,2023,2023,2023,27,10
+Medicaid,Managed care,2024,6.8,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Managed care,fiscal_year,2024,2024,2024,27,11
+Medicaid,Managed care,2025,6.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Managed care,fiscal_year,2025,2025,2025,27,12
+Medicaid,Managed care,2026,6.4,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Managed care,fiscal_year,2026,2026,2026,27,13
+Medicaid,Managed care,2027,6.4,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Managed care,fiscal_year,2027,2027,2027,27,14
+Medicaid,Managed care,2028,6.2,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Managed care,fiscal_year,2028,2028,2028,27,15
+Medicaid,Managed care,2029,6.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Managed care,fiscal_year,2029,2029,2029,27,16
+Medicaid,Managed care,2030,6.4,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Managed care,fiscal_year,2030,2030,2030,27,17
+Medicaid,Medicare premiums,2020,7.4,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Medicare premiums,fiscal_year,2020,2020,2020,28,7
+Medicaid,Medicare premiums,2021,10.5,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Medicare premiums,fiscal_year,2021,2021,2021,28,8
+Medicaid,Medicare premiums,2022,7.8,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Medicare premiums,fiscal_year,2022,2022,2022,28,9
+Medicaid,Medicare premiums,2023,6.9,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Medicare premiums,fiscal_year,2023,2023,2023,28,10
+Medicaid,Medicare premiums,2024,7.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Medicare premiums,fiscal_year,2024,2024,2024,28,11
+Medicaid,Medicare premiums,2025,6.8,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Medicare premiums,fiscal_year,2025,2025,2025,28,12
+Medicaid,Medicare premiums,2026,6.5,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Medicare premiums,fiscal_year,2026,2026,2026,28,13
+Medicaid,Medicare premiums,2027,6.4,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Medicare premiums,fiscal_year,2027,2027,2027,28,14
+Medicaid,Medicare premiums,2028,6.3,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Medicare premiums,fiscal_year,2028,2028,2028,28,15
+Medicaid,Medicare premiums,2029,6.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Medicare premiums,fiscal_year,2029,2029,2029,28,16
+Medicaid,Medicare premiums,2030,5.9,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Medicare premiums,fiscal_year,2030,2030,2030,28,17
+Medicaid,Long-term care,2020,3.5,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Long-term care,fiscal_year,2020,2020,2020,29,7
+Medicaid,Long-term care,2021,3.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Long-term care,fiscal_year,2021,2021,2021,29,8
+Medicaid,Long-term care,2022,3.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Long-term care,fiscal_year,2022,2022,2022,29,9
+Medicaid,Long-term care,2023,4.3,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Long-term care,fiscal_year,2023,2023,2023,29,10
+Medicaid,Long-term care,2024,4.5,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Long-term care,fiscal_year,2024,2024,2024,29,11
+Medicaid,Long-term care,2025,4.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Long-term care,fiscal_year,2025,2025,2025,29,12
+Medicaid,Long-term care,2026,4.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Long-term care,fiscal_year,2026,2026,2026,29,13
+Medicaid,Long-term care,2027,4.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Long-term care,fiscal_year,2027,2027,2027,29,14
+Medicaid,Long-term care,2028,4.7,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Long-term care,fiscal_year,2028,2028,2028,29,15
+Medicaid,Long-term care,2029,4.8,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Long-term care,fiscal_year,2029,2029,2029,29,16
+Medicaid,Long-term care,2030,4.9,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Acute care / Long-term care,fiscal_year,2030,2030,2030,29,17
+Medicaid,Subtotal,2020,4.5,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Subtotal,fiscal_year,2020,2020,2020,31,7
+Medicaid,Subtotal,2021,5.5,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Subtotal,fiscal_year,2021,2021,2021,31,8
+Medicaid,Subtotal,2022,5.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Subtotal,fiscal_year,2022,2022,2022,31,9
+Medicaid,Subtotal,2023,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Subtotal,fiscal_year,2023,2023,2023,31,10
+Medicaid,Subtotal,2024,5.9,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Subtotal,fiscal_year,2024,2024,2024,31,11
+Medicaid,Subtotal,2025,5.9,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Subtotal,fiscal_year,2025,2025,2025,31,12
+Medicaid,Subtotal,2026,5.7,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Subtotal,fiscal_year,2026,2026,2026,31,13
+Medicaid,Subtotal,2027,5.7,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Subtotal,fiscal_year,2027,2027,2027,31,14
+Medicaid,Subtotal,2028,5.5,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Subtotal,fiscal_year,2028,2028,2028,31,15
+Medicaid,Subtotal,2029,5.5,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Subtotal,fiscal_year,2029,2029,2029,31,16
+Medicaid,Subtotal,2030,5.7,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Subtotal,fiscal_year,2030,2030,2030,31,17
+Medicaid,Disproportionate Share Hospitals,2020,-26.9,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2020,2020,2020,33,7
+Medicaid,Disproportionate Share Hospitals,2021,-39.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2021,2021,2021,33,8
+Medicaid,Disproportionate Share Hospitals,2022,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2022,2022,2022,33,9
+Medicaid,Disproportionate Share Hospitals,2023,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2023,2023,2023,33,10
+Medicaid,Disproportionate Share Hospitals,2024,5.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2024,2024,2024,33,11
+Medicaid,Disproportionate Share Hospitals,2025,5.2,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2025,2025,2025,33,12
+Medicaid,Disproportionate Share Hospitals,2026,20.8,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2026,2026,2026,33,13
+Medicaid,Disproportionate Share Hospitals,2027,20.8,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2027,2027,2027,33,14
+Medicaid,Disproportionate Share Hospitals,2028,20.7,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2028,2028,2028,33,15
+Medicaid,Disproportionate Share Hospitals,2029,19.5,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2029,2029,2029,33,16
+Medicaid,Disproportionate Share Hospitals,2030,9.9,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Disproportionate Share Hospitals,fiscal_year,2030,2030,2030,33,17
+Medicaid,Vaccines for Children,2020,4.8,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2020,2020,2020,34,7
+Medicaid,Vaccines for Children,2021,4.6,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2021,2021,2021,34,8
+Medicaid,Vaccines for Children,2022,6.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2022,2022,2022,34,9
+Medicaid,Vaccines for Children,2023,6.2,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2023,2023,2023,34,10
+Medicaid,Vaccines for Children,2024,6.1,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2024,2024,2024,34,11
+Medicaid,Vaccines for Children,2025,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2025,2025,2025,34,12
+Medicaid,Vaccines for Children,2026,5.9,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2026,2026,2026,34,13
+Medicaid,Vaccines for Children,2027,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2027,2027,2027,34,14
+Medicaid,Vaccines for Children,2028,6.2,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2028,2028,2028,34,15
+Medicaid,Vaccines for Children,2029,6.3,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2029,2029,2029,34,16
+Medicaid,Vaccines for Children,2030,6.4,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Vaccines for Children,fiscal_year,2030,2030,2030,34,17
+Medicaid,Total,2020,4.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2020,2020,2020,37,7
+Medicaid,Total,2021,5.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2021,2021,2021,37,8
+Medicaid,Total,2022,5.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2022,2022,2022,37,9
+Medicaid,Total,2023,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2023,2023,2023,37,10
+Medicaid,Total,2024,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2024,2024,2024,37,11
+Medicaid,Total,2025,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2025,2025,2025,37,12
+Medicaid,Total,2026,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2026,2026,2026,37,13
+Medicaid,Total,2027,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2027,2027,2027,37,14
+Medicaid,Total,2028,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2028,2028,2028,37,15
+Medicaid,Total,2029,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2029,2029,2029,37,16
+Medicaid,Total,2030,6.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2030,2030,2030,37,17
+Medicaid,Aged,2019,50.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2019,2019,2019,41,6
+Medicaid,Aged,2020,52.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2020,2020,2020,41,7
+Medicaid,Aged,2021,54.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2021,2021,2021,41,8
+Medicaid,Aged,2022,56.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2022,2022,2022,41,9
+Medicaid,Aged,2023,59.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2023,2023,2023,41,10
+Medicaid,Aged,2024,61.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2024,2024,2024,41,11
+Medicaid,Aged,2025,64.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2025,2025,2025,41,12
+Medicaid,Aged,2026,68.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2026,2026,2026,41,13
+Medicaid,Aged,2027,71.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2027,2027,2027,41,14
+Medicaid,Aged,2028,75.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2028,2028,2028,41,15
+Medicaid,Aged,2029,78.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2029,2029,2029,41,16
+Medicaid,Aged,2030,82.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2030,2030,2030,41,17
+Medicaid,Blind and Disabled,2019,118.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2019,2019,2019,42,6
+Medicaid,Blind and Disabled,2020,125.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2020,2020,2020,42,7
+Medicaid,Blind and Disabled,2021,132.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2021,2021,2021,42,8
+Medicaid,Blind and Disabled,2022,137.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2022,2022,2022,42,9
+Medicaid,Blind and Disabled,2023,144.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2023,2023,2023,42,10
+Medicaid,Blind and Disabled,2024,152.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2024,2024,2024,42,11
+Medicaid,Blind and Disabled,2025,161.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2025,2025,2025,42,12
+Medicaid,Blind and Disabled,2026,170.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2026,2026,2026,42,13
+Medicaid,Blind and Disabled,2027,179.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2027,2027,2027,42,14
+Medicaid,Blind and Disabled,2028,190.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2028,2028,2028,42,15
+Medicaid,Blind and Disabled,2029,201.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2029,2029,2029,42,16
+Medicaid,Blind and Disabled,2030,212.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2030,2030,2030,42,17
+Medicaid,Children,2019,75.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2019,2019,2019,43,6
+Medicaid,Children,2020,78.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2020,2020,2020,43,7
+Medicaid,Children,2021,83.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2021,2021,2021,43,8
+Medicaid,Children,2022,87.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2022,2022,2022,43,9
+Medicaid,Children,2023,93.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2023,2023,2023,43,10
+Medicaid,Children,2024,98.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2024,2024,2024,43,11
+Medicaid,Children,2025,104.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2025,2025,2025,43,12
+Medicaid,Children,2026,110.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2026,2026,2026,43,13
+Medicaid,Children,2027,115.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2027,2027,2027,43,14
+Medicaid,Children,2028,122.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2028,2028,2028,43,15
+Medicaid,Children,2029,128.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2029,2029,2029,43,16
+Medicaid,Children,2030,136.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2030,2030,2030,43,17
+Medicaid,Adults,2019,129.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2019,2019,2019,44,6
+Medicaid,Adults,2020,137.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2020,2020,2020,44,7
+Medicaid,Adults,2021,145.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2021,2021,2021,44,8
+Medicaid,Adults,2022,154.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2022,2022,2022,44,9
+Medicaid,Adults,2023,165.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2023,2023,2023,44,10
+Medicaid,Adults,2024,177.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2024,2024,2024,44,11
+Medicaid,Adults,2025,188.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2025,2025,2025,44,12
+Medicaid,Adults,2026,199.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2026,2026,2026,44,13
+Medicaid,Adults,2027,212.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2027,2027,2027,44,14
+Medicaid,Adults,2028,224.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2028,2028,2028,44,15
+Medicaid,Adults,2029,236.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2029,2029,2029,44,16
+Medicaid,Adults,2030,249.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2030,2030,2030,44,17
+Medicaid,Total,2019,372.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2019,2019,2019,46,6
+Medicaid,Total,2020,392.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2020,2020,2020,46,7
+Medicaid,Total,2021,414.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2021,2021,2021,46,8
+Medicaid,Total,2022,435.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2022,2022,2022,46,9
+Medicaid,Total,2023,461.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2023,2023,2023,46,10
+Medicaid,Total,2024,488.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2024,2024,2024,46,11
+Medicaid,Total,2025,517.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2025,2025,2025,46,12
+Medicaid,Total,2026,546.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2026,2026,2026,46,13
+Medicaid,Total,2027,577.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2027,2027,2027,46,14
+Medicaid,Total,2028,609.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2028,2028,2028,46,15
+Medicaid,Total,2029,643.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2029,2029,2029,46,16
+Medicaid,Total,2030,680.0,Percent,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2030,2030,2030,46,17
+Medicaid,Aged,2019,6.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2019,2019,2019,50,6
+Medicaid,Aged,2020,6.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2020,2020,2020,50,7
+Medicaid,Aged,2021,6.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2021,2021,2021,50,8
+Medicaid,Aged,2022,7.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2022,2022,2022,50,9
+Medicaid,Aged,2023,7.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2023,2023,2023,50,10
+Medicaid,Aged,2024,7.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2024,2024,2024,50,11
+Medicaid,Aged,2025,7.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2025,2025,2025,50,12
+Medicaid,Aged,2026,7.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2026,2026,2026,50,13
+Medicaid,Aged,2027,7.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2027,2027,2027,50,14
+Medicaid,Aged,2028,7.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2028,2028,2028,50,15
+Medicaid,Aged,2029,7.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2029,2029,2029,50,16
+Medicaid,Aged,2030,7.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Aged,fiscal_year,2030,2030,2030,50,17
+Medicaid,Blind and Disabled,2019,9.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2019,2019,2019,51,6
+Medicaid,Blind and Disabled,2020,9.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2020,2020,2020,51,7
+Medicaid,Blind and Disabled,2021,9.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2021,2021,2021,51,8
+Medicaid,Blind and Disabled,2022,9.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2022,2022,2022,51,9
+Medicaid,Blind and Disabled,2023,9.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2023,2023,2023,51,10
+Medicaid,Blind and Disabled,2024,9.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2024,2024,2024,51,11
+Medicaid,Blind and Disabled,2025,10.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2025,2025,2025,51,12
+Medicaid,Blind and Disabled,2026,10.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2026,2026,2026,51,13
+Medicaid,Blind and Disabled,2027,10.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2027,2027,2027,51,14
+Medicaid,Blind and Disabled,2028,10.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2028,2028,2028,51,15
+Medicaid,Blind and Disabled,2029,10.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2029,2029,2029,51,16
+Medicaid,Blind and Disabled,2030,10.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Blind and Disabled,fiscal_year,2030,2030,2030,51,17
+Medicaid,Children,2019,31.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2019,2019,2019,52,6
+Medicaid,Children,2020,30.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2020,2020,2020,52,7
+Medicaid,Children,2021,30.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2021,2021,2021,52,8
+Medicaid,Children,2022,30.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2022,2022,2022,52,9
+Medicaid,Children,2023,30.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2023,2023,2023,52,10
+Medicaid,Children,2024,30.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2024,2024,2024,52,11
+Medicaid,Children,2025,30.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2025,2025,2025,52,12
+Medicaid,Children,2026,30.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2026,2026,2026,52,13
+Medicaid,Children,2027,30.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2027,2027,2027,52,14
+Medicaid,Children,2028,30.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2028,2028,2028,52,15
+Medicaid,Children,2029,30.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2029,2029,2029,52,16
+Medicaid,Children,2030,30.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Children,fiscal_year,2030,2030,2030,52,17
+Medicaid,Adults,2019,27.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2019,2019,2019,53,6
+Medicaid,Adults,2020,27.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2020,2020,2020,53,7
+Medicaid,Adults,2021,27.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2021,2021,2021,53,8
+Medicaid,Adults,2022,28.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2022,2022,2022,53,9
+Medicaid,Adults,2023,28.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2023,2023,2023,53,10
+Medicaid,Adults,2024,28.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2024,2024,2024,53,11
+Medicaid,Adults,2025,29.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2025,2025,2025,53,12
+Medicaid,Adults,2026,29.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2026,2026,2026,53,13
+Medicaid,Adults,2027,29.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2027,2027,2027,53,14
+Medicaid,Adults,2028,29.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2028,2028,2028,53,15
+Medicaid,Adults,2029,29.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2029,2029,2029,53,16
+Medicaid,Adults,2030,29.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Benefits / Adults,fiscal_year,2030,2030,2030,53,17
+Medicaid,Total,2019,74.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2019,2019,2019,55,6
+Medicaid,Total,2020,73.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2020,2020,2020,55,7
+Medicaid,Total,2021,73.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2021,2021,2021,55,8
+Medicaid,Total,2022,73.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2022,2022,2022,55,9
+Medicaid,Total,2023,74.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2023,2023,2023,55,10
+Medicaid,Total,2024,75.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2024,2024,2024,55,11
+Medicaid,Total,2025,75.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2025,2025,2025,55,12
+Medicaid,Total,2026,76.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2026,2026,2026,55,13
+Medicaid,Total,2027,76.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2027,2027,2027,55,14
+Medicaid,Total,2028,76.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2028,2028,2028,55,15
+Medicaid,Total,2029,76.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2029,2029,2029,55,16
+Medicaid,Total,2030,77.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Benefits / Acute care / Total,fiscal_year,2030,2030,2030,55,17
+Medicaid,Total Enrolled Within a Fiscal Year,2019,95.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2019,2019,2019,58,6
+Medicaid,Total Enrolled Within a Fiscal Year,2020,94.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2020,2020,2020,58,7
+Medicaid,Total Enrolled Within a Fiscal Year,2021,94.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2021,2021,2021,58,8
+Medicaid,Total Enrolled Within a Fiscal Year,2022,94.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2022,2022,2022,58,9
+Medicaid,Total Enrolled Within a Fiscal Year,2023,95.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2023,2023,2023,58,10
+Medicaid,Total Enrolled Within a Fiscal Year,2024,96.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2024,2024,2024,58,11
+Medicaid,Total Enrolled Within a Fiscal Year,2025,97.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2025,2025,2025,58,12
+Medicaid,Total Enrolled Within a Fiscal Year,2026,97.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2026,2026,2026,58,13
+Medicaid,Total Enrolled Within a Fiscal Year,2027,98.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2027,2027,2027,58,14
+Medicaid,Total Enrolled Within a Fiscal Year,2028,98.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2028,2028,2028,58,15
+Medicaid,Total Enrolled Within a Fiscal Year,2029,98.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2029,2029,2029,58,16
+Medicaid,Total Enrolled Within a Fiscal Year,2030,99.0,Millions of people,51301-2020-03-medicaid.xlsx,Medicaid,true,51301,By Fiscal Year / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2030,2030,2030,58,17
+Medicaid,Aged,2019,7840.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Aged,fiscal_year,2019,2019,2019,62,6
+Medicaid,Aged,2020,8150.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Aged,fiscal_year,2020,2020,2020,62,7
+Medicaid,Aged,2021,8420.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Aged,fiscal_year,2021,2021,2021,62,8
+Medicaid,Aged,2022,8620.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Aged,fiscal_year,2022,2022,2022,62,9
+Medicaid,Aged,2023,8900.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Aged,fiscal_year,2023,2023,2023,62,10
+Medicaid,Aged,2024,9200.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Aged,fiscal_year,2024,2024,2024,62,11
+Medicaid,Aged,2025,9520.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Aged,fiscal_year,2025,2025,2025,62,12
+Medicaid,Aged,2026,9840.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Aged,fiscal_year,2026,2026,2026,62,13
+Medicaid,Aged,2027,10180.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Aged,fiscal_year,2027,2027,2027,62,14
+Medicaid,Aged,2028,10530.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Aged,fiscal_year,2028,2028,2028,62,15
+Medicaid,Aged,2029,10890.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Aged,fiscal_year,2029,2029,2029,62,16
+Medicaid,Aged,2030,11270.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Aged,fiscal_year,2030,2030,2030,62,17
+Medicaid,Blind and Disabled,2019,12440.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Blind and Disabled,fiscal_year,2019,2019,2019,63,6
+Medicaid,Blind and Disabled,2020,13260.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Blind and Disabled,fiscal_year,2020,2020,2020,63,7
+Medicaid,Blind and Disabled,2021,13990.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Blind and Disabled,fiscal_year,2021,2021,2021,63,8
+Medicaid,Blind and Disabled,2022,14580.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Blind and Disabled,fiscal_year,2022,2022,2022,63,9
+Medicaid,Blind and Disabled,2023,15320.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Blind and Disabled,fiscal_year,2023,2023,2023,63,10
+Medicaid,Blind and Disabled,2024,16100.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Blind and Disabled,fiscal_year,2024,2024,2024,63,11
+Medicaid,Blind and Disabled,2025,16910.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Blind and Disabled,fiscal_year,2025,2025,2025,63,12
+Medicaid,Blind and Disabled,2026,17740.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Blind and Disabled,fiscal_year,2026,2026,2026,63,13
+Medicaid,Blind and Disabled,2027,18610.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Blind and Disabled,fiscal_year,2027,2027,2027,63,14
+Medicaid,Blind and Disabled,2028,19530.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Blind and Disabled,fiscal_year,2028,2028,2028,63,15
+Medicaid,Blind and Disabled,2029,20500.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Blind and Disabled,fiscal_year,2029,2029,2029,63,16
+Medicaid,Blind and Disabled,2030,21510.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Blind and Disabled,fiscal_year,2030,2030,2030,63,17
+Medicaid,Children,2019,2430.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Children,fiscal_year,2019,2019,2019,64,6
+Medicaid,Children,2020,2600.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Children,fiscal_year,2020,2020,2020,64,7
+Medicaid,Children,2021,2770.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Children,fiscal_year,2021,2021,2021,64,8
+Medicaid,Children,2022,2910.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Children,fiscal_year,2022,2022,2022,64,9
+Medicaid,Children,2023,3070.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Children,fiscal_year,2023,2023,2023,64,10
+Medicaid,Children,2024,3250.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Children,fiscal_year,2024,2024,2024,64,11
+Medicaid,Children,2025,3430.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Children,fiscal_year,2025,2025,2025,64,12
+Medicaid,Children,2026,3610.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Children,fiscal_year,2026,2026,2026,64,13
+Medicaid,Children,2027,3810.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Children,fiscal_year,2027,2027,2027,64,14
+Medicaid,Children,2028,4010.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Children,fiscal_year,2028,2028,2028,64,15
+Medicaid,Children,2029,4230.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Children,fiscal_year,2029,2029,2029,64,16
+Medicaid,Children,2030,4460.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Children,fiscal_year,2030,2030,2030,64,17
+Medicaid,Adults,2019,4720.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Adults,fiscal_year,2019,2019,2019,65,6
+Medicaid,Adults,2020,5030.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Adults,fiscal_year,2020,2020,2020,65,7
+Medicaid,Adults,2021,5330.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Adults,fiscal_year,2021,2021,2021,65,8
+Medicaid,Adults,2022,5610.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Adults,fiscal_year,2022,2022,2022,65,9
+Medicaid,Adults,2023,5920.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Adults,fiscal_year,2023,2023,2023,65,10
+Medicaid,Adults,2024,6250.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Adults,fiscal_year,2024,2024,2024,65,11
+Medicaid,Adults,2025,6580.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Adults,fiscal_year,2025,2025,2025,65,12
+Medicaid,Adults,2026,6940.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Adults,fiscal_year,2026,2026,2026,65,13
+Medicaid,Adults,2027,7310.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Adults,fiscal_year,2027,2027,2027,65,14
+Medicaid,Adults,2028,7700.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Adults,fiscal_year,2028,2028,2028,65,15
+Medicaid,Adults,2029,8110.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Adults,fiscal_year,2029,2029,2029,65,16
+Medicaid,Adults,2030,8570.0,Dollars per enrollee,51301-2020-03-medicaid.xlsx,Medicaid,false,51301,By Fiscal Year / Memorandum: / Adults,fiscal_year,2030,2030,2030,65,17

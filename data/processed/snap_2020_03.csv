@@ -1,253 +1,242 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Snap,Budget Authority,2020,61853.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2021,60193.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2022,60406.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2023,61300.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2024,62094.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2025,62781.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2026,63496.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2027,64424.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2028,65771.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2029,67311.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Budget Authority,2030,68873.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2020,61923.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2021,60276.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2022,60395.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2023,61256.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2024,62055.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2025,62746.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2026,63460.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2027,64378.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2028,65703.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2029,67234.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Outlays,2030,68795.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Total Benefits,2020,54466.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2021,52620.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2022,52619.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2023,53276.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2024,53842.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2025,54300.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2026,54785.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2027,55472.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2028,56573.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2029,57863.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total Benefits,2030,59168.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Assistance for Puerto Rico and American Samoa,2020,1946.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2021,1971.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2022,2017.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2023,2066.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2024,2116.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2025,2163.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2026,2208.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2027,2254.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2028,2302.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2029,2349.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Assistance for Puerto Rico and American Samoa,2030,2400.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2020,5441.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2021,5602.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2022,5769.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2023,5958.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2024,6137.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2025,6318.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2026,6502.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2027,6698.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2028,6896.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2029,7099.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Administrative Costs, Other",2030,7305.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2020,123.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2021,124.57,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2022,128.97,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2023,132.93,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2024,137.21,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2025,140.97,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2026,144.48,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2027,148.64,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2028,152.57,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2029,156.56,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Dollars per person),2030,160.61,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2020,36.9,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2021,35.2,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2022,34.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2023,33.4,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2024,32.7,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2025,32.1,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2026,31.6,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2027,31.1,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2028,30.9,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2029,30.8,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,(Millions of people),2030,30.7,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2021,101.3,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2022,102.4,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2023,102.4,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2024,102.4,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2025,102.2,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2026,102.1,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2027,102.1,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2028,102.1,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2029,102.1,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,"Year, Lagged (Percent)",2030,102.1,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2020,3.5,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2021,3.5,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2022,3.8,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2023,4.1,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2024,4.3,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2025,4.5,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2026,4.6,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2027,4.6,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2028,4.5,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2029,4.5,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Fiscal Year Average,2030,4.5,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2020,2020.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2021,2021.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2022,2022.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2023,2023.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2024,2024.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2025,2025.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2026,2026.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2027,2027.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2028,2028.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2029,2029.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,2020,2030,2030.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2020,3906.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2021,4030.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2022,4160.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2023,4299.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2024,4442.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2025,4587.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2026,4734.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2027,4884.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2028,5036.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2029,5192.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,State Administrationa,2030,5350.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2020,434.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2021,443.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2022,453.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2023,464.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2024,475.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2025,486.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2026,497.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2027,509.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2028,521.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2029,532.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Employment and Training,2030,545.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2020,176.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2021,183.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2022,184.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2023,198.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2024,196.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2025,194.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2026,193.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2027,200.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2028,206.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2029,212.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Other Program Costs,2030,218.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2020,441.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2021,451.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2022,463.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2023,475.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2024,487.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2025,498.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2026,510.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2027,521.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2028,533.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2029,545.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Nutrition Education,2030,557.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2020,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2021,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2022,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2023,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2024,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2025,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2026,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2027,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2028,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2029,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Northern Mariana Islands,2030,12.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2020,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2021,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2022,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2023,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2024,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2025,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2026,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2027,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2028,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2029,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Community Food Projects,2030,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2020,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2021,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2022,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2023,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2024,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2025,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2026,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2027,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2028,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2029,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Program Access Grants,2030,5.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2020,310.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2021,314.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2022,320.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2023,327.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2024,335.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2025,342.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2026,350.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2027,357.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2028,364.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2029,372.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Emergency Food Assistance Commodities,2030,380.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2020,153.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2021,159.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2022,166.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2023,173.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2024,181.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2025,188.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2026,197.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2027,205.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2028,214.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2029,224.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Food Donations on Indian Reservations,2030,234.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Total,2020,5441.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2021,5602.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2022,5769.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2023,5958.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2024,6137.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2025,6318.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2026,6502.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2027,6698.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2028,6896.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2029,7099.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2030,7305.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,100 Percent Federal Funds,2020,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2021,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2022,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2023,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2024,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2025,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2026,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2027,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2028,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2029,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,100 Percent Federal Funds,2030,124.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2020,310.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2021,319.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2022,329.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2023,340.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2024,351.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2025,362.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2026,373.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2027,385.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2028,397.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2029,409.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,50 Percent Federal Funds,2030,421.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false
-Snap,Total,2020,434.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2021,443.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2022,453.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2023,464.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2024,475.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2025,486.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2026,497.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2027,509.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2028,521.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2029,532.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
-Snap,Total,2030,545.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+SNAP,Budget Authority,2020,61853.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Budget Authority,fiscal_year,2020,2020,2020,8,3
+SNAP,Budget Authority,2021,60193.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Budget Authority,fiscal_year,2021,2021,2021,8,4
+SNAP,Budget Authority,2022,60406.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Budget Authority,fiscal_year,2022,2022,2022,8,5
+SNAP,Budget Authority,2023,61300.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Budget Authority,fiscal_year,2023,2023,2023,8,6
+SNAP,Budget Authority,2024,62094.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Budget Authority,fiscal_year,2024,2024,2024,8,7
+SNAP,Budget Authority,2025,62781.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Budget Authority,fiscal_year,2025,2025,2025,8,8
+SNAP,Budget Authority,2026,63496.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Budget Authority,fiscal_year,2026,2026,2026,8,9
+SNAP,Budget Authority,2027,64424.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Budget Authority,fiscal_year,2027,2027,2027,8,10
+SNAP,Budget Authority,2028,65771.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Budget Authority,fiscal_year,2028,2028,2028,8,11
+SNAP,Budget Authority,2029,67311.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Budget Authority,fiscal_year,2029,2029,2029,8,12
+SNAP,Budget Authority,2030,68873.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Budget Authority,fiscal_year,2030,2030,2030,8,13
+SNAP,Outlays,2020,61923.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Outlays,fiscal_year,2020,2020,2020,9,3
+SNAP,Outlays,2021,60276.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Outlays,fiscal_year,2021,2021,2021,9,4
+SNAP,Outlays,2022,60395.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Outlays,fiscal_year,2022,2022,2022,9,5
+SNAP,Outlays,2023,61256.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Outlays,fiscal_year,2023,2023,2023,9,6
+SNAP,Outlays,2024,62055.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Outlays,fiscal_year,2024,2024,2024,9,7
+SNAP,Outlays,2025,62746.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Outlays,fiscal_year,2025,2025,2025,9,8
+SNAP,Outlays,2026,63460.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Outlays,fiscal_year,2026,2026,2026,9,9
+SNAP,Outlays,2027,64378.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Outlays,fiscal_year,2027,2027,2027,9,10
+SNAP,Outlays,2028,65703.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Outlays,fiscal_year,2028,2028,2028,9,11
+SNAP,Outlays,2029,67234.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Outlays,fiscal_year,2029,2029,2029,9,12
+SNAP,Outlays,2030,68795.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Baseline Totals / Outlays,fiscal_year,2030,2030,2030,9,13
+SNAP,Total Benefits,2020,54466.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Budget Authority for Program Components / Total Benefits,fiscal_year,2020,2020,2020,14,3
+SNAP,Total Benefits,2021,52620.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Budget Authority for Program Components / Total Benefits,fiscal_year,2021,2021,2021,14,4
+SNAP,Total Benefits,2022,52619.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Budget Authority for Program Components / Total Benefits,fiscal_year,2022,2022,2022,14,5
+SNAP,Total Benefits,2023,53276.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Budget Authority for Program Components / Total Benefits,fiscal_year,2023,2023,2023,14,6
+SNAP,Total Benefits,2024,53842.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Budget Authority for Program Components / Total Benefits,fiscal_year,2024,2024,2024,14,7
+SNAP,Total Benefits,2025,54300.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Budget Authority for Program Components / Total Benefits,fiscal_year,2025,2025,2025,14,8
+SNAP,Total Benefits,2026,54785.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Budget Authority for Program Components / Total Benefits,fiscal_year,2026,2026,2026,14,9
+SNAP,Total Benefits,2027,55472.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Budget Authority for Program Components / Total Benefits,fiscal_year,2027,2027,2027,14,10
+SNAP,Total Benefits,2028,56573.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Budget Authority for Program Components / Total Benefits,fiscal_year,2028,2028,2028,14,11
+SNAP,Total Benefits,2029,57863.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Budget Authority for Program Components / Total Benefits,fiscal_year,2029,2029,2029,14,12
+SNAP,Total Benefits,2030,59168.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,true,51312,Budget Authority for Program Components / Total Benefits,fiscal_year,2030,2030,2030,14,13
+SNAP,Assistance for Puerto Rico and American Samoa,2020,1946.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,Budget Authority for Program Components / Assistance for Puerto Rico and American Samoa,fiscal_year,2020,2020,2020,15,3
+SNAP,Assistance for Puerto Rico and American Samoa,2021,1971.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,Budget Authority for Program Components / Assistance for Puerto Rico and American Samoa,fiscal_year,2021,2021,2021,15,4
+SNAP,Assistance for Puerto Rico and American Samoa,2022,2017.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,Budget Authority for Program Components / Assistance for Puerto Rico and American Samoa,fiscal_year,2022,2022,2022,15,5
+SNAP,Assistance for Puerto Rico and American Samoa,2023,2066.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,Budget Authority for Program Components / Assistance for Puerto Rico and American Samoa,fiscal_year,2023,2023,2023,15,6
+SNAP,Assistance for Puerto Rico and American Samoa,2024,2116.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,Budget Authority for Program Components / Assistance for Puerto Rico and American Samoa,fiscal_year,2024,2024,2024,15,7
+SNAP,Assistance for Puerto Rico and American Samoa,2025,2163.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,Budget Authority for Program Components / Assistance for Puerto Rico and American Samoa,fiscal_year,2025,2025,2025,15,8
+SNAP,Assistance for Puerto Rico and American Samoa,2026,2208.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,Budget Authority for Program Components / Assistance for Puerto Rico and American Samoa,fiscal_year,2026,2026,2026,15,9
+SNAP,Assistance for Puerto Rico and American Samoa,2027,2254.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,Budget Authority for Program Components / Assistance for Puerto Rico and American Samoa,fiscal_year,2027,2027,2027,15,10
+SNAP,Assistance for Puerto Rico and American Samoa,2028,2302.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,Budget Authority for Program Components / Assistance for Puerto Rico and American Samoa,fiscal_year,2028,2028,2028,15,11
+SNAP,Assistance for Puerto Rico and American Samoa,2029,2349.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,Budget Authority for Program Components / Assistance for Puerto Rico and American Samoa,fiscal_year,2029,2029,2029,15,12
+SNAP,Assistance for Puerto Rico and American Samoa,2030,2400.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,Budget Authority for Program Components / Assistance for Puerto Rico and American Samoa,fiscal_year,2030,2030,2030,15,13
+SNAP,"Administrative Costs, Other",2020,5441.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,"Budget Authority for Program Components / Administrative Costs, Other",fiscal_year,2020,2020,2020,16,3
+SNAP,"Administrative Costs, Other",2021,5602.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,"Budget Authority for Program Components / Administrative Costs, Other",fiscal_year,2021,2021,2021,16,4
+SNAP,"Administrative Costs, Other",2022,5769.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,"Budget Authority for Program Components / Administrative Costs, Other",fiscal_year,2022,2022,2022,16,5
+SNAP,"Administrative Costs, Other",2023,5958.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,"Budget Authority for Program Components / Administrative Costs, Other",fiscal_year,2023,2023,2023,16,6
+SNAP,"Administrative Costs, Other",2024,6137.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,"Budget Authority for Program Components / Administrative Costs, Other",fiscal_year,2024,2024,2024,16,7
+SNAP,"Administrative Costs, Other",2025,6318.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,"Budget Authority for Program Components / Administrative Costs, Other",fiscal_year,2025,2025,2025,16,8
+SNAP,"Administrative Costs, Other",2026,6502.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,"Budget Authority for Program Components / Administrative Costs, Other",fiscal_year,2026,2026,2026,16,9
+SNAP,"Administrative Costs, Other",2027,6698.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,"Budget Authority for Program Components / Administrative Costs, Other",fiscal_year,2027,2027,2027,16,10
+SNAP,"Administrative Costs, Other",2028,6896.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,"Budget Authority for Program Components / Administrative Costs, Other",fiscal_year,2028,2028,2028,16,11
+SNAP,"Administrative Costs, Other",2029,7099.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,"Budget Authority for Program Components / Administrative Costs, Other",fiscal_year,2029,2029,2029,16,12
+SNAP,"Administrative Costs, Other",2030,7305.0,Millions of dollars,51312-2020-03-snap.xlsx,SNAP,false,51312,"Budget Authority for Program Components / Administrative Costs, Other",fiscal_year,2030,2030,2030,16,13
+SNAP,(Dollars per person),2020,123.0,Dollars per person,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Benefits / (Dollars per person),fiscal_year,2020,2020,2020,22,3
+SNAP,(Dollars per person),2021,124.57,Dollars per person,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Benefits / (Dollars per person),fiscal_year,2021,2021,2021,22,4
+SNAP,(Dollars per person),2022,128.97,Dollars per person,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Benefits / (Dollars per person),fiscal_year,2022,2022,2022,22,5
+SNAP,(Dollars per person),2023,132.93,Dollars per person,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Benefits / (Dollars per person),fiscal_year,2023,2023,2023,22,6
+SNAP,(Dollars per person),2024,137.21,Dollars per person,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Benefits / (Dollars per person),fiscal_year,2024,2024,2024,22,7
+SNAP,(Dollars per person),2025,140.97,Dollars per person,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Benefits / (Dollars per person),fiscal_year,2025,2025,2025,22,8
+SNAP,(Dollars per person),2026,144.48,Dollars per person,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Benefits / (Dollars per person),fiscal_year,2026,2026,2026,22,9
+SNAP,(Dollars per person),2027,148.64,Dollars per person,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Benefits / (Dollars per person),fiscal_year,2027,2027,2027,22,10
+SNAP,(Dollars per person),2028,152.57,Dollars per person,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Benefits / (Dollars per person),fiscal_year,2028,2028,2028,22,11
+SNAP,(Dollars per person),2029,156.56,Dollars per person,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Benefits / (Dollars per person),fiscal_year,2029,2029,2029,22,12
+SNAP,(Dollars per person),2030,160.61,Dollars per person,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Benefits / (Dollars per person),fiscal_year,2030,2030,2030,22,13
+SNAP,(Millions of people),2020,36.9,Millions of people,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Participation / (Millions of people),fiscal_year,2020,2020,2020,25,3
+SNAP,(Millions of people),2021,35.2,Millions of people,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Participation / (Millions of people),fiscal_year,2021,2021,2021,25,4
+SNAP,(Millions of people),2022,34.0,Millions of people,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Participation / (Millions of people),fiscal_year,2022,2022,2022,25,5
+SNAP,(Millions of people),2023,33.4,Millions of people,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Participation / (Millions of people),fiscal_year,2023,2023,2023,25,6
+SNAP,(Millions of people),2024,32.7,Millions of people,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Participation / (Millions of people),fiscal_year,2024,2024,2024,25,7
+SNAP,(Millions of people),2025,32.1,Millions of people,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Participation / (Millions of people),fiscal_year,2025,2025,2025,25,8
+SNAP,(Millions of people),2026,31.6,Millions of people,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Participation / (Millions of people),fiscal_year,2026,2026,2026,25,9
+SNAP,(Millions of people),2027,31.1,Millions of people,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Participation / (Millions of people),fiscal_year,2027,2027,2027,25,10
+SNAP,(Millions of people),2028,30.9,Millions of people,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Participation / (Millions of people),fiscal_year,2028,2028,2028,25,11
+SNAP,(Millions of people),2029,30.8,Millions of people,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Participation / (Millions of people),fiscal_year,2029,2029,2029,25,12
+SNAP,(Millions of people),2030,30.7,Millions of people,51312-2020-03-snap.xlsx,SNAP,false,51312,Average Monthly Participation / (Millions of people),fiscal_year,2030,2030,2030,25,13
+SNAP,"Year, Lagged (Percent)",2021,101.3,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Change June/June Preceding / Year, Lagged (Percent)",fiscal_year,2021,2021,2021,29,4
+SNAP,"Year, Lagged (Percent)",2022,102.4,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Change June/June Preceding / Year, Lagged (Percent)",fiscal_year,2022,2022,2022,29,5
+SNAP,"Year, Lagged (Percent)",2023,102.4,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Change June/June Preceding / Year, Lagged (Percent)",fiscal_year,2023,2023,2023,29,6
+SNAP,"Year, Lagged (Percent)",2024,102.4,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Change June/June Preceding / Year, Lagged (Percent)",fiscal_year,2024,2024,2024,29,7
+SNAP,"Year, Lagged (Percent)",2025,102.2,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Change June/June Preceding / Year, Lagged (Percent)",fiscal_year,2025,2025,2025,29,8
+SNAP,"Year, Lagged (Percent)",2026,102.1,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Change June/June Preceding / Year, Lagged (Percent)",fiscal_year,2026,2026,2026,29,9
+SNAP,"Year, Lagged (Percent)",2027,102.1,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Change June/June Preceding / Year, Lagged (Percent)",fiscal_year,2027,2027,2027,29,10
+SNAP,"Year, Lagged (Percent)",2028,102.1,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Change June/June Preceding / Year, Lagged (Percent)",fiscal_year,2028,2028,2028,29,11
+SNAP,"Year, Lagged (Percent)",2029,102.1,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Change June/June Preceding / Year, Lagged (Percent)",fiscal_year,2029,2029,2029,29,12
+SNAP,"Year, Lagged (Percent)",2030,102.1,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Change June/June Preceding / Year, Lagged (Percent)",fiscal_year,2030,2030,2030,29,13
+SNAP,Fiscal Year Average,2020,3.5,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Unemployment Rate, / Fiscal Year Average",fiscal_year,2020,2020,2020,32,3
+SNAP,Fiscal Year Average,2021,3.5,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Unemployment Rate, / Fiscal Year Average",fiscal_year,2021,2021,2021,32,4
+SNAP,Fiscal Year Average,2022,3.8,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Unemployment Rate, / Fiscal Year Average",fiscal_year,2022,2022,2022,32,5
+SNAP,Fiscal Year Average,2023,4.1,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Unemployment Rate, / Fiscal Year Average",fiscal_year,2023,2023,2023,32,6
+SNAP,Fiscal Year Average,2024,4.3,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Unemployment Rate, / Fiscal Year Average",fiscal_year,2024,2024,2024,32,7
+SNAP,Fiscal Year Average,2025,4.5,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Unemployment Rate, / Fiscal Year Average",fiscal_year,2025,2025,2025,32,8
+SNAP,Fiscal Year Average,2026,4.6,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Unemployment Rate, / Fiscal Year Average",fiscal_year,2026,2026,2026,32,9
+SNAP,Fiscal Year Average,2027,4.6,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Unemployment Rate, / Fiscal Year Average",fiscal_year,2027,2027,2027,32,10
+SNAP,Fiscal Year Average,2028,4.5,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Unemployment Rate, / Fiscal Year Average",fiscal_year,2028,2028,2028,32,11
+SNAP,Fiscal Year Average,2029,4.5,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Unemployment Rate, / Fiscal Year Average",fiscal_year,2029,2029,2029,32,12
+SNAP,Fiscal Year Average,2030,4.5,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,"Unemployment Rate, / Fiscal Year Average",fiscal_year,2030,2030,2030,32,13
+SNAP,State Administrationa,2020,3906.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / State Administrationa,fiscal_year,2020,2020,2020,42,3
+SNAP,State Administrationa,2021,4030.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / State Administrationa,fiscal_year,2021,2021,2021,42,4
+SNAP,State Administrationa,2022,4160.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / State Administrationa,fiscal_year,2022,2022,2022,42,5
+SNAP,State Administrationa,2023,4299.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / State Administrationa,fiscal_year,2023,2023,2023,42,6
+SNAP,State Administrationa,2024,4442.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / State Administrationa,fiscal_year,2024,2024,2024,42,7
+SNAP,State Administrationa,2025,4587.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / State Administrationa,fiscal_year,2025,2025,2025,42,8
+SNAP,State Administrationa,2026,4734.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / State Administrationa,fiscal_year,2026,2026,2026,42,9
+SNAP,State Administrationa,2027,4884.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / State Administrationa,fiscal_year,2027,2027,2027,42,10
+SNAP,State Administrationa,2028,5036.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / State Administrationa,fiscal_year,2028,2028,2028,42,11
+SNAP,State Administrationa,2029,5192.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / State Administrationa,fiscal_year,2029,2029,2029,42,12
+SNAP,State Administrationa,2030,5350.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / State Administrationa,fiscal_year,2030,2030,2030,42,13
+SNAP,Employment and Training,2020,434.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Employment and Training,fiscal_year,2020,2020,2020,43,3
+SNAP,Employment and Training,2021,443.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Employment and Training,fiscal_year,2021,2021,2021,43,4
+SNAP,Employment and Training,2022,453.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Employment and Training,fiscal_year,2022,2022,2022,43,5
+SNAP,Employment and Training,2023,464.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Employment and Training,fiscal_year,2023,2023,2023,43,6
+SNAP,Employment and Training,2024,475.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Employment and Training,fiscal_year,2024,2024,2024,43,7
+SNAP,Employment and Training,2025,486.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Employment and Training,fiscal_year,2025,2025,2025,43,8
+SNAP,Employment and Training,2026,497.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Employment and Training,fiscal_year,2026,2026,2026,43,9
+SNAP,Employment and Training,2027,509.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Employment and Training,fiscal_year,2027,2027,2027,43,10
+SNAP,Employment and Training,2028,521.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Employment and Training,fiscal_year,2028,2028,2028,43,11
+SNAP,Employment and Training,2029,532.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Employment and Training,fiscal_year,2029,2029,2029,43,12
+SNAP,Employment and Training,2030,545.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Employment and Training,fiscal_year,2030,2030,2030,43,13
+SNAP,Other Program Costs,2020,176.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Other Program Costs,fiscal_year,2020,2020,2020,44,3
+SNAP,Other Program Costs,2021,183.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Other Program Costs,fiscal_year,2021,2021,2021,44,4
+SNAP,Other Program Costs,2022,184.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Other Program Costs,fiscal_year,2022,2022,2022,44,5
+SNAP,Other Program Costs,2023,198.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Other Program Costs,fiscal_year,2023,2023,2023,44,6
+SNAP,Other Program Costs,2024,196.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Other Program Costs,fiscal_year,2024,2024,2024,44,7
+SNAP,Other Program Costs,2025,194.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Other Program Costs,fiscal_year,2025,2025,2025,44,8
+SNAP,Other Program Costs,2026,193.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Other Program Costs,fiscal_year,2026,2026,2026,44,9
+SNAP,Other Program Costs,2027,200.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Other Program Costs,fiscal_year,2027,2027,2027,44,10
+SNAP,Other Program Costs,2028,206.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Other Program Costs,fiscal_year,2028,2028,2028,44,11
+SNAP,Other Program Costs,2029,212.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Other Program Costs,fiscal_year,2029,2029,2029,44,12
+SNAP,Other Program Costs,2030,218.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Other Program Costs,fiscal_year,2030,2030,2030,44,13
+SNAP,Nutrition Education,2020,441.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Nutrition Education,fiscal_year,2020,2020,2020,45,3
+SNAP,Nutrition Education,2021,451.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Nutrition Education,fiscal_year,2021,2021,2021,45,4
+SNAP,Nutrition Education,2022,463.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Nutrition Education,fiscal_year,2022,2022,2022,45,5
+SNAP,Nutrition Education,2023,475.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Nutrition Education,fiscal_year,2023,2023,2023,45,6
+SNAP,Nutrition Education,2024,487.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Nutrition Education,fiscal_year,2024,2024,2024,45,7
+SNAP,Nutrition Education,2025,498.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Nutrition Education,fiscal_year,2025,2025,2025,45,8
+SNAP,Nutrition Education,2026,510.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Nutrition Education,fiscal_year,2026,2026,2026,45,9
+SNAP,Nutrition Education,2027,521.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Nutrition Education,fiscal_year,2027,2027,2027,45,10
+SNAP,Nutrition Education,2028,533.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Nutrition Education,fiscal_year,2028,2028,2028,45,11
+SNAP,Nutrition Education,2029,545.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Nutrition Education,fiscal_year,2029,2029,2029,45,12
+SNAP,Nutrition Education,2030,557.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Nutrition Education,fiscal_year,2030,2030,2030,45,13
+SNAP,Northern Mariana Islands,2020,12.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Northern Mariana Islands,fiscal_year,2020,2020,2020,46,3
+SNAP,Northern Mariana Islands,2021,12.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Northern Mariana Islands,fiscal_year,2021,2021,2021,46,4
+SNAP,Northern Mariana Islands,2022,12.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Northern Mariana Islands,fiscal_year,2022,2022,2022,46,5
+SNAP,Northern Mariana Islands,2023,12.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Northern Mariana Islands,fiscal_year,2023,2023,2023,46,6
+SNAP,Northern Mariana Islands,2024,12.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Northern Mariana Islands,fiscal_year,2024,2024,2024,46,7
+SNAP,Northern Mariana Islands,2025,12.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Northern Mariana Islands,fiscal_year,2025,2025,2025,46,8
+SNAP,Northern Mariana Islands,2026,12.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Northern Mariana Islands,fiscal_year,2026,2026,2026,46,9
+SNAP,Northern Mariana Islands,2027,12.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Northern Mariana Islands,fiscal_year,2027,2027,2027,46,10
+SNAP,Northern Mariana Islands,2028,12.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Northern Mariana Islands,fiscal_year,2028,2028,2028,46,11
+SNAP,Northern Mariana Islands,2029,12.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Northern Mariana Islands,fiscal_year,2029,2029,2029,46,12
+SNAP,Northern Mariana Islands,2030,12.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Northern Mariana Islands,fiscal_year,2030,2030,2030,46,13
+SNAP,Community Food Projects,2020,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Community Food Projects,fiscal_year,2020,2020,2020,47,3
+SNAP,Community Food Projects,2021,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Community Food Projects,fiscal_year,2021,2021,2021,47,4
+SNAP,Community Food Projects,2022,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Community Food Projects,fiscal_year,2022,2022,2022,47,5
+SNAP,Community Food Projects,2023,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Community Food Projects,fiscal_year,2023,2023,2023,47,6
+SNAP,Community Food Projects,2024,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Community Food Projects,fiscal_year,2024,2024,2024,47,7
+SNAP,Community Food Projects,2025,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Community Food Projects,fiscal_year,2025,2025,2025,47,8
+SNAP,Community Food Projects,2026,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Community Food Projects,fiscal_year,2026,2026,2026,47,9
+SNAP,Community Food Projects,2027,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Community Food Projects,fiscal_year,2027,2027,2027,47,10
+SNAP,Community Food Projects,2028,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Community Food Projects,fiscal_year,2028,2028,2028,47,11
+SNAP,Community Food Projects,2029,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Community Food Projects,fiscal_year,2029,2029,2029,47,12
+SNAP,Community Food Projects,2030,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Community Food Projects,fiscal_year,2030,2030,2030,47,13
+SNAP,Program Access Grants,2020,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Program Access Grants,fiscal_year,2020,2020,2020,48,3
+SNAP,Program Access Grants,2021,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Program Access Grants,fiscal_year,2021,2021,2021,48,4
+SNAP,Program Access Grants,2022,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Program Access Grants,fiscal_year,2022,2022,2022,48,5
+SNAP,Program Access Grants,2023,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Program Access Grants,fiscal_year,2023,2023,2023,48,6
+SNAP,Program Access Grants,2024,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Program Access Grants,fiscal_year,2024,2024,2024,48,7
+SNAP,Program Access Grants,2025,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Program Access Grants,fiscal_year,2025,2025,2025,48,8
+SNAP,Program Access Grants,2026,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Program Access Grants,fiscal_year,2026,2026,2026,48,9
+SNAP,Program Access Grants,2027,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Program Access Grants,fiscal_year,2027,2027,2027,48,10
+SNAP,Program Access Grants,2028,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Program Access Grants,fiscal_year,2028,2028,2028,48,11
+SNAP,Program Access Grants,2029,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Program Access Grants,fiscal_year,2029,2029,2029,48,12
+SNAP,Program Access Grants,2030,5.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Program Access Grants,fiscal_year,2030,2030,2030,48,13
+SNAP,Emergency Food Assistance Commodities,2020,310.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Emergency Food Assistance Commodities,fiscal_year,2020,2020,2020,49,3
+SNAP,Emergency Food Assistance Commodities,2021,314.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Emergency Food Assistance Commodities,fiscal_year,2021,2021,2021,49,4
+SNAP,Emergency Food Assistance Commodities,2022,320.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Emergency Food Assistance Commodities,fiscal_year,2022,2022,2022,49,5
+SNAP,Emergency Food Assistance Commodities,2023,327.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Emergency Food Assistance Commodities,fiscal_year,2023,2023,2023,49,6
+SNAP,Emergency Food Assistance Commodities,2024,335.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Emergency Food Assistance Commodities,fiscal_year,2024,2024,2024,49,7
+SNAP,Emergency Food Assistance Commodities,2025,342.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Emergency Food Assistance Commodities,fiscal_year,2025,2025,2025,49,8
+SNAP,Emergency Food Assistance Commodities,2026,350.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Emergency Food Assistance Commodities,fiscal_year,2026,2026,2026,49,9
+SNAP,Emergency Food Assistance Commodities,2027,357.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Emergency Food Assistance Commodities,fiscal_year,2027,2027,2027,49,10
+SNAP,Emergency Food Assistance Commodities,2028,364.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Emergency Food Assistance Commodities,fiscal_year,2028,2028,2028,49,11
+SNAP,Emergency Food Assistance Commodities,2029,372.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Emergency Food Assistance Commodities,fiscal_year,2029,2029,2029,49,12
+SNAP,Emergency Food Assistance Commodities,2030,380.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Emergency Food Assistance Commodities,fiscal_year,2030,2030,2030,49,13
+SNAP,Food Donations on Indian Reservations,2020,153.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Food Donations on Indian Reservations,fiscal_year,2020,2020,2020,50,3
+SNAP,Food Donations on Indian Reservations,2021,159.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Food Donations on Indian Reservations,fiscal_year,2021,2021,2021,50,4
+SNAP,Food Donations on Indian Reservations,2022,166.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Food Donations on Indian Reservations,fiscal_year,2022,2022,2022,50,5
+SNAP,Food Donations on Indian Reservations,2023,173.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Food Donations on Indian Reservations,fiscal_year,2023,2023,2023,50,6
+SNAP,Food Donations on Indian Reservations,2024,181.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Food Donations on Indian Reservations,fiscal_year,2024,2024,2024,50,7
+SNAP,Food Donations on Indian Reservations,2025,188.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Food Donations on Indian Reservations,fiscal_year,2025,2025,2025,50,8
+SNAP,Food Donations on Indian Reservations,2026,197.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Food Donations on Indian Reservations,fiscal_year,2026,2026,2026,50,9
+SNAP,Food Donations on Indian Reservations,2027,205.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Food Donations on Indian Reservations,fiscal_year,2027,2027,2027,50,10
+SNAP,Food Donations on Indian Reservations,2028,214.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Food Donations on Indian Reservations,fiscal_year,2028,2028,2028,50,11
+SNAP,Food Donations on Indian Reservations,2029,224.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Food Donations on Indian Reservations,fiscal_year,2029,2029,2029,50,12
+SNAP,Food Donations on Indian Reservations,2030,234.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Food Donations on Indian Reservations,fiscal_year,2030,2030,2030,50,13
+SNAP,Total,2020,5441.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Total,fiscal_year,2020,2020,2020,52,3
+SNAP,Total,2021,5602.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Total,fiscal_year,2021,2021,2021,52,4
+SNAP,Total,2022,5769.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Total,fiscal_year,2022,2022,2022,52,5
+SNAP,Total,2023,5958.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Total,fiscal_year,2023,2023,2023,52,6
+SNAP,Total,2024,6137.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Total,fiscal_year,2024,2024,2024,52,7
+SNAP,Total,2025,6318.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Total,fiscal_year,2025,2025,2025,52,8
+SNAP,Total,2026,6502.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Total,fiscal_year,2026,2026,2026,52,9
+SNAP,Total,2027,6698.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Total,fiscal_year,2027,2027,2027,52,10
+SNAP,Total,2028,6896.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Total,fiscal_year,2028,2028,2028,52,11
+SNAP,Total,2029,7099.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Total,fiscal_year,2029,2029,2029,52,12
+SNAP,Total,2030,7305.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / Total,fiscal_year,2030,2030,2030,52,13
+SNAP,100 Percent Federal Funds,2020,124.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 100 Percent Federal Funds,fiscal_year,2020,2020,2020,57,3
+SNAP,100 Percent Federal Funds,2021,124.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 100 Percent Federal Funds,fiscal_year,2021,2021,2021,57,4
+SNAP,100 Percent Federal Funds,2022,124.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 100 Percent Federal Funds,fiscal_year,2022,2022,2022,57,5
+SNAP,100 Percent Federal Funds,2023,124.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 100 Percent Federal Funds,fiscal_year,2023,2023,2023,57,6
+SNAP,100 Percent Federal Funds,2024,124.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 100 Percent Federal Funds,fiscal_year,2024,2024,2024,57,7
+SNAP,100 Percent Federal Funds,2025,124.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 100 Percent Federal Funds,fiscal_year,2025,2025,2025,57,8
+SNAP,100 Percent Federal Funds,2026,124.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 100 Percent Federal Funds,fiscal_year,2026,2026,2026,57,9
+SNAP,100 Percent Federal Funds,2027,124.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 100 Percent Federal Funds,fiscal_year,2027,2027,2027,57,10
+SNAP,100 Percent Federal Funds,2028,124.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 100 Percent Federal Funds,fiscal_year,2028,2028,2028,57,11
+SNAP,100 Percent Federal Funds,2029,124.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 100 Percent Federal Funds,fiscal_year,2029,2029,2029,57,12
+SNAP,100 Percent Federal Funds,2030,124.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 100 Percent Federal Funds,fiscal_year,2030,2030,2030,57,13
+SNAP,50 Percent Federal Funds,2020,310.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 50 Percent Federal Funds,fiscal_year,2020,2020,2020,58,3
+SNAP,50 Percent Federal Funds,2021,319.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 50 Percent Federal Funds,fiscal_year,2021,2021,2021,58,4
+SNAP,50 Percent Federal Funds,2022,329.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 50 Percent Federal Funds,fiscal_year,2022,2022,2022,58,5
+SNAP,50 Percent Federal Funds,2023,340.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 50 Percent Federal Funds,fiscal_year,2023,2023,2023,58,6
+SNAP,50 Percent Federal Funds,2024,351.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 50 Percent Federal Funds,fiscal_year,2024,2024,2024,58,7
+SNAP,50 Percent Federal Funds,2025,362.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 50 Percent Federal Funds,fiscal_year,2025,2025,2025,58,8
+SNAP,50 Percent Federal Funds,2026,373.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 50 Percent Federal Funds,fiscal_year,2026,2026,2026,58,9
+SNAP,50 Percent Federal Funds,2027,385.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 50 Percent Federal Funds,fiscal_year,2027,2027,2027,58,10
+SNAP,50 Percent Federal Funds,2028,397.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 50 Percent Federal Funds,fiscal_year,2028,2028,2028,58,11
+SNAP,50 Percent Federal Funds,2029,409.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 50 Percent Federal Funds,fiscal_year,2029,2029,2029,58,12
+SNAP,50 Percent Federal Funds,2030,421.0,Percent,51312-2020-03-snap.xlsx,SNAP,false,51312,Fiscal Year Average / Budget Authority for Employment and Training / 50 Percent Federal Funds,fiscal_year,2030,2030,2030,58,13
+SNAP,Total,2020,434.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority for Employment and Training / Total,fiscal_year,2020,2020,2020,59,3
+SNAP,Total,2021,443.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority for Employment and Training / Total,fiscal_year,2021,2021,2021,59,4
+SNAP,Total,2022,453.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority for Employment and Training / Total,fiscal_year,2022,2022,2022,59,5
+SNAP,Total,2023,464.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority for Employment and Training / Total,fiscal_year,2023,2023,2023,59,6
+SNAP,Total,2024,475.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority for Employment and Training / Total,fiscal_year,2024,2024,2024,59,7
+SNAP,Total,2025,486.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority for Employment and Training / Total,fiscal_year,2025,2025,2025,59,8
+SNAP,Total,2026,497.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority for Employment and Training / Total,fiscal_year,2026,2026,2026,59,9
+SNAP,Total,2027,509.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority for Employment and Training / Total,fiscal_year,2027,2027,2027,59,10
+SNAP,Total,2028,521.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority for Employment and Training / Total,fiscal_year,2028,2028,2028,59,11
+SNAP,Total,2029,532.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority for Employment and Training / Total,fiscal_year,2029,2029,2029,59,12
+SNAP,Total,2030,545.0,Percent,51312-2020-03-snap.xlsx,SNAP,true,51312,Fiscal Year Average / Budget Authority for Employment and Training / Total,fiscal_year,2030,2030,2030,59,13

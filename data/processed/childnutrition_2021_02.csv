@@ -1,177 +1,187 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Childnutrition,Budget Authority,2021,21925.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2022,26079.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2023,26987.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2024,28107.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2025,29264.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2026,30490.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2027,31786.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2028,33150.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2029,34588.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2030,36091.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2031,37150.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2021,22112.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2022,25237.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2023,26833.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2024,27915.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2025,29063.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2026,30279.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2027,31562.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2028,32916.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2029,34343.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2030,35834.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2031,36968.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2021,10830.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2022,14124.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2023,14561.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2024,15077.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2025,15645.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2026,16244.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2027,16874.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2028,17537.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2029,18231.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2030,18954.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2031,19510.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2021,10927.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2022,13664.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2023,14477.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2024,14973.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2025,15537.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2026,16131.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2027,16754.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2028,17412.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2029,18101.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2030,18818.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2031,19414.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2021,3921.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2022,5105.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2023,5307.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2024,5541.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2025,5794.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2026,6063.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2027,6347.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2028,6647.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2029,6965.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2030,7298.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2031,7507.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2021,3956.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2022,4939.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2023,5276.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2024,5503.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2025,5754.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2026,6021.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2027,6302.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2028,6600.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2029,6915.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2030,7246.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2031,7470.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2021,4013.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2022,4199.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2023,4384.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2024,4589.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2025,4809.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2026,5044.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2027,5295.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2028,5561.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2029,5843.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2030,6142.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2031,6314.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2021,4049.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2022,4062.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2023,4359.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2024,4557.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2025,4776.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2026,5009.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2027,5257.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2028,5521.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2029,5801.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2030,6098.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2031,6283.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2021,1175.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2022,1602.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2023,1684.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2024,1761.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2025,1845.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2026,1934.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2027,2027.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2028,2124.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2029,2227.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2030,2333.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2031,2414.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2021,1186.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2022,1550.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2023,1674.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2024,1749.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2025,1832.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2026,1921.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2027,2013.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2028,2109.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2029,2211.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2030,2316.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2031,2402.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2021,600.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2022,510.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2023,522.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2024,535.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2025,550.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2026,565.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2027,581.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2028,597.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2029,614.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2030,632.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2031,650.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2021,605.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2022,493.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2023,519.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2024,531.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2025,546.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2026,561.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2027,577.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2028,593.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2029,610.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2030,627.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2031,647.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2021,316.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2022,297.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2023,282.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2024,352.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2025,364.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2026,379.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2027,394.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2028,411.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2029,428.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2030,447.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2031,466.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2021,319.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2022,287.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2023,280.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2024,350.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2025,361.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2026,376.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2027,391.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2028,408.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2029,425.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2030,444.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2031,464.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2021,1070.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2022,242.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2023,247.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2024,252.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2025,257.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2026,261.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2027,268.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2028,273.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2029,280.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2030,285.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Budget Authority,2031,289.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2021,1070.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2022,242.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2023,247.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2024,252.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2025,257.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2026,261.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2027,268.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2028,273.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2029,280.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2030,285.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
-Childnutrition,Estimated Outlays,2031,289.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+Child Nutrition,Budget Authority,2021,21925.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Budget Authority",fiscal_year,2021,2021,2021,15,6
+Child Nutrition,Budget Authority,2022,26079.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Budget Authority",fiscal_year,2022,2022,2022,15,7
+Child Nutrition,Budget Authority,2023,26987.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Budget Authority",fiscal_year,2023,2023,2023,15,8
+Child Nutrition,Budget Authority,2024,28107.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Budget Authority",fiscal_year,2024,2024,2024,15,9
+Child Nutrition,Budget Authority,2025,29264.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Budget Authority",fiscal_year,2025,2025,2025,15,10
+Child Nutrition,Budget Authority,2026,30490.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Budget Authority",fiscal_year,2026,2026,2026,15,11
+Child Nutrition,Budget Authority,2027,31786.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Budget Authority",fiscal_year,2027,2027,2027,15,12
+Child Nutrition,Budget Authority,2028,33150.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Budget Authority",fiscal_year,2028,2028,2028,15,13
+Child Nutrition,Budget Authority,2029,34588.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Budget Authority",fiscal_year,2029,2029,2029,15,14
+Child Nutrition,Budget Authority,2030,36091.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Budget Authority",fiscal_year,2030,2030,2030,15,15
+Child Nutrition,Budget Authority,2031,37150.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Budget Authority",fiscal_year,2031,2031,2031,15,16
+Child Nutrition,Estimated Outlays,2021,22112.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Estimated Outlays",fiscal_year,2021,2021,2021,17,6
+Child Nutrition,Estimated Outlays,2022,25237.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Estimated Outlays",fiscal_year,2022,2022,2022,17,7
+Child Nutrition,Estimated Outlays,2023,26833.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Estimated Outlays",fiscal_year,2023,2023,2023,17,8
+Child Nutrition,Estimated Outlays,2024,27915.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Estimated Outlays",fiscal_year,2024,2024,2024,17,9
+Child Nutrition,Estimated Outlays,2025,29063.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Estimated Outlays",fiscal_year,2025,2025,2025,17,10
+Child Nutrition,Estimated Outlays,2026,30279.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Estimated Outlays",fiscal_year,2026,2026,2026,17,11
+Child Nutrition,Estimated Outlays,2027,31562.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Estimated Outlays",fiscal_year,2027,2027,2027,17,12
+Child Nutrition,Estimated Outlays,2028,32916.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Estimated Outlays",fiscal_year,2028,2028,2028,17,13
+Child Nutrition,Estimated Outlays,2029,34343.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Estimated Outlays",fiscal_year,2029,2029,2029,17,14
+Child Nutrition,Estimated Outlays,2030,35834.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Estimated Outlays",fiscal_year,2030,2030,2030,17,15
+Child Nutrition,Estimated Outlays,2031,36968.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Child Nutrition Programs / (if info not provided, hide rows) / Estimated Outlays",fiscal_year,2031,2031,2031,17,16
+Child Nutrition,Budget Authority,2021,10830.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Budget Authority,fiscal_year,2021,2021,2021,22,6
+Child Nutrition,Budget Authority,2022,14124.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Budget Authority,fiscal_year,2022,2022,2022,22,7
+Child Nutrition,Budget Authority,2023,14561.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Budget Authority,fiscal_year,2023,2023,2023,22,8
+Child Nutrition,Budget Authority,2024,15077.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Budget Authority,fiscal_year,2024,2024,2024,22,9
+Child Nutrition,Budget Authority,2025,15645.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Budget Authority,fiscal_year,2025,2025,2025,22,10
+Child Nutrition,Budget Authority,2026,16244.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Budget Authority,fiscal_year,2026,2026,2026,22,11
+Child Nutrition,Budget Authority,2027,16874.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Budget Authority,fiscal_year,2027,2027,2027,22,12
+Child Nutrition,Budget Authority,2028,17537.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Budget Authority,fiscal_year,2028,2028,2028,22,13
+Child Nutrition,Budget Authority,2029,18231.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Budget Authority,fiscal_year,2029,2029,2029,22,14
+Child Nutrition,Budget Authority,2030,18954.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Budget Authority,fiscal_year,2030,2030,2030,22,15
+Child Nutrition,Budget Authority,2031,19510.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Budget Authority,fiscal_year,2031,2031,2031,22,16
+Child Nutrition,Estimated Outlays,2021,10927.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Estimated Outlays,fiscal_year,2021,2021,2021,23,6
+Child Nutrition,Estimated Outlays,2022,13664.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Estimated Outlays,fiscal_year,2022,2022,2022,23,7
+Child Nutrition,Estimated Outlays,2023,14477.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Estimated Outlays,fiscal_year,2023,2023,2023,23,8
+Child Nutrition,Estimated Outlays,2024,14973.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Estimated Outlays,fiscal_year,2024,2024,2024,23,9
+Child Nutrition,Estimated Outlays,2025,15537.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Estimated Outlays,fiscal_year,2025,2025,2025,23,10
+Child Nutrition,Estimated Outlays,2026,16131.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Estimated Outlays,fiscal_year,2026,2026,2026,23,11
+Child Nutrition,Estimated Outlays,2027,16754.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Estimated Outlays,fiscal_year,2027,2027,2027,23,12
+Child Nutrition,Estimated Outlays,2028,17412.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Estimated Outlays,fiscal_year,2028,2028,2028,23,13
+Child Nutrition,Estimated Outlays,2029,18101.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Estimated Outlays,fiscal_year,2029,2029,2029,23,14
+Child Nutrition,Estimated Outlays,2030,18818.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Estimated Outlays,fiscal_year,2030,2030,2030,23,15
+Child Nutrition,Estimated Outlays,2031,19414.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / National School Lunch Program / Estimated Outlays,fiscal_year,2031,2031,2031,23,16
+Child Nutrition,Budget Authority,2021,3921.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Budget Authority,fiscal_year,2021,2021,2021,26,6
+Child Nutrition,Budget Authority,2022,5105.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Budget Authority,fiscal_year,2022,2022,2022,26,7
+Child Nutrition,Budget Authority,2023,5307.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Budget Authority,fiscal_year,2023,2023,2023,26,8
+Child Nutrition,Budget Authority,2024,5541.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Budget Authority,fiscal_year,2024,2024,2024,26,9
+Child Nutrition,Budget Authority,2025,5794.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Budget Authority,fiscal_year,2025,2025,2025,26,10
+Child Nutrition,Budget Authority,2026,6063.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Budget Authority,fiscal_year,2026,2026,2026,26,11
+Child Nutrition,Budget Authority,2027,6347.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Budget Authority,fiscal_year,2027,2027,2027,26,12
+Child Nutrition,Budget Authority,2028,6647.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Budget Authority,fiscal_year,2028,2028,2028,26,13
+Child Nutrition,Budget Authority,2029,6965.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Budget Authority,fiscal_year,2029,2029,2029,26,14
+Child Nutrition,Budget Authority,2030,7298.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Budget Authority,fiscal_year,2030,2030,2030,26,15
+Child Nutrition,Budget Authority,2031,7507.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Budget Authority,fiscal_year,2031,2031,2031,26,16
+Child Nutrition,Estimated Outlays,2021,3956.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Estimated Outlays,fiscal_year,2021,2021,2021,27,6
+Child Nutrition,Estimated Outlays,2022,4939.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Estimated Outlays,fiscal_year,2022,2022,2022,27,7
+Child Nutrition,Estimated Outlays,2023,5276.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Estimated Outlays,fiscal_year,2023,2023,2023,27,8
+Child Nutrition,Estimated Outlays,2024,5503.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Estimated Outlays,fiscal_year,2024,2024,2024,27,9
+Child Nutrition,Estimated Outlays,2025,5754.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Estimated Outlays,fiscal_year,2025,2025,2025,27,10
+Child Nutrition,Estimated Outlays,2026,6021.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Estimated Outlays,fiscal_year,2026,2026,2026,27,11
+Child Nutrition,Estimated Outlays,2027,6302.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Estimated Outlays,fiscal_year,2027,2027,2027,27,12
+Child Nutrition,Estimated Outlays,2028,6600.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Estimated Outlays,fiscal_year,2028,2028,2028,27,13
+Child Nutrition,Estimated Outlays,2029,6915.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Estimated Outlays,fiscal_year,2029,2029,2029,27,14
+Child Nutrition,Estimated Outlays,2030,7246.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Estimated Outlays,fiscal_year,2030,2030,2030,27,15
+Child Nutrition,Estimated Outlays,2031,7470.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / School Breakfast Program / Estimated Outlays,fiscal_year,2031,2031,2031,27,16
+Child Nutrition,Budget Authority,2021,4013.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Budget Authority,fiscal_year,2021,2021,2021,30,6
+Child Nutrition,Budget Authority,2022,4199.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Budget Authority,fiscal_year,2022,2022,2022,30,7
+Child Nutrition,Budget Authority,2023,4384.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Budget Authority,fiscal_year,2023,2023,2023,30,8
+Child Nutrition,Budget Authority,2024,4589.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Budget Authority,fiscal_year,2024,2024,2024,30,9
+Child Nutrition,Budget Authority,2025,4809.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Budget Authority,fiscal_year,2025,2025,2025,30,10
+Child Nutrition,Budget Authority,2026,5044.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Budget Authority,fiscal_year,2026,2026,2026,30,11
+Child Nutrition,Budget Authority,2027,5295.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Budget Authority,fiscal_year,2027,2027,2027,30,12
+Child Nutrition,Budget Authority,2028,5561.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Budget Authority,fiscal_year,2028,2028,2028,30,13
+Child Nutrition,Budget Authority,2029,5843.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Budget Authority,fiscal_year,2029,2029,2029,30,14
+Child Nutrition,Budget Authority,2030,6142.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Budget Authority,fiscal_year,2030,2030,2030,30,15
+Child Nutrition,Budget Authority,2031,6314.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Budget Authority,fiscal_year,2031,2031,2031,30,16
+Child Nutrition,Estimated Outlays,2021,4049.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Estimated Outlays,fiscal_year,2021,2021,2021,31,6
+Child Nutrition,Estimated Outlays,2022,4062.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Estimated Outlays,fiscal_year,2022,2022,2022,31,7
+Child Nutrition,Estimated Outlays,2023,4359.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Estimated Outlays,fiscal_year,2023,2023,2023,31,8
+Child Nutrition,Estimated Outlays,2024,4557.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Estimated Outlays,fiscal_year,2024,2024,2024,31,9
+Child Nutrition,Estimated Outlays,2025,4776.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Estimated Outlays,fiscal_year,2025,2025,2025,31,10
+Child Nutrition,Estimated Outlays,2026,5009.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Estimated Outlays,fiscal_year,2026,2026,2026,31,11
+Child Nutrition,Estimated Outlays,2027,5257.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Estimated Outlays,fiscal_year,2027,2027,2027,31,12
+Child Nutrition,Estimated Outlays,2028,5521.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Estimated Outlays,fiscal_year,2028,2028,2028,31,13
+Child Nutrition,Estimated Outlays,2029,5801.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Estimated Outlays,fiscal_year,2029,2029,2029,31,14
+Child Nutrition,Estimated Outlays,2030,6098.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Estimated Outlays,fiscal_year,2030,2030,2030,31,15
+Child Nutrition,Estimated Outlays,2031,6283.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Child and Adult Care Food Program / Estimated Outlays,fiscal_year,2031,2031,2031,31,16
+Child Nutrition,Budget Authority,2021,1175.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Budget Authority,fiscal_year,2021,2021,2021,34,6
+Child Nutrition,Budget Authority,2022,1602.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Budget Authority,fiscal_year,2022,2022,2022,34,7
+Child Nutrition,Budget Authority,2023,1684.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Budget Authority,fiscal_year,2023,2023,2023,34,8
+Child Nutrition,Budget Authority,2024,1761.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Budget Authority,fiscal_year,2024,2024,2024,34,9
+Child Nutrition,Budget Authority,2025,1845.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Budget Authority,fiscal_year,2025,2025,2025,34,10
+Child Nutrition,Budget Authority,2026,1934.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Budget Authority,fiscal_year,2026,2026,2026,34,11
+Child Nutrition,Budget Authority,2027,2027.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Budget Authority,fiscal_year,2027,2027,2027,34,12
+Child Nutrition,Budget Authority,2028,2124.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Budget Authority,fiscal_year,2028,2028,2028,34,13
+Child Nutrition,Budget Authority,2029,2227.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Budget Authority,fiscal_year,2029,2029,2029,34,14
+Child Nutrition,Budget Authority,2030,2333.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Budget Authority,fiscal_year,2030,2030,2030,34,15
+Child Nutrition,Budget Authority,2031,2414.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Budget Authority,fiscal_year,2031,2031,2031,34,16
+Child Nutrition,Estimated Outlays,2021,1186.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Estimated Outlays,fiscal_year,2021,2021,2021,35,6
+Child Nutrition,Estimated Outlays,2022,1550.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Estimated Outlays,fiscal_year,2022,2022,2022,35,7
+Child Nutrition,Estimated Outlays,2023,1674.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Estimated Outlays,fiscal_year,2023,2023,2023,35,8
+Child Nutrition,Estimated Outlays,2024,1749.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Estimated Outlays,fiscal_year,2024,2024,2024,35,9
+Child Nutrition,Estimated Outlays,2025,1832.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Estimated Outlays,fiscal_year,2025,2025,2025,35,10
+Child Nutrition,Estimated Outlays,2026,1921.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Estimated Outlays,fiscal_year,2026,2026,2026,35,11
+Child Nutrition,Estimated Outlays,2027,2013.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Estimated Outlays,fiscal_year,2027,2027,2027,35,12
+Child Nutrition,Estimated Outlays,2028,2109.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Estimated Outlays,fiscal_year,2028,2028,2028,35,13
+Child Nutrition,Estimated Outlays,2029,2211.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Estimated Outlays,fiscal_year,2029,2029,2029,35,14
+Child Nutrition,Estimated Outlays,2030,2316.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Estimated Outlays,fiscal_year,2030,2030,2030,35,15
+Child Nutrition,Estimated Outlays,2031,2402.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Commodity procurement / Estimated Outlays,fiscal_year,2031,2031,2031,35,16
+Child Nutrition,Budget Authority,2021,600.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Budget Authority,fiscal_year,2021,2021,2021,38,6
+Child Nutrition,Budget Authority,2022,510.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Budget Authority,fiscal_year,2022,2022,2022,38,7
+Child Nutrition,Budget Authority,2023,522.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Budget Authority,fiscal_year,2023,2023,2023,38,8
+Child Nutrition,Budget Authority,2024,535.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Budget Authority,fiscal_year,2024,2024,2024,38,9
+Child Nutrition,Budget Authority,2025,550.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Budget Authority,fiscal_year,2025,2025,2025,38,10
+Child Nutrition,Budget Authority,2026,565.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Budget Authority,fiscal_year,2026,2026,2026,38,11
+Child Nutrition,Budget Authority,2027,581.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Budget Authority,fiscal_year,2027,2027,2027,38,12
+Child Nutrition,Budget Authority,2028,597.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Budget Authority,fiscal_year,2028,2028,2028,38,13
+Child Nutrition,Budget Authority,2029,614.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Budget Authority,fiscal_year,2029,2029,2029,38,14
+Child Nutrition,Budget Authority,2030,632.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Budget Authority,fiscal_year,2030,2030,2030,38,15
+Child Nutrition,Budget Authority,2031,650.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Budget Authority,fiscal_year,2031,2031,2031,38,16
+Child Nutrition,Estimated Outlays,2021,605.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Estimated Outlays,fiscal_year,2021,2021,2021,39,6
+Child Nutrition,Estimated Outlays,2022,493.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Estimated Outlays,fiscal_year,2022,2022,2022,39,7
+Child Nutrition,Estimated Outlays,2023,519.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Estimated Outlays,fiscal_year,2023,2023,2023,39,8
+Child Nutrition,Estimated Outlays,2024,531.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Estimated Outlays,fiscal_year,2024,2024,2024,39,9
+Child Nutrition,Estimated Outlays,2025,546.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Estimated Outlays,fiscal_year,2025,2025,2025,39,10
+Child Nutrition,Estimated Outlays,2026,561.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Estimated Outlays,fiscal_year,2026,2026,2026,39,11
+Child Nutrition,Estimated Outlays,2027,577.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Estimated Outlays,fiscal_year,2027,2027,2027,39,12
+Child Nutrition,Estimated Outlays,2028,593.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Estimated Outlays,fiscal_year,2028,2028,2028,39,13
+Child Nutrition,Estimated Outlays,2029,610.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Estimated Outlays,fiscal_year,2029,2029,2029,39,14
+Child Nutrition,Estimated Outlays,2030,627.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Estimated Outlays,fiscal_year,2030,2030,2030,39,15
+Child Nutrition,Estimated Outlays,2031,647.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Summer Food Service Program / Estimated Outlays,fiscal_year,2031,2031,2031,39,16
+Child Nutrition,Budget Authority,2021,316.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Budget Authority,fiscal_year,2021,2021,2021,42,6
+Child Nutrition,Budget Authority,2022,297.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Budget Authority,fiscal_year,2022,2022,2022,42,7
+Child Nutrition,Budget Authority,2023,282.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Budget Authority,fiscal_year,2023,2023,2023,42,8
+Child Nutrition,Budget Authority,2024,352.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Budget Authority,fiscal_year,2024,2024,2024,42,9
+Child Nutrition,Budget Authority,2025,364.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Budget Authority,fiscal_year,2025,2025,2025,42,10
+Child Nutrition,Budget Authority,2026,379.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Budget Authority,fiscal_year,2026,2026,2026,42,11
+Child Nutrition,Budget Authority,2027,394.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Budget Authority,fiscal_year,2027,2027,2027,42,12
+Child Nutrition,Budget Authority,2028,411.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Budget Authority,fiscal_year,2028,2028,2028,42,13
+Child Nutrition,Budget Authority,2029,428.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Budget Authority,fiscal_year,2029,2029,2029,42,14
+Child Nutrition,Budget Authority,2030,447.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Budget Authority,fiscal_year,2030,2030,2030,42,15
+Child Nutrition,Budget Authority,2031,466.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Budget Authority,fiscal_year,2031,2031,2031,42,16
+Child Nutrition,Estimated Outlays,2021,319.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Estimated Outlays,fiscal_year,2021,2021,2021,43,6
+Child Nutrition,Estimated Outlays,2022,287.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Estimated Outlays,fiscal_year,2022,2022,2022,43,7
+Child Nutrition,Estimated Outlays,2023,280.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Estimated Outlays,fiscal_year,2023,2023,2023,43,8
+Child Nutrition,Estimated Outlays,2024,350.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Estimated Outlays,fiscal_year,2024,2024,2024,43,9
+Child Nutrition,Estimated Outlays,2025,361.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Estimated Outlays,fiscal_year,2025,2025,2025,43,10
+Child Nutrition,Estimated Outlays,2026,376.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Estimated Outlays,fiscal_year,2026,2026,2026,43,11
+Child Nutrition,Estimated Outlays,2027,391.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Estimated Outlays,fiscal_year,2027,2027,2027,43,12
+Child Nutrition,Estimated Outlays,2028,408.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Estimated Outlays,fiscal_year,2028,2028,2028,43,13
+Child Nutrition,Estimated Outlays,2029,425.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Estimated Outlays,fiscal_year,2029,2029,2029,43,14
+Child Nutrition,Estimated Outlays,2030,444.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Estimated Outlays,fiscal_year,2030,2030,2030,43,15
+Child Nutrition,Estimated Outlays,2031,464.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / State administrative expenses / Estimated Outlays,fiscal_year,2031,2031,2031,43,16
+Child Nutrition,Budget Authority,2021,1070.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Budget Authority,fiscal_year,2021,2021,2021,46,6
+Child Nutrition,Budget Authority,2022,242.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Budget Authority,fiscal_year,2022,2022,2022,46,7
+Child Nutrition,Budget Authority,2023,247.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Budget Authority,fiscal_year,2023,2023,2023,46,8
+Child Nutrition,Budget Authority,2024,252.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Budget Authority,fiscal_year,2024,2024,2024,46,9
+Child Nutrition,Budget Authority,2025,257.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Budget Authority,fiscal_year,2025,2025,2025,46,10
+Child Nutrition,Budget Authority,2026,261.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Budget Authority,fiscal_year,2026,2026,2026,46,11
+Child Nutrition,Budget Authority,2027,268.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Budget Authority,fiscal_year,2027,2027,2027,46,12
+Child Nutrition,Budget Authority,2028,273.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Budget Authority,fiscal_year,2028,2028,2028,46,13
+Child Nutrition,Budget Authority,2029,280.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Budget Authority,fiscal_year,2029,2029,2029,46,14
+Child Nutrition,Budget Authority,2030,285.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Budget Authority,fiscal_year,2030,2030,2030,46,15
+Child Nutrition,Budget Authority,2031,289.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Budget Authority,fiscal_year,2031,2031,2031,46,16
+Child Nutrition,Estimated Outlays,2021,1070.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Estimated Outlays,fiscal_year,2021,2021,2021,47,6
+Child Nutrition,Estimated Outlays,2022,242.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Estimated Outlays,fiscal_year,2022,2022,2022,47,7
+Child Nutrition,Estimated Outlays,2023,247.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Estimated Outlays,fiscal_year,2023,2023,2023,47,8
+Child Nutrition,Estimated Outlays,2024,252.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Estimated Outlays,fiscal_year,2024,2024,2024,47,9
+Child Nutrition,Estimated Outlays,2025,257.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Estimated Outlays,fiscal_year,2025,2025,2025,47,10
+Child Nutrition,Estimated Outlays,2026,261.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Estimated Outlays,fiscal_year,2026,2026,2026,47,11
+Child Nutrition,Estimated Outlays,2027,268.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Estimated Outlays,fiscal_year,2027,2027,2027,47,12
+Child Nutrition,Estimated Outlays,2028,273.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Estimated Outlays,fiscal_year,2028,2028,2028,47,13
+Child Nutrition,Estimated Outlays,2029,280.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Estimated Outlays,fiscal_year,2029,2029,2029,47,14
+Child Nutrition,Estimated Outlays,2030,285.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Estimated Outlays,fiscal_year,2030,2030,2030,47,15
+Child Nutrition,Estimated Outlays,2031,289.0,Millions of dollars,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,Child Nutrition Programs / Other spendinga / Estimated Outlays,fiscal_year,2031,2031,2031,47,16
+Child Nutrition,Unlabeled value (row 57),2022,102.8,Percent,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Most reimbursement rates are tied to the consumer price index for food away from home, which is projected to increase as follows: / Unlabeled value (row 57)",fiscal_year,2022,2022,2022,57,7
+Child Nutrition,Unlabeled value (row 57),2023,102.3,Percent,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Most reimbursement rates are tied to the consumer price index for food away from home, which is projected to increase as follows: / Unlabeled value (row 57)",fiscal_year,2023,2023,2023,57,8
+Child Nutrition,Unlabeled value (row 57),2024,102.60000000000001,Percent,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Most reimbursement rates are tied to the consumer price index for food away from home, which is projected to increase as follows: / Unlabeled value (row 57)",fiscal_year,2024,2024,2024,57,9
+Child Nutrition,Unlabeled value (row 57),2025,102.69999999999999,Percent,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Most reimbursement rates are tied to the consumer price index for food away from home, which is projected to increase as follows: / Unlabeled value (row 57)",fiscal_year,2025,2025,2025,57,10
+Child Nutrition,Unlabeled value (row 57),2026,102.8,Percent,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Most reimbursement rates are tied to the consumer price index for food away from home, which is projected to increase as follows: / Unlabeled value (row 57)",fiscal_year,2026,2026,2026,57,11
+Child Nutrition,Unlabeled value (row 57),2027,102.8,Percent,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Most reimbursement rates are tied to the consumer price index for food away from home, which is projected to increase as follows: / Unlabeled value (row 57)",fiscal_year,2027,2027,2027,57,12
+Child Nutrition,Unlabeled value (row 57),2028,102.89999999999999,Percent,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Most reimbursement rates are tied to the consumer price index for food away from home, which is projected to increase as follows: / Unlabeled value (row 57)",fiscal_year,2028,2028,2028,57,13
+Child Nutrition,Unlabeled value (row 57),2029,102.89999999999999,Percent,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Most reimbursement rates are tied to the consumer price index for food away from home, which is projected to increase as follows: / Unlabeled value (row 57)",fiscal_year,2029,2029,2029,57,14
+Child Nutrition,Unlabeled value (row 57),2030,102.89999999999999,Percent,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Most reimbursement rates are tied to the consumer price index for food away from home, which is projected to increase as follows: / Unlabeled value (row 57)",fiscal_year,2030,2030,2030,57,15
+Child Nutrition,Unlabeled value (row 57),2031,102.89999999999999,Percent,51293-2021-02-childnutrition.xlsx,Child Nutrition_2-2021,false,51293,"Most reimbursement rates are tied to the consumer price index for food away from home, which is projected to increase as follows: / Unlabeled value (row 57)",fiscal_year,2031,2031,2031,57,16

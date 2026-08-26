@@ -1,122 +1,122 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Dodmedicare,Estimated Outlays From the MERHCF,2024,11839.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Estimated Outlays From the MERHCF,2025,12442.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Estimated Outlays From the MERHCF,2026,13025.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Estimated Outlays From the MERHCF,2027,13753.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Estimated Outlays From the MERHCF,2028,14387.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Estimated Outlays From the MERHCF,2029,15007.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Estimated Outlays From the MERHCF,2030,15703.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Estimated Outlays From the MERHCF,2031,16401.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Estimated Outlays From the MERHCF,2032,17105.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Estimated Outlays From the MERHCF,2033,17801.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Estimated Outlays From the MERHCF,2034,18489.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Life,2024,10989.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Life,2025,11573.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Life,2026,12137.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Life,2027,12845.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Life,2028,13463.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Life,2029,14070.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Life,2030,14754.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Life,2031,15442.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Life,2032,16139.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Life,2033,16829.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Life,2034,17514.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHP,2024,850.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHP,2025,869.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHP,2026,888.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHP,2027,908.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHP,2028,924.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHP,2029,937.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHP,2030,949.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHP,2031,959.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHP,2032,966.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHP,2033,972.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHP,2034,975.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Lifea,2024,2478.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Lifea,2025,2503.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Lifea,2026,2526.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Lifea,2027,2546.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Lifea,2028,2564.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Lifea,2029,2577.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Lifea,2030,2583.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Lifea,2031,2583.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Lifea,2032,2577.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Lifea,2033,2568.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,TRICARE for Lifea,2034,2558.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPb,2024,46.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPb,2025,45.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPb,2026,44.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPb,2027,43.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPb,2028,41.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPb,2029,40.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPb,2030,39.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPb,2031,38.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPb,2032,36.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPb,2033,35.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPb,2034,33.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2024,1843.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2025,1937.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2026,2043.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2027,2160.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2028,2262.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2029,2375.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2030,2504.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2031,2635.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2032,2775.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2033,2921.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2034,3064.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2024,1689.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2025,1757.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2026,1790.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2027,1872.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2028,1929.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2029,1976.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2030,2048.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2031,2128.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2032,2215.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2033,2298.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2034,2385.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2024,501.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2025,521.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2026,544.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2027,569.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2028,595.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2029,622.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2030,652.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2031,683.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2032,717.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2033,752.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Inpatient/outpatient,2034,789.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2024,403.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2025,418.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2026,436.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2027,455.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2028,475.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2029,496.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2030,518.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2031,542.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2032,567.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2033,592.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Pharmacy,2034,618.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,Total TRICARE for Life,2024,4436.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true
-Dodmedicare,Total TRICARE for Life,2025,4633.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true
-Dodmedicare,Total TRICARE for Life,2026,4813.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true
-Dodmedicare,Total TRICARE for Life,2027,5056.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true
-Dodmedicare,Total TRICARE for Life,2028,5261.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true
-Dodmedicare,Total TRICARE for Life,2029,5469.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true
-Dodmedicare,Total TRICARE for Life,2030,5722.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true
-Dodmedicare,Total TRICARE for Life,2031,5988.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true
-Dodmedicare,Total TRICARE for Life,2032,6274.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true
-Dodmedicare,Total TRICARE for Life,2033,6563.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true
-Dodmedicare,Total TRICARE for Life,2034,6856.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true
-Dodmedicare,USFHPc,2024,18475.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPc,2025,19309.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPc,2026,20187.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPc,2027,21114.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPc,2028,22524.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPc,2029,23429.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPc,2030,24330.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPc,2031,25226.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPc,2032,26840.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPc,2033,27766.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
-Dodmedicare,USFHPc,2034,29554.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+DoD Medicare,Estimated Outlays From the MERHCF,2024,11839.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / BUDGET INFORMATION / Estimated Outlays From the MERHCF,fiscal_year,2024,2024,2024,13,4
+DoD Medicare,Estimated Outlays From the MERHCF,2025,12442.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / BUDGET INFORMATION / Estimated Outlays From the MERHCF,fiscal_year,2025,2025,2025,13,5
+DoD Medicare,Estimated Outlays From the MERHCF,2026,13025.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / BUDGET INFORMATION / Estimated Outlays From the MERHCF,fiscal_year,2026,2026,2026,13,6
+DoD Medicare,Estimated Outlays From the MERHCF,2027,13753.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / BUDGET INFORMATION / Estimated Outlays From the MERHCF,fiscal_year,2027,2027,2027,13,7
+DoD Medicare,Estimated Outlays From the MERHCF,2028,14387.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / BUDGET INFORMATION / Estimated Outlays From the MERHCF,fiscal_year,2028,2028,2028,13,8
+DoD Medicare,Estimated Outlays From the MERHCF,2029,15007.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / BUDGET INFORMATION / Estimated Outlays From the MERHCF,fiscal_year,2029,2029,2029,13,9
+DoD Medicare,Estimated Outlays From the MERHCF,2030,15703.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / BUDGET INFORMATION / Estimated Outlays From the MERHCF,fiscal_year,2030,2030,2030,13,10
+DoD Medicare,Estimated Outlays From the MERHCF,2031,16401.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / BUDGET INFORMATION / Estimated Outlays From the MERHCF,fiscal_year,2031,2031,2031,13,11
+DoD Medicare,Estimated Outlays From the MERHCF,2032,17105.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / BUDGET INFORMATION / Estimated Outlays From the MERHCF,fiscal_year,2032,2032,2032,13,12
+DoD Medicare,Estimated Outlays From the MERHCF,2033,17801.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / BUDGET INFORMATION / Estimated Outlays From the MERHCF,fiscal_year,2033,2033,2033,13,13
+DoD Medicare,Estimated Outlays From the MERHCF,2034,18489.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / BUDGET INFORMATION / Estimated Outlays From the MERHCF,fiscal_year,2034,2034,2034,13,14
+DoD Medicare,TRICARE for Life,2024,10989.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / TRICARE for Life,fiscal_year,2024,2024,2024,16,4
+DoD Medicare,TRICARE for Life,2025,11573.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / TRICARE for Life,fiscal_year,2025,2025,2025,16,5
+DoD Medicare,TRICARE for Life,2026,12137.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / TRICARE for Life,fiscal_year,2026,2026,2026,16,6
+DoD Medicare,TRICARE for Life,2027,12845.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / TRICARE for Life,fiscal_year,2027,2027,2027,16,7
+DoD Medicare,TRICARE for Life,2028,13463.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / TRICARE for Life,fiscal_year,2028,2028,2028,16,8
+DoD Medicare,TRICARE for Life,2029,14070.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / TRICARE for Life,fiscal_year,2029,2029,2029,16,9
+DoD Medicare,TRICARE for Life,2030,14754.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / TRICARE for Life,fiscal_year,2030,2030,2030,16,10
+DoD Medicare,TRICARE for Life,2031,15442.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / TRICARE for Life,fiscal_year,2031,2031,2031,16,11
+DoD Medicare,TRICARE for Life,2032,16139.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / TRICARE for Life,fiscal_year,2032,2032,2032,16,12
+DoD Medicare,TRICARE for Life,2033,16829.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / TRICARE for Life,fiscal_year,2033,2033,2033,16,13
+DoD Medicare,TRICARE for Life,2034,17514.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / TRICARE for Life,fiscal_year,2034,2034,2034,16,14
+DoD Medicare,USFHP,2024,850.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / USFHP,fiscal_year,2024,2024,2024,17,4
+DoD Medicare,USFHP,2025,869.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / USFHP,fiscal_year,2025,2025,2025,17,5
+DoD Medicare,USFHP,2026,888.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / USFHP,fiscal_year,2026,2026,2026,17,6
+DoD Medicare,USFHP,2027,908.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / USFHP,fiscal_year,2027,2027,2027,17,7
+DoD Medicare,USFHP,2028,924.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / USFHP,fiscal_year,2028,2028,2028,17,8
+DoD Medicare,USFHP,2029,937.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / USFHP,fiscal_year,2029,2029,2029,17,9
+DoD Medicare,USFHP,2030,949.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / USFHP,fiscal_year,2030,2030,2030,17,10
+DoD Medicare,USFHP,2031,959.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / USFHP,fiscal_year,2031,2031,2031,17,11
+DoD Medicare,USFHP,2032,966.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / USFHP,fiscal_year,2032,2032,2032,17,12
+DoD Medicare,USFHP,2033,972.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / USFHP,fiscal_year,2033,2033,2033,17,13
+DoD Medicare,USFHP,2034,975.0,Millions of dollars,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Components of the MERHCF / USFHP,fiscal_year,2034,2034,2034,17,14
+DoD Medicare,TRICARE for Lifea,2024,2478.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / TRICARE for Lifea,fiscal_year,2024,2024,2024,24,4
+DoD Medicare,TRICARE for Lifea,2025,2503.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / TRICARE for Lifea,fiscal_year,2025,2025,2025,24,5
+DoD Medicare,TRICARE for Lifea,2026,2526.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / TRICARE for Lifea,fiscal_year,2026,2026,2026,24,6
+DoD Medicare,TRICARE for Lifea,2027,2546.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / TRICARE for Lifea,fiscal_year,2027,2027,2027,24,7
+DoD Medicare,TRICARE for Lifea,2028,2564.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / TRICARE for Lifea,fiscal_year,2028,2028,2028,24,8
+DoD Medicare,TRICARE for Lifea,2029,2577.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / TRICARE for Lifea,fiscal_year,2029,2029,2029,24,9
+DoD Medicare,TRICARE for Lifea,2030,2583.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / TRICARE for Lifea,fiscal_year,2030,2030,2030,24,10
+DoD Medicare,TRICARE for Lifea,2031,2583.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / TRICARE for Lifea,fiscal_year,2031,2031,2031,24,11
+DoD Medicare,TRICARE for Lifea,2032,2577.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / TRICARE for Lifea,fiscal_year,2032,2032,2032,24,12
+DoD Medicare,TRICARE for Lifea,2033,2568.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / TRICARE for Lifea,fiscal_year,2033,2033,2033,24,13
+DoD Medicare,TRICARE for Lifea,2034,2558.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / TRICARE for Lifea,fiscal_year,2034,2034,2034,24,14
+DoD Medicare,USFHPb,2024,46.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / USFHPb,fiscal_year,2024,2024,2024,25,4
+DoD Medicare,USFHPb,2025,45.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / USFHPb,fiscal_year,2025,2025,2025,25,5
+DoD Medicare,USFHPb,2026,44.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / USFHPb,fiscal_year,2026,2026,2026,25,6
+DoD Medicare,USFHPb,2027,43.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / USFHPb,fiscal_year,2027,2027,2027,25,7
+DoD Medicare,USFHPb,2028,41.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / USFHPb,fiscal_year,2028,2028,2028,25,8
+DoD Medicare,USFHPb,2029,40.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / USFHPb,fiscal_year,2029,2029,2029,25,9
+DoD Medicare,USFHPb,2030,39.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / USFHPb,fiscal_year,2030,2030,2030,25,10
+DoD Medicare,USFHPb,2031,38.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / USFHPb,fiscal_year,2031,2031,2031,25,11
+DoD Medicare,USFHPb,2032,36.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / USFHPb,fiscal_year,2032,2032,2032,25,12
+DoD Medicare,USFHPb,2033,35.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / USFHPb,fiscal_year,2033,2033,2033,25,13
+DoD Medicare,USFHPb,2034,33.0,Thousands of people,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / USFHPb,fiscal_year,2034,2034,2034,25,14
+DoD Medicare,Inpatient/outpatient,2024,1843.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Inpatient/outpatient,fiscal_year,2024,2024,2024,30,4
+DoD Medicare,Inpatient/outpatient,2025,1937.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Inpatient/outpatient,fiscal_year,2025,2025,2025,30,5
+DoD Medicare,Inpatient/outpatient,2026,2043.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Inpatient/outpatient,fiscal_year,2026,2026,2026,30,6
+DoD Medicare,Inpatient/outpatient,2027,2160.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Inpatient/outpatient,fiscal_year,2027,2027,2027,30,7
+DoD Medicare,Inpatient/outpatient,2028,2262.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Inpatient/outpatient,fiscal_year,2028,2028,2028,30,8
+DoD Medicare,Inpatient/outpatient,2029,2375.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Inpatient/outpatient,fiscal_year,2029,2029,2029,30,9
+DoD Medicare,Inpatient/outpatient,2030,2504.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Inpatient/outpatient,fiscal_year,2030,2030,2030,30,10
+DoD Medicare,Inpatient/outpatient,2031,2635.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Inpatient/outpatient,fiscal_year,2031,2031,2031,30,11
+DoD Medicare,Inpatient/outpatient,2032,2775.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Inpatient/outpatient,fiscal_year,2032,2032,2032,30,12
+DoD Medicare,Inpatient/outpatient,2033,2921.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Inpatient/outpatient,fiscal_year,2033,2033,2033,30,13
+DoD Medicare,Inpatient/outpatient,2034,3064.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Inpatient/outpatient,fiscal_year,2034,2034,2034,30,14
+DoD Medicare,Pharmacy,2024,1689.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Pharmacy,fiscal_year,2024,2024,2024,31,4
+DoD Medicare,Pharmacy,2025,1757.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Pharmacy,fiscal_year,2025,2025,2025,31,5
+DoD Medicare,Pharmacy,2026,1790.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Pharmacy,fiscal_year,2026,2026,2026,31,6
+DoD Medicare,Pharmacy,2027,1872.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Pharmacy,fiscal_year,2027,2027,2027,31,7
+DoD Medicare,Pharmacy,2028,1929.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Pharmacy,fiscal_year,2028,2028,2028,31,8
+DoD Medicare,Pharmacy,2029,1976.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Pharmacy,fiscal_year,2029,2029,2029,31,9
+DoD Medicare,Pharmacy,2030,2048.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Pharmacy,fiscal_year,2030,2030,2030,31,10
+DoD Medicare,Pharmacy,2031,2128.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Pharmacy,fiscal_year,2031,2031,2031,31,11
+DoD Medicare,Pharmacy,2032,2215.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Pharmacy,fiscal_year,2032,2032,2032,31,12
+DoD Medicare,Pharmacy,2033,2298.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Pharmacy,fiscal_year,2033,2033,2033,31,13
+DoD Medicare,Pharmacy,2034,2385.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Purchased care / Pharmacy,fiscal_year,2034,2034,2034,31,14
+DoD Medicare,Inpatient/outpatient,2024,501.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Inpatient/outpatient,fiscal_year,2024,2024,2024,34,4
+DoD Medicare,Inpatient/outpatient,2025,521.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Inpatient/outpatient,fiscal_year,2025,2025,2025,34,5
+DoD Medicare,Inpatient/outpatient,2026,544.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Inpatient/outpatient,fiscal_year,2026,2026,2026,34,6
+DoD Medicare,Inpatient/outpatient,2027,569.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Inpatient/outpatient,fiscal_year,2027,2027,2027,34,7
+DoD Medicare,Inpatient/outpatient,2028,595.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Inpatient/outpatient,fiscal_year,2028,2028,2028,34,8
+DoD Medicare,Inpatient/outpatient,2029,622.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Inpatient/outpatient,fiscal_year,2029,2029,2029,34,9
+DoD Medicare,Inpatient/outpatient,2030,652.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Inpatient/outpatient,fiscal_year,2030,2030,2030,34,10
+DoD Medicare,Inpatient/outpatient,2031,683.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Inpatient/outpatient,fiscal_year,2031,2031,2031,34,11
+DoD Medicare,Inpatient/outpatient,2032,717.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Inpatient/outpatient,fiscal_year,2032,2032,2032,34,12
+DoD Medicare,Inpatient/outpatient,2033,752.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Inpatient/outpatient,fiscal_year,2033,2033,2033,34,13
+DoD Medicare,Inpatient/outpatient,2034,789.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Inpatient/outpatient,fiscal_year,2034,2034,2034,34,14
+DoD Medicare,Pharmacy,2024,403.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Pharmacy,fiscal_year,2024,2024,2024,35,4
+DoD Medicare,Pharmacy,2025,418.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Pharmacy,fiscal_year,2025,2025,2025,35,5
+DoD Medicare,Pharmacy,2026,436.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Pharmacy,fiscal_year,2026,2026,2026,35,6
+DoD Medicare,Pharmacy,2027,455.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Pharmacy,fiscal_year,2027,2027,2027,35,7
+DoD Medicare,Pharmacy,2028,475.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Pharmacy,fiscal_year,2028,2028,2028,35,8
+DoD Medicare,Pharmacy,2029,496.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Pharmacy,fiscal_year,2029,2029,2029,35,9
+DoD Medicare,Pharmacy,2030,518.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Pharmacy,fiscal_year,2030,2030,2030,35,10
+DoD Medicare,Pharmacy,2031,542.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Pharmacy,fiscal_year,2031,2031,2031,35,11
+DoD Medicare,Pharmacy,2032,567.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Pharmacy,fiscal_year,2032,2032,2032,35,12
+DoD Medicare,Pharmacy,2033,592.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Pharmacy,fiscal_year,2033,2033,2033,35,13
+DoD Medicare,Pharmacy,2034,618.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Pharmacy,fiscal_year,2034,2034,2034,35,14
+DoD Medicare,Total TRICARE for Life,2024,4436.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Total TRICARE for Life,fiscal_year,2024,2024,2024,37,4
+DoD Medicare,Total TRICARE for Life,2025,4633.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Total TRICARE for Life,fiscal_year,2025,2025,2025,37,5
+DoD Medicare,Total TRICARE for Life,2026,4813.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Total TRICARE for Life,fiscal_year,2026,2026,2026,37,6
+DoD Medicare,Total TRICARE for Life,2027,5056.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Total TRICARE for Life,fiscal_year,2027,2027,2027,37,7
+DoD Medicare,Total TRICARE for Life,2028,5261.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Total TRICARE for Life,fiscal_year,2028,2028,2028,37,8
+DoD Medicare,Total TRICARE for Life,2029,5469.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Total TRICARE for Life,fiscal_year,2029,2029,2029,37,9
+DoD Medicare,Total TRICARE for Life,2030,5722.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Total TRICARE for Life,fiscal_year,2030,2030,2030,37,10
+DoD Medicare,Total TRICARE for Life,2031,5988.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Total TRICARE for Life,fiscal_year,2031,2031,2031,37,11
+DoD Medicare,Total TRICARE for Life,2032,6274.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Total TRICARE for Life,fiscal_year,2032,2032,2032,37,12
+DoD Medicare,Total TRICARE for Life,2033,6563.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Total TRICARE for Life,fiscal_year,2033,2033,2033,37,13
+DoD Medicare,Total TRICARE for Life,2034,6856.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,true,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / Military treatment facilities / Total TRICARE for Life,fiscal_year,2034,2034,2034,37,14
+DoD Medicare,USFHPc,2024,18475.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / USFHPc,fiscal_year,2024,2024,2024,39,4
+DoD Medicare,USFHPc,2025,19309.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / USFHPc,fiscal_year,2025,2025,2025,39,5
+DoD Medicare,USFHPc,2026,20187.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / USFHPc,fiscal_year,2026,2026,2026,39,6
+DoD Medicare,USFHPc,2027,21114.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / USFHPc,fiscal_year,2027,2027,2027,39,7
+DoD Medicare,USFHPc,2028,22524.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / USFHPc,fiscal_year,2028,2028,2028,39,8
+DoD Medicare,USFHPc,2029,23429.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / USFHPc,fiscal_year,2029,2029,2029,39,9
+DoD Medicare,USFHPc,2030,24330.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / USFHPc,fiscal_year,2030,2030,2030,39,10
+DoD Medicare,USFHPc,2031,25226.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / USFHPc,fiscal_year,2031,2031,2031,39,11
+DoD Medicare,USFHPc,2032,26840.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / USFHPc,fiscal_year,2032,2032,2032,39,12
+DoD Medicare,USFHPc,2033,27766.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / USFHPc,fiscal_year,2033,2033,2033,39,13
+DoD Medicare,USFHPc,2034,29554.0,Dollars per beneficiary,54946-2024-02-dodmedicare.xlsx,DoD-MERHCF_0x-2024,false,54946,Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / USFHPc,fiscal_year,2034,2034,2034,39,14

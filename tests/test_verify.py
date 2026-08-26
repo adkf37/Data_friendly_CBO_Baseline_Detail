@@ -68,6 +68,72 @@ def _write_processed_csv(path: Path, workbook: str, sheet: str, values: list[tup
 
 
 class VerifyTests(unittest.TestCase):
+    def test_direct_verification_catches_offsetting_source_cell_errors(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            raw_dir = root / "raw"
+            processed_dir = root / "processed"
+            raw_dir.mkdir()
+            processed_dir.mkdir()
+            workbook_name = "51293-2024-06-childnutrition.xlsx"
+            _write_workbook(raw_dir / workbook_name)
+            parse_plan = root / "plan.yaml"
+            parse_plan.write_text(
+                """
+workbooks:
+  - workbook: 51293-2024-06-childnutrition.xlsx
+    sheets:
+      - sheet: Passing
+        include: true
+        output_dataset: direct_dataset
+        verification_target: direct-target
+        header_rows: 1-1
+        first_data_row: 2
+        year_columns: [2, 3]
+        unit: Millions of dollars
+                """.strip()
+                + "\n",
+                encoding="utf-8",
+            )
+            rows = [
+                ("Total Outlays", 2, 2, 2025, 30),
+                ("Total Outlays", 2, 3, 2026, 110),
+                ("Program Detail", 3, 2, 2025, 100),
+                ("Program Detail", 3, 3, 2026, 31),
+            ]
+            with (processed_dir / "direct_dataset.csv").open("w", encoding="utf-8", newline="") as handle:
+                writer = csv.DictWriter(handle, fieldnames=verify.transform.OUTPUT_COLUMNS)
+                writer.writeheader()
+                for category, source_row, source_column, year, value in rows:
+                    writer.writerow(
+                        {
+                            "program": "Child Nutrition",
+                            "category": category,
+                            "fiscal_year": year,
+                            "value": value,
+                            "unit": "Millions of dollars",
+                            "source_file": workbook_name,
+                            "source_sheet": "Passing",
+                            "is_total": str("total" in category.lower()).lower(),
+                            "program_id": "51293",
+                            "category_path": category,
+                            "period_type": "fiscal_year",
+                            "period_start_year": year,
+                            "period_end_year": year,
+                            "period_label": str(year),
+                            "source_row": source_row,
+                            "source_column": source_column,
+                        }
+                    )
+
+            report_path = root / "report.md"
+            rc = verify.run_verification(parse_plan, raw_dir, processed_dir, report_path)
+
+            self.assertEqual(1, rc)
+            report = report_path.read_text(encoding="utf-8")
+            self.assertIn("direct source-cell", report)
+            self.assertIn("does not match source", report)
+
     def test_verification_returns_nonzero_on_failure(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)

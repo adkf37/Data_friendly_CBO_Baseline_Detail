@@ -1,133 +1,133 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Dodmedicare,TRICARE for Lifea,2019,2389.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Lifea,2020,2414.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Lifea,2021,2437.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Lifea,2022,2443.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Lifea,2023,2471.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Lifea,2024,2501.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Lifea,2025,2530.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Lifea,2026,2559.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Lifea,2027,2585.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Lifea,2028,2606.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Lifea,2029,2621.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPb,2019,48.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPb,2020,48.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPb,2021,47.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPb,2022,46.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPb,2023,46.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPb,2024,45.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPb,2025,44.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPb,2026,43.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPb,2027,42.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPb,2028,41.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPb,2029,40.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Total,2019,2437.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2020,2461.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2021,2484.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2022,2490.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2023,2517.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2024,2546.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2025,2574.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2026,2602.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2027,2627.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2028,2648.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2029,2661.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Inpatient/outpatient,2019,1634.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2020,1742.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2021,1831.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2022,1931.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2023,2012.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2024,2098.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2025,2192.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2026,2290.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2027,2393.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2028,2504.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2029,2624.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2019,1433.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2020,1447.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2021,1527.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2022,1573.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2023,1650.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2024,1688.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2025,1773.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2026,1827.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2027,1920.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2028,2002.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2029,2105.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2019,677.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2020,701.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2021,731.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2022,769.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2023,800.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2024,834.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2025,871.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2026,909.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2027,949.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2028,992.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Inpatient/outpatient,2029,1037.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2019,278.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2020,289.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2021,302.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2022,320.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2023,333.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2024,349.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2025,365.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2026,381.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2027,399.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2028,419.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Pharmacy,2029,440.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Total TRICARE for Life,2019,4023.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total TRICARE for Life,2020,4179.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total TRICARE for Life,2021,4392.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total TRICARE for Life,2022,4592.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total TRICARE for Life,2023,4796.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total TRICARE for Life,2024,4969.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total TRICARE for Life,2025,5201.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total TRICARE for Life,2026,5406.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total TRICARE for Life,2027,5661.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total TRICARE for Life,2028,5916.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total TRICARE for Life,2029,6206.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,USFHPc,2019,14990.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPc,2020,15609.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPc,2021,16321.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPc,2022,17076.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPc,2023,17865.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPc,2024,18692.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPc,2025,19591.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPc,2026,20534.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPc,2027,21522.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPc,2028,22571.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHPc,2029,23672.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Life,2019,9591.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Life,2020,10045.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Life,2021,10648.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Life,2022,11146.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Life,2023,11787.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Life,2024,12341.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Life,2025,13067.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Life,2026,13727.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Life,2027,14521.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Life,2028,15259.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,TRICARE for Life,2029,16047.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHP,2019,721.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHP,2020,744.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHP,2021,768.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHP,2022,793.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHP,2023,818.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHP,2024,842.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHP,2025,866.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHP,2026,888.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHP,2027,909.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHP,2028,926.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,USFHP,2029,942.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,false
-Dodmedicare,Total,2019,10312.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2020,10789.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2021,11416.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2022,11939.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2023,12605.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2024,13183.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2025,13933.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2026,14615.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2027,15430.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2028,16185.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true
-Dodmedicare,Total,2029,16989.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+DoD Medicare,TRICARE for Lifea,2019,2389.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / TRICARE for Lifea,fiscal_year,2019,2019,2019,10,4
+DoD Medicare,TRICARE for Lifea,2020,2414.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / TRICARE for Lifea,fiscal_year,2020,2020,2020,10,5
+DoD Medicare,TRICARE for Lifea,2021,2437.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / TRICARE for Lifea,fiscal_year,2021,2021,2021,10,6
+DoD Medicare,TRICARE for Lifea,2022,2443.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / TRICARE for Lifea,fiscal_year,2022,2022,2022,10,7
+DoD Medicare,TRICARE for Lifea,2023,2471.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / TRICARE for Lifea,fiscal_year,2023,2023,2023,10,8
+DoD Medicare,TRICARE for Lifea,2024,2501.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / TRICARE for Lifea,fiscal_year,2024,2024,2024,10,9
+DoD Medicare,TRICARE for Lifea,2025,2530.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / TRICARE for Lifea,fiscal_year,2025,2025,2025,10,10
+DoD Medicare,TRICARE for Lifea,2026,2559.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / TRICARE for Lifea,fiscal_year,2026,2026,2026,10,11
+DoD Medicare,TRICARE for Lifea,2027,2585.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / TRICARE for Lifea,fiscal_year,2027,2027,2027,10,12
+DoD Medicare,TRICARE for Lifea,2028,2606.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / TRICARE for Lifea,fiscal_year,2028,2028,2028,10,13
+DoD Medicare,TRICARE for Lifea,2029,2621.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / TRICARE for Lifea,fiscal_year,2029,2029,2029,10,14
+DoD Medicare,USFHPb,2019,48.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / USFHPb,fiscal_year,2019,2019,2019,11,4
+DoD Medicare,USFHPb,2020,48.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / USFHPb,fiscal_year,2020,2020,2020,11,5
+DoD Medicare,USFHPb,2021,47.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / USFHPb,fiscal_year,2021,2021,2021,11,6
+DoD Medicare,USFHPb,2022,46.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / USFHPb,fiscal_year,2022,2022,2022,11,7
+DoD Medicare,USFHPb,2023,46.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / USFHPb,fiscal_year,2023,2023,2023,11,8
+DoD Medicare,USFHPb,2024,45.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / USFHPb,fiscal_year,2024,2024,2024,11,9
+DoD Medicare,USFHPb,2025,44.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / USFHPb,fiscal_year,2025,2025,2025,11,10
+DoD Medicare,USFHPb,2026,43.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / USFHPb,fiscal_year,2026,2026,2026,11,11
+DoD Medicare,USFHPb,2027,42.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / USFHPb,fiscal_year,2027,2027,2027,11,12
+DoD Medicare,USFHPb,2028,41.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / USFHPb,fiscal_year,2028,2028,2028,11,13
+DoD Medicare,USFHPb,2029,40.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Beneficiaries (Thousands) / USFHPb,fiscal_year,2029,2029,2029,11,14
+DoD Medicare,Total,2019,2437.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Beneficiaries (Thousands) / Total,fiscal_year,2019,2019,2019,12,4
+DoD Medicare,Total,2020,2461.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Beneficiaries (Thousands) / Total,fiscal_year,2020,2020,2020,12,5
+DoD Medicare,Total,2021,2484.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Beneficiaries (Thousands) / Total,fiscal_year,2021,2021,2021,12,6
+DoD Medicare,Total,2022,2490.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Beneficiaries (Thousands) / Total,fiscal_year,2022,2022,2022,12,7
+DoD Medicare,Total,2023,2517.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Beneficiaries (Thousands) / Total,fiscal_year,2023,2023,2023,12,8
+DoD Medicare,Total,2024,2546.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Beneficiaries (Thousands) / Total,fiscal_year,2024,2024,2024,12,9
+DoD Medicare,Total,2025,2574.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Beneficiaries (Thousands) / Total,fiscal_year,2025,2025,2025,12,10
+DoD Medicare,Total,2026,2602.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Beneficiaries (Thousands) / Total,fiscal_year,2026,2026,2026,12,11
+DoD Medicare,Total,2027,2627.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Beneficiaries (Thousands) / Total,fiscal_year,2027,2027,2027,12,12
+DoD Medicare,Total,2028,2648.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Beneficiaries (Thousands) / Total,fiscal_year,2028,2028,2028,12,13
+DoD Medicare,Total,2029,2661.0,Thousands,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Beneficiaries (Thousands) / Total,fiscal_year,2029,2029,2029,12,14
+DoD Medicare,Inpatient/outpatient,2019,1634.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Inpatient/outpatient,fiscal_year,2019,2019,2019,20,4
+DoD Medicare,Inpatient/outpatient,2020,1742.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Inpatient/outpatient,fiscal_year,2020,2020,2020,20,5
+DoD Medicare,Inpatient/outpatient,2021,1831.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Inpatient/outpatient,fiscal_year,2021,2021,2021,20,6
+DoD Medicare,Inpatient/outpatient,2022,1931.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Inpatient/outpatient,fiscal_year,2022,2022,2022,20,7
+DoD Medicare,Inpatient/outpatient,2023,2012.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Inpatient/outpatient,fiscal_year,2023,2023,2023,20,8
+DoD Medicare,Inpatient/outpatient,2024,2098.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Inpatient/outpatient,fiscal_year,2024,2024,2024,20,9
+DoD Medicare,Inpatient/outpatient,2025,2192.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Inpatient/outpatient,fiscal_year,2025,2025,2025,20,10
+DoD Medicare,Inpatient/outpatient,2026,2290.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Inpatient/outpatient,fiscal_year,2026,2026,2026,20,11
+DoD Medicare,Inpatient/outpatient,2027,2393.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Inpatient/outpatient,fiscal_year,2027,2027,2027,20,12
+DoD Medicare,Inpatient/outpatient,2028,2504.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Inpatient/outpatient,fiscal_year,2028,2028,2028,20,13
+DoD Medicare,Inpatient/outpatient,2029,2624.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Inpatient/outpatient,fiscal_year,2029,2029,2029,20,14
+DoD Medicare,Pharmacy,2019,1433.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Pharmacy,fiscal_year,2019,2019,2019,21,4
+DoD Medicare,Pharmacy,2020,1447.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Pharmacy,fiscal_year,2020,2020,2020,21,5
+DoD Medicare,Pharmacy,2021,1527.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Pharmacy,fiscal_year,2021,2021,2021,21,6
+DoD Medicare,Pharmacy,2022,1573.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Pharmacy,fiscal_year,2022,2022,2022,21,7
+DoD Medicare,Pharmacy,2023,1650.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Pharmacy,fiscal_year,2023,2023,2023,21,8
+DoD Medicare,Pharmacy,2024,1688.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Pharmacy,fiscal_year,2024,2024,2024,21,9
+DoD Medicare,Pharmacy,2025,1773.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Pharmacy,fiscal_year,2025,2025,2025,21,10
+DoD Medicare,Pharmacy,2026,1827.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Pharmacy,fiscal_year,2026,2026,2026,21,11
+DoD Medicare,Pharmacy,2027,1920.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Pharmacy,fiscal_year,2027,2027,2027,21,12
+DoD Medicare,Pharmacy,2028,2002.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Pharmacy,fiscal_year,2028,2028,2028,21,13
+DoD Medicare,Pharmacy,2029,2105.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Purchased care / Pharmacy,fiscal_year,2029,2029,2029,21,14
+DoD Medicare,Inpatient/outpatient,2019,677.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Inpatient/outpatient,fiscal_year,2019,2019,2019,23,4
+DoD Medicare,Inpatient/outpatient,2020,701.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Inpatient/outpatient,fiscal_year,2020,2020,2020,23,5
+DoD Medicare,Inpatient/outpatient,2021,731.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Inpatient/outpatient,fiscal_year,2021,2021,2021,23,6
+DoD Medicare,Inpatient/outpatient,2022,769.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Inpatient/outpatient,fiscal_year,2022,2022,2022,23,7
+DoD Medicare,Inpatient/outpatient,2023,800.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Inpatient/outpatient,fiscal_year,2023,2023,2023,23,8
+DoD Medicare,Inpatient/outpatient,2024,834.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Inpatient/outpatient,fiscal_year,2024,2024,2024,23,9
+DoD Medicare,Inpatient/outpatient,2025,871.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Inpatient/outpatient,fiscal_year,2025,2025,2025,23,10
+DoD Medicare,Inpatient/outpatient,2026,909.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Inpatient/outpatient,fiscal_year,2026,2026,2026,23,11
+DoD Medicare,Inpatient/outpatient,2027,949.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Inpatient/outpatient,fiscal_year,2027,2027,2027,23,12
+DoD Medicare,Inpatient/outpatient,2028,992.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Inpatient/outpatient,fiscal_year,2028,2028,2028,23,13
+DoD Medicare,Inpatient/outpatient,2029,1037.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Inpatient/outpatient,fiscal_year,2029,2029,2029,23,14
+DoD Medicare,Pharmacy,2019,278.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Pharmacy,fiscal_year,2019,2019,2019,24,4
+DoD Medicare,Pharmacy,2020,289.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Pharmacy,fiscal_year,2020,2020,2020,24,5
+DoD Medicare,Pharmacy,2021,302.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Pharmacy,fiscal_year,2021,2021,2021,24,6
+DoD Medicare,Pharmacy,2022,320.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Pharmacy,fiscal_year,2022,2022,2022,24,7
+DoD Medicare,Pharmacy,2023,333.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Pharmacy,fiscal_year,2023,2023,2023,24,8
+DoD Medicare,Pharmacy,2024,349.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Pharmacy,fiscal_year,2024,2024,2024,24,9
+DoD Medicare,Pharmacy,2025,365.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Pharmacy,fiscal_year,2025,2025,2025,24,10
+DoD Medicare,Pharmacy,2026,381.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Pharmacy,fiscal_year,2026,2026,2026,24,11
+DoD Medicare,Pharmacy,2027,399.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Pharmacy,fiscal_year,2027,2027,2027,24,12
+DoD Medicare,Pharmacy,2028,419.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Pharmacy,fiscal_year,2028,2028,2028,24,13
+DoD Medicare,Pharmacy,2029,440.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / Pharmacy,fiscal_year,2029,2029,2029,24,14
+DoD Medicare,Total TRICARE for Life,2019,4023.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Military treatment facilities / Total TRICARE for Life,fiscal_year,2019,2019,2019,25,4
+DoD Medicare,Total TRICARE for Life,2020,4179.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Military treatment facilities / Total TRICARE for Life,fiscal_year,2020,2020,2020,25,5
+DoD Medicare,Total TRICARE for Life,2021,4392.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Military treatment facilities / Total TRICARE for Life,fiscal_year,2021,2021,2021,25,6
+DoD Medicare,Total TRICARE for Life,2022,4592.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Military treatment facilities / Total TRICARE for Life,fiscal_year,2022,2022,2022,25,7
+DoD Medicare,Total TRICARE for Life,2023,4796.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Military treatment facilities / Total TRICARE for Life,fiscal_year,2023,2023,2023,25,8
+DoD Medicare,Total TRICARE for Life,2024,4969.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Military treatment facilities / Total TRICARE for Life,fiscal_year,2024,2024,2024,25,9
+DoD Medicare,Total TRICARE for Life,2025,5201.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Military treatment facilities / Total TRICARE for Life,fiscal_year,2025,2025,2025,25,10
+DoD Medicare,Total TRICARE for Life,2026,5406.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Military treatment facilities / Total TRICARE for Life,fiscal_year,2026,2026,2026,25,11
+DoD Medicare,Total TRICARE for Life,2027,5661.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Military treatment facilities / Total TRICARE for Life,fiscal_year,2027,2027,2027,25,12
+DoD Medicare,Total TRICARE for Life,2028,5916.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Military treatment facilities / Total TRICARE for Life,fiscal_year,2028,2028,2028,25,13
+DoD Medicare,Total TRICARE for Life,2029,6206.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Military treatment facilities / Total TRICARE for Life,fiscal_year,2029,2029,2029,25,14
+DoD Medicare,USFHPc,2019,14990.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / USFHPc,fiscal_year,2019,2019,2019,28,4
+DoD Medicare,USFHPc,2020,15609.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / USFHPc,fiscal_year,2020,2020,2020,28,5
+DoD Medicare,USFHPc,2021,16321.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / USFHPc,fiscal_year,2021,2021,2021,28,6
+DoD Medicare,USFHPc,2022,17076.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / USFHPc,fiscal_year,2022,2022,2022,28,7
+DoD Medicare,USFHPc,2023,17865.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / USFHPc,fiscal_year,2023,2023,2023,28,8
+DoD Medicare,USFHPc,2024,18692.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / USFHPc,fiscal_year,2024,2024,2024,28,9
+DoD Medicare,USFHPc,2025,19591.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / USFHPc,fiscal_year,2025,2025,2025,28,10
+DoD Medicare,USFHPc,2026,20534.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / USFHPc,fiscal_year,2026,2026,2026,28,11
+DoD Medicare,USFHPc,2027,21522.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / USFHPc,fiscal_year,2027,2027,2027,28,12
+DoD Medicare,USFHPc,2028,22571.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / USFHPc,fiscal_year,2028,2028,2028,28,13
+DoD Medicare,USFHPc,2029,23672.0,Dollars per beneficiary,54946-2019-05-DoDMedicare.xlsx,Table 1,false,54946,By Fiscal Year / Military treatment facilities / USFHPc,fiscal_year,2029,2029,2029,28,14
+DoD Medicare,TRICARE for Life,2019,9591.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / TRICARE for Life,fiscal_year,2019,2019,2019,34,4
+DoD Medicare,TRICARE for Life,2020,10045.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / TRICARE for Life,fiscal_year,2020,2020,2020,34,5
+DoD Medicare,TRICARE for Life,2021,10648.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / TRICARE for Life,fiscal_year,2021,2021,2021,34,6
+DoD Medicare,TRICARE for Life,2022,11146.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / TRICARE for Life,fiscal_year,2022,2022,2022,34,7
+DoD Medicare,TRICARE for Life,2023,11787.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / TRICARE for Life,fiscal_year,2023,2023,2023,34,8
+DoD Medicare,TRICARE for Life,2024,12341.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / TRICARE for Life,fiscal_year,2024,2024,2024,34,9
+DoD Medicare,TRICARE for Life,2025,13067.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / TRICARE for Life,fiscal_year,2025,2025,2025,34,10
+DoD Medicare,TRICARE for Life,2026,13727.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / TRICARE for Life,fiscal_year,2026,2026,2026,34,11
+DoD Medicare,TRICARE for Life,2027,14521.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / TRICARE for Life,fiscal_year,2027,2027,2027,34,12
+DoD Medicare,TRICARE for Life,2028,15259.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / TRICARE for Life,fiscal_year,2028,2028,2028,34,13
+DoD Medicare,TRICARE for Life,2029,16047.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / TRICARE for Life,fiscal_year,2029,2029,2029,34,14
+DoD Medicare,USFHP,2019,721.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / USFHP,fiscal_year,2019,2019,2019,35,4
+DoD Medicare,USFHP,2020,744.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / USFHP,fiscal_year,2020,2020,2020,35,5
+DoD Medicare,USFHP,2021,768.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / USFHP,fiscal_year,2021,2021,2021,35,6
+DoD Medicare,USFHP,2022,793.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / USFHP,fiscal_year,2022,2022,2022,35,7
+DoD Medicare,USFHP,2023,818.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / USFHP,fiscal_year,2023,2023,2023,35,8
+DoD Medicare,USFHP,2024,842.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / USFHP,fiscal_year,2024,2024,2024,35,9
+DoD Medicare,USFHP,2025,866.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / USFHP,fiscal_year,2025,2025,2025,35,10
+DoD Medicare,USFHP,2026,888.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / USFHP,fiscal_year,2026,2026,2026,35,11
+DoD Medicare,USFHP,2027,909.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / USFHP,fiscal_year,2027,2027,2027,35,12
+DoD Medicare,USFHP,2028,926.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / USFHP,fiscal_year,2028,2028,2028,35,13
+DoD Medicare,USFHP,2029,942.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / USFHP,fiscal_year,2029,2029,2029,35,14
+DoD Medicare,Total,2019,10312.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / Total,fiscal_year,2019,2019,2019,36,4
+DoD Medicare,Total,2020,10789.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / Total,fiscal_year,2020,2020,2020,36,5
+DoD Medicare,Total,2021,11416.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / Total,fiscal_year,2021,2021,2021,36,6
+DoD Medicare,Total,2022,11939.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / Total,fiscal_year,2022,2022,2022,36,7
+DoD Medicare,Total,2023,12605.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / Total,fiscal_year,2023,2023,2023,36,8
+DoD Medicare,Total,2024,13183.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / Total,fiscal_year,2024,2024,2024,36,9
+DoD Medicare,Total,2025,13933.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / Total,fiscal_year,2025,2025,2025,36,10
+DoD Medicare,Total,2026,14615.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / Total,fiscal_year,2026,2026,2026,36,11
+DoD Medicare,Total,2027,15430.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / Total,fiscal_year,2027,2027,2027,36,12
+DoD Medicare,Total,2028,16185.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / Total,fiscal_year,2028,2028,2028,36,13
+DoD Medicare,Total,2029,16989.0,Millions of dollars,54946-2019-05-DoDMedicare.xlsx,Table 1,true,54946,By Fiscal Year / Total Outlays From the MERHCF (Millions of dollars) / Total,fiscal_year,2029,2029,2029,36,14

@@ -1,133 +1,133 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Pbgc,Estimated Outlays,2022,2479.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Estimated Outlays,2023,71585.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Estimated Outlays,2024,1314.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Estimated Outlays,2025,-3852.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Estimated Outlays,2026,-345.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Estimated Outlays,2027,-4998.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Estimated Outlays,2028,-5955.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Estimated Outlays,2029,-5830.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Estimated Outlays,2030,-5660.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Estimated Outlays,2031,-5935.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Estimated Outlays,2032,-6074.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Estimated Outlays,2033,-6156.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Single-Employer Benefit Payments,2022,6373.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Single-Employer Benefit Payments,2023,6359.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Single-Employer Benefit Payments,2024,7120.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Single-Employer Benefit Payments,2025,7760.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Single-Employer Benefit Payments,2026,8940.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Single-Employer Benefit Payments,2027,9930.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Single-Employer Benefit Payments,2028,9890.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Single-Employer Benefit Payments,2029,9849.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Single-Employer Benefit Payments,2030,9740.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Single-Employer Benefit Payments,2031,8669.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Single-Employer Benefit Payments,2032,7500.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Single-Employer Benefit Payments,2033,7320.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Multiemployer Financial Assistance,2022,226.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Multiemployer Financial Assistance,2023,225.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Multiemployer Financial Assistance,2024,227.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Multiemployer Financial Assistance,2025,223.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Multiemployer Financial Assistance,2026,221.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Multiemployer Financial Assistance,2027,220.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Multiemployer Financial Assistance,2028,218.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Multiemployer Financial Assistance,2029,216.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Multiemployer Financial Assistance,2030,213.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Multiemployer Financial Assistance,2031,212.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Multiemployer Financial Assistance,2032,210.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Multiemployer Financial Assistance,2033,211.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Special Financial Assistance to Multiemployer Plans,2022,7537.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Special Financial Assistance to Multiemployer Plans,2023,76174.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Special Financial Assistance to Multiemployer Plans,2024,7725.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Special Financial Assistance to Multiemployer Plans,2025,6008.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Special Financial Assistance to Multiemployer Plans,2026,1717.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Special Financial Assistance to Multiemployer Plans,2027,858.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Special Financial Assistance to Multiemployer Plans,2028,0.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Special Financial Assistance to Multiemployer Plans,2029,0.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Special Financial Assistance to Multiemployer Plans,2030,0.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Special Financial Assistance to Multiemployer Plans,2031,0.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Special Financial Assistance to Multiemployer Plans,2032,0.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Special Financial Assistance to Multiemployer Plans,2033,0.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Administration,2022,590.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Administration,2023,624.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Administration,2024,649.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Administration,2025,673.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Administration,2026,695.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Administration,2027,716.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Administration,2028,737.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Administration,2029,758.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Administration,2030,780.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Administration,2031,803.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Administration,2032,829.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Administration,2033,855.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Gross Outlays,2022,14726.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Gross Outlays,2023,83382.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Gross Outlays,2024,15721.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Gross Outlays,2025,14664.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Gross Outlays,2026,11573.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Gross Outlays,2027,11724.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Gross Outlays,2028,10845.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Gross Outlays,2029,10823.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Gross Outlays,2030,10733.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Gross Outlays,2031,9684.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Gross Outlays,2032,8539.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Gross Outlays,2033,8386.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Premiumsa,2022,-4997.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Premiumsa,2023,-4634.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Premiumsa,2024,-5476.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Premiumsa,2025,-8768.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Premiumsa,2026,-986.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Premiumsa,2027,-4801.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Premiumsa,2028,-4838.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Premiumsa,2029,-4610.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Premiumsa,2030,-4429.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Premiumsa,2031,-4429.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Premiumsa,2032,-4325.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Premiumsa,2033,-4219.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Interest on U.S. Treasury Securities,2022,-1709.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Interest on U.S. Treasury Securities,2023,-1213.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Interest on U.S. Treasury Securities,2024,-1533.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Interest on U.S. Treasury Securities,2025,-1873.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Interest on U.S. Treasury Securities,2026,-2116.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Interest on U.S. Treasury Securities,2027,-2378.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Interest on U.S. Treasury Securities,2028,-2629.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Interest on U.S. Treasury Securities,2029,-2819.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Interest on U.S. Treasury Securities,2030,-3004.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Interest on U.S. Treasury Securities,2031,-3191.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Interest on U.S. Treasury Securities,2032,-3384.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Interest on U.S. Treasury Securities,2033,-3612.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Other Receiptsb,2022,-5541.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Other Receiptsb,2023,-5950.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Other Receiptsb,2024,-7398.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Other Receiptsb,2025,-7875.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Other Receiptsb,2026,-8816.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Other Receiptsb,2027,-9543.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Other Receiptsb,2028,-9333.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Other Receiptsb,2029,-9224.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Other Receiptsb,2030,-8960.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Other Receiptsb,2031,-7999.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Other Receiptsb,2032,-6904.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Other Receiptsb,2033,-6711.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,Total Offsetting Receipts,2022,-12247.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true
-Pbgc,Total Offsetting Receipts,2023,-11797.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true
-Pbgc,Total Offsetting Receipts,2024,-14407.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true
-Pbgc,Total Offsetting Receipts,2025,-18516.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true
-Pbgc,Total Offsetting Receipts,2026,-11918.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true
-Pbgc,Total Offsetting Receipts,2027,-16722.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true
-Pbgc,Total Offsetting Receipts,2028,-16800.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true
-Pbgc,Total Offsetting Receipts,2029,-16653.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true
-Pbgc,Total Offsetting Receipts,2030,-16393.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true
-Pbgc,Total Offsetting Receipts,2031,-15619.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true
-Pbgc,Total Offsetting Receipts,2032,-14613.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true
-Pbgc,Total Offsetting Receipts,2033,-14542.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true
-Pbgc,End-of-Year Revolving Funds Balance,2022,54129.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,End-of-Year Revolving Funds Balance,2023,48871.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,End-of-Year Revolving Funds Balance,2024,53476.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,End-of-Year Revolving Funds Balance,2025,59902.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,End-of-Year Revolving Funds Balance,2026,69777.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,End-of-Year Revolving Funds Balance,2027,71852.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,End-of-Year Revolving Funds Balance,2028,77719.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,End-of-Year Revolving Funds Balance,2029,83683.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,End-of-Year Revolving Funds Balance,2030,89517.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,End-of-Year Revolving Funds Balance,2031,95179.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,End-of-Year Revolving Funds Balance,2032,101114.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
-Pbgc,End-of-Year Revolving Funds Balance,2033,107188.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+PBGC,Estimated Outlays,2022,2479.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2022,2022,2022,13,4
+PBGC,Estimated Outlays,2023,71585.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2023,2023,2023,13,5
+PBGC,Estimated Outlays,2024,1314.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2024,2024,2024,13,6
+PBGC,Estimated Outlays,2025,-3852.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2025,2025,2025,13,7
+PBGC,Estimated Outlays,2026,-345.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2026,2026,2026,13,8
+PBGC,Estimated Outlays,2027,-4998.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2027,2027,2027,13,9
+PBGC,Estimated Outlays,2028,-5955.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2028,2028,2028,13,10
+PBGC,Estimated Outlays,2029,-5830.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2029,2029,2029,13,11
+PBGC,Estimated Outlays,2030,-5660.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2030,2030,2030,13,12
+PBGC,Estimated Outlays,2031,-5935.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2031,2031,2031,13,13
+PBGC,Estimated Outlays,2032,-6074.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2032,2032,2032,13,14
+PBGC,Estimated Outlays,2033,-6156.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2033,2033,2033,13,15
+PBGC,Single-Employer Benefit Payments,2022,6373.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Single-Employer Benefit Payments,fiscal_year,2022,2022,2022,16,4
+PBGC,Single-Employer Benefit Payments,2023,6359.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Single-Employer Benefit Payments,fiscal_year,2023,2023,2023,16,5
+PBGC,Single-Employer Benefit Payments,2024,7120.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Single-Employer Benefit Payments,fiscal_year,2024,2024,2024,16,6
+PBGC,Single-Employer Benefit Payments,2025,7760.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Single-Employer Benefit Payments,fiscal_year,2025,2025,2025,16,7
+PBGC,Single-Employer Benefit Payments,2026,8940.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Single-Employer Benefit Payments,fiscal_year,2026,2026,2026,16,8
+PBGC,Single-Employer Benefit Payments,2027,9930.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Single-Employer Benefit Payments,fiscal_year,2027,2027,2027,16,9
+PBGC,Single-Employer Benefit Payments,2028,9890.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Single-Employer Benefit Payments,fiscal_year,2028,2028,2028,16,10
+PBGC,Single-Employer Benefit Payments,2029,9849.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Single-Employer Benefit Payments,fiscal_year,2029,2029,2029,16,11
+PBGC,Single-Employer Benefit Payments,2030,9740.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Single-Employer Benefit Payments,fiscal_year,2030,2030,2030,16,12
+PBGC,Single-Employer Benefit Payments,2031,8669.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Single-Employer Benefit Payments,fiscal_year,2031,2031,2031,16,13
+PBGC,Single-Employer Benefit Payments,2032,7500.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Single-Employer Benefit Payments,fiscal_year,2032,2032,2032,16,14
+PBGC,Single-Employer Benefit Payments,2033,7320.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Single-Employer Benefit Payments,fiscal_year,2033,2033,2033,16,15
+PBGC,Multiemployer Financial Assistance,2022,226.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Multiemployer Financial Assistance,fiscal_year,2022,2022,2022,17,4
+PBGC,Multiemployer Financial Assistance,2023,225.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Multiemployer Financial Assistance,fiscal_year,2023,2023,2023,17,5
+PBGC,Multiemployer Financial Assistance,2024,227.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Multiemployer Financial Assistance,fiscal_year,2024,2024,2024,17,6
+PBGC,Multiemployer Financial Assistance,2025,223.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Multiemployer Financial Assistance,fiscal_year,2025,2025,2025,17,7
+PBGC,Multiemployer Financial Assistance,2026,221.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Multiemployer Financial Assistance,fiscal_year,2026,2026,2026,17,8
+PBGC,Multiemployer Financial Assistance,2027,220.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Multiemployer Financial Assistance,fiscal_year,2027,2027,2027,17,9
+PBGC,Multiemployer Financial Assistance,2028,218.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Multiemployer Financial Assistance,fiscal_year,2028,2028,2028,17,10
+PBGC,Multiemployer Financial Assistance,2029,216.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Multiemployer Financial Assistance,fiscal_year,2029,2029,2029,17,11
+PBGC,Multiemployer Financial Assistance,2030,213.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Multiemployer Financial Assistance,fiscal_year,2030,2030,2030,17,12
+PBGC,Multiemployer Financial Assistance,2031,212.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Multiemployer Financial Assistance,fiscal_year,2031,2031,2031,17,13
+PBGC,Multiemployer Financial Assistance,2032,210.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Multiemployer Financial Assistance,fiscal_year,2032,2032,2032,17,14
+PBGC,Multiemployer Financial Assistance,2033,211.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Multiemployer Financial Assistance,fiscal_year,2033,2033,2033,17,15
+PBGC,Special Financial Assistance to Multiemployer Plans,2022,7537.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Special Financial Assistance to Multiemployer Plans,fiscal_year,2022,2022,2022,18,4
+PBGC,Special Financial Assistance to Multiemployer Plans,2023,76174.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Special Financial Assistance to Multiemployer Plans,fiscal_year,2023,2023,2023,18,5
+PBGC,Special Financial Assistance to Multiemployer Plans,2024,7725.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Special Financial Assistance to Multiemployer Plans,fiscal_year,2024,2024,2024,18,6
+PBGC,Special Financial Assistance to Multiemployer Plans,2025,6008.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Special Financial Assistance to Multiemployer Plans,fiscal_year,2025,2025,2025,18,7
+PBGC,Special Financial Assistance to Multiemployer Plans,2026,1717.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Special Financial Assistance to Multiemployer Plans,fiscal_year,2026,2026,2026,18,8
+PBGC,Special Financial Assistance to Multiemployer Plans,2027,858.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Special Financial Assistance to Multiemployer Plans,fiscal_year,2027,2027,2027,18,9
+PBGC,Special Financial Assistance to Multiemployer Plans,2028,0.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Special Financial Assistance to Multiemployer Plans,fiscal_year,2028,2028,2028,18,10
+PBGC,Special Financial Assistance to Multiemployer Plans,2029,0.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Special Financial Assistance to Multiemployer Plans,fiscal_year,2029,2029,2029,18,11
+PBGC,Special Financial Assistance to Multiemployer Plans,2030,0.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Special Financial Assistance to Multiemployer Plans,fiscal_year,2030,2030,2030,18,12
+PBGC,Special Financial Assistance to Multiemployer Plans,2031,0.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Special Financial Assistance to Multiemployer Plans,fiscal_year,2031,2031,2031,18,13
+PBGC,Special Financial Assistance to Multiemployer Plans,2032,0.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Special Financial Assistance to Multiemployer Plans,fiscal_year,2032,2032,2032,18,14
+PBGC,Special Financial Assistance to Multiemployer Plans,2033,0.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Special Financial Assistance to Multiemployer Plans,fiscal_year,2033,2033,2033,18,15
+PBGC,Administration,2022,590.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Administration,fiscal_year,2022,2022,2022,19,4
+PBGC,Administration,2023,624.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Administration,fiscal_year,2023,2023,2023,19,5
+PBGC,Administration,2024,649.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Administration,fiscal_year,2024,2024,2024,19,6
+PBGC,Administration,2025,673.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Administration,fiscal_year,2025,2025,2025,19,7
+PBGC,Administration,2026,695.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Administration,fiscal_year,2026,2026,2026,19,8
+PBGC,Administration,2027,716.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Administration,fiscal_year,2027,2027,2027,19,9
+PBGC,Administration,2028,737.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Administration,fiscal_year,2028,2028,2028,19,10
+PBGC,Administration,2029,758.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Administration,fiscal_year,2029,2029,2029,19,11
+PBGC,Administration,2030,780.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Administration,fiscal_year,2030,2030,2030,19,12
+PBGC,Administration,2031,803.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Administration,fiscal_year,2031,2031,2031,19,13
+PBGC,Administration,2032,829.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Administration,fiscal_year,2032,2032,2032,19,14
+PBGC,Administration,2033,855.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Administration,fiscal_year,2033,2033,2033,19,15
+PBGC,Gross Outlays,2022,14726.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Gross Outlays,fiscal_year,2022,2022,2022,20,4
+PBGC,Gross Outlays,2023,83382.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Gross Outlays,fiscal_year,2023,2023,2023,20,5
+PBGC,Gross Outlays,2024,15721.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Gross Outlays,fiscal_year,2024,2024,2024,20,6
+PBGC,Gross Outlays,2025,14664.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Gross Outlays,fiscal_year,2025,2025,2025,20,7
+PBGC,Gross Outlays,2026,11573.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Gross Outlays,fiscal_year,2026,2026,2026,20,8
+PBGC,Gross Outlays,2027,11724.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Gross Outlays,fiscal_year,2027,2027,2027,20,9
+PBGC,Gross Outlays,2028,10845.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Gross Outlays,fiscal_year,2028,2028,2028,20,10
+PBGC,Gross Outlays,2029,10823.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Gross Outlays,fiscal_year,2029,2029,2029,20,11
+PBGC,Gross Outlays,2030,10733.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Gross Outlays,fiscal_year,2030,2030,2030,20,12
+PBGC,Gross Outlays,2031,9684.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Gross Outlays,fiscal_year,2031,2031,2031,20,13
+PBGC,Gross Outlays,2032,8539.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Gross Outlays,fiscal_year,2032,2032,2032,20,14
+PBGC,Gross Outlays,2033,8386.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Gross Outlays,fiscal_year,2033,2033,2033,20,15
+PBGC,Premiumsa,2022,-4997.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Premiumsa,fiscal_year,2022,2022,2022,22,4
+PBGC,Premiumsa,2023,-4634.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Premiumsa,fiscal_year,2023,2023,2023,22,5
+PBGC,Premiumsa,2024,-5476.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Premiumsa,fiscal_year,2024,2024,2024,22,6
+PBGC,Premiumsa,2025,-8768.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Premiumsa,fiscal_year,2025,2025,2025,22,7
+PBGC,Premiumsa,2026,-986.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Premiumsa,fiscal_year,2026,2026,2026,22,8
+PBGC,Premiumsa,2027,-4801.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Premiumsa,fiscal_year,2027,2027,2027,22,9
+PBGC,Premiumsa,2028,-4838.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Premiumsa,fiscal_year,2028,2028,2028,22,10
+PBGC,Premiumsa,2029,-4610.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Premiumsa,fiscal_year,2029,2029,2029,22,11
+PBGC,Premiumsa,2030,-4429.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Premiumsa,fiscal_year,2030,2030,2030,22,12
+PBGC,Premiumsa,2031,-4429.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Premiumsa,fiscal_year,2031,2031,2031,22,13
+PBGC,Premiumsa,2032,-4325.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Premiumsa,fiscal_year,2032,2032,2032,22,14
+PBGC,Premiumsa,2033,-4219.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Premiumsa,fiscal_year,2033,2033,2033,22,15
+PBGC,Interest on U.S. Treasury Securities,2022,-1709.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Interest on U.S. Treasury Securities,fiscal_year,2022,2022,2022,23,4
+PBGC,Interest on U.S. Treasury Securities,2023,-1213.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Interest on U.S. Treasury Securities,fiscal_year,2023,2023,2023,23,5
+PBGC,Interest on U.S. Treasury Securities,2024,-1533.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Interest on U.S. Treasury Securities,fiscal_year,2024,2024,2024,23,6
+PBGC,Interest on U.S. Treasury Securities,2025,-1873.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Interest on U.S. Treasury Securities,fiscal_year,2025,2025,2025,23,7
+PBGC,Interest on U.S. Treasury Securities,2026,-2116.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Interest on U.S. Treasury Securities,fiscal_year,2026,2026,2026,23,8
+PBGC,Interest on U.S. Treasury Securities,2027,-2378.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Interest on U.S. Treasury Securities,fiscal_year,2027,2027,2027,23,9
+PBGC,Interest on U.S. Treasury Securities,2028,-2629.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Interest on U.S. Treasury Securities,fiscal_year,2028,2028,2028,23,10
+PBGC,Interest on U.S. Treasury Securities,2029,-2819.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Interest on U.S. Treasury Securities,fiscal_year,2029,2029,2029,23,11
+PBGC,Interest on U.S. Treasury Securities,2030,-3004.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Interest on U.S. Treasury Securities,fiscal_year,2030,2030,2030,23,12
+PBGC,Interest on U.S. Treasury Securities,2031,-3191.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Interest on U.S. Treasury Securities,fiscal_year,2031,2031,2031,23,13
+PBGC,Interest on U.S. Treasury Securities,2032,-3384.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Interest on U.S. Treasury Securities,fiscal_year,2032,2032,2032,23,14
+PBGC,Interest on U.S. Treasury Securities,2033,-3612.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Interest on U.S. Treasury Securities,fiscal_year,2033,2033,2033,23,15
+PBGC,Other Receiptsb,2022,-5541.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Other Receiptsb,fiscal_year,2022,2022,2022,24,4
+PBGC,Other Receiptsb,2023,-5950.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Other Receiptsb,fiscal_year,2023,2023,2023,24,5
+PBGC,Other Receiptsb,2024,-7398.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Other Receiptsb,fiscal_year,2024,2024,2024,24,6
+PBGC,Other Receiptsb,2025,-7875.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Other Receiptsb,fiscal_year,2025,2025,2025,24,7
+PBGC,Other Receiptsb,2026,-8816.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Other Receiptsb,fiscal_year,2026,2026,2026,24,8
+PBGC,Other Receiptsb,2027,-9543.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Other Receiptsb,fiscal_year,2027,2027,2027,24,9
+PBGC,Other Receiptsb,2028,-9333.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Other Receiptsb,fiscal_year,2028,2028,2028,24,10
+PBGC,Other Receiptsb,2029,-9224.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Other Receiptsb,fiscal_year,2029,2029,2029,24,11
+PBGC,Other Receiptsb,2030,-8960.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Other Receiptsb,fiscal_year,2030,2030,2030,24,12
+PBGC,Other Receiptsb,2031,-7999.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Other Receiptsb,fiscal_year,2031,2031,2031,24,13
+PBGC,Other Receiptsb,2032,-6904.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Other Receiptsb,fiscal_year,2032,2032,2032,24,14
+PBGC,Other Receiptsb,2033,-6711.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / Components of the Program / Other Receiptsb,fiscal_year,2033,2033,2033,24,15
+PBGC,Total Offsetting Receipts,2022,-12247.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true,51305,Pension Benefit Guaranty Corporation / Components of the Program / Total Offsetting Receipts,fiscal_year,2022,2022,2022,25,4
+PBGC,Total Offsetting Receipts,2023,-11797.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true,51305,Pension Benefit Guaranty Corporation / Components of the Program / Total Offsetting Receipts,fiscal_year,2023,2023,2023,25,5
+PBGC,Total Offsetting Receipts,2024,-14407.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true,51305,Pension Benefit Guaranty Corporation / Components of the Program / Total Offsetting Receipts,fiscal_year,2024,2024,2024,25,6
+PBGC,Total Offsetting Receipts,2025,-18516.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true,51305,Pension Benefit Guaranty Corporation / Components of the Program / Total Offsetting Receipts,fiscal_year,2025,2025,2025,25,7
+PBGC,Total Offsetting Receipts,2026,-11918.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true,51305,Pension Benefit Guaranty Corporation / Components of the Program / Total Offsetting Receipts,fiscal_year,2026,2026,2026,25,8
+PBGC,Total Offsetting Receipts,2027,-16722.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true,51305,Pension Benefit Guaranty Corporation / Components of the Program / Total Offsetting Receipts,fiscal_year,2027,2027,2027,25,9
+PBGC,Total Offsetting Receipts,2028,-16800.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true,51305,Pension Benefit Guaranty Corporation / Components of the Program / Total Offsetting Receipts,fiscal_year,2028,2028,2028,25,10
+PBGC,Total Offsetting Receipts,2029,-16653.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true,51305,Pension Benefit Guaranty Corporation / Components of the Program / Total Offsetting Receipts,fiscal_year,2029,2029,2029,25,11
+PBGC,Total Offsetting Receipts,2030,-16393.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true,51305,Pension Benefit Guaranty Corporation / Components of the Program / Total Offsetting Receipts,fiscal_year,2030,2030,2030,25,12
+PBGC,Total Offsetting Receipts,2031,-15619.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true,51305,Pension Benefit Guaranty Corporation / Components of the Program / Total Offsetting Receipts,fiscal_year,2031,2031,2031,25,13
+PBGC,Total Offsetting Receipts,2032,-14613.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true,51305,Pension Benefit Guaranty Corporation / Components of the Program / Total Offsetting Receipts,fiscal_year,2032,2032,2032,25,14
+PBGC,Total Offsetting Receipts,2033,-14542.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,true,51305,Pension Benefit Guaranty Corporation / Components of the Program / Total Offsetting Receipts,fiscal_year,2033,2033,2033,25,15
+PBGC,End-of-Year Revolving Funds Balance,2022,54129.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / OTHER INFORMATION / End-of-Year Revolving Funds Balance,fiscal_year,2022,2022,2022,30,4
+PBGC,End-of-Year Revolving Funds Balance,2023,48871.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / OTHER INFORMATION / End-of-Year Revolving Funds Balance,fiscal_year,2023,2023,2023,30,5
+PBGC,End-of-Year Revolving Funds Balance,2024,53476.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / OTHER INFORMATION / End-of-Year Revolving Funds Balance,fiscal_year,2024,2024,2024,30,6
+PBGC,End-of-Year Revolving Funds Balance,2025,59902.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / OTHER INFORMATION / End-of-Year Revolving Funds Balance,fiscal_year,2025,2025,2025,30,7
+PBGC,End-of-Year Revolving Funds Balance,2026,69777.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / OTHER INFORMATION / End-of-Year Revolving Funds Balance,fiscal_year,2026,2026,2026,30,8
+PBGC,End-of-Year Revolving Funds Balance,2027,71852.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / OTHER INFORMATION / End-of-Year Revolving Funds Balance,fiscal_year,2027,2027,2027,30,9
+PBGC,End-of-Year Revolving Funds Balance,2028,77719.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / OTHER INFORMATION / End-of-Year Revolving Funds Balance,fiscal_year,2028,2028,2028,30,10
+PBGC,End-of-Year Revolving Funds Balance,2029,83683.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / OTHER INFORMATION / End-of-Year Revolving Funds Balance,fiscal_year,2029,2029,2029,30,11
+PBGC,End-of-Year Revolving Funds Balance,2030,89517.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / OTHER INFORMATION / End-of-Year Revolving Funds Balance,fiscal_year,2030,2030,2030,30,12
+PBGC,End-of-Year Revolving Funds Balance,2031,95179.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / OTHER INFORMATION / End-of-Year Revolving Funds Balance,fiscal_year,2031,2031,2031,30,13
+PBGC,End-of-Year Revolving Funds Balance,2032,101114.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / OTHER INFORMATION / End-of-Year Revolving Funds Balance,fiscal_year,2032,2032,2032,30,14
+PBGC,End-of-Year Revolving Funds Balance,2033,107188.0,Millions of dollars,51305-2023-05-pbgc.xlsx,PBGC_05-2023,false,51305,Pension Benefit Guaranty Corporation / OTHER INFORMATION / End-of-Year Revolving Funds Balance,fiscal_year,2033,2033,2033,30,15

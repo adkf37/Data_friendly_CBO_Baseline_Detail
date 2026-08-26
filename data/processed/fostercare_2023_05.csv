@@ -1,254 +1,75 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Fostercare,Estimated Outlays,2023,9415.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Estimated Outlays,2024,9754.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Estimated Outlays,2025,9864.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Estimated Outlays,2026,10134.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Estimated Outlays,2027,10422.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Estimated Outlays,2028,10707.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Estimated Outlays,2029,11042.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Estimated Outlays,2030,11314.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Estimated Outlays,2031,11594.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Estimated Outlays,2032,11875.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Estimated Outlays,2033,12164.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2023,1731.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2024,2003.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2025,2004.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2026,2055.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2027,2107.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2028,2161.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2029,2217.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2030,2274.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2031,2334.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2032,2392.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2033,2452.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2023,2849.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2024,2921.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2025,2994.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2026,3070.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2027,3148.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2028,3229.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2029,3312.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2030,3399.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2031,3488.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2032,3575.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2033,3665.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2023,308.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2024,315.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2025,323.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2026,331.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2027,340.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2028,348.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2029,357.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2030,366.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2031,375.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2032,384.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2033,394.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Information Technology,2023,215.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Information Technology,2024,221.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Information Technology,2025,226.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Information Technology,2026,232.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Information Technology,2027,238.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Information Technology,2028,244.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Information Technology,2029,250.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Information Technology,2030,256.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Information Technology,2031,262.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Information Technology,2032,269.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Information Technology,2033,276.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Prevention Services and Technical Assistance,2023,110.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Prevention Services and Technical Assistance,2024,176.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Prevention Services and Technical Assistance,2025,181.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Prevention Services and Technical Assistance,2026,211.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Prevention Services and Technical Assistance,2027,251.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Prevention Services and Technical Assistance,2028,281.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Prevention Services and Technical Assistance,2029,351.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Prevention Services and Technical Assistance,2030,351.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Prevention Services and Technical Assistance,2031,351.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Prevention Services and Technical Assistance,2032,351.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Prevention Services and Technical Assistance,2033,351.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Kinship Navigator Program,2023,8.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Kinship Navigator Program,2024,8.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Kinship Navigator Program,2025,9.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Kinship Navigator Program,2026,9.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Kinship Navigator Program,2027,9.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Kinship Navigator Program,2028,9.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Kinship Navigator Program,2029,10.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Kinship Navigator Program,2030,10.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Kinship Navigator Program,2031,10.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Kinship Navigator Program,2032,10.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Kinship Navigator Program,2033,10.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Subtotal,2023,5221.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2024,5644.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2025,5737.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2026,5908.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2027,6093.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2028,6272.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2029,6497.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2030,6656.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2031,6820.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2032,6981.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2033,7148.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Maintenance Payments,2023,3040.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2024,3045.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2025,3046.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2026,3122.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2027,3201.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2028,3282.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2029,3366.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2030,3452.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2031,3541.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2032,3632.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2033,3724.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2023,536.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2024,550.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2025,564.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2026,578.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2027,592.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2028,607.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2029,623.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2030,639.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2031,655.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2032,672.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2033,689.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2023,39.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2024,39.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2025,40.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2026,41.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2027,43.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2028,44.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2029,45.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2030,46.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2031,47.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2032,48.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2033,49.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Subtotal,2023,3615.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2024,3634.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2025,3650.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2026,3741.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2027,3836.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2028,3933.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2029,4034.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2030,4137.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2031,4243.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2032,4352.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2033,4462.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Maintenance Payments,2023,307.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2024,309.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2025,310.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2026,317.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2027,325.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2028,333.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2029,342.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2030,351.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2031,360.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2032,369.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Maintenance Payments,2033,379.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2023,20.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2024,21.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2025,21.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2026,22.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2027,22.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2028,23.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2029,23.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2030,24.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2031,25.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2032,25.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Administration,2033,26.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2023,2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2024,2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2025,2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2026,2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2027,2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2028,2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2029,2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2030,2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2031,2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2032,2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Training,2033,3.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Subtotal,2023,329.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2024,332.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2025,333.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2026,341.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2027,349.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2028,358.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2029,367.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2030,377.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2031,387.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2032,396.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2033,408.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Independent Living,2023,249.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Independent Living,2024,143.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Independent Living,2025,143.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Independent Living,2026,143.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Independent Living,2027,143.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Independent Living,2028,143.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Independent Living,2029,143.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Independent Living,2030,143.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Independent Living,2031,143.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Independent Living,2032,143.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Independent Living,2033,143.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Tribal Technical Assistance,2023,3.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Tribal Technical Assistance,2024,3.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Tribal Technical Assistance,2025,3.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Tribal Technical Assistance,2026,3.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Tribal Technical Assistance,2027,3.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Tribal Technical Assistance,2028,3.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Tribal Technical Assistance,2029,3.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Tribal Technical Assistance,2030,3.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Tribal Technical Assistance,2031,3.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Tribal Technical Assistance,2032,3.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Tribal Technical Assistance,2033,3.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Sequestrationa,2023,-2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Sequestrationa,2024,-2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Sequestrationa,2025,-2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Sequestrationa,2026,-2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Sequestrationa,2027,-2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Sequestrationa,2028,-2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Sequestrationa,2029,-2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Sequestrationa,2030,-2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Sequestrationa,2031,-2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Sequestrationa,2032,0.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Sequestrationa,2033,0.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Subtotal,2023,250.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2024,144.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2025,144.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2026,144.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2027,144.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2028,144.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2029,144.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2030,144.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2031,144.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2032,146.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Subtotal,2033,146.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true
-Fostercare,Foster Care,2023,141.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Foster Care,2024,139.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Foster Care,2025,138.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Foster Care,2026,137.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Foster Care,2027,135.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Foster Care,2028,134.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Foster Care,2029,133.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Foster Care,2030,132.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Foster Care,2031,130.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Foster Care,2032,129.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Foster Care,2033,128.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Adoption Assistance,2023,560.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Adoption Assistance,2024,574.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Adoption Assistance,2025,588.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Adoption Assistance,2026,603.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Adoption Assistance,2027,618.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Adoption Assistance,2028,634.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Adoption Assistance,2029,650.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Adoption Assistance,2030,667.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Adoption Assistance,2031,684.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Adoption Assistance,2032,702.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Adoption Assistance,2033,719.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Guardianship,2023,42.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Guardianship,2024,43.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Guardianship,2025,44.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Guardianship,2026,45.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Guardianship,2027,46.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Guardianship,2028,47.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Guardianship,2029,49.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Guardianship,2030,50.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Guardianship,2031,51.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Guardianship,2032,53.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
-Fostercare,Guardianship,2033,54.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+Foster Care,Estimated Outlays,2023,9415.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,"Foster Care, Adoption Assistance, and Guardianship / BUDGET INFORMATION / Estimated Outlays",fiscal_year,2023,2023,2023,12,4
+Foster Care,Estimated Outlays,2024,9754.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,"Foster Care, Adoption Assistance, and Guardianship / BUDGET INFORMATION / Estimated Outlays",fiscal_year,2024,2024,2024,12,5
+Foster Care,Estimated Outlays,2025,9864.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,"Foster Care, Adoption Assistance, and Guardianship / BUDGET INFORMATION / Estimated Outlays",fiscal_year,2025,2025,2025,12,6
+Foster Care,Estimated Outlays,2026,10134.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,"Foster Care, Adoption Assistance, and Guardianship / BUDGET INFORMATION / Estimated Outlays",fiscal_year,2026,2026,2026,12,7
+Foster Care,Estimated Outlays,2027,10422.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,"Foster Care, Adoption Assistance, and Guardianship / BUDGET INFORMATION / Estimated Outlays",fiscal_year,2027,2027,2027,12,8
+Foster Care,Estimated Outlays,2028,10707.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,"Foster Care, Adoption Assistance, and Guardianship / BUDGET INFORMATION / Estimated Outlays",fiscal_year,2028,2028,2028,12,9
+Foster Care,Estimated Outlays,2029,11042.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,"Foster Care, Adoption Assistance, and Guardianship / BUDGET INFORMATION / Estimated Outlays",fiscal_year,2029,2029,2029,12,10
+Foster Care,Estimated Outlays,2030,11314.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,"Foster Care, Adoption Assistance, and Guardianship / BUDGET INFORMATION / Estimated Outlays",fiscal_year,2030,2030,2030,12,11
+Foster Care,Estimated Outlays,2031,11594.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,"Foster Care, Adoption Assistance, and Guardianship / BUDGET INFORMATION / Estimated Outlays",fiscal_year,2031,2031,2031,12,12
+Foster Care,Estimated Outlays,2032,11875.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,"Foster Care, Adoption Assistance, and Guardianship / BUDGET INFORMATION / Estimated Outlays",fiscal_year,2032,2032,2032,12,13
+Foster Care,Estimated Outlays,2033,12164.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,"Foster Care, Adoption Assistance, and Guardianship / BUDGET INFORMATION / Estimated Outlays",fiscal_year,2033,2033,2033,12,14
+Foster Care,Administration,2003,2921.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Administration,fiscal_year,2003,2003,2003,16,5
+Foster Care,Administration,2004,2994.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Administration,fiscal_year,2004,2004,2004,16,6
+Foster Care,Administration,2055,3070.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Administration,fiscal_year,2055,2055,2055,16,7
+Foster Care,Training,2003,315.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Training,fiscal_year,2003,2003,2003,17,5
+Foster Care,Training,2004,323.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Training,fiscal_year,2004,2004,2004,17,6
+Foster Care,Training,2055,331.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Training,fiscal_year,2055,2055,2055,17,7
+Foster Care,Information Technology,2003,221.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Information Technology,fiscal_year,2003,2003,2003,18,5
+Foster Care,Information Technology,2004,226.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Information Technology,fiscal_year,2004,2004,2004,18,6
+Foster Care,Information Technology,2055,232.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Information Technology,fiscal_year,2055,2055,2055,18,7
+Foster Care,Prevention Services and Technical Assistance,2003,176.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Prevention Services and Technical Assistance,fiscal_year,2003,2003,2003,19,5
+Foster Care,Prevention Services and Technical Assistance,2004,181.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Prevention Services and Technical Assistance,fiscal_year,2004,2004,2004,19,6
+Foster Care,Prevention Services and Technical Assistance,2055,211.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Prevention Services and Technical Assistance,fiscal_year,2055,2055,2055,19,7
+Foster Care,Kinship Navigator Program,2003,8.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Kinship Navigator Program,fiscal_year,2003,2003,2003,20,5
+Foster Care,Kinship Navigator Program,2004,9.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Kinship Navigator Program,fiscal_year,2004,2004,2004,20,6
+Foster Care,Kinship Navigator Program,2055,9.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Kinship Navigator Program,fiscal_year,2055,2055,2055,20,7
+Foster Care,Subtotal,2003,5644.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true,51299,Estimated Outlays for Foster Care / Subtotal,fiscal_year,2003,2003,2003,21,5
+Foster Care,Subtotal,2004,5737.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true,51299,Estimated Outlays for Foster Care / Subtotal,fiscal_year,2004,2004,2004,21,6
+Foster Care,Subtotal,2055,5908.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true,51299,Estimated Outlays for Foster Care / Subtotal,fiscal_year,2055,2055,2055,21,7
+Foster Care,Maintenance Payments,2003,3045.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Adoption Assistance / Maintenance Payments,fiscal_year,2003,2003,2003,24,5
+Foster Care,Maintenance Payments,2004,3046.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Adoption Assistance / Maintenance Payments,fiscal_year,2004,2004,2004,24,6
+Foster Care,Maintenance Payments,2055,3122.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Adoption Assistance / Maintenance Payments,fiscal_year,2055,2055,2055,24,7
+Foster Care,Administration,2003,550.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Adoption Assistance / Administration,fiscal_year,2003,2003,2003,25,5
+Foster Care,Administration,2004,564.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Adoption Assistance / Administration,fiscal_year,2004,2004,2004,25,6
+Foster Care,Administration,2055,578.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Adoption Assistance / Administration,fiscal_year,2055,2055,2055,25,7
+Foster Care,Training,2003,39.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Adoption Assistance / Training,fiscal_year,2003,2003,2003,26,5
+Foster Care,Training,2004,40.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Adoption Assistance / Training,fiscal_year,2004,2004,2004,26,6
+Foster Care,Training,2055,41.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Adoption Assistance / Training,fiscal_year,2055,2055,2055,26,7
+Foster Care,Subtotal,2003,3634.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true,51299,Estimated Outlays for Foster Care / Estimated Outlays for Adoption Assistance / Subtotal,fiscal_year,2003,2003,2003,27,5
+Foster Care,Subtotal,2004,3650.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true,51299,Estimated Outlays for Foster Care / Estimated Outlays for Adoption Assistance / Subtotal,fiscal_year,2004,2004,2004,27,6
+Foster Care,Subtotal,2055,3741.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true,51299,Estimated Outlays for Foster Care / Estimated Outlays for Adoption Assistance / Subtotal,fiscal_year,2055,2055,2055,27,7
+Foster Care,Maintenance Payments,2003,309.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Guardianship / Maintenance Payments,fiscal_year,2003,2003,2003,30,5
+Foster Care,Maintenance Payments,2004,310.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Guardianship / Maintenance Payments,fiscal_year,2004,2004,2004,30,6
+Foster Care,Maintenance Payments,2055,317.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Guardianship / Maintenance Payments,fiscal_year,2055,2055,2055,30,7
+Foster Care,Administration,2003,21.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Guardianship / Administration,fiscal_year,2003,2003,2003,31,5
+Foster Care,Administration,2004,21.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Guardianship / Administration,fiscal_year,2004,2004,2004,31,6
+Foster Care,Administration,2055,22.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Guardianship / Administration,fiscal_year,2055,2055,2055,31,7
+Foster Care,Training,2003,2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Guardianship / Training,fiscal_year,2003,2003,2003,32,5
+Foster Care,Training,2004,2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Guardianship / Training,fiscal_year,2004,2004,2004,32,6
+Foster Care,Training,2055,2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Guardianship / Training,fiscal_year,2055,2055,2055,32,7
+Foster Care,Subtotal,2003,332.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true,51299,Estimated Outlays for Foster Care / Estimated Outlays for Guardianship / Subtotal,fiscal_year,2003,2003,2003,33,5
+Foster Care,Subtotal,2004,333.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true,51299,Estimated Outlays for Foster Care / Estimated Outlays for Guardianship / Subtotal,fiscal_year,2004,2004,2004,33,6
+Foster Care,Subtotal,2055,341.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true,51299,Estimated Outlays for Foster Care / Estimated Outlays for Guardianship / Subtotal,fiscal_year,2055,2055,2055,33,7
+Foster Care,Independent Living,2003,143.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Other Components / Independent Living,fiscal_year,2003,2003,2003,36,5
+Foster Care,Independent Living,2004,143.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Other Components / Independent Living,fiscal_year,2004,2004,2004,36,6
+Foster Care,Independent Living,2055,143.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Other Components / Independent Living,fiscal_year,2055,2055,2055,36,7
+Foster Care,Tribal Technical Assistance,2003,3.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Other Components / Tribal Technical Assistance,fiscal_year,2003,2003,2003,37,5
+Foster Care,Tribal Technical Assistance,2004,3.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Other Components / Tribal Technical Assistance,fiscal_year,2004,2004,2004,37,6
+Foster Care,Tribal Technical Assistance,2055,3.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Other Components / Tribal Technical Assistance,fiscal_year,2055,2055,2055,37,7
+Foster Care,Sequestrationa,2003,-2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Other Components / Sequestrationa,fiscal_year,2003,2003,2003,38,5
+Foster Care,Sequestrationa,2004,-2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Other Components / Sequestrationa,fiscal_year,2004,2004,2004,38,6
+Foster Care,Sequestrationa,2055,-2.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Estimated Outlays for Other Components / Sequestrationa,fiscal_year,2055,2055,2055,38,7
+Foster Care,Subtotal,2003,144.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true,51299,Estimated Outlays for Foster Care / Estimated Outlays for Other Components / Subtotal,fiscal_year,2003,2003,2003,39,5
+Foster Care,Subtotal,2004,144.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true,51299,Estimated Outlays for Foster Care / Estimated Outlays for Other Components / Subtotal,fiscal_year,2004,2004,2004,39,6
+Foster Care,Subtotal,2055,144.0,Millions of dollars,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,true,51299,Estimated Outlays for Foster Care / Estimated Outlays for Other Components / Subtotal,fiscal_year,2055,2055,2055,39,7
+Foster Care,Foster Care,2003,139.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Average Monthly Caseload (Thousands of cases) / Foster Care,fiscal_year,2003,2003,2003,46,5
+Foster Care,Foster Care,2004,138.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Average Monthly Caseload (Thousands of cases) / Foster Care,fiscal_year,2004,2004,2004,46,6
+Foster Care,Foster Care,2055,137.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Average Monthly Caseload (Thousands of cases) / Foster Care,fiscal_year,2055,2055,2055,46,7
+Foster Care,Adoption Assistance,2003,574.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Average Monthly Caseload (Thousands of cases) / Adoption Assistance,fiscal_year,2003,2003,2003,47,5
+Foster Care,Adoption Assistance,2004,588.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Average Monthly Caseload (Thousands of cases) / Adoption Assistance,fiscal_year,2004,2004,2004,47,6
+Foster Care,Adoption Assistance,2055,603.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Average Monthly Caseload (Thousands of cases) / Adoption Assistance,fiscal_year,2055,2055,2055,47,7
+Foster Care,Guardianship,2003,43.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Average Monthly Caseload (Thousands of cases) / Guardianship,fiscal_year,2003,2003,2003,48,5
+Foster Care,Guardianship,2004,44.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Average Monthly Caseload (Thousands of cases) / Guardianship,fiscal_year,2004,2004,2004,48,6
+Foster Care,Guardianship,2055,45.0,Thousands of cases,51299-2023-05-fostercare.xlsx,Foster Care_05-2023,false,51299,Estimated Outlays for Foster Care / Average Monthly Caseload (Thousands of cases) / Guardianship,fiscal_year,2055,2055,2055,48,7

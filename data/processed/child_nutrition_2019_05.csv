@@ -1,103 +1,250 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Child Nutrition,Paid,2019,1822.00952392262,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2020,1840.2296191618461,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2021,1858.6319153534646,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2022,1877.2182345069994,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2023,1895.9904168520693,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2024,1895.9904168520693,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2019,3253.6475745223856,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2020,3269.9158123949974,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2021,3302.6149705189473,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2022,3335.641120224137,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2023,3368.9975314263784,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2024,3368.9975314263784,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2019,512.4560379149905,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2020,522.538270016103,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2021,532.8188633357784,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2022,543.3017204992126,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2023,553.9908209131597,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2024,553.9908209131597,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2019,0.31704324594310473,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2020,0.32485519370146926,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2021,0.3327648489660431,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2022,0.3406558932770533,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2023,0.3484678410354177,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2024,0.3484678410354177,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2019,3.340867344693733,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2020,3.422148801131953,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2021,3.504446880908591,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2022,3.58655131814458,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2023,3.6678327745828003,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2024,3.6678327745828003,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2019,2.9400673446937327,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2020,3.021348801131954,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2021,3.103646880908592,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2022,3.1857513181445802,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2023,3.2670327745828,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2024,3.2670327745828,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,6-cent Add On,2019,0.07015680825416626,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,6-cent Add On,2020,0.07185858064081058,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,6-cent Add On,2021,0.07358163785182624,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,6-cent Add On,2022,0.0753006408105807,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,6-cent Add On,2023,0.07700241319722499,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,6-cent Add On,2024,0.07700241319722499,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2019,411.95716447995375,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2020,424.31587941435237,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2021,437.0453557967829,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2022,450.15671647068643,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2023,463.661417964807,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2024,463.661417964807,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2019,78.85286490864887,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2020,78.06433625956238,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2021,77.28369289696676,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2022,76.51085596799709,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2023,75.74574740831711,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2024,75.74574740831711,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2019,12.971508871324328,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2020,12.971508871324328,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2021,12.971508871324328,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2022,12.971508871324328,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2023,12.971508871324328,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2024,12.971508871324328,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Free,2019,2061.2760936208365,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Free,2020,2123.1143764294616,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Free,2021,2186.8078077223454,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Free,2022,2252.412041954016,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Free,2023,2319.9844032126366,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Free,2024,2319.9844032126366,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Reduced,2019,207.1603720952018,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Reduced,2020,214.41098511853386,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Reduced,2021,220.8433146720899,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Reduced,2022,227.4686141122526,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Reduced,2023,234.29267253562017,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Reduced,2024,234.29267253562017,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2019,0.3081518360981537,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2020,0.31428979505115434,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2021,0.32050452418760533,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2022,0.3267046304319705,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2023,0.3328425893849712,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Paid,2024,0.3328425893849712,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2019,1.8033990494054253,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2020,1.8458067658079755,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2021,1.888744894387091,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2022,1.9315819920754325,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2023,1.9739897084779827,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Free,2024,1.9739897084779827,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2019,1.5027990494054253,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2020,1.5452067658079758,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2021,1.5881448943870913,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2022,1.6309819920754327,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2023,1.6733897084779827,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Reduced,2024,1.6733897084779827,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Free,2019,2.1561240330573983,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Free,2020,2.207087692242919,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Free,2021,2.2586887765879964,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Free,2022,2.3101684466169683,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Free,2023,2.3611321058024886,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Free,2024,2.3611321058024886,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Reduced,2019,1.8555240330573983,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Reduced,2020,1.906487692242919,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Reduced,2021,1.9580887765879964,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Reduced,2022,2.009568446616968,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Reduced,2023,2.060532105802489,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
-Child Nutrition,Severe Reduced,2024,2.060532105802489,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+Child Nutrition,Paid,2012,1667.540233,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Paid,fiscal_year,2012,2012,2012,31,11
+Child Nutrition,Paid,2013,1634.18942834,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Paid,fiscal_year,2013,2013,2013,31,12
+Child Nutrition,Paid,2014,1634.18942834,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Paid,fiscal_year,2014,2014,2014,31,13
+Child Nutrition,Paid,2015,1675.0441640484999,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Paid,fiscal_year,2015,2015,2015,31,14
+Child Nutrition,Paid,2016,1716.9202681497122,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Paid,fiscal_year,2016,2016,2016,31,15
+Child Nutrition,Paid,2017,1751.2586735127065,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Paid,fiscal_year,2017,2017,2017,31,16
+Child Nutrition,Paid,2018,1786.2838469829608,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Paid,fiscal_year,2018,2018,2018,31,17
+Child Nutrition,Paid,2019,1822.00952392262,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Paid,fiscal_year,2019,2019,2019,31,18
+Child Nutrition,Paid,2020,1840.2296191618461,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Paid,fiscal_year,2020,2020,2020,31,19
+Child Nutrition,Paid,2021,1858.6319153534646,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Paid,fiscal_year,2021,2021,2021,31,20
+Child Nutrition,Paid,2022,1877.2182345069994,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Paid,fiscal_year,2022,2022,2022,31,21
+Child Nutrition,Paid,2023,1895.9904168520693,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Paid,fiscal_year,2023,2023,2023,31,22
+Child Nutrition,Paid,2024,1895.9904168520693,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Paid,fiscal_year,2024,2024,2024,31,23
+Child Nutrition,Free,2012,3112.430822,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Free,fiscal_year,2012,2012,2012,32,11
+Child Nutrition,Free,2013,3205.80374666,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Free,fiscal_year,2013,2013,2013,32,12
+Child Nutrition,Free,2014,3253.8908028598994,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Free,fiscal_year,2014,2014,2014,32,13
+Child Nutrition,Free,2015,3286.4297108884984,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Free,fiscal_year,2015,2015,2015,32,14
+Child Nutrition,Free,2016,3286.4297108884984,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Free,fiscal_year,2016,2016,2016,32,15
+Child Nutrition,Free,2017,3269.997562334056,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Free,fiscal_year,2017,2017,2017,32,16
+Child Nutrition,Free,2018,3253.6475745223856,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Free,fiscal_year,2018,2018,2018,32,17
+Child Nutrition,Free,2019,3253.6475745223856,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Free,fiscal_year,2019,2019,2019,32,18
+Child Nutrition,Free,2020,3269.9158123949974,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Free,fiscal_year,2020,2020,2020,32,19
+Child Nutrition,Free,2021,3302.6149705189473,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Free,fiscal_year,2021,2021,2021,32,20
+Child Nutrition,Free,2022,3335.641120224137,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Free,fiscal_year,2022,2022,2022,32,21
+Child Nutrition,Free,2023,3368.9975314263784,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Free,fiscal_year,2023,2023,2023,32,22
+Child Nutrition,Free,2024,3368.9975314263784,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Free,fiscal_year,2024,2024,2024,32,23
+Child Nutrition,Reduced,2012,451.249867,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Reduced,fiscal_year,2012,2012,2012,33,11
+Child Nutrition,Reduced,2013,458.01861500499996,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Reduced,fiscal_year,2013,2013,2013,33,12
+Child Nutrition,Reduced,2014,464.8888942300749,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Reduced,fiscal_year,2014,2014,2014,33,13
+Child Nutrition,Reduced,2015,474.035274379926,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Reduced,fiscal_year,2015,2015,2015,33,14
+Child Nutrition,Reduced,2016,483.36160348292276,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Reduced,fiscal_year,2016,2016,2016,33,15
+Child Nutrition,Reduced,2017,492.87142191517074,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Reduced,fiscal_year,2017,2017,2017,33,16
+Child Nutrition,Reduced,2018,502.5683397073238,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Reduced,fiscal_year,2018,2018,2018,33,17
+Child Nutrition,Reduced,2019,512.4560379149905,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Reduced,fiscal_year,2019,2019,2019,33,18
+Child Nutrition,Reduced,2020,522.538270016103,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Reduced,fiscal_year,2020,2020,2020,33,19
+Child Nutrition,Reduced,2021,532.8188633357784,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Reduced,fiscal_year,2021,2021,2021,33,20
+Child Nutrition,Reduced,2022,543.3017204992126,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Reduced,fiscal_year,2022,2022,2022,33,21
+Child Nutrition,Reduced,2023,553.9908209131597,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Reduced,fiscal_year,2023,2023,2023,33,22
+Child Nutrition,Reduced,2024,553.9908209131597,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Meal Counts (in Millions) / Reduced,fiscal_year,2024,2024,2024,33,23
+Child Nutrition,Paid,2012,0.2621232,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Paid,fiscal_year,2012,2012,2012,36,11
+Child Nutrition,Paid,2013,0.271751060974054,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Paid,fiscal_year,2013,2013,2013,36,12
+Child Nutrition,Paid,2014,0.27918856639453216,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Paid,fiscal_year,2014,2014,2014,36,13
+Child Nutrition,Paid,2015,0.2860653137363205,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Paid,fiscal_year,2015,2015,2015,36,14
+Child Nutrition,Paid,2016,0.2936632355287024,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Paid,fiscal_year,2016,2016,2016,36,15
+Child Nutrition,Paid,2017,0.30145657233350315,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Paid,fiscal_year,2017,2017,2017,36,16
+Child Nutrition,Paid,2018,0.30924990913830397,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Paid,fiscal_year,2018,2018,2018,36,17
+Child Nutrition,Paid,2019,0.31704324594310473,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Paid,fiscal_year,2019,2019,2019,36,18
+Child Nutrition,Paid,2020,0.32485519370146926,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Paid,fiscal_year,2020,2020,2020,36,19
+Child Nutrition,Paid,2021,0.3327648489660431,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Paid,fiscal_year,2021,2021,2021,36,20
+Child Nutrition,Paid,2022,0.3406558932770533,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Paid,fiscal_year,2022,2022,2022,36,21
+Child Nutrition,Paid,2023,0.3484678410354177,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Paid,fiscal_year,2023,2023,2023,36,22
+Child Nutrition,Paid,2024,0.3484678410354177,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Paid,fiscal_year,2024,2024,2024,36,23
+Child Nutrition,Free,2012,2.7899687999999996,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Free,fiscal_year,2012,2012,2012,37,11
+Child Nutrition,Free,2013,2.876927543944323,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Free,fiscal_year,2013,2013,2013,37,12
+Child Nutrition,Free,2014,2.946998417009775,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Free,fiscal_year,2014,2014,2014,37,13
+Child Nutrition,Free,2015,3.0185493357802873,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Free,fiscal_year,2015,2015,2015,37,14
+Child Nutrition,Free,2016,3.0976039030010223,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Free,fiscal_year,2016,2016,2016,37,15
+Child Nutrition,Free,2017,3.178691716898592,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Free,fiscal_year,2017,2017,2017,37,16
+Child Nutrition,Free,2018,3.2597795307961626,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Free,fiscal_year,2018,2018,2018,37,17
+Child Nutrition,Free,2019,3.340867344693733,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Free,fiscal_year,2019,2019,2019,37,18
+Child Nutrition,Free,2020,3.422148801131953,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Free,fiscal_year,2020,2020,2020,37,19
+Child Nutrition,Free,2021,3.504446880908591,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Free,fiscal_year,2021,2021,2021,37,20
+Child Nutrition,Free,2022,3.58655131814458,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Free,fiscal_year,2022,2022,2022,37,21
+Child Nutrition,Free,2023,3.6678327745828003,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Free,fiscal_year,2023,2023,2023,37,22
+Child Nutrition,Free,2024,3.6678327745828003,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Free,fiscal_year,2024,2024,2024,37,23
+Child Nutrition,Reduced,2012,2.3891687999999998,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Reduced,fiscal_year,2012,2012,2012,38,11
+Child Nutrition,Reduced,2013,2.4761275439443233,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Reduced,fiscal_year,2013,2013,2013,38,12
+Child Nutrition,Reduced,2014,2.546198417009775,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Reduced,fiscal_year,2014,2014,2014,38,13
+Child Nutrition,Reduced,2015,2.617749335780287,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Reduced,fiscal_year,2015,2015,2015,38,14
+Child Nutrition,Reduced,2016,2.6968039030010225,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Reduced,fiscal_year,2016,2016,2016,38,15
+Child Nutrition,Reduced,2017,2.7778917168985924,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Reduced,fiscal_year,2017,2017,2017,38,16
+Child Nutrition,Reduced,2018,2.8589795307961627,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Reduced,fiscal_year,2018,2018,2018,38,17
+Child Nutrition,Reduced,2019,2.9400673446937327,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Reduced,fiscal_year,2019,2019,2019,38,18
+Child Nutrition,Reduced,2020,3.021348801131954,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Reduced,fiscal_year,2020,2020,2020,38,19
+Child Nutrition,Reduced,2021,3.103646880908592,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Reduced,fiscal_year,2021,2021,2021,38,20
+Child Nutrition,Reduced,2022,3.1857513181445802,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Reduced,fiscal_year,2022,2022,2022,38,21
+Child Nutrition,Reduced,2023,3.2670327745828,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Reduced,fiscal_year,2023,2023,2023,38,22
+Child Nutrition,Reduced,2024,3.2670327745828,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / Reduced,fiscal_year,2024,2024,2024,38,23
+Child Nutrition,6-cent Add On,2012,0.0,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / 6-cent Add On,fiscal_year,2012,2012,2012,39,11
+Child Nutrition,6-cent Add On,2013,0.06036885000379329,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / 6-cent Add On,fiscal_year,2013,2013,2013,39,12
+Child Nutrition,6-cent Add On,2014,0.06191045915485835,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / 6-cent Add On,fiscal_year,2014,2014,2014,39,13
+Child Nutrition,6-cent Add On,2015,0.06340850536537668,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / 6-cent Add On,fiscal_year,2015,2015,2015,39,14
+Child Nutrition,6-cent Add On,2016,0.065063653851017,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / 6-cent Add On,fiscal_year,2016,2016,2016,39,15
+Child Nutrition,6-cent Add On,2017,0.0667613719854001,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / 6-cent Add On,fiscal_year,2017,2017,2017,39,16
+Child Nutrition,6-cent Add On,2018,0.06845909011978318,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / 6-cent Add On,fiscal_year,2018,2018,2018,39,17
+Child Nutrition,6-cent Add On,2019,0.07015680825416626,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / 6-cent Add On,fiscal_year,2019,2019,2019,39,18
+Child Nutrition,6-cent Add On,2020,0.07185858064081058,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / 6-cent Add On,fiscal_year,2020,2020,2020,39,19
+Child Nutrition,6-cent Add On,2021,0.07358163785182624,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / 6-cent Add On,fiscal_year,2021,2021,2021,39,20
+Child Nutrition,6-cent Add On,2022,0.0753006408105807,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / 6-cent Add On,fiscal_year,2022,2022,2022,39,21
+Child Nutrition,6-cent Add On,2023,0.07700241319722499,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / 6-cent Add On,fiscal_year,2023,2023,2023,39,22
+Child Nutrition,6-cent Add On,2024,0.07700241319722499,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,NSLP Reimbursment Rates (Fiscal Year Average) / 6-cent Add On,fiscal_year,2024,2024,2024,39,23
+Child Nutrition,Paid,2012,338.242784,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Paid,fiscal_year,2012,2012,2012,44,11
+Child Nutrition,Paid,2013,345.00763967999995,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Paid,fiscal_year,2013,2013,2013,44,12
+Child Nutrition,Paid,2014,355.35786887039995,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Paid,fiscal_year,2014,2014,2014,44,13
+Child Nutrition,Paid,2015,366.01860493651196,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Paid,fiscal_year,2015,2015,2015,44,14
+Child Nutrition,Paid,2016,376.99916308460735,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Paid,fiscal_year,2016,2016,2016,44,15
+Child Nutrition,Paid,2017,388.30913797714555,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Paid,fiscal_year,2017,2017,2017,44,16
+Child Nutrition,Paid,2018,399.95841211645995,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Paid,fiscal_year,2018,2018,2018,44,17
+Child Nutrition,Paid,2019,411.95716447995375,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Paid,fiscal_year,2019,2019,2019,44,18
+Child Nutrition,Paid,2020,424.31587941435237,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Paid,fiscal_year,2020,2020,2020,44,19
+Child Nutrition,Paid,2021,437.0453557967829,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Paid,fiscal_year,2021,2021,2021,44,20
+Child Nutrition,Paid,2022,450.15671647068643,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Paid,fiscal_year,2022,2022,2022,44,21
+Child Nutrition,Paid,2023,463.661417964807,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Paid,fiscal_year,2023,2023,2023,44,22
+Child Nutrition,Paid,2024,463.661417964807,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Paid,fiscal_year,2024,2024,2024,44,23
+Child Nutrition,Free,2012,97.96806,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Free,fiscal_year,2012,2012,2012,45,11
+Child Nutrition,Free,2013,88.17125399999999,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Free,fiscal_year,2013,2013,2013,45,12
+Child Nutrition,Free,2014,83.76269129999999,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Free,fiscal_year,2014,2014,2014,45,13
+Child Nutrition,Free,2015,82.08743747399998,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Free,fiscal_year,2015,2015,2015,45,14
+Child Nutrition,Free,2016,81.26656309925998,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Free,fiscal_year,2016,2016,2016,45,15
+Child Nutrition,Free,2017,80.45389746826739,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Free,fiscal_year,2017,2017,2017,45,16
+Child Nutrition,Free,2018,79.64935849358471,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Free,fiscal_year,2018,2018,2018,45,17
+Child Nutrition,Free,2019,78.85286490864887,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Free,fiscal_year,2019,2019,2019,45,18
+Child Nutrition,Free,2020,78.06433625956238,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Free,fiscal_year,2020,2020,2020,45,19
+Child Nutrition,Free,2021,77.28369289696676,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Free,fiscal_year,2021,2021,2021,45,20
+Child Nutrition,Free,2022,76.51085596799709,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Free,fiscal_year,2022,2022,2022,45,21
+Child Nutrition,Free,2023,75.74574740831711,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Free,fiscal_year,2023,2023,2023,45,22
+Child Nutrition,Free,2024,75.74574740831711,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Free,fiscal_year,2024,2024,2024,45,23
+Child Nutrition,Reduced,2012,16.11601,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Reduced,fiscal_year,2012,2012,2012,46,11
+Child Nutrition,Reduced,2013,14.504408999999999,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Reduced,fiscal_year,2013,2013,2013,46,12
+Child Nutrition,Reduced,2014,13.779188549999999,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Reduced,fiscal_year,2014,2014,2014,46,13
+Child Nutrition,Reduced,2015,13.503604778999998,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Reduced,fiscal_year,2015,2015,2015,46,14
+Child Nutrition,Reduced,2016,13.368568731209997,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Reduced,fiscal_year,2016,2016,2016,46,15
+Child Nutrition,Reduced,2017,13.234883043897897,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Reduced,fiscal_year,2017,2017,2017,46,16
+Child Nutrition,Reduced,2018,13.102534213458918,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Reduced,fiscal_year,2018,2018,2018,46,17
+Child Nutrition,Reduced,2019,12.971508871324328,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Reduced,fiscal_year,2019,2019,2019,46,18
+Child Nutrition,Reduced,2020,12.971508871324328,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Reduced,fiscal_year,2020,2020,2020,46,19
+Child Nutrition,Reduced,2021,12.971508871324328,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Reduced,fiscal_year,2021,2021,2021,46,20
+Child Nutrition,Reduced,2022,12.971508871324328,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Reduced,fiscal_year,2022,2022,2022,46,21
+Child Nutrition,Reduced,2023,12.971508871324328,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Reduced,fiscal_year,2023,2023,2023,46,22
+Child Nutrition,Reduced,2024,12.971508871324328,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Reduced,fiscal_year,2024,2024,2024,46,23
+Child Nutrition,Severe Free,2012,1537.129916,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Free,fiscal_year,2012,2012,2012,47,11
+Child Nutrition,Severe Free,2013,1629.35771096,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Free,fiscal_year,2013,2013,2013,47,12
+Child Nutrition,Severe Free,2014,1710.8255965080002,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Free,fiscal_year,2014,2014,2014,47,13
+Child Nutrition,Severe Free,2015,1796.3668763334003,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Free,fiscal_year,2015,2015,2015,47,14
+Child Nutrition,Severe Free,2016,1868.2215513867363,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Free,fiscal_year,2016,2016,2016,47,15
+Child Nutrition,Severe Free,2017,1942.950413442206,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Free,fiscal_year,2017,2017,2017,47,16
+Child Nutrition,Severe Free,2018,2001.238925845472,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Free,fiscal_year,2018,2018,2018,47,17
+Child Nutrition,Severe Free,2019,2061.2760936208365,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Free,fiscal_year,2019,2019,2019,47,18
+Child Nutrition,Severe Free,2020,2123.1143764294616,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Free,fiscal_year,2020,2020,2020,47,19
+Child Nutrition,Severe Free,2021,2186.8078077223454,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Free,fiscal_year,2021,2021,2021,47,20
+Child Nutrition,Severe Free,2022,2252.412041954016,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Free,fiscal_year,2022,2022,2022,47,21
+Child Nutrition,Severe Free,2023,2319.9844032126366,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Free,fiscal_year,2023,2023,2023,47,22
+Child Nutrition,Severe Free,2024,2319.9844032126366,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Free,fiscal_year,2024,2024,2024,47,23
+Child Nutrition,Severe Reduced,2012,155.950496,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Reduced,fiscal_year,2012,2012,2012,48,11
+Child Nutrition,Severe Reduced,2013,165.30752576,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Reduced,fiscal_year,2013,2013,2013,48,12
+Child Nutrition,Severe Reduced,2014,171.9198267904,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Reduced,fiscal_year,2014,2014,2014,48,13
+Child Nutrition,Severe Reduced,2015,178.796619862016,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Reduced,fiscal_year,2015,2015,2015,48,14
+Child Nutrition,Severe Reduced,2016,185.94848465649665,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Reduced,fiscal_year,2016,2016,2016,48,15
+Child Nutrition,Severe Reduced,2017,193.38642404275652,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Reduced,fiscal_year,2017,2017,2017,48,16
+Child Nutrition,Severe Reduced,2018,200.15494888425297,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Reduced,fiscal_year,2018,2018,2018,48,17
+Child Nutrition,Severe Reduced,2019,207.1603720952018,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Reduced,fiscal_year,2019,2019,2019,48,18
+Child Nutrition,Severe Reduced,2020,214.41098511853386,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Reduced,fiscal_year,2020,2020,2020,48,19
+Child Nutrition,Severe Reduced,2021,220.8433146720899,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Reduced,fiscal_year,2021,2021,2021,48,20
+Child Nutrition,Severe Reduced,2022,227.4686141122526,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Reduced,fiscal_year,2022,2022,2022,48,21
+Child Nutrition,Severe Reduced,2023,234.29267253562017,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Reduced,fiscal_year,2023,2023,2023,48,22
+Child Nutrition,Severe Reduced,2024,234.29267253562017,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Meal Counts (in Millions) / Severe Reduced,fiscal_year,2024,2024,2024,48,23
+Child Nutrition,Paid,2012,0.27054,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Paid,fiscal_year,2012,2012,2012,51,11
+Child Nutrition,Paid,2013,0.2716633193367567,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Paid,fiscal_year,2013,2013,2013,51,12
+Child Nutrition,Paid,2014,0.2784088735957038,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Paid,fiscal_year,2014,2014,2014,51,13
+Child Nutrition,Paid,2015,0.28381203222139467,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Paid,fiscal_year,2015,2015,2015,51,14
+Child Nutrition,Paid,2016,0.289781827915409,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Paid,fiscal_year,2016,2016,2016,51,15
+Child Nutrition,Paid,2017,0.29590516397632394,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Paid,fiscal_year,2017,2017,2017,51,16
+Child Nutrition,Paid,2018,0.3020285000372388,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Paid,fiscal_year,2018,2018,2018,51,17
+Child Nutrition,Paid,2019,0.3081518360981537,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Paid,fiscal_year,2019,2019,2019,51,18
+Child Nutrition,Paid,2020,0.31428979505115434,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Paid,fiscal_year,2020,2020,2020,51,19
+Child Nutrition,Paid,2021,0.32050452418760533,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Paid,fiscal_year,2021,2021,2021,51,20
+Child Nutrition,Paid,2022,0.3267046304319705,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Paid,fiscal_year,2022,2022,2022,51,21
+Child Nutrition,Paid,2023,0.3328425893849712,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Paid,fiscal_year,2023,2023,2023,51,22
+Child Nutrition,Paid,2024,0.3328425893849712,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Paid,fiscal_year,2024,2024,2024,51,23
+Child Nutrition,Free,2012,1.5194328,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Free,fiscal_year,2012,2012,2012,52,11
+Child Nutrition,Free,2013,1.5593307881448644,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Free,fiscal_year,2013,2013,2013,52,12
+Child Nutrition,Free,2014,1.5979022175703173,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Free,fiscal_year,2014,2014,2014,52,13
+Child Nutrition,Free,2015,1.6352331317114537,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Free,fiscal_year,2015,2015,2015,52,14
+Child Nutrition,Free,2016,1.676478992870098,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Free,fiscal_year,2016,2016,2016,52,15
+Child Nutrition,Free,2017,1.718785678381874,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Free,fiscal_year,2017,2017,2017,52,16
+Child Nutrition,Free,2018,1.7610923638936495,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Free,fiscal_year,2018,2018,2018,52,17
+Child Nutrition,Free,2019,1.8033990494054253,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Free,fiscal_year,2019,2019,2019,52,18
+Child Nutrition,Free,2020,1.8458067658079755,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Free,fiscal_year,2020,2020,2020,52,19
+Child Nutrition,Free,2021,1.888744894387091,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Free,fiscal_year,2021,2021,2021,52,20
+Child Nutrition,Free,2022,1.9315819920754325,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Free,fiscal_year,2022,2022,2022,52,21
+Child Nutrition,Free,2023,1.9739897084779827,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Free,fiscal_year,2023,2023,2023,52,22
+Child Nutrition,Free,2024,1.9739897084779827,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Free,fiscal_year,2024,2024,2024,52,23
+Child Nutrition,Reduced,2012,1.2188328,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Reduced,fiscal_year,2012,2012,2012,53,11
+Child Nutrition,Reduced,2013,1.2587307881448644,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Reduced,fiscal_year,2013,2013,2013,53,12
+Child Nutrition,Reduced,2014,1.2973022175703173,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Reduced,fiscal_year,2014,2014,2014,53,13
+Child Nutrition,Reduced,2015,1.334633131711454,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Reduced,fiscal_year,2015,2015,2015,53,14
+Child Nutrition,Reduced,2016,1.375878992870098,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Reduced,fiscal_year,2016,2016,2016,53,15
+Child Nutrition,Reduced,2017,1.4181856783818736,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Reduced,fiscal_year,2017,2017,2017,53,16
+Child Nutrition,Reduced,2018,1.4604923638936496,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Reduced,fiscal_year,2018,2018,2018,53,17
+Child Nutrition,Reduced,2019,1.5027990494054253,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Reduced,fiscal_year,2019,2019,2019,53,18
+Child Nutrition,Reduced,2020,1.5452067658079758,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Reduced,fiscal_year,2020,2020,2020,53,19
+Child Nutrition,Reduced,2021,1.5881448943870913,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Reduced,fiscal_year,2021,2021,2021,53,20
+Child Nutrition,Reduced,2022,1.6309819920754327,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Reduced,fiscal_year,2022,2022,2022,53,21
+Child Nutrition,Reduced,2023,1.6733897084779827,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Reduced,fiscal_year,2023,2023,2023,53,22
+Child Nutrition,Reduced,2024,1.6733897084779827,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Reduced,fiscal_year,2024,2024,2024,53,23
+Child Nutrition,Severe Free,2012,1.8119116346795716,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Free,fiscal_year,2012,2012,2012,54,11
+Child Nutrition,Severe Free,2013,1.8630001274699124,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Free,fiscal_year,2013,2013,2013,54,12
+Child Nutrition,Severe Free,2014,1.909167314097663,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Free,fiscal_year,2014,2014,2014,54,13
+Child Nutrition,Severe Free,2015,1.9540299038988536,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Free,fiscal_year,2015,2015,2015,54,14
+Child Nutrition,Severe Free,2016,2.0035972984491544,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Free,fiscal_year,2016,2016,2016,54,15
+Child Nutrition,Severe Free,2017,2.054439543318569,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Free,fiscal_year,2017,2017,2017,54,16
+Child Nutrition,Severe Free,2018,2.105281788187984,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Free,fiscal_year,2018,2018,2018,54,17
+Child Nutrition,Severe Free,2019,2.1561240330573983,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Free,fiscal_year,2019,2019,2019,54,18
+Child Nutrition,Severe Free,2020,2.207087692242919,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Free,fiscal_year,2020,2020,2020,54,19
+Child Nutrition,Severe Free,2021,2.2586887765879964,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Free,fiscal_year,2021,2021,2021,54,20
+Child Nutrition,Severe Free,2022,2.3101684466169683,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Free,fiscal_year,2022,2022,2022,54,21
+Child Nutrition,Severe Free,2023,2.3611321058024886,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Free,fiscal_year,2023,2023,2023,54,22
+Child Nutrition,Severe Free,2024,2.3611321058024886,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Free,fiscal_year,2024,2024,2024,54,23
+Child Nutrition,Severe Reduced,2012,1.5113116346795714,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Reduced,fiscal_year,2012,2012,2012,55,11
+Child Nutrition,Severe Reduced,2013,1.5624001274699122,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Reduced,fiscal_year,2013,2013,2013,55,12
+Child Nutrition,Severe Reduced,2014,1.6085673140976633,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Reduced,fiscal_year,2014,2014,2014,55,13
+Child Nutrition,Severe Reduced,2015,1.6534299038988536,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Reduced,fiscal_year,2015,2015,2015,55,14
+Child Nutrition,Severe Reduced,2016,1.7029972984491542,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Reduced,fiscal_year,2016,2016,2016,55,15
+Child Nutrition,Severe Reduced,2017,1.7538395433185687,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Reduced,fiscal_year,2017,2017,2017,55,16
+Child Nutrition,Severe Reduced,2018,1.8046817881879837,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Reduced,fiscal_year,2018,2018,2018,55,17
+Child Nutrition,Severe Reduced,2019,1.8555240330573983,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Reduced,fiscal_year,2019,2019,2019,55,18
+Child Nutrition,Severe Reduced,2020,1.906487692242919,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Reduced,fiscal_year,2020,2020,2020,55,19
+Child Nutrition,Severe Reduced,2021,1.9580887765879964,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Reduced,fiscal_year,2021,2021,2021,55,20
+Child Nutrition,Severe Reduced,2022,2.009568446616968,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Reduced,fiscal_year,2022,2022,2022,55,21
+Child Nutrition,Severe Reduced,2023,2.060532105802489,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Reduced,fiscal_year,2023,2023,2023,55,22
+Child Nutrition,Severe Reduced,2024,2.060532105802489,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,SBP Reimbursement Rates (Fiscal Year Average) / Severe Reduced,fiscal_year,2024,2024,2024,55,23
+Child Nutrition,Unlabeled value (row 67),2014,1.0226753546712073,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Most reimbursement rates are tied to the Consumer Price Index for Food Away From Home, which is projected to increase as follows: / Unlabeled value (row 67)",fiscal_year,2014,2014,2014,67,13
+Child Nutrition,Unlabeled value (row 67),2015,1.0218840926138097,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Most reimbursement rates are tied to the Consumer Price Index for Food Away From Home, which is projected to increase as follows: / Unlabeled value (row 67)",fiscal_year,2015,2015,2015,67,14
+Child Nutrition,Unlabeled value (row 67),2016,1.029723494869975,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Most reimbursement rates are tied to the Consumer Price Index for Food Away From Home, which is projected to increase as follows: / Unlabeled value (row 67)",fiscal_year,2016,2016,2016,67,15
+Child Nutrition,Unlabeled value (row 67),2017,1.0264450380304087,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Most reimbursement rates are tied to the Consumer Price Index for Food Away From Home, which is projected to increase as follows: / Unlabeled value (row 67)",fiscal_year,2017,2017,2017,67,16
+Child Nutrition,Unlabeled value (row 67),2018,1.023100345703885,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Most reimbursement rates are tied to the Consumer Price Index for Food Away From Home, which is projected to increase as follows: / Unlabeled value (row 67)",fiscal_year,2018,2018,2018,67,17
+Child Nutrition,Unlabeled value (row 67),2019,1.0267745255997136,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Most reimbursement rates are tied to the Consumer Price Index for Food Away From Home, which is projected to increase as follows: / Unlabeled value (row 67)",fiscal_year,2019,2019,2019,67,18
+Child Nutrition,Unlabeled value (row 67),2020,1.0272532118689317,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Most reimbursement rates are tied to the Consumer Price Index for Food Away From Home, which is projected to increase as follows: / Unlabeled value (row 67)",fiscal_year,2020,2020,2020,67,19
+Child Nutrition,Unlabeled value (row 67),2021,1.0304536614688309,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Most reimbursement rates are tied to the Consumer Price Index for Food Away From Home, which is projected to increase as follows: / Unlabeled value (row 67)",fiscal_year,2021,2021,2021,67,20
+Child Nutrition,Unlabeled value (row 67),2022,1.0298549254587666,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Most reimbursement rates are tied to the Consumer Price Index for Food Away From Home, which is projected to increase as follows: / Unlabeled value (row 67)",fiscal_year,2022,2022,2022,67,21
+Child Nutrition,Unlabeled value (row 67),2023,1.0282290927386437,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Most reimbursement rates are tied to the Consumer Price Index for Food Away From Home, which is projected to increase as follows: / Unlabeled value (row 67)",fiscal_year,2023,2023,2023,67,22
+Child Nutrition,Unlabeled value (row 67),2024,1.0277055508316397,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Most reimbursement rates are tied to the Consumer Price Index for Food Away From Home, which is projected to increase as follows: / Unlabeled value (row 67)",fiscal_year,2024,2024,2024,67,23
+Child Nutrition,Unlabeled value (row 67),2025,1.0282183228491701,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Most reimbursement rates are tied to the Consumer Price Index for Food Away From Home, which is projected to increase as follows: / Unlabeled value (row 67)",fiscal_year,2025,2025,2025,67,24
+Child Nutrition,Unlabeled value (row 67),2026,1.0281225400137322,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Most reimbursement rates are tied to the Consumer Price Index for Food Away From Home, which is projected to increase as follows: / Unlabeled value (row 67)",fiscal_year,2026,2026,2026,67,25
+Child Nutrition,Unlabeled value (row 67),2027,1.0281869649939497,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Most reimbursement rates are tied to the Consumer Price Index for Food Away From Home, which is projected to increase as follows: / Unlabeled value (row 67)",fiscal_year,2027,2027,2027,67,26
+Child Nutrition,Unlabeled value (row 67),2028,1.0279625197627023,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Most reimbursement rates are tied to the Consumer Price Index for Food Away From Home, which is projected to increase as follows: / Unlabeled value (row 67)",fiscal_year,2028,2028,2028,67,27
+Child Nutrition,Unlabeled value (row 67),2029,1.0281447286767673,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Most reimbursement rates are tied to the Consumer Price Index for Food Away From Home, which is projected to increase as follows: / Unlabeled value (row 67)",fiscal_year,2029,2029,2029,67,28
+Child Nutrition,Unlabeled value (row 71),2014,1.0254486601309944,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Food Away from Home index, August baseline projections / Unlabeled value (row 71)",fiscal_year,2014,2014,2014,71,13
+Child Nutrition,Unlabeled value (row 71),2015,1.0238388820386353,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Food Away from Home index, August baseline projections / Unlabeled value (row 71)",fiscal_year,2015,2015,2015,71,14
+Child Nutrition,Unlabeled value (row 71),2016,1.0248896025692493,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Food Away from Home index, August baseline projections / Unlabeled value (row 71)",fiscal_year,2016,2016,2016,71,15
+Child Nutrition,Unlabeled value (row 71),2017,1.025851938895417,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Food Away from Home index, August baseline projections / Unlabeled value (row 71)",fiscal_year,2017,2017,2017,71,16
+Child Nutrition,Unlabeled value (row 71),2018,1.0259641084383353,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Food Away from Home index, August baseline projections / Unlabeled value (row 71)",fiscal_year,2018,2018,2018,71,17
+Child Nutrition,Unlabeled value (row 71),2019,1.026051358392259,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Food Away from Home index, August baseline projections / Unlabeled value (row 71)",fiscal_year,2019,2019,2019,71,18
+Child Nutrition,Unlabeled value (row 71),2020,1.025752629669931,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Food Away from Home index, August baseline projections / Unlabeled value (row 71)",fiscal_year,2020,2020,2020,71,19
+Child Nutrition,Unlabeled value (row 71),2021,1.0261669024045261,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Food Away from Home index, August baseline projections / Unlabeled value (row 71)",fiscal_year,2021,2021,2021,71,20
+Child Nutrition,Unlabeled value (row 71),2022,1.0258442453480359,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Food Away from Home index, August baseline projections / Unlabeled value (row 71)",fiscal_year,2022,2022,2022,71,21
+Child Nutrition,Unlabeled value (row 71),2023,1.0262008733624455,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Food Away from Home index, August baseline projections / Unlabeled value (row 71)",fiscal_year,2023,2023,2023,71,22
+Child Nutrition,Unlabeled value (row 71),2024,0.0,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Food Away from Home index, August baseline projections / Unlabeled value (row 71)",fiscal_year,2024,2024,2024,71,23
+Child Nutrition,Unlabeled value (row 71),2025,0.0,Millions of dollars,51293-2019-05-Child-Nutrition.xlsx,CNP May 2019,false,51293,"Food Away from Home index, August baseline projections / Unlabeled value (row 71)",fiscal_year,2025,2025,2025,71,24

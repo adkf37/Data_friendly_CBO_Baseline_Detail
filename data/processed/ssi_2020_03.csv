@@ -1,243 +1,243 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Ssi,Aged,2020,1114.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2021,1117.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2022,1124.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2023,1134.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2024,1149.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2025,1163.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2026,1180.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2027,1197.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2028,1216.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2029,1236.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2030,1259.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2020,5652.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2021,5636.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2022,5630.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2023,5635.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2024,5660.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2025,5681.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2026,5709.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2027,5743.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2028,5783.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2029,5827.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2030,5887.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2020,1114.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2021,1106.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2022,1111.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2023,1117.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2024,1127.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2025,1135.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2026,1144.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2027,1153.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2028,1163.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2029,1174.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2030,1187.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Total,2020,7881.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2021,7858.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2022,7864.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2023,7886.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2024,7936.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2025,7980.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2026,8033.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2027,8094.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2028,8162.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2029,8237.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2030,8333.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Aged,2020,100.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2021,103.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2022,106.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2023,109.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2024,115.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2025,116.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2026,119.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2027,122.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2028,124.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2029,127.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2030,131.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2020,465.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2021,475.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2022,485.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2023,495.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2024,515.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2025,514.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2026,522.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2027,531.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2028,539.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2029,547.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2030,567.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2020,157.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2021,159.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2022,160.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2023,162.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2024,167.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2025,166.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2026,167.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2027,169.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2028,172.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2029,173.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2030,178.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Total,2020,723.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2021,736.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2022,751.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2023,766.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2024,797.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2025,795.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2026,808.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2027,822.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2028,835.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2029,848.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Total,2030,876.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Aged,2020,423.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2021,434.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2022,446.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2023,459.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2024,471.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2025,484.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2026,496.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2027,508.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2028,520.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2029,532.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2030,545.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2020,603.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2021,619.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2022,637.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2023,655.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2024,673.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2025,691.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2026,708.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2027,726.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2028,743.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2029,761.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2030,779.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2020,708.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2021,726.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2022,745.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2023,764.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2024,784.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2025,802.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2026,821.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2027,840.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2028,858.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2029,877.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2030,896.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Average Across All Groups,2020,593.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Average Across All Groups,2021,608.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Average Across All Groups,2022,625.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Average Across All Groups,2023,642.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Average Across All Groups,2024,659.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Average Across All Groups,2025,676.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Average Across All Groups,2026,693.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Average Across All Groups,2027,710.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Average Across All Groups,2028,727.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Average Across All Groups,2029,743.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Average Across All Groups,2030,760.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Maximum Monthly Benefit (Individual),2020,783.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Maximum Monthly Benefit (Individual),2021,803.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Maximum Monthly Benefit (Individual),2022,824.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Maximum Monthly Benefit (Individual),2023,845.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Maximum Monthly Benefit (Individual),2024,867.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Maximum Monthly Benefit (Individual),2025,887.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Maximum Monthly Benefit (Individual),2026,908.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Maximum Monthly Benefit (Individual),2027,929.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Maximum Monthly Benefit (Individual),2028,949.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Maximum Monthly Benefit (Individual),2029,970.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Maximum Monthly Benefit (Individual),2030,991.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Percentage Change,2020,1.6,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Percentage Change,2021,2.5,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Percentage Change,2022,2.6,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Percentage Change,2023,2.6,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Percentage Change,2024,2.5,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Percentage Change,2025,2.4,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Percentage Change,2026,2.3,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Percentage Change,2027,2.3,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Percentage Change,2028,2.1999999999999997,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Percentage Change,2029,2.1999999999999997,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Percentage Change,2030,2.1999999999999997,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Number of Paymentsa,2020,12.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Number of Paymentsa,2021,12.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Number of Paymentsa,2022,13.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Number of Paymentsa,2023,12.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Number of Paymentsa,2024,11.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Number of Paymentsa,2025,12.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Number of Paymentsa,2026,12.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Number of Paymentsa,2027,12.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Number of Paymentsa,2028,13.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Number of Paymentsa,2029,11.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Number of Paymentsa,2030,12.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2020,5.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2021,5.8,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2022,6.4,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2023,6.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2024,5.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2025,6.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2026,6.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2027,7.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2028,8.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2029,7.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Aged,2030,8.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2020,40.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2021,41.5,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2022,46.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2023,43.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2024,41.4,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2025,46.5,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2026,47.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2027,49.3,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2028,55.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2029,48.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled adults,2030,54.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2020,9.5,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2021,9.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2022,10.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2023,10.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2024,9.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2025,10.8,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2026,11.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2027,11.5,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2028,12.8,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2029,11.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Blind and disabled children,2030,12.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Other,2020,0.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Other,2021,0.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Other,2022,0.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Other,2023,0.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Other,2024,0.8,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Other,2025,0.8,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Other,2026,0.8,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Other,2027,0.8,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Other,2028,0.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Other,2029,1.0,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Other,2030,0.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,Subtotal,2020,56.5,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Subtotal,2021,57.5,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Subtotal,2022,63.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Subtotal,2023,60.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Subtotal,2024,57.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Subtotal,2025,64.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Subtotal,2026,66.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Subtotal,2027,68.8,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Subtotal,2028,76.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Subtotal,2029,67.4,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,Subtotal,2030,75.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,and Demonstration Projects,2020,0.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,and Demonstration Projects,2021,0.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,and Demonstration Projects,2022,0.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,and Demonstration Projects,2023,0.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,and Demonstration Projects,2024,0.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,and Demonstration Projects,2025,0.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,and Demonstration Projects,2026,0.3,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,and Demonstration Projects,2027,0.3,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,and Demonstration Projects,2028,0.3,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,and Demonstration Projects,2029,0.3,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,and Demonstration Projects,2030,0.3,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false
-Ssi,"Total, Mandatory Outlays",2020,56.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,"Total, Mandatory Outlays",2021,57.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,"Total, Mandatory Outlays",2022,64.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,"Total, Mandatory Outlays",2023,61.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,"Total, Mandatory Outlays",2024,57.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,"Total, Mandatory Outlays",2025,64.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,"Total, Mandatory Outlays",2026,66.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,"Total, Mandatory Outlays",2027,69.0,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,"Total, Mandatory Outlays",2028,77.0,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,"Total, Mandatory Outlays",2029,67.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
-Ssi,"Total, Mandatory Outlays",2030,75.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+SSI,Aged,2020,1114.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Aged,fiscal_year,2020,2020,2020,8,2
+SSI,Aged,2021,1117.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Aged,fiscal_year,2021,2021,2021,8,3
+SSI,Aged,2022,1124.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Aged,fiscal_year,2022,2022,2022,8,4
+SSI,Aged,2023,1134.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Aged,fiscal_year,2023,2023,2023,8,5
+SSI,Aged,2024,1149.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Aged,fiscal_year,2024,2024,2024,8,6
+SSI,Aged,2025,1163.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Aged,fiscal_year,2025,2025,2025,8,7
+SSI,Aged,2026,1180.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Aged,fiscal_year,2026,2026,2026,8,8
+SSI,Aged,2027,1197.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Aged,fiscal_year,2027,2027,2027,8,9
+SSI,Aged,2028,1216.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Aged,fiscal_year,2028,2028,2028,8,10
+SSI,Aged,2029,1236.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Aged,fiscal_year,2029,2029,2029,8,11
+SSI,Aged,2030,1259.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Aged,fiscal_year,2030,2030,2030,8,12
+SSI,Blind and disabled adults,2020,5652.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled adults,fiscal_year,2020,2020,2020,9,2
+SSI,Blind and disabled adults,2021,5636.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled adults,fiscal_year,2021,2021,2021,9,3
+SSI,Blind and disabled adults,2022,5630.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled adults,fiscal_year,2022,2022,2022,9,4
+SSI,Blind and disabled adults,2023,5635.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled adults,fiscal_year,2023,2023,2023,9,5
+SSI,Blind and disabled adults,2024,5660.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled adults,fiscal_year,2024,2024,2024,9,6
+SSI,Blind and disabled adults,2025,5681.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled adults,fiscal_year,2025,2025,2025,9,7
+SSI,Blind and disabled adults,2026,5709.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled adults,fiscal_year,2026,2026,2026,9,8
+SSI,Blind and disabled adults,2027,5743.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled adults,fiscal_year,2027,2027,2027,9,9
+SSI,Blind and disabled adults,2028,5783.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled adults,fiscal_year,2028,2028,2028,9,10
+SSI,Blind and disabled adults,2029,5827.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled adults,fiscal_year,2029,2029,2029,9,11
+SSI,Blind and disabled adults,2030,5887.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled adults,fiscal_year,2030,2030,2030,9,12
+SSI,Blind and disabled children,2020,1114.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled children,fiscal_year,2020,2020,2020,10,2
+SSI,Blind and disabled children,2021,1106.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled children,fiscal_year,2021,2021,2021,10,3
+SSI,Blind and disabled children,2022,1111.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled children,fiscal_year,2022,2022,2022,10,4
+SSI,Blind and disabled children,2023,1117.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled children,fiscal_year,2023,2023,2023,10,5
+SSI,Blind and disabled children,2024,1127.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled children,fiscal_year,2024,2024,2024,10,6
+SSI,Blind and disabled children,2025,1135.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled children,fiscal_year,2025,2025,2025,10,7
+SSI,Blind and disabled children,2026,1144.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled children,fiscal_year,2026,2026,2026,10,8
+SSI,Blind and disabled children,2027,1153.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled children,fiscal_year,2027,2027,2027,10,9
+SSI,Blind and disabled children,2028,1163.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled children,fiscal_year,2028,2028,2028,10,10
+SSI,Blind and disabled children,2029,1174.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled children,fiscal_year,2029,2029,2029,10,11
+SSI,Blind and disabled children,2030,1187.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Federal Beneficiaries on December 31 (Thousands) / Blind and disabled children,fiscal_year,2030,2030,2030,10,12
+SSI,Total,2020,7881.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Federal Beneficiaries on December 31 (Thousands) / Total,fiscal_year,2020,2020,2020,11,2
+SSI,Total,2021,7858.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Federal Beneficiaries on December 31 (Thousands) / Total,fiscal_year,2021,2021,2021,11,3
+SSI,Total,2022,7864.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Federal Beneficiaries on December 31 (Thousands) / Total,fiscal_year,2022,2022,2022,11,4
+SSI,Total,2023,7886.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Federal Beneficiaries on December 31 (Thousands) / Total,fiscal_year,2023,2023,2023,11,5
+SSI,Total,2024,7936.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Federal Beneficiaries on December 31 (Thousands) / Total,fiscal_year,2024,2024,2024,11,6
+SSI,Total,2025,7980.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Federal Beneficiaries on December 31 (Thousands) / Total,fiscal_year,2025,2025,2025,11,7
+SSI,Total,2026,8033.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Federal Beneficiaries on December 31 (Thousands) / Total,fiscal_year,2026,2026,2026,11,8
+SSI,Total,2027,8094.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Federal Beneficiaries on December 31 (Thousands) / Total,fiscal_year,2027,2027,2027,11,9
+SSI,Total,2028,8162.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Federal Beneficiaries on December 31 (Thousands) / Total,fiscal_year,2028,2028,2028,11,10
+SSI,Total,2029,8237.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Federal Beneficiaries on December 31 (Thousands) / Total,fiscal_year,2029,2029,2029,11,11
+SSI,Total,2030,8333.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Federal Beneficiaries on December 31 (Thousands) / Total,fiscal_year,2030,2030,2030,11,12
+SSI,Aged,2020,100.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Aged,fiscal_year,2020,2020,2020,14,2
+SSI,Aged,2021,103.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Aged,fiscal_year,2021,2021,2021,14,3
+SSI,Aged,2022,106.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Aged,fiscal_year,2022,2022,2022,14,4
+SSI,Aged,2023,109.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Aged,fiscal_year,2023,2023,2023,14,5
+SSI,Aged,2024,115.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Aged,fiscal_year,2024,2024,2024,14,6
+SSI,Aged,2025,116.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Aged,fiscal_year,2025,2025,2025,14,7
+SSI,Aged,2026,119.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Aged,fiscal_year,2026,2026,2026,14,8
+SSI,Aged,2027,122.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Aged,fiscal_year,2027,2027,2027,14,9
+SSI,Aged,2028,124.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Aged,fiscal_year,2028,2028,2028,14,10
+SSI,Aged,2029,127.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Aged,fiscal_year,2029,2029,2029,14,11
+SSI,Aged,2030,131.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Aged,fiscal_year,2030,2030,2030,14,12
+SSI,Blind and disabled adults,2020,465.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled adults,fiscal_year,2020,2020,2020,15,2
+SSI,Blind and disabled adults,2021,475.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled adults,fiscal_year,2021,2021,2021,15,3
+SSI,Blind and disabled adults,2022,485.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled adults,fiscal_year,2022,2022,2022,15,4
+SSI,Blind and disabled adults,2023,495.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled adults,fiscal_year,2023,2023,2023,15,5
+SSI,Blind and disabled adults,2024,515.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled adults,fiscal_year,2024,2024,2024,15,6
+SSI,Blind and disabled adults,2025,514.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled adults,fiscal_year,2025,2025,2025,15,7
+SSI,Blind and disabled adults,2026,522.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled adults,fiscal_year,2026,2026,2026,15,8
+SSI,Blind and disabled adults,2027,531.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled adults,fiscal_year,2027,2027,2027,15,9
+SSI,Blind and disabled adults,2028,539.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled adults,fiscal_year,2028,2028,2028,15,10
+SSI,Blind and disabled adults,2029,547.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled adults,fiscal_year,2029,2029,2029,15,11
+SSI,Blind and disabled adults,2030,567.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled adults,fiscal_year,2030,2030,2030,15,12
+SSI,Blind and disabled children,2020,157.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled children,fiscal_year,2020,2020,2020,16,2
+SSI,Blind and disabled children,2021,159.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled children,fiscal_year,2021,2021,2021,16,3
+SSI,Blind and disabled children,2022,160.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled children,fiscal_year,2022,2022,2022,16,4
+SSI,Blind and disabled children,2023,162.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled children,fiscal_year,2023,2023,2023,16,5
+SSI,Blind and disabled children,2024,167.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled children,fiscal_year,2024,2024,2024,16,6
+SSI,Blind and disabled children,2025,166.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled children,fiscal_year,2025,2025,2025,16,7
+SSI,Blind and disabled children,2026,167.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled children,fiscal_year,2026,2026,2026,16,8
+SSI,Blind and disabled children,2027,169.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled children,fiscal_year,2027,2027,2027,16,9
+SSI,Blind and disabled children,2028,172.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled children,fiscal_year,2028,2028,2028,16,10
+SSI,Blind and disabled children,2029,173.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled children,fiscal_year,2029,2029,2029,16,11
+SSI,Blind and disabled children,2030,178.0,Thousands,51313-2020-03-ssi.xlsx,SSI,false,51313,Awards of Federally Administered Benefits (Thousands) / Blind and disabled children,fiscal_year,2030,2030,2030,16,12
+SSI,Total,2020,723.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Awards of Federally Administered Benefits (Thousands) / Total,fiscal_year,2020,2020,2020,17,2
+SSI,Total,2021,736.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Awards of Federally Administered Benefits (Thousands) / Total,fiscal_year,2021,2021,2021,17,3
+SSI,Total,2022,751.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Awards of Federally Administered Benefits (Thousands) / Total,fiscal_year,2022,2022,2022,17,4
+SSI,Total,2023,766.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Awards of Federally Administered Benefits (Thousands) / Total,fiscal_year,2023,2023,2023,17,5
+SSI,Total,2024,797.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Awards of Federally Administered Benefits (Thousands) / Total,fiscal_year,2024,2024,2024,17,6
+SSI,Total,2025,795.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Awards of Federally Administered Benefits (Thousands) / Total,fiscal_year,2025,2025,2025,17,7
+SSI,Total,2026,808.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Awards of Federally Administered Benefits (Thousands) / Total,fiscal_year,2026,2026,2026,17,8
+SSI,Total,2027,822.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Awards of Federally Administered Benefits (Thousands) / Total,fiscal_year,2027,2027,2027,17,9
+SSI,Total,2028,835.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Awards of Federally Administered Benefits (Thousands) / Total,fiscal_year,2028,2028,2028,17,10
+SSI,Total,2029,848.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Awards of Federally Administered Benefits (Thousands) / Total,fiscal_year,2029,2029,2029,17,11
+SSI,Total,2030,876.0,Thousands,51313-2020-03-ssi.xlsx,SSI,true,51313,Awards of Federally Administered Benefits (Thousands) / Total,fiscal_year,2030,2030,2030,17,12
+SSI,Aged,2020,423.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Aged,fiscal_year,2020,2020,2020,20,2
+SSI,Aged,2021,434.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Aged,fiscal_year,2021,2021,2021,20,3
+SSI,Aged,2022,446.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Aged,fiscal_year,2022,2022,2022,20,4
+SSI,Aged,2023,459.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Aged,fiscal_year,2023,2023,2023,20,5
+SSI,Aged,2024,471.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Aged,fiscal_year,2024,2024,2024,20,6
+SSI,Aged,2025,484.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Aged,fiscal_year,2025,2025,2025,20,7
+SSI,Aged,2026,496.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Aged,fiscal_year,2026,2026,2026,20,8
+SSI,Aged,2027,508.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Aged,fiscal_year,2027,2027,2027,20,9
+SSI,Aged,2028,520.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Aged,fiscal_year,2028,2028,2028,20,10
+SSI,Aged,2029,532.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Aged,fiscal_year,2029,2029,2029,20,11
+SSI,Aged,2030,545.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Aged,fiscal_year,2030,2030,2030,20,12
+SSI,Blind and disabled adults,2020,603.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled adults,fiscal_year,2020,2020,2020,21,2
+SSI,Blind and disabled adults,2021,619.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled adults,fiscal_year,2021,2021,2021,21,3
+SSI,Blind and disabled adults,2022,637.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled adults,fiscal_year,2022,2022,2022,21,4
+SSI,Blind and disabled adults,2023,655.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled adults,fiscal_year,2023,2023,2023,21,5
+SSI,Blind and disabled adults,2024,673.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled adults,fiscal_year,2024,2024,2024,21,6
+SSI,Blind and disabled adults,2025,691.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled adults,fiscal_year,2025,2025,2025,21,7
+SSI,Blind and disabled adults,2026,708.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled adults,fiscal_year,2026,2026,2026,21,8
+SSI,Blind and disabled adults,2027,726.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled adults,fiscal_year,2027,2027,2027,21,9
+SSI,Blind and disabled adults,2028,743.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled adults,fiscal_year,2028,2028,2028,21,10
+SSI,Blind and disabled adults,2029,761.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled adults,fiscal_year,2029,2029,2029,21,11
+SSI,Blind and disabled adults,2030,779.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled adults,fiscal_year,2030,2030,2030,21,12
+SSI,Blind and disabled children,2020,708.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled children,fiscal_year,2020,2020,2020,22,2
+SSI,Blind and disabled children,2021,726.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled children,fiscal_year,2021,2021,2021,22,3
+SSI,Blind and disabled children,2022,745.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled children,fiscal_year,2022,2022,2022,22,4
+SSI,Blind and disabled children,2023,764.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled children,fiscal_year,2023,2023,2023,22,5
+SSI,Blind and disabled children,2024,784.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled children,fiscal_year,2024,2024,2024,22,6
+SSI,Blind and disabled children,2025,802.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled children,fiscal_year,2025,2025,2025,22,7
+SSI,Blind and disabled children,2026,821.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled children,fiscal_year,2026,2026,2026,22,8
+SSI,Blind and disabled children,2027,840.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled children,fiscal_year,2027,2027,2027,22,9
+SSI,Blind and disabled children,2028,858.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled children,fiscal_year,2028,2028,2028,22,10
+SSI,Blind and disabled children,2029,877.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled children,fiscal_year,2029,2029,2029,22,11
+SSI,Blind and disabled children,2030,896.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Blind and disabled children,fiscal_year,2030,2030,2030,22,12
+SSI,Average Across All Groups,2020,593.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Average Across All Groups,fiscal_year,2020,2020,2020,23,2
+SSI,Average Across All Groups,2021,608.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Average Across All Groups,fiscal_year,2021,2021,2021,23,3
+SSI,Average Across All Groups,2022,625.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Average Across All Groups,fiscal_year,2022,2022,2022,23,4
+SSI,Average Across All Groups,2023,642.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Average Across All Groups,fiscal_year,2023,2023,2023,23,5
+SSI,Average Across All Groups,2024,659.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Average Across All Groups,fiscal_year,2024,2024,2024,23,6
+SSI,Average Across All Groups,2025,676.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Average Across All Groups,fiscal_year,2025,2025,2025,23,7
+SSI,Average Across All Groups,2026,693.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Average Across All Groups,fiscal_year,2026,2026,2026,23,8
+SSI,Average Across All Groups,2027,710.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Average Across All Groups,fiscal_year,2027,2027,2027,23,9
+SSI,Average Across All Groups,2028,727.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Average Across All Groups,fiscal_year,2028,2028,2028,23,10
+SSI,Average Across All Groups,2029,743.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Average Across All Groups,fiscal_year,2029,2029,2029,23,11
+SSI,Average Across All Groups,2030,760.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Average Across All Groups,fiscal_year,2030,2030,2030,23,12
+SSI,Maximum Monthly Benefit (Individual),2020,783.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Maximum Monthly Benefit (Individual),fiscal_year,2020,2020,2020,25,2
+SSI,Maximum Monthly Benefit (Individual),2021,803.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Maximum Monthly Benefit (Individual),fiscal_year,2021,2021,2021,25,3
+SSI,Maximum Monthly Benefit (Individual),2022,824.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Maximum Monthly Benefit (Individual),fiscal_year,2022,2022,2022,25,4
+SSI,Maximum Monthly Benefit (Individual),2023,845.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Maximum Monthly Benefit (Individual),fiscal_year,2023,2023,2023,25,5
+SSI,Maximum Monthly Benefit (Individual),2024,867.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Maximum Monthly Benefit (Individual),fiscal_year,2024,2024,2024,25,6
+SSI,Maximum Monthly Benefit (Individual),2025,887.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Maximum Monthly Benefit (Individual),fiscal_year,2025,2025,2025,25,7
+SSI,Maximum Monthly Benefit (Individual),2026,908.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Maximum Monthly Benefit (Individual),fiscal_year,2026,2026,2026,25,8
+SSI,Maximum Monthly Benefit (Individual),2027,929.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Maximum Monthly Benefit (Individual),fiscal_year,2027,2027,2027,25,9
+SSI,Maximum Monthly Benefit (Individual),2028,949.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Maximum Monthly Benefit (Individual),fiscal_year,2028,2028,2028,25,10
+SSI,Maximum Monthly Benefit (Individual),2029,970.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Maximum Monthly Benefit (Individual),fiscal_year,2029,2029,2029,25,11
+SSI,Maximum Monthly Benefit (Individual),2030,991.0,Dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Maximum Monthly Benefit (Individual),fiscal_year,2030,2030,2030,25,12
+SSI,Percentage Change,2020,1.6,Percentage,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Percentage Change,fiscal_year,2020,2020,2020,26,2
+SSI,Percentage Change,2021,2.5,Percentage,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Percentage Change,fiscal_year,2021,2021,2021,26,3
+SSI,Percentage Change,2022,2.6,Percentage,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Percentage Change,fiscal_year,2022,2022,2022,26,4
+SSI,Percentage Change,2023,2.6,Percentage,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Percentage Change,fiscal_year,2023,2023,2023,26,5
+SSI,Percentage Change,2024,2.5,Percentage,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Percentage Change,fiscal_year,2024,2024,2024,26,6
+SSI,Percentage Change,2025,2.4,Percentage,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Percentage Change,fiscal_year,2025,2025,2025,26,7
+SSI,Percentage Change,2026,2.3,Percentage,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Percentage Change,fiscal_year,2026,2026,2026,26,8
+SSI,Percentage Change,2027,2.3,Percentage,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Percentage Change,fiscal_year,2027,2027,2027,26,9
+SSI,Percentage Change,2028,2.1999999999999997,Percentage,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Percentage Change,fiscal_year,2028,2028,2028,26,10
+SSI,Percentage Change,2029,2.1999999999999997,Percentage,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Percentage Change,fiscal_year,2029,2029,2029,26,11
+SSI,Percentage Change,2030,2.1999999999999997,Percentage,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Percentage Change,fiscal_year,2030,2030,2030,26,12
+SSI,Unlabeled value (row 30),2020,12.0,Number of paymentsa,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Unlabeled value (row 30),fiscal_year,2020,2020,2020,30,2
+SSI,Unlabeled value (row 30),2021,12.0,Number of paymentsa,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Unlabeled value (row 30),fiscal_year,2021,2021,2021,30,3
+SSI,Unlabeled value (row 30),2022,13.0,Number of paymentsa,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Unlabeled value (row 30),fiscal_year,2022,2022,2022,30,4
+SSI,Unlabeled value (row 30),2023,12.0,Number of paymentsa,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Unlabeled value (row 30),fiscal_year,2023,2023,2023,30,5
+SSI,Unlabeled value (row 30),2024,11.0,Number of paymentsa,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Unlabeled value (row 30),fiscal_year,2024,2024,2024,30,6
+SSI,Unlabeled value (row 30),2025,12.0,Number of paymentsa,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Unlabeled value (row 30),fiscal_year,2025,2025,2025,30,7
+SSI,Unlabeled value (row 30),2026,12.0,Number of paymentsa,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Unlabeled value (row 30),fiscal_year,2026,2026,2026,30,8
+SSI,Unlabeled value (row 30),2027,12.0,Number of paymentsa,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Unlabeled value (row 30),fiscal_year,2027,2027,2027,30,9
+SSI,Unlabeled value (row 30),2028,13.0,Number of paymentsa,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Unlabeled value (row 30),fiscal_year,2028,2028,2028,30,10
+SSI,Unlabeled value (row 30),2029,11.0,Number of paymentsa,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Unlabeled value (row 30),fiscal_year,2029,2029,2029,30,11
+SSI,Unlabeled value (row 30),2030,12.0,Number of paymentsa,51313-2020-03-ssi.xlsx,SSI,false,51313,Average Monthly Federal Benefit on December 31 (Dollars) / Unlabeled value (row 30),fiscal_year,2030,2030,2030,30,12
+SSI,Aged,2020,5.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Aged,fiscal_year,2020,2020,2020,33,2
+SSI,Aged,2021,5.8,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Aged,fiscal_year,2021,2021,2021,33,3
+SSI,Aged,2022,6.4,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Aged,fiscal_year,2022,2022,2022,33,4
+SSI,Aged,2023,6.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Aged,fiscal_year,2023,2023,2023,33,5
+SSI,Aged,2024,5.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Aged,fiscal_year,2024,2024,2024,33,6
+SSI,Aged,2025,6.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Aged,fiscal_year,2025,2025,2025,33,7
+SSI,Aged,2026,6.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Aged,fiscal_year,2026,2026,2026,33,8
+SSI,Aged,2027,7.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Aged,fiscal_year,2027,2027,2027,33,9
+SSI,Aged,2028,8.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Aged,fiscal_year,2028,2028,2028,33,10
+SSI,Aged,2029,7.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Aged,fiscal_year,2029,2029,2029,33,11
+SSI,Aged,2030,8.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Aged,fiscal_year,2030,2030,2030,33,12
+SSI,Blind and disabled adults,2020,40.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled adults,fiscal_year,2020,2020,2020,34,2
+SSI,Blind and disabled adults,2021,41.5,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled adults,fiscal_year,2021,2021,2021,34,3
+SSI,Blind and disabled adults,2022,46.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled adults,fiscal_year,2022,2022,2022,34,4
+SSI,Blind and disabled adults,2023,43.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled adults,fiscal_year,2023,2023,2023,34,5
+SSI,Blind and disabled adults,2024,41.4,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled adults,fiscal_year,2024,2024,2024,34,6
+SSI,Blind and disabled adults,2025,46.5,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled adults,fiscal_year,2025,2025,2025,34,7
+SSI,Blind and disabled adults,2026,47.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled adults,fiscal_year,2026,2026,2026,34,8
+SSI,Blind and disabled adults,2027,49.3,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled adults,fiscal_year,2027,2027,2027,34,9
+SSI,Blind and disabled adults,2028,55.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled adults,fiscal_year,2028,2028,2028,34,10
+SSI,Blind and disabled adults,2029,48.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled adults,fiscal_year,2029,2029,2029,34,11
+SSI,Blind and disabled adults,2030,54.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled adults,fiscal_year,2030,2030,2030,34,12
+SSI,Blind and disabled children,2020,9.5,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled children,fiscal_year,2020,2020,2020,35,2
+SSI,Blind and disabled children,2021,9.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled children,fiscal_year,2021,2021,2021,35,3
+SSI,Blind and disabled children,2022,10.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled children,fiscal_year,2022,2022,2022,35,4
+SSI,Blind and disabled children,2023,10.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled children,fiscal_year,2023,2023,2023,35,5
+SSI,Blind and disabled children,2024,9.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled children,fiscal_year,2024,2024,2024,35,6
+SSI,Blind and disabled children,2025,10.8,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled children,fiscal_year,2025,2025,2025,35,7
+SSI,Blind and disabled children,2026,11.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled children,fiscal_year,2026,2026,2026,35,8
+SSI,Blind and disabled children,2027,11.5,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled children,fiscal_year,2027,2027,2027,35,9
+SSI,Blind and disabled children,2028,12.8,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled children,fiscal_year,2028,2028,2028,35,10
+SSI,Blind and disabled children,2029,11.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled children,fiscal_year,2029,2029,2029,35,11
+SSI,Blind and disabled children,2030,12.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Blind and disabled children,fiscal_year,2030,2030,2030,35,12
+SSI,Other,2020,0.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Other,fiscal_year,2020,2020,2020,36,2
+SSI,Other,2021,0.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Other,fiscal_year,2021,2021,2021,36,3
+SSI,Other,2022,0.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Other,fiscal_year,2022,2022,2022,36,4
+SSI,Other,2023,0.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Other,fiscal_year,2023,2023,2023,36,5
+SSI,Other,2024,0.8,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Other,fiscal_year,2024,2024,2024,36,6
+SSI,Other,2025,0.8,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Other,fiscal_year,2025,2025,2025,36,7
+SSI,Other,2026,0.8,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Other,fiscal_year,2026,2026,2026,36,8
+SSI,Other,2027,0.8,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Other,fiscal_year,2027,2027,2027,36,9
+SSI,Other,2028,0.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Other,fiscal_year,2028,2028,2028,36,10
+SSI,Other,2029,1.0,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Other,fiscal_year,2029,2029,2029,36,11
+SSI,Other,2030,0.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,Benefit Outlays (Billions of dollars) / Other,fiscal_year,2030,2030,2030,36,12
+SSI,Subtotal,2020,56.5,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,Benefit Outlays (Billions of dollars) / Subtotal,fiscal_year,2020,2020,2020,37,2
+SSI,Subtotal,2021,57.5,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,Benefit Outlays (Billions of dollars) / Subtotal,fiscal_year,2021,2021,2021,37,3
+SSI,Subtotal,2022,63.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,Benefit Outlays (Billions of dollars) / Subtotal,fiscal_year,2022,2022,2022,37,4
+SSI,Subtotal,2023,60.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,Benefit Outlays (Billions of dollars) / Subtotal,fiscal_year,2023,2023,2023,37,5
+SSI,Subtotal,2024,57.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,Benefit Outlays (Billions of dollars) / Subtotal,fiscal_year,2024,2024,2024,37,6
+SSI,Subtotal,2025,64.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,Benefit Outlays (Billions of dollars) / Subtotal,fiscal_year,2025,2025,2025,37,7
+SSI,Subtotal,2026,66.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,Benefit Outlays (Billions of dollars) / Subtotal,fiscal_year,2026,2026,2026,37,8
+SSI,Subtotal,2027,68.8,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,Benefit Outlays (Billions of dollars) / Subtotal,fiscal_year,2027,2027,2027,37,9
+SSI,Subtotal,2028,76.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,Benefit Outlays (Billions of dollars) / Subtotal,fiscal_year,2028,2028,2028,37,10
+SSI,Subtotal,2029,67.4,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,Benefit Outlays (Billions of dollars) / Subtotal,fiscal_year,2029,2029,2029,37,11
+SSI,Subtotal,2030,75.6,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,Benefit Outlays (Billions of dollars) / Subtotal,fiscal_year,2030,2030,2030,37,12
+SSI,and Demonstration Projects,2020,0.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,"Vocational Rehabilitation, Research, / and Demonstration Projects",fiscal_year,2020,2020,2020,40,2
+SSI,and Demonstration Projects,2021,0.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,"Vocational Rehabilitation, Research, / and Demonstration Projects",fiscal_year,2021,2021,2021,40,3
+SSI,and Demonstration Projects,2022,0.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,"Vocational Rehabilitation, Research, / and Demonstration Projects",fiscal_year,2022,2022,2022,40,4
+SSI,and Demonstration Projects,2023,0.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,"Vocational Rehabilitation, Research, / and Demonstration Projects",fiscal_year,2023,2023,2023,40,5
+SSI,and Demonstration Projects,2024,0.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,"Vocational Rehabilitation, Research, / and Demonstration Projects",fiscal_year,2024,2024,2024,40,6
+SSI,and Demonstration Projects,2025,0.2,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,"Vocational Rehabilitation, Research, / and Demonstration Projects",fiscal_year,2025,2025,2025,40,7
+SSI,and Demonstration Projects,2026,0.3,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,"Vocational Rehabilitation, Research, / and Demonstration Projects",fiscal_year,2026,2026,2026,40,8
+SSI,and Demonstration Projects,2027,0.3,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,"Vocational Rehabilitation, Research, / and Demonstration Projects",fiscal_year,2027,2027,2027,40,9
+SSI,and Demonstration Projects,2028,0.3,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,"Vocational Rehabilitation, Research, / and Demonstration Projects",fiscal_year,2028,2028,2028,40,10
+SSI,and Demonstration Projects,2029,0.3,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,"Vocational Rehabilitation, Research, / and Demonstration Projects",fiscal_year,2029,2029,2029,40,11
+SSI,and Demonstration Projects,2030,0.3,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,false,51313,"Vocational Rehabilitation, Research, / and Demonstration Projects",fiscal_year,2030,2030,2030,40,12
+SSI,"Total, Mandatory Outlays",2020,56.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,"Vocational Rehabilitation, Research, / Total, Mandatory Outlays",fiscal_year,2020,2020,2020,42,2
+SSI,"Total, Mandatory Outlays",2021,57.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,"Vocational Rehabilitation, Research, / Total, Mandatory Outlays",fiscal_year,2021,2021,2021,42,3
+SSI,"Total, Mandatory Outlays",2022,64.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,"Vocational Rehabilitation, Research, / Total, Mandatory Outlays",fiscal_year,2022,2022,2022,42,4
+SSI,"Total, Mandatory Outlays",2023,61.1,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,"Vocational Rehabilitation, Research, / Total, Mandatory Outlays",fiscal_year,2023,2023,2023,42,5
+SSI,"Total, Mandatory Outlays",2024,57.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,"Vocational Rehabilitation, Research, / Total, Mandatory Outlays",fiscal_year,2024,2024,2024,42,6
+SSI,"Total, Mandatory Outlays",2025,64.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,"Vocational Rehabilitation, Research, / Total, Mandatory Outlays",fiscal_year,2025,2025,2025,42,7
+SSI,"Total, Mandatory Outlays",2026,66.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,"Vocational Rehabilitation, Research, / Total, Mandatory Outlays",fiscal_year,2026,2026,2026,42,8
+SSI,"Total, Mandatory Outlays",2027,69.0,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,"Vocational Rehabilitation, Research, / Total, Mandatory Outlays",fiscal_year,2027,2027,2027,42,9
+SSI,"Total, Mandatory Outlays",2028,77.0,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,"Vocational Rehabilitation, Research, / Total, Mandatory Outlays",fiscal_year,2028,2028,2028,42,10
+SSI,"Total, Mandatory Outlays",2029,67.7,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,"Vocational Rehabilitation, Research, / Total, Mandatory Outlays",fiscal_year,2029,2029,2029,42,11
+SSI,"Total, Mandatory Outlays",2030,75.9,Billions of dollars,51313-2020-03-ssi.xlsx,SSI,true,51313,"Vocational Rehabilitation, Research, / Total, Mandatory Outlays",fiscal_year,2030,2030,2030,42,12

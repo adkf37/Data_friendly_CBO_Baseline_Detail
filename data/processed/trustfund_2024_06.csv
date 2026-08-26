@@ -1,233 +1,255 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Trustfund,Payroll Tax Revenue,2023,1194.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Payroll Tax Revenue,2024,1238.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Payroll Tax Revenue,2025,1287.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Payroll Tax Revenue,2026,1341.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Payroll Tax Revenue,2027,1391.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Payroll Tax Revenue,2028,1443.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Payroll Tax Revenue,2029,1498.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Payroll Tax Revenue,2030,1555.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Payroll Tax Revenue,2031,1613.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Payroll Tax Revenue,2032,1673.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Payroll Tax Revenue,2033,1734.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Payroll Tax Revenue,2034,1796.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Payroll Tax Revenue,2029,6960.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Payroll Tax Revenue,2034,15330.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Income taxes on benefits,2023,51.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Income taxes on benefits,2024,58.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Income taxes on benefits,2025,63.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Income taxes on benefits,2026,75.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Income taxes on benefits,2027,81.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Income taxes on benefits,2028,85.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Income taxes on benefits,2029,89.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Income taxes on benefits,2030,94.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Income taxes on benefits,2031,99.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Income taxes on benefits,2032,104.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Income taxes on benefits,2033,110.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Income taxes on benefits,2034,116.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Income taxes on benefits,2029,392.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Income taxes on benefits,2034,916.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,"Federal payroll tax, employer sharea",2023,22.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,"Federal payroll tax, employer sharea",2024,23.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,"Federal payroll tax, employer sharea",2025,23.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,"Federal payroll tax, employer sharea",2026,24.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,"Federal payroll tax, employer sharea",2027,25.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,"Federal payroll tax, employer sharea",2028,26.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,"Federal payroll tax, employer sharea",2029,27.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,"Federal payroll tax, employer sharea",2030,27.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,"Federal payroll tax, employer sharea",2031,28.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,"Federal payroll tax, employer sharea",2032,29.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,"Federal payroll tax, employer sharea",2033,30.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,"Federal payroll tax, employer sharea",2034,31.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,"Federal payroll tax, employer sharea",2029,125.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,"Federal payroll tax, employer sharea",2034,271.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Interesta,2023,67.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Interesta,2024,65.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Interesta,2025,60.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Interesta,2026,57.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Interesta,2027,53.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Interesta,2028,51.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Interesta,2029,46.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Interesta,2030,40.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Interesta,2031,32.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Interesta,2032,19.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Interesta,2033,19.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Interesta,2034,20.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Interesta,2029,267.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Interesta,2034,396.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,"Subtotal, Other Income",2023,139.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,"Subtotal, Other Income",2024,146.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,"Subtotal, Other Income",2025,146.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,"Subtotal, Other Income",2026,156.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,"Subtotal, Other Income",2027,159.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,"Subtotal, Other Income",2028,161.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,"Subtotal, Other Income",2029,162.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,"Subtotal, Other Income",2030,161.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,"Subtotal, Other Income",2031,160.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,"Subtotal, Other Income",2032,152.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,"Subtotal, Other Income",2033,159.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,"Subtotal, Other Income",2034,167.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,"Subtotal, Other Income",2029,784.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,"Subtotal, Other Income",2034,1584.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Income,2023,1333.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Income,2024,1384.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Income,2025,1433.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Income,2026,1496.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Income,2027,1550.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Income,2028,1605.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Income,2029,1660.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Income,2030,1716.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Income,2031,1773.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Income,2032,1825.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Income,2033,1892.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Income,2034,1964.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Income,2029,7744.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Income,2034,16914.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Benefits,2023,1342.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Benefits,2024,1446.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Benefits,2025,1543.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Benefits,2026,1640.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Benefits,2027,1734.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Benefits,2028,1832.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Benefits,2029,1931.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Benefits,2030,2034.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Benefits,2031,2140.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Benefits,2032,2248.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Benefits,2033,2357.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Benefits,2034,2471.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Benefits,2029,8680.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Benefits,2034,19928.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Discretionary Administration,2023,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Discretionary Administration,2024,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Discretionary Administration,2025,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Discretionary Administration,2026,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Discretionary Administration,2027,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Discretionary Administration,2028,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Discretionary Administration,2029,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Discretionary Administration,2030,8.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Discretionary Administration,2031,8.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Discretionary Administration,2032,8.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Discretionary Administration,2033,8.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Discretionary Administration,2034,9.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Discretionary Administration,2029,35.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Discretionary Administration,2034,75.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Treasury Administration,2023,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Treasury Administration,2024,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Treasury Administration,2025,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Treasury Administration,2026,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Treasury Administration,2027,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Treasury Administration,2028,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Treasury Administration,2029,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Treasury Administration,2030,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Treasury Administration,2031,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Treasury Administration,2032,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Treasury Administration,2033,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Treasury Administration,2034,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Treasury Administration,2029,4.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Treasury Administration,2034,8.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Railroad Retirement Transfer,2023,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Railroad Retirement Transfer,2024,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Railroad Retirement Transfer,2025,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Railroad Retirement Transfer,2026,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Railroad Retirement Transfer,2027,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Railroad Retirement Transfer,2028,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Railroad Retirement Transfer,2029,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Railroad Retirement Transfer,2030,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Railroad Retirement Transfer,2031,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Railroad Retirement Transfer,2032,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Railroad Retirement Transfer,2033,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Railroad Retirement Transfer,2034,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Railroad Retirement Transfer,2029,31.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Railroad Retirement Transfer,2034,64.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Total Outgo,2023,1355.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Outgo,2024,1458.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Outgo,2025,1556.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Outgo,2026,1654.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Outgo,2027,1748.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Outgo,2028,1846.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Outgo,2029,1946.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Outgo,2030,2048.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Outgo,2031,2155.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Outgo,2032,2263.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Outgo,2033,2373.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Outgo,2034,2487.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Outgo,2029,8749.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Total Outgo,2034,20075.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true
-Trustfund,Old-Age and Survivors Insurance,2023,-50.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insurance,2024,-107.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insurance,2025,-158.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insurance,2026,-192.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insurance,2027,-231.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insurance,2028,-278.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insurance,2029,-324.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insurance,2030,-374.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insurance,2031,-427.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insurance,2032,-486.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insurance,2033,-530.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insurance,2034,-572.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insurance,2029,-1183.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insurance,2034,-3572.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2023,28.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2024,32.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2025,35.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2026,34.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2027,34.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2028,36.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2029,39.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2030,42.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2031,45.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2032,48.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2033,50.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2034,49.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2029,178.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2034,412.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2023,-113.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2024,-169.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2025,-212.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2026,-241.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2027,-276.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2028,-318.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2029,-359.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2030,-401.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2031,-444.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2032,-488.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2033,-530.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2034,-572.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2029,-1406.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2034,-3841.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2023,25.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2024,29.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2025,29.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2026,27.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2027,25.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2028,26.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2029,27.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2030,29.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2031,30.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2032,31.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2033,31.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2034,28.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2029,134.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2034,284.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2023,2674.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2024,2567.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2025,2409.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2026,2217.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2027,1986.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2028,1708.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2029,1384.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2030,1009.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2031,583.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Old-Age and Survivors Insuranceb,2032,97.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2023,143.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2024,175.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2025,210.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2026,245.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2027,278.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2028,315.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2029,353.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2030,395.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2031,440.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2032,488.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2033,538.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
-Trustfund,Disability Insurance,2034,587.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+Social Security Trust Funds,Payroll Tax Revenue,2023,1194.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Income to Trust Funds / Payroll Tax Revenue,fiscal_year,2023,2023,2023,14,5
+Social Security Trust Funds,Payroll Tax Revenue,2024,1238.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Income to Trust Funds / Payroll Tax Revenue,fiscal_year,2024,2024,2024,14,6
+Social Security Trust Funds,Payroll Tax Revenue,2025,1287.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Income to Trust Funds / Payroll Tax Revenue,fiscal_year,2025,2025,2025,14,7
+Social Security Trust Funds,Payroll Tax Revenue,2026,1341.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Income to Trust Funds / Payroll Tax Revenue,fiscal_year,2026,2026,2026,14,8
+Social Security Trust Funds,Payroll Tax Revenue,2027,1391.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Income to Trust Funds / Payroll Tax Revenue,fiscal_year,2027,2027,2027,14,9
+Social Security Trust Funds,Payroll Tax Revenue,2028,1443.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Income to Trust Funds / Payroll Tax Revenue,fiscal_year,2028,2028,2028,14,10
+Social Security Trust Funds,Payroll Tax Revenue,2029,1498.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Income to Trust Funds / Payroll Tax Revenue,fiscal_year,2029,2029,2029,14,11
+Social Security Trust Funds,Payroll Tax Revenue,2030,1555.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Income to Trust Funds / Payroll Tax Revenue,fiscal_year,2030,2030,2030,14,12
+Social Security Trust Funds,Payroll Tax Revenue,2031,1613.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Income to Trust Funds / Payroll Tax Revenue,fiscal_year,2031,2031,2031,14,13
+Social Security Trust Funds,Payroll Tax Revenue,2032,1673.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Income to Trust Funds / Payroll Tax Revenue,fiscal_year,2032,2032,2032,14,14
+Social Security Trust Funds,Payroll Tax Revenue,2033,1734.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Income to Trust Funds / Payroll Tax Revenue,fiscal_year,2033,2033,2033,14,15
+Social Security Trust Funds,Payroll Tax Revenue,2034,1796.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Income to Trust Funds / Payroll Tax Revenue,fiscal_year,2034,2034,2034,14,16
+Social Security Trust Funds,Payroll Tax Revenue,,6960.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Income to Trust Funds / Payroll Tax Revenue,cumulative_fiscal_years,2025,2029,2025-2029,14,17
+Social Security Trust Funds,Payroll Tax Revenue,,15330.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Income to Trust Funds / Payroll Tax Revenue,cumulative_fiscal_years,2025,2034,2025-2034,14,18
+Social Security Trust Funds,Income taxes on benefits,2023,51.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Income taxes on benefits,fiscal_year,2023,2023,2023,16,5
+Social Security Trust Funds,Income taxes on benefits,2024,58.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Income taxes on benefits,fiscal_year,2024,2024,2024,16,6
+Social Security Trust Funds,Income taxes on benefits,2025,63.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Income taxes on benefits,fiscal_year,2025,2025,2025,16,7
+Social Security Trust Funds,Income taxes on benefits,2026,75.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Income taxes on benefits,fiscal_year,2026,2026,2026,16,8
+Social Security Trust Funds,Income taxes on benefits,2027,81.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Income taxes on benefits,fiscal_year,2027,2027,2027,16,9
+Social Security Trust Funds,Income taxes on benefits,2028,85.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Income taxes on benefits,fiscal_year,2028,2028,2028,16,10
+Social Security Trust Funds,Income taxes on benefits,2029,89.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Income taxes on benefits,fiscal_year,2029,2029,2029,16,11
+Social Security Trust Funds,Income taxes on benefits,2030,94.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Income taxes on benefits,fiscal_year,2030,2030,2030,16,12
+Social Security Trust Funds,Income taxes on benefits,2031,99.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Income taxes on benefits,fiscal_year,2031,2031,2031,16,13
+Social Security Trust Funds,Income taxes on benefits,2032,104.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Income taxes on benefits,fiscal_year,2032,2032,2032,16,14
+Social Security Trust Funds,Income taxes on benefits,2033,110.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Income taxes on benefits,fiscal_year,2033,2033,2033,16,15
+Social Security Trust Funds,Income taxes on benefits,2034,116.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Income taxes on benefits,fiscal_year,2034,2034,2034,16,16
+Social Security Trust Funds,Income taxes on benefits,,392.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Income taxes on benefits,cumulative_fiscal_years,2025,2029,2025-2029,16,17
+Social Security Trust Funds,Income taxes on benefits,,916.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Income taxes on benefits,cumulative_fiscal_years,2025,2034,2025-2034,16,18
+Social Security Trust Funds,"Federal payroll tax, employer sharea",2023,22.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Social Security Trust Funds / Other Income / Federal payroll tax, employer sharea",fiscal_year,2023,2023,2023,17,5
+Social Security Trust Funds,"Federal payroll tax, employer sharea",2024,23.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Social Security Trust Funds / Other Income / Federal payroll tax, employer sharea",fiscal_year,2024,2024,2024,17,6
+Social Security Trust Funds,"Federal payroll tax, employer sharea",2025,23.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Social Security Trust Funds / Other Income / Federal payroll tax, employer sharea",fiscal_year,2025,2025,2025,17,7
+Social Security Trust Funds,"Federal payroll tax, employer sharea",2026,24.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Social Security Trust Funds / Other Income / Federal payroll tax, employer sharea",fiscal_year,2026,2026,2026,17,8
+Social Security Trust Funds,"Federal payroll tax, employer sharea",2027,25.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Social Security Trust Funds / Other Income / Federal payroll tax, employer sharea",fiscal_year,2027,2027,2027,17,9
+Social Security Trust Funds,"Federal payroll tax, employer sharea",2028,26.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Social Security Trust Funds / Other Income / Federal payroll tax, employer sharea",fiscal_year,2028,2028,2028,17,10
+Social Security Trust Funds,"Federal payroll tax, employer sharea",2029,27.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Social Security Trust Funds / Other Income / Federal payroll tax, employer sharea",fiscal_year,2029,2029,2029,17,11
+Social Security Trust Funds,"Federal payroll tax, employer sharea",2030,27.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Social Security Trust Funds / Other Income / Federal payroll tax, employer sharea",fiscal_year,2030,2030,2030,17,12
+Social Security Trust Funds,"Federal payroll tax, employer sharea",2031,28.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Social Security Trust Funds / Other Income / Federal payroll tax, employer sharea",fiscal_year,2031,2031,2031,17,13
+Social Security Trust Funds,"Federal payroll tax, employer sharea",2032,29.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Social Security Trust Funds / Other Income / Federal payroll tax, employer sharea",fiscal_year,2032,2032,2032,17,14
+Social Security Trust Funds,"Federal payroll tax, employer sharea",2033,30.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Social Security Trust Funds / Other Income / Federal payroll tax, employer sharea",fiscal_year,2033,2033,2033,17,15
+Social Security Trust Funds,"Federal payroll tax, employer sharea",2034,31.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Social Security Trust Funds / Other Income / Federal payroll tax, employer sharea",fiscal_year,2034,2034,2034,17,16
+Social Security Trust Funds,"Federal payroll tax, employer sharea",,125.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Social Security Trust Funds / Other Income / Federal payroll tax, employer sharea",cumulative_fiscal_years,2025,2029,2025-2029,17,17
+Social Security Trust Funds,"Federal payroll tax, employer sharea",,271.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Social Security Trust Funds / Other Income / Federal payroll tax, employer sharea",cumulative_fiscal_years,2025,2034,2025-2034,17,18
+Social Security Trust Funds,Interesta,2023,67.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Interesta,fiscal_year,2023,2023,2023,18,5
+Social Security Trust Funds,Interesta,2024,65.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Interesta,fiscal_year,2024,2024,2024,18,6
+Social Security Trust Funds,Interesta,2025,60.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Interesta,fiscal_year,2025,2025,2025,18,7
+Social Security Trust Funds,Interesta,2026,57.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Interesta,fiscal_year,2026,2026,2026,18,8
+Social Security Trust Funds,Interesta,2027,53.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Interesta,fiscal_year,2027,2027,2027,18,9
+Social Security Trust Funds,Interesta,2028,51.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Interesta,fiscal_year,2028,2028,2028,18,10
+Social Security Trust Funds,Interesta,2029,46.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Interesta,fiscal_year,2029,2029,2029,18,11
+Social Security Trust Funds,Interesta,2030,40.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Interesta,fiscal_year,2030,2030,2030,18,12
+Social Security Trust Funds,Interesta,2031,32.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Interesta,fiscal_year,2031,2031,2031,18,13
+Social Security Trust Funds,Interesta,2032,19.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Interesta,fiscal_year,2032,2032,2032,18,14
+Social Security Trust Funds,Interesta,2033,19.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Interesta,fiscal_year,2033,2033,2033,18,15
+Social Security Trust Funds,Interesta,2034,20.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Interesta,fiscal_year,2034,2034,2034,18,16
+Social Security Trust Funds,Interesta,,267.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Interesta,cumulative_fiscal_years,2025,2029,2025-2029,18,17
+Social Security Trust Funds,Interesta,,396.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Other Income / Interesta,cumulative_fiscal_years,2025,2034,2025-2034,18,18
+Social Security Trust Funds,"Subtotal, Other Income",2023,139.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,"Social Security Trust Funds / Other Income / Subtotal, Other Income",fiscal_year,2023,2023,2023,19,5
+Social Security Trust Funds,"Subtotal, Other Income",2024,146.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,"Social Security Trust Funds / Other Income / Subtotal, Other Income",fiscal_year,2024,2024,2024,19,6
+Social Security Trust Funds,"Subtotal, Other Income",2025,146.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,"Social Security Trust Funds / Other Income / Subtotal, Other Income",fiscal_year,2025,2025,2025,19,7
+Social Security Trust Funds,"Subtotal, Other Income",2026,156.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,"Social Security Trust Funds / Other Income / Subtotal, Other Income",fiscal_year,2026,2026,2026,19,8
+Social Security Trust Funds,"Subtotal, Other Income",2027,159.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,"Social Security Trust Funds / Other Income / Subtotal, Other Income",fiscal_year,2027,2027,2027,19,9
+Social Security Trust Funds,"Subtotal, Other Income",2028,161.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,"Social Security Trust Funds / Other Income / Subtotal, Other Income",fiscal_year,2028,2028,2028,19,10
+Social Security Trust Funds,"Subtotal, Other Income",2029,162.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,"Social Security Trust Funds / Other Income / Subtotal, Other Income",fiscal_year,2029,2029,2029,19,11
+Social Security Trust Funds,"Subtotal, Other Income",2030,161.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,"Social Security Trust Funds / Other Income / Subtotal, Other Income",fiscal_year,2030,2030,2030,19,12
+Social Security Trust Funds,"Subtotal, Other Income",2031,160.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,"Social Security Trust Funds / Other Income / Subtotal, Other Income",fiscal_year,2031,2031,2031,19,13
+Social Security Trust Funds,"Subtotal, Other Income",2032,152.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,"Social Security Trust Funds / Other Income / Subtotal, Other Income",fiscal_year,2032,2032,2032,19,14
+Social Security Trust Funds,"Subtotal, Other Income",2033,159.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,"Social Security Trust Funds / Other Income / Subtotal, Other Income",fiscal_year,2033,2033,2033,19,15
+Social Security Trust Funds,"Subtotal, Other Income",2034,167.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,"Social Security Trust Funds / Other Income / Subtotal, Other Income",fiscal_year,2034,2034,2034,19,16
+Social Security Trust Funds,"Subtotal, Other Income",,784.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,"Social Security Trust Funds / Other Income / Subtotal, Other Income",cumulative_fiscal_years,2025,2029,2025-2029,19,17
+Social Security Trust Funds,"Subtotal, Other Income",,1584.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,"Social Security Trust Funds / Other Income / Subtotal, Other Income",cumulative_fiscal_years,2025,2034,2025-2034,19,18
+Social Security Trust Funds,Total Income,2023,1333.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Other Income / Total Income,fiscal_year,2023,2023,2023,20,5
+Social Security Trust Funds,Total Income,2024,1384.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Other Income / Total Income,fiscal_year,2024,2024,2024,20,6
+Social Security Trust Funds,Total Income,2025,1433.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Other Income / Total Income,fiscal_year,2025,2025,2025,20,7
+Social Security Trust Funds,Total Income,2026,1496.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Other Income / Total Income,fiscal_year,2026,2026,2026,20,8
+Social Security Trust Funds,Total Income,2027,1550.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Other Income / Total Income,fiscal_year,2027,2027,2027,20,9
+Social Security Trust Funds,Total Income,2028,1605.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Other Income / Total Income,fiscal_year,2028,2028,2028,20,10
+Social Security Trust Funds,Total Income,2029,1660.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Other Income / Total Income,fiscal_year,2029,2029,2029,20,11
+Social Security Trust Funds,Total Income,2030,1716.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Other Income / Total Income,fiscal_year,2030,2030,2030,20,12
+Social Security Trust Funds,Total Income,2031,1773.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Other Income / Total Income,fiscal_year,2031,2031,2031,20,13
+Social Security Trust Funds,Total Income,2032,1825.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Other Income / Total Income,fiscal_year,2032,2032,2032,20,14
+Social Security Trust Funds,Total Income,2033,1892.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Other Income / Total Income,fiscal_year,2033,2033,2033,20,15
+Social Security Trust Funds,Total Income,2034,1964.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Other Income / Total Income,fiscal_year,2034,2034,2034,20,16
+Social Security Trust Funds,Total Income,,7744.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Other Income / Total Income,cumulative_fiscal_years,2025,2029,2025-2029,20,17
+Social Security Trust Funds,Total Income,,16914.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Other Income / Total Income,cumulative_fiscal_years,2025,2034,2025-2034,20,18
+Social Security Trust Funds,Benefits,2023,1342.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Benefits,fiscal_year,2023,2023,2023,23,5
+Social Security Trust Funds,Benefits,2024,1446.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Benefits,fiscal_year,2024,2024,2024,23,6
+Social Security Trust Funds,Benefits,2025,1543.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Benefits,fiscal_year,2025,2025,2025,23,7
+Social Security Trust Funds,Benefits,2026,1640.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Benefits,fiscal_year,2026,2026,2026,23,8
+Social Security Trust Funds,Benefits,2027,1734.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Benefits,fiscal_year,2027,2027,2027,23,9
+Social Security Trust Funds,Benefits,2028,1832.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Benefits,fiscal_year,2028,2028,2028,23,10
+Social Security Trust Funds,Benefits,2029,1931.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Benefits,fiscal_year,2029,2029,2029,23,11
+Social Security Trust Funds,Benefits,2030,2034.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Benefits,fiscal_year,2030,2030,2030,23,12
+Social Security Trust Funds,Benefits,2031,2140.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Benefits,fiscal_year,2031,2031,2031,23,13
+Social Security Trust Funds,Benefits,2032,2248.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Benefits,fiscal_year,2032,2032,2032,23,14
+Social Security Trust Funds,Benefits,2033,2357.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Benefits,fiscal_year,2033,2033,2033,23,15
+Social Security Trust Funds,Benefits,2034,2471.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Benefits,fiscal_year,2034,2034,2034,23,16
+Social Security Trust Funds,Benefits,,8680.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Benefits,cumulative_fiscal_years,2025,2029,2025-2029,23,17
+Social Security Trust Funds,Benefits,,19928.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Benefits,cumulative_fiscal_years,2025,2034,2025-2034,23,18
+Social Security Trust Funds,Discretionary Administration,2023,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Discretionary Administration,fiscal_year,2023,2023,2023,24,5
+Social Security Trust Funds,Discretionary Administration,2024,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Discretionary Administration,fiscal_year,2024,2024,2024,24,6
+Social Security Trust Funds,Discretionary Administration,2025,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Discretionary Administration,fiscal_year,2025,2025,2025,24,7
+Social Security Trust Funds,Discretionary Administration,2026,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Discretionary Administration,fiscal_year,2026,2026,2026,24,8
+Social Security Trust Funds,Discretionary Administration,2027,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Discretionary Administration,fiscal_year,2027,2027,2027,24,9
+Social Security Trust Funds,Discretionary Administration,2028,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Discretionary Administration,fiscal_year,2028,2028,2028,24,10
+Social Security Trust Funds,Discretionary Administration,2029,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Discretionary Administration,fiscal_year,2029,2029,2029,24,11
+Social Security Trust Funds,Discretionary Administration,2030,8.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Discretionary Administration,fiscal_year,2030,2030,2030,24,12
+Social Security Trust Funds,Discretionary Administration,2031,8.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Discretionary Administration,fiscal_year,2031,2031,2031,24,13
+Social Security Trust Funds,Discretionary Administration,2032,8.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Discretionary Administration,fiscal_year,2032,2032,2032,24,14
+Social Security Trust Funds,Discretionary Administration,2033,8.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Discretionary Administration,fiscal_year,2033,2033,2033,24,15
+Social Security Trust Funds,Discretionary Administration,2034,9.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Discretionary Administration,fiscal_year,2034,2034,2034,24,16
+Social Security Trust Funds,Discretionary Administration,,35.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Discretionary Administration,cumulative_fiscal_years,2025,2029,2025-2029,24,17
+Social Security Trust Funds,Discretionary Administration,,75.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Discretionary Administration,cumulative_fiscal_years,2025,2034,2025-2034,24,18
+Social Security Trust Funds,Treasury Administration,2023,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Treasury Administration,fiscal_year,2023,2023,2023,25,5
+Social Security Trust Funds,Treasury Administration,2024,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Treasury Administration,fiscal_year,2024,2024,2024,25,6
+Social Security Trust Funds,Treasury Administration,2025,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Treasury Administration,fiscal_year,2025,2025,2025,25,7
+Social Security Trust Funds,Treasury Administration,2026,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Treasury Administration,fiscal_year,2026,2026,2026,25,8
+Social Security Trust Funds,Treasury Administration,2027,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Treasury Administration,fiscal_year,2027,2027,2027,25,9
+Social Security Trust Funds,Treasury Administration,2028,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Treasury Administration,fiscal_year,2028,2028,2028,25,10
+Social Security Trust Funds,Treasury Administration,2029,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Treasury Administration,fiscal_year,2029,2029,2029,25,11
+Social Security Trust Funds,Treasury Administration,2030,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Treasury Administration,fiscal_year,2030,2030,2030,25,12
+Social Security Trust Funds,Treasury Administration,2031,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Treasury Administration,fiscal_year,2031,2031,2031,25,13
+Social Security Trust Funds,Treasury Administration,2032,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Treasury Administration,fiscal_year,2032,2032,2032,25,14
+Social Security Trust Funds,Treasury Administration,2033,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Treasury Administration,fiscal_year,2033,2033,2033,25,15
+Social Security Trust Funds,Treasury Administration,2034,1.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Treasury Administration,fiscal_year,2034,2034,2034,25,16
+Social Security Trust Funds,Treasury Administration,,4.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Treasury Administration,cumulative_fiscal_years,2025,2029,2025-2029,25,17
+Social Security Trust Funds,Treasury Administration,,8.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Treasury Administration,cumulative_fiscal_years,2025,2034,2025-2034,25,18
+Social Security Trust Funds,Railroad Retirement Transfer,2023,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Railroad Retirement Transfer,fiscal_year,2023,2023,2023,26,5
+Social Security Trust Funds,Railroad Retirement Transfer,2024,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Railroad Retirement Transfer,fiscal_year,2024,2024,2024,26,6
+Social Security Trust Funds,Railroad Retirement Transfer,2025,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Railroad Retirement Transfer,fiscal_year,2025,2025,2025,26,7
+Social Security Trust Funds,Railroad Retirement Transfer,2026,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Railroad Retirement Transfer,fiscal_year,2026,2026,2026,26,8
+Social Security Trust Funds,Railroad Retirement Transfer,2027,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Railroad Retirement Transfer,fiscal_year,2027,2027,2027,26,9
+Social Security Trust Funds,Railroad Retirement Transfer,2028,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Railroad Retirement Transfer,fiscal_year,2028,2028,2028,26,10
+Social Security Trust Funds,Railroad Retirement Transfer,2029,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Railroad Retirement Transfer,fiscal_year,2029,2029,2029,26,11
+Social Security Trust Funds,Railroad Retirement Transfer,2030,6.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Railroad Retirement Transfer,fiscal_year,2030,2030,2030,26,12
+Social Security Trust Funds,Railroad Retirement Transfer,2031,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Railroad Retirement Transfer,fiscal_year,2031,2031,2031,26,13
+Social Security Trust Funds,Railroad Retirement Transfer,2032,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Railroad Retirement Transfer,fiscal_year,2032,2032,2032,26,14
+Social Security Trust Funds,Railroad Retirement Transfer,2033,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Railroad Retirement Transfer,fiscal_year,2033,2033,2033,26,15
+Social Security Trust Funds,Railroad Retirement Transfer,2034,7.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Railroad Retirement Transfer,fiscal_year,2034,2034,2034,26,16
+Social Security Trust Funds,Railroad Retirement Transfer,,31.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Railroad Retirement Transfer,cumulative_fiscal_years,2025,2029,2025-2029,26,17
+Social Security Trust Funds,Railroad Retirement Transfer,,64.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Outgo From Trust Funds / Railroad Retirement Transfer,cumulative_fiscal_years,2025,2034,2025-2034,26,18
+Social Security Trust Funds,Total Outgo,2023,1355.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Outgo From Trust Funds / Total Outgo,fiscal_year,2023,2023,2023,27,5
+Social Security Trust Funds,Total Outgo,2024,1458.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Outgo From Trust Funds / Total Outgo,fiscal_year,2024,2024,2024,27,6
+Social Security Trust Funds,Total Outgo,2025,1556.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Outgo From Trust Funds / Total Outgo,fiscal_year,2025,2025,2025,27,7
+Social Security Trust Funds,Total Outgo,2026,1654.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Outgo From Trust Funds / Total Outgo,fiscal_year,2026,2026,2026,27,8
+Social Security Trust Funds,Total Outgo,2027,1748.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Outgo From Trust Funds / Total Outgo,fiscal_year,2027,2027,2027,27,9
+Social Security Trust Funds,Total Outgo,2028,1846.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Outgo From Trust Funds / Total Outgo,fiscal_year,2028,2028,2028,27,10
+Social Security Trust Funds,Total Outgo,2029,1946.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Outgo From Trust Funds / Total Outgo,fiscal_year,2029,2029,2029,27,11
+Social Security Trust Funds,Total Outgo,2030,2048.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Outgo From Trust Funds / Total Outgo,fiscal_year,2030,2030,2030,27,12
+Social Security Trust Funds,Total Outgo,2031,2155.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Outgo From Trust Funds / Total Outgo,fiscal_year,2031,2031,2031,27,13
+Social Security Trust Funds,Total Outgo,2032,2263.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Outgo From Trust Funds / Total Outgo,fiscal_year,2032,2032,2032,27,14
+Social Security Trust Funds,Total Outgo,2033,2373.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Outgo From Trust Funds / Total Outgo,fiscal_year,2033,2033,2033,27,15
+Social Security Trust Funds,Total Outgo,2034,2487.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Outgo From Trust Funds / Total Outgo,fiscal_year,2034,2034,2034,27,16
+Social Security Trust Funds,Total Outgo,,8749.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Outgo From Trust Funds / Total Outgo,cumulative_fiscal_years,2025,2029,2025-2029,27,17
+Social Security Trust Funds,Total Outgo,,20075.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,true,51309,Social Security Trust Funds / Outgo From Trust Funds / Total Outgo,cumulative_fiscal_years,2025,2034,2025-2034,27,18
+Social Security Trust Funds,Old-Age and Survivors Insurance,2023,-50.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Old-Age and Survivors Insurance,fiscal_year,2023,2023,2023,30,5
+Social Security Trust Funds,Old-Age and Survivors Insurance,2024,-107.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Old-Age and Survivors Insurance,fiscal_year,2024,2024,2024,30,6
+Social Security Trust Funds,Old-Age and Survivors Insurance,2025,-158.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Old-Age and Survivors Insurance,fiscal_year,2025,2025,2025,30,7
+Social Security Trust Funds,Old-Age and Survivors Insurance,2026,-192.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Old-Age and Survivors Insurance,fiscal_year,2026,2026,2026,30,8
+Social Security Trust Funds,Old-Age and Survivors Insurance,2027,-231.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Old-Age and Survivors Insurance,fiscal_year,2027,2027,2027,30,9
+Social Security Trust Funds,Old-Age and Survivors Insurance,2028,-278.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Old-Age and Survivors Insurance,fiscal_year,2028,2028,2028,30,10
+Social Security Trust Funds,Old-Age and Survivors Insurance,2029,-324.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Old-Age and Survivors Insurance,fiscal_year,2029,2029,2029,30,11
+Social Security Trust Funds,Old-Age and Survivors Insurance,2030,-374.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Old-Age and Survivors Insurance,fiscal_year,2030,2030,2030,30,12
+Social Security Trust Funds,Old-Age and Survivors Insurance,2031,-427.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Old-Age and Survivors Insurance,fiscal_year,2031,2031,2031,30,13
+Social Security Trust Funds,Old-Age and Survivors Insurance,2032,-486.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Old-Age and Survivors Insurance,fiscal_year,2032,2032,2032,30,14
+Social Security Trust Funds,Old-Age and Survivors Insurance,2033,-530.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Old-Age and Survivors Insurance,fiscal_year,2033,2033,2033,30,15
+Social Security Trust Funds,Old-Age and Survivors Insurance,2034,-572.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Old-Age and Survivors Insurance,fiscal_year,2034,2034,2034,30,16
+Social Security Trust Funds,Old-Age and Survivors Insurance,,-1183.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Old-Age and Survivors Insurance,cumulative_fiscal_years,2025,2029,2025-2029,30,17
+Social Security Trust Funds,Old-Age and Survivors Insurance,,-3572.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Old-Age and Survivors Insurance,cumulative_fiscal_years,2025,2034,2025-2034,30,18
+Social Security Trust Funds,Disability Insurance,2023,28.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Disability Insurance,fiscal_year,2023,2023,2023,31,5
+Social Security Trust Funds,Disability Insurance,2024,32.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Disability Insurance,fiscal_year,2024,2024,2024,31,6
+Social Security Trust Funds,Disability Insurance,2025,35.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Disability Insurance,fiscal_year,2025,2025,2025,31,7
+Social Security Trust Funds,Disability Insurance,2026,34.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Disability Insurance,fiscal_year,2026,2026,2026,31,8
+Social Security Trust Funds,Disability Insurance,2027,34.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Disability Insurance,fiscal_year,2027,2027,2027,31,9
+Social Security Trust Funds,Disability Insurance,2028,36.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Disability Insurance,fiscal_year,2028,2028,2028,31,10
+Social Security Trust Funds,Disability Insurance,2029,39.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Disability Insurance,fiscal_year,2029,2029,2029,31,11
+Social Security Trust Funds,Disability Insurance,2030,42.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Disability Insurance,fiscal_year,2030,2030,2030,31,12
+Social Security Trust Funds,Disability Insurance,2031,45.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Disability Insurance,fiscal_year,2031,2031,2031,31,13
+Social Security Trust Funds,Disability Insurance,2032,48.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Disability Insurance,fiscal_year,2032,2032,2032,31,14
+Social Security Trust Funds,Disability Insurance,2033,50.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Disability Insurance,fiscal_year,2033,2033,2033,31,15
+Social Security Trust Funds,Disability Insurance,2034,49.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Disability Insurance,fiscal_year,2034,2034,2034,31,16
+Social Security Trust Funds,Disability Insurance,,178.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Disability Insurance,cumulative_fiscal_years,2025,2029,2025-2029,31,17
+Social Security Trust Funds,Disability Insurance,,412.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Net Cash Flow (Includes interest income) / Disability Insurance,cumulative_fiscal_years,2025,2034,2025-2034,31,18
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2023,-113.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Old-Age and Survivors Insuranceb,fiscal_year,2023,2023,2023,34,5
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2024,-169.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Old-Age and Survivors Insuranceb,fiscal_year,2024,2024,2024,34,6
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2025,-212.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Old-Age and Survivors Insuranceb,fiscal_year,2025,2025,2025,34,7
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2026,-241.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Old-Age and Survivors Insuranceb,fiscal_year,2026,2026,2026,34,8
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2027,-276.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Old-Age and Survivors Insuranceb,fiscal_year,2027,2027,2027,34,9
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2028,-318.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Old-Age and Survivors Insuranceb,fiscal_year,2028,2028,2028,34,10
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2029,-359.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Old-Age and Survivors Insuranceb,fiscal_year,2029,2029,2029,34,11
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2030,-401.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Old-Age and Survivors Insuranceb,fiscal_year,2030,2030,2030,34,12
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2031,-444.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Old-Age and Survivors Insuranceb,fiscal_year,2031,2031,2031,34,13
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2032,-488.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Old-Age and Survivors Insuranceb,fiscal_year,2032,2032,2032,34,14
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2033,-530.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Old-Age and Survivors Insuranceb,fiscal_year,2033,2033,2033,34,15
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2034,-572.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Old-Age and Survivors Insuranceb,fiscal_year,2034,2034,2034,34,16
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,,-1406.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Old-Age and Survivors Insuranceb,cumulative_fiscal_years,2025,2029,2025-2029,34,17
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,,-3841.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Old-Age and Survivors Insuranceb,cumulative_fiscal_years,2025,2034,2025-2034,34,18
+Social Security Trust Funds,Disability Insurance,2023,25.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Disability Insurance,fiscal_year,2023,2023,2023,35,5
+Social Security Trust Funds,Disability Insurance,2024,29.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Disability Insurance,fiscal_year,2024,2024,2024,35,6
+Social Security Trust Funds,Disability Insurance,2025,29.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Disability Insurance,fiscal_year,2025,2025,2025,35,7
+Social Security Trust Funds,Disability Insurance,2026,27.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Disability Insurance,fiscal_year,2026,2026,2026,35,8
+Social Security Trust Funds,Disability Insurance,2027,25.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Disability Insurance,fiscal_year,2027,2027,2027,35,9
+Social Security Trust Funds,Disability Insurance,2028,26.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Disability Insurance,fiscal_year,2028,2028,2028,35,10
+Social Security Trust Funds,Disability Insurance,2029,27.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Disability Insurance,fiscal_year,2029,2029,2029,35,11
+Social Security Trust Funds,Disability Insurance,2030,29.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Disability Insurance,fiscal_year,2030,2030,2030,35,12
+Social Security Trust Funds,Disability Insurance,2031,30.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Disability Insurance,fiscal_year,2031,2031,2031,35,13
+Social Security Trust Funds,Disability Insurance,2032,31.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Disability Insurance,fiscal_year,2032,2032,2032,35,14
+Social Security Trust Funds,Disability Insurance,2033,31.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Disability Insurance,fiscal_year,2033,2033,2033,35,15
+Social Security Trust Funds,Disability Insurance,2034,28.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Disability Insurance,fiscal_year,2034,2034,2034,35,16
+Social Security Trust Funds,Disability Insurance,,134.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Disability Insurance,cumulative_fiscal_years,2025,2029,2025-2029,35,17
+Social Security Trust Funds,Disability Insurance,,284.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / Primary Cash Flow (Excludes interest income) / Disability Insurance,cumulative_fiscal_years,2025,2034,2025-2034,35,18
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2023,2674.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Old-Age and Survivors Insuranceb,fiscal_year,2023,2023,2023,38,5
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2024,2567.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Old-Age and Survivors Insuranceb,fiscal_year,2024,2024,2024,38,6
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2025,2409.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Old-Age and Survivors Insuranceb,fiscal_year,2025,2025,2025,38,7
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2026,2217.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Old-Age and Survivors Insuranceb,fiscal_year,2026,2026,2026,38,8
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2027,1986.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Old-Age and Survivors Insuranceb,fiscal_year,2027,2027,2027,38,9
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2028,1708.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Old-Age and Survivors Insuranceb,fiscal_year,2028,2028,2028,38,10
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2029,1384.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Old-Age and Survivors Insuranceb,fiscal_year,2029,2029,2029,38,11
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2030,1009.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Old-Age and Survivors Insuranceb,fiscal_year,2030,2030,2030,38,12
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2031,583.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Old-Age and Survivors Insuranceb,fiscal_year,2031,2031,2031,38,13
+Social Security Trust Funds,Old-Age and Survivors Insuranceb,2032,97.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Old-Age and Survivors Insuranceb,fiscal_year,2032,2032,2032,38,14
+Social Security Trust Funds,Disability Insurance,2023,143.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Disability Insurance,fiscal_year,2023,2023,2023,39,5
+Social Security Trust Funds,Disability Insurance,2024,175.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Disability Insurance,fiscal_year,2024,2024,2024,39,6
+Social Security Trust Funds,Disability Insurance,2025,210.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Disability Insurance,fiscal_year,2025,2025,2025,39,7
+Social Security Trust Funds,Disability Insurance,2026,245.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Disability Insurance,fiscal_year,2026,2026,2026,39,8
+Social Security Trust Funds,Disability Insurance,2027,278.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Disability Insurance,fiscal_year,2027,2027,2027,39,9
+Social Security Trust Funds,Disability Insurance,2028,315.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Disability Insurance,fiscal_year,2028,2028,2028,39,10
+Social Security Trust Funds,Disability Insurance,2029,353.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Disability Insurance,fiscal_year,2029,2029,2029,39,11
+Social Security Trust Funds,Disability Insurance,2030,395.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Disability Insurance,fiscal_year,2030,2030,2030,39,12
+Social Security Trust Funds,Disability Insurance,2031,440.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Disability Insurance,fiscal_year,2031,2031,2031,39,13
+Social Security Trust Funds,Disability Insurance,2032,488.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Disability Insurance,fiscal_year,2032,2032,2032,39,14
+Social Security Trust Funds,Disability Insurance,2033,538.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Disability Insurance,fiscal_year,2033,2033,2033,39,15
+Social Security Trust Funds,Disability Insurance,2034,587.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,Social Security Trust Funds / End-of-Year Balance / Disability Insurance,fiscal_year,2034,2034,2034,39,16
+Social Security Trust Funds,Not Including Interest,2024,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Not Including Interest",fiscal_year,2024,2024,2024,57,7
+Social Security Trust Funds,Not Including Interest,2025,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Not Including Interest",fiscal_year,2025,2025,2025,57,8
+Social Security Trust Funds,Not Including Interest,2026,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Not Including Interest",fiscal_year,2026,2026,2026,57,9
+Social Security Trust Funds,Not Including Interest,2027,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Not Including Interest",fiscal_year,2027,2027,2027,57,10
+Social Security Trust Funds,Not Including Interest,2028,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Not Including Interest",fiscal_year,2028,2028,2028,57,11
+Social Security Trust Funds,Not Including Interest,2029,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Not Including Interest",fiscal_year,2029,2029,2029,57,12
+Social Security Trust Funds,Not Including Interest,2030,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Not Including Interest",fiscal_year,2030,2030,2030,57,13
+Social Security Trust Funds,Not Including Interest,2031,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Not Including Interest",fiscal_year,2031,2031,2031,57,14
+Social Security Trust Funds,Not Including Interest,2032,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Not Including Interest",fiscal_year,2032,2032,2032,57,15
+Social Security Trust Funds,Not Including Interest,2033,-434.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Not Including Interest",fiscal_year,2033,2033,2033,57,16
+Social Security Trust Funds,Not Including Interest,2034,-1005.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Not Including Interest",fiscal_year,2034,2034,2034,57,17
+Social Security Trust Funds,Including Negative Interest,2024,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Including Negative Interest",fiscal_year,2024,2024,2024,58,7
+Social Security Trust Funds,Including Negative Interest,2025,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Including Negative Interest",fiscal_year,2025,2025,2025,58,8
+Social Security Trust Funds,Including Negative Interest,2026,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Including Negative Interest",fiscal_year,2026,2026,2026,58,9
+Social Security Trust Funds,Including Negative Interest,2027,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Including Negative Interest",fiscal_year,2027,2027,2027,58,10
+Social Security Trust Funds,Including Negative Interest,2028,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Including Negative Interest",fiscal_year,2028,2028,2028,58,11
+Social Security Trust Funds,Including Negative Interest,2029,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Including Negative Interest",fiscal_year,2029,2029,2029,58,12
+Social Security Trust Funds,Including Negative Interest,2030,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Including Negative Interest",fiscal_year,2030,2030,2030,58,13
+Social Security Trust Funds,Including Negative Interest,2031,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Including Negative Interest",fiscal_year,2031,2031,2031,58,14
+Social Security Trust Funds,Including Negative Interest,2032,0.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Including Negative Interest",fiscal_year,2032,2032,2032,58,15
+Social Security Trust Funds,Including Negative Interest,2033,-446.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Including Negative Interest",fiscal_year,2033,2033,2033,58,16
+Social Security Trust Funds,Including Negative Interest,2034,-1035.0,Billions of dollars,51309-2024-06-trustfund.xlsx,SS Trustfunds_06-2024,false,51309,"Cumulative End-of-Year Shortfall (Billions of dollars, by fiscal year) / Including Negative Interest",fiscal_year,2034,2034,2034,58,17

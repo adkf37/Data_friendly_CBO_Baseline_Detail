@@ -1,430 +1,406 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Socialsecurity,Retired workers,2019,45094.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2020,46702.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2021,48216.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2022,49746.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2023,51294.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2024,52834.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2025,54325.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2026,55790.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2027,57365.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2028,58818.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2029,60203.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2030,61490.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2019,2416.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2020,2377.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2021,2311.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2022,2235.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2023,2123.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2024,2121.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2025,2118.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2026,2112.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2027,2103.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2028,2092.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2029,2081.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2030,2065.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2019,712.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2020,728.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2021,740.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2022,751.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2023,762.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2024,770.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2025,778.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2026,784.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2027,793.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2028,800.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2029,805.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2030,807.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2019,1927.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2020,1941.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2021,1957.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2022,1973.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2023,1991.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2024,2009.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2025,2026.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2026,2045.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2027,2067.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2028,2091.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2029,2117.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2030,2142.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2019,117.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2020,113.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2021,108.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2022,104.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2023,100.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2024,96.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2025,93.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2026,89.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2027,87.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2028,84.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2029,81.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2030,79.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2019,3632.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2020,3514.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2021,3422.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2022,3334.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2023,3225.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2024,3082.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2025,2937.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2026,2846.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2027,2733.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2028,2622.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2029,2524.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2030,2426.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2019,246.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2020,242.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2021,235.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2022,227.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2023,221.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2024,215.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2025,208.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2026,201.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2027,194.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2028,187.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2029,181.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2030,177.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2019,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2020,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2021,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2022,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2023,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2024,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2025,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2026,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2027,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2028,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2029,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2030,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Total Beneficiaries,2019,54146.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2020,55619.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2021,56989.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2022,58371.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2023,59717.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2024,61127.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2025,62485.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2026,63868.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2027,65342.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2028,66695.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2029,67992.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total Beneficiaries,2030,69185.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Retired workers,2019,1500.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2020,1557.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2021,1617.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2022,1679.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2023,1741.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2024,1804.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2025,1868.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2026,1934.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2027,2002.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2028,2073.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2029,2147.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2030,2225.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2019,786.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2020,816.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2021,849.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2022,882.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2023,917.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2024,949.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2025,980.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2026,1012.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2027,1045.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2028,1078.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2029,1113.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2030,1150.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2019,713.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2020,739.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2021,767.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2022,795.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2023,823.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2024,852.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2025,881.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2026,911.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2027,941.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2028,972.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2029,1005.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2030,1039.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2019,902.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2020,929.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2021,959.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2022,989.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2023,1019.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2024,1049.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2025,1080.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2026,1111.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2027,1143.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2028,1176.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2029,1211.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2030,1246.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2019,1034.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2020,1065.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2021,1098.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2022,1132.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2023,1165.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2024,1199.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2025,1232.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2026,1268.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2027,1303.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2028,1340.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2029,1377.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2030,1416.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2019,1423.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2020,1472.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2021,1523.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2022,1576.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2023,1628.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2024,1680.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2025,1733.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2026,1788.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2027,1843.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2028,1900.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2029,1959.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2030,2021.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2019,760.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2020,775.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2021,791.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2022,807.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2023,822.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2024,837.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2025,852.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2026,868.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2027,883.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2028,899.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2029,915.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2030,931.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2019,1271.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2020,1317.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2021,1368.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2022,1420.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2023,1472.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2024,1525.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2025,1579.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2026,1635.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2027,1693.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2028,1753.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2029,1815.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2030,1879.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2019,724.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2020,771.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2021,827.5,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2022,888.5,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2023,952.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2024,1020.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2025,1091.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2026,1162.9,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2027,1237.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2028,1320.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2029,1402.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Retired workers,2030,1487.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2019,33.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2020,34.9,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2021,35.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2022,36.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2023,37.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2024,38.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2025,39.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2026,41.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2027,43.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2028,44.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2029,46.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Wives and husbands,2030,48.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2019,6.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2020,6.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2021,6.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2022,7.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2023,7.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2024,8.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2025,8.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2026,8.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2027,9.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2028,9.5,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2029,10.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2030,10.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2019,21.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2020,21.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2021,22.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2022,23.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2023,24.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2024,25.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2025,26.9,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2026,28.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2027,29.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2028,30.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2029,31.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Children,2030,33.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2019,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2020,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2021,2.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2022,2.5,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2023,2.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2024,2.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2025,2.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2026,2.9,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2027,3.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2028,3.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2029,3.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Mothers and fathers,2030,3.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2019,98.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2020,101.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2021,102.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2022,104.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2023,107.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2024,108.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2025,110.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2026,111.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2027,113.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2028,115.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2029,117.9,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Aged widows and widowers,2030,120.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2019,2.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2020,2.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2021,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2022,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2023,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2024,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2025,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2026,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2027,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2028,2.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2029,2.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Disabled widows and widowers,2030,2.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2019,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2020,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2021,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2022,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2023,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2024,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2025,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2026,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2027,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2028,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2029,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Parents,2030,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Lump-Sum Death,2019,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Lump-Sum Death,2020,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Lump-Sum Death,2021,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Lump-Sum Death,2022,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Lump-Sum Death,2023,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Lump-Sum Death,2024,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Lump-Sum Death,2025,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Lump-Sum Death,2026,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Lump-Sum Death,2027,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Lump-Sum Death,2028,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Lump-Sum Death,2029,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Lump-Sum Death,2030,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Total,2019,888.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total,2020,940.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total,2021,999.9,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total,2022,1065.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total,2023,1134.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total,2024,1205.9,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total,2025,1281.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total,2026,1357.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total,2027,1438.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total,2028,1526.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total,2029,1614.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,Total,2030,1705.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true
-Socialsecurity,2019,2019,2019.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,2019,2020,2020.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,2019,2021,2021.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,2019,2022,2022.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,2019,2023,2023.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,2019,2024,2024.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,2019,2025,2025.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,2019,2026,2026.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,2019,2027,2027.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,2019,2028,2028.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,2019,2029,2029.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,2019,2030,2030.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Wage for Indexing (Dollars),2019,54097.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Wage for Indexing (Dollars),2020,55974.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Wage for Indexing (Dollars),2021,58265.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Wage for Indexing (Dollars),2022,60525.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Wage for Indexing (Dollars),2023,62763.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Wage for Indexing (Dollars),2024,65015.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Wage for Indexing (Dollars),2025,67277.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Wage for Indexing (Dollars),2026,69604.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Wage for Indexing (Dollars),2027,72019.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Wage for Indexing (Dollars),2028,74480.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Wage for Indexing (Dollars),2029,76915.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Wage for Indexing (Dollars),2030,79430.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Taxable Maximum (Dollars),2019,132900.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Taxable Maximum (Dollars),2020,137700.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Taxable Maximum (Dollars),2021,142800.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Taxable Maximum (Dollars),2022,147900.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Taxable Maximum (Dollars),2023,153900.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Taxable Maximum (Dollars),2024,159900.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Taxable Maximum (Dollars),2025,165900.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Taxable Maximum (Dollars),2026,171900.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Taxable Maximum (Dollars),2027,177900.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Taxable Maximum (Dollars),2028,183900.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Taxable Maximum (Dollars),2029,190200.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Taxable Maximum (Dollars),2030,196800.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Earnings (Equal to AWI) (Dollars)a,2019,1910.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Earnings (Equal to AWI) (Dollars)a,2020,1997.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Earnings (Equal to AWI) (Dollars)a,2021,2074.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Earnings (Equal to AWI) (Dollars)a,2022,2146.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Earnings (Equal to AWI) (Dollars)a,2023,2232.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Earnings (Equal to AWI) (Dollars)a,2024,2316.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Earnings (Equal to AWI) (Dollars)a,2025,2399.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Earnings (Equal to AWI) (Dollars)a,2026,2485.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Earnings (Equal to AWI) (Dollars)a,2027,2569.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Earnings (Equal to AWI) (Dollars)a,2028,2658.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Earnings (Equal to AWI) (Dollars)a,2029,2750.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,Average Earnings (Equal to AWI) (Dollars)a,2030,2844.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,With Maximum Earnings (Dollars)a,2019,3079.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,With Maximum Earnings (Dollars)a,2020,3221.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,With Maximum Earnings (Dollars)a,2021,3347.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,With Maximum Earnings (Dollars)a,2022,3466.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,With Maximum Earnings (Dollars)a,2023,3605.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,With Maximum Earnings (Dollars)a,2024,3743.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,With Maximum Earnings (Dollars)a,2025,3880.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,With Maximum Earnings (Dollars)a,2026,4021.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,With Maximum Earnings (Dollars)a,2027,4158.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,With Maximum Earnings (Dollars)a,2028,4304.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,With Maximum Earnings (Dollars)a,2029,4455.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,With Maximum Earnings (Dollars)a,2030,4609.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,FRA for Worker Reaching 62 This Year,2022,67.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,FRA for Worker Reaching 62 This Year,2023,67.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,FRA for Worker Reaching 62 This Year,2024,67.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,FRA for Worker Reaching 62 This Year,2025,67.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,FRA for Worker Reaching 62 This Year,2026,67.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,FRA for Worker Reaching 62 This Year,2027,67.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,FRA for Worker Reaching 62 This Year,2028,67.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,FRA for Worker Reaching 62 This Year,2029,67.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,FRA for Worker Reaching 62 This Year,2030,67.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,"Share of PIA Paid to a Worker 
-  Claiming at 62 (Percent)",2019,72.5,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,"Share of PIA Paid to a Worker 
-  Claiming at 62 (Percent)",2020,71.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,"Share of PIA Paid to a Worker 
-  Claiming at 62 (Percent)",2021,70.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,"Share of PIA Paid to a Worker 
-  Claiming at 62 (Percent)",2022,70.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,"Share of PIA Paid to a Worker 
-  Claiming at 62 (Percent)",2023,70.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,"Share of PIA Paid to a Worker 
-  Claiming at 62 (Percent)",2024,70.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,"Share of PIA Paid to a Worker 
-  Claiming at 62 (Percent)",2025,70.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,"Share of PIA Paid to a Worker 
-  Claiming at 62 (Percent)",2026,70.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,"Share of PIA Paid to a Worker 
-  Claiming at 62 (Percent)",2027,70.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,"Share of PIA Paid to a Worker 
-  Claiming at 62 (Percent)",2028,70.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,"Share of PIA Paid to a Worker 
-  Claiming at 62 (Percent)",2029,70.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,"Share of PIA Paid to a Worker 
-  Claiming at 62 (Percent)",2030,70.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,COLA (Percent)b,2019,1.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,COLA (Percent)b,2020,2.5,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,COLA (Percent)b,2021,2.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,COLA (Percent)b,2022,2.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,COLA (Percent)b,2023,2.5,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,COLA (Percent)b,2024,2.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,COLA (Percent)b,2025,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,COLA (Percent)b,2026,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,COLA (Percent)b,2027,2.1999999999999997,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,COLA (Percent)b,2028,2.1999999999999997,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,COLA (Percent)b,2029,2.1999999999999997,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
-Socialsecurity,COLA (Percent)b,2030,2.1999999999999997,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+Social Security,Retired workers,2019,45094.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2019,2019,2019,9,2
+Social Security,Retired workers,2020,46702.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2020,2020,2020,9,3
+Social Security,Retired workers,2021,48216.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2021,2021,2021,9,4
+Social Security,Retired workers,2022,49746.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2022,2022,2022,9,5
+Social Security,Retired workers,2023,51294.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2023,2023,2023,9,6
+Social Security,Retired workers,2024,52834.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2024,2024,2024,9,7
+Social Security,Retired workers,2025,54325.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2025,2025,2025,9,8
+Social Security,Retired workers,2026,55790.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2026,2026,2026,9,9
+Social Security,Retired workers,2027,57365.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2027,2027,2027,9,10
+Social Security,Retired workers,2028,58818.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2028,2028,2028,9,11
+Social Security,Retired workers,2029,60203.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2029,2029,2029,9,12
+Social Security,Retired workers,2030,61490.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2030,2030,2030,9,13
+Social Security,Wives and husbands,2019,2416.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2019,2019,2019,10,2
+Social Security,Wives and husbands,2020,2377.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2020,2020,2020,10,3
+Social Security,Wives and husbands,2021,2311.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2021,2021,2021,10,4
+Social Security,Wives and husbands,2022,2235.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2022,2022,2022,10,5
+Social Security,Wives and husbands,2023,2123.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2023,2023,2023,10,6
+Social Security,Wives and husbands,2024,2121.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2024,2024,2024,10,7
+Social Security,Wives and husbands,2025,2118.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2025,2025,2025,10,8
+Social Security,Wives and husbands,2026,2112.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2026,2026,2026,10,9
+Social Security,Wives and husbands,2027,2103.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2027,2027,2027,10,10
+Social Security,Wives and husbands,2028,2092.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2028,2028,2028,10,11
+Social Security,Wives and husbands,2029,2081.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2029,2029,2029,10,12
+Social Security,Wives and husbands,2030,2065.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2030,2030,2030,10,13
+Social Security,Children,2019,712.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2019,2019,2019,11,2
+Social Security,Children,2020,728.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2020,2020,2020,11,3
+Social Security,Children,2021,740.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2021,2021,2021,11,4
+Social Security,Children,2022,751.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2022,2022,2022,11,5
+Social Security,Children,2023,762.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2023,2023,2023,11,6
+Social Security,Children,2024,770.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2024,2024,2024,11,7
+Social Security,Children,2025,778.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2025,2025,2025,11,8
+Social Security,Children,2026,784.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2026,2026,2026,11,9
+Social Security,Children,2027,793.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2027,2027,2027,11,10
+Social Security,Children,2028,800.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2028,2028,2028,11,11
+Social Security,Children,2029,805.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2029,2029,2029,11,12
+Social Security,Children,2030,807.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2030,2030,2030,11,13
+Social Security,Children,2019,1927.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2019,2019,2019,14,2
+Social Security,Children,2020,1941.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2020,2020,2020,14,3
+Social Security,Children,2021,1957.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2021,2021,2021,14,4
+Social Security,Children,2022,1973.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2022,2022,2022,14,5
+Social Security,Children,2023,1991.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2023,2023,2023,14,6
+Social Security,Children,2024,2009.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2024,2024,2024,14,7
+Social Security,Children,2025,2026.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2025,2025,2025,14,8
+Social Security,Children,2026,2045.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2026,2026,2026,14,9
+Social Security,Children,2027,2067.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2027,2027,2027,14,10
+Social Security,Children,2028,2091.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2028,2028,2028,14,11
+Social Security,Children,2029,2117.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2029,2029,2029,14,12
+Social Security,Children,2030,2142.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2030,2030,2030,14,13
+Social Security,Mothers and fathers,2019,117.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2019,2019,2019,15,2
+Social Security,Mothers and fathers,2020,113.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2020,2020,2020,15,3
+Social Security,Mothers and fathers,2021,108.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2021,2021,2021,15,4
+Social Security,Mothers and fathers,2022,104.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2022,2022,2022,15,5
+Social Security,Mothers and fathers,2023,100.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2023,2023,2023,15,6
+Social Security,Mothers and fathers,2024,96.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2024,2024,2024,15,7
+Social Security,Mothers and fathers,2025,93.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2025,2025,2025,15,8
+Social Security,Mothers and fathers,2026,89.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2026,2026,2026,15,9
+Social Security,Mothers and fathers,2027,87.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2027,2027,2027,15,10
+Social Security,Mothers and fathers,2028,84.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2028,2028,2028,15,11
+Social Security,Mothers and fathers,2029,81.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2029,2029,2029,15,12
+Social Security,Mothers and fathers,2030,79.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2030,2030,2030,15,13
+Social Security,Aged widows and widowers,2019,3632.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2019,2019,2019,16,2
+Social Security,Aged widows and widowers,2020,3514.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2020,2020,2020,16,3
+Social Security,Aged widows and widowers,2021,3422.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2021,2021,2021,16,4
+Social Security,Aged widows and widowers,2022,3334.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2022,2022,2022,16,5
+Social Security,Aged widows and widowers,2023,3225.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2023,2023,2023,16,6
+Social Security,Aged widows and widowers,2024,3082.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2024,2024,2024,16,7
+Social Security,Aged widows and widowers,2025,2937.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2025,2025,2025,16,8
+Social Security,Aged widows and widowers,2026,2846.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2026,2026,2026,16,9
+Social Security,Aged widows and widowers,2027,2733.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2027,2027,2027,16,10
+Social Security,Aged widows and widowers,2028,2622.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2028,2028,2028,16,11
+Social Security,Aged widows and widowers,2029,2524.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2029,2029,2029,16,12
+Social Security,Aged widows and widowers,2030,2426.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2030,2030,2030,16,13
+Social Security,Disabled widows and widowers,2019,246.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2019,2019,2019,17,2
+Social Security,Disabled widows and widowers,2020,242.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2020,2020,2020,17,3
+Social Security,Disabled widows and widowers,2021,235.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2021,2021,2021,17,4
+Social Security,Disabled widows and widowers,2022,227.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2022,2022,2022,17,5
+Social Security,Disabled widows and widowers,2023,221.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2023,2023,2023,17,6
+Social Security,Disabled widows and widowers,2024,215.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2024,2024,2024,17,7
+Social Security,Disabled widows and widowers,2025,208.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2025,2025,2025,17,8
+Social Security,Disabled widows and widowers,2026,201.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2026,2026,2026,17,9
+Social Security,Disabled widows and widowers,2027,194.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2027,2027,2027,17,10
+Social Security,Disabled widows and widowers,2028,187.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2028,2028,2028,17,11
+Social Security,Disabled widows and widowers,2029,181.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2029,2029,2029,17,12
+Social Security,Disabled widows and widowers,2030,177.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2030,2030,2030,17,13
+Social Security,Parents,2019,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2019,2019,2019,18,2
+Social Security,Parents,2020,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2020,2020,2020,18,3
+Social Security,Parents,2021,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2021,2021,2021,18,4
+Social Security,Parents,2022,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2022,2022,2022,18,5
+Social Security,Parents,2023,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2023,2023,2023,18,6
+Social Security,Parents,2024,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2024,2024,2024,18,7
+Social Security,Parents,2025,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2025,2025,2025,18,8
+Social Security,Parents,2026,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2026,2026,2026,18,9
+Social Security,Parents,2027,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2027,2027,2027,18,10
+Social Security,Parents,2028,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2028,2028,2028,18,11
+Social Security,Parents,2029,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2029,2029,2029,18,12
+Social Security,Parents,2030,1.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2030,2030,2030,18,13
+Social Security,Total Beneficiaries,2019,54146.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total Beneficiaries,fiscal_year,2019,2019,2019,20,2
+Social Security,Total Beneficiaries,2020,55619.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total Beneficiaries,fiscal_year,2020,2020,2020,20,3
+Social Security,Total Beneficiaries,2021,56989.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total Beneficiaries,fiscal_year,2021,2021,2021,20,4
+Social Security,Total Beneficiaries,2022,58371.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total Beneficiaries,fiscal_year,2022,2022,2022,20,5
+Social Security,Total Beneficiaries,2023,59717.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total Beneficiaries,fiscal_year,2023,2023,2023,20,6
+Social Security,Total Beneficiaries,2024,61127.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total Beneficiaries,fiscal_year,2024,2024,2024,20,7
+Social Security,Total Beneficiaries,2025,62485.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total Beneficiaries,fiscal_year,2025,2025,2025,20,8
+Social Security,Total Beneficiaries,2026,63868.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total Beneficiaries,fiscal_year,2026,2026,2026,20,9
+Social Security,Total Beneficiaries,2027,65342.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total Beneficiaries,fiscal_year,2027,2027,2027,20,10
+Social Security,Total Beneficiaries,2028,66695.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total Beneficiaries,fiscal_year,2028,2028,2028,20,11
+Social Security,Total Beneficiaries,2029,67992.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total Beneficiaries,fiscal_year,2029,2029,2029,20,12
+Social Security,Total Beneficiaries,2030,69185.0,Thousands,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total Beneficiaries,fiscal_year,2030,2030,2030,20,13
+Social Security,Retired workers,2019,1500.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2019,2019,2019,24,2
+Social Security,Retired workers,2020,1557.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2020,2020,2020,24,3
+Social Security,Retired workers,2021,1617.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2021,2021,2021,24,4
+Social Security,Retired workers,2022,1679.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2022,2022,2022,24,5
+Social Security,Retired workers,2023,1741.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2023,2023,2023,24,6
+Social Security,Retired workers,2024,1804.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2024,2024,2024,24,7
+Social Security,Retired workers,2025,1868.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2025,2025,2025,24,8
+Social Security,Retired workers,2026,1934.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2026,2026,2026,24,9
+Social Security,Retired workers,2027,2002.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2027,2027,2027,24,10
+Social Security,Retired workers,2028,2073.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2028,2028,2028,24,11
+Social Security,Retired workers,2029,2147.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2029,2029,2029,24,12
+Social Security,Retired workers,2030,2225.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2030,2030,2030,24,13
+Social Security,Wives and husbands,2019,786.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2019,2019,2019,25,2
+Social Security,Wives and husbands,2020,816.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2020,2020,2020,25,3
+Social Security,Wives and husbands,2021,849.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2021,2021,2021,25,4
+Social Security,Wives and husbands,2022,882.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2022,2022,2022,25,5
+Social Security,Wives and husbands,2023,917.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2023,2023,2023,25,6
+Social Security,Wives and husbands,2024,949.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2024,2024,2024,25,7
+Social Security,Wives and husbands,2025,980.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2025,2025,2025,25,8
+Social Security,Wives and husbands,2026,1012.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2026,2026,2026,25,9
+Social Security,Wives and husbands,2027,1045.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2027,2027,2027,25,10
+Social Security,Wives and husbands,2028,1078.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2028,2028,2028,25,11
+Social Security,Wives and husbands,2029,1113.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2029,2029,2029,25,12
+Social Security,Wives and husbands,2030,1150.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2030,2030,2030,25,13
+Social Security,Children,2019,713.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2019,2019,2019,26,2
+Social Security,Children,2020,739.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2020,2020,2020,26,3
+Social Security,Children,2021,767.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2021,2021,2021,26,4
+Social Security,Children,2022,795.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2022,2022,2022,26,5
+Social Security,Children,2023,823.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2023,2023,2023,26,6
+Social Security,Children,2024,852.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2024,2024,2024,26,7
+Social Security,Children,2025,881.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2025,2025,2025,26,8
+Social Security,Children,2026,911.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2026,2026,2026,26,9
+Social Security,Children,2027,941.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2027,2027,2027,26,10
+Social Security,Children,2028,972.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2028,2028,2028,26,11
+Social Security,Children,2029,1005.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2029,2029,2029,26,12
+Social Security,Children,2030,1039.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2030,2030,2030,26,13
+Social Security,Children,2019,902.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2019,2019,2019,29,2
+Social Security,Children,2020,929.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2020,2020,2020,29,3
+Social Security,Children,2021,959.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2021,2021,2021,29,4
+Social Security,Children,2022,989.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2022,2022,2022,29,5
+Social Security,Children,2023,1019.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2023,2023,2023,29,6
+Social Security,Children,2024,1049.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2024,2024,2024,29,7
+Social Security,Children,2025,1080.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2025,2025,2025,29,8
+Social Security,Children,2026,1111.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2026,2026,2026,29,9
+Social Security,Children,2027,1143.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2027,2027,2027,29,10
+Social Security,Children,2028,1176.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2028,2028,2028,29,11
+Social Security,Children,2029,1211.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2029,2029,2029,29,12
+Social Security,Children,2030,1246.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2030,2030,2030,29,13
+Social Security,Mothers and fathers,2019,1034.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2019,2019,2019,30,2
+Social Security,Mothers and fathers,2020,1065.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2020,2020,2020,30,3
+Social Security,Mothers and fathers,2021,1098.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2021,2021,2021,30,4
+Social Security,Mothers and fathers,2022,1132.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2022,2022,2022,30,5
+Social Security,Mothers and fathers,2023,1165.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2023,2023,2023,30,6
+Social Security,Mothers and fathers,2024,1199.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2024,2024,2024,30,7
+Social Security,Mothers and fathers,2025,1232.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2025,2025,2025,30,8
+Social Security,Mothers and fathers,2026,1268.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2026,2026,2026,30,9
+Social Security,Mothers and fathers,2027,1303.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2027,2027,2027,30,10
+Social Security,Mothers and fathers,2028,1340.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2028,2028,2028,30,11
+Social Security,Mothers and fathers,2029,1377.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2029,2029,2029,30,12
+Social Security,Mothers and fathers,2030,1416.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2030,2030,2030,30,13
+Social Security,Aged widows and widowers,2019,1423.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2019,2019,2019,31,2
+Social Security,Aged widows and widowers,2020,1472.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2020,2020,2020,31,3
+Social Security,Aged widows and widowers,2021,1523.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2021,2021,2021,31,4
+Social Security,Aged widows and widowers,2022,1576.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2022,2022,2022,31,5
+Social Security,Aged widows and widowers,2023,1628.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2023,2023,2023,31,6
+Social Security,Aged widows and widowers,2024,1680.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2024,2024,2024,31,7
+Social Security,Aged widows and widowers,2025,1733.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2025,2025,2025,31,8
+Social Security,Aged widows and widowers,2026,1788.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2026,2026,2026,31,9
+Social Security,Aged widows and widowers,2027,1843.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2027,2027,2027,31,10
+Social Security,Aged widows and widowers,2028,1900.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2028,2028,2028,31,11
+Social Security,Aged widows and widowers,2029,1959.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2029,2029,2029,31,12
+Social Security,Aged widows and widowers,2030,2021.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2030,2030,2030,31,13
+Social Security,Disabled widows and widowers,2019,760.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2019,2019,2019,32,2
+Social Security,Disabled widows and widowers,2020,775.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2020,2020,2020,32,3
+Social Security,Disabled widows and widowers,2021,791.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2021,2021,2021,32,4
+Social Security,Disabled widows and widowers,2022,807.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2022,2022,2022,32,5
+Social Security,Disabled widows and widowers,2023,822.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2023,2023,2023,32,6
+Social Security,Disabled widows and widowers,2024,837.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2024,2024,2024,32,7
+Social Security,Disabled widows and widowers,2025,852.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2025,2025,2025,32,8
+Social Security,Disabled widows and widowers,2026,868.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2026,2026,2026,32,9
+Social Security,Disabled widows and widowers,2027,883.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2027,2027,2027,32,10
+Social Security,Disabled widows and widowers,2028,899.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2028,2028,2028,32,11
+Social Security,Disabled widows and widowers,2029,915.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2029,2029,2029,32,12
+Social Security,Disabled widows and widowers,2030,931.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2030,2030,2030,32,13
+Social Security,Parents,2019,1271.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2019,2019,2019,33,2
+Social Security,Parents,2020,1317.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2020,2020,2020,33,3
+Social Security,Parents,2021,1368.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2021,2021,2021,33,4
+Social Security,Parents,2022,1420.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2022,2022,2022,33,5
+Social Security,Parents,2023,1472.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2023,2023,2023,33,6
+Social Security,Parents,2024,1525.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2024,2024,2024,33,7
+Social Security,Parents,2025,1579.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2025,2025,2025,33,8
+Social Security,Parents,2026,1635.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2026,2026,2026,33,9
+Social Security,Parents,2027,1693.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2027,2027,2027,33,10
+Social Security,Parents,2028,1753.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2028,2028,2028,33,11
+Social Security,Parents,2029,1815.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2029,2029,2029,33,12
+Social Security,Parents,2030,1879.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2030,2030,2030,33,13
+Social Security,Retired workers,2019,724.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2019,2019,2019,38,2
+Social Security,Retired workers,2020,771.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2020,2020,2020,38,3
+Social Security,Retired workers,2021,827.5,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2021,2021,2021,38,4
+Social Security,Retired workers,2022,888.5,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2022,2022,2022,38,5
+Social Security,Retired workers,2023,952.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2023,2023,2023,38,6
+Social Security,Retired workers,2024,1020.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2024,2024,2024,38,7
+Social Security,Retired workers,2025,1091.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2025,2025,2025,38,8
+Social Security,Retired workers,2026,1162.9,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2026,2026,2026,38,9
+Social Security,Retired workers,2027,1237.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2027,2027,2027,38,10
+Social Security,Retired workers,2028,1320.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2028,2028,2028,38,11
+Social Security,Retired workers,2029,1402.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2029,2029,2029,38,12
+Social Security,Retired workers,2030,1487.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Retired workers,fiscal_year,2030,2030,2030,38,13
+Social Security,Wives and husbands,2019,33.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2019,2019,2019,39,2
+Social Security,Wives and husbands,2020,34.9,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2020,2020,2020,39,3
+Social Security,Wives and husbands,2021,35.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2021,2021,2021,39,4
+Social Security,Wives and husbands,2022,36.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2022,2022,2022,39,5
+Social Security,Wives and husbands,2023,37.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2023,2023,2023,39,6
+Social Security,Wives and husbands,2024,38.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2024,2024,2024,39,7
+Social Security,Wives and husbands,2025,39.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2025,2025,2025,39,8
+Social Security,Wives and husbands,2026,41.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2026,2026,2026,39,9
+Social Security,Wives and husbands,2027,43.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2027,2027,2027,39,10
+Social Security,Wives and husbands,2028,44.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2028,2028,2028,39,11
+Social Security,Wives and husbands,2029,46.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2029,2029,2029,39,12
+Social Security,Wives and husbands,2030,48.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Wives and husbands,fiscal_year,2030,2030,2030,39,13
+Social Security,Children,2019,6.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2019,2019,2019,40,2
+Social Security,Children,2020,6.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2020,2020,2020,40,3
+Social Security,Children,2021,6.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2021,2021,2021,40,4
+Social Security,Children,2022,7.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2022,2022,2022,40,5
+Social Security,Children,2023,7.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2023,2023,2023,40,6
+Social Security,Children,2024,8.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2024,2024,2024,40,7
+Social Security,Children,2025,8.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2025,2025,2025,40,8
+Social Security,Children,2026,8.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2026,2026,2026,40,9
+Social Security,Children,2027,9.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2027,2027,2027,40,10
+Social Security,Children,2028,9.5,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2028,2028,2028,40,11
+Social Security,Children,2029,10.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2029,2029,2029,40,12
+Social Security,Children,2030,10.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Retired Workers and Families / Children,fiscal_year,2030,2030,2030,40,13
+Social Security,Children,2019,21.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2019,2019,2019,43,2
+Social Security,Children,2020,21.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2020,2020,2020,43,3
+Social Security,Children,2021,22.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2021,2021,2021,43,4
+Social Security,Children,2022,23.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2022,2022,2022,43,5
+Social Security,Children,2023,24.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2023,2023,2023,43,6
+Social Security,Children,2024,25.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2024,2024,2024,43,7
+Social Security,Children,2025,26.9,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2025,2025,2025,43,8
+Social Security,Children,2026,28.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2026,2026,2026,43,9
+Social Security,Children,2027,29.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2027,2027,2027,43,10
+Social Security,Children,2028,30.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2028,2028,2028,43,11
+Social Security,Children,2029,31.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2029,2029,2029,43,12
+Social Security,Children,2030,33.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Children,fiscal_year,2030,2030,2030,43,13
+Social Security,Mothers and fathers,2019,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2019,2019,2019,44,2
+Social Security,Mothers and fathers,2020,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2020,2020,2020,44,3
+Social Security,Mothers and fathers,2021,2.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2021,2021,2021,44,4
+Social Security,Mothers and fathers,2022,2.5,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2022,2022,2022,44,5
+Social Security,Mothers and fathers,2023,2.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2023,2023,2023,44,6
+Social Security,Mothers and fathers,2024,2.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2024,2024,2024,44,7
+Social Security,Mothers and fathers,2025,2.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2025,2025,2025,44,8
+Social Security,Mothers and fathers,2026,2.9,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2026,2026,2026,44,9
+Social Security,Mothers and fathers,2027,3.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2027,2027,2027,44,10
+Social Security,Mothers and fathers,2028,3.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2028,2028,2028,44,11
+Social Security,Mothers and fathers,2029,3.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2029,2029,2029,44,12
+Social Security,Mothers and fathers,2030,3.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Mothers and fathers,fiscal_year,2030,2030,2030,44,13
+Social Security,Aged widows and widowers,2019,98.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2019,2019,2019,45,2
+Social Security,Aged widows and widowers,2020,101.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2020,2020,2020,45,3
+Social Security,Aged widows and widowers,2021,102.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2021,2021,2021,45,4
+Social Security,Aged widows and widowers,2022,104.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2022,2022,2022,45,5
+Social Security,Aged widows and widowers,2023,107.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2023,2023,2023,45,6
+Social Security,Aged widows and widowers,2024,108.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2024,2024,2024,45,7
+Social Security,Aged widows and widowers,2025,110.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2025,2025,2025,45,8
+Social Security,Aged widows and widowers,2026,111.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2026,2026,2026,45,9
+Social Security,Aged widows and widowers,2027,113.7,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2027,2027,2027,45,10
+Social Security,Aged widows and widowers,2028,115.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2028,2028,2028,45,11
+Social Security,Aged widows and widowers,2029,117.9,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2029,2029,2029,45,12
+Social Security,Aged widows and widowers,2030,120.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Aged widows and widowers,fiscal_year,2030,2030,2030,45,13
+Social Security,Disabled widows and widowers,2019,2.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2019,2019,2019,46,2
+Social Security,Disabled widows and widowers,2020,2.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2020,2020,2020,46,3
+Social Security,Disabled widows and widowers,2021,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2021,2021,2021,46,4
+Social Security,Disabled widows and widowers,2022,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2022,2022,2022,46,5
+Social Security,Disabled widows and widowers,2023,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2023,2023,2023,46,6
+Social Security,Disabled widows and widowers,2024,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2024,2024,2024,46,7
+Social Security,Disabled widows and widowers,2025,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2025,2025,2025,46,8
+Social Security,Disabled widows and widowers,2026,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2026,2026,2026,46,9
+Social Security,Disabled widows and widowers,2027,2.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2027,2027,2027,46,10
+Social Security,Disabled widows and widowers,2028,2.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2028,2028,2028,46,11
+Social Security,Disabled widows and widowers,2029,2.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2029,2029,2029,46,12
+Social Security,Disabled widows and widowers,2030,2.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Disabled widows and widowers,fiscal_year,2030,2030,2030,46,13
+Social Security,Parents,2019,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2019,2019,2019,47,2
+Social Security,Parents,2020,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2020,2020,2020,47,3
+Social Security,Parents,2021,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2021,2021,2021,47,4
+Social Security,Parents,2022,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2022,2022,2022,47,5
+Social Security,Parents,2023,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2023,2023,2023,47,6
+Social Security,Parents,2024,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2024,2024,2024,47,7
+Social Security,Parents,2025,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2025,2025,2025,47,8
+Social Security,Parents,2026,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2026,2026,2026,47,9
+Social Security,Parents,2027,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2027,2027,2027,47,10
+Social Security,Parents,2028,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2028,2028,2028,47,11
+Social Security,Parents,2029,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2029,2029,2029,47,12
+Social Security,Parents,2030,0.0,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Parents,fiscal_year,2030,2030,2030,47,13
+Social Security,Lump-Sum Death,2019,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Lump-Sum Death,fiscal_year,2019,2019,2019,49,2
+Social Security,Lump-Sum Death,2020,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Lump-Sum Death,fiscal_year,2020,2020,2020,49,3
+Social Security,Lump-Sum Death,2021,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Lump-Sum Death,fiscal_year,2021,2021,2021,49,4
+Social Security,Lump-Sum Death,2022,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Lump-Sum Death,fiscal_year,2022,2022,2022,49,5
+Social Security,Lump-Sum Death,2023,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Lump-Sum Death,fiscal_year,2023,2023,2023,49,6
+Social Security,Lump-Sum Death,2024,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Lump-Sum Death,fiscal_year,2024,2024,2024,49,7
+Social Security,Lump-Sum Death,2025,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Lump-Sum Death,fiscal_year,2025,2025,2025,49,8
+Social Security,Lump-Sum Death,2026,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Lump-Sum Death,fiscal_year,2026,2026,2026,49,9
+Social Security,Lump-Sum Death,2027,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Lump-Sum Death,fiscal_year,2027,2027,2027,49,10
+Social Security,Lump-Sum Death,2028,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Lump-Sum Death,fiscal_year,2028,2028,2028,49,11
+Social Security,Lump-Sum Death,2029,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Lump-Sum Death,fiscal_year,2029,2029,2029,49,12
+Social Security,Lump-Sum Death,2030,0.2,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,false,51308,Survivors / Lump-Sum Death,fiscal_year,2030,2030,2030,49,13
+Social Security,Total,2019,888.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total,fiscal_year,2019,2019,2019,51,2
+Social Security,Total,2020,940.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total,fiscal_year,2020,2020,2020,51,3
+Social Security,Total,2021,999.9,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total,fiscal_year,2021,2021,2021,51,4
+Social Security,Total,2022,1065.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total,fiscal_year,2022,2022,2022,51,5
+Social Security,Total,2023,1134.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total,fiscal_year,2023,2023,2023,51,6
+Social Security,Total,2024,1205.9,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total,fiscal_year,2024,2024,2024,51,7
+Social Security,Total,2025,1281.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total,fiscal_year,2025,2025,2025,51,8
+Social Security,Total,2026,1357.8,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total,fiscal_year,2026,2026,2026,51,9
+Social Security,Total,2027,1438.3,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total,fiscal_year,2027,2027,2027,51,10
+Social Security,Total,2028,1526.6,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total,fiscal_year,2028,2028,2028,51,11
+Social Security,Total,2029,1614.4,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total,fiscal_year,2029,2029,2029,51,12
+Social Security,Total,2030,1705.1,Billions of dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Survivors / Total,fiscal_year,2030,2030,2030,51,13
+Social Security,Average Wage for Indexing (Dollars),2019,54097.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Average Wage for Indexing (Dollars),fiscal_year,2019,2019,2019,63,2
+Social Security,Average Wage for Indexing (Dollars),2020,55974.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Average Wage for Indexing (Dollars),fiscal_year,2020,2020,2020,63,3
+Social Security,Average Wage for Indexing (Dollars),2021,58265.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Average Wage for Indexing (Dollars),fiscal_year,2021,2021,2021,63,4
+Social Security,Average Wage for Indexing (Dollars),2022,60525.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Average Wage for Indexing (Dollars),fiscal_year,2022,2022,2022,63,5
+Social Security,Average Wage for Indexing (Dollars),2023,62763.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Average Wage for Indexing (Dollars),fiscal_year,2023,2023,2023,63,6
+Social Security,Average Wage for Indexing (Dollars),2024,65015.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Average Wage for Indexing (Dollars),fiscal_year,2024,2024,2024,63,7
+Social Security,Average Wage for Indexing (Dollars),2025,67277.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Average Wage for Indexing (Dollars),fiscal_year,2025,2025,2025,63,8
+Social Security,Average Wage for Indexing (Dollars),2026,69604.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Average Wage for Indexing (Dollars),fiscal_year,2026,2026,2026,63,9
+Social Security,Average Wage for Indexing (Dollars),2027,72019.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Average Wage for Indexing (Dollars),fiscal_year,2027,2027,2027,63,10
+Social Security,Average Wage for Indexing (Dollars),2028,74480.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Average Wage for Indexing (Dollars),fiscal_year,2028,2028,2028,63,11
+Social Security,Average Wage for Indexing (Dollars),2029,76915.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Average Wage for Indexing (Dollars),fiscal_year,2029,2029,2029,63,12
+Social Security,Average Wage for Indexing (Dollars),2030,79430.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Average Wage for Indexing (Dollars),fiscal_year,2030,2030,2030,63,13
+Social Security,Taxable Maximum (Dollars),2019,132900.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Taxable Maximum (Dollars),fiscal_year,2019,2019,2019,65,2
+Social Security,Taxable Maximum (Dollars),2020,137700.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Taxable Maximum (Dollars),fiscal_year,2020,2020,2020,65,3
+Social Security,Taxable Maximum (Dollars),2021,142800.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Taxable Maximum (Dollars),fiscal_year,2021,2021,2021,65,4
+Social Security,Taxable Maximum (Dollars),2022,147900.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Taxable Maximum (Dollars),fiscal_year,2022,2022,2022,65,5
+Social Security,Taxable Maximum (Dollars),2023,153900.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Taxable Maximum (Dollars),fiscal_year,2023,2023,2023,65,6
+Social Security,Taxable Maximum (Dollars),2024,159900.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Taxable Maximum (Dollars),fiscal_year,2024,2024,2024,65,7
+Social Security,Taxable Maximum (Dollars),2025,165900.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Taxable Maximum (Dollars),fiscal_year,2025,2025,2025,65,8
+Social Security,Taxable Maximum (Dollars),2026,171900.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Taxable Maximum (Dollars),fiscal_year,2026,2026,2026,65,9
+Social Security,Taxable Maximum (Dollars),2027,177900.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Taxable Maximum (Dollars),fiscal_year,2027,2027,2027,65,10
+Social Security,Taxable Maximum (Dollars),2028,183900.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Taxable Maximum (Dollars),fiscal_year,2028,2028,2028,65,11
+Social Security,Taxable Maximum (Dollars),2029,190200.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Taxable Maximum (Dollars),fiscal_year,2029,2029,2029,65,12
+Social Security,Taxable Maximum (Dollars),2030,196800.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / Taxable Maximum (Dollars),fiscal_year,2030,2030,2030,65,13
+Social Security,Average Earnings (Equal to AWI) (Dollars)a,2019,1910.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker With / Average Earnings (Equal to AWI) (Dollars)a,fiscal_year,2019,2019,2019,68,2
+Social Security,Average Earnings (Equal to AWI) (Dollars)a,2020,1997.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker With / Average Earnings (Equal to AWI) (Dollars)a,fiscal_year,2020,2020,2020,68,3
+Social Security,Average Earnings (Equal to AWI) (Dollars)a,2021,2074.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker With / Average Earnings (Equal to AWI) (Dollars)a,fiscal_year,2021,2021,2021,68,4
+Social Security,Average Earnings (Equal to AWI) (Dollars)a,2022,2146.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker With / Average Earnings (Equal to AWI) (Dollars)a,fiscal_year,2022,2022,2022,68,5
+Social Security,Average Earnings (Equal to AWI) (Dollars)a,2023,2232.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker With / Average Earnings (Equal to AWI) (Dollars)a,fiscal_year,2023,2023,2023,68,6
+Social Security,Average Earnings (Equal to AWI) (Dollars)a,2024,2316.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker With / Average Earnings (Equal to AWI) (Dollars)a,fiscal_year,2024,2024,2024,68,7
+Social Security,Average Earnings (Equal to AWI) (Dollars)a,2025,2399.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker With / Average Earnings (Equal to AWI) (Dollars)a,fiscal_year,2025,2025,2025,68,8
+Social Security,Average Earnings (Equal to AWI) (Dollars)a,2026,2485.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker With / Average Earnings (Equal to AWI) (Dollars)a,fiscal_year,2026,2026,2026,68,9
+Social Security,Average Earnings (Equal to AWI) (Dollars)a,2027,2569.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker With / Average Earnings (Equal to AWI) (Dollars)a,fiscal_year,2027,2027,2027,68,10
+Social Security,Average Earnings (Equal to AWI) (Dollars)a,2028,2658.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker With / Average Earnings (Equal to AWI) (Dollars)a,fiscal_year,2028,2028,2028,68,11
+Social Security,Average Earnings (Equal to AWI) (Dollars)a,2029,2750.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker With / Average Earnings (Equal to AWI) (Dollars)a,fiscal_year,2029,2029,2029,68,12
+Social Security,Average Earnings (Equal to AWI) (Dollars)a,2030,2844.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker With / Average Earnings (Equal to AWI) (Dollars)a,fiscal_year,2030,2030,2030,68,13
+Social Security,With Maximum Earnings (Dollars)a,2019,3079.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / With Maximum Earnings (Dollars)a,fiscal_year,2019,2019,2019,71,2
+Social Security,With Maximum Earnings (Dollars)a,2020,3221.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / With Maximum Earnings (Dollars)a,fiscal_year,2020,2020,2020,71,3
+Social Security,With Maximum Earnings (Dollars)a,2021,3347.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / With Maximum Earnings (Dollars)a,fiscal_year,2021,2021,2021,71,4
+Social Security,With Maximum Earnings (Dollars)a,2022,3466.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / With Maximum Earnings (Dollars)a,fiscal_year,2022,2022,2022,71,5
+Social Security,With Maximum Earnings (Dollars)a,2023,3605.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / With Maximum Earnings (Dollars)a,fiscal_year,2023,2023,2023,71,6
+Social Security,With Maximum Earnings (Dollars)a,2024,3743.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / With Maximum Earnings (Dollars)a,fiscal_year,2024,2024,2024,71,7
+Social Security,With Maximum Earnings (Dollars)a,2025,3880.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / With Maximum Earnings (Dollars)a,fiscal_year,2025,2025,2025,71,8
+Social Security,With Maximum Earnings (Dollars)a,2026,4021.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / With Maximum Earnings (Dollars)a,fiscal_year,2026,2026,2026,71,9
+Social Security,With Maximum Earnings (Dollars)a,2027,4158.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / With Maximum Earnings (Dollars)a,fiscal_year,2027,2027,2027,71,10
+Social Security,With Maximum Earnings (Dollars)a,2028,4304.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / With Maximum Earnings (Dollars)a,fiscal_year,2028,2028,2028,71,11
+Social Security,With Maximum Earnings (Dollars)a,2029,4455.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / With Maximum Earnings (Dollars)a,fiscal_year,2029,2029,2029,71,12
+Social Security,With Maximum Earnings (Dollars)a,2030,4609.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / With Maximum Earnings (Dollars)a,fiscal_year,2030,2030,2030,71,13
+Social Security,FRA for Worker Reaching 62 This Year,2022,67.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / FRA for Worker Reaching 62 This Year,fiscal_year,2022,2022,2022,73,5
+Social Security,FRA for Worker Reaching 62 This Year,2023,67.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / FRA for Worker Reaching 62 This Year,fiscal_year,2023,2023,2023,73,6
+Social Security,FRA for Worker Reaching 62 This Year,2024,67.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / FRA for Worker Reaching 62 This Year,fiscal_year,2024,2024,2024,73,7
+Social Security,FRA for Worker Reaching 62 This Year,2025,67.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / FRA for Worker Reaching 62 This Year,fiscal_year,2025,2025,2025,73,8
+Social Security,FRA for Worker Reaching 62 This Year,2026,67.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / FRA for Worker Reaching 62 This Year,fiscal_year,2026,2026,2026,73,9
+Social Security,FRA for Worker Reaching 62 This Year,2027,67.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / FRA for Worker Reaching 62 This Year,fiscal_year,2027,2027,2027,73,10
+Social Security,FRA for Worker Reaching 62 This Year,2028,67.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / FRA for Worker Reaching 62 This Year,fiscal_year,2028,2028,2028,73,11
+Social Security,FRA for Worker Reaching 62 This Year,2029,67.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / FRA for Worker Reaching 62 This Year,fiscal_year,2029,2029,2029,73,12
+Social Security,FRA for Worker Reaching 62 This Year,2030,67.0,Dollars,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / FRA for Worker Reaching 62 This Year,fiscal_year,2030,2030,2030,73,13
+Social Security,Share of PIA Paid to a Worker Claiming at 62 (Percent),2019,72.5,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / Share of PIA Paid to a Worker Claiming at 62 (Percent),fiscal_year,2019,2019,2019,76,2
+Social Security,Share of PIA Paid to a Worker Claiming at 62 (Percent),2020,71.7,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / Share of PIA Paid to a Worker Claiming at 62 (Percent),fiscal_year,2020,2020,2020,76,3
+Social Security,Share of PIA Paid to a Worker Claiming at 62 (Percent),2021,70.8,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / Share of PIA Paid to a Worker Claiming at 62 (Percent),fiscal_year,2021,2021,2021,76,4
+Social Security,Share of PIA Paid to a Worker Claiming at 62 (Percent),2022,70.0,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / Share of PIA Paid to a Worker Claiming at 62 (Percent),fiscal_year,2022,2022,2022,76,5
+Social Security,Share of PIA Paid to a Worker Claiming at 62 (Percent),2023,70.0,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / Share of PIA Paid to a Worker Claiming at 62 (Percent),fiscal_year,2023,2023,2023,76,6
+Social Security,Share of PIA Paid to a Worker Claiming at 62 (Percent),2024,70.0,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / Share of PIA Paid to a Worker Claiming at 62 (Percent),fiscal_year,2024,2024,2024,76,7
+Social Security,Share of PIA Paid to a Worker Claiming at 62 (Percent),2025,70.0,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / Share of PIA Paid to a Worker Claiming at 62 (Percent),fiscal_year,2025,2025,2025,76,8
+Social Security,Share of PIA Paid to a Worker Claiming at 62 (Percent),2026,70.0,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / Share of PIA Paid to a Worker Claiming at 62 (Percent),fiscal_year,2026,2026,2026,76,9
+Social Security,Share of PIA Paid to a Worker Claiming at 62 (Percent),2027,70.0,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / Share of PIA Paid to a Worker Claiming at 62 (Percent),fiscal_year,2027,2027,2027,76,10
+Social Security,Share of PIA Paid to a Worker Claiming at 62 (Percent),2028,70.0,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / Share of PIA Paid to a Worker Claiming at 62 (Percent),fiscal_year,2028,2028,2028,76,11
+Social Security,Share of PIA Paid to a Worker Claiming at 62 (Percent),2029,70.0,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / Share of PIA Paid to a Worker Claiming at 62 (Percent),fiscal_year,2029,2029,2029,76,12
+Social Security,Share of PIA Paid to a Worker Claiming at 62 (Percent),2030,70.0,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / Share of PIA Paid to a Worker Claiming at 62 (Percent),fiscal_year,2030,2030,2030,76,13
+Social Security,COLA (Percent)b,2019,1.6,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / COLA (Percent)b,fiscal_year,2019,2019,2019,78,2
+Social Security,COLA (Percent)b,2020,2.5,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / COLA (Percent)b,fiscal_year,2020,2020,2020,78,3
+Social Security,COLA (Percent)b,2021,2.6,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / COLA (Percent)b,fiscal_year,2021,2021,2021,78,4
+Social Security,COLA (Percent)b,2022,2.6,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / COLA (Percent)b,fiscal_year,2022,2022,2022,78,5
+Social Security,COLA (Percent)b,2023,2.5,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / COLA (Percent)b,fiscal_year,2023,2023,2023,78,6
+Social Security,COLA (Percent)b,2024,2.4,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / COLA (Percent)b,fiscal_year,2024,2024,2024,78,7
+Social Security,COLA (Percent)b,2025,2.3,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / COLA (Percent)b,fiscal_year,2025,2025,2025,78,8
+Social Security,COLA (Percent)b,2026,2.3,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / COLA (Percent)b,fiscal_year,2026,2026,2026,78,9
+Social Security,COLA (Percent)b,2027,2.1999999999999997,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / COLA (Percent)b,fiscal_year,2027,2027,2027,78,10
+Social Security,COLA (Percent)b,2028,2.1999999999999997,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / COLA (Percent)b,fiscal_year,2028,2028,2028,78,11
+Social Security,COLA (Percent)b,2029,2.1999999999999997,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / COLA (Percent)b,fiscal_year,2029,2029,2029,78,12
+Social Security,COLA (Percent)b,2030,2.1999999999999997,Percent,51308-2020-03-socialsecurity.xlsx,OASI,true,51308,Total / PIA for Hypothetical Retired Worker / COLA (Percent)b,fiscal_year,2030,2030,2030,78,13

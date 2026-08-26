@@ -1,337 +1,337 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Medicaid,Estimated Outlaysa,2025,668.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Estimated Outlaysa,2026,708.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Estimated Outlaysa,2027,726.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Estimated Outlaysa,2028,746.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Estimated Outlaysa,2029,754.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Estimated Outlaysa,2030,777.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Estimated Outlaysa,2031,804.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Estimated Outlaysa,2032,834.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Estimated Outlaysa,2033,870.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Estimated Outlaysa,2034,905.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Estimated Outlaysa,2035,941.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Estimated Outlaysa,2036,981.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Fee for service,2025,142.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Fee for service,2026,148.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Fee for service,2027,151.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Fee for service,2028,155.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Fee for service,2029,156.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Fee for service,2030,161.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Fee for service,2031,166.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Fee for service,2032,173.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Fee for service,2033,181.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Fee for service,2034,189.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Fee for service,2035,197.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Fee for service,2036,207.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Managed care,2025,295.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Managed care,2026,319.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Managed care,2027,325.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Managed care,2028,331.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Managed care,2029,328.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Managed care,2030,337.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Managed care,2031,348.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Managed care,2032,360.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Managed care,2033,376.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Managed care,2034,391.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Managed care,2035,407.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Managed care,2036,423.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Medicare premiums,2025,16.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Medicare premiums,2026,18.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Medicare premiums,2027,19.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Medicare premiums,2028,21.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Medicare premiums,2029,22.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Medicare premiums,2030,23.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Medicare premiums,2031,25.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Medicare premiums,2032,27.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Medicare premiums,2033,29.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Medicare premiums,2034,31.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Medicare premiums,2035,33.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Medicare premiums,2036,35.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Institutional care,2025,64.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Institutional care,2026,66.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Institutional care,2027,67.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Institutional care,2028,68.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Institutional care,2029,68.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Institutional care,2030,69.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Institutional care,2031,69.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Institutional care,2032,70.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Institutional care,2033,71.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Institutional care,2034,71.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Institutional care,2035,72.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Institutional care,2036,73.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Home- and community-based care,2025,110.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Home- and community-based care,2026,116.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Home- and community-based care,2027,121.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Home- and community-based care,2028,127.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Home- and community-based care,2029,132.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Home- and community-based care,2030,138.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Home- and community-based care,2031,143.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Home- and community-based care,2032,149.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Home- and community-based care,2033,156.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Home- and community-based care,2034,162.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Home- and community-based care,2035,169.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Home- and community-based care,2036,176.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Total,2025,627.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2026,668.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2027,684.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2028,702.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2029,707.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2030,727.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2031,751.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2032,778.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2033,812.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2034,845.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2035,878.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2036,914.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Disproportionate Share Hospitals,2025,8.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Disproportionate Share Hospitals,2026,5.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Disproportionate Share Hospitals,2027,6.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Disproportionate Share Hospitals,2028,6.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Disproportionate Share Hospitals,2029,7.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Disproportionate Share Hospitals,2030,8.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Disproportionate Share Hospitals,2031,8.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Disproportionate Share Hospitals,2032,9.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Disproportionate Share Hospitals,2033,9.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Disproportionate Share Hospitals,2034,9.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Disproportionate Share Hospitals,2035,9.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Disproportionate Share Hospitals,2036,10.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Vaccines for Children,2025,7.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Vaccines for Children,2026,7.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Vaccines for Children,2027,7.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Vaccines for Children,2028,8.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Vaccines for Children,2029,8.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Vaccines for Children,2030,8.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Vaccines for Children,2031,9.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Vaccines for Children,2032,9.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Vaccines for Children,2033,10.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Vaccines for Children,2034,10.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Vaccines for Children,2035,11.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Vaccines for Children,2036,11.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Administration,2025,27.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Administration,2026,28.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Administration,2027,29.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Administration,2028,31.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Administration,2029,32.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Administration,2030,34.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Administration,2031,36.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Administration,2032,37.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Administration,2033,39.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Administration,2034,41.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Administration,2035,43.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Administration,2036,45.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2025,125.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2026,135.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2027,142.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2028,149.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2029,156.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2030,162.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2031,169.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2032,176.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2033,184.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2034,192.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2035,200.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2036,208.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2025,191.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2026,202.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2027,211.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2028,220.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2029,229.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2030,238.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2031,248.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2032,259.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2033,272.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2034,285.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2035,297.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2036,311.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2025,85.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2026,89.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2027,91.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2028,93.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2029,95.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2030,99.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2031,106.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2032,110.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2033,113.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2034,116.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2035,120.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2036,124.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2025,83.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2026,90.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2027,92.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2028,93.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2029,92.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2030,95.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2031,98.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2032,101.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2033,106.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2034,111.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2035,116.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2036,121.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2025,144.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2026,153.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2027,148.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2028,145.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2029,134.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2030,132.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2031,131.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2032,132.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2033,137.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2034,141.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2035,145.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2036,150.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Total,2025,627.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2026,668.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2027,684.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2028,702.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2029,707.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2030,727.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2031,751.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2032,778.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2033,812.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2034,845.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2035,878.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2036,914.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Aged,2025,8.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2026,8.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2027,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2028,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2029,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2030,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2031,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2032,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2033,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2034,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2035,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2036,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2025,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2026,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2027,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2028,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2029,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2030,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2031,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2032,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2033,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2034,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2035,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2036,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2025,31.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2026,31.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2027,31.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2028,30.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2029,30.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2030,29.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2031,30.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2032,30.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2033,30.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2034,29.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2035,29.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2036,29.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2025,17.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2026,17.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2027,17.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2028,17.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2029,16.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2030,16.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2031,16.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2032,16.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2033,16.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2034,16.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2035,16.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2036,16.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2025,17.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2026,17.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2027,15.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2028,14.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2029,12.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2030,11.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2031,11.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2032,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2033,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2034,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2035,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2036,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Total,2025,82.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2026,83.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2027,81.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2028,79.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2029,76.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2030,75.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2031,75.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2032,75.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2033,74.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2034,74.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2035,74.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total,2036,73.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total Enrolled Within a Fiscal Year,2025,98.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total Enrolled Within a Fiscal Year,2026,99.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total Enrolled Within a Fiscal Year,2027,96.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total Enrolled Within a Fiscal Year,2028,94.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total Enrolled Within a Fiscal Year,2029,91.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total Enrolled Within a Fiscal Year,2030,89.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total Enrolled Within a Fiscal Year,2031,89.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total Enrolled Within a Fiscal Year,2032,89.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total Enrolled Within a Fiscal Year,2033,89.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total Enrolled Within a Fiscal Year,2034,88.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total Enrolled Within a Fiscal Year,2035,88.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Total Enrolled Within a Fiscal Year,2036,87.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true
-Medicaid,Aged,2025,15660.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2026,16000.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2027,16490.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2028,16990.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2029,17480.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2030,18050.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2031,18590.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2032,19190.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2033,19880.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2034,20580.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2035,21240.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Aged,2036,21980.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2025,21450.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2026,22140.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2027,22890.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2028,23670.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2029,24410.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2030,25580.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2031,26550.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2032,27500.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2033,28580.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2034,29680.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2035,30720.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Blind and Disabled,2036,31910.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2025,2710.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2026,2840.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2027,2980.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2028,3100.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2029,3210.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2030,3380.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2031,3510.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2032,3670.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2033,3830.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2034,3980.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2035,4150.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Children,2036,4350.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2025,4820.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2026,5120.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2027,5290.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2028,5500.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2029,5600.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2030,5900.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2031,6160.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2032,6440.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2033,6730.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2034,7020.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2035,7340.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults in Traditional Eligibility Categories,2036,7680.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2025,8670.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2026,9240.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2027,9860.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2028,10440.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2029,11110.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2030,11770.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2031,12260.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2032,12730.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2033,13270.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2034,13830.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2035,14460.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
-Medicaid,Adults Made Eligible by the ACA,2036,15130.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+Medicaid,Estimated Outlaysa,2025,668.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / BUDGET INFORMATION / Estimated Outlaysa,fiscal_year,2025,2025,2025,13,4
+Medicaid,Estimated Outlaysa,2026,708.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / BUDGET INFORMATION / Estimated Outlaysa,fiscal_year,2026,2026,2026,13,5
+Medicaid,Estimated Outlaysa,2027,726.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / BUDGET INFORMATION / Estimated Outlaysa,fiscal_year,2027,2027,2027,13,6
+Medicaid,Estimated Outlaysa,2028,746.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / BUDGET INFORMATION / Estimated Outlaysa,fiscal_year,2028,2028,2028,13,7
+Medicaid,Estimated Outlaysa,2029,754.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / BUDGET INFORMATION / Estimated Outlaysa,fiscal_year,2029,2029,2029,13,8
+Medicaid,Estimated Outlaysa,2030,777.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / BUDGET INFORMATION / Estimated Outlaysa,fiscal_year,2030,2030,2030,13,9
+Medicaid,Estimated Outlaysa,2031,804.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / BUDGET INFORMATION / Estimated Outlaysa,fiscal_year,2031,2031,2031,13,10
+Medicaid,Estimated Outlaysa,2032,834.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / BUDGET INFORMATION / Estimated Outlaysa,fiscal_year,2032,2032,2032,13,11
+Medicaid,Estimated Outlaysa,2033,870.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / BUDGET INFORMATION / Estimated Outlaysa,fiscal_year,2033,2033,2033,13,12
+Medicaid,Estimated Outlaysa,2034,905.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / BUDGET INFORMATION / Estimated Outlaysa,fiscal_year,2034,2034,2034,13,13
+Medicaid,Estimated Outlaysa,2035,941.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / BUDGET INFORMATION / Estimated Outlaysa,fiscal_year,2035,2035,2035,13,14
+Medicaid,Estimated Outlaysa,2036,981.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / BUDGET INFORMATION / Estimated Outlaysa,fiscal_year,2036,2036,2036,13,15
+Medicaid,Fee for service,2025,142.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Fee for service,fiscal_year,2025,2025,2025,18,4
+Medicaid,Fee for service,2026,148.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Fee for service,fiscal_year,2026,2026,2026,18,5
+Medicaid,Fee for service,2027,151.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Fee for service,fiscal_year,2027,2027,2027,18,6
+Medicaid,Fee for service,2028,155.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Fee for service,fiscal_year,2028,2028,2028,18,7
+Medicaid,Fee for service,2029,156.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Fee for service,fiscal_year,2029,2029,2029,18,8
+Medicaid,Fee for service,2030,161.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Fee for service,fiscal_year,2030,2030,2030,18,9
+Medicaid,Fee for service,2031,166.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Fee for service,fiscal_year,2031,2031,2031,18,10
+Medicaid,Fee for service,2032,173.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Fee for service,fiscal_year,2032,2032,2032,18,11
+Medicaid,Fee for service,2033,181.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Fee for service,fiscal_year,2033,2033,2033,18,12
+Medicaid,Fee for service,2034,189.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Fee for service,fiscal_year,2034,2034,2034,18,13
+Medicaid,Fee for service,2035,197.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Fee for service,fiscal_year,2035,2035,2035,18,14
+Medicaid,Fee for service,2036,207.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Fee for service,fiscal_year,2036,2036,2036,18,15
+Medicaid,Managed care,2025,295.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Managed care,fiscal_year,2025,2025,2025,19,4
+Medicaid,Managed care,2026,319.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Managed care,fiscal_year,2026,2026,2026,19,5
+Medicaid,Managed care,2027,325.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Managed care,fiscal_year,2027,2027,2027,19,6
+Medicaid,Managed care,2028,331.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Managed care,fiscal_year,2028,2028,2028,19,7
+Medicaid,Managed care,2029,328.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Managed care,fiscal_year,2029,2029,2029,19,8
+Medicaid,Managed care,2030,337.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Managed care,fiscal_year,2030,2030,2030,19,9
+Medicaid,Managed care,2031,348.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Managed care,fiscal_year,2031,2031,2031,19,10
+Medicaid,Managed care,2032,360.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Managed care,fiscal_year,2032,2032,2032,19,11
+Medicaid,Managed care,2033,376.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Managed care,fiscal_year,2033,2033,2033,19,12
+Medicaid,Managed care,2034,391.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Managed care,fiscal_year,2034,2034,2034,19,13
+Medicaid,Managed care,2035,407.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Managed care,fiscal_year,2035,2035,2035,19,14
+Medicaid,Managed care,2036,423.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Managed care,fiscal_year,2036,2036,2036,19,15
+Medicaid,Medicare premiums,2025,16.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Medicare premiums,fiscal_year,2025,2025,2025,20,4
+Medicaid,Medicare premiums,2026,18.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Medicare premiums,fiscal_year,2026,2026,2026,20,5
+Medicaid,Medicare premiums,2027,19.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Medicare premiums,fiscal_year,2027,2027,2027,20,6
+Medicaid,Medicare premiums,2028,21.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Medicare premiums,fiscal_year,2028,2028,2028,20,7
+Medicaid,Medicare premiums,2029,22.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Medicare premiums,fiscal_year,2029,2029,2029,20,8
+Medicaid,Medicare premiums,2030,23.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Medicare premiums,fiscal_year,2030,2030,2030,20,9
+Medicaid,Medicare premiums,2031,25.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Medicare premiums,fiscal_year,2031,2031,2031,20,10
+Medicaid,Medicare premiums,2032,27.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Medicare premiums,fiscal_year,2032,2032,2032,20,11
+Medicaid,Medicare premiums,2033,29.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Medicare premiums,fiscal_year,2033,2033,2033,20,12
+Medicaid,Medicare premiums,2034,31.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Medicare premiums,fiscal_year,2034,2034,2034,20,13
+Medicaid,Medicare premiums,2035,33.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Medicare premiums,fiscal_year,2035,2035,2035,20,14
+Medicaid,Medicare premiums,2036,35.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Acute care / Medicare premiums,fiscal_year,2036,2036,2036,20,15
+Medicaid,Institutional care,2025,64.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Institutional care,fiscal_year,2025,2025,2025,22,4
+Medicaid,Institutional care,2026,66.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Institutional care,fiscal_year,2026,2026,2026,22,5
+Medicaid,Institutional care,2027,67.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Institutional care,fiscal_year,2027,2027,2027,22,6
+Medicaid,Institutional care,2028,68.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Institutional care,fiscal_year,2028,2028,2028,22,7
+Medicaid,Institutional care,2029,68.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Institutional care,fiscal_year,2029,2029,2029,22,8
+Medicaid,Institutional care,2030,69.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Institutional care,fiscal_year,2030,2030,2030,22,9
+Medicaid,Institutional care,2031,69.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Institutional care,fiscal_year,2031,2031,2031,22,10
+Medicaid,Institutional care,2032,70.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Institutional care,fiscal_year,2032,2032,2032,22,11
+Medicaid,Institutional care,2033,71.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Institutional care,fiscal_year,2033,2033,2033,22,12
+Medicaid,Institutional care,2034,71.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Institutional care,fiscal_year,2034,2034,2034,22,13
+Medicaid,Institutional care,2035,72.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Institutional care,fiscal_year,2035,2035,2035,22,14
+Medicaid,Institutional care,2036,73.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Institutional care,fiscal_year,2036,2036,2036,22,15
+Medicaid,Home- and community-based care,2025,110.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Home- and community-based care,fiscal_year,2025,2025,2025,23,4
+Medicaid,Home- and community-based care,2026,116.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Home- and community-based care,fiscal_year,2026,2026,2026,23,5
+Medicaid,Home- and community-based care,2027,121.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Home- and community-based care,fiscal_year,2027,2027,2027,23,6
+Medicaid,Home- and community-based care,2028,127.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Home- and community-based care,fiscal_year,2028,2028,2028,23,7
+Medicaid,Home- and community-based care,2029,132.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Home- and community-based care,fiscal_year,2029,2029,2029,23,8
+Medicaid,Home- and community-based care,2030,138.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Home- and community-based care,fiscal_year,2030,2030,2030,23,9
+Medicaid,Home- and community-based care,2031,143.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Home- and community-based care,fiscal_year,2031,2031,2031,23,10
+Medicaid,Home- and community-based care,2032,149.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Home- and community-based care,fiscal_year,2032,2032,2032,23,11
+Medicaid,Home- and community-based care,2033,156.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Home- and community-based care,fiscal_year,2033,2033,2033,23,12
+Medicaid,Home- and community-based care,2034,162.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Home- and community-based care,fiscal_year,2034,2034,2034,23,13
+Medicaid,Home- and community-based care,2035,169.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Home- and community-based care,fiscal_year,2035,2035,2035,23,14
+Medicaid,Home- and community-based care,2036,176.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Long-term care / Home- and community-based care,fiscal_year,2036,2036,2036,23,15
+Medicaid,Total,2025,627.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Benefits / Long-term care / Total,fiscal_year,2025,2025,2025,24,4
+Medicaid,Total,2026,668.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Benefits / Long-term care / Total,fiscal_year,2026,2026,2026,24,5
+Medicaid,Total,2027,684.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Benefits / Long-term care / Total,fiscal_year,2027,2027,2027,24,6
+Medicaid,Total,2028,702.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Benefits / Long-term care / Total,fiscal_year,2028,2028,2028,24,7
+Medicaid,Total,2029,707.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Benefits / Long-term care / Total,fiscal_year,2029,2029,2029,24,8
+Medicaid,Total,2030,727.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Benefits / Long-term care / Total,fiscal_year,2030,2030,2030,24,9
+Medicaid,Total,2031,751.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Benefits / Long-term care / Total,fiscal_year,2031,2031,2031,24,10
+Medicaid,Total,2032,778.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Benefits / Long-term care / Total,fiscal_year,2032,2032,2032,24,11
+Medicaid,Total,2033,812.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Benefits / Long-term care / Total,fiscal_year,2033,2033,2033,24,12
+Medicaid,Total,2034,845.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Benefits / Long-term care / Total,fiscal_year,2034,2034,2034,24,13
+Medicaid,Total,2035,878.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Benefits / Long-term care / Total,fiscal_year,2035,2035,2035,24,14
+Medicaid,Total,2036,914.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Benefits / Long-term care / Total,fiscal_year,2036,2036,2036,24,15
+Medicaid,Disproportionate Share Hospitals,2025,8.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Disproportionate Share Hospitals,fiscal_year,2025,2025,2025,26,4
+Medicaid,Disproportionate Share Hospitals,2026,5.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Disproportionate Share Hospitals,fiscal_year,2026,2026,2026,26,5
+Medicaid,Disproportionate Share Hospitals,2027,6.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Disproportionate Share Hospitals,fiscal_year,2027,2027,2027,26,6
+Medicaid,Disproportionate Share Hospitals,2028,6.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Disproportionate Share Hospitals,fiscal_year,2028,2028,2028,26,7
+Medicaid,Disproportionate Share Hospitals,2029,7.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Disproportionate Share Hospitals,fiscal_year,2029,2029,2029,26,8
+Medicaid,Disproportionate Share Hospitals,2030,8.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Disproportionate Share Hospitals,fiscal_year,2030,2030,2030,26,9
+Medicaid,Disproportionate Share Hospitals,2031,8.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Disproportionate Share Hospitals,fiscal_year,2031,2031,2031,26,10
+Medicaid,Disproportionate Share Hospitals,2032,9.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Disproportionate Share Hospitals,fiscal_year,2032,2032,2032,26,11
+Medicaid,Disproportionate Share Hospitals,2033,9.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Disproportionate Share Hospitals,fiscal_year,2033,2033,2033,26,12
+Medicaid,Disproportionate Share Hospitals,2034,9.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Disproportionate Share Hospitals,fiscal_year,2034,2034,2034,26,13
+Medicaid,Disproportionate Share Hospitals,2035,9.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Disproportionate Share Hospitals,fiscal_year,2035,2035,2035,26,14
+Medicaid,Disproportionate Share Hospitals,2036,10.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Disproportionate Share Hospitals,fiscal_year,2036,2036,2036,26,15
+Medicaid,Vaccines for Children,2025,7.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Vaccines for Children,fiscal_year,2025,2025,2025,27,4
+Medicaid,Vaccines for Children,2026,7.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Vaccines for Children,fiscal_year,2026,2026,2026,27,5
+Medicaid,Vaccines for Children,2027,7.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Vaccines for Children,fiscal_year,2027,2027,2027,27,6
+Medicaid,Vaccines for Children,2028,8.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Vaccines for Children,fiscal_year,2028,2028,2028,27,7
+Medicaid,Vaccines for Children,2029,8.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Vaccines for Children,fiscal_year,2029,2029,2029,27,8
+Medicaid,Vaccines for Children,2030,8.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Vaccines for Children,fiscal_year,2030,2030,2030,27,9
+Medicaid,Vaccines for Children,2031,9.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Vaccines for Children,fiscal_year,2031,2031,2031,27,10
+Medicaid,Vaccines for Children,2032,9.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Vaccines for Children,fiscal_year,2032,2032,2032,27,11
+Medicaid,Vaccines for Children,2033,10.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Vaccines for Children,fiscal_year,2033,2033,2033,27,12
+Medicaid,Vaccines for Children,2034,10.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Vaccines for Children,fiscal_year,2034,2034,2034,27,13
+Medicaid,Vaccines for Children,2035,11.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Vaccines for Children,fiscal_year,2035,2035,2035,27,14
+Medicaid,Vaccines for Children,2036,11.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Vaccines for Children,fiscal_year,2036,2036,2036,27,15
+Medicaid,Administration,2025,27.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Administration,fiscal_year,2025,2025,2025,28,4
+Medicaid,Administration,2026,28.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Administration,fiscal_year,2026,2026,2026,28,5
+Medicaid,Administration,2027,29.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Administration,fiscal_year,2027,2027,2027,28,6
+Medicaid,Administration,2028,31.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Administration,fiscal_year,2028,2028,2028,28,7
+Medicaid,Administration,2029,32.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Administration,fiscal_year,2029,2029,2029,28,8
+Medicaid,Administration,2030,34.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Administration,fiscal_year,2030,2030,2030,28,9
+Medicaid,Administration,2031,36.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Administration,fiscal_year,2031,2031,2031,28,10
+Medicaid,Administration,2032,37.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Administration,fiscal_year,2032,2032,2032,28,11
+Medicaid,Administration,2033,39.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Administration,fiscal_year,2033,2033,2033,28,12
+Medicaid,Administration,2034,41.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Administration,fiscal_year,2034,2034,2034,28,13
+Medicaid,Administration,2035,43.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Administration,fiscal_year,2035,2035,2035,28,14
+Medicaid,Administration,2036,45.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Benefits / Administration,fiscal_year,2036,2036,2036,28,15
+Medicaid,Aged,2025,125.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Aged,fiscal_year,2025,2025,2025,34,4
+Medicaid,Aged,2026,135.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Aged,fiscal_year,2026,2026,2026,34,5
+Medicaid,Aged,2027,142.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Aged,fiscal_year,2027,2027,2027,34,6
+Medicaid,Aged,2028,149.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Aged,fiscal_year,2028,2028,2028,34,7
+Medicaid,Aged,2029,156.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Aged,fiscal_year,2029,2029,2029,34,8
+Medicaid,Aged,2030,162.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Aged,fiscal_year,2030,2030,2030,34,9
+Medicaid,Aged,2031,169.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Aged,fiscal_year,2031,2031,2031,34,10
+Medicaid,Aged,2032,176.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Aged,fiscal_year,2032,2032,2032,34,11
+Medicaid,Aged,2033,184.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Aged,fiscal_year,2033,2033,2033,34,12
+Medicaid,Aged,2034,192.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Aged,fiscal_year,2034,2034,2034,34,13
+Medicaid,Aged,2035,200.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Aged,fiscal_year,2035,2035,2035,34,14
+Medicaid,Aged,2036,208.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Aged,fiscal_year,2036,2036,2036,34,15
+Medicaid,Blind and Disabled,2025,191.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Blind and Disabled,fiscal_year,2025,2025,2025,35,4
+Medicaid,Blind and Disabled,2026,202.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Blind and Disabled,fiscal_year,2026,2026,2026,35,5
+Medicaid,Blind and Disabled,2027,211.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Blind and Disabled,fiscal_year,2027,2027,2027,35,6
+Medicaid,Blind and Disabled,2028,220.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Blind and Disabled,fiscal_year,2028,2028,2028,35,7
+Medicaid,Blind and Disabled,2029,229.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Blind and Disabled,fiscal_year,2029,2029,2029,35,8
+Medicaid,Blind and Disabled,2030,238.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Blind and Disabled,fiscal_year,2030,2030,2030,35,9
+Medicaid,Blind and Disabled,2031,248.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Blind and Disabled,fiscal_year,2031,2031,2031,35,10
+Medicaid,Blind and Disabled,2032,259.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Blind and Disabled,fiscal_year,2032,2032,2032,35,11
+Medicaid,Blind and Disabled,2033,272.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Blind and Disabled,fiscal_year,2033,2033,2033,35,12
+Medicaid,Blind and Disabled,2034,285.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Blind and Disabled,fiscal_year,2034,2034,2034,35,13
+Medicaid,Blind and Disabled,2035,297.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Blind and Disabled,fiscal_year,2035,2035,2035,35,14
+Medicaid,Blind and Disabled,2036,311.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Blind and Disabled,fiscal_year,2036,2036,2036,35,15
+Medicaid,Children,2025,85.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Children,fiscal_year,2025,2025,2025,36,4
+Medicaid,Children,2026,89.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Children,fiscal_year,2026,2026,2026,36,5
+Medicaid,Children,2027,91.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Children,fiscal_year,2027,2027,2027,36,6
+Medicaid,Children,2028,93.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Children,fiscal_year,2028,2028,2028,36,7
+Medicaid,Children,2029,95.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Children,fiscal_year,2029,2029,2029,36,8
+Medicaid,Children,2030,99.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Children,fiscal_year,2030,2030,2030,36,9
+Medicaid,Children,2031,106.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Children,fiscal_year,2031,2031,2031,36,10
+Medicaid,Children,2032,110.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Children,fiscal_year,2032,2032,2032,36,11
+Medicaid,Children,2033,113.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Children,fiscal_year,2033,2033,2033,36,12
+Medicaid,Children,2034,116.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Children,fiscal_year,2034,2034,2034,36,13
+Medicaid,Children,2035,120.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Children,fiscal_year,2035,2035,2035,36,14
+Medicaid,Children,2036,124.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Children,fiscal_year,2036,2036,2036,36,15
+Medicaid,Adults in Traditional Eligibility Categories,2025,83.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults in Traditional Eligibility Categories,fiscal_year,2025,2025,2025,37,4
+Medicaid,Adults in Traditional Eligibility Categories,2026,90.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults in Traditional Eligibility Categories,fiscal_year,2026,2026,2026,37,5
+Medicaid,Adults in Traditional Eligibility Categories,2027,92.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults in Traditional Eligibility Categories,fiscal_year,2027,2027,2027,37,6
+Medicaid,Adults in Traditional Eligibility Categories,2028,93.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults in Traditional Eligibility Categories,fiscal_year,2028,2028,2028,37,7
+Medicaid,Adults in Traditional Eligibility Categories,2029,92.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults in Traditional Eligibility Categories,fiscal_year,2029,2029,2029,37,8
+Medicaid,Adults in Traditional Eligibility Categories,2030,95.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults in Traditional Eligibility Categories,fiscal_year,2030,2030,2030,37,9
+Medicaid,Adults in Traditional Eligibility Categories,2031,98.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults in Traditional Eligibility Categories,fiscal_year,2031,2031,2031,37,10
+Medicaid,Adults in Traditional Eligibility Categories,2032,101.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults in Traditional Eligibility Categories,fiscal_year,2032,2032,2032,37,11
+Medicaid,Adults in Traditional Eligibility Categories,2033,106.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults in Traditional Eligibility Categories,fiscal_year,2033,2033,2033,37,12
+Medicaid,Adults in Traditional Eligibility Categories,2034,111.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults in Traditional Eligibility Categories,fiscal_year,2034,2034,2034,37,13
+Medicaid,Adults in Traditional Eligibility Categories,2035,116.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults in Traditional Eligibility Categories,fiscal_year,2035,2035,2035,37,14
+Medicaid,Adults in Traditional Eligibility Categories,2036,121.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults in Traditional Eligibility Categories,fiscal_year,2036,2036,2036,37,15
+Medicaid,Adults Made Eligible by the ACA,2025,144.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults Made Eligible by the ACA,fiscal_year,2025,2025,2025,38,4
+Medicaid,Adults Made Eligible by the ACA,2026,153.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults Made Eligible by the ACA,fiscal_year,2026,2026,2026,38,5
+Medicaid,Adults Made Eligible by the ACA,2027,148.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults Made Eligible by the ACA,fiscal_year,2027,2027,2027,38,6
+Medicaid,Adults Made Eligible by the ACA,2028,145.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults Made Eligible by the ACA,fiscal_year,2028,2028,2028,38,7
+Medicaid,Adults Made Eligible by the ACA,2029,134.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults Made Eligible by the ACA,fiscal_year,2029,2029,2029,38,8
+Medicaid,Adults Made Eligible by the ACA,2030,132.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults Made Eligible by the ACA,fiscal_year,2030,2030,2030,38,9
+Medicaid,Adults Made Eligible by the ACA,2031,131.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults Made Eligible by the ACA,fiscal_year,2031,2031,2031,38,10
+Medicaid,Adults Made Eligible by the ACA,2032,132.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults Made Eligible by the ACA,fiscal_year,2032,2032,2032,38,11
+Medicaid,Adults Made Eligible by the ACA,2033,137.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults Made Eligible by the ACA,fiscal_year,2033,2033,2033,38,12
+Medicaid,Adults Made Eligible by the ACA,2034,141.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults Made Eligible by the ACA,fiscal_year,2034,2034,2034,38,13
+Medicaid,Adults Made Eligible by the ACA,2035,145.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults Made Eligible by the ACA,fiscal_year,2035,2035,2035,38,14
+Medicaid,Adults Made Eligible by the ACA,2036,150.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Adults Made Eligible by the ACA,fiscal_year,2036,2036,2036,38,15
+Medicaid,Total,2025,627.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Total,fiscal_year,2025,2025,2025,39,4
+Medicaid,Total,2026,668.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Total,fiscal_year,2026,2026,2026,39,5
+Medicaid,Total,2027,684.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Total,fiscal_year,2027,2027,2027,39,6
+Medicaid,Total,2028,702.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Total,fiscal_year,2028,2028,2028,39,7
+Medicaid,Total,2029,707.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Total,fiscal_year,2029,2029,2029,39,8
+Medicaid,Total,2030,727.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Total,fiscal_year,2030,2030,2030,39,9
+Medicaid,Total,2031,751.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Total,fiscal_year,2031,2031,2031,39,10
+Medicaid,Total,2032,778.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Total,fiscal_year,2032,2032,2032,39,11
+Medicaid,Total,2033,812.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Total,fiscal_year,2033,2033,2033,39,12
+Medicaid,Total,2034,845.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Total,fiscal_year,2034,2034,2034,39,13
+Medicaid,Total,2035,878.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Total,fiscal_year,2035,2035,2035,39,14
+Medicaid,Total,2036,914.0,Billions of dollars,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Federal Benefit Payments by Eligibility Category (Billions of dollars) / Total,fiscal_year,2036,2036,2036,39,15
+Medicaid,Aged,2025,8.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Aged,fiscal_year,2025,2025,2025,42,4
+Medicaid,Aged,2026,8.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Aged,fiscal_year,2026,2026,2026,42,5
+Medicaid,Aged,2027,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Aged,fiscal_year,2027,2027,2027,42,6
+Medicaid,Aged,2028,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Aged,fiscal_year,2028,2028,2028,42,7
+Medicaid,Aged,2029,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Aged,fiscal_year,2029,2029,2029,42,8
+Medicaid,Aged,2030,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Aged,fiscal_year,2030,2030,2030,42,9
+Medicaid,Aged,2031,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Aged,fiscal_year,2031,2031,2031,42,10
+Medicaid,Aged,2032,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Aged,fiscal_year,2032,2032,2032,42,11
+Medicaid,Aged,2033,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Aged,fiscal_year,2033,2033,2033,42,12
+Medicaid,Aged,2034,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Aged,fiscal_year,2034,2034,2034,42,13
+Medicaid,Aged,2035,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Aged,fiscal_year,2035,2035,2035,42,14
+Medicaid,Aged,2036,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Aged,fiscal_year,2036,2036,2036,42,15
+Medicaid,Blind and Disabled,2025,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Blind and Disabled,fiscal_year,2025,2025,2025,43,4
+Medicaid,Blind and Disabled,2026,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Blind and Disabled,fiscal_year,2026,2026,2026,43,5
+Medicaid,Blind and Disabled,2027,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Blind and Disabled,fiscal_year,2027,2027,2027,43,6
+Medicaid,Blind and Disabled,2028,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Blind and Disabled,fiscal_year,2028,2028,2028,43,7
+Medicaid,Blind and Disabled,2029,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Blind and Disabled,fiscal_year,2029,2029,2029,43,8
+Medicaid,Blind and Disabled,2030,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Blind and Disabled,fiscal_year,2030,2030,2030,43,9
+Medicaid,Blind and Disabled,2031,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Blind and Disabled,fiscal_year,2031,2031,2031,43,10
+Medicaid,Blind and Disabled,2032,9.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Blind and Disabled,fiscal_year,2032,2032,2032,43,11
+Medicaid,Blind and Disabled,2033,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Blind and Disabled,fiscal_year,2033,2033,2033,43,12
+Medicaid,Blind and Disabled,2034,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Blind and Disabled,fiscal_year,2034,2034,2034,43,13
+Medicaid,Blind and Disabled,2035,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Blind and Disabled,fiscal_year,2035,2035,2035,43,14
+Medicaid,Blind and Disabled,2036,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Blind and Disabled,fiscal_year,2036,2036,2036,43,15
+Medicaid,Children,2025,31.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Children,fiscal_year,2025,2025,2025,44,4
+Medicaid,Children,2026,31.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Children,fiscal_year,2026,2026,2026,44,5
+Medicaid,Children,2027,31.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Children,fiscal_year,2027,2027,2027,44,6
+Medicaid,Children,2028,30.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Children,fiscal_year,2028,2028,2028,44,7
+Medicaid,Children,2029,30.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Children,fiscal_year,2029,2029,2029,44,8
+Medicaid,Children,2030,29.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Children,fiscal_year,2030,2030,2030,44,9
+Medicaid,Children,2031,30.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Children,fiscal_year,2031,2031,2031,44,10
+Medicaid,Children,2032,30.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Children,fiscal_year,2032,2032,2032,44,11
+Medicaid,Children,2033,30.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Children,fiscal_year,2033,2033,2033,44,12
+Medicaid,Children,2034,29.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Children,fiscal_year,2034,2034,2034,44,13
+Medicaid,Children,2035,29.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Children,fiscal_year,2035,2035,2035,44,14
+Medicaid,Children,2036,29.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Children,fiscal_year,2036,2036,2036,44,15
+Medicaid,Adults in Traditional Eligibility Categories,2025,17.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults in Traditional Eligibility Categories,fiscal_year,2025,2025,2025,45,4
+Medicaid,Adults in Traditional Eligibility Categories,2026,17.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults in Traditional Eligibility Categories,fiscal_year,2026,2026,2026,45,5
+Medicaid,Adults in Traditional Eligibility Categories,2027,17.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults in Traditional Eligibility Categories,fiscal_year,2027,2027,2027,45,6
+Medicaid,Adults in Traditional Eligibility Categories,2028,17.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults in Traditional Eligibility Categories,fiscal_year,2028,2028,2028,45,7
+Medicaid,Adults in Traditional Eligibility Categories,2029,16.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults in Traditional Eligibility Categories,fiscal_year,2029,2029,2029,45,8
+Medicaid,Adults in Traditional Eligibility Categories,2030,16.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults in Traditional Eligibility Categories,fiscal_year,2030,2030,2030,45,9
+Medicaid,Adults in Traditional Eligibility Categories,2031,16.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults in Traditional Eligibility Categories,fiscal_year,2031,2031,2031,45,10
+Medicaid,Adults in Traditional Eligibility Categories,2032,16.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults in Traditional Eligibility Categories,fiscal_year,2032,2032,2032,45,11
+Medicaid,Adults in Traditional Eligibility Categories,2033,16.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults in Traditional Eligibility Categories,fiscal_year,2033,2033,2033,45,12
+Medicaid,Adults in Traditional Eligibility Categories,2034,16.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults in Traditional Eligibility Categories,fiscal_year,2034,2034,2034,45,13
+Medicaid,Adults in Traditional Eligibility Categories,2035,16.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults in Traditional Eligibility Categories,fiscal_year,2035,2035,2035,45,14
+Medicaid,Adults in Traditional Eligibility Categories,2036,16.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults in Traditional Eligibility Categories,fiscal_year,2036,2036,2036,45,15
+Medicaid,Adults Made Eligible by the ACA,2025,17.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults Made Eligible by the ACA,fiscal_year,2025,2025,2025,46,4
+Medicaid,Adults Made Eligible by the ACA,2026,17.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults Made Eligible by the ACA,fiscal_year,2026,2026,2026,46,5
+Medicaid,Adults Made Eligible by the ACA,2027,15.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults Made Eligible by the ACA,fiscal_year,2027,2027,2027,46,6
+Medicaid,Adults Made Eligible by the ACA,2028,14.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults Made Eligible by the ACA,fiscal_year,2028,2028,2028,46,7
+Medicaid,Adults Made Eligible by the ACA,2029,12.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults Made Eligible by the ACA,fiscal_year,2029,2029,2029,46,8
+Medicaid,Adults Made Eligible by the ACA,2030,11.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults Made Eligible by the ACA,fiscal_year,2030,2030,2030,46,9
+Medicaid,Adults Made Eligible by the ACA,2031,11.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults Made Eligible by the ACA,fiscal_year,2031,2031,2031,46,10
+Medicaid,Adults Made Eligible by the ACA,2032,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults Made Eligible by the ACA,fiscal_year,2032,2032,2032,46,11
+Medicaid,Adults Made Eligible by the ACA,2033,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults Made Eligible by the ACA,fiscal_year,2033,2033,2033,46,12
+Medicaid,Adults Made Eligible by the ACA,2034,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults Made Eligible by the ACA,fiscal_year,2034,2034,2034,46,13
+Medicaid,Adults Made Eligible by the ACA,2035,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults Made Eligible by the ACA,fiscal_year,2035,2035,2035,46,14
+Medicaid,Adults Made Eligible by the ACA,2036,10.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults Made Eligible by the ACA,fiscal_year,2036,2036,2036,46,15
+Medicaid,Total,2025,82.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Total,fiscal_year,2025,2025,2025,47,4
+Medicaid,Total,2026,83.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Total,fiscal_year,2026,2026,2026,47,5
+Medicaid,Total,2027,81.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Total,fiscal_year,2027,2027,2027,47,6
+Medicaid,Total,2028,79.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Total,fiscal_year,2028,2028,2028,47,7
+Medicaid,Total,2029,76.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Total,fiscal_year,2029,2029,2029,47,8
+Medicaid,Total,2030,75.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Total,fiscal_year,2030,2030,2030,47,9
+Medicaid,Total,2031,75.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Total,fiscal_year,2031,2031,2031,47,10
+Medicaid,Total,2032,75.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Total,fiscal_year,2032,2032,2032,47,11
+Medicaid,Total,2033,74.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Total,fiscal_year,2033,2033,2033,47,12
+Medicaid,Total,2034,74.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Total,fiscal_year,2034,2034,2034,47,13
+Medicaid,Total,2035,74.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Total,fiscal_year,2035,2035,2035,47,14
+Medicaid,Total,2036,73.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Total,fiscal_year,2036,2036,2036,47,15
+Medicaid,Total Enrolled Within a Fiscal Year,2025,98.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2025,2025,2025,51,4
+Medicaid,Total Enrolled Within a Fiscal Year,2026,99.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2026,2026,2026,51,5
+Medicaid,Total Enrolled Within a Fiscal Year,2027,96.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2027,2027,2027,51,6
+Medicaid,Total Enrolled Within a Fiscal Year,2028,94.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2028,2028,2028,51,7
+Medicaid,Total Enrolled Within a Fiscal Year,2029,91.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2029,2029,2029,51,8
+Medicaid,Total Enrolled Within a Fiscal Year,2030,89.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2030,2030,2030,51,9
+Medicaid,Total Enrolled Within a Fiscal Year,2031,89.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2031,2031,2031,51,10
+Medicaid,Total Enrolled Within a Fiscal Year,2032,89.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2032,2032,2032,51,11
+Medicaid,Total Enrolled Within a Fiscal Year,2033,89.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2033,2033,2033,51,12
+Medicaid,Total Enrolled Within a Fiscal Year,2034,88.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2034,2034,2034,51,13
+Medicaid,Total Enrolled Within a Fiscal Year,2035,88.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2035,2035,2035,51,14
+Medicaid,Total Enrolled Within a Fiscal Year,2036,87.0,Millions of people,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,true,51301,Medicaid / Memorandum: / Total Enrolled Within a Fiscal Year,fiscal_year,2036,2036,2036,51,15
+Medicaid,Aged,2025,15660.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Aged,fiscal_year,2025,2025,2025,54,4
+Medicaid,Aged,2026,16000.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Aged,fiscal_year,2026,2026,2026,54,5
+Medicaid,Aged,2027,16490.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Aged,fiscal_year,2027,2027,2027,54,6
+Medicaid,Aged,2028,16990.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Aged,fiscal_year,2028,2028,2028,54,7
+Medicaid,Aged,2029,17480.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Aged,fiscal_year,2029,2029,2029,54,8
+Medicaid,Aged,2030,18050.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Aged,fiscal_year,2030,2030,2030,54,9
+Medicaid,Aged,2031,18590.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Aged,fiscal_year,2031,2031,2031,54,10
+Medicaid,Aged,2032,19190.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Aged,fiscal_year,2032,2032,2032,54,11
+Medicaid,Aged,2033,19880.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Aged,fiscal_year,2033,2033,2033,54,12
+Medicaid,Aged,2034,20580.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Aged,fiscal_year,2034,2034,2034,54,13
+Medicaid,Aged,2035,21240.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Aged,fiscal_year,2035,2035,2035,54,14
+Medicaid,Aged,2036,21980.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Aged,fiscal_year,2036,2036,2036,54,15
+Medicaid,Blind and Disabled,2025,21450.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Blind and Disabled,fiscal_year,2025,2025,2025,55,4
+Medicaid,Blind and Disabled,2026,22140.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Blind and Disabled,fiscal_year,2026,2026,2026,55,5
+Medicaid,Blind and Disabled,2027,22890.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Blind and Disabled,fiscal_year,2027,2027,2027,55,6
+Medicaid,Blind and Disabled,2028,23670.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Blind and Disabled,fiscal_year,2028,2028,2028,55,7
+Medicaid,Blind and Disabled,2029,24410.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Blind and Disabled,fiscal_year,2029,2029,2029,55,8
+Medicaid,Blind and Disabled,2030,25580.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Blind and Disabled,fiscal_year,2030,2030,2030,55,9
+Medicaid,Blind and Disabled,2031,26550.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Blind and Disabled,fiscal_year,2031,2031,2031,55,10
+Medicaid,Blind and Disabled,2032,27500.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Blind and Disabled,fiscal_year,2032,2032,2032,55,11
+Medicaid,Blind and Disabled,2033,28580.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Blind and Disabled,fiscal_year,2033,2033,2033,55,12
+Medicaid,Blind and Disabled,2034,29680.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Blind and Disabled,fiscal_year,2034,2034,2034,55,13
+Medicaid,Blind and Disabled,2035,30720.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Blind and Disabled,fiscal_year,2035,2035,2035,55,14
+Medicaid,Blind and Disabled,2036,31910.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Blind and Disabled,fiscal_year,2036,2036,2036,55,15
+Medicaid,Children,2025,2710.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Children,fiscal_year,2025,2025,2025,56,4
+Medicaid,Children,2026,2840.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Children,fiscal_year,2026,2026,2026,56,5
+Medicaid,Children,2027,2980.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Children,fiscal_year,2027,2027,2027,56,6
+Medicaid,Children,2028,3100.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Children,fiscal_year,2028,2028,2028,56,7
+Medicaid,Children,2029,3210.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Children,fiscal_year,2029,2029,2029,56,8
+Medicaid,Children,2030,3380.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Children,fiscal_year,2030,2030,2030,56,9
+Medicaid,Children,2031,3510.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Children,fiscal_year,2031,2031,2031,56,10
+Medicaid,Children,2032,3670.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Children,fiscal_year,2032,2032,2032,56,11
+Medicaid,Children,2033,3830.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Children,fiscal_year,2033,2033,2033,56,12
+Medicaid,Children,2034,3980.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Children,fiscal_year,2034,2034,2034,56,13
+Medicaid,Children,2035,4150.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Children,fiscal_year,2035,2035,2035,56,14
+Medicaid,Children,2036,4350.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Children,fiscal_year,2036,2036,2036,56,15
+Medicaid,Adults in Traditional Eligibility Categories,2025,4820.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults in Traditional Eligibility Categories,fiscal_year,2025,2025,2025,57,4
+Medicaid,Adults in Traditional Eligibility Categories,2026,5120.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults in Traditional Eligibility Categories,fiscal_year,2026,2026,2026,57,5
+Medicaid,Adults in Traditional Eligibility Categories,2027,5290.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults in Traditional Eligibility Categories,fiscal_year,2027,2027,2027,57,6
+Medicaid,Adults in Traditional Eligibility Categories,2028,5500.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults in Traditional Eligibility Categories,fiscal_year,2028,2028,2028,57,7
+Medicaid,Adults in Traditional Eligibility Categories,2029,5600.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults in Traditional Eligibility Categories,fiscal_year,2029,2029,2029,57,8
+Medicaid,Adults in Traditional Eligibility Categories,2030,5900.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults in Traditional Eligibility Categories,fiscal_year,2030,2030,2030,57,9
+Medicaid,Adults in Traditional Eligibility Categories,2031,6160.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults in Traditional Eligibility Categories,fiscal_year,2031,2031,2031,57,10
+Medicaid,Adults in Traditional Eligibility Categories,2032,6440.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults in Traditional Eligibility Categories,fiscal_year,2032,2032,2032,57,11
+Medicaid,Adults in Traditional Eligibility Categories,2033,6730.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults in Traditional Eligibility Categories,fiscal_year,2033,2033,2033,57,12
+Medicaid,Adults in Traditional Eligibility Categories,2034,7020.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults in Traditional Eligibility Categories,fiscal_year,2034,2034,2034,57,13
+Medicaid,Adults in Traditional Eligibility Categories,2035,7340.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults in Traditional Eligibility Categories,fiscal_year,2035,2035,2035,57,14
+Medicaid,Adults in Traditional Eligibility Categories,2036,7680.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults in Traditional Eligibility Categories,fiscal_year,2036,2036,2036,57,15
+Medicaid,Adults Made Eligible by the ACA,2025,8670.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults Made Eligible by the ACA,fiscal_year,2025,2025,2025,58,4
+Medicaid,Adults Made Eligible by the ACA,2026,9240.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults Made Eligible by the ACA,fiscal_year,2026,2026,2026,58,5
+Medicaid,Adults Made Eligible by the ACA,2027,9860.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults Made Eligible by the ACA,fiscal_year,2027,2027,2027,58,6
+Medicaid,Adults Made Eligible by the ACA,2028,10440.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults Made Eligible by the ACA,fiscal_year,2028,2028,2028,58,7
+Medicaid,Adults Made Eligible by the ACA,2029,11110.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults Made Eligible by the ACA,fiscal_year,2029,2029,2029,58,8
+Medicaid,Adults Made Eligible by the ACA,2030,11770.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults Made Eligible by the ACA,fiscal_year,2030,2030,2030,58,9
+Medicaid,Adults Made Eligible by the ACA,2031,12260.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults Made Eligible by the ACA,fiscal_year,2031,2031,2031,58,10
+Medicaid,Adults Made Eligible by the ACA,2032,12730.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults Made Eligible by the ACA,fiscal_year,2032,2032,2032,58,11
+Medicaid,Adults Made Eligible by the ACA,2033,13270.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults Made Eligible by the ACA,fiscal_year,2033,2033,2033,58,12
+Medicaid,Adults Made Eligible by the ACA,2034,13830.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults Made Eligible by the ACA,fiscal_year,2034,2034,2034,58,13
+Medicaid,Adults Made Eligible by the ACA,2035,14460.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults Made Eligible by the ACA,fiscal_year,2035,2035,2035,58,14
+Medicaid,Adults Made Eligible by the ACA,2036,15130.0,Dollars per enrollee,51301-2026-02-medicaid.xlsx,Medicaid_02-2026,false,51301,Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults Made Eligible by the ACA,fiscal_year,2036,2036,2036,58,15

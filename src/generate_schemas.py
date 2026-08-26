@@ -31,14 +31,14 @@ COLUMN_META: list[dict] = [
     {
         "name": "program",
         "type": "string",
-        "description": "CBO program name inferred from the source workbook filename.",
+        "description": "Canonical CBO program name keyed by the stable source identifier.",
         "unit": "N/A",
-        "notes": "Derived from the workbook filename; may include a version suffix for older files.",
+        "notes": "Stable across workbook vintages; use ``program_id`` as the machine key.",
     },
     {
         "name": "category",
         "type": "string",
-        "description": "Line-item label as it appears in the source worksheet after header normalization.",
+        "description": "Leaf line-item label from the source worksheet.",
         "unit": "N/A",
         "notes": (
             "Rows where ``is_total`` is ``true`` represent aggregated totals or subtotals "
@@ -47,12 +47,12 @@ COLUMN_META: list[dict] = [
     },
     {
         "name": "fiscal_year",
-        "type": "integer",
-        "description": "Federal fiscal year to which the value applies (Oct 1 – Sep 30).",
+        "type": "integer or null",
+        "description": "Annual federal fiscal year; blank for every other period type.",
         "unit": "Year",
         "notes": (
-            f"Only years in the range {2019}–{2040} are included; historical prior-year "
-            "columns outside that range are silently dropped by the transform."
+            "Historical actuals are retained. Consult ``period_type`` and the explicit "
+            "period bounds before interpreting a row as annual fiscal-year data."
         ),
     },
     {
@@ -68,7 +68,7 @@ COLUMN_META: list[dict] = [
     {
         "name": "unit",
         "type": "string",
-        "description": "Unit of measure for the ``value`` column, sourced from the parse plan.",
+        "description": "Unit of measure for ``value``, resolved from row/section labels and parse metadata.",
         "unit": "N/A",
         "notes": "Common values include 'Millions of dollars', 'Billions of dollars', and 'Thousands'.",
     },
@@ -84,7 +84,7 @@ COLUMN_META: list[dict] = [
         "type": "string",
         "description": "Worksheet name within the source workbook.",
         "unit": "N/A",
-        "notes": "Combine with ``source_file`` for a fully qualified provenance reference.",
+        "notes": "Combine with source file, row, and column for exact cell provenance.",
     },
     {
         "name": "is_total",
@@ -98,6 +98,62 @@ COLUMN_META: list[dict] = [
             "**Always filter ``is_total = true`` rows out before computing sums or averages** "
             "across categories to avoid double-counting. Retain them for headline/summary views."
         ),
+    },
+    {
+        "name": "program_id",
+        "type": "string",
+        "description": "Stable numeric CBO identifier from the source filename.",
+        "unit": "N/A",
+        "notes": "Preferred program join key across vintages.",
+    },
+    {
+        "name": "category_path",
+        "type": "string",
+        "description": "Hierarchy-aware path from table/section headings to the leaf category.",
+        "unit": "N/A",
+        "notes": "Use this field instead of ``category`` when labels repeat in different subprograms.",
+    },
+    {
+        "name": "period_type",
+        "type": "string",
+        "description": "Period semantics for the observation.",
+        "unit": "N/A",
+        "notes": "Values include fiscal_year, calendar_year, award_year, school_year, cumulative_fiscal_years, and unmapped.",
+    },
+    {
+        "name": "period_start_year",
+        "type": "integer or null",
+        "description": "First year represented by the source period.",
+        "unit": "Year",
+        "notes": "Equals period_end_year for annual rows and is blank when the source period is not identified.",
+    },
+    {
+        "name": "period_end_year",
+        "type": "integer or null",
+        "description": "Last year represented by the source period.",
+        "unit": "Year",
+        "notes": "For annual fiscal-year rows this equals ``fiscal_year``.",
+    },
+    {
+        "name": "period_label",
+        "type": "string",
+        "description": "Normalized source period label such as 2025 or 2025-2029.",
+        "unit": "N/A",
+        "notes": "Rows with unrecognized periods are labeled explicitly rather than assigned a guessed year.",
+    },
+    {
+        "name": "source_row",
+        "type": "integer",
+        "description": "One-based worksheet row containing the numeric source value.",
+        "unit": "N/A",
+        "notes": "Together with ``source_column`` identifies the exact source cell.",
+    },
+    {
+        "name": "source_column",
+        "type": "integer",
+        "description": "One-based worksheet column containing the numeric source value.",
+        "unit": "N/A",
+        "notes": "Together with ``source_row`` identifies the exact source cell.",
     },
 ]
 
@@ -205,16 +261,16 @@ def _render_schema_doc(info: DatasetInfo) -> str:
 
     return (
         f"# Schema: {title}\n\n"
-        f"**Dataset:** `{info.basename}`  \n"
-        f"**Vintage:** {vintage or 'see source_file'}  \n"
-        f"**Rows:** {info.row_count:,}  \n"
-        f"**Fiscal years covered:** {year_range}  \n"
+        f"- **Dataset:** `{info.basename}`\n"
+        f"- **Vintage:** {vintage or 'see source_file'}\n"
+        f"- **Rows:** {info.row_count:,}\n"
+        f"- **Fiscal years covered:** {year_range}\n"
         f"\n"
         f"## Purpose\n\n"
         f"Tidy long-form CBO baseline data for the **{program_list}** program(s), "
         f"extracted from CBO budget baseline workbooks published by the Congressional "
-        f"Budget Office. Each row represents a single program/category/fiscal-year "
-        f"observation.\n"
+        f"Budget Office. Each row represents one numeric source cell with explicit "
+        f"program, category hierarchy, period semantics, and cell-level provenance.\n"
         f"{totals_note}\n"
         f"## Provenance\n\n"
         f"| Field | Value |\n"

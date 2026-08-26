@@ -1,89 +1,89 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Tanf,Budget Authority,2024,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Budget Authority,2025,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Budget Authority,2026,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Budget Authority,2027,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Budget Authority,2028,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Budget Authority,2029,16738.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Budget Authority,2030,16738.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Budget Authority,2031,16738.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Budget Authority,2032,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Budget Authority,2033,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Budget Authority,2034,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Estimated Outlays,2024,16056.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Estimated Outlays,2025,16131.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Estimated Outlays,2026,16467.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Estimated Outlays,2027,16738.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Estimated Outlays,2028,16738.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Estimated Outlays,2029,16737.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Estimated Outlays,2030,16738.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Estimated Outlays,2031,16738.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Estimated Outlays,2032,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Estimated Outlays,2033,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Estimated Outlays,2034,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,State Family Assistance Grants,2024,16490.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,State Family Assistance Grants,2025,16490.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,State Family Assistance Grants,2026,16490.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,State Family Assistance Grants,2027,16490.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,State Family Assistance Grants,2028,16490.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,State Family Assistance Grants,2029,16489.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,State Family Assistance Grants,2030,16489.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,State Family Assistance Grants,2031,16489.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,State Family Assistance Grants,2032,16489.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,State Family Assistance Grants,2033,16489.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,State Family Assistance Grants,2034,16489.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Indian Tribes,2024,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Indian Tribes,2025,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Indian Tribes,2026,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Indian Tribes,2027,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Indian Tribes,2028,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Indian Tribes,2029,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Indian Tribes,2030,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Indian Tribes,2031,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Indian Tribes,2032,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Indian Tribes,2033,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Indian Tribes,2034,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Territories,2024,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Territories,2025,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Territories,2026,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Territories,2027,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Territories,2028,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Territories,2029,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Territories,2030,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Territories,2031,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Territories,2032,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Territories,2033,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Grants to Territories,2034,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Marriage/Fatherhood Grants,2024,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Marriage/Fatherhood Grants,2025,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Marriage/Fatherhood Grants,2026,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Marriage/Fatherhood Grants,2027,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Marriage/Fatherhood Grants,2028,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Marriage/Fatherhood Grants,2029,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Marriage/Fatherhood Grants,2030,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Marriage/Fatherhood Grants,2031,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Marriage/Fatherhood Grants,2032,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Marriage/Fatherhood Grants,2033,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Marriage/Fatherhood Grants,2034,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Work Penalties,2024,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Work Penalties,2025,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Work Penalties,2026,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Work Penalties,2027,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Work Penalties,2028,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Work Penalties,2029,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Work Penalties,2030,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Work Penalties,2031,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Work Penalties,2032,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Work Penalties,2033,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Work Penalties,2034,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Sequestrationa,2024,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Sequestrationa,2025,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Sequestrationa,2026,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Sequestrationa,2027,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Sequestrationa,2028,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Sequestrationa,2029,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Sequestrationa,2030,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Sequestrationa,2031,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Sequestrationa,2032,0.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Sequestrationa,2033,0.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
-Tanf,Sequestrationa,2034,0.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+TANF,Budget Authority,2024,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Budget Authority,fiscal_year,2024,2024,2024,13,4
+TANF,Budget Authority,2025,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Budget Authority,fiscal_year,2025,2025,2025,13,5
+TANF,Budget Authority,2026,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Budget Authority,fiscal_year,2026,2026,2026,13,6
+TANF,Budget Authority,2027,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Budget Authority,fiscal_year,2027,2027,2027,13,7
+TANF,Budget Authority,2028,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Budget Authority,fiscal_year,2028,2028,2028,13,8
+TANF,Budget Authority,2029,16738.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Budget Authority,fiscal_year,2029,2029,2029,13,9
+TANF,Budget Authority,2030,16738.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Budget Authority,fiscal_year,2030,2030,2030,13,10
+TANF,Budget Authority,2031,16738.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Budget Authority,fiscal_year,2031,2031,2031,13,11
+TANF,Budget Authority,2032,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Budget Authority,fiscal_year,2032,2032,2032,13,12
+TANF,Budget Authority,2033,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Budget Authority,fiscal_year,2033,2033,2033,13,13
+TANF,Budget Authority,2034,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Budget Authority,fiscal_year,2034,2034,2034,13,14
+TANF,Estimated Outlays,2024,16056.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2024,2024,2024,15,4
+TANF,Estimated Outlays,2025,16131.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2025,2025,2025,15,5
+TANF,Estimated Outlays,2026,16467.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2026,2026,2026,15,6
+TANF,Estimated Outlays,2027,16738.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2027,2027,2027,15,7
+TANF,Estimated Outlays,2028,16738.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2028,2028,2028,15,8
+TANF,Estimated Outlays,2029,16737.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2029,2029,2029,15,9
+TANF,Estimated Outlays,2030,16738.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2030,2030,2030,15,10
+TANF,Estimated Outlays,2031,16738.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2031,2031,2031,15,11
+TANF,Estimated Outlays,2032,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2032,2032,2032,15,12
+TANF,Estimated Outlays,2033,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2033,2033,2033,15,13
+TANF,Estimated Outlays,2034,16739.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / BUDGET INFORMATION / Estimated Outlays,fiscal_year,2034,2034,2034,15,14
+TANF,State Family Assistance Grants,2024,16490.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / State Family Assistance Grants,fiscal_year,2024,2024,2024,18,4
+TANF,State Family Assistance Grants,2025,16490.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / State Family Assistance Grants,fiscal_year,2025,2025,2025,18,5
+TANF,State Family Assistance Grants,2026,16490.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / State Family Assistance Grants,fiscal_year,2026,2026,2026,18,6
+TANF,State Family Assistance Grants,2027,16490.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / State Family Assistance Grants,fiscal_year,2027,2027,2027,18,7
+TANF,State Family Assistance Grants,2028,16490.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / State Family Assistance Grants,fiscal_year,2028,2028,2028,18,8
+TANF,State Family Assistance Grants,2029,16489.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / State Family Assistance Grants,fiscal_year,2029,2029,2029,18,9
+TANF,State Family Assistance Grants,2030,16489.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / State Family Assistance Grants,fiscal_year,2030,2030,2030,18,10
+TANF,State Family Assistance Grants,2031,16489.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / State Family Assistance Grants,fiscal_year,2031,2031,2031,18,11
+TANF,State Family Assistance Grants,2032,16489.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / State Family Assistance Grants,fiscal_year,2032,2032,2032,18,12
+TANF,State Family Assistance Grants,2033,16489.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / State Family Assistance Grants,fiscal_year,2033,2033,2033,18,13
+TANF,State Family Assistance Grants,2034,16489.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / State Family Assistance Grants,fiscal_year,2034,2034,2034,18,14
+TANF,Grants to Indian Tribes,2024,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Indian Tribes,fiscal_year,2024,2024,2024,19,4
+TANF,Grants to Indian Tribes,2025,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Indian Tribes,fiscal_year,2025,2025,2025,19,5
+TANF,Grants to Indian Tribes,2026,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Indian Tribes,fiscal_year,2026,2026,2026,19,6
+TANF,Grants to Indian Tribes,2027,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Indian Tribes,fiscal_year,2027,2027,2027,19,7
+TANF,Grants to Indian Tribes,2028,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Indian Tribes,fiscal_year,2028,2028,2028,19,8
+TANF,Grants to Indian Tribes,2029,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Indian Tribes,fiscal_year,2029,2029,2029,19,9
+TANF,Grants to Indian Tribes,2030,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Indian Tribes,fiscal_year,2030,2030,2030,19,10
+TANF,Grants to Indian Tribes,2031,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Indian Tribes,fiscal_year,2031,2031,2031,19,11
+TANF,Grants to Indian Tribes,2032,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Indian Tribes,fiscal_year,2032,2032,2032,19,12
+TANF,Grants to Indian Tribes,2033,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Indian Tribes,fiscal_year,2033,2033,2033,19,13
+TANF,Grants to Indian Tribes,2034,8.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Indian Tribes,fiscal_year,2034,2034,2034,19,14
+TANF,Grants to Territories,2024,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Territories,fiscal_year,2024,2024,2024,20,4
+TANF,Grants to Territories,2025,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Territories,fiscal_year,2025,2025,2025,20,5
+TANF,Grants to Territories,2026,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Territories,fiscal_year,2026,2026,2026,20,6
+TANF,Grants to Territories,2027,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Territories,fiscal_year,2027,2027,2027,20,7
+TANF,Grants to Territories,2028,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Territories,fiscal_year,2028,2028,2028,20,8
+TANF,Grants to Territories,2029,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Territories,fiscal_year,2029,2029,2029,20,9
+TANF,Grants to Territories,2030,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Territories,fiscal_year,2030,2030,2030,20,10
+TANF,Grants to Territories,2031,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Territories,fiscal_year,2031,2031,2031,20,11
+TANF,Grants to Territories,2032,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Territories,fiscal_year,2032,2032,2032,20,12
+TANF,Grants to Territories,2033,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Territories,fiscal_year,2033,2033,2033,20,13
+TANF,Grants to Territories,2034,93.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Grants to Territories,fiscal_year,2034,2034,2034,20,14
+TANF,Marriage/Fatherhood Grants,2024,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Marriage/Fatherhood Grants,fiscal_year,2024,2024,2024,21,4
+TANF,Marriage/Fatherhood Grants,2025,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Marriage/Fatherhood Grants,fiscal_year,2025,2025,2025,21,5
+TANF,Marriage/Fatherhood Grants,2026,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Marriage/Fatherhood Grants,fiscal_year,2026,2026,2026,21,6
+TANF,Marriage/Fatherhood Grants,2027,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Marriage/Fatherhood Grants,fiscal_year,2027,2027,2027,21,7
+TANF,Marriage/Fatherhood Grants,2028,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Marriage/Fatherhood Grants,fiscal_year,2028,2028,2028,21,8
+TANF,Marriage/Fatherhood Grants,2029,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Marriage/Fatherhood Grants,fiscal_year,2029,2029,2029,21,9
+TANF,Marriage/Fatherhood Grants,2030,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Marriage/Fatherhood Grants,fiscal_year,2030,2030,2030,21,10
+TANF,Marriage/Fatherhood Grants,2031,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Marriage/Fatherhood Grants,fiscal_year,2031,2031,2031,21,11
+TANF,Marriage/Fatherhood Grants,2032,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Marriage/Fatherhood Grants,fiscal_year,2032,2032,2032,21,12
+TANF,Marriage/Fatherhood Grants,2033,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Marriage/Fatherhood Grants,fiscal_year,2033,2033,2033,21,13
+TANF,Marriage/Fatherhood Grants,2034,150.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Marriage/Fatherhood Grants,fiscal_year,2034,2034,2034,21,14
+TANF,Work Penalties,2024,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Work Penalties,fiscal_year,2024,2024,2024,22,4
+TANF,Work Penalties,2025,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Work Penalties,fiscal_year,2025,2025,2025,22,5
+TANF,Work Penalties,2026,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Work Penalties,fiscal_year,2026,2026,2026,22,6
+TANF,Work Penalties,2027,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Work Penalties,fiscal_year,2027,2027,2027,22,7
+TANF,Work Penalties,2028,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Work Penalties,fiscal_year,2028,2028,2028,22,8
+TANF,Work Penalties,2029,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Work Penalties,fiscal_year,2029,2029,2029,22,9
+TANF,Work Penalties,2030,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Work Penalties,fiscal_year,2030,2030,2030,22,10
+TANF,Work Penalties,2031,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Work Penalties,fiscal_year,2031,2031,2031,22,11
+TANF,Work Penalties,2032,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Work Penalties,fiscal_year,2032,2032,2032,22,12
+TANF,Work Penalties,2033,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Work Penalties,fiscal_year,2033,2033,2033,22,13
+TANF,Work Penalties,2034,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Work Penalties,fiscal_year,2034,2034,2034,22,14
+TANF,Sequestrationa,2024,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Sequestrationa,fiscal_year,2024,2024,2024,23,4
+TANF,Sequestrationa,2025,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Sequestrationa,fiscal_year,2025,2025,2025,23,5
+TANF,Sequestrationa,2026,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Sequestrationa,fiscal_year,2026,2026,2026,23,6
+TANF,Sequestrationa,2027,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Sequestrationa,fiscal_year,2027,2027,2027,23,7
+TANF,Sequestrationa,2028,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Sequestrationa,fiscal_year,2028,2028,2028,23,8
+TANF,Sequestrationa,2029,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Sequestrationa,fiscal_year,2029,2029,2029,23,9
+TANF,Sequestrationa,2030,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Sequestrationa,fiscal_year,2030,2030,2030,23,10
+TANF,Sequestrationa,2031,-1.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Sequestrationa,fiscal_year,2031,2031,2031,23,11
+TANF,Sequestrationa,2032,0.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Sequestrationa,fiscal_year,2032,2032,2032,23,12
+TANF,Sequestrationa,2033,0.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Sequestrationa,fiscal_year,2033,2033,2033,23,13
+TANF,Sequestrationa,2034,0.0,Millions of dollars,51314-2024-02-tanf.xlsx,TANF_02-2024,false,51314,Temporary Assistance for Needy Families / Budget Authority for TANF Components / Sequestrationa,fiscal_year,2034,2034,2034,23,14

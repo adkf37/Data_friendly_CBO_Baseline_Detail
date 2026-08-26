@@ -1,56 +1,56 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Chip,Budget Authoritya,2026,22.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Budget Authoritya,2027,26.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Budget Authoritya,2028,27.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Budget Authoritya,2029,28.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Budget Authoritya,2030,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Budget Authoritya,2031,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Budget Authoritya,2032,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Budget Authoritya,2033,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Budget Authoritya,2034,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Budget Authoritya,2035,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Budget Authoritya,2036,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Outlays,2026,25.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Outlays,2027,26.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Outlays,2028,27.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Outlays,2029,28.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Outlays,2030,24.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Outlays,2031,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Outlays,2032,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Outlays,2033,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Outlays,2034,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Outlays,2035,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Outlays,2036,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Millions of children,2026,7.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Millions of children,2027,7.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Millions of children,2028,7.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Millions of children,2029,7.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Millions of children,2030,6.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Millions of children,2031,4.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Millions of children,2032,3.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Millions of children,2033,3.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Millions of children,2034,3.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Millions of children,2035,3.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Millions of children,2036,3.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Total Enrollment,2026,7.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,true
-Chip,Total Enrollment,2027,7.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,true
-Chip,Total Enrollment,2028,7.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,true
-Chip,Total Enrollment,2029,7.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,true
-Chip,Total Enrollment,2030,6.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,true
-Chip,Total Enrollment,2031,4.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,true
-Chip,Total Enrollment,2032,3.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,true
-Chip,Total Enrollment,2033,3.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,true
-Chip,Total Enrollment,2034,3.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,true
-Chip,Total Enrollment,2035,3.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,true
-Chip,Total Enrollment,2036,3.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,true
-Chip,Benefit Payments per Enrollee (Dollars),2026,3464.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Benefit Payments per Enrollee (Dollars),2027,3654.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Benefit Payments per Enrollee (Dollars),2028,3812.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Benefit Payments per Enrollee (Dollars),2029,3976.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Benefit Payments per Enrollee (Dollars),2030,4014.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Benefit Payments per Enrollee (Dollars),2031,4125.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Benefit Payments per Enrollee (Dollars),2032,4418.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Benefit Payments per Enrollee (Dollars),2033,4459.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Benefit Payments per Enrollee (Dollars),2034,4603.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Benefit Payments per Enrollee (Dollars),2035,4752.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
-Chip,Benefit Payments per Enrollee (Dollars),2036,4905.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+CHIP,Budget Authoritya,2026,22.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Budget Authoritya",fiscal_year,2026,2026,2026,13,5
+CHIP,Budget Authoritya,2027,26.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Budget Authoritya",fiscal_year,2027,2027,2027,13,6
+CHIP,Budget Authoritya,2028,27.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Budget Authoritya",fiscal_year,2028,2028,2028,13,7
+CHIP,Budget Authoritya,2029,28.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Budget Authoritya",fiscal_year,2029,2029,2029,13,8
+CHIP,Budget Authoritya,2030,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Budget Authoritya",fiscal_year,2030,2030,2030,13,9
+CHIP,Budget Authoritya,2031,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Budget Authoritya",fiscal_year,2031,2031,2031,13,10
+CHIP,Budget Authoritya,2032,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Budget Authoritya",fiscal_year,2032,2032,2032,13,11
+CHIP,Budget Authoritya,2033,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Budget Authoritya",fiscal_year,2033,2033,2033,13,12
+CHIP,Budget Authoritya,2034,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Budget Authoritya",fiscal_year,2034,2034,2034,13,13
+CHIP,Budget Authoritya,2035,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Budget Authoritya",fiscal_year,2035,2035,2035,13,14
+CHIP,Budget Authoritya,2036,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Budget Authoritya",fiscal_year,2036,2036,2036,13,15
+CHIP,Outlays,2026,25.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Outlays",fiscal_year,2026,2026,2026,15,5
+CHIP,Outlays,2027,26.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Outlays",fiscal_year,2027,2027,2027,15,6
+CHIP,Outlays,2028,27.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Outlays",fiscal_year,2028,2028,2028,15,7
+CHIP,Outlays,2029,28.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Outlays",fiscal_year,2029,2029,2029,15,8
+CHIP,Outlays,2030,24.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Outlays",fiscal_year,2030,2030,2030,15,9
+CHIP,Outlays,2031,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Outlays",fiscal_year,2031,2031,2031,15,10
+CHIP,Outlays,2032,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Outlays",fiscal_year,2032,2032,2032,15,11
+CHIP,Outlays,2033,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Outlays",fiscal_year,2033,2033,2033,15,12
+CHIP,Outlays,2034,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Outlays",fiscal_year,2034,2034,2034,15,13
+CHIP,Outlays,2035,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Outlays",fiscal_year,2035,2035,2035,15,14
+CHIP,Outlays,2036,15.0,Billions of dollars,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / BUDGET INFORMATION / Outlays",fiscal_year,2036,2036,2036,15,15
+CHIP,Enrollment at Baseline Funding Amountsb,2026,7.0,Millions of children,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb",fiscal_year,2026,2026,2026,20,5
+CHIP,Enrollment at Baseline Funding Amountsb,2027,7.0,Millions of children,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb",fiscal_year,2027,2027,2027,20,6
+CHIP,Enrollment at Baseline Funding Amountsb,2028,7.0,Millions of children,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb",fiscal_year,2028,2028,2028,20,7
+CHIP,Enrollment at Baseline Funding Amountsb,2029,7.0,Millions of children,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb",fiscal_year,2029,2029,2029,20,8
+CHIP,Enrollment at Baseline Funding Amountsb,2030,6.0,Millions of children,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb",fiscal_year,2030,2030,2030,20,9
+CHIP,Enrollment at Baseline Funding Amountsb,2031,4.0,Millions of children,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb",fiscal_year,2031,2031,2031,20,10
+CHIP,Enrollment at Baseline Funding Amountsb,2032,3.0,Millions of children,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb",fiscal_year,2032,2032,2032,20,11
+CHIP,Enrollment at Baseline Funding Amountsb,2033,3.0,Millions of children,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb",fiscal_year,2033,2033,2033,20,12
+CHIP,Enrollment at Baseline Funding Amountsb,2034,3.0,Millions of children,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb",fiscal_year,2034,2034,2034,20,13
+CHIP,Enrollment at Baseline Funding Amountsb,2035,3.0,Millions of children,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb",fiscal_year,2035,2035,2035,20,14
+CHIP,Enrollment at Baseline Funding Amountsb,2036,3.0,Millions of children,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb",fiscal_year,2036,2036,2036,20,15
+CHIP,Total Enrollment,2026,7.0,Millions of adults,51296-2026-02-chip.xlsx,CHIP_02-2026,true,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb / Total Enrollment",fiscal_year,2026,2026,2026,22,5
+CHIP,Total Enrollment,2027,7.0,Millions of adults,51296-2026-02-chip.xlsx,CHIP_02-2026,true,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb / Total Enrollment",fiscal_year,2027,2027,2027,22,6
+CHIP,Total Enrollment,2028,7.0,Millions of adults,51296-2026-02-chip.xlsx,CHIP_02-2026,true,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb / Total Enrollment",fiscal_year,2028,2028,2028,22,7
+CHIP,Total Enrollment,2029,7.0,Millions of adults,51296-2026-02-chip.xlsx,CHIP_02-2026,true,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb / Total Enrollment",fiscal_year,2029,2029,2029,22,8
+CHIP,Total Enrollment,2030,6.0,Millions of adults,51296-2026-02-chip.xlsx,CHIP_02-2026,true,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb / Total Enrollment",fiscal_year,2030,2030,2030,22,9
+CHIP,Total Enrollment,2031,4.0,Millions of adults,51296-2026-02-chip.xlsx,CHIP_02-2026,true,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb / Total Enrollment",fiscal_year,2031,2031,2031,22,10
+CHIP,Total Enrollment,2032,3.0,Millions of adults,51296-2026-02-chip.xlsx,CHIP_02-2026,true,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb / Total Enrollment",fiscal_year,2032,2032,2032,22,11
+CHIP,Total Enrollment,2033,3.0,Millions of adults,51296-2026-02-chip.xlsx,CHIP_02-2026,true,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb / Total Enrollment",fiscal_year,2033,2033,2033,22,12
+CHIP,Total Enrollment,2034,3.0,Millions of adults,51296-2026-02-chip.xlsx,CHIP_02-2026,true,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb / Total Enrollment",fiscal_year,2034,2034,2034,22,13
+CHIP,Total Enrollment,2035,3.0,Millions of adults,51296-2026-02-chip.xlsx,CHIP_02-2026,true,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb / Total Enrollment",fiscal_year,2035,2035,2035,22,14
+CHIP,Total Enrollment,2036,3.0,Millions of adults,51296-2026-02-chip.xlsx,CHIP_02-2026,true,51296,"Actual, 2025 / Enrollment at Baseline Funding Amountsb / Total Enrollment",fiscal_year,2036,2036,2036,22,15
+CHIP,Benefit Payments per Enrollee (Dollars),2026,3464.0,Dollars per enrollee,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars)",fiscal_year,2026,2026,2026,25,5
+CHIP,Benefit Payments per Enrollee (Dollars),2027,3654.0,Dollars per enrollee,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars)",fiscal_year,2027,2027,2027,25,6
+CHIP,Benefit Payments per Enrollee (Dollars),2028,3812.0,Dollars per enrollee,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars)",fiscal_year,2028,2028,2028,25,7
+CHIP,Benefit Payments per Enrollee (Dollars),2029,3976.0,Dollars per enrollee,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars)",fiscal_year,2029,2029,2029,25,8
+CHIP,Benefit Payments per Enrollee (Dollars),2030,4014.0,Dollars per enrollee,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars)",fiscal_year,2030,2030,2030,25,9
+CHIP,Benefit Payments per Enrollee (Dollars),2031,4125.0,Dollars per enrollee,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars)",fiscal_year,2031,2031,2031,25,10
+CHIP,Benefit Payments per Enrollee (Dollars),2032,4418.0,Dollars per enrollee,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars)",fiscal_year,2032,2032,2032,25,11
+CHIP,Benefit Payments per Enrollee (Dollars),2033,4459.0,Dollars per enrollee,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars)",fiscal_year,2033,2033,2033,25,12
+CHIP,Benefit Payments per Enrollee (Dollars),2034,4603.0,Dollars per enrollee,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars)",fiscal_year,2034,2034,2034,25,13
+CHIP,Benefit Payments per Enrollee (Dollars),2035,4752.0,Dollars per enrollee,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars)",fiscal_year,2035,2035,2035,25,14
+CHIP,Benefit Payments per Enrollee (Dollars),2036,4905.0,Dollars per enrollee,51296-2026-02-chip.xlsx,CHIP_02-2026,false,51296,"Actual, 2025 / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars)",fiscal_year,2036,2036,2036,25,15

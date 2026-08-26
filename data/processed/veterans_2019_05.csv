@@ -1,243 +1,243 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Veterans,Number (Thousands),2019,4895.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2020,5008.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2021,5094.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2022,5168.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2023,5240.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2024,5310.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2025,5377.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2026,5443.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2027,5507.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2028,5569.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2029,5630.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2019,17364.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2020,18013.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2021,18248.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2022,18607.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2023,19008.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2024,19602.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2025,20009.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2026,20474.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2027,20946.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2028,21429.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2029,21919.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2019,84988.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2020,89646.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2021,92332.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2022,96019.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2023,99417.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2024,103876.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2025,107382.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2026,111224.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2027,115128.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2028,119143.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2029,123169.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2019,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2020,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2021,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2022,8014.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2023,676.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2024,-8672.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2025,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2026,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2027,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2028,9945.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2029,-9945.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2019,84988.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2020,90205.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2021,92950.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2022,104177.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2023,100279.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2024,95406.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2025,107591.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2026,111433.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2027,115341.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2028,129286.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2029,113455.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2019,434.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2020,447.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2021,458.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2022,470.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2023,481.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2024,494.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2025,506.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2026,519.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2027,532.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2028,546.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2029,560.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2019,16783.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2020,17282.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2021,17712.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2022,18177.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2023,18580.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2024,19123.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2025,19539.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2026,19995.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2027,20455.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2028,20931.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Average Annual Benefit (Dollars),2029,21400.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2019,7280.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2020,7718.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2021,8110.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2022,8535.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2023,8945.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2024,9440.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2025,9890.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2026,10378.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2027,10886.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2028,11422.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2029,11974.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2019,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2020,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2021,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2022,708.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2023,61.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2024,-768.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2025,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2026,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2027,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2028,949.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2029,-949.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2019,7280.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2020,7718.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2021,8110.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2022,9243.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2023,9005.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2024,8672.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2025,9890.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2026,10378.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2027,10886.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2028,12371.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2029,11026.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2019,92268.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2020,97923.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2021,101061.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2022,113420.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2023,109284.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2024,104077.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2025,117481.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2026,121811.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2027,126227.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2028,141656.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,(Millions of dollars),2029,124481.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false
-Veterans,Number (Thousands),2019,252.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2020,243.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2021,235.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2022,228.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2023,220.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2024,213.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2025,206.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2026,200.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2027,193.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2028,187.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2029,181.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2019,12843.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2020,13201.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2021,13530.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2022,13880.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2023,14224.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2024,14580.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2025,14926.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2026,15273.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2027,15625.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2028,15983.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2029,17529.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2019,3231.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2020,3213.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2021,3185.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2022,3161.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2023,3134.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2024,3109.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2025,3079.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2026,3049.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2027,3018.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2028,2987.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2029,3171.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2019,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2020,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2021,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2022,263.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2023,-1.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2024,-262.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2025,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2026,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2027,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2028,249.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2029,-249.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2019,3231.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2020,3213.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2021,3185.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2022,3425.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2023,3134.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2024,2847.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2025,3079.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2026,3049.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2027,3018.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2028,3236.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2029,2922.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2019,190.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2020,187.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2021,185.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2022,182.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2023,180.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2024,178.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2025,175.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2026,173.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2027,171.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2028,169.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Number (Thousands),2029,167.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2019,9603.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2020,9855.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2021,10101.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2022,10363.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2023,10636.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2024,10867.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2025,11142.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2026,11400.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2027,11662.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2028,11931.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,Average Annual Benefit (Dollars),2029,13163.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2019,1824.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2020,1846.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2021,1865.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2022,1888.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2023,1913.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2024,1930.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2025,1954.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2026,1975.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2027,1996.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2028,2019.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2029,2202.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2019,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2020,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2021,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2022,157.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2023,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2024,-157.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2025,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2026,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2027,0.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2028,168.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2029,-168.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2019,1824.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2020,1846.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2021,1865.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2022,2046.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2023,1912.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2024,1773.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2025,1954.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2026,1975.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2027,1996.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2028,2187.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of dollars),2029,2034.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of Dollars),2019,5055.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of Dollars),2020,5058.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of Dollars),2021,5051.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of Dollars),2022,5470.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of Dollars),2023,5046.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of Dollars),2024,4619.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of Dollars),2025,5033.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of Dollars),2026,5024.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of Dollars),2027,5014.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of Dollars),2028,5423.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
-Veterans,(Millions of Dollars),2029,4955.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+Veterans Benefits,Number (Thousands),2019,4895.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2019,2019,2019,10,2
+Veterans Benefits,Number (Thousands),2020,5008.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2020,2020,2020,10,3
+Veterans Benefits,Number (Thousands),2021,5094.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2021,2021,2021,10,4
+Veterans Benefits,Number (Thousands),2022,5168.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2022,2022,2022,10,5
+Veterans Benefits,Number (Thousands),2023,5240.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2023,2023,2023,10,6
+Veterans Benefits,Number (Thousands),2024,5310.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2024,2024,2024,10,7
+Veterans Benefits,Number (Thousands),2025,5377.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2025,2025,2025,10,8
+Veterans Benefits,Number (Thousands),2026,5443.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2026,2026,2026,10,9
+Veterans Benefits,Number (Thousands),2027,5507.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2027,2027,2027,10,10
+Veterans Benefits,Number (Thousands),2028,5569.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2028,2028,2028,10,11
+Veterans Benefits,Number (Thousands),2029,5630.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2029,2029,2029,10,12
+Veterans Benefits,Average Annual Benefit (Dollars),2019,17364.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2019,2019,2019,12,2
+Veterans Benefits,Average Annual Benefit (Dollars),2020,18013.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2020,2020,2020,12,3
+Veterans Benefits,Average Annual Benefit (Dollars),2021,18248.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2021,2021,2021,12,4
+Veterans Benefits,Average Annual Benefit (Dollars),2022,18607.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2022,2022,2022,12,5
+Veterans Benefits,Average Annual Benefit (Dollars),2023,19008.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2023,2023,2023,12,6
+Veterans Benefits,Average Annual Benefit (Dollars),2024,19602.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2024,2024,2024,12,7
+Veterans Benefits,Average Annual Benefit (Dollars),2025,20009.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2025,2025,2025,12,8
+Veterans Benefits,Average Annual Benefit (Dollars),2026,20474.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2026,2026,2026,12,9
+Veterans Benefits,Average Annual Benefit (Dollars),2027,20946.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2027,2027,2027,12,10
+Veterans Benefits,Average Annual Benefit (Dollars),2028,21429.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2028,2028,2028,12,11
+Veterans Benefits,Average Annual Benefit (Dollars),2029,21919.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2029,2029,2029,12,12
+Veterans Benefits,(Millions of dollars),2019,84988.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2019,2019,2019,15,2
+Veterans Benefits,(Millions of dollars),2020,89646.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2020,2020,2020,15,3
+Veterans Benefits,(Millions of dollars),2021,92332.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2021,2021,2021,15,4
+Veterans Benefits,(Millions of dollars),2022,96019.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2022,2022,2022,15,5
+Veterans Benefits,(Millions of dollars),2023,99417.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2023,2023,2023,15,6
+Veterans Benefits,(Millions of dollars),2024,103876.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2024,2024,2024,15,7
+Veterans Benefits,(Millions of dollars),2025,107382.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2025,2025,2025,15,8
+Veterans Benefits,(Millions of dollars),2026,111224.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2026,2026,2026,15,9
+Veterans Benefits,(Millions of dollars),2027,115128.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2027,2027,2027,15,10
+Veterans Benefits,(Millions of dollars),2028,119143.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2028,2028,2028,15,11
+Veterans Benefits,(Millions of dollars),2029,123169.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2029,2029,2029,15,12
+Veterans Benefits,(Millions of dollars),2019,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2019,2019,2019,18,2
+Veterans Benefits,(Millions of dollars),2020,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2020,2020,2020,18,3
+Veterans Benefits,(Millions of dollars),2021,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2021,2021,2021,18,4
+Veterans Benefits,(Millions of dollars),2022,8014.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2022,2022,2022,18,5
+Veterans Benefits,(Millions of dollars),2023,676.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2023,2023,2023,18,6
+Veterans Benefits,(Millions of dollars),2024,-8672.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2024,2024,2024,18,7
+Veterans Benefits,(Millions of dollars),2025,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2025,2025,2025,18,8
+Veterans Benefits,(Millions of dollars),2026,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2026,2026,2026,18,9
+Veterans Benefits,(Millions of dollars),2027,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2027,2027,2027,18,10
+Veterans Benefits,(Millions of dollars),2028,9945.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2028,2028,2028,18,11
+Veterans Benefits,(Millions of dollars),2029,-9945.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2029,2029,2029,18,12
+Veterans Benefits,(Millions of dollars),2019,84988.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2019,2019,2019,21,2
+Veterans Benefits,(Millions of dollars),2020,90205.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2020,2020,2020,21,3
+Veterans Benefits,(Millions of dollars),2021,92950.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2021,2021,2021,21,4
+Veterans Benefits,(Millions of dollars),2022,104177.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2022,2022,2022,21,5
+Veterans Benefits,(Millions of dollars),2023,100279.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2023,2023,2023,21,6
+Veterans Benefits,(Millions of dollars),2024,95406.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2024,2024,2024,21,7
+Veterans Benefits,(Millions of dollars),2025,107591.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2025,2025,2025,21,8
+Veterans Benefits,(Millions of dollars),2026,111433.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2026,2026,2026,21,9
+Veterans Benefits,(Millions of dollars),2027,115341.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2027,2027,2027,21,10
+Veterans Benefits,(Millions of dollars),2028,129286.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2028,2028,2028,21,11
+Veterans Benefits,(Millions of dollars),2029,113455.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2029,2029,2029,21,12
+Veterans Benefits,Number (Thousands),2019,434.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2019,2019,2019,25,2
+Veterans Benefits,Number (Thousands),2020,447.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2020,2020,2020,25,3
+Veterans Benefits,Number (Thousands),2021,458.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2021,2021,2021,25,4
+Veterans Benefits,Number (Thousands),2022,470.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2022,2022,2022,25,5
+Veterans Benefits,Number (Thousands),2023,481.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2023,2023,2023,25,6
+Veterans Benefits,Number (Thousands),2024,494.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2024,2024,2024,25,7
+Veterans Benefits,Number (Thousands),2025,506.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2025,2025,2025,25,8
+Veterans Benefits,Number (Thousands),2026,519.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2026,2026,2026,25,9
+Veterans Benefits,Number (Thousands),2027,532.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2027,2027,2027,25,10
+Veterans Benefits,Number (Thousands),2028,546.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2028,2028,2028,25,11
+Veterans Benefits,Number (Thousands),2029,560.0,Thousands,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2029,2029,2029,25,12
+Veterans Benefits,Average Annual Benefit (Dollars),2019,16783.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2019,2019,2019,27,2
+Veterans Benefits,Average Annual Benefit (Dollars),2020,17282.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2020,2020,2020,27,3
+Veterans Benefits,Average Annual Benefit (Dollars),2021,17712.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2021,2021,2021,27,4
+Veterans Benefits,Average Annual Benefit (Dollars),2022,18177.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2022,2022,2022,27,5
+Veterans Benefits,Average Annual Benefit (Dollars),2023,18580.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2023,2023,2023,27,6
+Veterans Benefits,Average Annual Benefit (Dollars),2024,19123.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2024,2024,2024,27,7
+Veterans Benefits,Average Annual Benefit (Dollars),2025,19539.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2025,2025,2025,27,8
+Veterans Benefits,Average Annual Benefit (Dollars),2026,19995.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2026,2026,2026,27,9
+Veterans Benefits,Average Annual Benefit (Dollars),2027,20455.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2027,2027,2027,27,10
+Veterans Benefits,Average Annual Benefit (Dollars),2028,20931.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2028,2028,2028,27,11
+Veterans Benefits,Average Annual Benefit (Dollars),2029,21400.0,Dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2029,2029,2029,27,12
+Veterans Benefits,(Millions of dollars),2019,7280.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2019,2019,2019,30,2
+Veterans Benefits,(Millions of dollars),2020,7718.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2020,2020,2020,30,3
+Veterans Benefits,(Millions of dollars),2021,8110.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2021,2021,2021,30,4
+Veterans Benefits,(Millions of dollars),2022,8535.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2022,2022,2022,30,5
+Veterans Benefits,(Millions of dollars),2023,8945.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2023,2023,2023,30,6
+Veterans Benefits,(Millions of dollars),2024,9440.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2024,2024,2024,30,7
+Veterans Benefits,(Millions of dollars),2025,9890.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2025,2025,2025,30,8
+Veterans Benefits,(Millions of dollars),2026,10378.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2026,2026,2026,30,9
+Veterans Benefits,(Millions of dollars),2027,10886.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2027,2027,2027,30,10
+Veterans Benefits,(Millions of dollars),2028,11422.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2028,2028,2028,30,11
+Veterans Benefits,(Millions of dollars),2029,11974.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2029,2029,2029,30,12
+Veterans Benefits,(Millions of dollars),2019,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2019,2019,2019,33,2
+Veterans Benefits,(Millions of dollars),2020,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2020,2020,2020,33,3
+Veterans Benefits,(Millions of dollars),2021,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2021,2021,2021,33,4
+Veterans Benefits,(Millions of dollars),2022,708.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2022,2022,2022,33,5
+Veterans Benefits,(Millions of dollars),2023,61.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2023,2023,2023,33,6
+Veterans Benefits,(Millions of dollars),2024,-768.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2024,2024,2024,33,7
+Veterans Benefits,(Millions of dollars),2025,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2025,2025,2025,33,8
+Veterans Benefits,(Millions of dollars),2026,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2026,2026,2026,33,9
+Veterans Benefits,(Millions of dollars),2027,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2027,2027,2027,33,10
+Veterans Benefits,(Millions of dollars),2028,949.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2028,2028,2028,33,11
+Veterans Benefits,(Millions of dollars),2029,-949.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2029,2029,2029,33,12
+Veterans Benefits,(Millions of dollars),2019,7280.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2019,2019,2019,36,2
+Veterans Benefits,(Millions of dollars),2020,7718.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2020,2020,2020,36,3
+Veterans Benefits,(Millions of dollars),2021,8110.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2021,2021,2021,36,4
+Veterans Benefits,(Millions of dollars),2022,9243.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2022,2022,2022,36,5
+Veterans Benefits,(Millions of dollars),2023,9005.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2023,2023,2023,36,6
+Veterans Benefits,(Millions of dollars),2024,8672.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2024,2024,2024,36,7
+Veterans Benefits,(Millions of dollars),2025,9890.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2025,2025,2025,36,8
+Veterans Benefits,(Millions of dollars),2026,10378.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2026,2026,2026,36,9
+Veterans Benefits,(Millions of dollars),2027,10886.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2027,2027,2027,36,10
+Veterans Benefits,(Millions of dollars),2028,12371.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2028,2028,2028,36,11
+Veterans Benefits,(Millions of dollars),2029,11026.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2029,2029,2029,36,12
+Veterans Benefits,(Millions of dollars),2019,92268.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2019,2019,2019,41,2
+Veterans Benefits,(Millions of dollars),2020,97923.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2020,2020,2020,41,3
+Veterans Benefits,(Millions of dollars),2021,101061.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2021,2021,2021,41,4
+Veterans Benefits,(Millions of dollars),2022,113420.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2022,2022,2022,41,5
+Veterans Benefits,(Millions of dollars),2023,109284.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2023,2023,2023,41,6
+Veterans Benefits,(Millions of dollars),2024,104077.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2024,2024,2024,41,7
+Veterans Benefits,(Millions of dollars),2025,117481.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2025,2025,2025,41,8
+Veterans Benefits,(Millions of dollars),2026,121811.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2026,2026,2026,41,9
+Veterans Benefits,(Millions of dollars),2027,126227.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2027,2027,2027,41,10
+Veterans Benefits,(Millions of dollars),2028,141656.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2028,2028,2028,41,11
+Veterans Benefits,(Millions of dollars),2029,124481.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 1,true,53725,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2029,2029,2029,41,12
+Veterans Benefits,Number (Thousands),2019,252.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2019,2019,2019,10,2
+Veterans Benefits,Number (Thousands),2020,243.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2020,2020,2020,10,3
+Veterans Benefits,Number (Thousands),2021,235.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2021,2021,2021,10,4
+Veterans Benefits,Number (Thousands),2022,228.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2022,2022,2022,10,5
+Veterans Benefits,Number (Thousands),2023,220.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2023,2023,2023,10,6
+Veterans Benefits,Number (Thousands),2024,213.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2024,2024,2024,10,7
+Veterans Benefits,Number (Thousands),2025,206.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2025,2025,2025,10,8
+Veterans Benefits,Number (Thousands),2026,200.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2026,2026,2026,10,9
+Veterans Benefits,Number (Thousands),2027,193.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2027,2027,2027,10,10
+Veterans Benefits,Number (Thousands),2028,187.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2028,2028,2028,10,11
+Veterans Benefits,Number (Thousands),2029,181.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Number (Thousands),fiscal_year,2029,2029,2029,10,12
+Veterans Benefits,Average Annual Benefit (Dollars),2019,12843.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2019,2019,2019,12,2
+Veterans Benefits,Average Annual Benefit (Dollars),2020,13201.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2020,2020,2020,12,3
+Veterans Benefits,Average Annual Benefit (Dollars),2021,13530.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2021,2021,2021,12,4
+Veterans Benefits,Average Annual Benefit (Dollars),2022,13880.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2022,2022,2022,12,5
+Veterans Benefits,Average Annual Benefit (Dollars),2023,14224.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2023,2023,2023,12,6
+Veterans Benefits,Average Annual Benefit (Dollars),2024,14580.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2024,2024,2024,12,7
+Veterans Benefits,Average Annual Benefit (Dollars),2025,14926.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2025,2025,2025,12,8
+Veterans Benefits,Average Annual Benefit (Dollars),2026,15273.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2026,2026,2026,12,9
+Veterans Benefits,Average Annual Benefit (Dollars),2027,15625.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2027,2027,2027,12,10
+Veterans Benefits,Average Annual Benefit (Dollars),2028,15983.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2028,2028,2028,12,11
+Veterans Benefits,Average Annual Benefit (Dollars),2029,17529.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Veterans / Average Annual Benefit (Dollars),fiscal_year,2029,2029,2029,12,12
+Veterans Benefits,(Millions of dollars),2019,3231.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2019,2019,2019,15,2
+Veterans Benefits,(Millions of dollars),2020,3213.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2020,2020,2020,15,3
+Veterans Benefits,(Millions of dollars),2021,3185.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2021,2021,2021,15,4
+Veterans Benefits,(Millions of dollars),2022,3161.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2022,2022,2022,15,5
+Veterans Benefits,(Millions of dollars),2023,3134.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2023,2023,2023,15,6
+Veterans Benefits,(Millions of dollars),2024,3109.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2024,2024,2024,15,7
+Veterans Benefits,(Millions of dollars),2025,3079.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2025,2025,2025,15,8
+Veterans Benefits,(Millions of dollars),2026,3049.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2026,2026,2026,15,9
+Veterans Benefits,(Millions of dollars),2027,3018.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2027,2027,2027,15,10
+Veterans Benefits,(Millions of dollars),2028,2987.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2028,2028,2028,15,11
+Veterans Benefits,(Millions of dollars),2029,3171.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Veterans / (Millions of dollars),fiscal_year,2029,2029,2029,15,12
+Veterans Benefits,(Millions of dollars),2019,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2019,2019,2019,18,2
+Veterans Benefits,(Millions of dollars),2020,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2020,2020,2020,18,3
+Veterans Benefits,(Millions of dollars),2021,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2021,2021,2021,18,4
+Veterans Benefits,(Millions of dollars),2022,263.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2022,2022,2022,18,5
+Veterans Benefits,(Millions of dollars),2023,-1.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2023,2023,2023,18,6
+Veterans Benefits,(Millions of dollars),2024,-262.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2024,2024,2024,18,7
+Veterans Benefits,(Millions of dollars),2025,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2025,2025,2025,18,8
+Veterans Benefits,(Millions of dollars),2026,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2026,2026,2026,18,9
+Veterans Benefits,(Millions of dollars),2027,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2027,2027,2027,18,10
+Veterans Benefits,(Millions of dollars),2028,249.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2028,2028,2028,18,11
+Veterans Benefits,(Millions of dollars),2029,-249.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2029,2029,2029,18,12
+Veterans Benefits,(Millions of dollars),2019,3231.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2019,2019,2019,21,2
+Veterans Benefits,(Millions of dollars),2020,3213.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2020,2020,2020,21,3
+Veterans Benefits,(Millions of dollars),2021,3185.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2021,2021,2021,21,4
+Veterans Benefits,(Millions of dollars),2022,3425.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2022,2022,2022,21,5
+Veterans Benefits,(Millions of dollars),2023,3134.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2023,2023,2023,21,6
+Veterans Benefits,(Millions of dollars),2024,2847.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2024,2024,2024,21,7
+Veterans Benefits,(Millions of dollars),2025,3079.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2025,2025,2025,21,8
+Veterans Benefits,(Millions of dollars),2026,3049.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2026,2026,2026,21,9
+Veterans Benefits,(Millions of dollars),2027,3018.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2027,2027,2027,21,10
+Veterans Benefits,(Millions of dollars),2028,3236.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2028,2028,2028,21,11
+Veterans Benefits,(Millions of dollars),2029,2922.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Veterans / (Millions of dollars),fiscal_year,2029,2029,2029,21,12
+Veterans Benefits,Number (Thousands),2019,190.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2019,2019,2019,25,2
+Veterans Benefits,Number (Thousands),2020,187.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2020,2020,2020,25,3
+Veterans Benefits,Number (Thousands),2021,185.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2021,2021,2021,25,4
+Veterans Benefits,Number (Thousands),2022,182.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2022,2022,2022,25,5
+Veterans Benefits,Number (Thousands),2023,180.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2023,2023,2023,25,6
+Veterans Benefits,Number (Thousands),2024,178.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2024,2024,2024,25,7
+Veterans Benefits,Number (Thousands),2025,175.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2025,2025,2025,25,8
+Veterans Benefits,Number (Thousands),2026,173.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2026,2026,2026,25,9
+Veterans Benefits,Number (Thousands),2027,171.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2027,2027,2027,25,10
+Veterans Benefits,Number (Thousands),2028,169.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2028,2028,2028,25,11
+Veterans Benefits,Number (Thousands),2029,167.0,Thousands,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2029,2029,2029,25,12
+Veterans Benefits,Average Annual Benefit (Dollars),2019,9603.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2019,2019,2019,27,2
+Veterans Benefits,Average Annual Benefit (Dollars),2020,9855.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2020,2020,2020,27,3
+Veterans Benefits,Average Annual Benefit (Dollars),2021,10101.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2021,2021,2021,27,4
+Veterans Benefits,Average Annual Benefit (Dollars),2022,10363.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2022,2022,2022,27,5
+Veterans Benefits,Average Annual Benefit (Dollars),2023,10636.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2023,2023,2023,27,6
+Veterans Benefits,Average Annual Benefit (Dollars),2024,10867.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2024,2024,2024,27,7
+Veterans Benefits,Average Annual Benefit (Dollars),2025,11142.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2025,2025,2025,27,8
+Veterans Benefits,Average Annual Benefit (Dollars),2026,11400.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2026,2026,2026,27,9
+Veterans Benefits,Average Annual Benefit (Dollars),2027,11662.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2027,2027,2027,27,10
+Veterans Benefits,Average Annual Benefit (Dollars),2028,11931.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2028,2028,2028,27,11
+Veterans Benefits,Average Annual Benefit (Dollars),2029,13163.0,Dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2029,2029,2029,27,12
+Veterans Benefits,(Millions of dollars),2019,1824.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2019,2019,2019,30,2
+Veterans Benefits,(Millions of dollars),2020,1846.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2020,2020,2020,30,3
+Veterans Benefits,(Millions of dollars),2021,1865.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2021,2021,2021,30,4
+Veterans Benefits,(Millions of dollars),2022,1888.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2022,2022,2022,30,5
+Veterans Benefits,(Millions of dollars),2023,1913.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2023,2023,2023,30,6
+Veterans Benefits,(Millions of dollars),2024,1930.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2024,2024,2024,30,7
+Veterans Benefits,(Millions of dollars),2025,1954.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2025,2025,2025,30,8
+Veterans Benefits,(Millions of dollars),2026,1975.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2026,2026,2026,30,9
+Veterans Benefits,(Millions of dollars),2027,1996.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2027,2027,2027,30,10
+Veterans Benefits,(Millions of dollars),2028,2019.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2028,2028,2028,30,11
+Veterans Benefits,(Millions of dollars),2029,2202.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Payments for Survivors / (Millions of dollars),fiscal_year,2029,2029,2029,30,12
+Veterans Benefits,(Millions of dollars),2019,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2019,2019,2019,33,2
+Veterans Benefits,(Millions of dollars),2020,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2020,2020,2020,33,3
+Veterans Benefits,(Millions of dollars),2021,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2021,2021,2021,33,4
+Veterans Benefits,(Millions of dollars),2022,157.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2022,2022,2022,33,5
+Veterans Benefits,(Millions of dollars),2023,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2023,2023,2023,33,6
+Veterans Benefits,(Millions of dollars),2024,-157.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2024,2024,2024,33,7
+Veterans Benefits,(Millions of dollars),2025,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2025,2025,2025,33,8
+Veterans Benefits,(Millions of dollars),2026,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2026,2026,2026,33,9
+Veterans Benefits,(Millions of dollars),2027,0.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2027,2027,2027,33,10
+Veterans Benefits,(Millions of dollars),2028,168.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2028,2028,2028,33,11
+Veterans Benefits,(Millions of dollars),2029,-168.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,false,53725,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars),fiscal_year,2029,2029,2029,33,12
+Veterans Benefits,(Millions of dollars),2019,1824.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2019,2019,2019,36,2
+Veterans Benefits,(Millions of dollars),2020,1846.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2020,2020,2020,36,3
+Veterans Benefits,(Millions of dollars),2021,1865.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2021,2021,2021,36,4
+Veterans Benefits,(Millions of dollars),2022,2046.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2022,2022,2022,36,5
+Veterans Benefits,(Millions of dollars),2023,1912.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2023,2023,2023,36,6
+Veterans Benefits,(Millions of dollars),2024,1773.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2024,2024,2024,36,7
+Veterans Benefits,(Millions of dollars),2025,1954.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2025,2025,2025,36,8
+Veterans Benefits,(Millions of dollars),2026,1975.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2026,2026,2026,36,9
+Veterans Benefits,(Millions of dollars),2027,1996.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2027,2027,2027,36,10
+Veterans Benefits,(Millions of dollars),2028,2187.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2028,2028,2028,36,11
+Veterans Benefits,(Millions of dollars),2029,2034.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2029,2029,2029,36,12
+Veterans Benefits,(Millions of Dollars),2019,5055.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays / (Millions of Dollars),fiscal_year,2019,2019,2019,41,2
+Veterans Benefits,(Millions of Dollars),2020,5058.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays / (Millions of Dollars),fiscal_year,2020,2020,2020,41,3
+Veterans Benefits,(Millions of Dollars),2021,5051.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays / (Millions of Dollars),fiscal_year,2021,2021,2021,41,4
+Veterans Benefits,(Millions of Dollars),2022,5470.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays / (Millions of Dollars),fiscal_year,2022,2022,2022,41,5
+Veterans Benefits,(Millions of Dollars),2023,5046.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays / (Millions of Dollars),fiscal_year,2023,2023,2023,41,6
+Veterans Benefits,(Millions of Dollars),2024,4619.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays / (Millions of Dollars),fiscal_year,2024,2024,2024,41,7
+Veterans Benefits,(Millions of Dollars),2025,5033.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays / (Millions of Dollars),fiscal_year,2025,2025,2025,41,8
+Veterans Benefits,(Millions of Dollars),2026,5024.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays / (Millions of Dollars),fiscal_year,2026,2026,2026,41,9
+Veterans Benefits,(Millions of Dollars),2027,5014.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays / (Millions of Dollars),fiscal_year,2027,2027,2027,41,10
+Veterans Benefits,(Millions of Dollars),2028,5423.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays / (Millions of Dollars),fiscal_year,2028,2028,2028,41,11
+Veterans Benefits,(Millions of Dollars),2029,4955.0,Millions of dollars,53725-2019-05-Veterans.xlsx,Table 2,true,53725,By Fiscal Year / Total Outlays / (Millions of Dollars),fiscal_year,2029,2029,2029,41,12

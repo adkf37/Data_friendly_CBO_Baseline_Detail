@@ -1,100 +1,100 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Military Retirement,Number (Thousands),2019,2172.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2020,2177.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2021,2183.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2022,2189.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2023,2196.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2024,2202.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2025,2207.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2026,2210.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2027,2212.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2028,2211.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2029,2210.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2019,26146.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2020,27027.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2021,27860.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2022,28654.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2023,29372.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2024,30066.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2025,30805.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2026,31544.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2027,32305.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2028,33115.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2029,33991.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2019,56777.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2020,58847.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2021,60812.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2022,62727.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2023,64491.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2024,66212.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2025,67989.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2026,69717.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2027,71448.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2028,73230.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2029,75110.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars)a,2019,0.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars)a,2020,0.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars)a,2021,0.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars)a,2022,5100.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars)a,2023,150.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars)a,2024,-5250.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars)a,2025,0.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars)a,2026,0.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars)a,2027,0.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars)a,2028,5950.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars)a,2029,-5950.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2019,56777.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2020,58847.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2021,60812.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2022,67827.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2023,64641.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2024,60962.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2025,67989.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2026,69717.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2027,71448.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2028,79180.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2029,69160.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2019,280.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2020,282.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2021,284.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2022,285.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2023,286.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2024,286.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2025,287.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2026,287.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2027,287.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2028,287.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Number (Thousands),2029,287.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2019,13138.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2020,13314.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2021,13535.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2022,13776.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2023,14031.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2024,14278.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2025,14513.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2026,14748.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2027,14979.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2028,15212.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,Average Annual Benefit (Dollars),2029,15453.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2019,3673.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2020,3753.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2021,3838.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2022,3923.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2023,4009.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2024,4088.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2025,4161.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2026,4233.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2027,4302.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2028,4370.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2029,4440.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2019,60450.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2020,62600.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2021,64650.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2022,71750.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2023,68650.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2024,65050.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2025,72150.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2026,73950.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2027,75750.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2028,83550.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
-Military Retirement,(Millions of dollars),2029,73600.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+Military Retirement,Number (Thousands),2019,2172.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Number (Thousands),fiscal_year,2019,2019,2019,10,2
+Military Retirement,Number (Thousands),2020,2177.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Number (Thousands),fiscal_year,2020,2020,2020,10,3
+Military Retirement,Number (Thousands),2021,2183.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Number (Thousands),fiscal_year,2021,2021,2021,10,4
+Military Retirement,Number (Thousands),2022,2189.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Number (Thousands),fiscal_year,2022,2022,2022,10,5
+Military Retirement,Number (Thousands),2023,2196.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Number (Thousands),fiscal_year,2023,2023,2023,10,6
+Military Retirement,Number (Thousands),2024,2202.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Number (Thousands),fiscal_year,2024,2024,2024,10,7
+Military Retirement,Number (Thousands),2025,2207.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Number (Thousands),fiscal_year,2025,2025,2025,10,8
+Military Retirement,Number (Thousands),2026,2210.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Number (Thousands),fiscal_year,2026,2026,2026,10,9
+Military Retirement,Number (Thousands),2027,2212.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Number (Thousands),fiscal_year,2027,2027,2027,10,10
+Military Retirement,Number (Thousands),2028,2211.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Number (Thousands),fiscal_year,2028,2028,2028,10,11
+Military Retirement,Number (Thousands),2029,2210.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Number (Thousands),fiscal_year,2029,2029,2029,10,12
+Military Retirement,Average Annual Benefit (Dollars),2019,26146.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Average Annual Benefit (Dollars),fiscal_year,2019,2019,2019,12,2
+Military Retirement,Average Annual Benefit (Dollars),2020,27027.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Average Annual Benefit (Dollars),fiscal_year,2020,2020,2020,12,3
+Military Retirement,Average Annual Benefit (Dollars),2021,27860.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Average Annual Benefit (Dollars),fiscal_year,2021,2021,2021,12,4
+Military Retirement,Average Annual Benefit (Dollars),2022,28654.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Average Annual Benefit (Dollars),fiscal_year,2022,2022,2022,12,5
+Military Retirement,Average Annual Benefit (Dollars),2023,29372.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Average Annual Benefit (Dollars),fiscal_year,2023,2023,2023,12,6
+Military Retirement,Average Annual Benefit (Dollars),2024,30066.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Average Annual Benefit (Dollars),fiscal_year,2024,2024,2024,12,7
+Military Retirement,Average Annual Benefit (Dollars),2025,30805.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Average Annual Benefit (Dollars),fiscal_year,2025,2025,2025,12,8
+Military Retirement,Average Annual Benefit (Dollars),2026,31544.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Average Annual Benefit (Dollars),fiscal_year,2026,2026,2026,12,9
+Military Retirement,Average Annual Benefit (Dollars),2027,32305.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Average Annual Benefit (Dollars),fiscal_year,2027,2027,2027,12,10
+Military Retirement,Average Annual Benefit (Dollars),2028,33115.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Average Annual Benefit (Dollars),fiscal_year,2028,2028,2028,12,11
+Military Retirement,Average Annual Benefit (Dollars),2029,33991.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Retirees / Average Annual Benefit (Dollars),fiscal_year,2029,2029,2029,12,12
+Military Retirement,(Millions of dollars),2019,56777.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Payments for Retirees / (Millions of dollars),fiscal_year,2019,2019,2019,15,2
+Military Retirement,(Millions of dollars),2020,58847.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Payments for Retirees / (Millions of dollars),fiscal_year,2020,2020,2020,15,3
+Military Retirement,(Millions of dollars),2021,60812.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Payments for Retirees / (Millions of dollars),fiscal_year,2021,2021,2021,15,4
+Military Retirement,(Millions of dollars),2022,62727.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Payments for Retirees / (Millions of dollars),fiscal_year,2022,2022,2022,15,5
+Military Retirement,(Millions of dollars),2023,64491.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Payments for Retirees / (Millions of dollars),fiscal_year,2023,2023,2023,15,6
+Military Retirement,(Millions of dollars),2024,66212.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Payments for Retirees / (Millions of dollars),fiscal_year,2024,2024,2024,15,7
+Military Retirement,(Millions of dollars),2025,67989.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Payments for Retirees / (Millions of dollars),fiscal_year,2025,2025,2025,15,8
+Military Retirement,(Millions of dollars),2026,69717.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Payments for Retirees / (Millions of dollars),fiscal_year,2026,2026,2026,15,9
+Military Retirement,(Millions of dollars),2027,71448.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Payments for Retirees / (Millions of dollars),fiscal_year,2027,2027,2027,15,10
+Military Retirement,(Millions of dollars),2028,73230.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Payments for Retirees / (Millions of dollars),fiscal_year,2028,2028,2028,15,11
+Military Retirement,(Millions of dollars),2029,75110.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Payments for Retirees / (Millions of dollars),fiscal_year,2029,2029,2029,15,12
+Military Retirement,(Millions of dollars)a,2019,0.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars)a,fiscal_year,2019,2019,2019,18,2
+Military Retirement,(Millions of dollars)a,2020,0.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars)a,fiscal_year,2020,2020,2020,18,3
+Military Retirement,(Millions of dollars)a,2021,0.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars)a,fiscal_year,2021,2021,2021,18,4
+Military Retirement,(Millions of dollars)a,2022,5100.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars)a,fiscal_year,2022,2022,2022,18,5
+Military Retirement,(Millions of dollars)a,2023,150.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars)a,fiscal_year,2023,2023,2023,18,6
+Military Retirement,(Millions of dollars)a,2024,-5250.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars)a,fiscal_year,2024,2024,2024,18,7
+Military Retirement,(Millions of dollars)a,2025,0.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars)a,fiscal_year,2025,2025,2025,18,8
+Military Retirement,(Millions of dollars)a,2026,0.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars)a,fiscal_year,2026,2026,2026,18,9
+Military Retirement,(Millions of dollars)a,2027,0.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars)a,fiscal_year,2027,2027,2027,18,10
+Military Retirement,(Millions of dollars)a,2028,5950.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars)a,fiscal_year,2028,2028,2028,18,11
+Military Retirement,(Millions of dollars)a,2029,-5950.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars)a,fiscal_year,2029,2029,2029,18,12
+Military Retirement,(Millions of dollars),2019,56777.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Retirees / (Millions of dollars),fiscal_year,2019,2019,2019,21,2
+Military Retirement,(Millions of dollars),2020,58847.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Retirees / (Millions of dollars),fiscal_year,2020,2020,2020,21,3
+Military Retirement,(Millions of dollars),2021,60812.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Retirees / (Millions of dollars),fiscal_year,2021,2021,2021,21,4
+Military Retirement,(Millions of dollars),2022,67827.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Retirees / (Millions of dollars),fiscal_year,2022,2022,2022,21,5
+Military Retirement,(Millions of dollars),2023,64641.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Retirees / (Millions of dollars),fiscal_year,2023,2023,2023,21,6
+Military Retirement,(Millions of dollars),2024,60962.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Retirees / (Millions of dollars),fiscal_year,2024,2024,2024,21,7
+Military Retirement,(Millions of dollars),2025,67989.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Retirees / (Millions of dollars),fiscal_year,2025,2025,2025,21,8
+Military Retirement,(Millions of dollars),2026,69717.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Retirees / (Millions of dollars),fiscal_year,2026,2026,2026,21,9
+Military Retirement,(Millions of dollars),2027,71448.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Retirees / (Millions of dollars),fiscal_year,2027,2027,2027,21,10
+Military Retirement,(Millions of dollars),2028,79180.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Retirees / (Millions of dollars),fiscal_year,2028,2028,2028,21,11
+Military Retirement,(Millions of dollars),2029,69160.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Retirees / (Millions of dollars),fiscal_year,2029,2029,2029,21,12
+Military Retirement,Number (Thousands),2019,280.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2019,2019,2019,25,2
+Military Retirement,Number (Thousands),2020,282.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2020,2020,2020,25,3
+Military Retirement,Number (Thousands),2021,284.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2021,2021,2021,25,4
+Military Retirement,Number (Thousands),2022,285.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2022,2022,2022,25,5
+Military Retirement,Number (Thousands),2023,286.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2023,2023,2023,25,6
+Military Retirement,Number (Thousands),2024,286.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2024,2024,2024,25,7
+Military Retirement,Number (Thousands),2025,287.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2025,2025,2025,25,8
+Military Retirement,Number (Thousands),2026,287.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2026,2026,2026,25,9
+Military Retirement,Number (Thousands),2027,287.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2027,2027,2027,25,10
+Military Retirement,Number (Thousands),2028,287.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2028,2028,2028,25,11
+Military Retirement,Number (Thousands),2029,287.0,Thousands,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Number (Thousands),fiscal_year,2029,2029,2029,25,12
+Military Retirement,Average Annual Benefit (Dollars),2019,13138.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2019,2019,2019,27,2
+Military Retirement,Average Annual Benefit (Dollars),2020,13314.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2020,2020,2020,27,3
+Military Retirement,Average Annual Benefit (Dollars),2021,13535.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2021,2021,2021,27,4
+Military Retirement,Average Annual Benefit (Dollars),2022,13776.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2022,2022,2022,27,5
+Military Retirement,Average Annual Benefit (Dollars),2023,14031.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2023,2023,2023,27,6
+Military Retirement,Average Annual Benefit (Dollars),2024,14278.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2024,2024,2024,27,7
+Military Retirement,Average Annual Benefit (Dollars),2025,14513.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2025,2025,2025,27,8
+Military Retirement,Average Annual Benefit (Dollars),2026,14748.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2026,2026,2026,27,9
+Military Retirement,Average Annual Benefit (Dollars),2027,14979.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2027,2027,2027,27,10
+Military Retirement,Average Annual Benefit (Dollars),2028,15212.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2028,2028,2028,27,11
+Military Retirement,Average Annual Benefit (Dollars),2029,15453.0,Dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,false,51303,By Fiscal Year / Survivors / Average Annual Benefit (Dollars),fiscal_year,2029,2029,2029,27,12
+Military Retirement,(Millions of dollars),2019,3673.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2019,2019,2019,30,2
+Military Retirement,(Millions of dollars),2020,3753.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2020,2020,2020,30,3
+Military Retirement,(Millions of dollars),2021,3838.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2021,2021,2021,30,4
+Military Retirement,(Millions of dollars),2022,3923.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2022,2022,2022,30,5
+Military Retirement,(Millions of dollars),2023,4009.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2023,2023,2023,30,6
+Military Retirement,(Millions of dollars),2024,4088.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2024,2024,2024,30,7
+Military Retirement,(Millions of dollars),2025,4161.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2025,2025,2025,30,8
+Military Retirement,(Millions of dollars),2026,4233.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2026,2026,2026,30,9
+Military Retirement,(Millions of dollars),2027,4302.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2027,2027,2027,30,10
+Military Retirement,(Millions of dollars),2028,4370.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2028,2028,2028,30,11
+Military Retirement,(Millions of dollars),2029,4440.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays for Survivors / (Millions of dollars),fiscal_year,2029,2029,2029,30,12
+Military Retirement,(Millions of dollars),2019,60450.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2019,2019,2019,35,2
+Military Retirement,(Millions of dollars),2020,62600.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2020,2020,2020,35,3
+Military Retirement,(Millions of dollars),2021,64650.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2021,2021,2021,35,4
+Military Retirement,(Millions of dollars),2022,71750.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2022,2022,2022,35,5
+Military Retirement,(Millions of dollars),2023,68650.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2023,2023,2023,35,6
+Military Retirement,(Millions of dollars),2024,65050.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2024,2024,2024,35,7
+Military Retirement,(Millions of dollars),2025,72150.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2025,2025,2025,35,8
+Military Retirement,(Millions of dollars),2026,73950.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2026,2026,2026,35,9
+Military Retirement,(Millions of dollars),2027,75750.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2027,2027,2027,35,10
+Military Retirement,(Millions of dollars),2028,83550.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2028,2028,2028,35,11
+Military Retirement,(Millions of dollars),2029,73600.0,Millions of dollars,51303-2019-05-Military-Retirement.xlsx,Table 1,true,51303,By Fiscal Year / Total Outlays / (Millions of dollars),fiscal_year,2029,2029,2029,35,12

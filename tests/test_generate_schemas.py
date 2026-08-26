@@ -8,10 +8,10 @@ from src import generate_schemas
 def _write_sample_csv(path: Path, *, has_totals: bool = True) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
-        "program,category,fiscal_year,value,unit,source_file,source_sheet,is_total\n"
-        "SNAP,Estimated Budget Authority,2024,103764.0,Millions of dollars,51312-2024-06-snap.xlsx,SNAP_06-2024,false\n"
+        "program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column\n"
+        "SNAP,Estimated Budget Authority,2024,103764.0,Millions of dollars,51312-2024-06-snap.xlsx,SNAP_06-2024,false,51312,Estimated Budget Authority,fiscal_year,2024,2024,2024,10,4\n"
         + (
-            "SNAP,Total Outlays,2024,104000.0,Millions of dollars,51312-2024-06-snap.xlsx,SNAP_06-2024,true\n"
+            "SNAP,Total Outlays,2024,104000.0,Millions of dollars,51312-2024-06-snap.xlsx,SNAP_06-2024,true,51312,Total Outlays,fiscal_year,2024,2024,2024,11,4\n"
             if has_totals
             else ""
         ),
@@ -77,8 +77,8 @@ class GenerateSchemasTests(unittest.TestCase):
             generate_schemas.generate_schemas(processed_dir=processed, schemas_dir=schemas)
 
             content = (schemas / "snap_2024_06.md").read_text(encoding="utf-8")
-            for col_name in ("program", "category", "fiscal_year", "value", "unit",
-                             "source_file", "source_sheet", "is_total"):
+            for col_name in generate_schemas.COLUMN_META:
+                col_name = col_name["name"]
                 self.assertIn(col_name, content, f"Column '{col_name}' missing from schema")
 
     def test_schema_file_includes_provenance_from_csv(self):

@@ -1,109 +1,109 @@
-program,category,fiscal_year,value,unit,source_file,source_sheet,is_total
-Chip,Budget Authoritya,2021,25.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Budget Authoritya,2022,26.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Budget Authoritya,2023,26.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Budget Authoritya,2024,19.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Budget Authoritya,2025,18.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Budget Authoritya,2026,19.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Budget Authoritya,2027,19.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Budget Authoritya,2028,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Budget Authoritya,2029,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Budget Authoritya,2030,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Budget Authoritya,2031,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Budget Authoritya,2032,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Outlays,2021,16.093,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Outlays,2022,17.186,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Outlays,2023,17.857,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Outlays,2024,17.351,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Outlays,2025,17.886,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Outlays,2026,18.457,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Outlays,2027,19.059,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Outlays,2028,19.743,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Outlays,2029,20.479,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Outlays,2030,21.267,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Outlays,2031,16.990586754547145,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Outlays,2032,15.3,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Millions of children,2021,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Millions of children,2022,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Millions of children,2023,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Millions of children,2024,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Millions of children,2025,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Millions of children,2026,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Millions of children,2027,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Millions of children,2028,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Millions of children,2029,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Millions of children,2030,6.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Millions of children,2031,5.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Millions of children,2032,5.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Total Enrollment,2021,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Enrollment,2022,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Enrollment,2023,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Enrollment,2024,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Enrollment,2025,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Enrollment,2026,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Enrollment,2027,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Enrollment,2028,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Enrollment,2029,7.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Enrollment,2030,6.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Enrollment,2031,5.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Enrollment,2032,5.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Benefit Payments per Enrollee (Dollars),2021,2336.721359082329,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Benefit Payments per Enrollee (Dollars),2022,2512.205817862886,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Benefit Payments per Enrollee (Dollars),2023,2624.099926524614,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Benefit Payments per Enrollee (Dollars),2024,2561.0332103321034,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Benefit Payments per Enrollee (Dollars),2025,2651.3489475244587,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Benefit Payments per Enrollee (Dollars),2026,2746.577380952381,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Benefit Payments per Enrollee (Dollars),2027,2842.9295942720764,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Benefit Payments per Enrollee (Dollars),2028,2943.202146690519,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Benefit Payments per Enrollee (Dollars),2029,3047.0168129742597,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Benefit Payments per Enrollee (Dollars),2030,3153.937416580157,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Benefit Payments per Enrollee (Dollars),2031,3263.9668932899795,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Benefit Payments per Enrollee (Dollars),2032,3377.6141384388807,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,State allotments,2021,18.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,State allotments,2022,19.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,State allotments,2023,18.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,State allotments,2024,19.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,State allotments,2025,18.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,State allotments,2026,19.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,State allotments,2027,19.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,State allotments,2028,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,State allotments,2029,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,State allotments,2030,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,State allotments,2031,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,State allotments,2032,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Prior-year funds available,2021,6.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Prior-year funds available,2022,10.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Prior-year funds available,2023,12.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Prior-year funds available,2024,12.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Prior-year funds available,2025,13.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Prior-year funds available,2026,13.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Prior-year funds available,2027,14.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Prior-year funds available,2028,14.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Prior-year funds available,2029,10.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Prior-year funds available,2030,4.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Prior-year funds available,2031,0.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Prior-year funds available,2032,0.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Redistribution funds,2021,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Redistribution funds,2022,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Redistribution funds,2023,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Redistribution funds,2024,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Redistribution funds,2025,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Redistribution funds,2026,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Redistribution funds,2027,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Redistribution funds,2028,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Redistribution funds,2029,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Redistribution funds,2030,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Redistribution funds,2031,2.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Redistribution funds,2032,0.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false
-Chip,Total Available Funding,2021,27.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Available Funding,2022,32.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Available Funding,2023,32.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Available Funding,2024,33.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Available Funding,2025,34.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Available Funding,2026,35.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Available Funding,2027,36.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Available Funding,2028,32.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Available Funding,2029,28.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Available Funding,2030,23.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Available Funding,2031,17.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
-Chip,Total Available Funding,2032,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true
+program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,period_type,period_start_year,period_end_year,period_label,source_row,source_column
+CHIP,Budget Authoritya,2021,25.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Budget Authoritya,fiscal_year,2021,2021,2021,14,4
+CHIP,Budget Authoritya,2022,26.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Budget Authoritya,fiscal_year,2022,2022,2022,14,5
+CHIP,Budget Authoritya,2023,26.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Budget Authoritya,fiscal_year,2023,2023,2023,14,6
+CHIP,Budget Authoritya,2024,19.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Budget Authoritya,fiscal_year,2024,2024,2024,14,7
+CHIP,Budget Authoritya,2025,18.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Budget Authoritya,fiscal_year,2025,2025,2025,14,8
+CHIP,Budget Authoritya,2026,19.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Budget Authoritya,fiscal_year,2026,2026,2026,14,9
+CHIP,Budget Authoritya,2027,19.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Budget Authoritya,fiscal_year,2027,2027,2027,14,10
+CHIP,Budget Authoritya,2028,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Budget Authoritya,fiscal_year,2028,2028,2028,14,11
+CHIP,Budget Authoritya,2029,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Budget Authoritya,fiscal_year,2029,2029,2029,14,12
+CHIP,Budget Authoritya,2030,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Budget Authoritya,fiscal_year,2030,2030,2030,14,13
+CHIP,Budget Authoritya,2031,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Budget Authoritya,fiscal_year,2031,2031,2031,14,14
+CHIP,Budget Authoritya,2032,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Budget Authoritya,fiscal_year,2032,2032,2032,14,15
+CHIP,Outlays,2021,16.093,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Outlays,fiscal_year,2021,2021,2021,16,4
+CHIP,Outlays,2022,17.186,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Outlays,fiscal_year,2022,2022,2022,16,5
+CHIP,Outlays,2023,17.857,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Outlays,fiscal_year,2023,2023,2023,16,6
+CHIP,Outlays,2024,17.351,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Outlays,fiscal_year,2024,2024,2024,16,7
+CHIP,Outlays,2025,17.886,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Outlays,fiscal_year,2025,2025,2025,16,8
+CHIP,Outlays,2026,18.457,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Outlays,fiscal_year,2026,2026,2026,16,9
+CHIP,Outlays,2027,19.059,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Outlays,fiscal_year,2027,2027,2027,16,10
+CHIP,Outlays,2028,19.743,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Outlays,fiscal_year,2028,2028,2028,16,11
+CHIP,Outlays,2029,20.479,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Outlays,fiscal_year,2029,2029,2029,16,12
+CHIP,Outlays,2030,21.267,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Outlays,fiscal_year,2030,2030,2030,16,13
+CHIP,Outlays,2031,16.990586754547145,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Outlays,fiscal_year,2031,2031,2031,16,14
+CHIP,Outlays,2032,15.3,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / BUDGET INFORMATION / Outlays,fiscal_year,2032,2032,2032,16,15
+CHIP,Enrollment at Baseline Funding Amountsb,2021,7.0,Millions of children,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb,fiscal_year,2021,2021,2021,21,4
+CHIP,Enrollment at Baseline Funding Amountsb,2022,7.0,Millions of children,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb,fiscal_year,2022,2022,2022,21,5
+CHIP,Enrollment at Baseline Funding Amountsb,2023,7.0,Millions of children,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb,fiscal_year,2023,2023,2023,21,6
+CHIP,Enrollment at Baseline Funding Amountsb,2024,7.0,Millions of children,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb,fiscal_year,2024,2024,2024,21,7
+CHIP,Enrollment at Baseline Funding Amountsb,2025,7.0,Millions of children,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb,fiscal_year,2025,2025,2025,21,8
+CHIP,Enrollment at Baseline Funding Amountsb,2026,7.0,Millions of children,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb,fiscal_year,2026,2026,2026,21,9
+CHIP,Enrollment at Baseline Funding Amountsb,2027,7.0,Millions of children,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb,fiscal_year,2027,2027,2027,21,10
+CHIP,Enrollment at Baseline Funding Amountsb,2028,7.0,Millions of children,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb,fiscal_year,2028,2028,2028,21,11
+CHIP,Enrollment at Baseline Funding Amountsb,2029,7.0,Millions of children,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb,fiscal_year,2029,2029,2029,21,12
+CHIP,Enrollment at Baseline Funding Amountsb,2030,6.0,Millions of children,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb,fiscal_year,2030,2030,2030,21,13
+CHIP,Enrollment at Baseline Funding Amountsb,2031,5.0,Millions of children,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb,fiscal_year,2031,2031,2031,21,14
+CHIP,Enrollment at Baseline Funding Amountsb,2032,5.0,Millions of children,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb,fiscal_year,2032,2032,2032,21,15
+CHIP,Total Enrollment,2021,7.0,Millions of adults,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb / Total Enrollment,fiscal_year,2021,2021,2021,23,4
+CHIP,Total Enrollment,2022,7.0,Millions of adults,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb / Total Enrollment,fiscal_year,2022,2022,2022,23,5
+CHIP,Total Enrollment,2023,7.0,Millions of adults,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb / Total Enrollment,fiscal_year,2023,2023,2023,23,6
+CHIP,Total Enrollment,2024,7.0,Millions of adults,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb / Total Enrollment,fiscal_year,2024,2024,2024,23,7
+CHIP,Total Enrollment,2025,7.0,Millions of adults,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb / Total Enrollment,fiscal_year,2025,2025,2025,23,8
+CHIP,Total Enrollment,2026,7.0,Millions of adults,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb / Total Enrollment,fiscal_year,2026,2026,2026,23,9
+CHIP,Total Enrollment,2027,7.0,Millions of adults,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb / Total Enrollment,fiscal_year,2027,2027,2027,23,10
+CHIP,Total Enrollment,2028,7.0,Millions of adults,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb / Total Enrollment,fiscal_year,2028,2028,2028,23,11
+CHIP,Total Enrollment,2029,7.0,Millions of adults,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb / Total Enrollment,fiscal_year,2029,2029,2029,23,12
+CHIP,Total Enrollment,2030,6.0,Millions of adults,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb / Total Enrollment,fiscal_year,2030,2030,2030,23,13
+CHIP,Total Enrollment,2031,5.0,Millions of adults,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb / Total Enrollment,fiscal_year,2031,2031,2031,23,14
+CHIP,Total Enrollment,2032,5.0,Millions of adults,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb / Total Enrollment,fiscal_year,2032,2032,2032,23,15
+CHIP,Benefit Payments per Enrollee (Dollars),2021,2336.721359082329,Dollars per enrollee,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars),fiscal_year,2021,2021,2021,26,4
+CHIP,Benefit Payments per Enrollee (Dollars),2022,2512.205817862886,Dollars per enrollee,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars),fiscal_year,2022,2022,2022,26,5
+CHIP,Benefit Payments per Enrollee (Dollars),2023,2624.099926524614,Dollars per enrollee,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars),fiscal_year,2023,2023,2023,26,6
+CHIP,Benefit Payments per Enrollee (Dollars),2024,2561.0332103321034,Dollars per enrollee,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars),fiscal_year,2024,2024,2024,26,7
+CHIP,Benefit Payments per Enrollee (Dollars),2025,2651.3489475244587,Dollars per enrollee,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars),fiscal_year,2025,2025,2025,26,8
+CHIP,Benefit Payments per Enrollee (Dollars),2026,2746.577380952381,Dollars per enrollee,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars),fiscal_year,2026,2026,2026,26,9
+CHIP,Benefit Payments per Enrollee (Dollars),2027,2842.9295942720764,Dollars per enrollee,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars),fiscal_year,2027,2027,2027,26,10
+CHIP,Benefit Payments per Enrollee (Dollars),2028,2943.202146690519,Dollars per enrollee,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars),fiscal_year,2028,2028,2028,26,11
+CHIP,Benefit Payments per Enrollee (Dollars),2029,3047.0168129742597,Dollars per enrollee,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars),fiscal_year,2029,2029,2029,26,12
+CHIP,Benefit Payments per Enrollee (Dollars),2030,3153.937416580157,Dollars per enrollee,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars),fiscal_year,2030,2030,2030,26,13
+CHIP,Benefit Payments per Enrollee (Dollars),2031,3263.9668932899795,Dollars per enrollee,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars),fiscal_year,2031,2031,2031,26,14
+CHIP,Benefit Payments per Enrollee (Dollars),2032,3377.6141384388807,Dollars per enrollee,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Average Annual Federal Spending on / Benefit Payments per Enrollee (Dollars),fiscal_year,2032,2032,2032,26,15
+CHIP,State allotments,2021,18.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / State allotments,fiscal_year,2021,2021,2021,31,4
+CHIP,State allotments,2022,19.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / State allotments,fiscal_year,2022,2022,2022,31,5
+CHIP,State allotments,2023,18.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / State allotments,fiscal_year,2023,2023,2023,31,6
+CHIP,State allotments,2024,19.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / State allotments,fiscal_year,2024,2024,2024,31,7
+CHIP,State allotments,2025,18.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / State allotments,fiscal_year,2025,2025,2025,31,8
+CHIP,State allotments,2026,19.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / State allotments,fiscal_year,2026,2026,2026,31,9
+CHIP,State allotments,2027,19.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / State allotments,fiscal_year,2027,2027,2027,31,10
+CHIP,State allotments,2028,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / State allotments,fiscal_year,2028,2028,2028,31,11
+CHIP,State allotments,2029,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / State allotments,fiscal_year,2029,2029,2029,31,12
+CHIP,State allotments,2030,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / State allotments,fiscal_year,2030,2030,2030,31,13
+CHIP,State allotments,2031,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / State allotments,fiscal_year,2031,2031,2031,31,14
+CHIP,State allotments,2032,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / State allotments,fiscal_year,2032,2032,2032,31,15
+CHIP,Prior-year funds available,2021,6.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Prior-year funds available,fiscal_year,2021,2021,2021,32,4
+CHIP,Prior-year funds available,2022,10.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Prior-year funds available,fiscal_year,2022,2022,2022,32,5
+CHIP,Prior-year funds available,2023,12.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Prior-year funds available,fiscal_year,2023,2023,2023,32,6
+CHIP,Prior-year funds available,2024,12.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Prior-year funds available,fiscal_year,2024,2024,2024,32,7
+CHIP,Prior-year funds available,2025,13.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Prior-year funds available,fiscal_year,2025,2025,2025,32,8
+CHIP,Prior-year funds available,2026,13.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Prior-year funds available,fiscal_year,2026,2026,2026,32,9
+CHIP,Prior-year funds available,2027,14.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Prior-year funds available,fiscal_year,2027,2027,2027,32,10
+CHIP,Prior-year funds available,2028,14.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Prior-year funds available,fiscal_year,2028,2028,2028,32,11
+CHIP,Prior-year funds available,2029,10.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Prior-year funds available,fiscal_year,2029,2029,2029,32,12
+CHIP,Prior-year funds available,2030,4.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Prior-year funds available,fiscal_year,2030,2030,2030,32,13
+CHIP,Prior-year funds available,2031,0.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Prior-year funds available,fiscal_year,2031,2031,2031,32,14
+CHIP,Prior-year funds available,2032,0.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Prior-year funds available,fiscal_year,2032,2032,2032,32,15
+CHIP,Redistribution funds,2021,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Redistribution funds,fiscal_year,2021,2021,2021,33,4
+CHIP,Redistribution funds,2022,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Redistribution funds,fiscal_year,2022,2022,2022,33,5
+CHIP,Redistribution funds,2023,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Redistribution funds,fiscal_year,2023,2023,2023,33,6
+CHIP,Redistribution funds,2024,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Redistribution funds,fiscal_year,2024,2024,2024,33,7
+CHIP,Redistribution funds,2025,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Redistribution funds,fiscal_year,2025,2025,2025,33,8
+CHIP,Redistribution funds,2026,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Redistribution funds,fiscal_year,2026,2026,2026,33,9
+CHIP,Redistribution funds,2027,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Redistribution funds,fiscal_year,2027,2027,2027,33,10
+CHIP,Redistribution funds,2028,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Redistribution funds,fiscal_year,2028,2028,2028,33,11
+CHIP,Redistribution funds,2029,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Redistribution funds,fiscal_year,2029,2029,2029,33,12
+CHIP,Redistribution funds,2030,3.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Redistribution funds,fiscal_year,2030,2030,2030,33,13
+CHIP,Redistribution funds,2031,2.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Redistribution funds,fiscal_year,2031,2031,2031,33,14
+CHIP,Redistribution funds,2032,0.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,false,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Redistribution funds,fiscal_year,2032,2032,2032,33,15
+CHIP,Total Available Funding,2021,27.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Total Available Funding,fiscal_year,2021,2021,2021,34,4
+CHIP,Total Available Funding,2022,32.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Total Available Funding,fiscal_year,2022,2022,2022,34,5
+CHIP,Total Available Funding,2023,32.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Total Available Funding,fiscal_year,2023,2023,2023,34,6
+CHIP,Total Available Funding,2024,33.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Total Available Funding,fiscal_year,2024,2024,2024,34,7
+CHIP,Total Available Funding,2025,34.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Total Available Funding,fiscal_year,2025,2025,2025,34,8
+CHIP,Total Available Funding,2026,35.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Total Available Funding,fiscal_year,2026,2026,2026,34,9
+CHIP,Total Available Funding,2027,36.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Total Available Funding,fiscal_year,2027,2027,2027,34,10
+CHIP,Total Available Funding,2028,32.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Total Available Funding,fiscal_year,2028,2028,2028,34,11
+CHIP,Total Available Funding,2029,28.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Total Available Funding,fiscal_year,2029,2029,2029,34,12
+CHIP,Total Available Funding,2030,23.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Total Available Funding,fiscal_year,2030,2030,2030,34,13
+CHIP,Total Available Funding,2031,17.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Total Available Funding,fiscal_year,2031,2031,2031,34,14
+CHIP,Total Available Funding,2032,15.0,Billions of dollars,51296-2022-05-chip.xlsx,CHIP_05-2022,true,51296,Children’s Health Insurance Program / Available Funding to States (Billions of dollars)c / Total Available Funding,fiscal_year,2032,2032,2032,34,15

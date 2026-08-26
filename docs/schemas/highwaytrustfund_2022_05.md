@@ -1,13 +1,13 @@
 # Schema: Highwaytrustfund 2022 05
 
-**Dataset:** `highwaytrustfund_2022_05`  
-**Vintage:** 2022-05  
-**Rows:** 134  
-**Fiscal years covered:** 2021–2032  
+- **Dataset:** `highwaytrustfund_2022_05`
+- **Vintage:** 2022-05
+- **Rows:** 134
+- **Fiscal years covered:** 2021–2032
 
 ## Purpose
 
-Tidy long-form CBO baseline data for the **Highwaytrustfund** program(s), extracted from CBO budget baseline workbooks published by the Congressional Budget Office. Each row represents a single program/category/fiscal-year observation.
+Tidy long-form CBO baseline data for the **Highway Trust Fund** program(s), extracted from CBO budget baseline workbooks published by the Congressional Budget Office. Each row represents one numeric source cell with explicit program, category hierarchy, period semantics, and cell-level provenance.
 
 ## Provenance
 
@@ -21,14 +21,22 @@ Tidy long-form CBO baseline data for the **Highwaytrustfund** program(s), extrac
 
 | Column | Type | Description | Unit | Example | Notes |
 |---|---|---|---|---|---|
-| `program` | string | CBO program name inferred from the source workbook filename. | N/A | `Highwaytrustfund` | Derived from the workbook filename; may include a version suffix for older files. |
-| `category` | string | Line-item label as it appears in the source worksheet after header normalization. | N/A | `Start-of-Year Balance` | Rows where ``is_total`` is ``true`` represent aggregated totals or subtotals and should be excluded from sum-based aggregations to avoid double-counting. |
-| `fiscal_year` | integer | Federal fiscal year to which the value applies (Oct 1 – Sep 30). | Year | `2021` | Only years in the range 2019–2040 are included; historical prior-year columns outside that range are silently dropped by the transform. |
+| `program` | string | Canonical CBO program name keyed by the stable source identifier. | N/A | `Highway Trust Fund` | Stable across workbook vintages; use ``program_id`` as the machine key. |
+| `category` | string | Leaf line-item label from the source worksheet. | N/A | `Start-of-Year Balance` | Rows where ``is_total`` is ``true`` represent aggregated totals or subtotals and should be excluded from sum-based aggregations to avoid double-counting. |
+| `fiscal_year` | integer or null | Annual federal fiscal year; blank for every other period type. | Year | `2021` | Historical actuals are retained. Consult ``period_type`` and the explicit period bounds before interpreting a row as annual fiscal-year data. |
 | `value` | float | Parsed numeric value from the source cell. | See ``unit`` column | `12621.0` | Negative values indicate outflows or reductions. Values originally enclosed in parentheses (e.g. ``(123)``) are converted to negative floats. |
-| `unit` | string | Unit of measure for the ``value`` column, sourced from the parse plan. | N/A | `Millions of dollars` | Common values include 'Millions of dollars', 'Billions of dollars', and 'Thousands'. |
+| `unit` | string | Unit of measure for ``value``, resolved from row/section labels and parse metadata. | N/A | `Millions of dollars` | Common values include 'Millions of dollars', 'Billions of dollars', and 'Thousands'. |
 | `source_file` | string | Original CBO workbook filename from ``data/raw/``. | N/A | `51300-2022-05-highwaytrustfund.xlsx` | Use this column to trace any row back to its exact source workbook. |
-| `source_sheet` | string | Worksheet name within the source workbook. | N/A | `HTF_05-2022` | Combine with ``source_file`` for a fully qualified provenance reference. |
+| `source_sheet` | string | Worksheet name within the source workbook. | N/A | `HTF_05-2022` | Combine with source file, row, and column for exact cell provenance. |
 | `is_total` | boolean | ``true`` if the category label contains the word 'total' or 'subtotal', indicating an aggregated row. | N/A | `false` | **Always filter ``is_total = true`` rows out before computing sums or averages** across categories to avoid double-counting. Retain them for headline/summary views. |
+| `program_id` | string | Stable numeric CBO identifier from the source filename. | N/A | `51300` | Preferred program join key across vintages. |
+| `category_path` | string | Hierarchy-aware path from table/section headings to the leaf category. | N/A | `Highway Trust Fund Accounts / Highway...` | Use this field instead of ``category`` when labels repeat in different subprograms. |
+| `period_type` | string | Period semantics for the observation. | N/A | `fiscal_year` | Values include fiscal_year, calendar_year, award_year, school_year, cumulative_fiscal_years, and unmapped. |
+| `period_start_year` | integer or null | First year represented by the source period. | Year | `2021` | Equals period_end_year for annual rows and is blank when the source period is not identified. |
+| `period_end_year` | integer or null | Last year represented by the source period. | Year | `2021` | For annual fiscal-year rows this equals ``fiscal_year``. |
+| `period_label` | string | Normalized source period label such as 2025 or 2025-2029. | N/A | `2021` | Rows with unrecognized periods are labeled explicitly rather than assigned a guessed year. |
+| `source_row` | integer | One-based worksheet row containing the numeric source value. | N/A | `14` | Together with ``source_column`` identifies the exact source cell. |
+| `source_column` | integer | One-based worksheet column containing the numeric source value. | N/A | `4` | Together with ``source_row`` identifies the exact source cell. |
 
 ## is_total Interpretation
 
