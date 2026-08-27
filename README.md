@@ -53,6 +53,13 @@ python src/generate_schemas.py --help
 python src/verify.py --help
 ```
 
+The download step rechecks existing workbook URLs on every run because CBO
+occasionally republishes corrected data under the same filename. It uses HTTP
+validators when available and otherwise compares file hashes, so unchanged
+workbooks are not rewritten. Use `python src/download.py --skip-existing` only
+when a faster inventory update is more important than detecting same-URL
+corrections.
+
 ## Output Locations
 
 | Output | Location | Description |
