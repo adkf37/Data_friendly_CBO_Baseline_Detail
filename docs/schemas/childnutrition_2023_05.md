@@ -38,6 +38,16 @@ Tidy long-form CBO baseline data for the **Child Nutrition** program(s), extract
 | `source_row` | integer | One-based worksheet row containing the numeric source value. | N/A | `12` | Together with ``source_column`` identifies the exact source cell. |
 | `source_column` | integer | One-based worksheet column containing the numeric source value. | N/A | `4` | Together with ``source_row`` identifies the exact source cell. |
 
+## Variable Notes
+
+Superscript letter markers are read from the source workbook's actual Excel rich-text formatting. Each extracted note is attached to every affected `category_path`; a note on a parent heading therefore applies to its child rows. A source-only entry is retained when the annotated source label has no emitted row in the processed dataset.
+
+| Affected category path | Marker | `variable_note` | Source label | Source cell |
+|---|---|---|---|---|
+| Child Nutrition Programs / BUDGET INFORMATION / Estimated Outlaysa | `a` | The projections account for the estimated effects of a proposed rule that would lower the participation threshold for the Community Eligibility Provision (CEP). Under CEP, meal reimbursements are based on the share of students in the school or school district that are enrolled in certain federal programs, rather than on the household income of the child that received the meal. Under current law, schools and districts may participate if at least 40 percent of their students are enrolled in certain programs. The proposed rule would reduce that threshold to 25 percent. In accordance with CBO’s standard practice for incorporating the effects of proposed rules in its baseline projections, these projections reflect the assumption that there is a 50 percent chance that the rule would be finalized and take effect in 2024. | Estimated Outlaysa | `51293-2023-05-childnutrition.xlsx` / `Child Nutrition_05-2023` / R14C1 |
+| Child Nutrition Programs / Other Spendingb / Budget Authority | `b` | “Other Spending” includes the Special Milk Program, the Food Service Management Institute, Team Nutrition, coordinated review, computer support and processing, child nutrition grants for the Northern Mariana Islands and American Samoa, and other activities. It also includes discretionary projects funded in annual appropriation acts. | Other Spendingb | `51293-2023-05-childnutrition.xlsx` / `Child Nutrition_05-2023` / R42C1 |
+| Child Nutrition Programs / Other Spendingb / Estimated Outlays | `b` | “Other Spending” includes the Special Milk Program, the Food Service Management Institute, Team Nutrition, coordinated review, computer support and processing, child nutrition grants for the Northern Mariana Islands and American Samoa, and other activities. It also includes discretionary projects funded in annual appropriation acts. | Other Spendingb | `51293-2023-05-childnutrition.xlsx` / `Child Nutrition_05-2023` / R42C1 |
+
 ## is_total Interpretation
 
 The `is_total` column flags rows whose `category` label contains the word 'total' or 'subtotal'. These rows summarise multiple line items and must be treated carefully in downstream analysis:

@@ -23,6 +23,14 @@ if sys.path:
     if Path(sys.path[0]).resolve() == script_dir:
         sys.path[0] = str(script_dir.parent)
 
+from src.source_annotations import (
+    AnnotationCatalog,
+    ObservationContext,
+    VariableNote,
+    load_annotation_catalog,
+    match_variable_notes,
+)
+
 # ---------------------------------------------------------------------------
 # Column metadata table (fixed schema from transform.OUTPUT_COLUMNS)
 # ---------------------------------------------------------------------------
@@ -173,6 +181,7 @@ class DatasetInfo(NamedTuple):
     units: list[str]
     sample_rows: list[dict]
     has_totals: bool
+    annotation_contexts: tuple[ObservationContext, ...]
 
 
 def _read_dataset(csv_path: Path, sample_size: int = 3) -> DatasetInfo:
@@ -189,6 +198,26 @@ def _read_dataset(csv_path: Path, sample_size: int = 3) -> DatasetInfo:
     units = sorted({r["unit"] for r in rows if r.get("unit")})
     has_totals = any(r.get("is_total", "false").lower() == "true" for r in rows)
     sample_rows = rows[:sample_size]
+    annotation_contexts: set[ObservationContext] = set()
+    for row in rows:
+        try:
+            source_row = int(row.get("source_row", ""))
+            source_column = int(row.get("source_column", ""))
+        except (TypeError, ValueError):
+            continue
+        source_file = (row.get("source_file") or "").strip()
+        source_sheet = (row.get("source_sheet") or "").strip()
+        category_path = (row.get("category_path") or "").strip()
+        if source_file and source_sheet and source_row > 0 and source_column > 0 and category_path:
+            annotation_contexts.add(
+                ObservationContext(
+                    source_file=source_file,
+                    source_sheet=source_sheet,
+                    source_row=source_row,
+                    source_column=source_column,
+                    category_path=category_path,
+                )
+            )
 
     return DatasetInfo(
         basename=csv_path.stem,
@@ -200,6 +229,18 @@ def _read_dataset(csv_path: Path, sample_size: int = 3) -> DatasetInfo:
         units=units,
         sample_rows=sample_rows,
         has_totals=has_totals,
+        annotation_contexts=tuple(
+            sorted(
+                annotation_contexts,
+                key=lambda item: (
+                    item.source_file,
+                    item.source_sheet,
+                    item.source_row,
+                    item.source_column,
+                    item.category_path,
+                ),
+            )
+        ),
     )
 
 
@@ -237,7 +278,43 @@ def _render_column_table(sample_rows: list[dict]) -> str:
     return "".join(lines)
 
 
-def _render_schema_doc(info: DatasetInfo) -> str:
+def _markdown_cell(value: object) -> str:
+    return " ".join(str(value).split()).replace("|", "\\|")
+
+
+def _render_variable_notes(variable_notes: list[VariableNote]) -> str:
+    introduction = (
+        "Superscript letter markers are read from the source workbook's actual Excel "
+        "rich-text formatting. Each extracted note is attached to every affected "
+        "`category_path`; a note on a parent heading therefore applies to its child rows. "
+        "A source-only entry is retained when the annotated source label has no emitted "
+        "row in the processed dataset.\n\n"
+    )
+    if not variable_notes:
+        return introduction + "No superscript variable notes are attached to this dataset.\n"
+
+    lines = [
+        introduction,
+        "| Affected category path | Marker | `variable_note` | Source label | Source cell |\n",
+        "|---|---|---|---|---|\n",
+    ]
+    for note in variable_notes:
+        note_text = note.variable_note or "Note text was not found in the source worksheet."
+        category_path = note.category_path or "*Source label is not represented in processed rows.*"
+        source = (
+            f"`{_markdown_cell(note.source_file)}` / "
+            f"`{_markdown_cell(note.source_sheet)}` / "
+            f"R{note.label_row}C{note.label_column}"
+        )
+        lines.append(
+            f"| {_markdown_cell(category_path)} | `{note.marker}` | "
+            f"{_markdown_cell(note_text)} | {_markdown_cell(note.source_label)} | {source} |\n"
+        )
+    return "".join(lines)
+
+
+def _render_schema_doc(info: DatasetInfo, variable_notes: list[VariableNote] | None = None) -> str:
+    variable_notes = variable_notes or []
     title = _dataset_title(info.basename)
     vintage = _vintage_from_basename(info.basename)
     program_list = ", ".join(info.programs) if info.programs else "N/A"
@@ -281,6 +358,8 @@ def _render_schema_doc(info: DatasetInfo) -> str:
         f"\n"
         f"## Columns\n\n"
         f"{_render_column_table(info.sample_rows)}\n"
+        f"## Variable Notes\n\n"
+        f"{_render_variable_notes(variable_notes)}\n"
         f"## is_total Interpretation\n\n"
         f"The `is_total` column flags rows whose `category` label contains the word "
         f"'total' or 'subtotal'. These rows summarise multiple line items and must be "
@@ -293,7 +372,20 @@ def _render_schema_doc(info: DatasetInfo) -> str:
     )
 
 
-def _render_readme(infos: list[DatasetInfo], schemas_dir: Path) -> str:
+def _render_readme(
+    infos: list[DatasetInfo],
+    schemas_dir: Path,
+    variable_notes_by_dataset: dict[str, list[VariableNote]] | None = None,
+) -> str:
+    variable_notes_by_dataset = variable_notes_by_dataset or {}
+    datasets_with_notes = sum(bool(variable_notes_by_dataset.get(info.basename)) for info in infos)
+    variable_note_count = sum(len(notes) for notes in variable_notes_by_dataset.values())
+    source_only_count = sum(
+        1
+        for notes in variable_notes_by_dataset.values()
+        for note in notes
+        if not note.category_path
+    )
     lines = [
         "# CBO Baseline Dataset Schemas\n\n",
         "One schema document exists for every processed CSV in `data/processed/`. "
@@ -307,9 +399,23 @@ def _render_readme(infos: list[DatasetInfo], schemas_dir: Path) -> str:
             f"| `{meta['name']}` | {meta['type']} | {meta['description']} | {meta['unit']} | — | {meta['notes']} |\n"
         )
 
+    lines.extend(
+        [
+            "\n## Superscript variable notes\n\n",
+            "Each dataset schema includes a **Variable Notes** section. Notes are extracted "
+            "only from actual superscript-formatted letter markers in the source XLSX and "
+            "are bound to the affected `category_path`, including inherited parent-heading notes. "
+            "Source-only entries are retained when an annotated source label is not emitted in "
+            "the processed CSV.\n\n",
+            f"**Datasets with variable notes:** {datasets_with_notes}\n\n",
+            f"**Variable-note mappings:** {variable_note_count:,}\n\n",
+            f"**Source-only annotations:** {source_only_count:,}\n",
+        ]
+    )
+
     lines.append("\n## Dataset index\n\n")
-    lines.append("| Dataset | Rows | Fiscal years | Programs | Schema |\n")
-    lines.append("|---|---|---|---|---|\n")
+    lines.append("| Dataset | Rows | Fiscal years | Programs | Variable notes | Schema |\n")
+    lines.append("|---|---|---|---|---|---|\n")
     for info in sorted(infos, key=lambda x: x.basename):
         year_range = (
             f"{info.fiscal_years[0]}–{info.fiscal_years[-1]}"
@@ -317,8 +423,12 @@ def _render_readme(infos: list[DatasetInfo], schemas_dir: Path) -> str:
             else (str(info.fiscal_years[0]) if info.fiscal_years else "—")
         )
         programs = ", ".join(info.programs[:2]) + ("…" if len(info.programs) > 2 else "")
+        note_count = len(variable_notes_by_dataset.get(info.basename, []))
         schema_link = f"[{info.basename}.md]({info.basename}.md)"
-        lines.append(f"| `{info.basename}` | {info.row_count:,} | {year_range} | {programs} | {schema_link} |\n")
+        lines.append(
+            f"| `{info.basename}` | {info.row_count:,} | {year_range} | {programs} | "
+            f"{note_count:,} | {schema_link} |\n"
+        )
 
     return "".join(lines)
 
@@ -331,6 +441,7 @@ def _render_readme(infos: list[DatasetInfo], schemas_dir: Path) -> str:
 def generate_schemas(
     processed_dir: Path = Path("data/processed"),
     schemas_dir: Path = Path("docs/schemas"),
+    raw_dir: Path | None = None,
 ) -> int:
     csv_paths = sorted(processed_dir.glob("*.csv"))
     if not csv_paths:
@@ -339,21 +450,72 @@ def generate_schemas(
 
     schemas_dir.mkdir(parents=True, exist_ok=True)
 
-    infos: list[DatasetInfo] = []
-    for csv_path in csv_paths:
-        info = _read_dataset(csv_path)
-        infos.append(info)
+    infos = [_read_dataset(csv_path) for csv_path in csv_paths]
+    requested_sources: dict[str, set[str]] = {}
+    for info in infos:
+        for context in info.annotation_contexts:
+            requested_sources.setdefault(context.source_file, set()).add(context.source_sheet)
+    effective_raw_dir = raw_dir if raw_dir is not None else processed_dir.parent / "raw"
+    catalog = (
+        load_annotation_catalog(effective_raw_dir, requested_sources)
+        if effective_raw_dir.exists()
+        else AnnotationCatalog(by_source={})
+    )
+    variable_notes_by_dataset = {
+        info.basename: match_variable_notes(info.annotation_contexts, catalog)
+        for info in infos
+    }
+    all_variable_notes = [
+        note
+        for variable_notes in variable_notes_by_dataset.values()
+        for note in variable_notes
+    ]
+    expected_note_identities = {
+        (source_file, source_sheet, item.raw_label, item.marker, item.variable_note)
+        for (source_file, source_sheet), annotations in catalog.by_source.items()
+        for item in annotations
+    }
+    represented_note_identities = {
+        (
+            note.source_file,
+            note.source_sheet,
+            note.source_label,
+            note.marker,
+            note.variable_note,
+        )
+        for note in all_variable_notes
+    }
+    unresolved_markers = catalog.marker_references - catalog.resolved_marker_references
+    unrepresented_notes = expected_note_identities - represented_note_identities
+    annotation_errors = (
+        unresolved_markers
+        + len(unrepresented_notes)
+        + len(catalog.missing_files)
+        + len(catalog.missing_sheets)
+    )
+
+    for info in infos:
         schema_path = schemas_dir / f"{info.basename}.md"
-        schema_path.write_text(_render_schema_doc(info), encoding="utf-8")
+        schema_path.write_text(
+            _render_schema_doc(info, variable_notes_by_dataset[info.basename]),
+            encoding="utf-8",
+        )
 
     readme_path = schemas_dir / "README.md"
-    readme_path.write_text(_render_readme(infos, schemas_dir), encoding="utf-8")
+    readme_path.write_text(
+        _render_readme(infos, schemas_dir, variable_notes_by_dataset),
+        encoding="utf-8",
+    )
 
     print(
         f"Schema generation complete. datasets={len(infos)}, "
+        f"variable_notes={sum(len(notes) for notes in variable_notes_by_dataset.values())}, "
+        f"resolved_markers={catalog.resolved_marker_references}/{catalog.marker_references}, "
+        f"annotation_errors={annotation_errors}, "
+        f"missing_files={len(catalog.missing_files)}, missing_sheets={len(catalog.missing_sheets)}, "
         f"schemas_dir={schemas_dir}, index={readme_path}"
     )
-    return 0
+    return 1 if annotation_errors else 0
 
 
 def parse_args() -> argparse.Namespace:
@@ -372,6 +534,12 @@ def parse_args() -> argparse.Namespace:
         default=Path("docs/schemas"),
         help="Output directory for schema Markdown files (default: docs/schemas)",
     )
+    parser.add_argument(
+        "--raw-dir",
+        type=Path,
+        default=Path("data/raw"),
+        help="Directory containing source XLSX workbooks (default: data/raw)",
+    )
     return parser.parse_args()
 
 
@@ -380,6 +548,7 @@ def main() -> int:
     return generate_schemas(
         processed_dir=args.processed_dir,
         schemas_dir=args.schemas_dir,
+        raw_dir=args.raw_dir,
     )
 
 

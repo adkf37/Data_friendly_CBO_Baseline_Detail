@@ -40,6 +40,16 @@ Tidy long-form CBO baseline data for the **DoD Medicare** program(s), extracted 
 | `source_row` | integer | One-based worksheet row containing the numeric source value. | N/A | `11` | Together with ``source_column`` identifies the exact source cell. |
 | `source_column` | integer | One-based worksheet column containing the numeric source value. | N/A | `5` | Together with ``source_row`` identifies the exact source cell. |
 
+## Variable Notes
+
+Superscript letter markers are read from the source workbook's actual Excel rich-text formatting. Each extracted note is attached to every affected `category_path`; a note on a parent heading therefore applies to its child rows. A source-only entry is retained when the annotated source label has no emitted row in the processed dataset.
+
+| Affected category path | Marker | `variable_note` | Source label | Source cell |
+|---|---|---|---|---|
+| By Fiscal Year / Beneficiaries (Thousands) / TRICARE for Lifea | `a` | TFL beneficiaries include all military retirees, survivors, and their dependents who are eligible for benefits from the MERCHF unless they are enrolled in USFHP. For those enrolled in Medicare Part B, benefits include the TFL Medicare wrap-around benefit, pharmacy benefits, and any care provided to those beneficiaries at military treatment facilities. TFL beneficiaries shown in this table also include those non-USFHP beneficiaries who are ineligible to use TFL because they are not enrolled in Medicare Part B but are still eligible for some benefits from the MERHCF, such as direct care at military treatment facilities. CBO estimates that about 90 percent of beneficiaries who are eligible for TFL use the benefit. | TRICARE for Lifea | `54946-2020-03-dodmedicare.xlsx` / `Table 1` / R11C2 |
+| By Fiscal Year / Beneficiaries (Thousands) / USFHPb | `b` | The beneficiary projections for USFHP include CBO's projection of Medicare-eligible beneficiaries enrolled in that program and exclude beneficiaries enrolled in USFHP who are not Medicare eligible. Costs for those beneficiaries are not paid from the MERHCF. The enrollment of Medicare-eligible beneficiaries in USFHP is declining over time because the National Defense Authorization Act for Fiscal Year 2012 (Public Law 112-81) limits future enrollment of Medicare-eligible beneficiaries to those enrolled as of the start of fiscal year 2013. | USFHPb | `54946-2020-03-dodmedicare.xlsx` / `Table 1` / R12C2 |
+| By Fiscal Year / Military treatment facilities / USFHPc | `c` | The costs per capita to the MERHCF for USFHP beneficiaries are greater than for TFL beneficiaries because USFHP is responsible for the full cost of care for its enrollees, whereas TFL pays only the portion of allowable charges that is not paid for by Medicare or another form of health insurance. | USFHPc | `54946-2020-03-dodmedicare.xlsx` / `Table 1` / R29C2 |
+
 ## is_total Interpretation
 
 The `is_total` column flags rows whose `category` label contains the word 'total' or 'subtotal'. These rows summarise multiple line items and must be treated carefully in downstream analysis:

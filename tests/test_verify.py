@@ -1,4 +1,6 @@
 import csv
+import subprocess
+import sys
 import tempfile
 import unittest
 from pathlib import Path
@@ -68,6 +70,20 @@ def _write_processed_csv(path: Path, workbook: str, sheet: str, values: list[tup
 
 
 class VerifyTests(unittest.TestCase):
+    def test_direct_script_help_does_not_shadow_standard_inspect_module(self):
+        repo_root = Path(__file__).resolve().parent.parent
+
+        result = subprocess.run(
+            [sys.executable, str(repo_root / "src" / "verify.py"), "--help"],
+            cwd=repo_root,
+            capture_output=True,
+            text=True,
+            check=False,
+        )
+
+        self.assertEqual(0, result.returncode, result.stderr)
+        self.assertIn("usage:", result.stdout.lower())
+
     def test_direct_verification_catches_offsetting_source_cell_errors(self):
         with tempfile.TemporaryDirectory() as tmpdir:
             root = Path(tmpdir)

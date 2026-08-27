@@ -38,6 +38,15 @@ Tidy long-form CBO baseline data for the **Unemployment Insurance** program(s), 
 | `source_row` | integer | One-based worksheet row containing the numeric source value. | N/A | `14` | Together with ``source_column`` identifies the exact source cell. |
 | `source_column` | integer | One-based worksheet column containing the numeric source value. | N/A | `5` | Together with ``source_row`` identifies the exact source cell. |
 
+## Variable Notes
+
+Superscript letter markers are read from the source workbook's actual Excel rich-text formatting. Each extracted note is attached to every affected `category_path`; a note on a parent heading therefore applies to its child rows. A source-only entry is retained when the annotated source label has no emitted row in the processed dataset.
+
+| Affected category path | Marker | `variable_note` | Source label | Source cell |
+|---|---|---|---|---|
+| Unemployment Compensation / Trade Adjustment Assistancea / Budget Authority | `a` | Consistent with section 257 of the Balanced Budget and Emergency Deficit Control Act of 1985, CBO assumes that Trade Adjustment Assistance outlays continue in the baseline after the current authorization expires in June 2022. Those amounts include cash and training benefits. | Trade Adjustment Assistancea | `51316-2021-07-unemployment.xlsx` / `UI and TAA_07-2021` / R40C2 |
+| Unemployment Compensation / Trade Adjustment Assistancea / Estimated Outlays | `a` | Consistent with section 257 of the Balanced Budget and Emergency Deficit Control Act of 1985, CBO assumes that Trade Adjustment Assistance outlays continue in the baseline after the current authorization expires in June 2022. Those amounts include cash and training benefits. | Trade Adjustment Assistancea | `51316-2021-07-unemployment.xlsx` / `UI and TAA_07-2021` / R40C2 |
+
 ## is_total Interpretation
 
 The `is_total` column flags rows whose `category` label contains the word 'total' or 'subtotal'. These rows summarise multiple line items and must be treated carefully in downstream analysis:

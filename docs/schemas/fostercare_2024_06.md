@@ -40,6 +40,14 @@ Tidy long-form CBO baseline data for the **Foster Care** program(s), extracted f
 | `source_row` | integer | One-based worksheet row containing the numeric source value. | N/A | `13` | Together with ``source_column`` identifies the exact source cell. |
 | `source_column` | integer | One-based worksheet column containing the numeric source value. | N/A | `4` | Together with ``source_row`` identifies the exact source cell. |
 
+## Variable Notes
+
+Superscript letter markers are read from the source workbook's actual Excel rich-text formatting. Each extracted note is attached to every affected `category_path`; a note on a parent heading therefore applies to its child rows. A source-only entry is retained when the annotated source label has no emitted row in the processed dataset.
+
+| Affected category path | Marker | `variable_note` | Source label | Source cell |
+|---|---|---|---|---|
+| Foster Care, Adoption Assistance, and Guardianship / Estimated Outlays for Other Components / Sequestrationa | `a` | The Further Consolidated Appropriations Act, 2024, extended sequestration for mandatory spending through fiscal year 2032. The percentage reduction for that year is smaller than the reduction in place through 2031. | Sequestrationa | `51299-2024-06-fostercare.xlsx` / `Foster Care_06-2024` / R39C1 |
+
 ## is_total Interpretation
 
 The `is_total` column flags rows whose `category` label contains the word 'total' or 'subtotal'. These rows summarise multiple line items and must be treated carefully in downstream analysis:

@@ -40,6 +40,16 @@ Tidy long-form CBO baseline data for the **Social Security Trust Funds** program
 | `source_row` | integer | One-based worksheet row containing the numeric source value. | N/A | `8` | Together with ``source_column`` identifies the exact source cell. |
 | `source_column` | integer | One-based worksheet column containing the numeric source value. | N/A | `2` | Together with ``source_row`` identifies the exact source cell. |
 
+## Variable Notes
+
+Superscript letter markers are read from the source workbook's actual Excel rich-text formatting. Each extracted note is attached to every affected `category_path`; a note on a parent heading therefore applies to its child rows. A source-only entry is retained when the annotated source label has no emitted row in the processed dataset.
+
+| Affected category path | Marker | `variable_note` | Source label | Source cell |
+|---|---|---|---|---|
+| Other Income / Federal payroll tax, employer sharea | `a` | Transfers from the general fund to the Social Security trust funds. Such transfers appear in the budget as both positive outlays (the general fund portion) and negative outlays, or offsetting receipts (the trust fund portion). | Federal payroll tax, employer sharea | `51309-2019-05-Trust-Funds.xlsx` / `Table 1` / R11C1 |
+| Other Income / Interesta | `a` | Transfers from the general fund to the Social Security trust funds. Such transfers appear in the budget as both positive outlays (the general fund portion) and negative outlays, or offsetting receipts (the trust fund portion). | Interesta | `51309-2019-05-Trust-Funds.xlsx` / `Table 1` / R12C1 |
+| Other Income / Benefitsb | `b` | CBO projects that the balance of the DI trust fund will be exhausted during fiscal year 2028. Under current law, SSA may not pay benefits in excess of the available balances in a trust fund, borrow money for a trust fund, or transfer money from one trust fund to another. However, following rules in the Deficit Control Act of 1985 (section 257(b)), CBO's baseline incorporates the assumption that SSA would pay DI benefits in full even after the balance of the trust fund is exhausted. | Benefitsb | `51309-2019-05-Trust-Funds.xlsx` / `Table 1` / R19C1 |
+
 ## is_total Interpretation
 
 The `is_total` column flags rows whose `category` label contains the word 'total' or 'subtotal'. These rows summarise multiple line items and must be treated carefully in downstream analysis:

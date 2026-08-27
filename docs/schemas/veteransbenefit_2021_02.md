@@ -40,6 +40,17 @@ Tidy long-form CBO baseline data for the **Veterans Benefits** program(s), extra
 | `source_row` | integer | One-based worksheet row containing the numeric source value. | N/A | `15` | Together with ``source_column`` identifies the exact source cell. |
 | `source_column` | integer | One-based worksheet column containing the numeric source value. | N/A | `5` | Together with ``source_row`` identifies the exact source cell. |
 
+## Variable Notes
+
+Superscript letter markers are read from the source workbook's actual Excel rich-text formatting. Each extracted note is attached to every affected `category_path`; a note on a parent heading therefore applies to its child rows. A source-only entry is retained when the annotated source label has no emitted row in the processed dataset.
+
+| Affected category path | Marker | `variable_note` | Source label | Source cell |
+|---|---|---|---|---|
+| Veterans' Disability Compensation and Pension Programs / Veterans / Adjustment for Payday Shifta | `a` | 38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional paycheck in fiscal years 2022 and 2028 and one fewer paycheck in fiscal years 2024 and 2029. | Adjustment for Payday Shifta | `53725-2021-02-veteransbenefit..xlsx` / `Veterans' C&P_2-2021` / R16C3 |
+| Veterans' Disability Compensation and Pension Programs / Survivors / Adjustment for Payday Shifta | `a` | 38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional paycheck in fiscal years 2022 and 2028 and one fewer paycheck in fiscal years 2024 and 2029. | Adjustment for Payday Shifta | `53725-2021-02-veteransbenefit..xlsx` / `Veterans' C&P_2-2021` / R24C3 |
+| Veterans' Disability Compensation and Pension Programs / Veterans / Adjustment for Payday Shifta | `a` | 38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional paycheck in fiscal years 2022 and 2028 and one fewer paycheck in fiscal years 2024 and 2029. | Adjustment for Payday Shifta | `53725-2021-02-veteransbenefit..xlsx` / `Veterans' C&P_2-2021` / R38C3 |
+| Veterans' Disability Compensation and Pension Programs / Survivors / Adjustment for Payday Shifta | `a` | 38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional paycheck in fiscal years 2022 and 2028 and one fewer paycheck in fiscal years 2024 and 2029. | Adjustment for Payday Shifta | `53725-2021-02-veteransbenefit..xlsx` / `Veterans' C&P_2-2021` / R45C3 |
+
 ## is_total Interpretation
 
 The `is_total` column flags rows whose `category` label contains the word 'total' or 'subtotal'. These rows summarise multiple line items and must be treated carefully in downstream analysis:

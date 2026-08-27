@@ -38,6 +38,14 @@ Tidy long-form CBO baseline data for the **Military Retirement** program(s), ext
 | `source_row` | integer | One-based worksheet row containing the numeric source value. | N/A | `15` | Together with ``source_column`` identifies the exact source cell. |
 | `source_column` | integer | One-based worksheet column containing the numeric source value. | N/A | `5` | Together with ``source_row`` identifies the exact source cell. |
 
+## Variable Notes
+
+Superscript letter markers are read from the source workbook's actual Excel rich-text formatting. Each extracted note is attached to every affected `category_path`; a note on a parent heading therefore applies to its child rows. A source-only entry is retained when the annotated source label has no emitted row in the processed dataset.
+
+| Affected category path | Marker | `variable_note` | Source label | Source cell |
+|---|---|---|---|---|
+| Military Retirement / Components of the Military Retirement Program / Adjustment for Payday Shifta | `a` | Section 632 of the Ike Skelton National Defense Authorization Act for Fiscal Year 2011 (Public Law 111-383) requires the Department of Defense to make retirement payments on the first day of each month. If the first day of the month occurs on a holiday or a weekend, payments are instead made on the preceding business day. That will result in one additional paycheck in fiscal years 2022 and 2028 and one fewer paycheck in fiscal years 2024 and 2029. Section 632 does not affect the timing of survivor benefit payments. | Adjustment for Payday Shifta | `51303-2021-02-militaryretirement.xlsx` / `Mil Retirement_2-2021` / R22C2 |
+
 ## is_total Interpretation
 
 The `is_total` column flags rows whose `category` label contains the word 'total' or 'subtotal'. These rows summarise multiple line items and must be treated carefully in downstream analysis:

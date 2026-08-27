@@ -2,6 +2,10 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from openpyxl import Workbook
+from openpyxl.cell.rich_text import CellRichText, TextBlock
+from openpyxl.cell.text import InlineFont
+
 from src import generate_schemas
 
 
@@ -105,6 +109,69 @@ class GenerateSchemasTests(unittest.TestCase):
 
             content = (schemas / "snap_2024_06.md").read_text(encoding="utf-8")
             self.assertIn("double-counting", content)
+
+    def test_schema_includes_superscript_variable_note_from_raw_workbook(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            processed = root / "processed"
+            schemas = root / "schemas"
+            raw = root / "raw"
+            raw.mkdir()
+            _write_sample_csv(processed / "snap_2024_06.csv")
+
+            workbook = Workbook()
+            ws = workbook.active
+            ws.title = "SNAP_06-2024"
+            ws["A10"] = CellRichText(
+                [
+                    "Estimated Budget Authority",
+                    TextBlock(InlineFont(vertAlign="superscript"), "a"),
+                ]
+            )
+            ws["D10"] = 103764
+            ws["A12"] = "a. Includes a source-specific adjustment."
+            workbook.save(raw / "51312-2024-06-snap.xlsx")
+
+            generate_schemas.generate_schemas(
+                processed_dir=processed,
+                schemas_dir=schemas,
+                raw_dir=raw,
+            )
+
+            content = (schemas / "snap_2024_06.md").read_text(encoding="utf-8")
+            self.assertIn("## Variable Notes", content)
+            self.assertIn("`variable_note`", content)
+            self.assertIn("Includes a source-specific adjustment.", content)
+            self.assertIn("R10C1", content)
+
+    def test_schema_generation_fails_audit_when_note_text_is_missing(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            processed = root / "processed"
+            schemas = root / "schemas"
+            raw = root / "raw"
+            raw.mkdir()
+            _write_sample_csv(processed / "snap_2024_06.csv")
+
+            workbook = Workbook()
+            ws = workbook.active
+            ws.title = "SNAP_06-2024"
+            ws["A10"] = CellRichText(
+                [
+                    "Estimated Budget Authority",
+                    TextBlock(InlineFont(vertAlign="superscript"), "a"),
+                ]
+            )
+            ws["D10"] = 103764
+            workbook.save(raw / "51312-2024-06-snap.xlsx")
+
+            rc = generate_schemas.generate_schemas(
+                processed_dir=processed,
+                schemas_dir=schemas,
+                raw_dir=raw,
+            )
+
+            self.assertEqual(1, rc)
 
     def test_schema_file_name_matches_csv_basename(self):
         with tempfile.TemporaryDirectory() as tmpdir:

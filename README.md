@@ -11,7 +11,7 @@ The CBO publishes fiscal-year baseline projections for federal programs (Medicar
 1. **Downloads** the workbooks from the CBO index page.
 2. **Inspects** each workbook and generates a structural profile report.
 3. **Transforms** every included sheet into a tidy CSV with consistent columns.
-4. **Documents** each processed dataset with a Markdown schema file.
+4. **Documents** each processed dataset with a Markdown schema file, including variable notes extracted from actual superscript-formatted Excel labels.
 5. **Verifies** every processed value against its exact source workbook cell and checks period, unit, and lineage semantics.
 
 ## Prerequisites
@@ -64,7 +64,7 @@ python src/verify.py --help
 | Processed CSVs | `data/processed/*.csv` | Tidy period-aware data, one file per source workbook/dataset |
 | Parse error log | `data/processed/parse_errors.log` | Sheets that could not be parsed (see note) |
 | Parse warning log | `data/processed/parse_warnings.log` | Included nonstandard sheets represented with the generic coordinate-preserving parser |
-| Schema docs | `docs/schemas/*.md` | Column-level documentation per dataset |
+| Schema docs | `docs/schemas/*.md` | Column-level documentation and source superscript variable notes per dataset |
 | Schema index | `docs/schemas/README.md` | Master index linking all schema files |
 | Verification report | `docs/verification_report.md` | Source-vs-processed reconciliation results |
 
@@ -99,6 +99,8 @@ Every file in `data/processed/` contains these columns:
 
 Full column-level documentation for every processed dataset is in [`docs/schemas/README.md`](docs/schemas/README.md).
 
+Each dataset schema also contains a **Variable Notes** section. The schema step opens the raw XLSX files with rich-text support, extracts only actual superscript letter markers, resolves repeated footnote alphabets within each worksheet, and binds note text to affected `category_path` values. When an annotated source label is not represented in the processed CSV, the note is retained explicitly as a source-only annotation.
+
 ## Validation
 
 Run the test suite:
@@ -107,7 +109,7 @@ Run the test suite:
 python -m unittest discover -s tests -v
 ```
 
-The verification step (`python run_pipeline.py --step verify`) checks exact source-cell values, coordinate completeness, duplicate lineage, canonical program identities, units, and period semantics. Former parse-plan exemptions are included and must pass; any failed target makes the pipeline exit non-zero.
+The schema step fails its annotation audit if a referenced workbook or worksheet is missing, a superscript marker has no note text, or a resolved annotation is absent from the generated schema. The verification step (`python run_pipeline.py --step verify`) checks exact source-cell values, coordinate completeness, duplicate lineage, canonical program identities, units, and period semantics. Former parse-plan exemptions are included and must pass; any failed target makes the pipeline exit non-zero.
 
 ## Attribution
 

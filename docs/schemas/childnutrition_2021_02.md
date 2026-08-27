@@ -38,6 +38,15 @@ Tidy long-form CBO baseline data for the **Child Nutrition** program(s), extract
 | `source_row` | integer | One-based worksheet row containing the numeric source value. | N/A | `15` | Together with ``source_column`` identifies the exact source cell. |
 | `source_column` | integer | One-based worksheet column containing the numeric source value. | N/A | `6` | Together with ``source_row`` identifies the exact source cell. |
 
+## Variable Notes
+
+Superscript letter markers are read from the source workbook's actual Excel rich-text formatting. Each extracted note is attached to every affected `category_path`; a note on a parent heading therefore applies to its child rows. A source-only entry is retained when the annotated source label has no emitted row in the processed dataset.
+
+| Affected category path | Marker | `variable_note` | Source label | Source cell |
+|---|---|---|---|---|
+| Child Nutrition Programs / Other spendinga / Budget Authority | `a` | Other spending includes the Special Milk Program, the Food Service Management Institute, Team Nutrition, coordinated review, computer support and processing, child nutrition grants for the Northern Marianas and American Samoa, and other activities. It also includes discretionary projects funded inannual appropriation acts. | Other spendinga | `51293-2021-02-childnutrition.xlsx` / `Child Nutrition_2-2021` / R45C2 |
+| Child Nutrition Programs / Other spendinga / Estimated Outlays | `a` | Other spending includes the Special Milk Program, the Food Service Management Institute, Team Nutrition, coordinated review, computer support and processing, child nutrition grants for the Northern Marianas and American Samoa, and other activities. It also includes discretionary projects funded inannual appropriation acts. | Other spendinga | `51293-2021-02-childnutrition.xlsx` / `Child Nutrition_2-2021` / R45C2 |
+
 ## is_total Interpretation
 
 The `is_total` column flags rows whose `category` label contains the word 'total' or 'subtotal'. These rows summarise multiple line items and must be treated carefully in downstream analysis:

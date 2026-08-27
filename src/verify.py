@@ -4,13 +4,14 @@ import argparse
 import csv
 import sys
 from collections import Counter
-from dataclasses import dataclass
 from pathlib import Path
 
 if sys.path:
     script_dir = Path(__file__).resolve().parent
     if Path(sys.path[0]).resolve() == script_dir:
         sys.path[0] = str(script_dir.parent)
+
+from dataclasses import dataclass
 
 import yaml
 from openpyxl import load_workbook

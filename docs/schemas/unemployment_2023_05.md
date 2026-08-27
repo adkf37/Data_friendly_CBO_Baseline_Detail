@@ -38,6 +38,15 @@ Tidy long-form CBO baseline data for the **Unemployment Insurance** program(s), 
 | `source_row` | integer | One-based worksheet row containing the numeric source value. | N/A | `13` | Together with ``source_column`` identifies the exact source cell. |
 | `source_column` | integer | One-based worksheet column containing the numeric source value. | N/A | `4` | Together with ``source_row`` identifies the exact source cell. |
 
+## Variable Notes
+
+Superscript letter markers are read from the source workbook's actual Excel rich-text formatting. Each extracted note is attached to every affected `category_path`; a note on a parent heading therefore applies to its child rows. A source-only entry is retained when the annotated source label has no emitted row in the processed dataset.
+
+| Affected category path | Marker | `variable_note` | Source label | Source cell |
+|---|---|---|---|---|
+| Unemployment Compensation and Trade Adjustment Assistance / Trade Adjustment Assistancea / Budget Authority | `a` | Authorization for the Trade Adjustment Assistance program expired at the end of June 2022. The amounts include cash and training benefits for workers certified before the program expired. | Trade Adjustment Assistancea | `51316-2023-05-unemployment.xlsx` / `UI and TAA_05-2023` / R27C1 |
+| Unemployment Compensation and Trade Adjustment Assistance / Trade Adjustment Assistancea / Estimated Outlays | `a` | Authorization for the Trade Adjustment Assistance program expired at the end of June 2022. The amounts include cash and training benefits for workers certified before the program expired. | Trade Adjustment Assistancea | `51316-2023-05-unemployment.xlsx` / `UI and TAA_05-2023` / R27C1 |
+
 ## is_total Interpretation
 
 The `is_total` column flags rows whose `category` label contains the word 'total' or 'subtotal'. These rows summarise multiple line items and must be treated carefully in downstream analysis:

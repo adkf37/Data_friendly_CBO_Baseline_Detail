@@ -40,6 +40,14 @@ Tidy long-form CBO baseline data for the **Post-9/11 GI Bill** program(s), extra
 | `source_row` | integer | One-based worksheet row containing the numeric source value. | N/A | `13` | Together with ``source_column`` identifies the exact source cell. |
 | `source_column` | integer | One-based worksheet column containing the numeric source value. | N/A | `4` | Together with ``source_row`` identifies the exact source cell. |
 
+## Variable Notes
+
+Superscript letter markers are read from the source workbook's actual Excel rich-text formatting. Each extracted note is attached to every affected `category_path`; a note on a parent heading therefore applies to its child rows. A source-only entry is retained when the annotated source label has no emitted row in the processed dataset.
+
+| Affected category path | Marker | `variable_note` | Source label | Source cell |
+|---|---|---|---|---|
+| Post-9/11 GI Bill Benefits / BUDGET INFORMATION / Adjustment for Timing Shiftsa | `a` | The Department of Veterans Affairs makes certain payments under the Post-9/11 GI Bill (housing allowances and supplementary benefits) to beneficiaries on the first day of the month. If the first day of the month occurs on a weekend or holiday, the department will make the payments on the preceding business day. When this occurs in October (the beginning of the fiscal year), the payment is made at the end of September (in the preceding fiscal year). This results in shifting the October payments in fiscal years 2024, 2029, 2034, 2035 backward into fiscal years 2023, 2028, 2033, and 2034 respectively. | Adjustment for Timing Shiftsa | `53726-2024-02-post911gibill.xlsx` / `Post911_02-2024` / R14C1 |
+
 ## is_total Interpretation
 
 The `is_total` column flags rows whose `category` label contains the word 'total' or 'subtotal'. These rows summarise multiple line items and must be treated carefully in downstream analysis:
