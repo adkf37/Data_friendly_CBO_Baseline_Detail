@@ -130,6 +130,13 @@ OUTPUT_COLUMNS = [
     "source_row",
     "source_column",
 ]
+USDA_HIERARCHY_COLUMNS = ["table_title", "section", "subsection"]
+_CATEGORY_PATH_INDEX = OUTPUT_COLUMNS.index("category_path") + 1
+USDA_OUTPUT_COLUMNS = (
+    OUTPUT_COLUMNS[:_CATEGORY_PATH_INDEX]
+    + USDA_HIERARCHY_COLUMNS
+    + OUTPUT_COLUMNS[_CATEGORY_PATH_INDEX:]
+)
 
 
 CANONICAL_PROGRAMS = {
@@ -760,8 +767,9 @@ def _in_slice(plan: SheetPlan, slice_name: str) -> bool:
 
 def _write_dataset(path: Path, rows: list[dict]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
+    fieldnames = USDA_OUTPUT_COLUMNS if rows and "table_title" in rows[0] else OUTPUT_COLUMNS
     with path.open("w", encoding="utf-8", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=OUTPUT_COLUMNS, lineterminator="\n")
+        writer = csv.DictWriter(handle, fieldnames=fieldnames, lineterminator="\n")
         writer.writeheader()
         writer.writerows(rows)
 
@@ -803,6 +811,26 @@ def _combined_category_path(
     return " / ".join(parts)
 
 
+def _usda_hierarchy(category_path: str, category: str) -> dict[str, str]:
+    """Split a USDA breadcrumb into explicit table and intermediate headings.
+
+    ``category`` remains the leaf label. The full ``category_path`` remains the
+    lossless representation. When a path has more than two intermediate
+    nodes, the remaining nodes are retained together in ``subsection``.
+    """
+
+    parts = [part.strip() for part in category_path.split(" / ") if part.strip()]
+    if parts and parts[-1].casefold() == category.strip().casefold():
+        ancestors = parts[:-1]
+    else:
+        ancestors = parts
+    return {
+        "table_title": ancestors[0] if ancestors else "",
+        "section": ancestors[1] if len(ancestors) > 1 else "",
+        "subsection": " / ".join(ancestors[2:]) if len(ancestors) > 2 else "",
+    }
+
+
 def _record(
     plan: SheetPlan,
     category: str,
@@ -820,7 +848,7 @@ def _record(
 
     program_id = _program_id(plan.workbook)
     fiscal_year: int | str = end_year if period_type == "fiscal_year" and end_year is not None else ""
-    return {
+    record = {
         "program": _canonical_program_name(plan.workbook),
         "category": category,
         "fiscal_year": fiscal_year,
@@ -831,13 +859,18 @@ def _record(
         "is_total": str(_is_total(category_path)).lower(),
         "program_id": program_id,
         "category_path": category_path,
+    }
+    if program_id == "51317":
+        record.update(_usda_hierarchy(category_path, category))
+    record.update({
         "period_type": period_type,
         "period_start_year": start_year if start_year is not None else "",
         "period_end_year": end_year if end_year is not None else "",
         "period_label": period_label,
         "source_row": row,
         "source_column": column,
-    }
+    })
+    return record
 
 
 def _heading_candidates(text_cells: list[tuple[int, str]], period_start_column: int) -> list[tuple[int, str]]:

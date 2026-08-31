@@ -23,6 +23,15 @@ def _write_sample_csv(path: Path, *, has_totals: bool = True) -> None:
     )
 
 
+def _write_usda_sample_csv(path: Path) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        "program,category,fiscal_year,value,unit,source_file,source_sheet,is_total,program_id,category_path,table_title,section,subsection,period_type,period_start_year,period_end_year,period_label,source_row,source_column\n"
+        "USDA Farm Programs,Production,2026,100.0,Millions,51317-2026-02-usda.xlsx,USDA Baseline_02-2026,false,51317,CORN SUPPLY AND USE / Supply / Production,CORN SUPPLY AND USE,Supply,,fiscal_year,2026,2026,2026,10,4\n",
+        encoding="utf-8",
+    )
+
+
 class GenerateSchemasTests(unittest.TestCase):
     def test_generate_schemas_creates_one_file_per_csv(self):
         with tempfile.TemporaryDirectory() as tmpdir:
@@ -81,9 +90,30 @@ class GenerateSchemasTests(unittest.TestCase):
             generate_schemas.generate_schemas(processed_dir=processed, schemas_dir=schemas)
 
             content = (schemas / "snap_2024_06.md").read_text(encoding="utf-8")
-            for col_name in generate_schemas.COLUMN_META:
+            for col_name in generate_schemas.CORE_COLUMN_META:
                 col_name = col_name["name"]
-                self.assertIn(col_name, content, f"Column '{col_name}' missing from schema")
+                self.assertIn(f"| `{col_name}` |", content, f"Column '{col_name}' missing from schema")
+            for col_name in generate_schemas.USDA_COLUMN_META:
+                col_name = col_name["name"]
+                self.assertNotIn(f"| `{col_name}` |", content)
+
+    def test_usda_schema_documents_usda_only_hierarchy_columns(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            root = Path(tmpdir)
+            processed = root / "processed"
+            schemas = root / "schemas"
+
+            _write_usda_sample_csv(processed / "usda_2026_02.csv")
+            generate_schemas.generate_schemas(processed_dir=processed, schemas_dir=schemas)
+
+            content = (schemas / "usda_2026_02.md").read_text(encoding="utf-8")
+            for meta in generate_schemas.USDA_COLUMN_META:
+                self.assertIn(f"| `{meta['name']}` |", content)
+            self.assertIn("`CORN SUPPLY AND USE`", content)
+            self.assertIn("`Supply`", content)
+
+            readme = (schemas / "README.md").read_text(encoding="utf-8")
+            self.assertIn("## USDA-specific hierarchy columns", readme)
 
     def test_schema_file_includes_provenance_from_csv(self):
         with tempfile.TemporaryDirectory() as tmpdir:

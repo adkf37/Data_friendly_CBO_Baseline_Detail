@@ -641,6 +641,72 @@ workbooks:
             transform._normalize_unit_string("Number of Beneficiariese"),
         )
 
+    def test_usda_hierarchy_splits_two_three_and_four_level_paths(self):
+        cases = [
+            (
+                "TABLE / Leaf",
+                "Leaf",
+                {"table_title": "TABLE", "section": "", "subsection": ""},
+            ),
+            (
+                "TABLE / Supply / Production",
+                "Production",
+                {"table_title": "TABLE", "section": "Supply", "subsection": ""},
+            ),
+            (
+                "TABLE / Program / Component / Outlays",
+                "Outlays",
+                {
+                    "table_title": "TABLE",
+                    "section": "Program",
+                    "subsection": "Component",
+                },
+            ),
+        ]
+
+        for category_path, category, expected in cases:
+            with self.subTest(category_path=category_path):
+                self.assertEqual(expected, transform._usda_hierarchy(category_path, category))
+
+    def test_usda_record_and_csv_include_hierarchy_columns(self):
+        plan = transform.SheetPlan(
+            workbook="51317-2026-02-usda.xlsx",
+            sheet="USDA Baseline_02-2026",
+            include=True,
+            output_dataset="usda_2026_02",
+            header_end_row=1,
+            first_data_row=2,
+            year_columns=[4],
+            unit="Millions of dollars",
+        )
+        record = transform._record(
+            plan=plan,
+            category="Production",
+            category_path="CORN SUPPLY AND USE / Supply / Production",
+            period_type="fiscal_year",
+            start_year=2026,
+            end_year=2026,
+            period_label="2026",
+            value=100.0,
+            unit="Millions",
+            row=10,
+            column=4,
+        )
+
+        self.assertEqual("CORN SUPPLY AND USE", record["table_title"])
+        self.assertEqual("Supply", record["section"])
+        self.assertEqual("", record["subsection"])
+
+        with tempfile.TemporaryDirectory() as tmpdir:
+            csv_path = Path(tmpdir) / "usda_2026_02.csv"
+            transform._write_dataset(csv_path, [record])
+            with csv_path.open(encoding="utf-8", newline="") as handle:
+                reader = DictReader(handle)
+                rows = list(reader)
+                self.assertEqual(transform.USDA_OUTPUT_COLUMNS, list(reader.fieldnames or []))
+            self.assertEqual("CORN SUPPLY AND USE", rows[0]["table_title"])
+            self.assertEqual("Supply", rows[0]["section"])
+
     def test_transform_recognizes_award_year_ranges(self):
         workbook = Workbook()
         ws = workbook.active

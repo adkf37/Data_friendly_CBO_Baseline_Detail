@@ -4,7 +4,9 @@ One schema document exists for every processed CSV in `data/processed/`. Each fi
 
 **Total datasets:** 246
 
-## Column reference (all datasets share this schema)
+## Core column reference
+
+Every processed dataset contains these columns.
 
 | Column | Type | Description | Unit | Example | Notes |
 |---|---|---|---|---|---|
@@ -24,6 +26,16 @@ One schema document exists for every processed CSV in `data/processed/`. Each fi
 | `period_label` | string | Normalized source period label such as 2025 or 2025-2029. | N/A | — | Rows with unrecognized periods are labeled explicitly rather than assigned a guessed year. |
 | `source_row` | integer | One-based worksheet row containing the numeric source value. | N/A | — | Together with ``source_column`` identifies the exact source cell. |
 | `source_column` | integer | One-based worksheet column containing the numeric source value. | N/A | — | Together with ``source_row`` identifies the exact source cell. |
+
+## USDA-specific hierarchy columns
+
+USDA Farm Programs datasets add the following columns while retaining `category` as the leaf label and `category_path` as the full breadcrumb.
+
+| Column | Type | Description | Unit | Example | Notes |
+|---|---|---|---|---|---|
+| `table_title` | string | Top-level USDA source table heading containing the observation. | N/A | — | USDA-only. This is the first component of ``category_path``. |
+| `section` | string or null | First intermediate USDA heading between the table title and leaf category. | N/A | — | USDA-only. Blank when the source hierarchy has no intermediate heading. |
+| `subsection` | string or null | Second and any deeper intermediate USDA headings before the leaf category. | N/A | — | USDA-only. Additional intermediate levels are retained here using the same `` / `` delimiter as ``category_path``. |
 
 ## Superscript variable notes
 

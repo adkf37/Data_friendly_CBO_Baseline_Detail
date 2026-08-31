@@ -32,10 +32,11 @@ from src.source_annotations import (
 )
 
 # ---------------------------------------------------------------------------
-# Column metadata table (fixed schema from transform.OUTPUT_COLUMNS)
+# Column metadata tables. USDA datasets add hierarchy columns while all other
+# datasets retain the core transform schema.
 # ---------------------------------------------------------------------------
 
-COLUMN_META: list[dict] = [
+CORE_COLUMN_META: list[dict] = [
     {
         "name": "program",
         "type": "string",
@@ -165,6 +166,35 @@ COLUMN_META: list[dict] = [
     },
 ]
 
+USDA_COLUMN_META: list[dict] = [
+    {
+        "name": "table_title",
+        "type": "string",
+        "description": "Top-level USDA source table heading containing the observation.",
+        "unit": "N/A",
+        "notes": "USDA-only. This is the first component of ``category_path``.",
+    },
+    {
+        "name": "section",
+        "type": "string or null",
+        "description": "First intermediate USDA heading between the table title and leaf category.",
+        "unit": "N/A",
+        "notes": "USDA-only. Blank when the source hierarchy has no intermediate heading.",
+    },
+    {
+        "name": "subsection",
+        "type": "string or null",
+        "description": "Second and any deeper intermediate USDA headings before the leaf category.",
+        "unit": "N/A",
+        "notes": (
+            "USDA-only. Additional intermediate levels are retained here using "
+            "the same `` / `` delimiter as ``category_path``."
+        ),
+    },
+]
+
+COLUMN_META = CORE_COLUMN_META + USDA_COLUMN_META
+
 
 # ---------------------------------------------------------------------------
 # Dataset-level metadata helpers
@@ -268,6 +298,8 @@ def _render_column_table(sample_rows: list[dict]) -> str:
     lines = [_TABLE_HEADER]
     for meta in COLUMN_META:
         col = meta["name"]
+        if sample_rows and col not in sample_rows[0]:
+            continue
         example = sample_rows[0].get(col, "") if sample_rows else ""
         # Truncate long example values for readability
         if isinstance(example, str) and len(example) > 40:
@@ -391,10 +423,24 @@ def _render_readme(
         "One schema document exists for every processed CSV in `data/processed/`. "
         "Each file documents column definitions, provenance, and aggregation caveats.\n\n",
         f"**Total datasets:** {len(infos)}\n\n",
-        "## Column reference (all datasets share this schema)\n\n",
+        "## Core column reference\n\n",
+        "Every processed dataset contains these columns.\n\n",
         _TABLE_HEADER,
     ]
-    for meta in COLUMN_META:
+    for meta in CORE_COLUMN_META:
+        lines.append(
+            f"| `{meta['name']}` | {meta['type']} | {meta['description']} | {meta['unit']} | — | {meta['notes']} |\n"
+        )
+
+    lines.extend(
+        [
+            "\n## USDA-specific hierarchy columns\n\n",
+            "USDA Farm Programs datasets add the following columns while retaining "
+            "`category` as the leaf label and `category_path` as the full breadcrumb.\n\n",
+            _TABLE_HEADER,
+        ]
+    )
+    for meta in USDA_COLUMN_META:
         lines.append(
             f"| `{meta['name']}` | {meta['type']} | {meta['description']} | {meta['unit']} | — | {meta['notes']} |\n"
         )
