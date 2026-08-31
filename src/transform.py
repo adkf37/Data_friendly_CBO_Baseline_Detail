@@ -145,6 +145,7 @@ CANONICAL_PROGRAMS = {
     "51303": "Military Retirement",
     "51304": "Pell Grant",
     "51305": "PBGC",
+    "51306": "Railroad Retirement",
     "51307": "SSDI",
     "51308": "Social Security",
     "51309": "Social Security Trust Funds",
@@ -191,6 +192,7 @@ class SheetPlan:
     year_columns: list[int]
     unit: str
     verification_exempt: bool = False
+    period_type: str = "fiscal_year"
 
 
 def _header_end_row(header_rows: str) -> int:
@@ -233,6 +235,20 @@ def _is_total(category: str) -> bool:
 def _looks_like_note(category: str) -> bool:
     lowered = category.lower()
     return lowered.startswith("note") or lowered.startswith("source")
+
+
+def _begins_note_block(text_cells: list[tuple[int, str]]) -> bool:
+    """Return whether a row starts a trailing notes/source section.
+
+    A standalone ``Note:`` or ``Source:`` label often precedes rows containing
+    numeric examples. Those numbers are explanatory prose, not observations
+    under the preceding period header.
+    """
+
+    return any(
+        column <= 3 and re.match(r"^(?:notes?|sources?)\s*[:.]", text, re.IGNORECASE)
+        for column, text in text_cells
+    )
 
 
 def _get_row_category(worksheet, row: int) -> str:
@@ -309,6 +325,18 @@ def _normalize_unit_string(s: str) -> str:
         m = re.search(rf"({_UNIT_PHRASE})", s, re.IGNORECASE)
         phrase = m.group(1).strip() if m else None
     if phrase:
+        # Plain-cell reads concatenate a superscript footnote marker with the
+        # final noun (for example, ``Number of Beneficiaries`` + superscript
+        # ``e`` becomes ``Number of Beneficiariese``). Remove that marker only
+        # from the closed set of nouns supported by the unit parser.
+        phrase = re.sub(
+            r"\b(beneficiaries|enrollees|recipients|households|borrowers|loans|"
+            r"workers|cases|claims|jobs|hours|units|barrels|tons|adults|children|"
+            r"students|veterans|survivors|participants|families|awards)([a-z])$",
+            r"\1",
+            phrase,
+            flags=re.IGNORECASE,
+        )
         return phrase[:1].upper() + phrase[1:].lower()
     return s.strip()
 
@@ -494,7 +522,7 @@ def _period_blocks(worksheet, plan: SheetPlan) -> list[PeriodBlock]:
                 else:
                     periods_by_column[column] = PeriodColumn(
                         column=column,
-                        period_type="fiscal_year",
+                        period_type=plan.period_type,
                         start_year=end_year,
                         end_year=end_year,
                         label=str(end_year),
@@ -711,6 +739,8 @@ def _read_plan(path: Path) -> list[SheetPlan]:
                     year_columns=[int(column) for column in sheet_entry.get("year_columns", [])],
                     unit=_normalize_unit_string(str(sheet_entry.get("unit", "")).strip()),
                     verification_exempt=bool(sheet_entry.get("verification_exempt", False)),
+                    period_type=str(sheet_entry.get("period_type", "fiscal_year")).strip()
+                    or "fiscal_year",
                 )
             )
     return plans
@@ -861,6 +891,7 @@ def _records_from_period_table(worksheet, plan: SheetPlan, blocks: list[PeriodBl
     minimum_data_row = plan.first_data_row or min(block.header_row for block in blocks) + 1
     first_period_column = min(period.column for block in blocks for period in block.periods)
     table_heading = ""
+    in_note_block = False
 
     for row in range(1, worksheet.max_row + 1):
         text_cells = _row_text_cells(worksheet, row)
@@ -875,6 +906,13 @@ def _records_from_period_table(worksheet, plan: SheetPlan, blocks: list[PeriodBl
             section_by_column.clear()
             inline_by_column.clear()
             pending_label = None
+            in_note_block = False
+            continue
+        if row >= minimum_data_row and _begins_note_block(text_cells):
+            in_note_block = True
+            pending_label = None
+            continue
+        if in_note_block:
             continue
         if not current_periods:
             if row >= minimum_data_row:
@@ -911,6 +949,8 @@ def _records_from_period_table(worksheet, plan: SheetPlan, blocks: list[PeriodBl
             category_column, category = label_candidates[-1]
         elif pending_label and row - pending_label[2] <= 2:
             category_column, category, _ = pending_label
+        elif table_heading:
+            category_column, category = 1, table_heading
         else:
             category_column, category = 1, f"Unlabeled value (row {row})"
         if _looks_like_note(category):
@@ -999,9 +1039,15 @@ def _records_from_generic_table(worksheet, plan: SheetPlan) -> list[dict]:
     inline_by_column: dict[int, str] = {}
     records: list[dict] = []
     column_contexts = _generic_column_contexts(worksheet, first_row, max_column)
+    in_note_block = False
 
     for row in range(1, worksheet.max_row + 1):
         text_cells = _row_text_cells(worksheet, row, max_column)
+        if row >= first_row and _begins_note_block(text_cells):
+            in_note_block = True
+            continue
+        if in_note_block:
+            continue
         detected_unit = _row_unit(text_cells)
         if detected_unit:
             current_unit = detected_unit

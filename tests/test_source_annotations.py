@@ -76,6 +76,44 @@ class SourceAnnotationTests(unittest.TestCase):
         self.assertEqual("First table note.", annotations[0].variable_note)
         self.assertEqual("Second table note.", annotations[1].variable_note)
 
+    def test_missing_definition_remains_unresolved_for_catalog_audit(self):
+        workbook = Workbook()
+        ws = workbook.active
+        ws["A2"] = _rich_label("Inflated Budget Authority", "d")
+        ws["B2"] = 10
+
+        annotations = source_annotations.extract_worksheet_annotations(ws)
+
+        self.assertEqual(1, len(annotations))
+        self.assertIsNone(annotations[0].note_row)
+        self.assertEqual("", annotations[0].variable_note)
+
+    def test_catalog_documents_known_missing_pell_definition(self):
+        with tempfile.TemporaryDirectory() as tmpdir:
+            raw_dir = Path(tmpdir)
+            workbook = Workbook()
+            ws = workbook.active
+            ws.title = "T4_Pell_02-2026"
+            ws["A30"] = _rich_label("Cumulative Shortfall Inflated", "d")
+            ws["D31"] = 10
+            workbook.save(raw_dir / "51304-2026-02-pellgrant.xlsx")
+
+            catalog = source_annotations.load_annotation_catalog(
+                raw_dir,
+                {"51304-2026-02-pellgrant.xlsx": {"T4_Pell_02-2026"}},
+            )
+
+            loaded = catalog.by_source[
+                ("51304-2026-02-pellgrant.xlsx", "T4_Pell_02-2026")
+            ]
+            self.assertEqual(1, catalog.resolved_marker_references)
+            self.assertIsNone(loaded[0].note_row)
+            self.assertEqual(
+                "The source workbook includes superscript marker 'd' but does not "
+                "provide a corresponding footnote definition on this worksheet.",
+                loaded[0].variable_note,
+            )
+
     def test_parent_heading_note_applies_to_child_category_path(self):
         workbook = Workbook()
         ws = workbook.active

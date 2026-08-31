@@ -98,14 +98,14 @@ SSI,Percentage Change of Maximum Monthly Benefit,2028,2.4,Percentage,51313-2021-
 SSI,Percentage Change of Maximum Monthly Benefit,2029,2.5,Percentage,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income / OTHER INFORMATION / Percentage Change of Maximum Monthly Benefit,fiscal_year,2029,2029,2029,43,13
 SSI,Percentage Change of Maximum Monthly Benefit,2030,2.4,Percentage,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income / OTHER INFORMATION / Percentage Change of Maximum Monthly Benefit,fiscal_year,2030,2030,2030,43,14
 SSI,Percentage Change of Maximum Monthly Benefit,2031,2.4,Percentage,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income / OTHER INFORMATION / Percentage Change of Maximum Monthly Benefit,fiscal_year,2031,2031,2031,43,15
-SSI,Unlabeled value (row 44),2021,12.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income / Unlabeled value (row 44),fiscal_year,2021,2021,2021,44,5
-SSI,Unlabeled value (row 44),2022,13.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income / Unlabeled value (row 44),fiscal_year,2022,2022,2022,44,6
-SSI,Unlabeled value (row 44),2023,12.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income / Unlabeled value (row 44),fiscal_year,2023,2023,2023,44,7
-SSI,Unlabeled value (row 44),2024,11.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income / Unlabeled value (row 44),fiscal_year,2024,2024,2024,44,8
-SSI,Unlabeled value (row 44),2025,12.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income / Unlabeled value (row 44),fiscal_year,2025,2025,2025,44,9
-SSI,Unlabeled value (row 44),2026,12.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income / Unlabeled value (row 44),fiscal_year,2026,2026,2026,44,10
-SSI,Unlabeled value (row 44),2027,12.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income / Unlabeled value (row 44),fiscal_year,2027,2027,2027,44,11
-SSI,Unlabeled value (row 44),2028,13.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income / Unlabeled value (row 44),fiscal_year,2028,2028,2028,44,12
-SSI,Unlabeled value (row 44),2029,11.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income / Unlabeled value (row 44),fiscal_year,2029,2029,2029,44,13
-SSI,Unlabeled value (row 44),2030,12.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income / Unlabeled value (row 44),fiscal_year,2030,2030,2030,44,14
-SSI,Unlabeled value (row 44),2031,12.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income / Unlabeled value (row 44),fiscal_year,2031,2031,2031,44,15
+SSI,Supplemental Security Income,2021,12.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income,fiscal_year,2021,2021,2021,44,5
+SSI,Supplemental Security Income,2022,13.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income,fiscal_year,2022,2022,2022,44,6
+SSI,Supplemental Security Income,2023,12.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income,fiscal_year,2023,2023,2023,44,7
+SSI,Supplemental Security Income,2024,11.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income,fiscal_year,2024,2024,2024,44,8
+SSI,Supplemental Security Income,2025,12.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income,fiscal_year,2025,2025,2025,44,9
+SSI,Supplemental Security Income,2026,12.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income,fiscal_year,2026,2026,2026,44,10
+SSI,Supplemental Security Income,2027,12.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income,fiscal_year,2027,2027,2027,44,11
+SSI,Supplemental Security Income,2028,13.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income,fiscal_year,2028,2028,2028,44,12
+SSI,Supplemental Security Income,2029,11.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income,fiscal_year,2029,2029,2029,44,13
+SSI,Supplemental Security Income,2030,12.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income,fiscal_year,2030,2030,2030,44,14
+SSI,Supplemental Security Income,2031,12.0,Number of paymentsa,51313-2021-02-ssi.xlsx,SSI_2-2021,false,51313,Supplemental Security Income,fiscal_year,2031,2031,2031,44,15

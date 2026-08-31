@@ -7919,6 +7919,678 @@ workbooks:
     notes:
     - merged cells present — verify header parsing
     - multiple logical tables detected — may need manual split
+- workbook: 51293-2026-02-childnutrition.xlsx
+  sheets:
+  - sheet: Child Nutrition_02-2026
+    classification: data
+    include: true
+    output_dataset: childnutrition_2026_02
+    verification_target: cbo-child-nutrition-2026-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+- workbook: 51295-2026-02-csec.xlsx
+  sheets:
+  - sheet: CSEC_02-2026
+    classification: data
+    include: true
+    output_dataset: csec_2026_02
+    verification_target: cbo-csec-2026-02
+    header_rows: 1-14
+    first_data_row: 15
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+- workbook: 51298-2026-02-healthinsurance.xlsx
+  sheets:
+  - sheet: healthinsuranceT1_02-2026
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2026_02
+    verification_target: cbo-health-insurance-2026-02-table-1
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    period_type: calendar_year
+    year_columns:
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    unit: Millions of people, on average in each month, by calendar year
+    notes:
+    - manually reviewed February 2026 layout
+  - sheet: healthinsuranceT2_02-2026
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2026_02
+    verification_target: cbo-health-insurance-2026-02-table-2
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+- workbook: 51300-2026-02-highwaytrustfund.xlsx
+  sheets:
+  - sheet: HTF_02-2026
+    classification: data
+    include: true
+    output_dataset: highwaytrustfund_2026_02
+    verification_target: cbo-highway-trust-fund-2026-02
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+- workbook: 51300-2026-06-highwaytrustfund.xlsx
+  sheets:
+  - sheet: HTF_06-2026
+    classification: data
+    include: true
+    output_dataset: highwaytrustfund_2026_06
+    verification_target: cbo-highway-trust-fund-2026-06
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed June 2026 layout
+- workbook: 51304-2026-02-pellgrant.xlsx
+  sheets:
+  - sheet: T1_Pell_02-2026
+    classification: data
+    include: true
+    output_dataset: pellgrant_2026_02
+    verification_target: cbo-pell-grant-2026-02-table-1
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Budget authority in millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+  - sheet: T2_Pell_01-2026
+    classification: data
+    include: true
+    output_dataset: pellgrant_2026_02
+    verification_target: cbo-pell-grant-2026-02-table-2
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - source sheet is labeled January 2026 inside the February workbook
+  - sheet: T3_Pell_02-2026
+    classification: data
+    include: true
+    output_dataset: pellgrant_2026_02
+    verification_target: cbo-pell-grant-2026-02-table-3
+    header_rows: 1-14
+    first_data_row: 15
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - includes annual and cumulative fiscal-year columns
+  - sheet: T4_Pell_02-2026
+    classification: data
+    include: true
+    output_dataset: pellgrant_2026_02
+    verification_target: cbo-pell-grant-2026-02-table-4
+    header_rows: 1-15
+    first_data_row: 16
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+  - sheet: KEEP
+    classification: notes
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - workbook authoring sheet with no published data table
+- workbook: 51306-2026-02-railroadretirement.xlsx
+  sheets:
+  - sheet: RailroadRetirement_02-2026
+    classification: data
+    include: true
+    output_dataset: railroadretirement_2026_02
+    verification_target: cbo-railroad-retirement-2026-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+- workbook: 51308-2026-02-socialsecurity.xlsx
+  sheets:
+  - sheet: OASI_02-2026
+    classification: data
+    include: true
+    output_dataset: socialsecurity_2026_02
+    verification_target: cbo-social-security-2026-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+- workbook: 51309-2026-02-trustfund.xlsx
+  sheets:
+  - sheet: SS Trustfunds_02-2026
+    classification: data
+    include: true
+    output_dataset: trustfund_2026_02
+    verification_target: cbo-social-security-trust-funds-2026-02
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+- workbook: 51310-2026-02-studentloan.xlsx
+  sheets:
+  - sheet: T1-FCRA costs
+    classification: data
+    include: true
+    output_dataset: studentloan_2026_02
+    verification_target: cbo-student-loans-2026-02-table-1
+    header_rows: 1-15
+    first_data_row: 16
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+  - sheet: T2-current fiscal year
+    classification: data
+    include: true
+    output_dataset: studentloan_2026_02
+    verification_target: cbo-student-loans-2026-02-table-2
+    header_rows: 1-14
+    first_data_row: 15
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - one-column fiscal-year table; retained as published data
+  - sheet: T3-NewLoanVolume
+    classification: data
+    include: true
+    output_dataset: studentloan_2026_02
+    verification_target: cbo-student-loans-2026-02-table-3
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - worksheet formatting extends beyond the populated data range
+  - sheet: T4-Subsidy Rates_FCRA
+    classification: data
+    include: true
+    output_dataset: studentloan_2026_02
+    verification_target: cbo-student-loans-2026-02-table-4
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Percent, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+  - sheet: T5-IntRates
+    classification: data
+    include: true
+    output_dataset: studentloan_2026_02
+    verification_target: cbo-student-loans-2026-02-table-5
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: header_label
+    year_columns: []
+    unit: Percent, by award year
+    notes:
+    - award-year ranges are parsed from their labels
+  - sheet: T6-Fair Value Costs
+    classification: data
+    include: true
+    output_dataset: studentloan_2026_02
+    verification_target: cbo-student-loans-2026-02-table-6
+    header_rows: 1-14
+    first_data_row: 15
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+  - sheet: T7-Subsidy Rates_FairVal
+    classification: data
+    include: true
+    output_dataset: studentloan_2026_02
+    verification_target: cbo-student-loans-2026-02-table-7
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Percent, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+- workbook: 51313-2026-02-ssi.xlsx
+  sheets:
+  - sheet: SSI_02-2026
+    classification: data
+    include: true
+    output_dataset: ssi_2026_02
+    verification_target: cbo-ssi-2026-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+- workbook: 51317-2026-02-usda.xlsx
+  sheets:
+  - sheet: USDA Baseline_02-2026
+    classification: data
+    include: true
+    output_dataset: usda_2026_02
+    verification_target: cbo-usda-2026-02-main
+    header_rows: 1-105
+    first_data_row: 106
+    year_column_strategy: header_label
+    year_columns: []
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - rows 48-96 are a table directory with page numbers, not source measures
+    - repeated table headers are detected throughout the worksheet
+  - sheet: AppA_USDA Baseline_02-2026
+    classification: data
+    include: true
+    output_dataset: usda_2026_02
+    verification_target: cbo-usda-2026-02-appendix-a
+    header_rows: 1-15
+    first_data_row: 16
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: By fiscal year, millions of dollars
+    notes:
+    - manually reviewed February 2026 layout
+  - sheet: AppB_USDA Baseline_02-2026
+    classification: data
+    include: true
+    output_dataset: usda_2026_02
+    verification_target: cbo-usda-2026-02-appendix-b
+    header_rows: 1-14
+    first_data_row: 15
+    year_column_strategy: column_index
+    year_columns:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+- workbook: 54946-2026-02-dodmedicare.xlsx
+  sheets:
+  - sheet: DoD-MERHCF_02-2026
+    classification: data
+    include: true
+    output_dataset: dodmedicare_2026_02
+    verification_target: cbo-dod-medicare-2026-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+- workbook: 60044-2026-02-tef.xlsx
+  sheets:
+  - sheet: TEF_02-2026
+    classification: data
+    include: true
+    output_dataset: tef_2026_02
+    verification_target: cbo-toxic-exposures-fund-2026-02
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+- workbook: 60523-2026-02-premium-tax-credit.xlsx
+  sheets:
+  - sheet: PTC_02-2026
+    classification: data
+    include: true
+    output_dataset: premium_tax_credit_2026_02
+    verification_target: cbo-premium-tax-credit-2026-02
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+- workbook: 61170-2026-02-customs-fees.xlsx
+  sheets:
+  - sheet: Customs Fees 02-2026
+    classification: data
+    include: true
+    output_dataset: customs_fees_2026_02
+    verification_target: cbo-customs-fees-2026-02
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
 - workbook: 61170-2025-01-customs-fees.xlsx
   sheets:
   - sheet: Customs Fees Baseline 01-2025

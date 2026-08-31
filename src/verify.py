@@ -43,6 +43,7 @@ class VerificationPlan:
     verification_include_totals: bool
     verification_exempt: bool
     verification_exempt_reason: str
+    period_type: str
 
 
 @dataclass(frozen=True)
@@ -94,6 +95,8 @@ def _read_plan(parse_plan_path: Path) -> list[VerificationPlan]:
                     verification_include_totals=bool(sheet_entry.get("verification_include_totals", False)),
                     verification_exempt=bool(sheet_entry.get("verification_exempt", False)),
                     verification_exempt_reason=str(sheet_entry.get("verification_exempt_reason", "")).strip(),
+                    period_type=str(sheet_entry.get("period_type", "fiscal_year")).strip()
+                    or "fiscal_year",
                 )
             )
     return plans
@@ -110,6 +113,7 @@ def _sheet_plan(plan: VerificationPlan) -> transform.SheetPlan:
         year_columns=plan.year_columns,
         unit=transform._normalize_unit_string(plan.unit),
         verification_exempt=plan.verification_exempt,
+        period_type=plan.period_type,
     )
 
 
@@ -149,16 +153,23 @@ def _expected_source_cells(worksheet, plan: VerificationPlan) -> dict[tuple[int,
         for block in blocks:
             blocks_by_row.setdefault(block.header_row, []).extend(block.periods)
         current_periods: list[transform.PeriodColumn] = []
+        in_note_block = False
         first_data_row = plan.first_data_row or min(block.header_row for block in blocks) + 1
         for row in range(1, worksheet.max_row + 1):
             if row in blocks_by_row:
                 by_column = {period.column: period for period in blocks_by_row[row]}
                 current_periods = [by_column[column] for column in sorted(by_column)]
+                in_note_block = False
                 continue
             if row < first_data_row or not current_periods:
                 continue
             period_start = min(period.column for period in current_periods)
             text_cells = transform._row_text_cells(worksheet, row, period_start)
+            if transform._begins_note_block(text_cells):
+                in_note_block = True
+                continue
+            if in_note_block:
+                continue
             if any(transform._looks_like_note(text) for _, text in text_cells):
                 continue
             for period in current_periods:
@@ -168,7 +179,14 @@ def _expected_source_cells(worksheet, plan: VerificationPlan) -> dict[tuple[int,
 
     first_data_row = plan.first_data_row or plan.header_end_row + 1
     max_column = min(worksheet.max_column, 200)
+    in_note_block = False
     for row in range(first_data_row, worksheet.max_row + 1):
+        text_cells = transform._row_text_cells(worksheet, row, max_column)
+        if transform._begins_note_block(text_cells):
+            in_note_block = True
+            continue
+        if in_note_block:
+            continue
         numeric_columns = [
             column
             for column in range(1, max_column + 1)

@@ -2,7 +2,7 @@
 
 One schema document exists for every processed CSV in `data/processed/`. Each file documents column definitions, provenance, and aggregation caveats.
 
-**Total datasets:** 230
+**Total datasets:** 246
 
 ## Column reference (all datasets share this schema)
 
@@ -29,11 +29,11 @@ One schema document exists for every processed CSV in `data/processed/`. Each fi
 
 Each dataset schema includes a **Variable Notes** section. Notes are extracted only from actual superscript-formatted letter markers in the source XLSX and are bound to the affected `category_path`, including inherited parent-heading notes. Source-only entries are retained when an annotated source label is not emitted in the processed CSV.
 
-**Datasets with variable notes:** 194
+**Datasets with variable notes:** 209
 
-**Variable-note mappings:** 2,420
+**Variable-note mappings:** 2,733
 
-**Source-only annotations:** 15
+**Source-only annotations:** 16
 
 ## Dataset index
 
@@ -55,6 +55,7 @@ Each dataset schema includes a **Variable Notes** section. Notes are extracted o
 | `childnutrition_2023_05` | 186 | 2023–2033 | Child Nutrition | 3 | [childnutrition_2023_05.md](childnutrition_2023_05.md) |
 | `childnutrition_2024_06` | 218 | 2024–2034 | Child Nutrition | 2 | [childnutrition_2024_06.md](childnutrition_2024_06.md) |
 | `childnutrition_2025_01` | 218 | 2025–2035 | Child Nutrition | 2 | [childnutrition_2025_01.md](childnutrition_2025_01.md) |
+| `childnutrition_2026_02` | 218 | 2026–2036 | Child Nutrition | 4 | [childnutrition_2026_02.md](childnutrition_2026_02.md) |
 | `childsupportenforcement_2020_01` | 55 | 2020–2030 | Child Support Enforcement | 0 | [childsupportenforcement_2020_01.md](childsupportenforcement_2020_01.md) |
 | `childsupportenforcement_2020_03` | 55 | 2020–2030 | Child Support Enforcement | 0 | [childsupportenforcement_2020_03.md](childsupportenforcement_2020_03.md) |
 | `childsupportenforcement_2021_02` | 88 | 2021–2031 | Child Support Enforcement | 0 | [childsupportenforcement_2021_02.md](childsupportenforcement_2021_02.md) |
@@ -71,7 +72,9 @@ Each dataset schema includes a **Variable Notes** section. Notes are extracted o
 | `csec_2024_02` | 55 | 2024–2034 | Child Support Enforcement | 2 | [csec_2024_02.md](csec_2024_02.md) |
 | `csec_2024_06` | 54 | 2024–2034 | Child Support Enforcement | 2 | [csec_2024_06.md](csec_2024_06.md) |
 | `csec_2025_01` | 65 | 2025–2035 | Child Support Enforcement | 2 | [csec_2025_01.md](csec_2025_01.md) |
+| `csec_2026_02` | 77 | 2026–2036 | Child Support Enforcement | 3 | [csec_2026_02.md](csec_2026_02.md) |
 | `customs_fees_2025_01` | 48 | 2025–2035 | Customs Fees | 0 | [customs_fees_2025_01.md](customs_fees_2025_01.md) |
+| `customs_fees_2026_02` | 60 | 2026–2036 | Customs Fees | 0 | [customs_fees_2026_02.md](customs_fees_2026_02.md) |
 | `dodmedicare_2019_05` | 132 | 2019–2029 | DoD Medicare | 3 | [dodmedicare_2019_05.md](dodmedicare_2019_05.md) |
 | `dodmedicare_2020_01` | 132 | 2020–2030 | DoD Medicare | 3 | [dodmedicare_2020_01.md](dodmedicare_2020_01.md) |
 | `dodmedicare_2020_03` | 132 | 2020–2030 | DoD Medicare | 3 | [dodmedicare_2020_03.md](dodmedicare_2020_03.md) |
@@ -81,6 +84,7 @@ Each dataset schema includes a **Variable Notes** section. Notes are extracted o
 | `dodmedicare_2023_05` | 121 | 2023–2033 | DoD Medicare | 3 | [dodmedicare_2023_05.md](dodmedicare_2023_05.md) |
 | `dodmedicare_2024_02` | 121 | 2024–2034 | DoD Medicare | 3 | [dodmedicare_2024_02.md](dodmedicare_2024_02.md) |
 | `dodmedicare_2025_01` | 121 | 2025–2035 | DoD Medicare | 3 | [dodmedicare_2025_01.md](dodmedicare_2025_01.md) |
+| `dodmedicare_2026_02` | 121 | 2026–2036 | DoD Medicare | 3 | [dodmedicare_2026_02.md](dodmedicare_2026_02.md) |
 | `fdic_2024_06` | 60 | 2023–2034 | FDIC | 3 | [fdic_2024_06.md](fdic_2024_06.md) |
 | `fdic_2025_01` | 52 | 2023–2035 | FDIC | 2 | [fdic_2025_01.md](fdic_2025_01.md) |
 | `foster_care_2019_05` | 264 | 2019–2029 | Foster Care | 0 | [foster_care_2019_05.md](foster_care_2019_05.md) |
@@ -102,6 +106,7 @@ Each dataset schema includes a **Variable Notes** section. Notes are extracted o
 | `healthinsurance_2023_05` | 440 | 2023–2033 | Health Insurance | 0 | [healthinsurance_2023_05.md](healthinsurance_2023_05.md) |
 | `healthinsurance_2023_09` | 473 | 2023–2033 | Health Insurance | 0 | [healthinsurance_2023_09.md](healthinsurance_2023_09.md) |
 | `healthinsurance_2024_06` | 507 | 2023–2034 | Health Insurance | 0 | [healthinsurance_2024_06.md](healthinsurance_2024_06.md) |
+| `healthinsurance_2026_02` | 482 | 2026–2036 | Health Insurance | 69 | [healthinsurance_2026_02.md](healthinsurance_2026_02.md) |
 | `highway_trust_fund_2019_05` | 106 | 2018–2029 | Highway Trust Fund | 6 | [highway_trust_fund_2019_05.md](highway_trust_fund_2019_05.md) |
 | `highwaytrustfund_2020_01` | 103 | 2019–2030 | Highway Trust Fund | 6 | [highwaytrustfund_2020_01.md](highwaytrustfund_2020_01.md) |
 | `highwaytrustfund_2020_03` | 103 | 2019–2030 | Highway Trust Fund | 6 | [highwaytrustfund_2020_03.md](highwaytrustfund_2020_03.md) |
@@ -112,6 +117,8 @@ Each dataset schema includes a **Variable Notes** section. Notes are extracted o
 | `highwaytrustfund_2024_02` | 108 | 2023–2034 | Highway Trust Fund | 6 | [highwaytrustfund_2024_02.md](highwaytrustfund_2024_02.md) |
 | `highwaytrustfund_2024_06` | 108 | 2023–2034 | Highway Trust Fund | 6 | [highwaytrustfund_2024_06.md](highwaytrustfund_2024_06.md) |
 | `highwaytrustfund_2025_01` | 116 | 2024–2035 | Highway Trust Fund | 6 | [highwaytrustfund_2025_01.md](highwaytrustfund_2025_01.md) |
+| `highwaytrustfund_2026_02` | 110 | 2025–2036 | Highway Trust Fund | 6 | [highwaytrustfund_2026_02.md](highwaytrustfund_2026_02.md) |
+| `highwaytrustfund_2026_06` | 110 | 2025–2036 | Highway Trust Fund | 6 | [highwaytrustfund_2026_06.md](highwaytrustfund_2026_06.md) |
 | `medicaid_2019_05` | 316 | 2018–2029 | Medicaid | 11 | [medicaid_2019_05.md](medicaid_2019_05.md) |
 | `medicaid_2020_03` | 316 | 2019–2030 | Medicaid | 11 | [medicaid_2020_03.md](medicaid_2020_03.md) |
 | `medicaid_2021_07` | 336 | 2020–2031 | Medicaid | 12 | [medicaid_2021_07.md](medicaid_2021_07.md) |
@@ -158,6 +165,7 @@ Each dataset schema includes a **Variable Notes** section. Notes are extracted o
 | `pellgrant_2023_05` | 329 | 2013–2033 | Pell Grant | 36 | [pellgrant_2023_05.md](pellgrant_2023_05.md) |
 | `pellgrant_2024_06` | 318 | 2014–2034 | Pell Grant | 34 | [pellgrant_2024_06.md](pellgrant_2024_06.md) |
 | `pellgrant_2025_01` | 350 | 2015–2035 | Pell Grant | 39 | [pellgrant_2025_01.md](pellgrant_2025_01.md) |
+| `pellgrant_2026_02` | 517 | 2016–2036 | Pell Grant | 44 | [pellgrant_2026_02.md](pellgrant_2026_02.md) |
 | `post911_gi_bill_2019_05` | 55 | 2019–2029 | Post-9/11 GI Bill | 1 | [post911_gi_bill_2019_05.md](post911_gi_bill_2019_05.md) |
 | `post911gibill_2020_01` | 55 | 2020–2030 | Post-9/11 GI Bill | 1 | [post911gibill_2020_01.md](post911gibill_2020_01.md) |
 | `post911gibill_2020_03` | 55 | 2020–2030 | Post-9/11 GI Bill | 1 | [post911gibill_2020_03.md](post911gibill_2020_03.md) |
@@ -167,6 +175,8 @@ Each dataset schema includes a **Variable Notes** section. Notes are extracted o
 | `post911gibill_2023_05` | 55 | 2023–2033 | Post-9/11 GI Bill | 1 | [post911gibill_2023_05.md](post911gibill_2023_05.md) |
 | `post911gibill_2024_02` | 55 | 2024–2034 | Post-9/11 GI Bill | 1 | [post911gibill_2024_02.md](post911gibill_2024_02.md) |
 | `premium_tax_credit_2024_07` | 33 | 2024–2034 | Premium Tax Credit | 3 | [premium_tax_credit_2024_07.md](premium_tax_credit_2024_07.md) |
+| `premium_tax_credit_2026_02` | 144 | 2026–2036 | Premium Tax Credit | 16 | [premium_tax_credit_2026_02.md](premium_tax_credit_2026_02.md) |
+| `railroadretirement_2026_02` | 66 | 2026–2036 | Railroad Retirement | 5 | [railroadretirement_2026_02.md](railroadretirement_2026_02.md) |
 | `snap_2019_05` | 241 | 2019–2029 | SNAP | 1 | [snap_2019_05.md](snap_2019_05.md) |
 | `snap_2020_01` | 241 | 2020–2030 | SNAP | 1 | [snap_2020_01.md](snap_2020_01.md) |
 | `snap_2020_03` | 241 | 2020–2030 | SNAP | 1 | [snap_2020_03.md](snap_2020_03.md) |
@@ -189,6 +199,7 @@ Each dataset schema includes a **Variable Notes** section. Notes are extracted o
 | `socialsecurity_2024_02` | 366 | 2023–2034 | Social Security | 3 | [socialsecurity_2024_02.md](socialsecurity_2024_02.md) |
 | `socialsecurity_2024_06` | 369 | 2023–2034 | Social Security | 3 | [socialsecurity_2024_06.md](socialsecurity_2024_06.md) |
 | `socialsecurity_2025_01` | 368 | 2024–2035 | Social Security | 3 | [socialsecurity_2025_01.md](socialsecurity_2025_01.md) |
+| `socialsecurity_2026_02` | 368 | 2025–2036 | Social Security | 3 | [socialsecurity_2026_02.md](socialsecurity_2026_02.md) |
 | `ssdi_2019_05` | 312 | 2018–2029 | SSDI | 0 | [ssdi_2019_05.md](ssdi_2019_05.md) |
 | `ssdi_2020_01` | 312 | 2019–2030 | SSDI | 0 | [ssdi_2020_01.md](ssdi_2020_01.md) |
 | `ssdi_2020_03` | 312 | 2019–2030 | SSDI | 0 | [ssdi_2020_03.md](ssdi_2020_03.md) |
@@ -210,6 +221,7 @@ Each dataset schema includes a **Variable Notes** section. Notes are extracted o
 | `ssi_2024_02` | 110 | 2024–2034 | SSI | 1 | [ssi_2024_02.md](ssi_2024_02.md) |
 | `ssi_2024_06` | 110 | 2024–2034 | SSI | 1 | [ssi_2024_06.md](ssi_2024_06.md) |
 | `ssi_2025_01` | 132 | 2025–2035 | SSI | 2 | [ssi_2025_01.md](ssi_2025_01.md) |
+| `ssi_2026_02` | 132 | 2026–2036 | SSI | 3 | [ssi_2026_02.md](ssi_2026_02.md) |
 | `sstrustfund_2021_02` | 204 | 2020–2031 | Social Security Trust Funds | 2 | [sstrustfund_2021_02.md](sstrustfund_2021_02.md) |
 | `student_loan_2019_05` | 924 | 2019–2029 | Student Loans | 42 | [student_loan_2019_05.md](student_loan_2019_05.md) |
 | `studentloan_2020_03` | 1,037 | 2013–2030 | Student Loans | 30 | [studentloan_2020_03.md](studentloan_2020_03.md) |
@@ -217,6 +229,7 @@ Each dataset schema includes a **Variable Notes** section. Notes are extracted o
 | `studentloan_2022_05` | 941 | 2020–2032 | Student Loans | 32 | [studentloan_2022_05.md](studentloan_2022_05.md) |
 | `studentloan_2023_05` | 913 | 2023–2033 | Student Loans | 34 | [studentloan_2023_05.md](studentloan_2023_05.md) |
 | `studentloan_2024_06` | 826 | 2024–2034 | Student Loans | 38 | [studentloan_2024_06.md](studentloan_2024_06.md) |
+| `studentloan_2026_02` | 671 | 2026–2036 | Student Loans | 53 | [studentloan_2026_02.md](studentloan_2026_02.md) |
 | `tanf_2019_05` | 88 | 2019–2029 | TANF | 0 | [tanf_2019_05.md](tanf_2019_05.md) |
 | `tanf_2020_01` | 99 | 2020–2030 | TANF | 0 | [tanf_2020_01.md](tanf_2020_01.md) |
 | `tanf_2020_03` | 88 | 2020–2030 | TANF | 0 | [tanf_2020_03.md](tanf_2020_03.md) |
@@ -230,6 +243,7 @@ Each dataset schema includes a **Variable Notes** section. Notes are extracted o
 | `tanf_2026_02` | 88 | 2026–2036 | TANF | 1 | [tanf_2026_02.md](tanf_2026_02.md) |
 | `tef_2024_06` | 221 | 2024–2034 | Toxic Exposures Fund | 22 | [tef_2024_06.md](tef_2024_06.md) |
 | `tef_2025_01` | 221 | 2025–2035 | Toxic Exposures Fund | 22 | [tef_2025_01.md](tef_2025_01.md) |
+| `tef_2026_02` | 89 | 2026–2036 | Toxic Exposures Fund | 5 | [tef_2026_02.md](tef_2026_02.md) |
 | `toxic_exposures_fund_2024_02` | 221 | 2024–2034 | Toxic Exposures Fund | 22 | [toxic_exposures_fund_2024_02.md](toxic_exposures_fund_2024_02.md) |
 | `trust_funds_2019_05` | 228 | 2018–2029 | Social Security Trust Funds | 3 | [trust_funds_2019_05.md](trust_funds_2019_05.md) |
 | `trustfund_2020_01` | 204 | 2019–2030 | Social Security Trust Funds | 2 | [trustfund_2020_01.md](trustfund_2020_01.md) |
@@ -240,6 +254,7 @@ Each dataset schema includes a **Variable Notes** section. Notes are extracted o
 | `trustfund_2024_02` | 254 | 2023–2034 | Social Security Trust Funds | 4 | [trustfund_2024_02.md](trustfund_2024_02.md) |
 | `trustfund_2024_06` | 254 | 2023–2034 | Social Security Trust Funds | 4 | [trustfund_2024_06.md](trustfund_2024_06.md) |
 | `trustfund_2025_01` | 253 | 2024–2035 | Social Security Trust Funds | 4 | [trustfund_2025_01.md](trustfund_2025_01.md) |
+| `trustfund_2026_02` | 251 | 2025–2036 | Social Security Trust Funds | 4 | [trustfund_2026_02.md](trustfund_2026_02.md) |
 | `unemployment_2019_05` | 99 | 2019–2029 | Unemployment Insurance | 0 | [unemployment_2019_05.md](unemployment_2019_05.md) |
 | `unemployment_2020_01` | 99 | 2020–2030 | Unemployment Insurance | 0 | [unemployment_2020_01.md](unemployment_2020_01.md) |
 | `unemployment_2020_03` | 99 | 2020–2030 | Unemployment Insurance | 0 | [unemployment_2020_03.md](unemployment_2020_03.md) |
@@ -251,16 +266,17 @@ Each dataset schema includes a **Variable Notes** section. Notes are extracted o
 | `unemployment_2024_06` | 143 | 2024–2034 | Unemployment Insurance | 2 | [unemployment_2024_06.md](unemployment_2024_06.md) |
 | `unemployment_2025_01` | 99 | 2025–2035 | Unemployment Insurance | 1 | [unemployment_2025_01.md](unemployment_2025_01.md) |
 | `unemployment_2026_02` | 99 | 2026–2036 | Unemployment Insurance | 1 | [unemployment_2026_02.md](unemployment_2026_02.md) |
-| `usda_2020_01` | 10,897 | 2018–2030 | USDA Farm Programs | 33 | [usda_2020_01.md](usda_2020_01.md) |
-| `usda_2020_03` | 10,945 | 2018–2030 | USDA Farm Programs | 35 | [usda_2020_03.md](usda_2020_03.md) |
-| `usda_2021_02` | 10,990 | 2019–2031 | USDA Farm Programs | 36 | [usda_2021_02.md](usda_2021_02.md) |
-| `usda_2021_07` | 10,978 | 2019–2031 | USDA Farm Programs | 36 | [usda_2021_07.md](usda_2021_07.md) |
-| `usda_2022_05` | 10,890 | 1901–2032 | USDA Farm Programs | 36 | [usda_2022_05.md](usda_2022_05.md) |
-| `usda_2023_02` | 11,002 | 2021–2033 | USDA Farm Programs | 50 | [usda_2023_02.md](usda_2023_02.md) |
-| `usda_2023_05` | 11,394 | 2021–2033 | USDA Farm Programs | 47 | [usda_2023_05.md](usda_2023_05.md) |
-| `usda_2024_02` | 11,373 | 2022–2034 | USDA Farm Programs | 48 | [usda_2024_02.md](usda_2024_02.md) |
-| `usda_2024_06` | 11,734 | 2022–2034 | USDA Farm Programs | 57 | [usda_2024_06.md](usda_2024_06.md) |
-| `usda_2025_01` | 11,155 | 1963–2041 | USDA Farm Programs | 61 | [usda_2025_01.md](usda_2025_01.md) |
+| `usda_2020_01` | 10,850 | 2018–2030 | USDA Farm Programs | 33 | [usda_2020_01.md](usda_2020_01.md) |
+| `usda_2020_03` | 10,909 | 2018–2030 | USDA Farm Programs | 35 | [usda_2020_03.md](usda_2020_03.md) |
+| `usda_2021_02` | 10,954 | 2019–2031 | USDA Farm Programs | 36 | [usda_2021_02.md](usda_2021_02.md) |
+| `usda_2021_07` | 10,942 | 2019–2031 | USDA Farm Programs | 36 | [usda_2021_07.md](usda_2021_07.md) |
+| `usda_2022_05` | 10,854 | 1901–2032 | USDA Farm Programs | 36 | [usda_2022_05.md](usda_2022_05.md) |
+| `usda_2023_02` | 10,966 | 2021–2033 | USDA Farm Programs | 50 | [usda_2023_02.md](usda_2023_02.md) |
+| `usda_2023_05` | 11,358 | 2021–2033 | USDA Farm Programs | 47 | [usda_2023_05.md](usda_2023_05.md) |
+| `usda_2024_02` | 11,337 | 2022–2034 | USDA Farm Programs | 48 | [usda_2024_02.md](usda_2024_02.md) |
+| `usda_2024_06` | 11,698 | 2022–2034 | USDA Farm Programs | 57 | [usda_2024_06.md](usda_2024_06.md) |
+| `usda_2025_01` | 11,119 | 1963–2041 | USDA Farm Programs | 61 | [usda_2025_01.md](usda_2025_01.md) |
+| `usda_2026_02` | 10,557 | 1972–2074 | USDA Farm Programs | 89 | [usda_2026_02.md](usda_2026_02.md) |
 | `veterans_2019_05` | 242 | 2019–2029 | Veterans Benefits | 0 | [veterans_2019_05.md](veterans_2019_05.md) |
 | `veteransbenefit_2020_01` | 242 | 2020–2030 | Veterans Benefits | 4 | [veteransbenefit_2020_01.md](veteransbenefit_2020_01.md) |
 | `veteransbenefit_2020_03` | 242 | 2020–2030 | Veterans Benefits | 4 | [veteransbenefit_2020_03.md](veteransbenefit_2020_03.md) |

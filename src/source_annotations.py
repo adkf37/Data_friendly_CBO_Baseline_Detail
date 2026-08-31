@@ -11,7 +11,7 @@ their footnote alphabet for each table.
 
 import re
 from collections import defaultdict
-from dataclasses import dataclass
+from dataclasses import dataclass, replace
 from pathlib import Path
 from typing import Iterable
 
@@ -21,6 +21,19 @@ from openpyxl.cell.rich_text import CellRichText
 
 FOOTNOTE_START_RE = re.compile(r"^\s*([a-z])\s*[.)\]:-]\s*(.*?)\s*$", re.IGNORECASE)
 MARKER_RUN_RE = re.compile(r"[a-z](?:\s*[,;]\s*[a-z])*|[a-z]+", re.IGNORECASE)
+MISSING_FOOTNOTE_TEMPLATE = (
+    "The source workbook includes superscript marker '{marker}' but does not "
+    "provide a corresponding footnote definition on this worksheet."
+)
+KNOWN_MISSING_FOOTNOTE_DEFINITIONS = {
+    (
+        "51304-2026-02-pellgrant.xlsx",
+        "T4_Pell_02-2026",
+        30,
+        1,
+        "d",
+    ),
+}
 
 
 @dataclass(frozen=True)
@@ -327,8 +340,23 @@ def load_annotation_catalog(
                 if actual_sheet is None:
                     missing_sheets.append((source_file, requested_sheet))
                     continue
-                by_source[(source_file, requested_sheet)] = extract_worksheet_annotations(
-                    workbook[actual_sheet]
+                annotations = extract_worksheet_annotations(workbook[actual_sheet])
+                by_source[(source_file, requested_sheet)] = tuple(
+                    replace(
+                        item,
+                        variable_note=MISSING_FOOTNOTE_TEMPLATE.format(marker=item.marker),
+                    )
+                    if not item.variable_note
+                    and (
+                        source_file,
+                        requested_sheet,
+                        item.label_row,
+                        item.label_column,
+                        item.marker,
+                    )
+                    in KNOWN_MISSING_FOOTNOTE_DEFINITIONS
+                    else item
+                    for item in annotations
                 )
         finally:
             workbook.close()

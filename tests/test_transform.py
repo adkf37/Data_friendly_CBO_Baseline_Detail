@@ -577,6 +577,70 @@ workbooks:
         self.assertEqual(2029, cumulative["period_end_year"])
         self.assertEqual("2025-2029", cumulative["period_label"])
 
+    def test_transform_honors_calendar_year_period_hint(self):
+        workbook = Workbook()
+        ws = workbook.active
+        ws["D1"] = 2025
+        ws["E1"] = 2026
+        ws["A2"] = "Covered Population"
+        ws["D2"] = 100
+        ws["E2"] = 110
+        plan = transform.SheetPlan(
+            workbook="51298-2026-02-healthinsurance.xlsx",
+            sheet="Coverage",
+            include=True,
+            output_dataset="healthinsurance_2026_02",
+            header_end_row=1,
+            first_data_row=2,
+            year_columns=[4, 5],
+            unit="Millions of people",
+            period_type="calendar_year",
+        )
+
+        rows, warning = transform._records_for_sheet(ws, plan)
+
+        self.assertIsNone(warning)
+        self.assertEqual({"calendar_year"}, {row["period_type"] for row in rows})
+        self.assertEqual({""}, {row["fiscal_year"] for row in rows})
+
+    def test_transform_labels_heading_only_rows_and_excludes_note_block_numbers(self):
+        workbook = Workbook()
+        ws = workbook.active
+        ws["A1"] = "Coverage Share"
+        ws["D2"] = 2025
+        ws["E2"] = 2026
+        ws["D3"] = 30
+        ws["E3"] = 31
+        ws["A4"] = "Note:"
+        ws["D5"] = 4
+        ws["E5"] = 5
+        ws["A6"] = "Illustrative thresholds"
+        ws["D6"] = 6
+        ws["E6"] = 7
+        plan = transform.SheetPlan(
+            workbook="test.xlsx",
+            sheet="Data",
+            include=True,
+            output_dataset="test",
+            header_end_row=2,
+            first_data_row=3,
+            year_columns=[4, 5],
+            unit="Percent",
+        )
+
+        rows, warning = transform._records_for_sheet(ws, plan)
+
+        self.assertIsNone(warning)
+        self.assertEqual(2, len(rows))
+        self.assertEqual({3}, {row["source_row"] for row in rows})
+        self.assertEqual({"Coverage Share"}, {row["category"] for row in rows})
+
+    def test_normalize_unit_removes_concatenated_superscript_marker(self):
+        self.assertEqual(
+            "Number of beneficiaries",
+            transform._normalize_unit_string("Number of Beneficiariese"),
+        )
+
     def test_transform_recognizes_award_year_ranges(self):
         workbook = Workbook()
         ws = workbook.active
