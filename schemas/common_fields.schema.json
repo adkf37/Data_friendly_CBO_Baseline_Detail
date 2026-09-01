@@ -1,0 +1,115 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CBO Baseline Detail Common Field Definitions",
+  "description": "Reusable definitions for processed CBO baseline-detail row fields.",
+  "$defs": {
+    "program": {
+      "description": "Canonical CBO program name keyed by the stable source identifier.",
+      "minLength": 1,
+      "type": "string"
+    },
+    "category": {
+      "description": "Leaf line-item label from the source worksheet.",
+      "minLength": 1,
+      "type": "string"
+    },
+    "fiscal_year": {
+      "description": "Federal fiscal year; null for every other period type.",
+      "minimum": 1900,
+      "maximum": 2100,
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "value": {
+      "description": "Parsed numeric value from the source cell.",
+      "type": "number"
+    },
+    "unit": {
+      "description": "Unit of measure for value, resolved from source labels and parse metadata.",
+      "minLength": 1,
+      "type": "string"
+    },
+    "source_file": {
+      "description": "Original CBO workbook filename in data/raw.",
+      "pattern": "\\.xlsx$",
+      "type": "string"
+    },
+    "source_sheet": {
+      "description": "Worksheet name within the source workbook.",
+      "minLength": 1,
+      "type": "string"
+    },
+    "is_total": {
+      "description": "Whether the source category is an aggregate total or subtotal.",
+      "type": "boolean"
+    },
+    "program_id": {
+      "description": "Stable numeric CBO identifier parsed from the source filename.",
+      "pattern": "^\\d{5}$",
+      "type": "string"
+    },
+    "category_path": {
+      "description": "Full hierarchy-aware breadcrumb ending in category.",
+      "minLength": 1,
+      "type": "string"
+    },
+    "period_type": {
+      "description": "Period semantics for the observation.",
+      "enum": [
+        "fiscal_year",
+        "calendar_year",
+        "award_year",
+        "school_year",
+        "cumulative_fiscal_years",
+        "unmapped"
+      ],
+      "type": "string"
+    },
+    "period_start_year": {
+      "description": "First year represented by the source period.",
+      "minimum": 1900,
+      "maximum": 2100,
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "period_end_year": {
+      "description": "Last year represented by the source period.",
+      "minimum": 1900,
+      "maximum": 2100,
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "period_label": {
+      "description": "Normalized source period label, such as 2026 or 2026-2030.",
+      "type": "string"
+    },
+    "source_row": {
+      "description": "One-based worksheet row containing the numeric source value.",
+      "minimum": 1,
+      "type": "integer"
+    },
+    "source_column": {
+      "description": "One-based worksheet column containing the numeric source value.",
+      "minimum": 1,
+      "type": "integer"
+    },
+    "table_title": {
+      "description": "Top-level USDA source table heading containing the observation.",
+      "type": "string"
+    },
+    "section": {
+      "description": "First intermediate USDA heading; empty when none exists.",
+      "type": "string"
+    },
+    "subsection": {
+      "description": "Remaining intermediate USDA headings joined with ' / '.",
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+workbooks:
+- workbook: 51306-2026-02-railroadretirement.xlsx
+  sheets:
+  - sheet: RailroadRetirement_02-2026
+    classification: data
+    include: true
+    output_dataset: railroadretirement_2026_02
+    verification_target: cbo-railroad-retirement-2026-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout

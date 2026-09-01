@@ -14,7 +14,7 @@ This document maps the project work to Maestro lifecycle phases.
 - `backlog/phases.md` (this file)
 - `backlog/tasks/`
 - `STATUS.md` updated
-- `requirements.txt`
+- `environment.yml`
 
 ---
 
@@ -74,7 +74,7 @@ This document maps the project work to Maestro lifecycle phases.
 - All processed CSVs present and non-empty in `data/processed/`
 - Schema files present for every CSV
 - Verification report shows 0 reconciliation failures
-- `requirements.txt` and pipeline runner tested in a clean environment
+- `environment.yml` and pipeline runner tested in a clean environment
 
 **Outputs:**
 - `.squad/validation_report.md`

@@ -3,12 +3,12 @@
 
 | Field | Value |
 |---|---|
-| Phase | validate-task-06-pipeline |
-| Next Action | Human Blocked |
-| Last Updated | 2026-05-13 |
+| Phase | repository reorganization and schema normalization |
+| Next Action | complete full validation and review |
+| Last Updated | 2026-09-01 |
 | Squad Template | data_pipeline |
 | Priority | low |
-| Blocking | Sandbox cannot resolve `www.cbo.gov` for the live download step |
+| Blocking | None for cached-data builds; live download still depends on cbo.gov availability |
 | GitHub Repo | https://github.com/adkf37/Data_friendly_CBO_Baseline_Detail |
 
 
@@ -18,9 +18,24 @@
 
 ## Current Objective
 
+Reorganize the processing code as an importable `etl/` package, split the
+workbook parse plan by logical dataset, organize processed releases by dataset,
+and replace per-CSV Markdown schemas with stable JSON schemas plus per-vintage
+metadata and annotations.
+
+Current generated inventory: 30 logical datasets, 246 CSV releases, 30 dataset
+schemas, 246 release metadata sidecars, and 3 shared row-schema files.
+
+## Historical Objective (May 2026)
+
 Validate **Task ID: `task-06-pipeline`** â€” all non-network-dependent checks now pass. `run_pipeline.py` is the canonical repo-root entrypoint, all `46` unit tests pass, `inspect` / `transform` / `schema` / `verify` succeed from the repo root, and `docs/verification_report.md` shows `277` PASS / `22` EXEMPT / `0` non-exempt FAIL. The remaining validation gap is the live `download` step, which is blocked in this sandbox because `www.cbo.gov` cannot be resolved. Next action: Human Blocked.
 
 ## Recent Activity
+
+- 2026-09-01: Replaced `requirements.txt` with a Conda `environment.yml` using Python 3.12 and the existing runtime dependencies; updated current setup instructions accordingly.
+- 2026-09-01: Validation completed: 77 unit tests pass; all 327 source-cell verification targets pass; all 246 generated CSVs are byte-for-byte identical to their pre-reorganization counterparts; all 246 typed release samples validate against their resolved JSON Schemas; and `git diff --check` reports no whitespace errors.
+- 2026-09-01: Reorganized `src/` into the importable `etl/` package; made `scripts/run_pipeline.py` the canonical pipeline entry point; consolidated inspection, validation, annotations, and schema modules; split the monolithic parse plan into 30 files under `config/parse_plans/`; and added `config/datasets.yml` as the stable registry.
+- 2026-09-01: Regenerated 246 releases under 30 `data/processed/<dataset>/` directories using consistent `baseline_YYYY-MM.csv` names. Replaced 246 per-release Markdown schemas with 3 shared JSON row schemas, 30 dataset-level `schema.json` files, 246 vintage metadata/annotation sidecars, and root `catalog.json`. The annotation audit resolved all 1,288 source markers and emitted 2,733 category-path mappings with 0 errors.
 
 - 2026-05-13: Unit normalization and schema regen â€” fixed multi-section unit detection in `src/transform.py`: single combined row-scan tracks `current_unit` inline (no separate pre-scan), dropped `read_only=True` to allow O(1) cell access. `_normalize_unit_string()` strips contextual prefixes/suffixes from plan YAML unit values and in-sheet detections. `UNIT_PAREN_RE` comma suffix moved outside capture group so `(Millions of people, calendar year 2018)` returns `Millions of people`. Standalone `(Thousands)` now detected. `snap_2023_05` YAML `unit` fixed to `Millions of dollars`. Result: 222 CSVs / 50,079 rows / **9 clean unit values / 0 empty-unit rows**. `python src/generate_schemas.py` rerun â†’ 222 schema docs regenerated with accurate per-dataset unit lists. All task file ACs (tasks 03â€“06) checked off. 15 transform tests pass.
 - 2026-05-12: Validate blocked for **Task ID: `task-06-pipeline`** â€” reran `python -m pip install -r requirements.txt`, the full unittest suite, `python run_pipeline.py --help`, repo-root step smoke checks, and artifact audits. Validation confirmed `inspect` on `230` raw workbooks, `transform` output of `222` CSVs / `50079` rows / `0` errors, `schema` output of `222` schema docs with 1:1 coverage, and `verify` output of `299` targets with `277` PASS / `22` EXEMPT / `0` non-exempt FAIL. The only blocked checks were `python run_pipeline.py --step download` and full `python run_pipeline.py`, both of which stop on sandbox DNS resolution failure for `www.cbo.gov`, so the repo moves to **Human Blocked** rather than Closeout.

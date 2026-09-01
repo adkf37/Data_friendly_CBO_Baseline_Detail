@@ -1,0 +1,66 @@
+{
+  "dataset": "foster_care",
+  "program_id": "51299",
+  "program": "Foster Care",
+  "vintage": "2026-02",
+  "data_file": "baseline_2026-02.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "d1b4bf1964280a3db51dd0d361221193bf1b30e8f6778a22f326f8ac78a3d717",
+  "row_count": 253,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2026,
+    "end_year": 2036
+  },
+  "period_coverage": {
+    "start_year": 2026,
+    "end_year": 2036
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51299-2026-02-fostercare.xlsx"
+  ],
+  "source_sheets": [
+    "Foster Care_02-2026"
+  ],
+  "units": [
+    "Millions of dollars",
+    "Thousands of cases"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Foster Care, Adoption Assistance, and Guardianship / Estimated Outlays for Other Components / Sequestrationa",
+      "marker": "a",
+      "variable_note": "The Further Consolidated Appropriations Act, 2024, extended sequestration for mandatory spending through fiscal year 2032. The percentage reduction for that year is smaller than the reduction in place through 2031.",
+      "source_label": "Sequestrationa",
+      "source": {
+        "file": "51299-2026-02-fostercare.xlsx",
+        "sheet": "Foster Care_02-2026",
+        "row": 37,
+        "column": 1
+      }
+    }
+  ]
+}

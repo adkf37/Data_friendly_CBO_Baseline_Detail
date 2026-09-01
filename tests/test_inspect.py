@@ -4,7 +4,7 @@ from pathlib import Path
 
 from openpyxl import Workbook
 
-from src import inspect
+from etl import inspect
 
 
 def write_fixture_workbook(path: Path) -> None:

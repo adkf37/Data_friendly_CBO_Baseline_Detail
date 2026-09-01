@@ -1,0 +1,66 @@
+{
+  "dataset": "foster_care",
+  "program_id": "51299",
+  "program": "Foster Care",
+  "vintage": "2021-07",
+  "data_file": "baseline_2021-07.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "72d358173c6d8a33bdc9b29a273e2606f6aea8d73b5f1531f6ef9ab9557a16b9",
+  "row_count": 275,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51299-2021-07-fostercare.xlsx"
+  ],
+  "source_sheets": [
+    "Fostercare_07-2021"
+  ],
+  "units": [
+    "Millions of dollars",
+    "Thousands of cases"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Foster Care, Adoption Assistance, and Guardianship / Estimated Outlays for Other Components / Sequestrationa",
+      "marker": "a",
+      "variable_note": "The Coronavirus Aid, Relief, and Economic Security Act extended sequestration for mandatory spending through fiscal year 2030.",
+      "source_label": "Sequestrationa",
+      "source": {
+        "file": "51299-2021-07-fostercare.xlsx",
+        "sheet": "Fostercare_07-2021",
+        "row": 42,
+        "column": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+datasets:
+  child_nutrition:
+    program_id: "51293"
+    title: Child Nutrition
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  child_support_enforcement:
+    program_id: "51295"
+    title: Child Support Enforcement
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  chip:
+    program_id: "51296"
+    title: CHIP
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  mortgages:
+    program_id: "51297"
+    title: Mortgages
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  health_insurance:
+    program_id: "51298"
+    title: Health Insurance
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  foster_care:
+    program_id: "51299"
+    title: Foster Care
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  highway_trust_fund:
+    program_id: "51300"
+    title: Highway Trust Fund
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  medicaid:
+    program_id: "51301"
+    title: Medicaid
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  medicare:
+    program_id: "51302"
+    title: Medicare
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  military_retirement:
+    program_id: "51303"
+    title: Military Retirement
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  pell_grant:
+    program_id: "51304"
+    title: Pell Grant
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  pbgc:
+    program_id: "51305"
+    title: PBGC
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  railroad_retirement:
+    program_id: "51306"
+    title: Railroad Retirement
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  ssdi:
+    program_id: "51307"
+    title: SSDI
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  social_security:
+    program_id: "51308"
+    title: Social Security
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  social_security_trust_funds:
+    program_id: "51309"
+    title: Social Security Trust Funds
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  student_loans:
+    program_id: "51310"
+    title: Student Loans
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  snap:
+    program_id: "51312"
+    title: SNAP
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  ssi:
+    program_id: "51313"
+    title: SSI
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  tanf:
+    program_id: "51314"
+    title: TANF
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  unemployment_insurance:
+    program_id: "51316"
+    title: Unemployment Insurance
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  usda_farm_programs:
+    program_id: "51317"
+    title: USDA Farm Programs
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+    schema_family: usda_baseline_detail
+  veterans_benefits:
+    program_id: "53725"
+    title: Veterans Benefits
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  post_911_gi_bill:
+    program_id: "53726"
+    title: Post-9/11 GI Bill
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  dod_medicare:
+    program_id: "54946"
+    title: DoD Medicare
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  airport_airway_trust_fund:
+    program_id: "59126"
+    title: Airport and Airway Trust Fund
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  toxic_exposures_fund:
+    program_id: "60044"
+    title: Toxic Exposures Fund
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  fdic:
+    program_id: "60394"
+    title: FDIC
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  premium_tax_credit:
+    program_id: "60523"
+    title: Premium Tax Credit
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs
+  customs_fees:
+    program_id: "61170"
+    title: Customs Fees
+    source_url: https://www.cbo.gov/data/baseline-projections-selected-programs

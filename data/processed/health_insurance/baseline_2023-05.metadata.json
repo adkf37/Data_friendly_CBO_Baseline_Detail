@@ -1,0 +1,55 @@
+{
+  "dataset": "health_insurance",
+  "program_id": "51298",
+  "program": "Health Insurance",
+  "vintage": "2023-05",
+  "data_file": "baseline_2023-05.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "2a7b78de43ed268e59b220a0607a6a5e7cb18e6c290679dec52adac4aa382bea",
+  "row_count": 440,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2023,
+    "end_year": 2033
+  },
+  "period_coverage": {
+    "start_year": 2023,
+    "end_year": 2033
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51298-2023-05-healthinsurance.xlsx"
+  ],
+  "source_sheets": [
+    "Table 1",
+    "Table 2"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Millions of people",
+    "Number of insured people"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": []
+}

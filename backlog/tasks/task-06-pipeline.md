@@ -16,7 +16,7 @@ Provide one reproducible entrypoint for the entire workflow and a root-level REA
 ## Inputs
 
 - Completed implementations from tasks 01-05
-- `requirements.txt`
+- `environment.yml`
 
 ## Outputs
 

@@ -1,0 +1,518 @@
+{
+  "dataset": "student_loans",
+  "program_id": "51310",
+  "program": "Student Loans",
+  "vintage": "2024-06",
+  "data_file": "baseline_2024-06.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "fc3b8a88fbc70f3df5652cd126c78eb4948f83c64a82be674f82aecbf398d873",
+  "row_count": 826,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2024,
+    "end_year": 2034
+  },
+  "period_coverage": {
+    "start_year": 2024,
+    "end_year": 2035
+  },
+  "period_types": [
+    "award_year",
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51310-2024-06-studentloan.xlsx"
+  ],
+  "source_sheets": [
+    "studentloanT1_6-24",
+    "studentloanT3_6-24",
+    "studentloanT4_6-24",
+    "studentloanT5_6-24",
+    "studentloanT6_6-24",
+    "studentloanT7_6-24"
+  ],
+  "units": [
+    "Dollars",
+    "Millions of dollars",
+    "Percent",
+    "Thousands"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Program Accounta / Budget Authority",
+      "marker": "a",
+      "variable_note": "Estimated spending for fiscal year 2024 includes additional adjustments based on current spending patterns projected by OMB.",
+      "source_label": "Program Accounta",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT1_6-24",
+        "row": 15,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Program Accounta / Outlays",
+      "marker": "a",
+      "variable_note": "Estimated spending for fiscal year 2024 includes additional adjustments based on current spending patterns projected by OMB.",
+      "source_label": "Program Accounta",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT1_6-24",
+        "row": 15,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Credit Reestimates and Modificationsb / Budget Authority",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2024. Those totals are based on the amounts that OMB has announced it will record in fiscal year 2024 and 50 percent of the cost for outstanding loans in the Department of Education’s April 2024 notice of proposed rulemaking (see Table 2 for details).",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT1_6-24",
+        "row": 18,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Credit Reestimates and Modificationsb / Outlays",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2024. Those totals are based on the amounts that OMB has announced it will record in fiscal year 2024 and 50 percent of the cost for outstanding loans in the Department of Education’s April 2024 notice of proposed rulemaking (see Table 2 for details).",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT1_6-24",
+        "row": 18,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Credit Reestimates and Modificationsb / Budget Authority",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2024. Those totals are based on the amounts that OMB has announced it will record in fiscal year 2024 and 50 percent of the cost for outstanding loans in the Department of Education’s April 2024 notice of proposed rulemaking (see Table 2 for details).",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT1_6-24",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Credit Reestimates and Modificationsb / Outlays",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2024. Those totals are based on the amounts that OMB has announced it will record in fiscal year 2024 and 50 percent of the cost for outstanding loans in the Department of Education’s April 2024 notice of proposed rulemaking (see Table 2 for details).",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT1_6-24",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Discretionaryc / Budget Authority",
+      "marker": "c",
+      "variable_note": "Projections of discretionary spending for administering student aid are calculated by inflating the budget authority provided in the most recent appropriation act rather than being made on the basis of the estimated future costs of administering the program.",
+      "source_label": "Discretionaryc",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT1_6-24",
+        "row": 38,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Discretionaryc / Outlays",
+      "marker": "c",
+      "variable_note": "Projections of discretionary spending for administering student aid are calculated by inflating the budget authority provided in the most recent appropriation act rather than being made on the basis of the estimated future costs of administering the program.",
+      "source_label": "Discretionaryc",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT1_6-24",
+        "row": 38,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Mandatoryd / Budget Authority",
+      "marker": "d",
+      "variable_note": "Projections of mandatory spending for administering student aid are based on estimated future costs of administering federal loan programs.",
+      "source_label": "Mandatoryd",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT1_6-24",
+        "row": 41,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Mandatoryd / Outlays",
+      "marker": "d",
+      "variable_note": "Projections of mandatory spending for administering student aid are based on estimated future costs of administering federal loan programs.",
+      "source_label": "Mandatoryd",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT1_6-24",
+        "row": 41,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program Volume / All New Loansa / Average Loan Amount (Dollars)",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2024.",
+      "source_label": "All New Loansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT3_6-24",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program Volume / All New Loansa / Net Annual Loan Volume (Millions of dollars)",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2024.",
+      "source_label": "All New Loansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT3_6-24",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program Volume / All New Loansa / Net Number of Loans (Thousands)b",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2024.",
+      "source_label": "All New Loansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT3_6-24",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program Volume / All New Loansa / Net Number of Loans (Thousands)b",
+      "marker": "b",
+      "variable_note": "“Net Number of Loans” is not equivalent to the number of borrowers because borrowers can take out more than one loan, and more than one type of loan, in a single year.",
+      "source_label": "Net Number of Loans (Thousands)b",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT3_6-24",
+        "row": 15,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Federal Credit Reform Act Estimates / Repayment Plansa / Fixed Term / GradPLUS",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT4_6-24",
+        "row": 21,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Federal Credit Reform Act Estimates / Repayment Plansa / Fixed Term / Parent PLUSb",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT4_6-24",
+        "row": 21,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Federal Credit Reform Act Estimates / Repayment Plansa / Fixed Term / Subsidized",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT4_6-24",
+        "row": 21,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Federal Credit Reform Act Estimates / Repayment Plansa / Fixed Term / Unsubsidized Graduate",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT4_6-24",
+        "row": 21,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Federal Credit Reform Act Estimates / Repayment Plansa / Fixed Term / Unsubsidized Undergraduate",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT4_6-24",
+        "row": 21,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Federal Credit Reform Act Estimates / Repayment Plansa / Income Driven / GradPLUS",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT4_6-24",
+        "row": 21,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Federal Credit Reform Act Estimates / Repayment Plansa / Income Driven / Subsidized",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT4_6-24",
+        "row": 21,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Federal Credit Reform Act Estimates / Repayment Plansa / Income Driven / Unsubsidized Graduate",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT4_6-24",
+        "row": 21,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Federal Credit Reform Act Estimates / Repayment Plansa / Income Driven / Unsubsidized Undergraduate",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT4_6-24",
+        "row": 21,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Federal Credit Reform Act Estimates / Repayment Plansa / Fixed Term / Parent PLUSb",
+      "marker": "b",
+      "variable_note": "CBO does not separately report IDR subsidy rates for Parent PLUS loans because few borrowers with those loans enroll in IDR plans. In general, borrowers with Parent PLUS loans are eligible only for the income-contingent repayment plan, which is the least generous IDR plan available to borrowers.",
+      "source_label": "Parent PLUSb",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT4_6-24",
+        "row": 28,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals, Fair-Value Estimates / Credit Reestimates and Modificationsa / Budget Authority",
+      "marker": "a",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2024. Those totals are based on the amounts that the Office of Management and Budget has announced it will record in fiscal year 2024 and 50 percent of the cost for outstanding loans in the Department of Education’s April 2024 notice of proposed rulemaking (see Table 2 for details).",
+      "source_label": "Credit Reestimates and Modificationsa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT6_6-24",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals, Fair-Value Estimates / Credit Reestimates and Modificationsa / Outlays",
+      "marker": "a",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2024. Those totals are based on the amounts that the Office of Management and Budget has announced it will record in fiscal year 2024 and 50 percent of the cost for outstanding loans in the Department of Education’s April 2024 notice of proposed rulemaking (see Table 2 for details).",
+      "source_label": "Credit Reestimates and Modificationsa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT6_6-24",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals, Fair-Value Estimates / Credit Reestimates and Modificationsa / Budget Authority",
+      "marker": "a",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2024. Those totals are based on the amounts that the Office of Management and Budget has announced it will record in fiscal year 2024 and 50 percent of the cost for outstanding loans in the Department of Education’s April 2024 notice of proposed rulemaking (see Table 2 for details).",
+      "source_label": "Credit Reestimates and Modificationsa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT6_6-24",
+        "row": 29,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals, Fair-Value Estimates / Credit Reestimates and Modificationsa / Outlays",
+      "marker": "a",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2024. Those totals are based on the amounts that the Office of Management and Budget has announced it will record in fiscal year 2024 and 50 percent of the cost for outstanding loans in the Department of Education’s April 2024 notice of proposed rulemaking (see Table 2 for details).",
+      "source_label": "Credit Reestimates and Modificationsa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT6_6-24",
+        "row": 29,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Fair-Value Estimates / Repayment Plansa / Fixed Term / GradPLUS",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT7_6-24",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Fair-Value Estimates / Repayment Plansa / Fixed Term / Parent PLUSb",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT7_6-24",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Fair-Value Estimates / Repayment Plansa / Fixed Term / Subsidized",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT7_6-24",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Fair-Value Estimates / Repayment Plansa / Fixed Term / Unsubsidized Graduate",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT7_6-24",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Fair-Value Estimates / Repayment Plansa / Fixed Term / Unsubsidized Undergraduate",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT7_6-24",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Fair-Value Estimates / Repayment Plansa / Income Driven / GradPLUS",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT7_6-24",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Fair-Value Estimates / Repayment Plansa / Income Driven / Subsidized",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT7_6-24",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Fair-Value Estimates / Repayment Plansa / Income Driven / Unsubsidized Graduate",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT7_6-24",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Fair-Value Estimates / Repayment Plansa / Income Driven / Unsubsidized Undergraduate",
+      "marker": "a",
+      "variable_note": "Shifting loan volume from one type of repayment plan to another would not necessarily result in the change in subsidy rates shown. Some borrowers, who have certain characteristics or certain amounts of debt, are more likely to enroll in IDR plans than in fixed-repayment plans. In addition, because the Department of Education plans to transfer delinquent loans in fixed-repayment plans to the new Saving on a Valuable Education IDR plan, the subsidy rates shown for fixed-repayment loans are based on an assumption of very low default rates.",
+      "source_label": "Repayment Plansa",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT7_6-24",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Subsidy Rates for Student Loans, Fair-Value Estimates / Repayment Plansa / Fixed Term / Parent PLUSb",
+      "marker": "b",
+      "variable_note": "CBO does not separately report IDR subsidy rates for Parent PLUS loans because few borrowers with those loans enroll in IDR plans. In general, borrowers with Parent PLUS loans are eligible only for the income-contingent repayment plan, which is the least generous IDR plan available to borrowers.",
+      "source_label": "Parent PLUSb",
+      "source": {
+        "file": "51310-2024-06-studentloan.xlsx",
+        "sheet": "studentloanT7_6-24",
+        "row": 27,
+        "column": 2
+      }
+    }
+  ]
+}

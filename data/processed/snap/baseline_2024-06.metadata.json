@@ -1,0 +1,92 @@
+{
+  "dataset": "snap",
+  "program_id": "51312",
+  "program": "SNAP",
+  "vintage": "2024-06",
+  "data_file": "baseline_2024-06.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "824a0aead10052d2815c19e8aacabe923fe0d218de4806c0ac6c6f74b66aef56",
+  "row_count": 241,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2024,
+    "end_year": 2034
+  },
+  "period_coverage": {
+    "start_year": 2024,
+    "end_year": 2034
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51312-2024-06-snap.xlsx"
+  ],
+  "source_sheets": [
+    "SNAP_06-2024"
+  ],
+  "units": [
+    "Dollars per participant",
+    "Millions of dollars",
+    "Millions of people",
+    "Percent"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Supplemental Nutrition Assistance Program / Total Benefitsa* / Budget Authority",
+      "marker": "a",
+      "variable_note": "Section 501 of division HH of the Consolidated Appropriations Act, 2023, requires states to replace benefits that were stolen during fiscal years 2023 and 2024. CBO’s cost estimate for that legislation included the cost to replace benefits in those years only. In its February 2024 baseline, CBO changed the treatment of that provision and included the cost of replacing those benefits in its spending projections for all years after 2024. That change was made to be consistent with section 257 of the Balanced Budget and Emergency Deficit Control Act of 1985, which requires CBO to assume that most large expiring programs will continue to operate as they would immediately before their scheduled expiration. In the June 2024 baseline, CBO estimates that the cost of benefit replacement will be about 0.1 percent of benefits issued in each year, on average, totaling about $1.5 billion over the 2024-2034 period.",
+      "source_label": "Total Benefitsa*",
+      "source": {
+        "file": "51312-2024-06-snap.xlsx",
+        "sheet": "SNAP_06-2024",
+        "row": 18,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Supplemental Nutrition Assistance Program / Thrifty Food Plan, Estimated Change / June/June Preceding Year, Lagged (Percent)b",
+      "marker": "b",
+      "variable_note": "CBO increased its projections of the cost of the Thrifty Food Plan (TFP) in 2027 and 2032, anticipating that reevaluations of the TFP, which occur every five years, would increase costs.",
+      "source_label": "June/June Preceding Year, Lagged (Percent)b",
+      "source": {
+        "file": "51312-2024-06-snap.xlsx",
+        "sheet": "SNAP_06-2024",
+        "row": 37,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Supplemental Nutrition Assistance Program / BUDGET AUTHORITY OTHER THAN BENEFITS AND NUTRITION ASSISTANCE FOR PUERTO RICO AND AMERICAN SAMOA / State Administrationc",
+      "marker": "c",
+      "variable_note": "Excludes employment and training. * On October 25, 2024, CBO reposted this table, adding footnote a.",
+      "source_label": "State Administrationc",
+      "source": {
+        "file": "51312-2024-06-snap.xlsx",
+        "sheet": "SNAP_06-2024",
+        "row": 44,
+        "column": 1
+      }
+    }
+  ]
+}

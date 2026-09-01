@@ -1,0 +1,13 @@
+name: cbo-baseline-detail-data
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.12
+  - requests>=2.31
+  - beautifulsoup4>=4.12
+  - openpyxl>=3.1
+  - pandas>=2.1
+  - lxml>=4.9
+  - pyyaml>=6.0.2

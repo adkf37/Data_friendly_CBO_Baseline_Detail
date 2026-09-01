@@ -1,0 +1,495 @@
+{
+  "dataset": "usda_farm_programs",
+  "program_id": "51317",
+  "program": "USDA Farm Programs",
+  "vintage": "2021-02",
+  "data_file": "baseline_2021-02.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "167d0553e873d0a9064adc5f326d8f06649339f51f41083247b1ec3d33512aae",
+  "row_count": 10954,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "table_title",
+    "section",
+    "subsection",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2019,
+    "end_year": 2031
+  },
+  "period_coverage": {
+    "start_year": 2019,
+    "end_year": 2031
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51317-2021-02-usda.xlsx"
+  ],
+  "source_sheets": [
+    "USDA_2-2021"
+  ],
+  "units": [
+    "Dollars per bushel",
+    "Dollars per hundredweight",
+    "Dollars per pound",
+    "Millions",
+    "Millions of dollars",
+    "Percent",
+    "Percentage of base acres",
+    "Thousands"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Summary) / Commodity Credit Corporation Price / Support and Related Programsa",
+      "marker": "a",
+      "variable_note": "This is the account for Commodity Credit Corporation price support programs in budget function 350 (agriculture). It includes those activities listed on the following page. It does not include conservation programs. CRP and several conservation programs were added to CCC in 1996 but remain under budget function 300 (natural resources and environment).",
+      "source_label": "Support and Related Programsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 110,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Summary) / Commodity Credit Corporation Price / CCC Conservation Programsb",
+      "marker": "b",
+      "variable_note": "These amounts reflect projected direct spending for conservation programs shown by OMB under the CCC account total.",
+      "source_label": "CCC Conservation Programsb",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 112,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Summary) / Commodity Credit Corporation Price / CCC Totalc",
+      "marker": "c",
+      "variable_note": "This total is consistent with categories included in USDA's CCC total for budget functions 350 and 300. The FY 2020 total does not reflect transfers of $20.5 billion from the Commodity Credit Corporation to the Office of the Secretary for the Coronavirus Food Assistance Program.",
+      "source_label": "CCC Totalc",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 114,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Summary) / Commodity Credit Corporation Price / NRCS Conservation Programsd",
+      "marker": "d",
+      "variable_note": "These amounts reflect projected direct spending for conservation programs shown by OMB under the NRCS account, reflecting program spending reauthorized by the 2018 farm bill.",
+      "source_label": "NRCS Conservation Programsd",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 116,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Summary) / Commodity Credit Corporation Price / Conservation Program Totale",
+      "marker": "e",
+      "variable_note": "This total is the sum of CCC plus NRCS direct spending.",
+      "source_label": "Conservation Program Totale",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 118,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / CCC Charter Act Authoritya",
+      "marker": "a",
+      "variable_note": "This denotes use by USDA of spending authority provided in the CCC Charter Act. Spending on export and other noncommodity programs is listed on page 5.",
+      "source_label": "CCC Charter Act Authoritya",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 153,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Transfers to the Office of the Secretaryb",
+      "marker": "b",
+      "variable_note": "Outlay recorded in the Office of the Secretary account.",
+      "source_label": "Transfers to the Office of the Secretaryb",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 156,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Disaster Payments (Crops and livestock)c",
+      "marker": "c",
+      "variable_note": "Disaster assistance--cash payments only",
+      "source_label": "Disaster Payments (Crops and livestock)c",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 165,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Exportd",
+      "marker": "d",
+      "variable_note": "Export outlays",
+      "source_label": "Exportd",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 166,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Other Noncommoditye",
+      "marker": "e",
+      "variable_note": "Other Noncommodity Outlays",
+      "source_label": "Other Noncommoditye",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 167,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Net Interestf",
+      "marker": "f",
+      "variable_note": "Interest Outlays",
+      "source_label": "Net Interestf",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 168,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Barley",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Commodity Payments Listed",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Corn",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Dry Peas",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Honey",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Large Chickpeas",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Lentils",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Mohair",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Oats",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Other Oilseeds",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Peanuts",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Rice",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Small Chickpeas",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Sorghum",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Soybeans",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Total Feed Grains",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Upland Cotton",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Wheat",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Wool",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 347,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CORN SUPPLY AND USE / Yield / Planted Yielda",
+      "marker": "a",
+      "variable_note": "Excludes acreage intended for harvest other than for grain.",
+      "source_label": "Planted Yielda",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 427,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "FEDERAL CROP INSURANCE CORPORATION / Crop Year Costs / Othera",
+      "marker": "a",
+      "variable_note": "Includes net adjustments from new provisions in the 2018 farm bill.",
+      "source_label": "Othera",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 1087,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Other Programsa / Budget Authority",
+      "marker": "a",
+      "variable_note": "Includes spending on the Emergency Forestry Conservation Reserve Program, programs repealed by the 2014 farm bill, Grassroots Source Water Protection, Feral Swine Eradication, Conservation User Fees, and transfer of amounts to the Farm Production and Conservation Business Center.",
+      "source_label": "Other Programsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 1181,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Other Programsa / Outlays",
+      "marker": "a",
+      "variable_note": "Includes spending on the Emergency Forestry Conservation Reserve Program, programs repealed by the 2014 farm bill, Grassroots Source Water Protection, Feral Swine Eradication, Conservation User Fees, and transfer of amounts to the Farm Production and Conservation Business Center.",
+      "source_label": "Other Programsa",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 1181,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Announced Sequestrationb / Budget Authority",
+      "marker": "b",
+      "variable_note": "2020 actual outlays for individual programs are net of sequestration.",
+      "source_label": "Announced Sequestrationb",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 1184,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Announced Sequestrationb / Outlays",
+      "marker": "b",
+      "variable_note": "2020 actual outlays for individual programs are net of sequestration.",
+      "source_label": "Announced Sequestrationb",
+      "source": {
+        "file": "51317-2021-02-usda.xlsx",
+        "sheet": "USDA_2-2021",
+        "row": 1184,
+        "column": 1
+      }
+    }
+  ]
+}

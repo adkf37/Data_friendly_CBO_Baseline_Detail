@@ -1,0 +1,55 @@
+{
+  "dataset": "veterans_benefits",
+  "program_id": "53725",
+  "program": "Veterans Benefits",
+  "vintage": "2019-05",
+  "data_file": "baseline_2019-05.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "3e30bbc4dd80ea46071ae304f964373e1ff3231a470c2e9844129bf9099306cb",
+  "row_count": 242,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2019,
+    "end_year": 2029
+  },
+  "period_coverage": {
+    "start_year": 2019,
+    "end_year": 2029
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "53725-2019-05-Veterans.xlsx"
+  ],
+  "source_sheets": [
+    "Table 1",
+    "Table 2"
+  ],
+  "units": [
+    "Dollars",
+    "Millions of dollars",
+    "Thousands"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": []
+}

@@ -1,4 +1,4 @@
-"""Tests for run_pipeline.py — pipeline runner entrypoint."""
+"""Tests for the scripts/run_pipeline.py pipeline entry point."""
 import sys
 import tempfile
 import unittest
@@ -28,7 +28,7 @@ class PipelineRunStepTests(unittest.TestCase):
         repo_root = str(Path(__file__).resolve().parent.parent)
         if repo_root not in sys.path:
             sys.path.insert(0, repo_root)
-        from run_pipeline import _run_step
+        from scripts.run_pipeline import _run_step
         return _run_step
 
     def test_run_step_returns_true_on_success(self):
@@ -58,7 +58,7 @@ class PipelineMainTests(unittest.TestCase):
         repo_root = str(Path(__file__).resolve().parent.parent)
         if repo_root not in sys.path:
             sys.path.insert(0, repo_root)
-        import run_pipeline as rp
+        import scripts.run_pipeline as rp
         return rp
 
     def test_main_single_step_calls_only_that_step(self):
@@ -67,7 +67,7 @@ class PipelineMainTests(unittest.TestCase):
         step_fns = {name: MagicMock(return_value=0, side_effect=lambda _n=name: called.append(_n) or 0)
                     for name in rp.STEP_NAMES}
 
-        with patch("run_pipeline._import_steps", return_value=step_fns), \
+        with patch("scripts.run_pipeline._import_steps", return_value=step_fns), \
              patch("sys.argv", ["run_pipeline.py", "--step", "schema"]):
             rc = rp.main()
 
@@ -86,7 +86,7 @@ class PipelineMainTests(unittest.TestCase):
 
         step_fns = {name: _step(name) for name in rp.STEP_NAMES}
 
-        with patch("run_pipeline._import_steps", return_value=step_fns), \
+        with patch("scripts.run_pipeline._import_steps", return_value=step_fns), \
              patch("sys.argv", ["run_pipeline.py"]):
             rc = rp.main()
 
@@ -100,7 +100,7 @@ class PipelineMainTests(unittest.TestCase):
         rp = self._import_main()
         step_fns = {name: MagicMock(return_value=0) for name in rp.STEP_NAMES}
 
-        with patch("run_pipeline._import_steps", return_value=step_fns), \
+        with patch("scripts.run_pipeline._import_steps", return_value=step_fns), \
              patch("sys.argv", ["run_pipeline.py"]):
             rc = rp.main()
 
@@ -120,7 +120,7 @@ class ReadmeContentsTests(unittest.TestCase):
 
     def test_readme_contains_canonical_command(self):
         content = self.readme_path.read_text(encoding="utf-8")
-        self.assertIn("python run_pipeline.py", content)
+        self.assertIn("python scripts/run_pipeline.py", content)
 
     def test_readme_contains_prerequisites(self):
         content = self.readme_path.read_text(encoding="utf-8")
@@ -128,7 +128,8 @@ class ReadmeContentsTests(unittest.TestCase):
 
     def test_readme_contains_install_steps(self):
         content = self.readme_path.read_text(encoding="utf-8")
-        self.assertIn("pip install", content)
+        self.assertIn("conda env create -f environment.yml", content)
+        self.assertIn("conda activate cbo-baseline-detail", content)
 
     def test_readme_contains_quick_start(self):
         content = self.readme_path.read_text(encoding="utf-8")
@@ -137,11 +138,11 @@ class ReadmeContentsTests(unittest.TestCase):
     def test_readme_contains_output_locations(self):
         content = self.readme_path.read_text(encoding="utf-8")
         self.assertIn("data/processed", content)
-        self.assertIn("docs/schemas", content)
+        self.assertIn("schemas", content)
 
     def test_readme_contains_schema_link(self):
         content = self.readme_path.read_text(encoding="utf-8")
-        self.assertIn("docs/schemas/README.md", content)
+        self.assertIn("schemas/README.md", content)
 
     def test_readme_contains_cbo_attribution(self):
         content = self.readme_path.read_text(encoding="utf-8")

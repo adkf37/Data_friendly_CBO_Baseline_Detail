@@ -1,0 +1,223 @@
+{
+  "dataset": "medicare",
+  "program_id": "51302",
+  "program": "Medicare",
+  "vintage": "2023-05",
+  "data_file": "baseline_2023-05.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "44009d8d32d87f59ff48ec763d8b51c2230a29883b79af40252cfb783f88459a",
+  "row_count": 528,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2022,
+    "end_year": 2033
+  },
+  "period_coverage": {
+    "start_year": 2022,
+    "end_year": 2033
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51302-2023-05-medicare.xlsx"
+  ],
+  "source_sheets": [
+    "Medicare_05-2023"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Millions of people",
+    "Percent"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Medicare Totals / Mandatory Outlaysa",
+      "marker": "a",
+      "variable_note": "Mandatory outlays include the effects of sequestration on spending for Medicare benefits under the Balanced Budget and Emergency Deficit Control Act of 1985, as amended.",
+      "source_label": "Mandatory Outlaysa",
+      "source": {
+        "file": "51302-2023-05-medicare.xlsx",
+        "sheet": "Medicare_05-2023",
+        "row": 15,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare Totals / Total Offsetting Receiptsb",
+      "marker": "b",
+      "variable_note": "Offsetting receipts include premiums, rebates paid to the federal government by drug manufacturers whose products have prices that exceed an inflation-adjusted benchmark price, payments from states to Medicare Part D on behalf of enrollees who are eligible both for Medicare and for Medicaid, and amounts paid to providers and later recovered.",
+      "source_label": "Total Offsetting Receiptsb",
+      "source": {
+        "file": "51302-2023-05-medicare.xlsx",
+        "sheet": "Medicare_05-2023",
+        "row": 18,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Benefits / Mandatory Administrationc",
+      "marker": "c",
+      "variable_note": "Mandatory outlays include those for quality improvement organizations, certain activities against fraud and abuse, and certain administrative activities funded in authorization acts.",
+      "source_label": "Mandatory Administrationc",
+      "source": {
+        "file": "51302-2023-05-medicare.xlsx",
+        "sheet": "Medicare_05-2023",
+        "row": 28,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Components of Benefits / Group Plans (Includes Medicare Advantage)d",
+      "marker": "d",
+      "variable_note": "On February 1, 2023, CMS announced changes for calendar year 2024 that would result in slower growth in payments to MA plans than projected in CBO’s February 2023 baseline. On March 31, 2023, CMS announced that some of those changes would phase in over three years, along with other changes. Because of when its baseline was finalized, CBO’s updated projections reflect the changes announced on February 1, 2023, but not those announced on March 31, 2023.",
+      "source_label": "Group Plans (Includes Medicare Advantage)d",
+      "source": {
+        "file": "51302-2023-05-medicare.xlsx",
+        "sheet": "Medicare_05-2023",
+        "row": 37,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Components of Benefits / Part De",
+      "marker": "e",
+      "variable_note": "Consists of payments to prescription drug plans and employer group waiver plans and for the retiree drug subsidy and the low-income subsidy.",
+      "source_label": "Part De",
+      "source": {
+        "file": "51302-2023-05-medicare.xlsx",
+        "sheet": "Medicare_05-2023",
+        "row": 38,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Components of Benefits / Other Servicesf",
+      "marker": "f",
+      "variable_note": "Includes ambulance services, ambulatory surgical centers, community mental health centers, durable medical equipment, federally qualified health centers, hospice services, hospital outpatient services that are not paid for using the outpatient PPS, independent and physician in-office laboratory services, outpatient dialysis, outpatient therapy services, certain Part B prescription drugs, rural health clinic services, and the payment of Part B premiums for qualifying individuals.",
+      "source_label": "Other Servicesf",
+      "source": {
+        "file": "51302-2023-05-medicare.xlsx",
+        "sheet": "Medicare_05-2023",
+        "row": 40,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Components of Offsetting Receipts / Part B Premiums and Inflation Rebate Collectionsg",
+      "marker": "g",
+      "variable_note": "Part B premium receipts include income-related premiums.",
+      "source_label": "Part B Premiums and Inflation Rebate Collectionsg",
+      "source": {
+        "file": "51302-2023-05-medicare.xlsx",
+        "sheet": "Medicare_05-2023",
+        "row": 45,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Components of Offsetting Receipts / Part D Premiums and Inflation Rebate Collectionsh",
+      "marker": "h",
+      "variable_note": "Part D premium receipts include income-related premiums but not premiums that enrollees pay directly to their plans or premiums covered by the low-income subsidy. Under current law, the Secretary of the Department of Health and Human Services has the authority to delay until December 31, 2025, the invoicing of rebate amounts for Part D drug inflation rebates. As a result, CBO projects larger collections of those rebates in 2025.",
+      "source_label": "Part D Premiums and Inflation Rebate Collectionsh",
+      "source": {
+        "file": "51302-2023-05-medicare.xlsx",
+        "sheet": "Medicare_05-2023",
+        "row": 46,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Components of Offsetting Receipts / Payments Recovered from Providersi,j",
+      "marker": "i",
+      "variable_note": "Recoveries are amounts that are paid to providers and later recovered; they are included in the total for mandatory Medicare spending. CBO counts the initial payment of such amounts as outlays for benefits and subsequent recoveries as offsetting receipts to conform to reporting in Monthly Treasury Statements. In the past, Medicare’s trustees have reported benefits net of recoveries; those reports have not treated the recoveries as offsetting receipts.",
+      "source_label": "Payments Recovered from Providersi,j",
+      "source": {
+        "file": "51302-2023-05-medicare.xlsx",
+        "sheet": "Medicare_05-2023",
+        "row": 48,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Components of Offsetting Receipts / Payments Recovered from Providersi,j",
+      "marker": "j",
+      "variable_note": "The Accelerated and Advance Payment Program paid providers in advance of future claims. Those payments increased outlays in 2020. Recoupment of those payments is reflected as a recovery in 2021, 2022, and 2023.",
+      "source_label": "Payments Recovered from Providersi,j",
+      "source": {
+        "file": "51302-2023-05-medicare.xlsx",
+        "sheet": "Medicare_05-2023",
+        "row": 48,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total / Memorandum: / Capitation Payments (Number per year)k",
+      "marker": "k",
+      "variable_note": "Capitation payments to group health plans and prescription drug plans for the month of October are shifted into the preceding fiscal year when October 1 falls on a weekend.",
+      "source_label": "Capitation Payments (Number per year)k",
+      "source": {
+        "file": "51302-2023-05-medicare.xlsx",
+        "sheet": "Medicare_05-2023",
+        "row": 57,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total / Payment Updates and Changes in Price Indexes (Percent) / 10-Year Moving Average of Multifactor Productivityl",
+      "marker": "l",
+      "variable_note": "The inflation-based updates to payment rates for certain services and providers are adjusted by the 10-year moving average of multifactor productivity, including inpatient acute hospitals, skilled nursing facilities, long-term care hospitals, inpatient rehabilitation hospitals, home health agencies, psychiatric hospitals, hospice care, dialysis, outpatient hospitals, ambulance services, ambulatory surgical center services, and certain durable medical equipment. The adjustment for multifactor productivity is included in the PPS update factor shown above, as well as other legislated changes to the payment update.",
+      "source_label": "10-Year Moving Average of Multifactor Productivityl",
+      "source": {
+        "file": "51302-2023-05-medicare.xlsx",
+        "sheet": "Medicare_05-2023",
+        "row": 62,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total / Average Monthly Enrollment in a Fiscal Year (Millions of people) / Part Dm",
+      "marker": "m",
+      "variable_note": "Includes people enrolled in stand-alone prescription drug plans, MA plans with prescription drug coverage, employer group waiver plans, and the retiree drug subsidy.",
+      "source_label": "Part Dm",
+      "source": {
+        "file": "51302-2023-05-medicare.xlsx",
+        "sheet": "Medicare_05-2023",
+        "row": 67,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total / Memorandum: / Group Plan Enrollmentn",
+      "marker": "n",
+      "variable_note": "Includes MA plans, cost contracts, and demonstration contracts covering Medicare Parts A and B. Does not include Health Care Prepayment Plans, which cover Part B services only.",
+      "source_label": "Group Plan Enrollmentn",
+      "source": {
+        "file": "51302-2023-05-medicare.xlsx",
+        "sheet": "Medicare_05-2023",
+        "row": 71,
+        "column": 1
+      }
+    }
+  ]
+}

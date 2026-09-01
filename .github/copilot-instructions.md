@@ -51,7 +51,7 @@ Legacy aliases still appear in older repos:
 - `backlog/phases.md` - lifecycle breakdown aligned to Maestro phases
 - `backlog/tasks/` - one file per discrete task
 - `STATUS.md` - current objective updated to reflect the plan
-- `requirements.txt` - created or updated if additional Python packages are needed
+- `environment.yml` - updated if additional Python packages are needed
 
 ### Squad Init
 
@@ -90,5 +90,5 @@ Legacy aliases still appear in older repos:
 ## Data Constraints
 
 - Prefer using data already in the repo (`data/`, `cache/`, CSV files) when possible.
-- If external data is needed, document the source URL in the backlog and any dependency changes in `requirements.txt`.
+- If external data is needed, document the source URL in the backlog and any dependency changes in `environment.yml`.
 - Never hardcode API keys - use environment variables.

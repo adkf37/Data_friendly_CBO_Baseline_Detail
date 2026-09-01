@@ -1,0 +1,77 @@
+{
+  "dataset": "child_support_enforcement",
+  "program_id": "51295",
+  "program": "Child Support Enforcement",
+  "vintage": "2024-02",
+  "data_file": "baseline_2024-02.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "b146cb4f003ef2c3757b30987a3ab3d81ff6b94978b1e29a06309b672d5350eb",
+  "row_count": 55,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2024,
+    "end_year": 2034
+  },
+  "period_coverage": {
+    "start_year": 2024,
+    "end_year": 2034
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51295-2024-02-csec.xlsx"
+  ],
+  "source_sheets": [
+    "CSEC_02-2024"
+  ],
+  "units": [
+    "Millions of dollars"
+  ],
+  "contains_totals": false,
+  "aggregation_note": null,
+  "annotations": [
+    {
+      "category_path": "Child Support Enforcement and Child Support Collections / Child Support Enforcement Program / Sequestrationa",
+      "marker": "a",
+      "variable_note": "The Infrastructure Investment and Jobs Act extended sequestration for mandatory spending through fiscal year 2031.",
+      "source_label": "Sequestrationa",
+      "source": {
+        "file": "51295-2024-02-csec.xlsx",
+        "sheet": "CSEC_02-2024",
+        "row": 18,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Child Support Enforcement and Child Support Collections / Child Support Collectionsb / TANF Collections Retained by the Federal Government",
+      "marker": "b",
+      "variable_note": "Collections are recordered as negative outlays.",
+      "source_label": "Child Support Collectionsb",
+      "source": {
+        "file": "51295-2024-02-csec.xlsx",
+        "sheet": "CSEC_02-2024",
+        "row": 20,
+        "column": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+workbooks:
+- workbook: 51296-2019-05-CHIP.xlsx
+  sheets:
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: chip_2019_05
+    verification_target: cbo-chip-2019-05
+    header_rows: 1-7
+    first_data_row: 8
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Federal Funding (Billions of dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51296-2020-03-chip.xlsx
+  sheets:
+  - sheet: CHIP
+    classification: data
+    include: true
+    output_dataset: chip_2020_03
+    verification_target: cbo-chip-2020-03
+    header_rows: 1-7
+    first_data_row: 8
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Federal Funding (Billions of dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51296-2021-07-chip.xlsx
+  sheets:
+  - sheet: CHIP_07-2021
+    classification: data
+    include: true
+    output_dataset: chip_2021_07
+    verification_target: cbo-chip-2021-07
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51296-2022-05-chip.xlsx
+  sheets:
+  - sheet: CHIP_05-2022
+    classification: data
+    include: true
+    output_dataset: chip_2022_05
+    verification_target: cbo-chip-2022-05
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: By Fiscal Year, Billions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51296-2023-05-chip.xlsx
+  sheets:
+  - sheet: CHIP_05-2023
+    classification: data
+    include: true
+    output_dataset: chip_2023_05
+    verification_target: cbo-chip-2023-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: By Fiscal Year, Billions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51296-2024-06-chip.xlsx
+  sheets:
+  - sheet: CHIP_06-2024
+    classification: data
+    include: true
+    output_dataset: chip_2024_06
+    verification_target: cbo-chip-2024-06
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51296-2026-02-chip.xlsx
+  sheets:
+  - sheet: CHIP_02-2026
+    classification: data
+    include: true
+    output_dataset: chip_2026_02
+    verification_target: cbo-chip-2026-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split

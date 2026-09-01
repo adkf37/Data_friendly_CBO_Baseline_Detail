@@ -1,234 +1,227 @@
-from __future__ import annotations
+"""Build stable row schemas, dataset descriptors, release metadata, and catalog.
 
-"""Generate schema documentation for processed CBO baseline datasets.
-
-Usage
------
-python src/generate_schemas.py [--processed-dir data/processed] [--schemas-dir docs/schemas]
-
-For each CSV in ``processed_dir`` this script writes a Markdown schema file to
-``schemas_dir/<csv_basename>.md`` and updates the master index at
-``schemas_dir/README.md``.
+The structural schema is intentionally separate from release-specific facts.
+Each logical dataset has one ``schema.json``; every CSV vintage has a
+``.metadata.json`` sidecar containing provenance, coverage, and superscript
+annotations extracted from the corresponding source workbook.
 """
+
+from __future__ import annotations
 
 import argparse
 import csv
-import re
+import hashlib
+import json
+import os
 import sys
+from collections import defaultdict
+from dataclasses import dataclass
 from pathlib import Path
-from typing import NamedTuple
 
 if sys.path:
     script_dir = Path(__file__).resolve().parent
     if Path(sys.path[0]).resolve() == script_dir:
         sys.path[0] = str(script_dir.parent)
 
-from src.source_annotations import (
+from etl.annotations import (
     AnnotationCatalog,
     ObservationContext,
     VariableNote,
     load_annotation_catalog,
     match_variable_notes,
 )
+from etl.config import (
+    CATALOG_PATH,
+    PROCESSED_DIR,
+    RAW_DIR,
+    SCHEMAS_DIR,
+    DatasetConfig,
+    dataset_for_program_id,
+    vintage_from_name,
+)
 
-# ---------------------------------------------------------------------------
-# Column metadata tables. USDA datasets add hierarchy columns while all other
-# datasets retain the core transform schema.
-# ---------------------------------------------------------------------------
 
-CORE_COLUMN_META: list[dict] = [
+SCHEMA_VERSION = "1.0.0"
+JSON_SCHEMA_DRAFT = "https://json-schema.org/draft/2020-12/schema"
+
+CORE_COLUMN_META: list[dict[str, object]] = [
     {
         "name": "program",
-        "type": "string",
+        "type": ["string"],
         "description": "Canonical CBO program name keyed by the stable source identifier.",
-        "unit": "N/A",
-        "notes": "Stable across workbook vintages; use ``program_id`` as the machine key.",
+        "minLength": 1,
     },
     {
         "name": "category",
-        "type": "string",
+        "type": ["string"],
         "description": "Leaf line-item label from the source worksheet.",
-        "unit": "N/A",
-        "notes": (
-            "Rows where ``is_total`` is ``true`` represent aggregated totals or subtotals "
-            "and should be excluded from sum-based aggregations to avoid double-counting."
-        ),
+        "minLength": 1,
     },
     {
         "name": "fiscal_year",
-        "type": "integer or null",
-        "description": "Annual federal fiscal year; blank for every other period type.",
-        "unit": "Year",
-        "notes": (
-            "Historical actuals are retained. Consult ``period_type`` and the explicit "
-            "period bounds before interpreting a row as annual fiscal-year data."
-        ),
+        "type": ["integer", "null"],
+        "description": "Federal fiscal year; null for every other period type.",
+        "minimum": 1900,
+        "maximum": 2100,
     },
     {
         "name": "value",
-        "type": "float",
+        "type": ["number"],
         "description": "Parsed numeric value from the source cell.",
-        "unit": "See ``unit`` column",
-        "notes": (
-            "Negative values indicate outflows or reductions. Values originally enclosed "
-            "in parentheses (e.g. ``(123)``) are converted to negative floats."
-        ),
     },
     {
         "name": "unit",
-        "type": "string",
-        "description": "Unit of measure for ``value``, resolved from row/section labels and parse metadata.",
-        "unit": "N/A",
-        "notes": "Common values include 'Millions of dollars', 'Billions of dollars', and 'Thousands'.",
+        "type": ["string"],
+        "description": "Unit of measure for value, resolved from source labels and parse metadata.",
+        "minLength": 1,
     },
     {
         "name": "source_file",
-        "type": "string",
-        "description": "Original CBO workbook filename from ``data/raw/``.",
-        "unit": "N/A",
-        "notes": "Use this column to trace any row back to its exact source workbook.",
+        "type": ["string"],
+        "description": "Original CBO workbook filename in data/raw.",
+        "pattern": r"\.xlsx$",
     },
     {
         "name": "source_sheet",
-        "type": "string",
+        "type": ["string"],
         "description": "Worksheet name within the source workbook.",
-        "unit": "N/A",
-        "notes": "Combine with source file, row, and column for exact cell provenance.",
+        "minLength": 1,
     },
     {
         "name": "is_total",
-        "type": "boolean",
-        "description": (
-            "``true`` if the category label contains the word 'total' or 'subtotal', "
-            "indicating an aggregated row."
-        ),
-        "unit": "N/A",
-        "notes": (
-            "**Always filter ``is_total = true`` rows out before computing sums or averages** "
-            "across categories to avoid double-counting. Retain them for headline/summary views."
-        ),
+        "type": ["boolean"],
+        "description": "Whether the source category is an aggregate total or subtotal.",
     },
     {
         "name": "program_id",
-        "type": "string",
-        "description": "Stable numeric CBO identifier from the source filename.",
-        "unit": "N/A",
-        "notes": "Preferred program join key across vintages.",
+        "type": ["string"],
+        "description": "Stable numeric CBO identifier parsed from the source filename.",
+        "pattern": r"^\d{5}$",
     },
     {
         "name": "category_path",
-        "type": "string",
-        "description": "Hierarchy-aware path from table/section headings to the leaf category.",
-        "unit": "N/A",
-        "notes": "Use this field instead of ``category`` when labels repeat in different subprograms.",
+        "type": ["string"],
+        "description": "Full hierarchy-aware breadcrumb ending in category.",
+        "minLength": 1,
     },
     {
         "name": "period_type",
-        "type": "string",
+        "type": ["string"],
         "description": "Period semantics for the observation.",
-        "unit": "N/A",
-        "notes": "Values include fiscal_year, calendar_year, award_year, school_year, cumulative_fiscal_years, and unmapped.",
+        "enum": [
+            "fiscal_year",
+            "calendar_year",
+            "award_year",
+            "school_year",
+            "cumulative_fiscal_years",
+            "unmapped",
+        ],
     },
     {
         "name": "period_start_year",
-        "type": "integer or null",
+        "type": ["integer", "null"],
         "description": "First year represented by the source period.",
-        "unit": "Year",
-        "notes": "Equals period_end_year for annual rows and is blank when the source period is not identified.",
+        "minimum": 1900,
+        "maximum": 2100,
     },
     {
         "name": "period_end_year",
-        "type": "integer or null",
+        "type": ["integer", "null"],
         "description": "Last year represented by the source period.",
-        "unit": "Year",
-        "notes": "For annual fiscal-year rows this equals ``fiscal_year``.",
+        "minimum": 1900,
+        "maximum": 2100,
     },
     {
         "name": "period_label",
-        "type": "string",
-        "description": "Normalized source period label such as 2025 or 2025-2029.",
-        "unit": "N/A",
-        "notes": "Rows with unrecognized periods are labeled explicitly rather than assigned a guessed year.",
+        "type": ["string"],
+        "description": "Normalized source period label, such as 2026 or 2026-2030.",
     },
     {
         "name": "source_row",
-        "type": "integer",
+        "type": ["integer"],
         "description": "One-based worksheet row containing the numeric source value.",
-        "unit": "N/A",
-        "notes": "Together with ``source_column`` identifies the exact source cell.",
+        "minimum": 1,
     },
     {
         "name": "source_column",
-        "type": "integer",
+        "type": ["integer"],
         "description": "One-based worksheet column containing the numeric source value.",
-        "unit": "N/A",
-        "notes": "Together with ``source_row`` identifies the exact source cell.",
+        "minimum": 1,
     },
 ]
 
-USDA_COLUMN_META: list[dict] = [
+USDA_COLUMN_META: list[dict[str, object]] = [
     {
         "name": "table_title",
-        "type": "string",
+        "type": ["string"],
         "description": "Top-level USDA source table heading containing the observation.",
-        "unit": "N/A",
-        "notes": "USDA-only. This is the first component of ``category_path``.",
     },
     {
         "name": "section",
-        "type": "string or null",
-        "description": "First intermediate USDA heading between the table title and leaf category.",
-        "unit": "N/A",
-        "notes": "USDA-only. Blank when the source hierarchy has no intermediate heading.",
+        "type": ["string"],
+        "description": "First intermediate USDA heading; empty when none exists.",
     },
     {
         "name": "subsection",
-        "type": "string or null",
-        "description": "Second and any deeper intermediate USDA headings before the leaf category.",
-        "unit": "N/A",
-        "notes": (
-            "USDA-only. Additional intermediate levels are retained here using "
-            "the same `` / `` delimiter as ``category_path``."
-        ),
+        "type": ["string"],
+        "description": "Remaining intermediate USDA headings joined with ' / '.",
     },
 ]
 
-COLUMN_META = CORE_COLUMN_META + USDA_COLUMN_META
 
-
-# ---------------------------------------------------------------------------
-# Dataset-level metadata helpers
-# ---------------------------------------------------------------------------
-
-
-class DatasetInfo(NamedTuple):
-    basename: str
+@dataclass(frozen=True)
+class ReleaseInfo:
+    csv_path: Path
+    dataset: DatasetConfig
+    vintage: str
     row_count: int
-    fiscal_years: list[int]
-    programs: list[str]
-    source_files: list[str]
-    source_sheets: list[str]
-    units: list[str]
-    sample_rows: list[dict]
+    columns: tuple[str, ...]
+    fiscal_years: tuple[int, ...]
+    period_start_years: tuple[int, ...]
+    period_end_years: tuple[int, ...]
+    period_types: tuple[str, ...]
+    source_files: tuple[str, ...]
+    source_sheets: tuple[str, ...]
+    units: tuple[str, ...]
     has_totals: bool
     annotation_contexts: tuple[ObservationContext, ...]
 
 
-def _read_dataset(csv_path: Path, sample_size: int = 3) -> DatasetInfo:
-    rows: list[dict] = []
-    with csv_path.open(encoding="utf-8", newline="") as fh:
-        reader = csv.DictReader(fh)
-        for row in reader:
-            rows.append(row)
+def _json_write(path: Path, payload: object) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
-    fiscal_years = sorted({int(r["fiscal_year"]) for r in rows if r.get("fiscal_year")})
-    programs = sorted({r["program"] for r in rows if r.get("program")})
-    source_files = sorted({r["source_file"] for r in rows if r.get("source_file")})
-    source_sheets = sorted({r["source_sheet"] for r in rows if r.get("source_sheet")})
-    units = sorted({r["unit"] for r in rows if r.get("unit")})
-    has_totals = any(r.get("is_total", "false").lower() == "true" for r in rows)
-    sample_rows = rows[:sample_size]
-    annotation_contexts: set[ObservationContext] = set()
+
+def _typed_values(rows: list[dict[str, str]], column: str) -> tuple[int, ...]:
+    values: set[int] = set()
+    for row in rows:
+        value = (row.get(column) or "").strip()
+        if value:
+            try:
+                values.add(int(value))
+            except ValueError:
+                continue
+    return tuple(sorted(values))
+
+
+def _read_release(csv_path: Path) -> ReleaseInfo:
+    with csv_path.open(encoding="utf-8", newline="") as handle:
+        reader = csv.DictReader(handle)
+        rows = list(reader)
+        columns = tuple(reader.fieldnames or ())
+    if not rows:
+        raise ValueError(f"Processed CSV contains no rows: {csv_path}")
+
+    program_ids = {row.get("program_id", "").strip() for row in rows}
+    program_ids.discard("")
+    if len(program_ids) != 1:
+        raise ValueError(f"Expected exactly one program_id in {csv_path}; found {sorted(program_ids)}")
+    program_id = next(iter(program_ids))
+    dataset = dataset_for_program_id(program_id)
+    if dataset is None:
+        raise ValueError(f"program_id {program_id!r} in {csv_path} is not registered")
+
+    contexts: set[ObservationContext] = set()
     for row in rows:
         try:
             source_row = int(row.get("source_row", ""))
@@ -239,7 +232,7 @@ def _read_dataset(csv_path: Path, sample_size: int = 3) -> DatasetInfo:
         source_sheet = (row.get("source_sheet") or "").strip()
         category_path = (row.get("category_path") or "").strip()
         if source_file and source_sheet and source_row > 0 and source_column > 0 and category_path:
-            annotation_contexts.add(
+            contexts.add(
                 ObservationContext(
                     source_file=source_file,
                     source_sheet=source_sheet,
@@ -249,19 +242,30 @@ def _read_dataset(csv_path: Path, sample_size: int = 3) -> DatasetInfo:
                 )
             )
 
-    return DatasetInfo(
-        basename=csv_path.stem,
+    vintage = vintage_from_name(csv_path.name)
+    if not vintage:
+        source_names = {row.get("source_file", "") for row in rows}
+        vintage = next((vintage_from_name(name) for name in source_names if vintage_from_name(name)), "")
+    if not vintage:
+        raise ValueError(f"Could not determine release vintage for {csv_path}")
+
+    return ReleaseInfo(
+        csv_path=csv_path,
+        dataset=dataset,
+        vintage=vintage,
         row_count=len(rows),
-        fiscal_years=fiscal_years,
-        programs=programs,
-        source_files=source_files,
-        source_sheets=source_sheets,
-        units=units,
-        sample_rows=sample_rows,
-        has_totals=has_totals,
+        columns=columns,
+        fiscal_years=_typed_values(rows, "fiscal_year"),
+        period_start_years=_typed_values(rows, "period_start_year"),
+        period_end_years=_typed_values(rows, "period_end_year"),
+        period_types=tuple(sorted({row["period_type"] for row in rows if row.get("period_type")})),
+        source_files=tuple(sorted({row["source_file"] for row in rows if row.get("source_file")})),
+        source_sheets=tuple(sorted({row["source_sheet"] for row in rows if row.get("source_sheet")})),
+        units=tuple(sorted({row["unit"] for row in rows if row.get("unit")})),
+        has_totals=any(row.get("is_total", "").lower() == "true" for row in rows),
         annotation_contexts=tuple(
             sorted(
-                annotation_contexts,
+                contexts,
                 key=lambda item: (
                     item.source_file,
                     item.source_sheet,
@@ -274,318 +278,313 @@ def _read_dataset(csv_path: Path, sample_size: int = 3) -> DatasetInfo:
     )
 
 
-def _dataset_title(basename: str) -> str:
-    """Convert a dataset basename like 'snap_2024_06' to a human title."""
-    return " ".join(part.upper() if len(part) <= 4 else part.title() for part in basename.split("_"))
+def _field_definition(meta: dict[str, object]) -> dict[str, object]:
+    field = {key: value for key, value in meta.items() if key != "name"}
+    field_type = field.pop("type")
+    if not isinstance(field_type, list):
+        raise TypeError("Field metadata type must be a list")
+    field["type"] = field_type[0] if len(field_type) == 1 else field_type
+    return field
 
 
-def _vintage_from_basename(basename: str) -> str:
-    """Extract a vintage string like '2024-06' from a basename like 'snap_2024_06'."""
-    match = re.search(r"(\d{4})_(\d{2})$", basename)
-    if match:
-        return f"{match.group(1)}-{match.group(2)}"
-    return ""
+def _common_fields_schema() -> dict[str, object]:
+    return {
+        "$schema": JSON_SCHEMA_DRAFT,
+        "title": "CBO Baseline Detail Common Field Definitions",
+        "description": "Reusable definitions for processed CBO baseline-detail row fields.",
+        "$defs": {
+            str(meta["name"]): _field_definition(meta)
+            for meta in CORE_COLUMN_META + USDA_COLUMN_META
+        },
+    }
 
 
-# ---------------------------------------------------------------------------
-# Markdown rendering
-# ---------------------------------------------------------------------------
-
-_TABLE_HEADER = "| Column | Type | Description | Unit | Example | Notes |\n|---|---|---|---|---|---|\n"
-
-
-def _render_column_table(sample_rows: list[dict]) -> str:
-    lines = [_TABLE_HEADER]
-    for meta in COLUMN_META:
-        col = meta["name"]
-        if sample_rows and col not in sample_rows[0]:
-            continue
-        example = sample_rows[0].get(col, "") if sample_rows else ""
-        # Truncate long example values for readability
-        if isinstance(example, str) and len(example) > 40:
-            example = example[:37] + "..."
-        lines.append(
-            f"| `{col}` | {meta['type']} | {meta['description']} | {meta['unit']} | `{example}` | {meta['notes']} |\n"
-        )
-    return "".join(lines)
-
-
-def _markdown_cell(value: object) -> str:
-    return " ".join(str(value).split()).replace("|", "\\|")
+def _row_schema(*, usda: bool) -> dict[str, object]:
+    metadata = CORE_COLUMN_META + (USDA_COLUMN_META if usda else [])
+    family = "usda_baseline_detail" if usda else "baseline_detail"
+    return {
+        "$schema": JSON_SCHEMA_DRAFT,
+        "title": "USDA Baseline Detail Row" if usda else "CBO Baseline Detail Row",
+        "description": (
+            "One processed observation with explicit USDA hierarchy and cell-level provenance."
+            if usda
+            else "One processed observation with period semantics and cell-level provenance."
+        ),
+        "type": "object",
+        "properties": {
+            str(meta["name"]): {"$ref": f"common_fields.schema.json#/$defs/{meta['name']}"}
+            for meta in metadata
+        },
+        "required": [str(meta["name"]) for meta in metadata],
+        "additionalProperties": False,
+        "x-schema-version": SCHEMA_VERSION,
+    }
 
 
-def _render_variable_notes(variable_notes: list[VariableNote]) -> str:
-    introduction = (
-        "Superscript letter markers are read from the source workbook's actual Excel "
-        "rich-text formatting. Each extracted note is attached to every affected "
-        "`category_path`; a note on a parent heading therefore applies to its child rows. "
-        "A source-only entry is retained when the annotated source label has no emitted "
-        "row in the processed dataset.\n\n"
-    )
-    if not variable_notes:
-        return introduction + "No superscript variable notes are attached to this dataset.\n"
-
-    lines = [
-        introduction,
-        "| Affected category path | Marker | `variable_note` | Source label | Source cell |\n",
-        "|---|---|---|---|---|\n",
-    ]
-    for note in variable_notes:
-        note_text = note.variable_note or "Note text was not found in the source worksheet."
-        category_path = note.category_path or "*Source label is not represented in processed rows.*"
-        source = (
-            f"`{_markdown_cell(note.source_file)}` / "
-            f"`{_markdown_cell(note.source_sheet)}` / "
-            f"R{note.label_row}C{note.label_column}"
-        )
-        lines.append(
-            f"| {_markdown_cell(category_path)} | `{note.marker}` | "
-            f"{_markdown_cell(note_text)} | {_markdown_cell(note.source_label)} | {source} |\n"
-        )
-    return "".join(lines)
+def _relative_path(target: Path, start: Path) -> str:
+    return Path(os.path.relpath(target, start)).as_posix()
 
 
-def _render_schema_doc(info: DatasetInfo, variable_notes: list[VariableNote] | None = None) -> str:
-    variable_notes = variable_notes or []
-    title = _dataset_title(info.basename)
-    vintage = _vintage_from_basename(info.basename)
-    program_list = ", ".join(info.programs) if info.programs else "N/A"
-    source_files_list = ", ".join(f"`{f}`" for f in info.source_files) if info.source_files else "N/A"
-    source_sheets_list = ", ".join(f"`{s}`" for s in info.source_sheets) if info.source_sheets else "N/A"
-    units_list = ", ".join(info.units) if info.units else "N/A"
-    year_range = (
-        f"{info.fiscal_years[0]}–{info.fiscal_years[-1]}"
-        if len(info.fiscal_years) > 1
-        else (str(info.fiscal_years[0]) if info.fiscal_years else "N/A")
-    )
-
-    totals_note = (
-        "\n> **Aggregation caveat:** This dataset contains rows where `is_total = true`. "
-        "These rows represent summary totals or subtotals drawn directly from the source "
-        "worksheet. **Exclude `is_total = true` rows before summing across categories** "
-        "to avoid double-counting.\n"
-        if info.has_totals
-        else ""
-    )
-
-    return (
-        f"# Schema: {title}\n\n"
-        f"- **Dataset:** `{info.basename}`\n"
-        f"- **Vintage:** {vintage or 'see source_file'}\n"
-        f"- **Rows:** {info.row_count:,}\n"
-        f"- **Fiscal years covered:** {year_range}\n"
-        f"\n"
-        f"## Purpose\n\n"
-        f"Tidy long-form CBO baseline data for the **{program_list}** program(s), "
-        f"extracted from CBO budget baseline workbooks published by the Congressional "
-        f"Budget Office. Each row represents one numeric source cell with explicit "
-        f"program, category hierarchy, period semantics, and cell-level provenance.\n"
-        f"{totals_note}\n"
-        f"## Provenance\n\n"
-        f"| Field | Value |\n"
-        f"|---|---|\n"
-        f"| Source file(s) | {source_files_list} |\n"
-        f"| Source sheet(s) | {source_sheets_list} |\n"
-        f"| Unit(s) | {units_list} |\n"
-        f"\n"
-        f"## Columns\n\n"
-        f"{_render_column_table(info.sample_rows)}\n"
-        f"## Variable Notes\n\n"
-        f"{_render_variable_notes(variable_notes)}\n"
-        f"## is_total Interpretation\n\n"
-        f"The `is_total` column flags rows whose `category` label contains the word "
-        f"'total' or 'subtotal'. These rows summarise multiple line items and must be "
-        f"treated carefully in downstream analysis:\n\n"
-        f"- **Summary views:** Include `is_total = true` rows to display headline figures.\n"
-        f"- **Detailed aggregations:** Exclude `is_total = true` rows to prevent "
-        f"double-counting when summing across categories.\n"
-        f"- **Time-series analysis:** Either filter is consistent as long as it is applied "
-        f"uniformly across all fiscal years being compared.\n"
-    )
-
-
-def _render_readme(
-    infos: list[DatasetInfo],
+def _dataset_schema(
+    dataset: DatasetConfig,
+    dataset_dir: Path,
     schemas_dir: Path,
-    variable_notes_by_dataset: dict[str, list[VariableNote]] | None = None,
+) -> dict[str, object]:
+    family_schema = schemas_dir / f"{dataset.schema_family}.schema.json"
+    return {
+        "$schema": JSON_SCHEMA_DRAFT,
+        "title": f"{dataset.title} Baseline Detail",
+        "description": (
+            f"Stable row contract for all {dataset.title} baseline-detail vintages. "
+            "Release-specific provenance and source notes are stored in .metadata.json sidecars."
+        ),
+        "allOf": [
+            {"$ref": _relative_path(family_schema, dataset_dir)},
+            {
+                "type": "object",
+                "properties": {
+                    "program": {"const": dataset.title},
+                    "program_id": {"const": dataset.program_id},
+                },
+            },
+        ],
+        "x-cbo": {
+            "dataset": dataset.key,
+            "program_id": dataset.program_id,
+            "source_url": dataset.source_url,
+            "schema_family": dataset.schema_family,
+            "schema_version": SCHEMA_VERSION,
+        },
+    }
+
+
+def _annotation_payload(note: VariableNote) -> dict[str, object]:
+    return {
+        "category_path": note.category_path or None,
+        "marker": note.marker,
+        "variable_note": note.variable_note or None,
+        "source_label": note.source_label,
+        "source": {
+            "file": note.source_file,
+            "sheet": note.source_sheet,
+            "row": note.label_row,
+            "column": note.label_column,
+        },
+    }
+
+
+def _coverage(values: tuple[int, ...]) -> dict[str, int] | None:
+    return {"start_year": values[0], "end_year": values[-1]} if values else None
+
+
+def _release_metadata(info: ReleaseInfo, notes: list[VariableNote]) -> dict[str, object]:
+    return {
+        "dataset": info.dataset.key,
+        "program_id": info.dataset.program_id,
+        "program": info.dataset.title,
+        "vintage": info.vintage,
+        "data_file": info.csv_path.name,
+        "schema": "schema.json",
+        "schema_version": SCHEMA_VERSION,
+        "sha256": hashlib.sha256(info.csv_path.read_bytes()).hexdigest(),
+        "row_count": info.row_count,
+        "columns": list(info.columns),
+        "fiscal_year_coverage": _coverage(info.fiscal_years),
+        "period_coverage": _coverage(tuple(sorted(set(info.period_start_years + info.period_end_years)))),
+        "period_types": list(info.period_types),
+        "source_files": list(info.source_files),
+        "source_sheets": list(info.source_sheets),
+        "units": list(info.units),
+        "contains_totals": info.has_totals,
+        "aggregation_note": (
+            "Exclude rows where is_total is true before summing across categories to avoid double-counting."
+            if info.has_totals
+            else None
+        ),
+        "annotations": [_annotation_payload(note) for note in notes],
+    }
+
+
+def build_catalog(
+    processed_dir: Path = PROCESSED_DIR,
+    catalog_path: Path = CATALOG_PATH,
+) -> int:
+    """Build a deterministic machine-readable catalog from dataset directories."""
+
+    datasets: list[dict[str, object]] = []
+    for schema_path in sorted(processed_dir.glob("*/schema.json")):
+        schema = json.loads(schema_path.read_text(encoding="utf-8"))
+        cbo = schema.get("x-cbo", {})
+        releases: list[dict[str, object]] = []
+        for metadata_path in sorted(schema_path.parent.glob("baseline_*.metadata.json")):
+            metadata = json.loads(metadata_path.read_text(encoding="utf-8"))
+            releases.append(
+                {
+                    "vintage": metadata["vintage"],
+                    "data": _relative_path(schema_path.parent / metadata["data_file"], catalog_path.parent),
+                    "metadata": _relative_path(metadata_path, catalog_path.parent),
+                    "row_count": metadata["row_count"],
+                    "period_coverage": metadata["period_coverage"],
+                }
+            )
+        if not releases:
+            continue
+        datasets.append(
+            {
+                "dataset": cbo.get("dataset"),
+                "program_id": cbo.get("program_id"),
+                "title": schema.get("title"),
+                "source_url": cbo.get("source_url"),
+                "schema_family": cbo.get("schema_family"),
+                "schema": _relative_path(schema_path, catalog_path.parent),
+                "releases": sorted(releases, key=lambda item: str(item["vintage"]), reverse=True),
+            }
+        )
+    if not datasets:
+        print(f"No dataset schemas found under {processed_dir}")
+        return 1
+    _json_write(
+        catalog_path,
+        {
+            "title": "CBO Baseline Projections for Selected Programs",
+            "description": "Machine-readable catalog of processed baseline-detail datasets and vintages.",
+            "schema_version": SCHEMA_VERSION,
+            "datasets": datasets,
+        },
+    )
+    print(f"Catalog complete. datasets={len(datasets)}, catalog={catalog_path}")
+    return 0
+
+
+def _render_schema_readme(
+    releases_by_dataset: dict[str, list[ReleaseInfo]],
+    schemas_dir: Path,
+    processed_dir: Path,
 ) -> str:
-    variable_notes_by_dataset = variable_notes_by_dataset or {}
-    datasets_with_notes = sum(bool(variable_notes_by_dataset.get(info.basename)) for info in infos)
-    variable_note_count = sum(len(notes) for notes in variable_notes_by_dataset.values())
-    source_only_count = sum(
-        1
-        for notes in variable_notes_by_dataset.values()
-        for note in notes
-        if not note.category_path
-    )
     lines = [
-        "# CBO Baseline Dataset Schemas\n\n",
-        "One schema document exists for every processed CSV in `data/processed/`. "
-        "Each file documents column definitions, provenance, and aggregation caveats.\n\n",
-        f"**Total datasets:** {len(infos)}\n\n",
-        "## Core column reference\n\n",
-        "Every processed dataset contains these columns.\n\n",
-        _TABLE_HEADER,
+        "# CBO Baseline Detail Schemas\n\n",
+        "Structural schemas are stable across vintages. Each logical dataset directory contains one "
+        "`schema.json`; release-specific provenance and superscript notes live in the matching "
+        "`.metadata.json` sidecar.\n\n",
+        "## Shared row schemas\n\n",
+        "- [`baseline_detail.schema.json`](baseline_detail.schema.json): standard baseline-detail rows.\n",
+        "- [`usda_baseline_detail.schema.json`](usda_baseline_detail.schema.json): standard rows plus USDA hierarchy fields.\n",
+        "- [`common_fields.schema.json`](common_fields.schema.json): shared field definitions and constraints.\n\n",
+        "## Dataset index\n\n",
+        "| Dataset | Program ID | Schema family | Releases | Dataset schema |\n",
+        "|---|---:|---|---:|---|\n",
     ]
-    for meta in CORE_COLUMN_META:
+    for dataset_key, releases in sorted(releases_by_dataset.items()):
+        dataset = releases[0].dataset
+        schema_path = processed_dir / dataset_key / "schema.json"
+        link = _relative_path(schema_path, schemas_dir)
         lines.append(
-            f"| `{meta['name']}` | {meta['type']} | {meta['description']} | {meta['unit']} | — | {meta['notes']} |\n"
+            f"| {dataset.title} | `{dataset.program_id}` | `{dataset.schema_family}` | "
+            f"{len(releases)} | [`schema.json`]({link}) |\n"
         )
-
-    lines.extend(
-        [
-            "\n## USDA-specific hierarchy columns\n\n",
-            "USDA Farm Programs datasets add the following columns while retaining "
-            "`category` as the leaf label and `category_path` as the full breadcrumb.\n\n",
-            _TABLE_HEADER,
-        ]
-    )
-    for meta in USDA_COLUMN_META:
-        lines.append(
-            f"| `{meta['name']}` | {meta['type']} | {meta['description']} | {meta['unit']} | — | {meta['notes']} |\n"
-        )
-
-    lines.extend(
-        [
-            "\n## Superscript variable notes\n\n",
-            "Each dataset schema includes a **Variable Notes** section. Notes are extracted "
-            "only from actual superscript-formatted letter markers in the source XLSX and "
-            "are bound to the affected `category_path`, including inherited parent-heading notes. "
-            "Source-only entries are retained when an annotated source label is not emitted in "
-            "the processed CSV.\n\n",
-            f"**Datasets with variable notes:** {datasets_with_notes}\n\n",
-            f"**Variable-note mappings:** {variable_note_count:,}\n\n",
-            f"**Source-only annotations:** {source_only_count:,}\n",
-        ]
-    )
-
-    lines.append("\n## Dataset index\n\n")
-    lines.append("| Dataset | Rows | Fiscal years | Programs | Variable notes | Schema |\n")
-    lines.append("|---|---|---|---|---|---|\n")
-    for info in sorted(infos, key=lambda x: x.basename):
-        year_range = (
-            f"{info.fiscal_years[0]}–{info.fiscal_years[-1]}"
-            if len(info.fiscal_years) > 1
-            else (str(info.fiscal_years[0]) if info.fiscal_years else "—")
-        )
-        programs = ", ".join(info.programs[:2]) + ("…" if len(info.programs) > 2 else "")
-        note_count = len(variable_notes_by_dataset.get(info.basename, []))
-        schema_link = f"[{info.basename}.md]({info.basename}.md)"
-        lines.append(
-            f"| `{info.basename}` | {info.row_count:,} | {year_range} | {programs} | "
-            f"{note_count:,} | {schema_link} |\n"
-        )
-
     return "".join(lines)
-
-
-# ---------------------------------------------------------------------------
-# Main entry point
-# ---------------------------------------------------------------------------
 
 
 def generate_schemas(
-    processed_dir: Path = Path("data/processed"),
-    schemas_dir: Path = Path("docs/schemas"),
-    raw_dir: Path | None = None,
+    processed_dir: Path = PROCESSED_DIR,
+    schemas_dir: Path = SCHEMAS_DIR,
+    raw_dir: Path | None = RAW_DIR,
+    catalog_path: Path = CATALOG_PATH,
 ) -> int:
-    csv_paths = sorted(processed_dir.glob("*.csv"))
+    """Generate stable schemas and release metadata for every processed CSV."""
+
+    csv_paths = sorted(processed_dir.rglob("*.csv"))
     if not csv_paths:
         print(f"No CSV files found in {processed_dir}. Run the transform first.")
         return 1
 
-    schemas_dir.mkdir(parents=True, exist_ok=True)
+    infos = [_read_release(path) for path in csv_paths]
+    releases_by_dataset: dict[str, list[ReleaseInfo]] = defaultdict(list)
+    for info in infos:
+        expected_dir = processed_dir / info.dataset.key
+        if info.csv_path.parent.resolve() != expected_dir.resolve():
+            raise ValueError(
+                f"Processed release is not in its canonical dataset directory: {info.csv_path}; "
+                f"expected {expected_dir}"
+            )
+        releases_by_dataset[info.dataset.key].append(info)
 
-    infos = [_read_dataset(csv_path) for csv_path in csv_paths]
     requested_sources: dict[str, set[str]] = {}
     for info in infos:
         for context in info.annotation_contexts:
             requested_sources.setdefault(context.source_file, set()).add(context.source_sheet)
-    effective_raw_dir = raw_dir if raw_dir is not None else processed_dir.parent / "raw"
-    catalog = (
-        load_annotation_catalog(effective_raw_dir, requested_sources)
-        if effective_raw_dir.exists()
+    annotation_catalog = (
+        load_annotation_catalog(raw_dir, requested_sources)
+        if raw_dir is not None and raw_dir.exists()
         else AnnotationCatalog(by_source={})
     )
-    variable_notes_by_dataset = {
-        info.basename: match_variable_notes(info.annotation_contexts, catalog)
+    notes_by_path = {
+        info.csv_path: match_variable_notes(info.annotation_contexts, annotation_catalog)
         for info in infos
     }
-    all_variable_notes = [
-        note
-        for variable_notes in variable_notes_by_dataset.values()
-        for note in variable_notes
-    ]
+
+    all_notes = [note for notes in notes_by_path.values() for note in notes]
     expected_note_identities = {
         (source_file, source_sheet, item.raw_label, item.marker, item.variable_note)
-        for (source_file, source_sheet), annotations in catalog.by_source.items()
+        for (source_file, source_sheet), annotations in annotation_catalog.by_source.items()
         for item in annotations
     }
     represented_note_identities = {
-        (
-            note.source_file,
-            note.source_sheet,
-            note.source_label,
-            note.marker,
-            note.variable_note,
-        )
-        for note in all_variable_notes
+        (note.source_file, note.source_sheet, note.source_label, note.marker, note.variable_note)
+        for note in all_notes
     }
-    unresolved_markers = catalog.marker_references - catalog.resolved_marker_references
+    unresolved_markers = (
+        annotation_catalog.marker_references - annotation_catalog.resolved_marker_references
+    )
     unrepresented_notes = expected_note_identities - represented_note_identities
     annotation_errors = (
         unresolved_markers
         + len(unrepresented_notes)
-        + len(catalog.missing_files)
-        + len(catalog.missing_sheets)
+        + len(annotation_catalog.missing_files)
+        + len(annotation_catalog.missing_sheets)
     )
 
-    for info in infos:
-        schema_path = schemas_dir / f"{info.basename}.md"
-        schema_path.write_text(
-            _render_schema_doc(info, variable_notes_by_dataset[info.basename]),
-            encoding="utf-8",
-        )
+    schemas_dir.mkdir(parents=True, exist_ok=True)
+    _json_write(schemas_dir / "common_fields.schema.json", _common_fields_schema())
+    _json_write(schemas_dir / "baseline_detail.schema.json", _row_schema(usda=False))
+    _json_write(schemas_dir / "usda_baseline_detail.schema.json", _row_schema(usda=True))
 
-    readme_path = schemas_dir / "README.md"
-    readme_path.write_text(
-        _render_readme(infos, schemas_dir, variable_notes_by_dataset),
+    for stale in processed_dir.rglob("baseline_*.metadata.json"):
+        stale.unlink()
+    for stale in processed_dir.glob("*/schema.json"):
+        stale.unlink()
+    for dataset_key, releases in releases_by_dataset.items():
+        dataset = releases[0].dataset
+        dataset_dir = processed_dir / dataset_key
+        _json_write(dataset_dir / "schema.json", _dataset_schema(dataset, dataset_dir, schemas_dir))
+        for info in releases:
+            metadata_path = info.csv_path.with_suffix(".metadata.json")
+            _json_write(metadata_path, _release_metadata(info, notes_by_path[info.csv_path]))
+
+    (schemas_dir / "README.md").write_text(
+        _render_schema_readme(releases_by_dataset, schemas_dir, processed_dir),
         encoding="utf-8",
     )
+    catalog_rc = build_catalog(processed_dir=processed_dir, catalog_path=catalog_path)
 
     print(
-        f"Schema generation complete. datasets={len(infos)}, "
-        f"variable_notes={sum(len(notes) for notes in variable_notes_by_dataset.values())}, "
-        f"resolved_markers={catalog.resolved_marker_references}/{catalog.marker_references}, "
-        f"annotation_errors={annotation_errors}, "
-        f"missing_files={len(catalog.missing_files)}, missing_sheets={len(catalog.missing_sheets)}, "
-        f"schemas_dir={schemas_dir}, index={readme_path}"
+        f"Schema generation complete. logical_datasets={len(releases_by_dataset)}, "
+        f"releases={len(infos)}, variable_notes={len(all_notes)}, "
+        f"resolved_markers={annotation_catalog.resolved_marker_references}/"
+        f"{annotation_catalog.marker_references}, annotation_errors={annotation_errors}, "
+        f"schemas_dir={schemas_dir}"
     )
-    return 1 if annotation_errors else 0
+    return 1 if annotation_errors or catalog_rc else 0
 
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Generate Markdown schema files for every processed CBO baseline CSV."
+        description="Generate stable dataset schemas, release metadata, and catalog.json."
     )
-    parser.add_argument(
-        "--processed-dir",
-        type=Path,
-        default=Path("data/processed"),
-        help="Directory containing processed CSV files (default: data/processed)",
-    )
-    parser.add_argument(
-        "--schemas-dir",
-        type=Path,
-        default=Path("docs/schemas"),
-        help="Output directory for schema Markdown files (default: docs/schemas)",
-    )
-    parser.add_argument(
-        "--raw-dir",
-        type=Path,
-        default=Path("data/raw"),
-        help="Directory containing source XLSX workbooks (default: data/raw)",
-    )
+    parser.add_argument("--processed-dir", type=Path, default=PROCESSED_DIR)
+    parser.add_argument("--schemas-dir", type=Path, default=SCHEMAS_DIR)
+    parser.add_argument("--raw-dir", type=Path, default=RAW_DIR)
+    parser.add_argument("--catalog", type=Path, default=CATALOG_PATH)
     return parser.parse_args()
 
 
@@ -595,6 +594,7 @@ def main() -> int:
         processed_dir=args.processed_dir,
         schemas_dir=args.schemas_dir,
         raw_dir=args.raw_dir,
+        catalog_path=args.catalog,
     )
 
 

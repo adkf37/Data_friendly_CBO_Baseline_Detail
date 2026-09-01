@@ -1,0 +1,421 @@
+{
+  "dataset": "student_loans",
+  "program_id": "51310",
+  "program": "Student Loans",
+  "vintage": "2020-03",
+  "data_file": "baseline_2020-03.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "8607aaaab2809e148beda2168a841fa014eaaa0d09c50b3825318f6e5eb110ce",
+  "row_count": 1037,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2013,
+    "end_year": 2030
+  },
+  "period_coverage": {
+    "start_year": 2013,
+    "end_year": 2030
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51310-2020-03-studentloan.xlsx"
+  ],
+  "source_sheets": [
+    "Table 1",
+    "Table 2",
+    "Table 3",
+    "Table 4",
+    "Table 5",
+    "Table 6"
+  ],
+  "units": [
+    "Dollars",
+    "Millions of dollars",
+    "Percent",
+    "Thousands"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Table 1. / Direct Student Loans / Program Accounta / Budget Authority",
+      "marker": "a",
+      "variable_note": "Estimated spending for fiscal year 2020 includes additional adjustments based on current spending patterns projected by the OMB.",
+      "source_label": "Program Accounta",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 1",
+        "row": 11,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Table 1. / Direct Student Loans / Program Accounta / Outlays",
+      "marker": "a",
+      "variable_note": "Estimated spending for fiscal year 2020 includes additional adjustments based on current spending patterns projected by the OMB.",
+      "source_label": "Program Accounta",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 1",
+        "row": 11,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Table 1. / Direct Student Loans / Credit Reestimates and Modificationsb / Budget Authority",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2020. Those totals are based on the amounts that the OMB expects to record in fiscal year 2020.",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 1",
+        "row": 14,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Table 1. / Direct Student Loans / Credit Reestimates and Modificationsb / Outlays",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2020. Those totals are based on the amounts that the OMB expects to record in fiscal year 2020.",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 1",
+        "row": 14,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Table 1. / Guaranteed Student Loans / Credit Reestimates and Modificationsb / Budget Authority",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2020. Those totals are based on the amounts that the OMB expects to record in fiscal year 2020.",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 1",
+        "row": 26,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Table 1. / Guaranteed Student Loans / Credit Reestimates and Modificationsb / Outlays",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2020. Those totals are based on the amounts that the OMB expects to record in fiscal year 2020.",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 1",
+        "row": 26,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Table 1. / Student Aid Administration / Student Aid Administration (Discretionary)c / Budget Authority",
+      "marker": "c",
+      "variable_note": "Projections of discretionary spending for administering student aid are calculated by inflating the budget authority provided in the most recent appropriation act rather than on the basis of an estimate of the future costs of administering the program.",
+      "source_label": "Student Aid Administration (Discretionary)c",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 1",
+        "row": 34,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Table 1. / Student Aid Administration / Student Aid Administration (Discretionary)c / Outlays",
+      "marker": "c",
+      "variable_note": "Projections of discretionary spending for administering student aid are calculated by inflating the budget authority provided in the most recent appropriation act rather than on the basis of an estimate of the future costs of administering the program.",
+      "source_label": "Student Aid Administration (Discretionary)c",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 1",
+        "row": 34,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Table 1. / Student Aid Administration / Student Aid Administration (Mandatory)d / Budget Authority",
+      "marker": "d",
+      "variable_note": "Projections of mandatory spending for administering student aid are based on estimated future costs of administering federal loan programs.",
+      "source_label": "Student Aid Administration (Mandatory)d",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 1",
+        "row": 37,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Table 1. / Student Aid Administration / Student Aid Administration (Mandatory)d / Outlays",
+      "marker": "d",
+      "variable_note": "Projections of mandatory spending for administering student aid are based on estimated future costs of administering federal loan programs.",
+      "source_label": "Student Aid Administration (Mandatory)d",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 1",
+        "row": 37,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Total All New Loansa / Average Loan Amount (Dollars)",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2020.",
+      "source_label": "Total All New Loansa",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 2",
+        "row": 9,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Total All New Loansa / Net Annual Loan Volume (Millions of dollars)",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2020.",
+      "source_label": "Total All New Loansa",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 2",
+        "row": 9,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Total All New Loansa / Net Number of Loans (Thousands)",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2020.",
+      "source_label": "Total All New Loansa",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 2",
+        "row": 9,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Total All New Loansa / Subsidy Rate (Percent)b",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2020.",
+      "source_label": "Total All New Loansa",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 2",
+        "row": 9,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Total All New Loansa / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2021 federal cost associated with the $93,366 million in new loan volume would be -$3,258 million or -3.49 percent of the new loan volume [$93,366 * -0.0349 = -$3,258]. The federal government will save, on average, about 3 cents for each new dollar lent in 2021. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 3). Subsidy rates were calculated using CBO’s January 2020 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 2",
+        "row": 15,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Subsidized Student Loans / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2021 federal cost associated with the $93,366 million in new loan volume would be -$3,258 million or -3.49 percent of the new loan volume [$93,366 * -0.0349 = -$3,258]. The federal government will save, on average, about 3 cents for each new dollar lent in 2021. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 3). Subsidy rates were calculated using CBO’s January 2020 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 2",
+        "row": 23,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Unsubsidized Student Loans: Undergraduate / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2021 federal cost associated with the $93,366 million in new loan volume would be -$3,258 million or -3.49 percent of the new loan volume [$93,366 * -0.0349 = -$3,258]. The federal government will save, on average, about 3 cents for each new dollar lent in 2021. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 3). Subsidy rates were calculated using CBO’s January 2020 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 2",
+        "row": 31,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Unsubsidized Student Loans: Graduate / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2021 federal cost associated with the $93,366 million in new loan volume would be -$3,258 million or -3.49 percent of the new loan volume [$93,366 * -0.0349 = -$3,258]. The federal government will save, on average, about 3 cents for each new dollar lent in 2021. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 3). Subsidy rates were calculated using CBO’s January 2020 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 2",
+        "row": 39,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / GradPLUS Student Loans / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2021 federal cost associated with the $93,366 million in new loan volume would be -$3,258 million or -3.49 percent of the new loan volume [$93,366 * -0.0349 = -$3,258]. The federal government will save, on average, about 3 cents for each new dollar lent in 2021. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 3). Subsidy rates were calculated using CBO’s January 2020 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 2",
+        "row": 47,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Parent Loans / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2021 federal cost associated with the $93,366 million in new loan volume would be -$3,258 million or -3.49 percent of the new loan volume [$93,366 * -0.0349 = -$3,258]. The federal government will save, on average, about 3 cents for each new dollar lent in 2021. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 3). Subsidy rates were calculated using CBO’s January 2020 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 2",
+        "row": 55,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Table 3. / Outstanding Guaranteed Loans / to Guaranty Agencies a / Outlays",
+      "marker": "a",
+      "variable_note": "In the budget, funds for default prevention are included in the Student Loan Reserve Fund Account and funds for administering pre-1992 loans are included in the Liquidating Account. Both are included in this table's total for administration.",
+      "source_label": "to Guaranty Agencies a",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 3",
+        "row": 16,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Table 3. / Outstanding Guaranteed Loans / on Pre-1992 loans a / Outlays",
+      "marker": "a",
+      "variable_note": "In the budget, funds for default prevention are included in the Student Loan Reserve Fund Account and funds for administering pre-1992 loans are included in the Liquidating Account. Both are included in this table's total for administration.",
+      "source_label": "on Pre-1992 loans a",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 3",
+        "row": 19,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Table 3. / Direct Loans / Total Mandatory / Budget Authority",
+      "marker": "b",
+      "variable_note": "Some of the funds for discretionary administrative costs are used for other student aid programs, such as the Pell grant program.",
+      "source_label": "Discretionary Administrative Costsb",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 3",
+        "row": 35,
+        "column": 4
+      }
+    },
+    {
+      "category_path": "Table 3. / Direct Loans / Total Mandatory / Outlays",
+      "marker": "b",
+      "variable_note": "Some of the funds for discretionary administrative costs are used for other student aid programs, such as the Pell grant program.",
+      "source_label": "Discretionary Administrative Costsb",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 3",
+        "row": 35,
+        "column": 4
+      }
+    },
+    {
+      "category_path": "Table 3. / Direct Loans / Total Mandatory / Budget Authority",
+      "marker": "a",
+      "variable_note": "In the budget, funds for default prevention are included in the Student Loan Reserve Fund Account and funds for administering pre-1992 loans are included in the Liquidating Account. Both are included in this table's total for administration.",
+      "source_label": "Total Administrative Costsa",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 3",
+        "row": 41,
+        "column": 4
+      }
+    },
+    {
+      "category_path": "Table 3. / Direct Loans / Total Mandatory / Outlays",
+      "marker": "a",
+      "variable_note": "In the budget, funds for default prevention are included in the Student Loan Reserve Fund Account and funds for administering pre-1992 loans are included in the Liquidating Account. Both are included in this table's total for administration.",
+      "source_label": "Total Administrative Costsa",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 3",
+        "row": 41,
+        "column": 4
+      }
+    },
+    {
+      "category_path": "Table 5. / Direct Student Loans / Credit Reestimates and Modificationsa / Budget Authority",
+      "marker": "a",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated in years before 2020. Those totals are based on the amounts that the Office of Management and Budget expects to record in fiscal year 2020.",
+      "source_label": "Credit Reestimates and Modificationsa",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 5",
+        "row": 23,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Table 5. / Direct Student Loans / Credit Reestimates and Modificationsa / Outlays",
+      "marker": "a",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated in years before 2020. Those totals are based on the amounts that the Office of Management and Budget expects to record in fiscal year 2020.",
+      "source_label": "Credit Reestimates and Modificationsa",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 5",
+        "row": 23,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Table 5. / Guaranteed Student Loans / Credit Reestimates and Modificationsa / Budget Authority",
+      "marker": "a",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated in years before 2020. Those totals are based on the amounts that the Office of Management and Budget expects to record in fiscal year 2020.",
+      "source_label": "Credit Reestimates and Modificationsa",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 5",
+        "row": 34,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Table 5. / Guaranteed Student Loans / Credit Reestimates and Modificationsa / Outlays",
+      "marker": "a",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated in years before 2020. Those totals are based on the amounts that the Office of Management and Budget expects to record in fiscal year 2020.",
+      "source_label": "Credit Reestimates and Modificationsa",
+      "source": {
+        "file": "51310-2020-03-studentloan.xlsx",
+        "sheet": "Table 5",
+        "row": 34,
+        "column": 1
+      }
+    }
+  ]
+}

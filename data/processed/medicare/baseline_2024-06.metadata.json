@@ -1,0 +1,211 @@
+{
+  "dataset": "medicare",
+  "program_id": "51302",
+  "program": "Medicare",
+  "vintage": "2024-06",
+  "data_file": "baseline_2024-06.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "4d806461b6b825e5720fe5762caf53053daa05b19ee31fb7129d9336b3c36b9f",
+  "row_count": 516,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2023,
+    "end_year": 2034
+  },
+  "period_coverage": {
+    "start_year": 2023,
+    "end_year": 2034
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51302-2024-06-medicare.xlsx"
+  ],
+  "source_sheets": [
+    "Medicare_06-2024"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Millions of people",
+    "Percent"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Medicare Totals / Mandatory Outlaysa",
+      "marker": "a",
+      "variable_note": "\"Mandatory Outlays\" include the effects of sequestration on spending for Medicare benefits under the Balanced Budget and Emergency Deficit Control Act of 1985, as amended.",
+      "source_label": "Mandatory Outlaysa",
+      "source": {
+        "file": "51302-2024-06-medicare.xlsx",
+        "sheet": "Medicare_06-2024",
+        "row": 15,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare Totals / Total Offsetting Receiptsb",
+      "marker": "b",
+      "variable_note": "Offsetting receipts include premiums, rebates paid to the federal government by drug manufacturers whose products have prices that exceed an inflation-adjusted benchmark price, payments from states to Medicare Part D on behalf of enrollees who are eligible both for Medicare and for Medicaid, and amounts paid to providers and later recovered.",
+      "source_label": "Total Offsetting Receiptsb",
+      "source": {
+        "file": "51302-2024-06-medicare.xlsx",
+        "sheet": "Medicare_06-2024",
+        "row": 18,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Benefits / Mandatory Administrationc",
+      "marker": "c",
+      "variable_note": "Outlays include those for quality improvement organizations, certain activities against fraud and abuse, and certain administrative activities funded in authorization acts.",
+      "source_label": "Mandatory Administrationc",
+      "source": {
+        "file": "51302-2024-06-medicare.xlsx",
+        "sheet": "Medicare_06-2024",
+        "row": 28,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Components of Benefits / Part Dd",
+      "marker": "d",
+      "variable_note": "Consists of payments to prescription drug plans and employer group waiver plans and for the retiree drug subsidy and the low-income subsidy.",
+      "source_label": "Part Dd",
+      "source": {
+        "file": "51302-2024-06-medicare.xlsx",
+        "sheet": "Medicare_06-2024",
+        "row": 38,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Components of Benefits / Other Servicese",
+      "marker": "e",
+      "variable_note": "Includes ambulance services, ambulatory surgical centers, community mental health centers, durable medical equipment, federally qualified health centers, hospice services, hospital outpatient services that are not paid for using the outpatient PPS, independent and physician in-office laboratory services, outpatient dialysis, outpatient therapy services, certain Part B prescription drugs, rural health clinic services, and the payment of Part B premiums for qualifying individuals.",
+      "source_label": "Other Servicese",
+      "source": {
+        "file": "51302-2024-06-medicare.xlsx",
+        "sheet": "Medicare_06-2024",
+        "row": 39,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Components of Offsetting Receipts / Part B Premiums and Inflation Rebate Collectionsf",
+      "marker": "f",
+      "variable_note": "Part B premium receipts include income-related premiums.",
+      "source_label": "Part B Premiums and Inflation Rebate Collectionsf",
+      "source": {
+        "file": "51302-2024-06-medicare.xlsx",
+        "sheet": "Medicare_06-2024",
+        "row": 44,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Components of Offsetting Receipts / Part D Premiums and Inflation Rebate Collectionsg",
+      "marker": "g",
+      "variable_note": "Part D premium receipts include income-related premiums but not premiums that enrollees pay directly to their plans or premiums covered by the low-income subsidy.",
+      "source_label": "Part D Premiums and Inflation Rebate Collectionsg",
+      "source": {
+        "file": "51302-2024-06-medicare.xlsx",
+        "sheet": "Medicare_06-2024",
+        "row": 45,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Components of Offsetting Receipts / Payments Recovered from Providersh,i",
+      "marker": "h",
+      "variable_note": "Recoveries are amounts that are paid to providers and later recovered; they are included in the total for mandatory Medicare spending. CBO counts the initial payment of such amounts as outlays for benefits and subsequent recoveries as offsetting receipts to conform to reporting in Monthly Treasury Statements. In the past, Medicare’s trustees have reported benefits net of recoveries; those reports have not treated the recoveries as offsetting receipts.",
+      "source_label": "Payments Recovered from Providersh,i",
+      "source": {
+        "file": "51302-2024-06-medicare.xlsx",
+        "sheet": "Medicare_06-2024",
+        "row": 47,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Components of Offsetting Receipts / Payments Recovered from Providersh,i",
+      "marker": "i",
+      "variable_note": "The Accelerated and Advance Payment Program paid providers in advance of future claims. Those payments increased outlays in 2020. Recoupment of those payments is reflected as a recovery in 2021, 2022, and 2023.",
+      "source_label": "Payments Recovered from Providersh,i",
+      "source": {
+        "file": "51302-2024-06-medicare.xlsx",
+        "sheet": "Medicare_06-2024",
+        "row": 47,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total / Memorandum: / Capitation Payments (Number per year)j",
+      "marker": "j",
+      "variable_note": "Capitation payments to group health plans and prescription drug plans for the month of October are shifted into the preceding fiscal year when October 1 falls on a weekend.",
+      "source_label": "Capitation Payments (Number per year)j",
+      "source": {
+        "file": "51302-2024-06-medicare.xlsx",
+        "sheet": "Medicare_06-2024",
+        "row": 55,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total / Payment Updates and Changes in Price Indexes (Percent) / 10-Year Moving Average of Multifactor Productivityk",
+      "marker": "k",
+      "variable_note": "The inflation-based updates to payment rates for certain services and providers are adjusted by the 10-year moving average of multifactor productivity, including inpatient acute hospitals, skilled nursing facilities, long-term care hospitals, inpatient rehabilitation hospitals, home health agencies, psychiatric hospitals, hospice care, dialysis, outpatient hospitals, ambulance services, ambulatory surgical center services, and certain durable medical equipment. The adjustment for multifactor productivity is included in the PPS update factor shown above, as well as other legislated changes to the payment update.",
+      "source_label": "10-Year Moving Average of Multifactor Productivityk",
+      "source": {
+        "file": "51302-2024-06-medicare.xlsx",
+        "sheet": "Medicare_06-2024",
+        "row": 60,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total / Average Monthly Enrollment in a Fiscal Year (Millions of people) / Part Dl",
+      "marker": "l",
+      "variable_note": "Includes people enrolled in stand-alone prescription drug plans, MA plans with prescription drug coverage, employer group waiver plans, and the retiree drug subsidy.",
+      "source_label": "Part Dl",
+      "source": {
+        "file": "51302-2024-06-medicare.xlsx",
+        "sheet": "Medicare_06-2024",
+        "row": 65,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total / Memorandum: / Group Plan Enrollmentm",
+      "marker": "m",
+      "variable_note": "Includes MA plans, cost contracts, and demonstration contracts covering Medicare Parts A and B. Does not include Health Care Prepayment Plans, which cover Part B services only.",
+      "source_label": "Group Plan Enrollmentm",
+      "source": {
+        "file": "51302-2024-06-medicare.xlsx",
+        "sheet": "Medicare_06-2024",
+        "row": 69,
+        "column": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "dataset": "mortgages",
+  "program_id": "51297",
+  "program": "Mortgages",
+  "vintage": "2021-07",
+  "data_file": "baseline_2021-07.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "4b8b440a1cdfd9b9375fe30326e27313cefc6ee739005c49d97323f391f6e12c",
+  "row_count": 153,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51297-2021-07-mortgages.xlsx"
+  ],
+  "source_sheets": [
+    "Mortgages_07-2021"
+  ],
+  "units": [
+    "Millions of dollars",
+    "Percent"
+  ],
+  "contains_totals": false,
+  "aggregation_note": null,
+  "annotations": [
+    {
+      "category_path": "Federal Programs That Guarantee Mortgages / Fannie Mae and Freddie Mac / Annual Subsidy Costsa",
+      "marker": "a",
+      "variable_note": "For 2022 through 2031, the baseline includes projected subsidy costs of new mortgage loans and guarantees made by Fannie Mae and Freddie Mac in each year, estimated on a fair-value basis. For more information about CBO's budgetary treatment of Fannie Mae and Freddie Mac, see Congressional Budget Office, CBO’s Budgetary Treatment of Fannie Mae and Freddie Mac (January 2010), www.cbo.gov/publication/41887.",
+      "source_label": "Annual Subsidy Costsa",
+      "source": {
+        "file": "51297-2021-07-mortgages.xlsx",
+        "sheet": "Mortgages_07-2021",
+        "row": 18,
+        "column": 3
+      }
+    },
+    {
+      "category_path": "Federal Programs That Guarantee Mortgages / Fannie Mae and Freddie Mac / Cash Receiptsb",
+      "marker": "b",
+      "variable_note": "For fiscal year 2021, the baseline includes an estimate of mandatory cash payments from Fannie Mae and Freddie Mac to the Treasury.",
+      "source_label": "Cash Receiptsb",
+      "source": {
+        "file": "51297-2021-07-mortgages.xlsx",
+        "sheet": "Mortgages_07-2021",
+        "row": 19,
+        "column": 3
+      }
+    },
+    {
+      "category_path": "Federal Programs That Guarantee Mortgages / Federal Housing Administration MMI Programc / Annual Subsidy Costs",
+      "marker": "c",
+      "variable_note": "Excludes Home Equity Conversion Mortgages; MMI subsidy receipts are recorded in the budget as offsetting collections to discretionary appropriations. The subsidy rate for the MMI program is calculated using FCRA methods.",
+      "source_label": "Federal Housing Administration MMI Programc",
+      "source": {
+        "file": "51297-2021-07-mortgages.xlsx",
+        "sheet": "Mortgages_07-2021",
+        "row": 23,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Programs That Guarantee Mortgages / Federal Housing Administration MMI Programc / Share of Originations (Percent)",
+      "marker": "c",
+      "variable_note": "Excludes Home Equity Conversion Mortgages; MMI subsidy receipts are recorded in the budget as offsetting collections to discretionary appropriations. The subsidy rate for the MMI program is calculated using FCRA methods.",
+      "source_label": "Federal Housing Administration MMI Programc",
+      "source": {
+        "file": "51297-2021-07-mortgages.xlsx",
+        "sheet": "Mortgages_07-2021",
+        "row": 23,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Programs That Guarantee Mortgages / Federal Housing Administration MMI Programc / Subsidy Rate (Percent)",
+      "marker": "c",
+      "variable_note": "Excludes Home Equity Conversion Mortgages; MMI subsidy receipts are recorded in the budget as offsetting collections to discretionary appropriations. The subsidy rate for the MMI program is calculated using FCRA methods.",
+      "source_label": "Federal Housing Administration MMI Programc",
+      "source": {
+        "file": "51297-2021-07-mortgages.xlsx",
+        "sheet": "Mortgages_07-2021",
+        "row": 23,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Programs That Guarantee Mortgages / Federal Housing Administration MMI Programc / Value of Annual Loans",
+      "marker": "c",
+      "variable_note": "Excludes Home Equity Conversion Mortgages; MMI subsidy receipts are recorded in the budget as offsetting collections to discretionary appropriations. The subsidy rate for the MMI program is calculated using FCRA methods.",
+      "source_label": "Federal Housing Administration MMI Programc",
+      "source": {
+        "file": "51297-2021-07-mortgages.xlsx",
+        "sheet": "Mortgages_07-2021",
+        "row": 23,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Programs That Guarantee Mortgages / Department of Veterans Affairs Home Loan Programd / Annual Subsidy Costs",
+      "marker": "d",
+      "variable_note": "Includes guaranteed loans and direct loans made by VA on homes sold by the department; excludes loans acquired from other lenders and guarantees on securities of direct loans originated by VA. Costs associated with this program are recorded in the budget as mandatory spending. The subsidy rate for the VA program is calculated using FCRA methods.",
+      "source_label": "Department of Veterans Affairs Home Loan Programd",
+      "source": {
+        "file": "51297-2021-07-mortgages.xlsx",
+        "sheet": "Mortgages_07-2021",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Programs That Guarantee Mortgages / Department of Veterans Affairs Home Loan Programd / Share of Originations (Percent)",
+      "marker": "d",
+      "variable_note": "Includes guaranteed loans and direct loans made by VA on homes sold by the department; excludes loans acquired from other lenders and guarantees on securities of direct loans originated by VA. Costs associated with this program are recorded in the budget as mandatory spending. The subsidy rate for the VA program is calculated using FCRA methods.",
+      "source_label": "Department of Veterans Affairs Home Loan Programd",
+      "source": {
+        "file": "51297-2021-07-mortgages.xlsx",
+        "sheet": "Mortgages_07-2021",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Programs That Guarantee Mortgages / Department of Veterans Affairs Home Loan Programd / Subsidy Rate (Percent)",
+      "marker": "d",
+      "variable_note": "Includes guaranteed loans and direct loans made by VA on homes sold by the department; excludes loans acquired from other lenders and guarantees on securities of direct loans originated by VA. Costs associated with this program are recorded in the budget as mandatory spending. The subsidy rate for the VA program is calculated using FCRA methods.",
+      "source_label": "Department of Veterans Affairs Home Loan Programd",
+      "source": {
+        "file": "51297-2021-07-mortgages.xlsx",
+        "sheet": "Mortgages_07-2021",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Programs That Guarantee Mortgages / Department of Veterans Affairs Home Loan Programd / Value of Annual Loans",
+      "marker": "d",
+      "variable_note": "Includes guaranteed loans and direct loans made by VA on homes sold by the department; excludes loans acquired from other lenders and guarantees on securities of direct loans originated by VA. Costs associated with this program are recorded in the budget as mandatory spending. The subsidy rate for the VA program is calculated using FCRA methods.",
+      "source_label": "Department of Veterans Affairs Home Loan Programd",
+      "source": {
+        "file": "51297-2021-07-mortgages.xlsx",
+        "sheet": "Mortgages_07-2021",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Programs That Guarantee Mortgages / Mortgage-Backed Securities Programe / Annual Subsidy Receipts",
+      "marker": "e",
+      "variable_note": "GNMA securitizes more than 90 percent of FHA’s MMI loan guarantees and 98 percent of VA’s loan guarantees, resulting in additional offsetting collections. The subsidy rate for GNMA, which is calculated using FCRA methods, is estimated to be -0.31 percent in 2021 and -0.38 percent annually over the 2022-2031 period.",
+      "source_label": "Mortgage-Backed Securities Programe",
+      "source": {
+        "file": "51297-2021-07-mortgages.xlsx",
+        "sheet": "Mortgages_07-2021",
+        "row": 36,
+        "column": 2
+      }
+    }
+  ]
+}

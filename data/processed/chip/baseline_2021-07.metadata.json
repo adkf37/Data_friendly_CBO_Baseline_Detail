@@ -1,0 +1,104 @@
+{
+  "dataset": "chip",
+  "program_id": "51296",
+  "program": "CHIP",
+  "vintage": "2021-07",
+  "data_file": "baseline_2021-07.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "191371a2d8a09d6106868f4a415236e0885955856ccfdc703c6dd686a450384d",
+  "row_count": 99,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51296-2021-07-chip.xlsx"
+  ],
+  "source_sheets": [
+    "CHIP_07-2021"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Dollars per enrollee",
+    "Millions of adults",
+    "Millions of children"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Children’s Health Insurance Program / BUDGET INFORMATION / Budget Authoritya",
+      "marker": "a",
+      "variable_note": "Title XXI of the Social Security Act provides funding through September 2027. Through 2023, budget authority for the program is set by statute. From 2023 to 2027, the budget authority is set equal to the sums needed to fund the outlays. After 2027, consistent with section 257 of the Balanced Budget and Emergency Deficit Control Act of 1985, CBO's baseline reflects the assumption that annual funding for the program will continue at $15.3 billion based on the amount of budget authority available in 2027.",
+      "source_label": "Budget Authoritya",
+      "source": {
+        "file": "51296-2021-07-chip.xlsx",
+        "sheet": "CHIP_07-2021",
+        "row": 14,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb",
+      "marker": "b",
+      "variable_note": "Amounts represent the number of beneficiaries enrolled on an average monthly basis in the 50 states and the District of Columbia but exclude enrollment in the U.S. territories.",
+      "source_label": "Enrollment at Baseline Funding Amountsb",
+      "source": {
+        "file": "51296-2021-07-chip.xlsx",
+        "sheet": "CHIP_07-2021",
+        "row": 20,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Children’s Health Insurance Program / Enrollment at Baseline Funding Amountsb / Total Enrollment",
+      "marker": "b",
+      "variable_note": "Amounts represent the number of beneficiaries enrolled on an average monthly basis in the 50 states and the District of Columbia but exclude enrollment in the U.S. territories.",
+      "source_label": "Enrollment at Baseline Funding Amountsb",
+      "source": {
+        "file": "51296-2021-07-chip.xlsx",
+        "sheet": "CHIP_07-2021",
+        "row": 20,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Children’s Health Insurance Program / Available Funding to States (Billions of dollars) / State allotmentsc",
+      "marker": "c",
+      "variable_note": "States receive annual allotments from the total program budget authoriity based on a formula in title XXI of the Social Security Act. States have two years to spend the funds from the annual allotment and most states have funds available from the prior fiscal year's allotment at the start of a new fiscal year. In addition, any allotment funds that are not spent by the end of the two year period of availability are placed in a redistribution fund that may be distributed to states that exhaust all of their allotment funds before the end of the two-year period.",
+      "source_label": "State allotmentsc",
+      "source": {
+        "file": "51296-2021-07-chip.xlsx",
+        "sheet": "CHIP_07-2021",
+        "row": 31,
+        "column": 3
+      }
+    }
+  ]
+}

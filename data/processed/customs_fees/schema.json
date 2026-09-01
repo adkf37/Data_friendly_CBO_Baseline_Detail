@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Customs Fees Baseline Detail",
+  "description": "Stable row contract for all Customs Fees baseline-detail vintages. Release-specific provenance and source notes are stored in .metadata.json sidecars.",
+  "allOf": [
+    {
+      "$ref": "../../../schemas/baseline_detail.schema.json"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "program": {
+          "const": "Customs Fees"
+        },
+        "program_id": {
+          "const": "61170"
+        }
+      }
+    }
+  ],
+  "x-cbo": {
+    "dataset": "customs_fees",
+    "program_id": "61170",
+    "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+    "schema_family": "baseline_detail",
+    "schema_version": "1.0.0"
+  }
+}

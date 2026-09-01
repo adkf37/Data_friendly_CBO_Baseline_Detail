@@ -1,0 +1,54 @@
+{
+  "dataset": "medicare",
+  "program_id": "51302",
+  "program": "Medicare",
+  "vintage": "2020-03",
+  "data_file": "baseline_2020-03.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "7c245e594bfd54744f8ba039e1492258809d5247594c6ad485ac12f4aba90028",
+  "row_count": 687,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2019,
+    "end_year": 2030
+  },
+  "period_coverage": {
+    "start_year": 2019,
+    "end_year": 2030
+  },
+  "period_types": [
+    "calendar_year",
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51302-2020-03-medicare.xlsx"
+  ],
+  "source_sheets": [
+    "Medicare"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Percent"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": []
+}

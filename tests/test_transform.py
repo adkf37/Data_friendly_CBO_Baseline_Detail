@@ -5,7 +5,16 @@ from pathlib import Path
 
 from openpyxl import Workbook
 
-from src import transform
+from etl import transform
+from etl.config import get_output_path
+
+
+def _release_path(output_dir: Path, workbook: str, output_dataset: str) -> Path:
+    return get_output_path(
+        output_dir,
+        workbook=workbook,
+        output_dataset=output_dataset,
+    )
 
 
 def _write_health_workbook(path: Path) -> None:
@@ -102,8 +111,10 @@ workbooks:
             )
 
             self.assertEqual(0, rc)
-            self.assertFalse((output_dir / "childnutrition_health_2024_06.csv").exists())
-            csv_path = output_dir / "snap_2024_06.csv"
+            self.assertFalse(
+                _release_path(output_dir, health_workbook, "childnutrition_health_2024_06").exists()
+            )
+            csv_path = _release_path(output_dir, income_workbook, "snap_2024_06")
             self.assertTrue(csv_path.exists())
             with csv_path.open(encoding="utf-8", newline="") as handle:
                 rows = list(DictReader(handle))
@@ -150,7 +161,9 @@ workbooks:
             )
 
             self.assertEqual(0, rc)
-            csv_path = output_dir / "childnutrition_health_2024_06.csv"
+            csv_path = _release_path(
+                output_dir, workbook_name, "childnutrition_health_2024_06"
+            )
             self.assertTrue(csv_path.exists())
             with csv_path.open(encoding="utf-8", newline="") as handle:
                 rows = list(DictReader(handle))
@@ -218,7 +231,9 @@ workbooks:
             )
 
             self.assertEqual(0, rc)
-            csv_path = output_dir / "childnutrition_health_2024_06.csv"
+            csv_path = _release_path(
+                output_dir, workbook_name, "childnutrition_health_2024_06"
+            )
             self.assertTrue(csv_path.exists())
             with csv_path.open(encoding="utf-8", newline="") as handle:
                 rows = list(DictReader(handle))
@@ -329,8 +344,10 @@ workbooks:
             )
 
             self.assertEqual(0, rc)
-            self.assertFalse((output_dir / "childnutrition_health_2024_06.csv").exists())
-            self.assertFalse((output_dir / "snap_2024_06.csv").exists())
+            self.assertFalse(
+                _release_path(output_dir, health_workbook, "childnutrition_health_2024_06").exists()
+            )
+            self.assertFalse(_release_path(output_dir, income_workbook, "snap_2024_06").exists())
             csv_path = output_dir / "defense_2024_06.csv"
             self.assertTrue(csv_path.exists())
             with csv_path.open(encoding="utf-8", newline="") as handle:
@@ -399,7 +416,7 @@ workbooks:
             )
 
             self.assertEqual(0, rc)
-            csv_path = output_dir / "medicare_2019_05.csv"
+            csv_path = _release_path(output_dir, workbook_name, "medicare_2019_05")
             self.assertTrue(csv_path.exists())
             with csv_path.open(encoding="utf-8", newline="") as handle:
                 rows = list(DictReader(handle))
@@ -471,7 +488,9 @@ workbooks:
             )
 
             self.assertEqual(0, rc)
-            csv_path = output_dir / "childnutrition_health_2024_06.csv"
+            csv_path = _release_path(
+                output_dir, workbook_name, "childnutrition_health_2024_06"
+            )
             with csv_path.open(encoding="utf-8", newline="") as handle:
                 rows = list(DictReader(handle))
 
@@ -803,7 +822,9 @@ workbooks:
             rc = transform.run_transform(parse_plan, raw_dir, output_dir, "health")
 
             self.assertEqual(0, rc)
-            self.assertTrue((output_dir / "healthinsurance_2020_03.csv").exists())
+            self.assertTrue(
+                _release_path(output_dir, workbook_name, "healthinsurance_2020_03").exists()
+            )
 
     def test_find_sheet_exact_match(self):
         self.assertEqual("MySheet", transform._find_sheet(["MySheet", "Other"], "MySheet"))
@@ -859,7 +880,7 @@ workbooks:
             )
 
             self.assertEqual(0, rc)
-            csv_path = output_dir / "mortgages_2020_03.csv"
+            csv_path = _release_path(output_dir, workbook_name, "mortgages_2020_03")
             self.assertTrue(csv_path.exists(), "CSV should be written even when sheet name has trailing space")
 
 

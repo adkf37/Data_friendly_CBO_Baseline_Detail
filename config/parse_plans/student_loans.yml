@@ -1,0 +1,1068 @@
+workbooks:
+- workbook: 51310-2019-05-Student-Loan.xlsx
+  sheets:
+  - sheet: Memo
+    classification: notes
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: student_loan_2019_05
+    verification_target: cbo-student-loan-2019-05
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 2
+    classification: data
+    include: true
+    output_dataset: student_loan_2019_05
+    verification_target: cbo-student-loan-2019-05
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Net Annual Loan Volume (Millions of dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: Table 3
+    classification: data
+    include: true
+    output_dataset: student_loan_2019_05
+    verification_target: cbo-student-loan-2019-05
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: Table 4
+    classification: unknown
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: Table 5
+    classification: data
+    include: true
+    output_dataset: student_loan_2019_05
+    verification_target: cbo-student-loan-2019-05
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 6
+    classification: data
+    include: true
+    output_dataset: student_loan_2019_05
+    verification_target: cbo-student-loan-2019-05
+    header_rows: 1-6
+    first_data_row: 7
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Percent
+    notes:
+    - merged cells present — verify header parsing
+- workbook: 51310-2020-03-studentloan.xlsx
+  sheets:
+  - sheet: Memo
+    classification: notes
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: FCRA requires that the lifetime costs of student loans be recorded up front on an accrual basis (that is, they are
+      recognized in the year in which the loan is made). The lifetime cost of a federal loan—called its subsidy cost—is measured
+      by discounting all of the expected future cash flows associated with the loan to a present value at the date the loan
+      is disbursed. Present value is a single number that expresses a flow of current and future income, or payments, in terms
+      of an equivalent lump sum received, or paid, at a specific time. The present value depends on the rate of interest—the
+      discount rate—that is used to translate future cash flows into current dollars. The cash flows include the amounts disbursed,
+      principal repaid, interest received, fees charged, and net losses that accrue from defaults.
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: studentloan_2020_03
+    verification_target: cbo-studentloan-2020-03
+    header_rows: 1-10
+    first_data_row: 11
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 2
+    classification: data
+    include: true
+    output_dataset: studentloan_2020_03
+    verification_target: cbo-studentloan-2020-03
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Net Annual Loan Volume (Millions of dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: Table 3
+    classification: data
+    include: true
+    output_dataset: studentloan_2020_03
+    verification_target: cbo-studentloan-2020-03
+    header_rows: 1-11
+    first_data_row: 12
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 4
+    classification: data
+    include: true
+    output_dataset: studentloan_2020_03
+    verification_target: cbo-studentloan-2020-03
+    header_rows: 1-11
+    first_data_row: 12
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: interest rate table (Projection of Borrower Interest Rates, by award year); no plausible fiscal-year
+      column structure — standard year-column verification does not apply
+  - sheet: Table 5
+    classification: data
+    include: true
+    output_dataset: studentloan_2020_03
+    verification_target: cbo-studentloan-2020-03
+    header_rows: 1-10
+    first_data_row: 11
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 6
+    classification: data
+    include: true
+    output_dataset: studentloan_2020_03
+    verification_target: cbo-studentloan-2020-03
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Percent
+    notes:
+    - merged cells present — verify header parsing
+- workbook: 51310-2021-07-studentloan.xlsx
+  sheets:
+  - sheet: T1-FCRA_07-2021
+    classification: data
+    include: true
+    output_dataset: studentloan_2021_07
+    verification_target: cbo-studentloan-2021-07
+    header_rows: 1-1
+    first_data_row: 1
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: T2-Reest_07-2021
+    classification: notes
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: 1
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: T3-NewLoans-FCRA_07-2021
+    classification: data
+    include: true
+    output_dataset: studentloan_2021_07
+    verification_target: cbo-studentloan-2021-07
+    header_rows: 1-1
+    first_data_row: 1
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Net Annual Loan Volume (Millions of dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: T4-Admin_07-2021
+    classification: data
+    include: true
+    output_dataset: studentloan_2021_07
+    verification_target: cbo-studentloan-2021-07
+    header_rows: 1-1
+    first_data_row: 1
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: T5-IntRates_07-2021
+    classification: data
+    include: true
+    output_dataset: studentloan_2021_07
+    verification_target: cbo-studentloan-2021-07
+    header_rows: 1-1
+    first_data_row: 1
+    year_column_strategy: none
+    year_columns: []
+    unit: Percentage rate, by award year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: interest rate table (by award year, percent); no fiscal-year dollar column structure — standard
+      year-column verification does not apply
+  - sheet: T6-FV_07-2021
+    classification: data
+    include: true
+    output_dataset: studentloan_2021_07
+    verification_target: cbo-studentloan-2021-07
+    header_rows: 1-1
+    first_data_row: 1
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: T7-Subsidies_07-2021
+    classification: data
+    include: true
+    output_dataset: studentloan_2021_07
+    verification_target: cbo-studentloan-2021-07
+    header_rows: 1-1
+    first_data_row: 1
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Percentage rate, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51310-2022-05-studentloan.xlsx
+  sheets:
+  - sheet: T1-FCRA_05-2022
+    classification: data
+    include: true
+    output_dataset: studentloan_2022_05
+    verification_target: cbo-studentloan-2022-05
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: T2-Reest_05-2022
+    classification: notes
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    unit: Millions of dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: T3-Pandemic Relief_05-2022
+    classification: data
+    include: true
+    output_dataset: studentloan_2022_05
+    verification_target: cbo-studentloan-2022-05
+    header_rows: 1-17
+    first_data_row: 18
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    unit: Billions of dollars, by fiscal year in which costs were recorded
+    notes:
+    - merged cells present — verify header parsing
+  - sheet: T4-NewLoans-FCRA_05-2022
+    classification: data
+    include: true
+    output_dataset: studentloan_2022_05
+    verification_target: cbo-studentloan-2022-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 16
+    unit: Net Annual Loan Volume (Millions of dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: T5-Admin_05-2022
+    classification: data
+    include: true
+    output_dataset: studentloan_2022_05
+    verification_target: cbo-studentloan-2022-05
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: T6-IntRates_05-2022
+    classification: data
+    include: true
+    output_dataset: studentloan_2022_05
+    verification_target: cbo-studentloan-2022-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: none
+    year_columns: []
+    unit: By Award Year, Percent
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: interest rate table (by award year, percent); no fiscal-year dollar column structure — standard
+      year-column verification does not apply
+  - sheet: T7-Subsidies_05-2022
+    classification: data
+    include: true
+    output_dataset: studentloan_2022_05
+    verification_target: cbo-studentloan-2022-05
+    header_rows: 1-11
+    first_data_row: 12
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Percent
+    notes:
+    - merged cells present — verify header parsing
+  - sheet: T8-FV_05-2022
+    classification: data
+    include: true
+    output_dataset: studentloan_2022_05
+    verification_target: cbo-studentloan-2022-05
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51310-2023-05-studentloan.xlsx
+  sheets:
+  - sheet: T1-FCRA_05-2023
+    classification: data
+    include: true
+    output_dataset: studentloan_2023_05
+    verification_target: cbo-studentloan-2023-05
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: T2-Reest_05-2023
+    classification: notes
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    unit: Millions of dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: T3-NewLoans-FCRA_05-2023
+    classification: data
+    include: true
+    output_dataset: studentloan_2023_05
+    verification_target: cbo-studentloan-2023-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 16
+    unit: Net Annual Loan Volume (Millions of dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: T4-Admin_05-2023
+    classification: data
+    include: true
+    output_dataset: studentloan_2023_05
+    verification_target: cbo-studentloan-2023-05
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: T5-IntRates_05-2023
+    classification: data
+    include: true
+    output_dataset: studentloan_2023_05
+    verification_target: cbo-studentloan-2023-05
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: none
+    year_columns: []
+    unit: By Award Year, Percent
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: interest rate table (by award year, percent); no fiscal-year dollar column structure — standard
+      year-column verification does not apply
+  - sheet: T6-Subsidies_05-2023
+    classification: data
+    include: true
+    output_dataset: studentloan_2023_05
+    verification_target: cbo-studentloan-2023-05
+    header_rows: 1-11
+    first_data_row: 12
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Percent
+    notes:
+    - merged cells present — verify header parsing
+  - sheet: T7-FV_05-2023
+    classification: data
+    include: true
+    output_dataset: studentloan_2023_05
+    verification_target: cbo-studentloan-2023-05
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51310-2024-06-studentloan.xlsx
+  sheets:
+  - sheet: studentloanT1_6-24
+    classification: data
+    include: true
+    output_dataset: studentloan_2024_06
+    verification_target: cbo-studentloan-2024-06
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: studentloanT2_6-24
+    classification: notes
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    unit: Millions of dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: studentloanT3_6-24
+    classification: data
+    include: true
+    output_dataset: studentloan_2024_06
+    verification_target: cbo-studentloan-2024-06
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 16
+    unit: Net Annual Loan Volume (Millions of dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: studentloanT4_6-24
+    classification: data
+    include: true
+    output_dataset: studentloan_2024_06
+    verification_target: cbo-studentloan-2024-06
+    header_rows: 1-11
+    first_data_row: 12
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Percent, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: studentloanT5_6-24
+    classification: data
+    include: true
+    output_dataset: studentloan_2024_06
+    verification_target: cbo-studentloan-2024-06
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: none
+    year_columns: []
+    unit: Percent, by award year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: interest rate table (by award year, percent); no fiscal-year dollar column structure — standard
+      year-column verification does not apply
+  - sheet: studentloanT6_6-24
+    classification: data
+    include: true
+    output_dataset: studentloan_2024_06
+    verification_target: cbo-studentloan-2024-06
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: studentloanT7_6-24
+    classification: data
+    include: true
+    output_dataset: studentloan_2024_06
+    verification_target: cbo-studentloan-2024-06
+    header_rows: 1-10
+    first_data_row: 11
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Percent, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51310-2026-02-studentloan.xlsx
+  sheets:
+  - sheet: T1-FCRA costs
+    classification: data
+    include: true
+    output_dataset: studentloan_2026_02
+    verification_target: cbo-student-loans-2026-02-table-1
+    header_rows: 1-15
+    first_data_row: 16
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+  - sheet: T2-current fiscal year
+    classification: data
+    include: true
+    output_dataset: studentloan_2026_02
+    verification_target: cbo-student-loans-2026-02-table-2
+    header_rows: 1-14
+    first_data_row: 15
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - one-column fiscal-year table; retained as published data
+  - sheet: T3-NewLoanVolume
+    classification: data
+    include: true
+    output_dataset: studentloan_2026_02
+    verification_target: cbo-student-loans-2026-02-table-3
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - worksheet formatting extends beyond the populated data range
+  - sheet: T4-Subsidy Rates_FCRA
+    classification: data
+    include: true
+    output_dataset: studentloan_2026_02
+    verification_target: cbo-student-loans-2026-02-table-4
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Percent, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+  - sheet: T5-IntRates
+    classification: data
+    include: true
+    output_dataset: studentloan_2026_02
+    verification_target: cbo-student-loans-2026-02-table-5
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: header_label
+    year_columns: []
+    unit: Percent, by award year
+    notes:
+    - award-year ranges are parsed from their labels
+  - sheet: T6-Fair Value Costs
+    classification: data
+    include: true
+    output_dataset: studentloan_2026_02
+    verification_target: cbo-student-loans-2026-02-table-6
+    header_rows: 1-14
+    first_data_row: 15
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+  - sheet: T7-Subsidy Rates_FairVal
+    classification: data
+    include: true
+    output_dataset: studentloan_2026_02
+    verification_target: cbo-student-loans-2026-02-table-7
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Percent, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout

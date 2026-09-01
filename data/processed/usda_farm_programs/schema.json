@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "USDA Farm Programs Baseline Detail",
+  "description": "Stable row contract for all USDA Farm Programs baseline-detail vintages. Release-specific provenance and source notes are stored in .metadata.json sidecars.",
+  "allOf": [
+    {
+      "$ref": "../../../schemas/usda_baseline_detail.schema.json"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "program": {
+          "const": "USDA Farm Programs"
+        },
+        "program_id": {
+          "const": "51317"
+        }
+      }
+    }
+  ],
+  "x-cbo": {
+    "dataset": "usda_farm_programs",
+    "program_id": "51317",
+    "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+    "schema_family": "usda_baseline_detail",
+    "schema_version": "1.0.0"
+  }
+}

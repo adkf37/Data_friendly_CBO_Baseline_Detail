@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TANF Baseline Detail",
+  "description": "Stable row contract for all TANF baseline-detail vintages. Release-specific provenance and source notes are stored in .metadata.json sidecars.",
+  "allOf": [
+    {
+      "$ref": "../../../schemas/baseline_detail.schema.json"
+    },
+    {
+      "type": "object",
+      "properties": {
+        "program": {
+          "const": "TANF"
+        },
+        "program_id": {
+          "const": "51314"
+        }
+      }
+    }
+  ],
+  "x-cbo": {
+    "dataset": "tanf",
+    "program_id": "51314",
+    "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+    "schema_family": "baseline_detail",
+    "schema_version": "1.0.0"
+  }
+}

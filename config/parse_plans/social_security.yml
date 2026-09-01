@@ -1,0 +1,297 @@
+workbooks:
+- workbook: 51308-2019-05-Social-Security.xlsx
+  sheets:
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: social_security_2019_05
+    verification_target: cbo-social-security-2019-05
+    header_rows: 1-10
+    first_data_row: 11
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51308-2020-01-socialsecurity.xlsx
+  sheets:
+  - sheet: Public
+    classification: data
+    include: true
+    output_dataset: socialsecurity_2020_01
+    verification_target: cbo-socialsecurity-2020-01
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51308-2020-03-socialsecurity.xlsx
+  sheets:
+  - sheet: OASI
+    classification: data
+    include: true
+    output_dataset: socialsecurity_2020_03
+    verification_target: cbo-socialsecurity-2020-03
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51308-2021-02-socialsecurity..xlsx
+  sheets:
+  - sheet: OASI_2-2021
+    classification: data
+    include: true
+    output_dataset: socialsecurity_2021_02
+    verification_target: cbo-socialsecurity-2021-02
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51308-2021-07-socialsecurity.xlsx
+  sheets:
+  - sheet: OASI_07-2021
+    classification: data
+    include: true
+    output_dataset: socialsecurity_2021_07
+    verification_target: cbo-socialsecurity-2021-07
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51308-2022-05-socialsecurity.xlsx
+  sheets:
+  - sheet: OASI_05-2022
+    classification: data
+    include: true
+    output_dataset: socialsecurity_2022_05
+    verification_target: cbo-socialsecurity-2022-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51308-2023-05-socialsecurity.xlsx
+  sheets:
+  - sheet: OASI_05-2023
+    classification: data
+    include: true
+    output_dataset: socialsecurity_2023_05
+    verification_target: cbo-socialsecurity-2023-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51308-2024-02-socialsecurity.xlsx
+  sheets:
+  - sheet: OASI_02-2024
+    classification: data
+    include: true
+    output_dataset: socialsecurity_2024_02
+    verification_target: cbo-socialsecurity-2024-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51308-2024-06-socialsecurity.xlsx
+  sheets:
+  - sheet: OASI_06-2024
+    classification: data
+    include: true
+    output_dataset: socialsecurity_2024_06
+    verification_target: cbo-socialsecurity-2024-06
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51308-2025-01-socialsecurity.xlsx
+  sheets:
+  - sheet: OASI_01-2025
+    classification: data
+    include: true
+    output_dataset: socialsecurity_2025_01
+    verification_target: cbo-socialsecurity-2025-01
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51308-2026-02-socialsecurity.xlsx
+  sheets:
+  - sheet: OASI_02-2026
+    classification: data
+    include: true
+    output_dataset: socialsecurity_2026_02
+    verification_target: cbo-social-security-2026-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout

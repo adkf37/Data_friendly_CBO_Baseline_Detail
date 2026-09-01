@@ -1,0 +1,54 @@
+workbooks:
+- workbook: 61170-2026-02-customs-fees.xlsx
+  sheets:
+  - sheet: Customs Fees 02-2026
+    classification: data
+    include: true
+    output_dataset: customs_fees_2026_02
+    verification_target: cbo-customs-fees-2026-02
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout
+- workbook: 61170-2025-01-customs-fees.xlsx
+  sheets:
+  - sheet: Customs Fees Baseline 01-2025
+    classification: data
+    include: true
+    output_dataset: customs_fees_2025_01
+    verification_target: cbo-customs-fees-2025-01
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split

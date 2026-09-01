@@ -1,0 +1,67 @@
+{
+  "dataset": "post_911_gi_bill",
+  "program_id": "53726",
+  "program": "Post-9/11 GI Bill",
+  "vintage": "2020-03",
+  "data_file": "baseline_2020-03.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "259137ac120e219da8d1fb424b5d75fa3c175621337b8c72c09f79232568561f",
+  "row_count": 55,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2020,
+    "end_year": 2030
+  },
+  "period_coverage": {
+    "start_year": 2020,
+    "end_year": 2030
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "53726-2020-03-post911gibill.xlsx"
+  ],
+  "source_sheets": [
+    "post911GI"
+  ],
+  "units": [
+    "Dollars",
+    "Millions of dollars",
+    "Thousands"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "By Fiscal Year / Adjustment for Timing Shifts (Millions of dollars)a",
+      "marker": "a",
+      "variable_note": "The Department of Veterans Affairs (VA) makes certain payments under the Post-9/11 GI Bill (housing allowances and supplementary benefits) to beneficiaries on the first day of the month. If the first day of the month occurs on a weekend or holiday, VA will make the payments on the preceding business day. When this occurs in October (the beginning of the fiscal year), the payment is made at the end of September (in the preceding fiscal year). This results in shifting the October payments in fiscal years 2023, 2024, and 2029 backwards into fiscal years 2022, 2023, and 2028, respectively.",
+      "source_label": "Adjustment for Timing Shifts (Millions of dollars)a",
+      "source": {
+        "file": "53726-2020-03-post911gibill.xlsx",
+        "sheet": "post911GI",
+        "row": 14,
+        "column": 1
+      }
+    }
+  ]
+}

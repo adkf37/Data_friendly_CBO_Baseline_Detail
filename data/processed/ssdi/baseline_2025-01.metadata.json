@@ -1,0 +1,56 @@
+{
+  "dataset": "ssdi",
+  "program_id": "51307",
+  "program": "SSDI",
+  "vintage": "2025-01",
+  "data_file": "baseline_2025-01.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "93c2e70dbe7a99ee50a186849ebc6ee8c194fc550f8141b355b3e96789b2ae91",
+  "row_count": 288,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2024,
+    "end_year": 2035
+  },
+  "period_coverage": {
+    "start_year": 2024,
+    "end_year": 2035
+  },
+  "period_types": [
+    "calendar_year",
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51307-2025-01-ssdi.xlsx"
+  ],
+  "source_sheets": [
+    "SSDI_01-2025"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Dollars",
+    "Percent",
+    "Thousands of people"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": []
+}

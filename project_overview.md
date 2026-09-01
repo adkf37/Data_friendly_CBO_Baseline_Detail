@@ -20,6 +20,7 @@ CBO url: https://www.cbo.gov/data/baseline-projections-selected-programs
 - Figure out how to transform each file from a formatted Excel file, into a longer csv that are meant for machines to read. 
 - Ok to combine or break about files in multiple csvs if it makes sense to. For example, breaking apart enrollment and spending information into separate files might make sense. Or combining the enrollment projections for all the health programs in one file may make sense. Having different Excel sheets be different csvs probably generally makes sense.
 - Preference for long data
-- Write detailed data schemas for each dataset we crease.
+- Write one stable machine-readable schema for each logical dataset, with
+  per-vintage metadata and source annotations stored alongside each release.
 - Figuring out how to verify that the transforms match the source Excel files.
 - No human oversight until project is completed. Just keep trying.

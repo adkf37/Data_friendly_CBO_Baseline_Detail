@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CBO Baseline Detail Row",
+  "description": "One processed observation with period semantics and cell-level provenance.",
+  "type": "object",
+  "properties": {
+    "program": {
+      "$ref": "common_fields.schema.json#/$defs/program"
+    },
+    "category": {
+      "$ref": "common_fields.schema.json#/$defs/category"
+    },
+    "fiscal_year": {
+      "$ref": "common_fields.schema.json#/$defs/fiscal_year"
+    },
+    "value": {
+      "$ref": "common_fields.schema.json#/$defs/value"
+    },
+    "unit": {
+      "$ref": "common_fields.schema.json#/$defs/unit"
+    },
+    "source_file": {
+      "$ref": "common_fields.schema.json#/$defs/source_file"
+    },
+    "source_sheet": {
+      "$ref": "common_fields.schema.json#/$defs/source_sheet"
+    },
+    "is_total": {
+      "$ref": "common_fields.schema.json#/$defs/is_total"
+    },
+    "program_id": {
+      "$ref": "common_fields.schema.json#/$defs/program_id"
+    },
+    "category_path": {
+      "$ref": "common_fields.schema.json#/$defs/category_path"
+    },
+    "period_type": {
+      "$ref": "common_fields.schema.json#/$defs/period_type"
+    },
+    "period_start_year": {
+      "$ref": "common_fields.schema.json#/$defs/period_start_year"
+    },
+    "period_end_year": {
+      "$ref": "common_fields.schema.json#/$defs/period_end_year"
+    },
+    "period_label": {
+      "$ref": "common_fields.schema.json#/$defs/period_label"
+    },
+    "source_row": {
+      "$ref": "common_fields.schema.json#/$defs/source_row"
+    },
+    "source_column": {
+      "$ref": "common_fields.schema.json#/$defs/source_column"
+    }
+  },
+  "required": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "additionalProperties": false,
+  "x-schema-version": "1.0.0"
+}

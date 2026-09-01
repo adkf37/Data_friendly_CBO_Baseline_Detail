@@ -1,0 +1,886 @@
+{
+  "dataset": "health_insurance",
+  "program_id": "51298",
+  "program": "Health Insurance",
+  "vintage": "2026-02",
+  "data_file": "baseline_2026-02.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "183def743215c95eaf0aa8ac963f6135bbe463f3a4c4002aa013c2eab127ae79",
+  "row_count": 482,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2026,
+    "end_year": 2036
+  },
+  "period_coverage": {
+    "start_year": 2026,
+    "end_year": 2036
+  },
+  "period_types": [
+    "calendar_year",
+    "cumulative_fiscal_years",
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51298-2026-02-healthinsurance.xlsx"
+  ],
+  "source_sheets": [
+    "healthinsuranceT1_02-2026",
+    "healthinsuranceT2_02-2026"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Millions of people",
+    "Percent"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / Adults made eligible for Medicaid by the ACA",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / Adults otherwise eligible for Medicaid",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / Blind and disabled people in Medicaid",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / CHIP",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / Children in Medicaid",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / Medicaree",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / People age 65 or older in Medicaid",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / Subtotal, Medicaid and CHIP",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Memorandum: / People With Multiple Sources of Coveragei",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Memorandum: / Share of the Population That Is Uninsured (Percent)",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Memorandum: / Uninsured People With Medicare Part A or Part B Only",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Nongroup Coveragef / Basic Health Programg",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Nongroup Coveragef / Other Coverageh",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Nongroup Coveragef / Purchased through ACA marketplaces / Purchased outside ACA marketplaces",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Nongroup Coveragef / Purchased through ACA marketplaces / Subsidized",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Nongroup Coveragef / Purchased through ACA marketplaces / Subtotal, Nongroup Coverage",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Nongroup Coveragef / Purchased through ACA marketplaces / Subtotal, Purchased Through ACA Marketplaces",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Nongroup Coveragef / Purchased through ACA marketplaces / Unsubsidized",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / PARTICIPATION INFORMATION / Employment-Based Coveragec",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / PARTICIPATION INFORMATION / Insured",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / PARTICIPATION INFORMATION / Total Population",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / PARTICIPATION INFORMATION / Uninsuredb",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 8,
+        "column": 7
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / PARTICIPATION INFORMATION / Uninsuredb",
+      "marker": "b",
+      "variable_note": "CBO considers people to be uninsured if they are not covered by an insurance plan or enrolled in a government program that provides financial protection from major medical expenses. Estimates include people enrolled only in Medicare Part A or Part B, people receiving only partial Medicaid benefits, and people enrolled in some short-term plans.",
+      "source_label": "Uninsuredb",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 15,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / PARTICIPATION INFORMATION / Employment-Based Coveragec",
+      "marker": "c",
+      "variable_note": "Includes enrollees in the military’s TRICARE program and health care provided by the Department of Veterans Affairs but does not include people with Medicare wraparound coverage provided through a former employer.",
+      "source_label": "Employment-Based Coveragec",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / Adults made eligible for Medicaid by the ACA",
+      "marker": "d",
+      "variable_note": "Medicaid enrollment includes only enrollees with full benefits. Estimates have been adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 19,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / Adults otherwise eligible for Medicaid",
+      "marker": "d",
+      "variable_note": "Medicaid enrollment includes only enrollees with full benefits. Estimates have been adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 19,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / Blind and disabled people in Medicaid",
+      "marker": "d",
+      "variable_note": "Medicaid enrollment includes only enrollees with full benefits. Estimates have been adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 19,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / CHIP",
+      "marker": "d",
+      "variable_note": "Medicaid enrollment includes only enrollees with full benefits. Estimates have been adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 19,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / Children in Medicaid",
+      "marker": "d",
+      "variable_note": "Medicaid enrollment includes only enrollees with full benefits. Estimates have been adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 19,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / Medicaree",
+      "marker": "d",
+      "variable_note": "Medicaid enrollment includes only enrollees with full benefits. Estimates have been adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 19,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / People age 65 or older in Medicaid",
+      "marker": "d",
+      "variable_note": "Medicaid enrollment includes only enrollees with full benefits. Estimates have been adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 19,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / Subtotal, Medicaid and CHIP",
+      "marker": "d",
+      "variable_note": "Medicaid enrollment includes only enrollees with full benefits. Estimates have been adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 19,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Medicaid and CHIPd / Medicaree",
+      "marker": "e",
+      "variable_note": "Includes only people who are enrolled in both Medicare Part A and Part B.",
+      "source_label": "Medicaree",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 28,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Nongroup Coveragef / Basic Health Programg",
+      "marker": "f",
+      "variable_note": "The marketplaces established under the ACA are operated by the federal government, state governments, or partnerships between the two. Estimates do not include enrollees in supplemental medigap plans.",
+      "source_label": "Nongroup Coveragef",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Nongroup Coveragef / Other Coverageh",
+      "marker": "f",
+      "variable_note": "The marketplaces established under the ACA are operated by the federal government, state governments, or partnerships between the two. Estimates do not include enrollees in supplemental medigap plans.",
+      "source_label": "Nongroup Coveragef",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Nongroup Coveragef / Purchased through ACA marketplaces / Purchased outside ACA marketplaces",
+      "marker": "f",
+      "variable_note": "The marketplaces established under the ACA are operated by the federal government, state governments, or partnerships between the two. Estimates do not include enrollees in supplemental medigap plans.",
+      "source_label": "Nongroup Coveragef",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Nongroup Coveragef / Purchased through ACA marketplaces / Subsidized",
+      "marker": "f",
+      "variable_note": "The marketplaces established under the ACA are operated by the federal government, state governments, or partnerships between the two. Estimates do not include enrollees in supplemental medigap plans.",
+      "source_label": "Nongroup Coveragef",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Nongroup Coveragef / Purchased through ACA marketplaces / Subtotal, Nongroup Coverage",
+      "marker": "f",
+      "variable_note": "The marketplaces established under the ACA are operated by the federal government, state governments, or partnerships between the two. Estimates do not include enrollees in supplemental medigap plans.",
+      "source_label": "Nongroup Coveragef",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Nongroup Coveragef / Purchased through ACA marketplaces / Subtotal, Purchased Through ACA Marketplaces",
+      "marker": "f",
+      "variable_note": "The marketplaces established under the ACA are operated by the federal government, state governments, or partnerships between the two. Estimates do not include enrollees in supplemental medigap plans.",
+      "source_label": "Nongroup Coveragef",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Nongroup Coveragef / Purchased through ACA marketplaces / Unsubsidized",
+      "marker": "f",
+      "variable_note": "The marketplaces established under the ACA are operated by the federal government, state governments, or partnerships between the two. Estimates do not include enrollees in supplemental medigap plans.",
+      "source_label": "Nongroup Coveragef",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Nongroup Coveragef / Basic Health Programg",
+      "marker": "g",
+      "variable_note": "The Basic Health Program allows states to establish a coverage program primarily for people whose income is between 138 percent and 200 percent of the federal poverty level. The federal government provides states with funding equal to 95 percent of the amount in subsidies for which enrollees would otherwise have been eligible through a marketplace. Only the District of Columbia, Minnesota, and Oregon currently operate such programs. Estimates include enrollment in New York’s Essential Plan, which is funded through an ACA waiver and mirrors the Basic Health Program, with eligibility up to 250 percent of the federal poverty level. New York’s Essential Plan is anticipated to transition to the Basic Health Program in 2026.",
+      "source_label": "Basic Health Programg",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 38,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Nongroup Coveragef / Other Coverageh",
+      "marker": "h",
+      "variable_note": "In 2026, the largest sources of coverage in this category are student health plans (3 million people), correctional facilities (2 million people) and state-sponsored health plans (2 million people). The Indian Health Service and foreign sources of coverage account for most of the remaining people in this category.",
+      "source_label": "Other Coverageh",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 40,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO’s Projections of Health Insurance Coverage, by Source / Memorandum: / People With Multiple Sources of Coveragei",
+      "marker": "i",
+      "variable_note": "Some people enroll in multiple sources of coverage. The estimate for that group is calculated as the sum of the individual coverage categories and the uninsured minus the total population. CBO did not assign enrollees to a primary source of coverage.",
+      "source_label": "People With Multiple Sources of Coveragei",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT1_02-2026",
+        "row": 44,
+        "column": 1
+      }
+    },
+    {
+      "category_path": null,
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "2025a",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 8,
+        "column": 6
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Employment-Based Coveragea / Income tax deduction for self-employment health insurance / n.a.",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "Employment-Based Coveragea",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Employment-Based Coveragea / Small business health insurance tax creditc / n.a. / Gross collections of penalty payments by employersd",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "Employment-Based Coveragea",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Employment-Based Coveragea / Small business health insurance tax creditc / n.a. / Gross collections of penalty payments by employersd / Subtotal, Employment-Based Coverage",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "Employment-Based Coveragea",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Employment-Based Coveragea / Tax exclusion for employment-based coverageb, c / n.a.",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "Employment-Based Coveragea",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Employment-Based Coveragea / Tax exclusion for employment-based coverageb, c / n.a.",
+      "marker": "b",
+      "variable_note": "These estimates, provided by JCT, reflect the tax value of the exclusion of employment-based health insurance from federal income and payroll taxes and penalty payments by employers. They do not include the tax value of the exclusion associated with Medicare wraparound coverage for former employees. The tax value is the change in tax revenues that would result if the exclusion from federal income and payroll taxes was repealed and the total compensation paid by the employer (including the employer’s payroll taxes) remained constant by increasing wages. The estimates differ from those of the tax expenditure for the exclusion. The tax expenditure is the change in tax revenues that would result if the amount of excluded compensation was taxed and was larger than the tax value.",
+      "source_label": "Tax exclusion for employment-based coverageb, c",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 14,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Employment-Based Coveragea / Tax exclusion for employment-based coverageb, c / n.a.",
+      "marker": "c",
+      "variable_note": "Includes increases in outlays and reductions in revenues.",
+      "source_label": "Tax exclusion for employment-based coverageb, c",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 14,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Employment-Based Coveragea / Small business health insurance tax creditc / n.a. / Gross collections of penalty payments by employersd",
+      "marker": "c",
+      "variable_note": "Includes increases in outlays and reductions in revenues.",
+      "source_label": "Small business health insurance tax creditc",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 16,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Employment-Based Coveragea / Small business health insurance tax creditc / n.a. / Gross collections of penalty payments by employersd / Subtotal, Employment-Based Coverage",
+      "marker": "c",
+      "variable_note": "Includes increases in outlays and reductions in revenues.",
+      "source_label": "Small business health insurance tax creditc",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 16,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Employment-Based Coveragea / Small business health insurance tax creditc / n.a. / Gross collections of penalty payments by employersd",
+      "marker": "d",
+      "variable_note": "Excludes the associated effects on revenues of changes in taxable compensation, which are included in the estimates of the tax exclusion for employment-based insurance. If those effects were included, net revenues from penalty payments by employers would total $2 billion over the 10-year period.",
+      "source_label": "Gross collections of penalty payments by employersd",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 17,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Employment-Based Coveragea / Small business health insurance tax creditc / n.a. / Gross collections of penalty payments by employersd / Subtotal, Employment-Based Coverage",
+      "marker": "d",
+      "variable_note": "Excludes the associated effects on revenues of changes in taxable compensation, which are included in the estimates of the tax exclusion for employment-based insurance. If those effects were included, net revenues from penalty payments by employers would total $2 billion over the 10-year period.",
+      "source_label": "Gross collections of penalty payments by employersd",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 17,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Medicaid and CHIPe / Adults made eligible for Medicaid by the ACA",
+      "marker": "e",
+      "variable_note": "Medicaid spending is for medical services for enrollees with full Medicaid benefits.",
+      "source_label": "Medicaid and CHIPe",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Medicaid and CHIPe / Adults otherwise eligible for Medicaid",
+      "marker": "e",
+      "variable_note": "Medicaid spending is for medical services for enrollees with full Medicaid benefits.",
+      "source_label": "Medicaid and CHIPe",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Medicaid and CHIPe / Blind and disabled people in Medicaid",
+      "marker": "e",
+      "variable_note": "Medicaid spending is for medical services for enrollees with full Medicaid benefits.",
+      "source_label": "Medicaid and CHIPe",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Medicaid and CHIPe / CHIP",
+      "marker": "e",
+      "variable_note": "Medicaid spending is for medical services for enrollees with full Medicaid benefits.",
+      "source_label": "Medicaid and CHIPe",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Medicaid and CHIPe / Children in Medicaid",
+      "marker": "e",
+      "variable_note": "Medicaid spending is for medical services for enrollees with full Medicaid benefits.",
+      "source_label": "Medicaid and CHIPe",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Medicaid and CHIPe / Medicaref",
+      "marker": "e",
+      "variable_note": "Medicaid spending is for medical services for enrollees with full Medicaid benefits.",
+      "source_label": "Medicaid and CHIPe",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Medicaid and CHIPe / People age 65 or older in Medicaid",
+      "marker": "e",
+      "variable_note": "Medicaid spending is for medical services for enrollees with full Medicaid benefits.",
+      "source_label": "Medicaid and CHIPe",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Medicaid and CHIPe / Subtotal, Medicaid and CHIP",
+      "marker": "e",
+      "variable_note": "Medicaid spending is for medical services for enrollees with full Medicaid benefits.",
+      "source_label": "Medicaid and CHIPe",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Medicaid and CHIPe / Medicaref",
+      "marker": "f",
+      "variable_note": "Spending for Medicare beneficiaries enrolled in Part A and Part B. Estimates include Part D benefits, which are calculated net of premiums and certain other payments to the government and have been adjusted to exclude the effects of shifts that occur in the timing of monthly payments when October 1 falls on a weekend.",
+      "source_label": "Medicaref",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 29,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Premium Tax Credit and Related Spending / Outlays for the premium tax credita",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "Outlays for the premium tax credita",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 32,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Premium Tax Credit and Related Spending / Revenue reductions from the premium tax credita / n.a.",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "Revenue reductions from the premium tax credita",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 33,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Premium Tax Credit and Related Spending / Outlays for ACA section 1332 waivers and the / Basic Health Programg",
+      "marker": "g",
+      "variable_note": "Section 1332 of the ACA allows states to apply for federal waivers for some of the act’s rules governing insurance markets and to receive federal assistance in paying for programs that offer health insurance. To obtain a waiver, a state’s proposal must be budget neutral and must provide insurance coverage that is comparable to coverage required by the ACA.",
+      "source_label": "Basic Health Programg",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 35,
+        "column": 3
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Premium Tax Credit and Related Spending / Outlays for ACA section 1332 waivers and the / Collections for risk adjustmenth",
+      "marker": "h",
+      "variable_note": "The risk adjustment program is intended to stabilize premiums in the nongroup and small-group markets. The federal government collects fees from insurers with enrollees who are relatively more healthy and makes roughly offsetting payments to insurers with enrollees who are relatively less healthy.",
+      "source_label": "Collections for risk adjustmenth",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 36,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Premium Tax Credit and Related Spending / Outlays for ACA section 1332 waivers and the / Payments for risk adjustmenth",
+      "marker": "h",
+      "variable_note": "The risk adjustment program is intended to stabilize premiums in the nongroup and small-group markets. The federal government collects fees from insurers with enrollees who are relatively more healthy and makes roughly offsetting payments to insurers with enrollees who are relatively less healthy.",
+      "source_label": "Payments for risk adjustmenth",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 37,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "CBO and JCT's Projections of Net Federal Subsidies for Health Insurance / Other Federal Subsidies Associated With / Supplemental or Partial Benefitsi / n.a.",
+      "marker": "i",
+      "variable_note": "Includes federal subsidies for supplemental or partial coverage that, on its own, would not provide financial protection against major medical expenses and thus would not meet CBO’s definition of health insurance. Estimates include the tax value of the exclusion associated with Medicare wraparound coverage provided to former employees; Medicare spending on enrollees who receive only Part A or Part B benefits; and Medicaid spending for enrollees who receive partial benefits, such as beneficiaries who also are eligible for Medicare and for whom Medicaid pays only Medicare premiums or cost sharing.",
+      "source_label": "Supplemental or Partial Benefitsi",
+      "source": {
+        "file": "51298-2026-02-healthinsurance.xlsx",
+        "sheet": "healthinsuranceT2_02-2026",
+        "row": 41,
+        "column": 2
+      }
+    }
+  ]
+}

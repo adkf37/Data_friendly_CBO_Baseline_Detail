@@ -1,0 +1,92 @@
+{
+  "dataset": "social_security",
+  "program_id": "51308",
+  "program": "Social Security",
+  "vintage": "2023-05",
+  "data_file": "baseline_2023-05.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "4f48dbd94ec1aa318478e7d36548ecda053d80b8a20d1661400925fa3fa5f4a9",
+  "row_count": 371,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2022,
+    "end_year": 2033
+  },
+  "period_coverage": {
+    "start_year": 2022,
+    "end_year": 2033
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51308-2023-05-socialsecurity.xlsx"
+  ],
+  "source_sheets": [
+    "OASI_05-2023"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Dollars",
+    "Percent",
+    "Thousands of people"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Parents / PIA for Hypothetical Retired Worker With / Average Earnings (Equal to AWI) (Dollars)a",
+      "marker": "a",
+      "variable_note": "Example PIAs are for workers turning 62 in the given calendar year.",
+      "source_label": "Average Earnings (Equal to AWI) (Dollars)a",
+      "source": {
+        "file": "51308-2023-05-socialsecurity.xlsx",
+        "sheet": "OASI_05-2023",
+        "row": 70,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Parents / PIA for Hypothetical Retired Worker With / Maximum Earnings (Dollars)a",
+      "marker": "a",
+      "variable_note": "Example PIAs are for workers turning 62 in the given calendar year.",
+      "source_label": "Maximum Earnings (Dollars)a",
+      "source": {
+        "file": "51308-2023-05-socialsecurity.xlsx",
+        "sheet": "OASI_05-2023",
+        "row": 72,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Parents / PIA for Hypothetical Retired Worker With / COLA (Percent)b",
+      "marker": "b",
+      "variable_note": "COLAs are effective with benefits payable for December and received by beneficiaries in January of the next calendar year.",
+      "source_label": "COLA (Percent)b",
+      "source": {
+        "file": "51308-2023-05-socialsecurity.xlsx",
+        "sheet": "OASI_05-2023",
+        "row": 73,
+        "column": 1
+      }
+    }
+  ]
+}

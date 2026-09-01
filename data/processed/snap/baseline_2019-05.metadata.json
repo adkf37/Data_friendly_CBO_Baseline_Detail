@@ -1,0 +1,68 @@
+{
+  "dataset": "snap",
+  "program_id": "51312",
+  "program": "SNAP",
+  "vintage": "2019-05",
+  "data_file": "baseline_2019-05.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "23210d77838758c5163d19ffce18f3c191bd8bf86f6a9171638b507cc3619455",
+  "row_count": 241,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2019,
+    "end_year": 2029
+  },
+  "period_coverage": {
+    "start_year": 2019,
+    "end_year": 2029
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51312-2019-05-SNAP.xlsx"
+  ],
+  "source_sheets": [
+    "Table 1"
+  ],
+  "units": [
+    "Dollars per person",
+    "Millions of dollars",
+    "Millions of people",
+    "Percent"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Fiscal Year Average / Budget Authority Other Than Benefits and Nutrition Assistance for Puerto Rico and American Samoa / State Administrationa",
+      "marker": "a",
+      "variable_note": "Excludes employment and training.",
+      "source_label": "State Administrationa",
+      "source": {
+        "file": "51312-2019-05-SNAP.xlsx",
+        "sheet": "Table 1",
+        "row": 42,
+        "column": 1
+      }
+    }
+  ]
+}

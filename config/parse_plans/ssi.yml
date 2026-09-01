@@ -1,0 +1,310 @@
+workbooks:
+- workbook: 51313-2019-05-SSI.xlsx
+  sheets:
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: ssi_2019_05
+    verification_target: cbo-ssi-2019-05
+    header_rows: 1-7
+    first_data_row: 8
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Average Monthly Federal Benefit on December 31 (Dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51313-2020-01-ssi_1.xlsx
+  sheets:
+  - sheet: Notes
+    classification: unknown
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: Instructions for Updating
+    classification: notes
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+  - sheet: SSI
+    classification: data
+    include: true
+    output_dataset: ssi_1_2020_01
+    verification_target: cbo-ssi-1-2020-01
+    header_rows: 1-7
+    first_data_row: 8
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Average Monthly Federal Benefit on December 31 (Dollars)
+    notes:
+    - multiple logical tables detected — may need manual split
+- workbook: 51313-2020-03-ssi.xlsx
+  sheets:
+  - sheet: SSI
+    classification: data
+    include: true
+    output_dataset: ssi_2020_03
+    verification_target: cbo-ssi-2020-03
+    header_rows: 1-7
+    first_data_row: 8
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Average Monthly Federal Benefit on December 31 (Dollars)
+    notes:
+    - multiple logical tables detected — may need manual split
+- workbook: 51313-2021-02-ssi.xlsx
+  sheets:
+  - sheet: SSI_2-2021
+    classification: data
+    include: true
+    output_dataset: ssi_2021_02
+    verification_target: cbo-ssi-2021-02
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Outlays in Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51313-2021-07-ssi.xlsx
+  sheets:
+  - sheet: SSI_07-2021
+    classification: data
+    include: true
+    output_dataset: ssi_2021_07
+    verification_target: cbo-ssi-2021-07
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Outlays in billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51313-2022-05-ssi.xlsx
+  sheets:
+  - sheet: SSI_0x-2022
+    classification: data
+    include: true
+    output_dataset: ssi_2022_05
+    verification_target: cbo-ssi-2022-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Billions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51313-2023-05-ssi.xlsx
+  sheets:
+  - sheet: SSI_05-2023
+    classification: data
+    include: true
+    output_dataset: ssi_2023_05
+    verification_target: cbo-ssi-2023-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Billions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51313-2024-02-ssi.xlsx
+  sheets:
+  - sheet: SSI_02-2024
+    classification: data
+    include: true
+    output_dataset: ssi_2024_02
+    verification_target: cbo-ssi-2024-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51313-2024-06-ssi.xlsx
+  sheets:
+  - sheet: SSI_06-2024
+    classification: data
+    include: true
+    output_dataset: ssi_2024_06
+    verification_target: cbo-ssi-2024-06
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51313-2025-01-ssi.xlsx
+  sheets:
+  - sheet: SSI_01-2025
+    classification: data
+    include: true
+    output_dataset: ssi_2025_01
+    verification_target: cbo-ssi-2025-01
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51313-2026-02-ssi.xlsx
+  sheets:
+  - sheet: SSI_02-2026
+    classification: data
+    include: true
+    output_dataset: ssi_2026_02
+    verification_target: cbo-ssi-2026-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout

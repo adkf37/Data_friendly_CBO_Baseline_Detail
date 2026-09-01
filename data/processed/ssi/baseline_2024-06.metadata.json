@@ -1,0 +1,69 @@
+{
+  "dataset": "ssi",
+  "program_id": "51313",
+  "program": "SSI",
+  "vintage": "2024-06",
+  "data_file": "baseline_2024-06.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "05f7b804a2ebdbd7ee95a8284c3604f370a9f648fe85b0d3cfc017a04a7c1c35",
+  "row_count": 110,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2024,
+    "end_year": 2034
+  },
+  "period_coverage": {
+    "start_year": 2024,
+    "end_year": 2034
+  },
+  "period_types": [
+    "calendar_year",
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51313-2024-06-ssi.xlsx"
+  ],
+  "source_sheets": [
+    "SSI_06-2024"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Dollars per beneficiary",
+    "Percentage",
+    "Thousands of people"
+  ],
+  "contains_totals": false,
+  "aggregation_note": null,
+  "annotations": [
+    {
+      "category_path": "Supplemental Security Income / OTHER INFORMATION / Number of Payments (By fiscal year)a",
+      "marker": "a",
+      "variable_note": "SSA is required to make SSI payments on the first day of the month. If that day falls on a holiday or a weekend, SSA will instead make the payments on the preceding business day. As a result, in any given fiscal year there may be 11, 12, or 13 payments.",
+      "source_label": "Number of Payments (By fiscal year)a",
+      "source": {
+        "file": "51313-2024-06-ssi.xlsx",
+        "sheet": "SSI_06-2024",
+        "row": 35,
+        "column": 1
+      }
+    }
+  ]
+}

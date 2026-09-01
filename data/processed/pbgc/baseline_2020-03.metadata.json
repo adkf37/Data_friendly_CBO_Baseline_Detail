@@ -1,0 +1,89 @@
+{
+  "dataset": "pbgc",
+  "program_id": "51305",
+  "program": "PBGC",
+  "vintage": "2020-03",
+  "data_file": "baseline_2020-03.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "1ea350beccf4051cf8496a9e023fc991bfddd9625307f4a8a95bac082c0abb6c",
+  "row_count": 132,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2019,
+    "end_year": 2030
+  },
+  "period_coverage": {
+    "start_year": 2019,
+    "end_year": 2030
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51305-2020-03-pbgc.xlsx"
+  ],
+  "source_sheets": [
+    "PBGC"
+  ],
+  "units": [
+    "Millions of dollars"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Multiemployer Financial Assistancea",
+      "marker": "a",
+      "variable_note": "CBO projects that under current law, the multiemployer revolving fund will be exhausted in 2027. CBO expects that after the fund is exhausted, PBGC will reduce financial assistance to amounts that could be supported with premium income.",
+      "source_label": "Multiemployer Financial Assistancea",
+      "source": {
+        "file": "51305-2020-03-pbgc.xlsx",
+        "sheet": "PBGC",
+        "row": 10,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Premiumsb",
+      "marker": "b",
+      "variable_note": "The Bipartisan Budget Act of 2015 accelerated into 2025 the payment of certain premiums that would otherwise be due in 2026.",
+      "source_label": "Premiumsb",
+      "source": {
+        "file": "51305-2020-03-pbgc.xlsx",
+        "sheet": "PBGC",
+        "row": 14,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Other Receiptsc",
+      "marker": "c",
+      "variable_note": "\"Other receipts\" includes reimbursements from the nonbudgetary trust fund to cover a portion of benefits and administrative costs.",
+      "source_label": "Other Receiptsc",
+      "source": {
+        "file": "51305-2020-03-pbgc.xlsx",
+        "sheet": "PBGC",
+        "row": 16,
+        "column": 1
+      }
+    }
+  ]
+}

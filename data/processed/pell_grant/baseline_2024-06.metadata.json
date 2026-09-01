@@ -1,0 +1,463 @@
+{
+  "dataset": "pell_grant",
+  "program_id": "51304",
+  "program": "Pell Grant",
+  "vintage": "2024-06",
+  "data_file": "baseline_2024-06.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "be32c004d84523164d0958dfa5b3af2362a61079b6f8547bd911011ed09ef5df",
+  "row_count": 318,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2014,
+    "end_year": 2034
+  },
+  "period_coverage": {
+    "start_year": 2014,
+    "end_year": 2034
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51304-2024-06-pellgrant.xlsx"
+  ],
+  "source_sheets": [
+    "Pell_06-2024-rev"
+  ],
+  "units": [
+    "Dollars",
+    "Millions of dollars",
+    "Thousands of people"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Pell Grant Program / Budget authority in millions of dollars, by fiscal year / Regular Discretionary Appropriationa",
+      "marker": "a",
+      "variable_note": "Includes rescissions. For example, in fiscal year 2023 the Congress appropriated $22.5 billion and rescinded $360 million.",
+      "source_label": "Regular Discretionary Appropriationa",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 15,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Appropriations Act of 2011",
+      "marker": "b",
+      "variable_note": "Most of the additional budget authority provided to support the discretionary program is classified as mandatory. Beginning in 2011, the total amount of additional funding can be found in section 401(b)7(A)(iv) of the Higher Education Act of 1965. That budget authority is used to augment the funding provided in annual appropriations for the discretionary Pell grant program.",
+      "source_label": "Amount and Source of Funding Increase or Reduction (-)b",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Consolidated Appropriations Act, 2012",
+      "marker": "b",
+      "variable_note": "Most of the additional budget authority provided to support the discretionary program is classified as mandatory. Beginning in 2011, the total amount of additional funding can be found in section 401(b)7(A)(iv) of the Higher Education Act of 1965. That budget authority is used to augment the funding provided in annual appropriations for the discretionary Pell grant program.",
+      "source_label": "Amount and Source of Funding Increase or Reduction (-)b",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Consolidated Appropriations Act, 2017",
+      "marker": "b",
+      "variable_note": "Most of the additional budget authority provided to support the discretionary program is classified as mandatory. Beginning in 2011, the total amount of additional funding can be found in section 401(b)7(A)(iv) of the Higher Education Act of 1965. That budget authority is used to augment the funding provided in annual appropriations for the discretionary Pell grant program.",
+      "source_label": "Amount and Source of Funding Increase or Reduction (-)b",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Consolidated Appropriations Act, 2019",
+      "marker": "b",
+      "variable_note": "Most of the additional budget authority provided to support the discretionary program is classified as mandatory. Beginning in 2011, the total amount of additional funding can be found in section 401(b)7(A)(iv) of the Higher Education Act of 1965. That budget authority is used to augment the funding provided in annual appropriations for the discretionary Pell grant program.",
+      "source_label": "Amount and Source of Funding Increase or Reduction (-)b",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Consolidated Appropriations Act, 2021",
+      "marker": "b",
+      "variable_note": "Most of the additional budget authority provided to support the discretionary program is classified as mandatory. Beginning in 2011, the total amount of additional funding can be found in section 401(b)7(A)(iv) of the Higher Education Act of 1965. That budget authority is used to augment the funding provided in annual appropriations for the discretionary Pell grant program.",
+      "source_label": "Amount and Source of Funding Increase or Reduction (-)b",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Consolidated Appropriations Act, 2022",
+      "marker": "b",
+      "variable_note": "Most of the additional budget authority provided to support the discretionary program is classified as mandatory. Beginning in 2011, the total amount of additional funding can be found in section 401(b)7(A)(iv) of the Higher Education Act of 1965. That budget authority is used to augment the funding provided in annual appropriations for the discretionary Pell grant program.",
+      "source_label": "Amount and Source of Funding Increase or Reduction (-)b",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Consolidated Appropriations Act, 2023",
+      "marker": "b",
+      "variable_note": "Most of the additional budget authority provided to support the discretionary program is classified as mandatory. Beginning in 2011, the total amount of additional funding can be found in section 401(b)7(A)(iv) of the Higher Education Act of 1965. That budget authority is used to augment the funding provided in annual appropriations for the discretionary Pell grant program.",
+      "source_label": "Amount and Source of Funding Increase or Reduction (-)b",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Cumulative Surplusc",
+      "marker": "b",
+      "variable_note": "Most of the additional budget authority provided to support the discretionary program is classified as mandatory. Beginning in 2011, the total amount of additional funding can be found in section 401(b)7(A)(iv) of the Higher Education Act of 1965. That budget authority is used to augment the funding provided in annual appropriations for the discretionary Pell grant program.",
+      "source_label": "Amount and Source of Funding Increase or Reduction (-)b",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Estimated Program Costs",
+      "marker": "b",
+      "variable_note": "Most of the additional budget authority provided to support the discretionary program is classified as mandatory. Beginning in 2011, the total amount of additional funding can be found in section 401(b)7(A)(iv) of the Higher Education Act of 1965. That budget authority is used to augment the funding provided in annual appropriations for the discretionary Pell grant program.",
+      "source_label": "Amount and Source of Funding Increase or Reduction (-)b",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Estimated Surplus Entering Fiscal Year 2025",
+      "marker": "b",
+      "variable_note": "Most of the additional budget authority provided to support the discretionary program is classified as mandatory. Beginning in 2011, the total amount of additional funding can be found in section 401(b)7(A)(iv) of the Higher Education Act of 1965. That budget authority is used to augment the funding provided in annual appropriations for the discretionary Pell grant program.",
+      "source_label": "Amount and Source of Funding Increase or Reduction (-)b",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / FUTURE Act",
+      "marker": "b",
+      "variable_note": "Most of the additional budget authority provided to support the discretionary program is classified as mandatory. Beginning in 2011, the total amount of additional funding can be found in section 401(b)7(A)(iv) of the Higher Education Act of 1965. That budget authority is used to augment the funding provided in annual appropriations for the discretionary Pell grant program.",
+      "source_label": "Amount and Source of Funding Increase or Reduction (-)b",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Further Consolidated Appropriations Act, 2020",
+      "marker": "b",
+      "variable_note": "Most of the additional budget authority provided to support the discretionary program is classified as mandatory. Beginning in 2011, the total amount of additional funding can be found in section 401(b)7(A)(iv) of the Higher Education Act of 1965. That budget authority is used to augment the funding provided in annual appropriations for the discretionary Pell grant program.",
+      "source_label": "Amount and Source of Funding Increase or Reduction (-)b",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Labor, HHS, Education Appropriations Act, 2019",
+      "marker": "b",
+      "variable_note": "Most of the additional budget authority provided to support the discretionary program is classified as mandatory. Beginning in 2011, the total amount of additional funding can be found in section 401(b)7(A)(iv) of the Higher Education Act of 1965. That budget authority is used to augment the funding provided in annual appropriations for the discretionary Pell grant program.",
+      "source_label": "Amount and Source of Funding Increase or Reduction (-)b",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Previous Year Shortfall (-) or Surplusc",
+      "marker": "b",
+      "variable_note": "Most of the additional budget authority provided to support the discretionary program is classified as mandatory. Beginning in 2011, the total amount of additional funding can be found in section 401(b)7(A)(iv) of the Higher Education Act of 1965. That budget authority is used to augment the funding provided in annual appropriations for the discretionary Pell grant program.",
+      "source_label": "Amount and Source of Funding Increase or Reduction (-)b",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Total Available Budget Authority",
+      "marker": "b",
+      "variable_note": "Most of the additional budget authority provided to support the discretionary program is classified as mandatory. Beginning in 2011, the total amount of additional funding can be found in section 401(b)7(A)(iv) of the Higher Education Act of 1965. That budget authority is used to augment the funding provided in annual appropriations for the discretionary Pell grant program.",
+      "source_label": "Amount and Source of Funding Increase or Reduction (-)b",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Total Budget Authority for Discretionary Program",
+      "marker": "b",
+      "variable_note": "Most of the additional budget authority provided to support the discretionary program is classified as mandatory. Beginning in 2011, the total amount of additional funding can be found in section 401(b)7(A)(iv) of the Higher Education Act of 1965. That budget authority is used to augment the funding provided in annual appropriations for the discretionary Pell grant program.",
+      "source_label": "Amount and Source of Funding Increase or Reduction (-)b",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Previous Year Shortfall (-) or Surplusc",
+      "marker": "c",
+      "variable_note": "The cumulative shortfall or surplus in budget authority is calculated under the Pell scoring rule, as specified in section 406 of the 2006 budget resolution (H. Con. Res. 95).",
+      "source_label": "Previous Year Shortfall (-) or Surplusc",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Pell Grant Program / Amount and Source of Funding Increase or Reduction (-)b / Cumulative Surplusc",
+      "marker": "c",
+      "variable_note": "The cumulative shortfall or surplus in budget authority is calculated under the Pell scoring rule, as specified in section 406 of the 2006 budget resolution (H. Con. Res. 95).",
+      "source_label": "Cumulative Surplusc",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 34,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Estimated Surplus Entering Fiscal Year 2025 / Budget Authority Needed to Support a Maximum Award of $6,335 / Estimated Program Cost for $6,335 Maximum Awardd",
+      "marker": "d",
+      "variable_note": "The Pell grant program is primarily a discretionary program. The most recent annual appropriation act set the maximum award at $6,335. CBO’s estimates of the program’s costs are based on an assumption that the maximum amount will remain unchanged through 2034. e. Mandatory budget authority available to supplement funding for the discretionary portion of the Pell grant program, as provided in section 401(b)7(A)(iv) of the Higher Education Act of 1965.",
+      "source_label": "Estimated Program Cost for $6,335 Maximum Awardd",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 44,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Estimated Surplus Entering Fiscal Year 2025 / Budget Authority Needed to Support a Maximum Award of $6,335 / Estimated Cumulative Surplus, 2006 to 2024c",
+      "marker": "c",
+      "variable_note": "The cumulative shortfall or surplus in budget authority is calculated under the Pell scoring rule, as specified in section 406 of the 2006 budget resolution (H. Con. Res. 95).",
+      "source_label": "Estimated Cumulative Surplus, 2006 to 2024c",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 45,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Estimated Surplus Entering Fiscal Year 2025 / Budget Authority Needed to Support a Maximum Award of $6,335 / and Other Available Funding / Total Additional Budget Authority Neededf",
+      "marker": "f",
+      "variable_note": "Estimated budget authority needed to support a maximum award of $6,335 under the Pell scoring rule, as specified in section 406 of the 2006 budget resolution (H. Con. Res. 95).",
+      "source_label": "Total Additional Budget Authority Neededf",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 47,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Additional Budget Authority Neededf / Discretionary Pell Grant Program Costs / Assumed Discretionary Maximum Award (Dollars)d",
+      "marker": "f",
+      "variable_note": "Estimated budget authority needed to support a maximum award of $6,335 under the Pell scoring rule, as specified in section 406 of the 2006 budget resolution (H. Con. Res. 95).",
+      "source_label": "Total Additional Budget Authority Neededf",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 47,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Additional Budget Authority Neededf / Total Pell Grant Program / Total Maximum Award (Dollars)",
+      "marker": "f",
+      "variable_note": "Estimated budget authority needed to support a maximum award of $6,335 under the Pell scoring rule, as specified in section 406 of the 2006 budget resolution (H. Con. Res. 95).",
+      "source_label": "Total Additional Budget Authority Neededf",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 47,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Additional Budget Authority Neededf / Total Spending for Pell Grants / Estimated Outlays",
+      "marker": "f",
+      "variable_note": "Estimated budget authority needed to support a maximum award of $6,335 under the Pell scoring rule, as specified in section 406 of the 2006 budget resolution (H. Con. Res. 95).",
+      "source_label": "Total Additional Budget Authority Neededf",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 47,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Additional Budget Authority Neededf / Total Spending for Pell Grants / Estimated Program Costs",
+      "marker": "f",
+      "variable_note": "Estimated budget authority needed to support a maximum award of $6,335 under the Pell scoring rule, as specified in section 406 of the 2006 budget resolution (H. Con. Res. 95).",
+      "source_label": "Total Additional Budget Authority Neededf",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 47,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Additional Budget Authority Neededf / Total Spending for Pell Grants / Total Projected Recipients (Thousands of people)",
+      "marker": "f",
+      "variable_note": "Estimated budget authority needed to support a maximum award of $6,335 under the Pell scoring rule, as specified in section 406 of the 2006 budget resolution (H. Con. Res. 95).",
+      "source_label": "Total Additional Budget Authority Neededf",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 47,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Additional Budget Authority Neededf / Total for Discretionary Pell Grants / Estimated Outlays",
+      "marker": "f",
+      "variable_note": "Estimated budget authority needed to support a maximum award of $6,335 under the Pell scoring rule, as specified in section 406 of the 2006 budget resolution (H. Con. Res. 95).",
+      "source_label": "Total Additional Budget Authority Neededf",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 47,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Additional Budget Authority Neededf / Total for Discretionary Pell Grants / Estimated Program Costs",
+      "marker": "f",
+      "variable_note": "Estimated budget authority needed to support a maximum award of $6,335 under the Pell scoring rule, as specified in section 406 of the 2006 budget resolution (H. Con. Res. 95).",
+      "source_label": "Total Additional Budget Authority Neededf",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 47,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Additional Budget Authority Neededf / Total for Discretionary Pell Grants / Mandatory Add-On Award (Dollars)g",
+      "marker": "f",
+      "variable_note": "Estimated budget authority needed to support a maximum award of $6,335 under the Pell scoring rule, as specified in section 406 of the 2006 budget resolution (H. Con. Res. 95).",
+      "source_label": "Total Additional Budget Authority Neededf",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 47,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Additional Budget Authority Neededf / Total for Mandatory Pell Grant Add-On / Estimated Outlays",
+      "marker": "f",
+      "variable_note": "Estimated budget authority needed to support a maximum award of $6,335 under the Pell scoring rule, as specified in section 406 of the 2006 budget resolution (H. Con. Res. 95).",
+      "source_label": "Total Additional Budget Authority Neededf",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 47,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Additional Budget Authority Neededf / Total for Mandatory Pell Grant Add-On / Estimated Program Costs",
+      "marker": "f",
+      "variable_note": "Estimated budget authority needed to support a maximum award of $6,335 under the Pell scoring rule, as specified in section 406 of the 2006 budget resolution (H. Con. Res. 95).",
+      "source_label": "Total Additional Budget Authority Neededf",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 47,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Additional Budget Authority Neededf / Discretionary Pell Grant Program Costs / Assumed Discretionary Maximum Award (Dollars)d",
+      "marker": "d",
+      "variable_note": "The Pell grant program is primarily a discretionary program. The most recent annual appropriation act set the maximum award at $6,335. CBO’s estimates of the program’s costs are based on an assumption that the maximum amount will remain unchanged through 2034. e. Mandatory budget authority available to supplement funding for the discretionary portion of the Pell grant program, as provided in section 401(b)7(A)(iv) of the Higher Education Act of 1965.",
+      "source_label": "Assumed Discretionary Maximum Award (Dollars)d",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 56,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total Additional Budget Authority Neededf / Total for Discretionary Pell Grants / Mandatory Add-On Award (Dollars)g",
+      "marker": "g",
+      "variable_note": "The FAFSA Simplification Act set the mandatory add-on award amount at $1,060 for each year.",
+      "source_label": "Mandatory Add-On Award (Dollars)g",
+      "source": {
+        "file": "51304-2024-06-pellgrant.xlsx",
+        "sheet": "Pell_06-2024-rev",
+        "row": 61,
+        "column": 1
+      }
+    }
+  ]
+}

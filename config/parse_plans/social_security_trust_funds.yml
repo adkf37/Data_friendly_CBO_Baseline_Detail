@@ -1,0 +1,309 @@
+workbooks:
+- workbook: 51309-2019-05-Trust-Funds.xlsx
+  sheets:
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: trust_funds_2019_05
+    verification_target: cbo-trust-funds-2019-05
+    header_rows: 1-7
+    first_data_row: 8
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Billions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51309-2020-01-trustfund.xlsx
+  sheets:
+  - sheet: SS Trust Funds
+    classification: data
+    include: true
+    output_dataset: trustfund_2020_01
+    verification_target: cbo-trustfund-2020-01
+    header_rows: 1-7
+    first_data_row: 8
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Billions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51309-2020-03-trustfund.xlsx
+  sheets:
+  - sheet: Social Security Trust Funds
+    classification: data
+    include: true
+    output_dataset: trustfund_2020_03
+    verification_target: cbo-trustfund-2020-03
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Billions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51309-2021-02-sstrustfund.xlsx
+  sheets:
+  - sheet: SS Trust Funds_2-2021
+    classification: data
+    include: true
+    output_dataset: sstrustfund_2021_02
+    verification_target: cbo-sstrustfund-2021-02
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51309-2021-07-trustfund.xlsx
+  sheets:
+  - sheet: SS Trustfunds_07-2021
+    classification: data
+    include: true
+    output_dataset: trustfund_2021_07
+    verification_target: cbo-trustfund-2021-07
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51309-2022-05-trustfund.xlsx
+  sheets:
+  - sheet: SS Trustfunds_05-2022
+    classification: data
+    include: true
+    output_dataset: trustfund_2022_05
+    verification_target: cbo-trustfund-2022-05
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    unit: By Fiscal Year, Billions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51309-2023-05-trustfund.xlsx
+  sheets:
+  - sheet: SS Trustfunds_0x-2023
+    classification: data
+    include: true
+    output_dataset: trustfund_2023_05
+    verification_target: cbo-trustfund-2023-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    unit: By Fiscal Year, Billions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51309-2024-02-trustfund.xlsx
+  sheets:
+  - sheet: SS Trustfunds_02-2024
+    classification: data
+    include: true
+    output_dataset: trustfund_2024_02
+    verification_target: cbo-trustfund-2024-02
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51309-2024-06-trustfund.xlsx
+  sheets:
+  - sheet: SS Trustfunds_06-2024
+    classification: data
+    include: true
+    output_dataset: trustfund_2024_06
+    verification_target: cbo-trustfund-2024-06
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51309-2025-01-trustfund.xlsx
+  sheets:
+  - sheet: SS Trustfunds_01-2025
+    classification: data
+    include: true
+    output_dataset: trustfund_2025_01
+    verification_target: cbo-trustfund-2025-01
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51309-2026-02-trustfund.xlsx
+  sheets:
+  - sheet: SS Trustfunds_02-2026
+    classification: data
+    include: true
+    output_dataset: trustfund_2026_02
+    verification_target: cbo-social-security-trust-funds-2026-02
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout

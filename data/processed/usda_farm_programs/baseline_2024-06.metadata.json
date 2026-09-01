@@ -1,0 +1,750 @@
+{
+  "dataset": "usda_farm_programs",
+  "program_id": "51317",
+  "program": "USDA Farm Programs",
+  "vintage": "2024-06",
+  "data_file": "baseline_2024-06.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "bf5b40a23483aa2d574ef223577be8c9be073121b07f94f7b735bd5610ca5d80",
+  "row_count": 11698,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "table_title",
+    "section",
+    "subsection",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2022,
+    "end_year": 2034
+  },
+  "period_coverage": {
+    "start_year": 2022,
+    "end_year": 2034
+  },
+  "period_types": [
+    "cumulative_fiscal_years",
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51317-2024-06-usda.xlsx"
+  ],
+  "source_sheets": [
+    "AppA_USDAFarmProg_06-2024",
+    "AppB_USDAFarmProg_06-2024",
+    "USDA_FarmProgBaseline_06-2024"
+  ],
+  "units": [
+    "Dollars per bushel",
+    "Dollars per hundredweight",
+    "Dollars per pound",
+    "Millions",
+    "Millions of dollars",
+    "Percent",
+    "Percentage of base acres",
+    "Thousands"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Under the $30 Billion Borrowing Limit / Commodity Credit Corporation Price / Support and Related Programsa",
+      "marker": "a",
+      "variable_note": "These amounts include section 5 spending and also are shown in “Commodity Credit Corporation Account Plus Other Accounts Comparable to the USDA Baseline,” summary and detail tables on pages 3 and 4.",
+      "source_label": "Support and Related Programsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "AppB_USDAFarmProg_06-2024",
+        "row": 16,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Under the $30 Billion Borrowing Limit / Commodity Credit Corporation Price / CCC Net-Realized Losses (Including section 5 use)b",
+      "marker": "b",
+      "variable_note": "CCC Net-Realized Losses is the net amount of CCC funds spent in a given fiscal year. This amount includes outlays from the CCC account as well as transfers of CCC funds to other USDA accounts. The amount in CCC net-realized losses usually is reimbursed by appropriations made after USDA closes the books on the fiscal year. The reimbursement often happens at the end of the calendar year.",
+      "source_label": "CCC Net-Realized Losses (Including section 5 use)b",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "AppB_USDAFarmProg_06-2024",
+        "row": 26,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Under the $30 Billion Borrowing Limit / Subtract Amounts Needed in Reserve for Q1 Spending in the / Upcoming Fiscal Yearc (Breakout below)",
+      "marker": "c",
+      "variable_note": "Current law authorizes an annual appropriation for reimbursement of CCC’s net-realized losses. The law requires the authorized reimbursement to occur after USDA closes the books on CCC for each fiscal year. The reimbursement typically occurs in December—the end of the first quarter of the next fiscal year. Because CCC payments and transfers made in the first quarter occur before the liquidating appropriation, they are subject to the same $30 billion borrowing cap that covers amounts spent in the prior year.",
+      "source_label": "Upcoming Fiscal Yearc (Breakout below)",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "AppB_USDAFarmProg_06-2024",
+        "row": 40,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Under the $30 Billion Borrowing Limit / Subtract Amounts Needed in Reserve for Q1 Spending in the / Remaining Borrowing Authorityd",
+      "marker": "d",
+      "variable_note": "Amounts in this row show the maximum that CBO estimates that USDA can spend using CCC section 5 authority.",
+      "source_label": "Remaining Borrowing Authorityd",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "AppB_USDAFarmProg_06-2024",
+        "row": 46,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Under the $30 Billion Borrowing Limit / Reserve Amounts for Q1 CCC Spending / PLC + ARC paymentse",
+      "marker": "e",
+      "variable_note": "Current law requires ARC, PLC, and CRP payments to be made beginning on October 1 each year. USDA has a good sense of payment magnitude in the preceding months and can take those payments into account when determining how much budget authority could be made available for section 5 use at the end of a fiscal year. (USDA often transfers section 5 amounts out of CCC in mid‑September.) Historically, the first quarter’s total spending has constituted roughly three-fourths of all CCC spending in a year.",
+      "source_label": "PLC + ARC paymentse",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "AppB_USDAFarmProg_06-2024",
+        "row": 52,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Under the $30 Billion Borrowing Limit / Reserve Amounts for Q1 CCC Spending / CRP paymentse",
+      "marker": "e",
+      "variable_note": "Current law requires ARC, PLC, and CRP payments to be made beginning on October 1 each year. USDA has a good sense of payment magnitude in the preceding months and can take those payments into account when determining how much budget authority could be made available for section 5 use at the end of a fiscal year. (USDA often transfers section 5 amounts out of CCC in mid‑September.) Historically, the first quarter’s total spending has constituted roughly three-fourths of all CCC spending in a year.",
+      "source_label": "CRP paymentse",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "AppB_USDAFarmProg_06-2024",
+        "row": 53,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Under the $30 Billion Borrowing Limit / Reserve Amounts for Q1 CCC Spending / Transferse",
+      "marker": "e",
+      "variable_note": "Current law requires ARC, PLC, and CRP payments to be made beginning on October 1 each year. USDA has a good sense of payment magnitude in the preceding months and can take those payments into account when determining how much budget authority could be made available for section 5 use at the end of a fiscal year. (USDA often transfers section 5 amounts out of CCC in mid‑September.) Historically, the first quarter’s total spending has constituted roughly three-fourths of all CCC spending in a year.",
+      "source_label": "Transferse",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "AppB_USDAFarmProg_06-2024",
+        "row": 54,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Under the $30 Billion Borrowing Limit / Reserve Amounts for Q1 CCC Spending / Other programse",
+      "marker": "e",
+      "variable_note": "Current law requires ARC, PLC, and CRP payments to be made beginning on October 1 each year. USDA has a good sense of payment magnitude in the preceding months and can take those payments into account when determining how much budget authority could be made available for section 5 use at the end of a fiscal year. (USDA often transfers section 5 amounts out of CCC in mid‑September.) Historically, the first quarter’s total spending has constituted roughly three-fourths of all CCC spending in a year.",
+      "source_label": "Other programse",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "AppB_USDAFarmProg_06-2024",
+        "row": 55,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Under the $30 Billion Borrowing Limit / Reserve Amounts for Q1 CCC Spending / Net outstanding marketing loans through Q1f",
+      "marker": "f",
+      "variable_note": "CCC borrowing authority is used to issue marketing loans that are repaid (or forfeited) within nine months. Marketing loans require the harvested commodity as collateral and are used most heavily in the autumn, when most commodity crops are being harvested and stored. As a result, significantly more loans are issued than repaid in the first quarter of a fiscal year, resulting in a large net use of CCC borrowing authority during that period.",
+      "source_label": "Net outstanding marketing loans through Q1f",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "AppB_USDAFarmProg_06-2024",
+        "row": 56,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Summary) / Commodity Credit Corporation Price / Support and Related Programsa",
+      "marker": "a",
+      "variable_note": "This is the account for Commodity Credit Corporation price support programs in budget function 350 (agriculture). It includes those activities listed on the following page. It does not include conservation programs. CRP and several conservation programs were added to CCC in 1996, but remain under budget function 300 (natural resources and environment).",
+      "source_label": "Support and Related Programsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 108,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Summary) / Commodity Credit Corporation Price / CCC Conservation Programsb",
+      "marker": "b",
+      "variable_note": "These amounts reflect projected direct spending for conservation programs shown by OMB under the CCC account total.",
+      "source_label": "CCC Conservation Programsb",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 110,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Summary) / Commodity Credit Corporation Price / CCC Totalc",
+      "marker": "c",
+      "variable_note": "This total is consistent with categories included in USDA’s CCC total for budget functions 350 and 300; includes some minor loan program accounts. The fiscal year 2023 total does not reflect $4.7 billion in transfers from the CCC to other agencies.",
+      "source_label": "CCC Totalc",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 112,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Summary) / Commodity Credit Corporation Price / NRCS Conservation Programsd",
+      "marker": "d",
+      "variable_note": "These amounts reflect projected direct spending for conservation programs shown by OMB under the NRCS account.",
+      "source_label": "NRCS Conservation Programsd",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 114,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Summary) / Commodity Credit Corporation Price / Conservation Program Totale",
+      "marker": "e",
+      "variable_note": "This total is the sum of CCC plus NRCS conservation direct spending.",
+      "source_label": "Conservation Program Totale",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 116,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / CCC Charter Act Authoritya",
+      "marker": "a",
+      "variable_note": "This denotes use by USDA of spending authority provided in section 5 of the CCC Charter Act. Spending on export and other noncommodity programs is listed on page 5.",
+      "source_label": "CCC Charter Act Authoritya",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 151,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / FNS Transfersb",
+      "marker": "b",
+      "variable_note": "Outlays are recorded in the recipient accounts.",
+      "source_label": "FNS Transfersb",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 152,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / AMS Transfersb",
+      "marker": "b",
+      "variable_note": "Outlays are recorded in the recipient accounts.",
+      "source_label": "AMS Transfersb",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 153,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / OSEC Transfersb",
+      "marker": "b",
+      "variable_note": "Outlays are recorded in the recipient accounts.",
+      "source_label": "OSEC Transfersb",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 154,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Disaster Payments (Crops and livestock)c",
+      "marker": "c",
+      "variable_note": "Disaster assistance—cash payments only",
+      "source_label": "Disaster Payments (Crops and livestock)c",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 162,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Exportd",
+      "marker": "d",
+      "variable_note": "Export Outlays",
+      "source_label": "Exportd",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 163,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Other Noncommoditye",
+      "marker": "e",
+      "variable_note": "Other Noncommodity Outlays",
+      "source_label": "Other Noncommoditye",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 164,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Net Interestf",
+      "marker": "f",
+      "variable_note": "Interest Outlays",
+      "source_label": "Net Interestf",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 165,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Barley",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Corn",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Dry Peas",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Honey",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Large Chickpeas",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Lentils",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Mohair",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Oats",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Other Oilseeds",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Peanuts",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Rice",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Small Chickpeas",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Sorghum",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Soybeans",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Total Feed Grains",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Total Payments Listed",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Upland Cotton",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Wheat",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Wool",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 351,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Other Payments (Not included above) / Agriculture Risk Coverage—ICa",
+      "marker": "a",
+      "variable_note": "Total payments by commodity do not include Individual Agriculture Risk Coverage payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops.",
+      "source_label": "Agriculture Risk Coverage—ICa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 392,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "FEDERAL CROP INSURANCE CORPORATION / Crop Year Costs / Othera",
+      "marker": "a",
+      "variable_note": "Includes net adjustments from new provisions in the 2018 farm bill.",
+      "source_label": "Othera",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 1111,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Conservation Stewardship Program—2014a / Budget Authority",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A.",
+      "source_label": "Conservation Stewardship Program—2014a",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 1178,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Conservation Stewardship Program—2014a / Outlays",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A.",
+      "source_label": "Conservation Stewardship Program—2014a",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 1178,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Conservation Stewardship Program—2018a / Budget Authority",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A.",
+      "source_label": "Conservation Stewardship Program—2018a",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 1181,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Conservation Stewardship Program—2018a / Outlays",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A.",
+      "source_label": "Conservation Stewardship Program—2018a",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 1181,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Environmental Quality Incentives Programa / Budget Authority",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A.",
+      "source_label": "Environmental Quality Incentives Programa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 1184,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Environmental Quality Incentives Programa / Outlays",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A.",
+      "source_label": "Environmental Quality Incentives Programa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 1184,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Agricultural Conservation Easement Programa / Budget Authority",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A.",
+      "source_label": "Agricultural Conservation Easement Programa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 1187,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Agricultural Conservation Easement Programa / Outlays",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A.",
+      "source_label": "Agricultural Conservation Easement Programa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 1187,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Regional Conservation Partnership Programa / Budget Authority",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A.",
+      "source_label": "Regional Conservation Partnership Programa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 1190,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Regional Conservation Partnership Programa / Outlays",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A.",
+      "source_label": "Regional Conservation Partnership Programa",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 1190,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Other Programsb / Budget Authority",
+      "marker": "b",
+      "variable_note": "Includes spending on the Emergency Forestry Conservation Reserve Program, programs repealed by the 2014 farm bill, Grassroots Source Water Protection, Feral Swine Eradication, Conservation User Fees, and transfer of amounts to the Farm Production and Conservation Business Center.",
+      "source_label": "Other Programsb",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 1205,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Other Programsb / Outlays",
+      "marker": "b",
+      "variable_note": "Includes spending on the Emergency Forestry Conservation Reserve Program, programs repealed by the 2014 farm bill, Grassroots Source Water Protection, Feral Swine Eradication, Conservation User Fees, and transfer of amounts to the Farm Production and Conservation Business Center.",
+      "source_label": "Other Programsb",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 1205,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Announced Sequestrationc / Budget Authority",
+      "marker": "c",
+      "variable_note": "The Budget Control Act of 2011 requires the annual sequestration of nonexempt mandatory spending programs. OMB determines which accounts are subject to reductions under that law. OMB has determined that USDA conservation programs in budget function 300 are subject to sequestration; budget authority is reduced by 5.7 percent to reflect that determination.",
+      "source_label": "Announced Sequestrationc",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 1208,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Announced Sequestrationc / Outlays",
+      "marker": "c",
+      "variable_note": "The Budget Control Act of 2011 requires the annual sequestration of nonexempt mandatory spending programs. OMB determines which accounts are subject to reductions under that law. OMB has determined that USDA conservation programs in budget function 300 are subject to sequestration; budget authority is reduced by 5.7 percent to reflect that determination.",
+      "source_label": "Announced Sequestrationc",
+      "source": {
+        "file": "51317-2024-06-usda.xlsx",
+        "sheet": "USDA_FarmProgBaseline_06-2024",
+        "row": 1208,
+        "column": 1
+      }
+    }
+  ]
+}

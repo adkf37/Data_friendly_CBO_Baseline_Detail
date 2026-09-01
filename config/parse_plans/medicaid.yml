@@ -1,0 +1,189 @@
+workbooks:
+- workbook: 51301-2019-05-Medicaid.xlsx
+  sheets:
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: medicaid_2019_05
+    verification_target: cbo-medicaid-2019-05
+    header_rows: 1-16
+    first_data_row: 17
+    year_column_strategy: column_index
+    year_columns:
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    unit: 2019-2029 (Percent)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51301-2020-03-medicaid.xlsx
+  sheets:
+  - sheet: Medicaid
+    classification: data
+    include: true
+    output_dataset: medicaid_2020_03
+    verification_target: cbo-medicaid-2020-03
+    header_rows: 1-16
+    first_data_row: 17
+    year_column_strategy: column_index
+    year_columns:
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    unit: 2020-2030 (Percent)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51301-2021-07-medicaid.xlsx
+  sheets:
+  - sheet: Medicaid_07-2021
+    classification: data
+    include: true
+    output_dataset: medicaid_2021_07
+    verification_target: cbo-medicaid-2021-07
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51301-2022-05-medicaid.xlsx
+  sheets:
+  - sheet: Medicaid_05-2022
+    classification: data
+    include: true
+    output_dataset: medicaid_2022_05
+    verification_target: cbo-medicaid-2022-05
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: By Fiscal Year, Billions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51301-2023-05-medicaid.xlsx
+  sheets:
+  - sheet: Medicaid_05-2023
+    classification: data
+    include: true
+    output_dataset: medicaid_2023_05
+    verification_target: cbo-medicaid-2023-05
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: By Fiscal Year, Billions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51301-2024-06-medicaid.xlsx
+  sheets:
+  - sheet: Medicaid_06-2024-rev
+    classification: data
+    include: true
+    output_dataset: medicaid_2024_06
+    verification_target: cbo-medicaid-2024-06
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51301-2026-02-medicaid.xlsx
+  sheets:
+  - sheet: Medicaid_02-2026
+    classification: data
+    include: true
+    output_dataset: medicaid_2026_02
+    verification_target: cbo-medicaid-2026-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split

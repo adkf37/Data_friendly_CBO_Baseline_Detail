@@ -1,0 +1,66 @@
+{
+  "dataset": "post_911_gi_bill",
+  "program_id": "53726",
+  "program": "Post-9/11 GI Bill",
+  "vintage": "2023-05",
+  "data_file": "baseline_2023-05.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "f2868132a30828fb8f8e190328c01f1864c7b026a1fb80399304f015d960c910",
+  "row_count": 55,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2023,
+    "end_year": 2033
+  },
+  "period_coverage": {
+    "start_year": 2023,
+    "end_year": 2033
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "53726-2023-05-post911gibill.xlsx"
+  ],
+  "source_sheets": [
+    "Post911_0x-2023"
+  ],
+  "units": [
+    "Dollars",
+    "Millions of dollars"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Post-9/11 GI Bill Benefits / BUDGET INFORMATION / Adjustment for Timing Shiftsa",
+      "marker": "a",
+      "variable_note": "The Department of Veterans Affairs makes certain payments under the Post-9/11 GI Bill (housing allowances and supplementary benefits) to beneficiaries on the first day of the month. If the first day of the month occurs on a weekend or holiday, the department will make the payments on the preceding business day. When this occurs in October (the beginning of the fiscal year), the payment is made at the end of September (in the preceding fiscal year). This results in shifting the October payments in fiscal years 2023, 2024, 2029, and 2034 backward into fiscal years 2022, 2023, 2028, and 2033, respectively.",
+      "source_label": "Adjustment for Timing Shiftsa",
+      "source": {
+        "file": "53726-2023-05-post911gibill.xlsx",
+        "sheet": "Post911_0x-2023",
+        "row": 14,
+        "column": 1
+      }
+    }
+  ]
+}

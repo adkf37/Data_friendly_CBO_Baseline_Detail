@@ -1,0 +1,281 @@
+workbooks:
+- workbook: 53725-2019-05-Veterans.xlsx
+  sheets:
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: veterans_2019_05
+    verification_target: cbo-veterans-2019-05
+    header_rows: 1-9
+    first_data_row: 10
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Average Annual Benefit (Dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 2
+    classification: data
+    include: true
+    output_dataset: veterans_2019_05
+    verification_target: cbo-veterans-2019-05
+    header_rows: 1-9
+    first_data_row: 10
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Average Annual Benefit (Dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 53725-2020-01-veteransbenefit.xlsx
+  sheets:
+  - sheet: Veterans Compensation
+    classification: data
+    include: true
+    output_dataset: veteransbenefit_2020_01
+    verification_target: cbo-veteransbenefit-2020-01
+    header_rows: 1-9
+    first_data_row: 10
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Average Annual Benefit (Dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Veterans Pensions
+    classification: data
+    include: true
+    output_dataset: veteransbenefit_2020_01
+    verification_target: cbo-veteransbenefit-2020-01
+    header_rows: 1-9
+    first_data_row: 10
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Average Annual Benefit (Dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 53725-2020-03-veteransbenefit.xlsx
+  sheets:
+  - sheet: Compensation
+    classification: data
+    include: true
+    output_dataset: veteransbenefit_2020_03
+    verification_target: cbo-veteransbenefit-2020-03
+    header_rows: 1-9
+    first_data_row: 10
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Average Annual Benefit (Dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Pension
+    classification: data
+    include: true
+    output_dataset: veteransbenefit_2020_03
+    verification_target: cbo-veteransbenefit-2020-03
+    header_rows: 1-9
+    first_data_row: 10
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Average Annual Benefit (Dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 53725-2021-02-veteransbenefit..xlsx
+  sheets:
+  - sheet: Veterans' C&P_2-2021
+    classification: data
+    include: true
+    output_dataset: veteransbenefit_2021_02
+    verification_target: cbo-veteransbenefit-2021-02
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 53725-2022-05-veteransbenefit.xlsx
+  sheets:
+  - sheet: Veterans' C&P_05-2022
+    classification: data
+    include: true
+    output_dataset: veteransbenefit_2022_05
+    verification_target: cbo-veteransbenefit-2022-05
+    header_rows: 1-27
+    first_data_row: 28
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 53725-2023-05-veteransbenefit.xlsx
+  sheets:
+  - sheet: Veterans' C&P_05-2023
+    classification: data
+    include: true
+    output_dataset: veteransbenefit_2023_05
+    verification_target: cbo-veteransbenefit-2023-05
+    header_rows: 1-27
+    first_data_row: 28
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 53725-2024-02-veteransbenefit.xlsx
+  sheets:
+  - sheet: Veterans' C&P_02-2024
+    classification: data
+    include: true
+    output_dataset: veteransbenefit_2024_02
+    verification_target: cbo-veteransbenefit-2024-02
+    header_rows: 1-27
+    first_data_row: 28
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 53725-2025-01-veteransbenefit.xlsx
+  sheets:
+  - sheet: Veterans' C&P_01-2025
+    classification: data
+    include: true
+    output_dataset: veteransbenefit_2025_01
+    verification_target: cbo-veteransbenefit-2025-01
+    header_rows: 1-20
+    first_data_row: 21
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split

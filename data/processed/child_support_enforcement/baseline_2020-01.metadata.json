@@ -1,0 +1,52 @@
+{
+  "dataset": "child_support_enforcement",
+  "program_id": "51295",
+  "program": "Child Support Enforcement",
+  "vintage": "2020-01",
+  "data_file": "baseline_2020-01.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "e9e26413b113934935b984d9c3a0508d7bacfe7ea80f7971e83b6e2eeac2b250",
+  "row_count": 55,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2020,
+    "end_year": 2030
+  },
+  "period_coverage": {
+    "start_year": 2020,
+    "end_year": 2030
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51295-2020-01-childsupportenforcement.xlsx"
+  ],
+  "source_sheets": [
+    "Child Support Collections"
+  ],
+  "units": [
+    "Millions of dollars"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": []
+}

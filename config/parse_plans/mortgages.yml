@@ -1,0 +1,210 @@
+workbooks:
+- workbook: 51297-2019-05-Mortgages.xlsx
+  sheets:
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: mortgages_2019_05
+    verification_target: cbo-mortgages-2019-05
+    header_rows: 1-6
+    first_data_row: 7
+    year_column_strategy: column_index
+    year_columns:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Millions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51297-2020-01-mortgages.xlsx
+  sheets:
+  - sheet: Mortgage Guarantees
+    classification: data
+    include: true
+    output_dataset: mortgages_2020_01
+    verification_target: cbo-mortgages-2020-01
+    header_rows: 1-7
+    first_data_row: 8
+    year_column_strategy: column_index
+    year_columns:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Millions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51297-2020-03-mortgages.xlsx
+  sheets:
+  - sheet: Mortgage Programs
+    classification: data
+    include: true
+    output_dataset: mortgages_2020_03
+    verification_target: cbo-mortgages-2020-03
+    header_rows: 1-7
+    first_data_row: 8
+    year_column_strategy: column_index
+    year_columns:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Millions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51297-2021-02-mortgages.xlsx
+  sheets:
+  - sheet: Mortgage Progs_2-2021
+    classification: data
+    include: true
+    output_dataset: mortgages_2021_02
+    verification_target: cbo-mortgages-2021-02
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51297-2021-07-mortgages.xlsx
+  sheets:
+  - sheet: Mortgages_07-2021
+    classification: data
+    include: true
+    output_dataset: mortgages_2021_07
+    verification_target: cbo-mortgages-2021-07
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51297-2022-05-mortgages_0.xlsx
+  sheets:
+  - sheet: Mortgages_0x-2022
+    classification: data
+    include: true
+    output_dataset: mortgages_0_2022_05
+    verification_target: cbo-mortgages-0-2022-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51297-2023-05-mortgages.xlsx
+  sheets:
+  - sheet: Mortgages_05-2023
+    classification: data
+    include: true
+    output_dataset: mortgages_2023_05
+    verification_target: cbo-mortgages-2023-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51297-2024-06-mortgages.xlsx
+  sheets:
+  - sheet: Mortgages_06-2024
+    classification: data
+    include: true
+    output_dataset: mortgages_2024_06
+    verification_target: cbo-mortgages-2024-06
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split

@@ -1,0 +1,56 @@
+workbooks:
+- workbook: 60523-2024-07-premium-tax-credit.xlsx
+  sheets:
+  - sheet: PTC_07-2024
+    classification: data
+    include: true
+    output_dataset: premium_tax_credit_2024_07
+    verification_target: cbo-premium-tax-credit-2024-07
+    header_rows: 1-29
+    first_data_row: 30
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 60523-2026-02-premium-tax-credit.xlsx
+  sheets:
+  - sheet: PTC_02-2026
+    classification: data
+    include: true
+    output_dataset: premium_tax_credit_2026_02
+    verification_target: cbo-premium-tax-credit-2026-02
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout

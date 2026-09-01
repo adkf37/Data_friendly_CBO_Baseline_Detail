@@ -1,0 +1,247 @@
+{
+  "dataset": "premium_tax_credit",
+  "program_id": "60523",
+  "program": "Premium Tax Credit",
+  "vintage": "2026-02",
+  "data_file": "baseline_2026-02.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "79fd4537dd8a3f6c2fd1ec5411629f2be004abe0999fee97299ecde8bd9e8a99",
+  "row_count": 144,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2026,
+    "end_year": 2036
+  },
+  "period_coverage": {
+    "start_year": 2026,
+    "end_year": 2036
+  },
+  "period_types": [
+    "cumulative_fiscal_years",
+    "fiscal_year"
+  ],
+  "source_files": [
+    "60523-2026-02-premium-tax-credit.xlsx"
+  ],
+  "source_sheets": [
+    "PTC_02-2026"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Millions of people"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Premium Tax Credit and Related Spending / Outlays for the premium tax credita",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "Outlays for the premium tax credita",
+      "source": {
+        "file": "60523-2026-02-premium-tax-credit.xlsx",
+        "sheet": "PTC_02-2026",
+        "row": 14,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Premium Tax Credit and Related Spending / Revenue reductions from the premium tax credita",
+      "marker": "a",
+      "variable_note": "Estimates are preliminary and subject to revision.",
+      "source_label": "Revenue reductions from the premium tax credita",
+      "source": {
+        "file": "60523-2026-02-premium-tax-credit.xlsx",
+        "sheet": "PTC_02-2026",
+        "row": 15,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Premium Tax Credit and Related Spending / Basic Health Programb, c / Collections for risk adjustmentd",
+      "marker": "b",
+      "variable_note": "Section 1332 of the ACA allows states to apply for federal waivers for some of the act’s rules governing insurance markets and to receive federal assistance in paying for programs that offer health insurance. To obtain a waiver, a state’s proposal must be budget neutral and must provide insurance coverage that is comparable to coverage required by the ACA.",
+      "source_label": "Basic Health Programb, c",
+      "source": {
+        "file": "60523-2026-02-premium-tax-credit.xlsx",
+        "sheet": "PTC_02-2026",
+        "row": 17,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Premium Tax Credit and Related Spending / Basic Health Programb, c / Collections for risk adjustmentd",
+      "marker": "c",
+      "variable_note": "The Basic Health Program allows states to establish a coverage program primarily for people whose income is between 138 percent and 200 percent of the federal poverty level. The federal government provides states with funding equal to 95 percent of the amount in subsidies for which enrollees would otherwise have been eligible through a marketplace. Only the District of Columbia, Minnesota, and Oregon currently operate such programs. Estimates include enrollment in New York’s Essential Plan, which is funded through a section 1332 waiver and mirrors the Basic Health Program, with eligibility up to 250 percent of the federal poverty level. New York’s Essential Plan is anticipated to transition to the Basic Health Program in 2026.",
+      "source_label": "Basic Health Programb, c",
+      "source": {
+        "file": "60523-2026-02-premium-tax-credit.xlsx",
+        "sheet": "PTC_02-2026",
+        "row": 17,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Premium Tax Credit and Related Spending / Basic Health Programb, c / Payments for risk adjustmentd",
+      "marker": "b",
+      "variable_note": "Section 1332 of the ACA allows states to apply for federal waivers for some of the act’s rules governing insurance markets and to receive federal assistance in paying for programs that offer health insurance. To obtain a waiver, a state’s proposal must be budget neutral and must provide insurance coverage that is comparable to coverage required by the ACA.",
+      "source_label": "Basic Health Programb, c",
+      "source": {
+        "file": "60523-2026-02-premium-tax-credit.xlsx",
+        "sheet": "PTC_02-2026",
+        "row": 17,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Premium Tax Credit and Related Spending / Basic Health Programb, c / Payments for risk adjustmentd",
+      "marker": "c",
+      "variable_note": "The Basic Health Program allows states to establish a coverage program primarily for people whose income is between 138 percent and 200 percent of the federal poverty level. The federal government provides states with funding equal to 95 percent of the amount in subsidies for which enrollees would otherwise have been eligible through a marketplace. Only the District of Columbia, Minnesota, and Oregon currently operate such programs. Estimates include enrollment in New York’s Essential Plan, which is funded through a section 1332 waiver and mirrors the Basic Health Program, with eligibility up to 250 percent of the federal poverty level. New York’s Essential Plan is anticipated to transition to the Basic Health Program in 2026.",
+      "source_label": "Basic Health Programb, c",
+      "source": {
+        "file": "60523-2026-02-premium-tax-credit.xlsx",
+        "sheet": "PTC_02-2026",
+        "row": 17,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Premium Tax Credit and Related Spending / Basic Health Programb, c / Total",
+      "marker": "b",
+      "variable_note": "Section 1332 of the ACA allows states to apply for federal waivers for some of the act’s rules governing insurance markets and to receive federal assistance in paying for programs that offer health insurance. To obtain a waiver, a state’s proposal must be budget neutral and must provide insurance coverage that is comparable to coverage required by the ACA.",
+      "source_label": "Basic Health Programb, c",
+      "source": {
+        "file": "60523-2026-02-premium-tax-credit.xlsx",
+        "sheet": "PTC_02-2026",
+        "row": 17,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Premium Tax Credit and Related Spending / Basic Health Programb, c / Total",
+      "marker": "c",
+      "variable_note": "The Basic Health Program allows states to establish a coverage program primarily for people whose income is between 138 percent and 200 percent of the federal poverty level. The federal government provides states with funding equal to 95 percent of the amount in subsidies for which enrollees would otherwise have been eligible through a marketplace. Only the District of Columbia, Minnesota, and Oregon currently operate such programs. Estimates include enrollment in New York’s Essential Plan, which is funded through a section 1332 waiver and mirrors the Basic Health Program, with eligibility up to 250 percent of the federal poverty level. New York’s Essential Plan is anticipated to transition to the Basic Health Program in 2026.",
+      "source_label": "Basic Health Programb, c",
+      "source": {
+        "file": "60523-2026-02-premium-tax-credit.xlsx",
+        "sheet": "PTC_02-2026",
+        "row": 17,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Premium Tax Credit and Related Spending / Basic Health Programb, c / Collections for risk adjustmentd",
+      "marker": "d",
+      "variable_note": "The risk adjustment program is intended to stabilize premiums in the nongroup and small-group markets. The federal government collects fees from insurers with enrollees who are relatively more healthy and makes roughly offsetting payments to insurers with enrollees who are relatively less healthy.",
+      "source_label": "Collections for risk adjustmentd",
+      "source": {
+        "file": "60523-2026-02-premium-tax-credit.xlsx",
+        "sheet": "PTC_02-2026",
+        "row": 18,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Premium Tax Credit and Related Spending / Basic Health Programb, c / Payments for risk adjustmentd",
+      "marker": "d",
+      "variable_note": "The risk adjustment program is intended to stabilize premiums in the nongroup and small-group markets. The federal government collects fees from insurers with enrollees who are relatively more healthy and makes roughly offsetting payments to insurers with enrollees who are relatively less healthy.",
+      "source_label": "Payments for risk adjustmentd",
+      "source": {
+        "file": "60523-2026-02-premium-tax-credit.xlsx",
+        "sheet": "PTC_02-2026",
+        "row": 19,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Premium Tax Credit and Related Spending / Enrollment Through ACA Marketplacese / Basic Health Program Enrollmentc",
+      "marker": "e",
+      "variable_note": "The marketplaces established under the ACA are operated by the federal government, state governments, or partnerships between the two.",
+      "source_label": "Enrollment Through ACA Marketplacese",
+      "source": {
+        "file": "60523-2026-02-premium-tax-credit.xlsx",
+        "sheet": "PTC_02-2026",
+        "row": 26,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Premium Tax Credit and Related Spending / Enrollment Through ACA Marketplacese / Subsidized",
+      "marker": "e",
+      "variable_note": "The marketplaces established under the ACA are operated by the federal government, state governments, or partnerships between the two.",
+      "source_label": "Enrollment Through ACA Marketplacese",
+      "source": {
+        "file": "60523-2026-02-premium-tax-credit.xlsx",
+        "sheet": "PTC_02-2026",
+        "row": 26,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Premium Tax Credit and Related Spending / Enrollment Through ACA Marketplacese / Total, Enrollment Through ACA Marketplaces",
+      "marker": "e",
+      "variable_note": "The marketplaces established under the ACA are operated by the federal government, state governments, or partnerships between the two.",
+      "source_label": "Enrollment Through ACA Marketplacese",
+      "source": {
+        "file": "60523-2026-02-premium-tax-credit.xlsx",
+        "sheet": "PTC_02-2026",
+        "row": 26,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Premium Tax Credit and Related Spending / Enrollment Through ACA Marketplacese / Unsubsidized",
+      "marker": "e",
+      "variable_note": "The marketplaces established under the ACA are operated by the federal government, state governments, or partnerships between the two.",
+      "source_label": "Enrollment Through ACA Marketplacese",
+      "source": {
+        "file": "60523-2026-02-premium-tax-credit.xlsx",
+        "sheet": "PTC_02-2026",
+        "row": 26,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Premium Tax Credit and Related Spending / Enrollment Through ACA Marketplacese / Basic Health Program Enrollmentc",
+      "marker": "c",
+      "variable_note": "The Basic Health Program allows states to establish a coverage program primarily for people whose income is between 138 percent and 200 percent of the federal poverty level. The federal government provides states with funding equal to 95 percent of the amount in subsidies for which enrollees would otherwise have been eligible through a marketplace. Only the District of Columbia, Minnesota, and Oregon currently operate such programs. Estimates include enrollment in New York’s Essential Plan, which is funded through a section 1332 waiver and mirrors the Basic Health Program, with eligibility up to 250 percent of the federal poverty level. New York’s Essential Plan is anticipated to transition to the Basic Health Program in 2026.",
+      "source_label": "Basic Health Program Enrollmentc",
+      "source": {
+        "file": "60523-2026-02-premium-tax-credit.xlsx",
+        "sheet": "PTC_02-2026",
+        "row": 31,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Premium Tax Credit and Related Spending / Nationwide Average Annual Benchmark Premium for a / 21-Year-Old ACA Marketplace Enrolleef",
+      "marker": "f",
+      "variable_note": "The premium for a 21-year-old is used in determining the maximum premium variation allowed by age. (Premiums for a 64-year-old may not exceed three times the premium for a 21-year-old.)",
+      "source_label": "21-Year-Old ACA Marketplace Enrolleef",
+      "source": {
+        "file": "60523-2026-02-premium-tax-credit.xlsx",
+        "sheet": "PTC_02-2026",
+        "row": 38,
+        "column": 2
+      }
+    }
+  ]
+}

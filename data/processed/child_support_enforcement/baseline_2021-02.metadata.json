@@ -1,0 +1,54 @@
+{
+  "dataset": "child_support_enforcement",
+  "program_id": "51295",
+  "program": "Child Support Enforcement",
+  "vintage": "2021-02",
+  "data_file": "baseline_2021-02.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "db37c0ec642262e8965309d879c5c28d5a7df22f0bc4850351dfeff4ce8f24a4",
+  "row_count": 88,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51295-2021-02-childsupportenforcement.xlsx"
+  ],
+  "source_sheets": [
+    "1-CSE_2-2021"
+  ],
+  "units": [
+    "Dollars per participant",
+    "Millions of dollars",
+    "Millions of people"
+  ],
+  "contains_totals": false,
+  "aggregation_note": null,
+  "annotations": []
+}

@@ -1,0 +1,199 @@
+{
+  "dataset": "medicaid",
+  "program_id": "51301",
+  "program": "Medicaid",
+  "vintage": "2026-02",
+  "data_file": "baseline_2026-02.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "3bebd735651b1d143f1fca4d2bb4268a9f00729da4f2e960a01a37e34cbf128d",
+  "row_count": 336,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2025,
+    "end_year": 2036
+  },
+  "period_coverage": {
+    "start_year": 2025,
+    "end_year": 2036
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51301-2026-02-medicaid.xlsx"
+  ],
+  "source_sheets": [
+    "Medicaid_02-2026"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Dollars per enrollee",
+    "Millions of people"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Medicaid / BUDGET INFORMATION / Estimated Outlaysa",
+      "marker": "a",
+      "variable_note": "On average, before fiscal year 2014, federal Medicaid payments represented approximately 57 percent of total Medicaid payments. The ACA, which expanded Medicaid coverage starting in 2014, provides enhanced federal matching rates for services to people made eligible by that act, leading to a federal share for all Medicaid payments of about 63 percent, on average.",
+      "source_label": "Estimated Outlaysa",
+      "source": {
+        "file": "51301-2026-02-medicaid.xlsx",
+        "sheet": "Medicaid_02-2026",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults Made Eligible by the ACA",
+      "marker": "b",
+      "variable_note": "These figures represent the number of beneficiaries with full and partial benefits who are enrolled on an average monthly basis. The total number of people enrolled in Medicaid for any length of time during the fiscal year is shown in the memorandum line.",
+      "source_label": "Average Monthly Enrollment by Eligibility Category (Millions of people)b",
+      "source": {
+        "file": "51301-2026-02-medicaid.xlsx",
+        "sheet": "Medicaid_02-2026",
+        "row": 41,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults in Traditional Eligibility Categories",
+      "marker": "b",
+      "variable_note": "These figures represent the number of beneficiaries with full and partial benefits who are enrolled on an average monthly basis. The total number of people enrolled in Medicaid for any length of time during the fiscal year is shown in the memorandum line.",
+      "source_label": "Average Monthly Enrollment by Eligibility Category (Millions of people)b",
+      "source": {
+        "file": "51301-2026-02-medicaid.xlsx",
+        "sheet": "Medicaid_02-2026",
+        "row": 41,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Aged",
+      "marker": "b",
+      "variable_note": "These figures represent the number of beneficiaries with full and partial benefits who are enrolled on an average monthly basis. The total number of people enrolled in Medicaid for any length of time during the fiscal year is shown in the memorandum line.",
+      "source_label": "Average Monthly Enrollment by Eligibility Category (Millions of people)b",
+      "source": {
+        "file": "51301-2026-02-medicaid.xlsx",
+        "sheet": "Medicaid_02-2026",
+        "row": 41,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Blind and Disabled",
+      "marker": "b",
+      "variable_note": "These figures represent the number of beneficiaries with full and partial benefits who are enrolled on an average monthly basis. The total number of people enrolled in Medicaid for any length of time during the fiscal year is shown in the memorandum line.",
+      "source_label": "Average Monthly Enrollment by Eligibility Category (Millions of people)b",
+      "source": {
+        "file": "51301-2026-02-medicaid.xlsx",
+        "sheet": "Medicaid_02-2026",
+        "row": 41,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Children",
+      "marker": "b",
+      "variable_note": "These figures represent the number of beneficiaries with full and partial benefits who are enrolled on an average monthly basis. The total number of people enrolled in Medicaid for any length of time during the fiscal year is shown in the memorandum line.",
+      "source_label": "Average Monthly Enrollment by Eligibility Category (Millions of people)b",
+      "source": {
+        "file": "51301-2026-02-medicaid.xlsx",
+        "sheet": "Medicaid_02-2026",
+        "row": 41,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Total",
+      "marker": "b",
+      "variable_note": "These figures represent the number of beneficiaries with full and partial benefits who are enrolled on an average monthly basis. The total number of people enrolled in Medicaid for any length of time during the fiscal year is shown in the memorandum line.",
+      "source_label": "Average Monthly Enrollment by Eligibility Category (Millions of people)b",
+      "source": {
+        "file": "51301-2026-02-medicaid.xlsx",
+        "sheet": "Medicaid_02-2026",
+        "row": 41,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults Made Eligible by the ACA",
+      "marker": "c",
+      "variable_note": "These figures are based on the annual cost for enrollees who receive any Medicaid benefit—including those who receive only partial Medicaid benefits, such as family planning services or assistance with Medicare cost sharing and premiums.",
+      "source_label": "Average Federal Spending on Benefit Payments per Enrollee (Dollars)c",
+      "source": {
+        "file": "51301-2026-02-medicaid.xlsx",
+        "sheet": "Medicaid_02-2026",
+        "row": 53,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults in Traditional Eligibility Categories",
+      "marker": "c",
+      "variable_note": "These figures are based on the annual cost for enrollees who receive any Medicaid benefit—including those who receive only partial Medicaid benefits, such as family planning services or assistance with Medicare cost sharing and premiums.",
+      "source_label": "Average Federal Spending on Benefit Payments per Enrollee (Dollars)c",
+      "source": {
+        "file": "51301-2026-02-medicaid.xlsx",
+        "sheet": "Medicaid_02-2026",
+        "row": 53,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Aged",
+      "marker": "c",
+      "variable_note": "These figures are based on the annual cost for enrollees who receive any Medicaid benefit—including those who receive only partial Medicaid benefits, such as family planning services or assistance with Medicare cost sharing and premiums.",
+      "source_label": "Average Federal Spending on Benefit Payments per Enrollee (Dollars)c",
+      "source": {
+        "file": "51301-2026-02-medicaid.xlsx",
+        "sheet": "Medicaid_02-2026",
+        "row": 53,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Blind and Disabled",
+      "marker": "c",
+      "variable_note": "These figures are based on the annual cost for enrollees who receive any Medicaid benefit—including those who receive only partial Medicaid benefits, such as family planning services or assistance with Medicare cost sharing and premiums.",
+      "source_label": "Average Federal Spending on Benefit Payments per Enrollee (Dollars)c",
+      "source": {
+        "file": "51301-2026-02-medicaid.xlsx",
+        "sheet": "Medicaid_02-2026",
+        "row": 53,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Children",
+      "marker": "c",
+      "variable_note": "These figures are based on the annual cost for enrollees who receive any Medicaid benefit—including those who receive only partial Medicaid benefits, such as family planning services or assistance with Medicare cost sharing and premiums.",
+      "source_label": "Average Federal Spending on Benefit Payments per Enrollee (Dollars)c",
+      "source": {
+        "file": "51301-2026-02-medicaid.xlsx",
+        "sheet": "Medicaid_02-2026",
+        "row": 53,
+        "column": 1
+      }
+    }
+  ]
+}

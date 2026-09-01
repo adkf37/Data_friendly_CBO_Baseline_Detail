@@ -1,0 +1,53 @@
+{
+  "dataset": "customs_fees",
+  "program_id": "61170",
+  "program": "Customs Fees",
+  "vintage": "2025-01",
+  "data_file": "baseline_2025-01.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "c449ad72b447267694289c3ec45ebc1fd9cacacec745d8a773c228dfdc1d2a28",
+  "row_count": 48,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2025,
+    "end_year": 2035
+  },
+  "period_coverage": {
+    "start_year": 2025,
+    "end_year": 2035
+  },
+  "period_types": [
+    "cumulative_fiscal_years",
+    "fiscal_year"
+  ],
+  "source_files": [
+    "61170-2025-01-customs-fees.xlsx"
+  ],
+  "source_sheets": [
+    "Customs Fees Baseline 01-2025"
+  ],
+  "units": [
+    "Millions of dollars"
+  ],
+  "contains_totals": false,
+  "aggregation_note": null,
+  "annotations": []
+}

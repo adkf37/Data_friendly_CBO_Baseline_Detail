@@ -1,0 +1,114 @@
+{
+  "dataset": "railroad_retirement",
+  "program_id": "51306",
+  "program": "Railroad Retirement",
+  "vintage": "2026-02",
+  "data_file": "baseline_2026-02.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "3cf562b4331a62a425e46c5916855bfe4ff42a6b376ba4050475d936aedb503d",
+  "row_count": 66,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2026,
+    "end_year": 2036
+  },
+  "period_coverage": {
+    "start_year": 2026,
+    "end_year": 2036
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51306-2026-02-railroadretirement.xlsx"
+  ],
+  "source_sheets": [
+    "RailroadRetirement_02-2026"
+  ],
+  "units": [
+    "Millions of dollars",
+    "Number of beneficiaries"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Railroad Retirement / BUDGET INFORMATION / Tier Ia",
+      "marker": "a",
+      "variable_note": "Tier I benefits are based on time in covered railroad service and employment covered by Social Security. Benefits are adjusted each year by the full Social Security cost-of-living adjustment (COLA).",
+      "source_label": "Tier Ia",
+      "source": {
+        "file": "51306-2026-02-railroadretirement.xlsx",
+        "sheet": "RailroadRetirement_02-2026",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Railroad Retirement / BUDGET INFORMATION / Tier IIb",
+      "marker": "b",
+      "variable_note": "Tier II benefits are for covered railroad service only. Benefits are adjusted each year by 32.5 percent of the annual Social Security COLA.",
+      "source_label": "Tier IIb",
+      "source": {
+        "file": "51306-2026-02-railroadretirement.xlsx",
+        "sheet": "RailroadRetirement_02-2026",
+        "row": 14,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Railroad Retirement / BUDGET INFORMATION / Supplemental Benefitsc",
+      "marker": "c",
+      "variable_note": "Supplemental benefits are for certain retirees who were hired before October 1981 and are not subject to COLAs.",
+      "source_label": "Supplemental Benefitsc",
+      "source": {
+        "file": "51306-2026-02-railroadretirement.xlsx",
+        "sheet": "RailroadRetirement_02-2026",
+        "row": 15,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Railroad Retirement / BUDGET INFORMATION / Vested Dual Benefitsd",
+      "marker": "d",
+      "variable_note": "Vested dual benefits are for certain retirees who were vested both in railroad retirement and in Social Security when railroad retirement benefits were restructured in 1974 and are not subject to COLAs. Outlays for those benefits are classified as discretionary spending.",
+      "source_label": "Vested Dual Benefitsd",
+      "source": {
+        "file": "51306-2026-02-railroadretirement.xlsx",
+        "sheet": "RailroadRetirement_02-2026",
+        "row": 16,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Railroad Retirement / BENEFICIARY INFORMATION",
+      "marker": "e",
+      "variable_note": "Railroad retirement annuitants may receive multiple components of benefits. This row shows the number of beneficiaries who receive at least one component, but with each beneficiary counted only once.",
+      "source_label": "Number of Beneficiariese",
+      "source": {
+        "file": "51306-2026-02-railroadretirement.xlsx",
+        "sheet": "RailroadRetirement_02-2026",
+        "row": 21,
+        "column": 1
+      }
+    }
+  ]
+}

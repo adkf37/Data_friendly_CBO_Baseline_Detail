@@ -18,6 +18,15 @@ from dataclasses import dataclass
 import yaml
 from openpyxl import load_workbook
 
+from etl.config import (
+    DATASETS_BY_PROGRAM_ID,
+    PARSE_PLANS_DIR,
+    get_output_path,
+    iter_parse_plan_files,
+)
+from etl.datasets.usda import HIERARCHY_COLUMNS as USDA_HIERARCHY_COLUMNS
+from etl.datasets.usda import split_hierarchy as _usda_hierarchy
+
 YEAR_RE = re.compile(r"(19|20)\d{2}")
 NUMBER_RE = re.compile(r"^\(?[$]?\s*[-+]?\d[\d,]*(?:\.\d+)?\)?$")
 # Strict pattern for fiscal-year column header cells.  The year must be the
@@ -130,7 +139,6 @@ OUTPUT_COLUMNS = [
     "source_row",
     "source_column",
 ]
-USDA_HIERARCHY_COLUMNS = ["table_title", "section", "subsection"]
 _CATEGORY_PATH_INDEX = OUTPUT_COLUMNS.index("category_path") + 1
 USDA_OUTPUT_COLUMNS = (
     OUTPUT_COLUMNS[:_CATEGORY_PATH_INDEX]
@@ -140,36 +148,8 @@ USDA_OUTPUT_COLUMNS = (
 
 
 CANONICAL_PROGRAMS = {
-    "51293": "Child Nutrition",
-    "51295": "Child Support Enforcement",
-    "51296": "CHIP",
-    "51297": "Mortgages",
-    "51298": "Health Insurance",
-    "51299": "Foster Care",
-    "51300": "Highway Trust Fund",
-    "51301": "Medicaid",
-    "51302": "Medicare",
-    "51303": "Military Retirement",
-    "51304": "Pell Grant",
-    "51305": "PBGC",
-    "51306": "Railroad Retirement",
-    "51307": "SSDI",
-    "51308": "Social Security",
-    "51309": "Social Security Trust Funds",
-    "51310": "Student Loans",
-    "51312": "SNAP",
-    "51313": "SSI",
-    "51314": "TANF",
-    "51316": "Unemployment Insurance",
-    "51317": "USDA Farm Programs",
-    "53725": "Veterans Benefits",
-    "53726": "Post-9/11 GI Bill",
-    "54946": "DoD Medicare",
-    "59126": "Airport and Airway Trust Fund",
-    "60044": "Toxic Exposures Fund",
-    "60394": "FDIC",
-    "60523": "Premium Tax Credit",
-    "61170": "Customs Fees",
+    program_id: dataset.title
+    for program_id, dataset in DATASETS_BY_PROGRAM_ID.items()
 }
 
 
@@ -730,26 +710,27 @@ def _find_sheet(sheetnames: list[str], target: str) -> str | None:
 
 
 def _read_plan(path: Path) -> list[SheetPlan]:
-    payload = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     plans: list[SheetPlan] = []
-    for workbook_entry in payload.get("workbooks", []):
-        workbook_name = workbook_entry.get("workbook")
-        for sheet_entry in workbook_entry.get("sheets", []):
-            plans.append(
-                SheetPlan(
-                    workbook=workbook_name,
-                    sheet=sheet_entry.get("sheet"),
-                    include=bool(sheet_entry.get("include")),
-                    output_dataset=sheet_entry.get("output_dataset", ""),
-                    header_end_row=_header_end_row(str(sheet_entry.get("header_rows", "1-1"))),
-                    first_data_row=sheet_entry.get("first_data_row"),
-                    year_columns=[int(column) for column in sheet_entry.get("year_columns", [])],
-                    unit=_normalize_unit_string(str(sheet_entry.get("unit", "")).strip()),
-                    verification_exempt=bool(sheet_entry.get("verification_exempt", False)),
-                    period_type=str(sheet_entry.get("period_type", "fiscal_year")).strip()
-                    or "fiscal_year",
+    for plan_file in iter_parse_plan_files(path):
+        payload = yaml.safe_load(plan_file.read_text(encoding="utf-8")) or {}
+        for workbook_entry in payload.get("workbooks", []):
+            workbook_name = workbook_entry.get("workbook")
+            for sheet_entry in workbook_entry.get("sheets", []):
+                plans.append(
+                    SheetPlan(
+                        workbook=workbook_name,
+                        sheet=sheet_entry.get("sheet"),
+                        include=bool(sheet_entry.get("include")),
+                        output_dataset=sheet_entry.get("output_dataset", ""),
+                        header_end_row=_header_end_row(str(sheet_entry.get("header_rows", "1-1"))),
+                        first_data_row=sheet_entry.get("first_data_row"),
+                        year_columns=[int(column) for column in sheet_entry.get("year_columns", [])],
+                        unit=_normalize_unit_string(str(sheet_entry.get("unit", "")).strip()),
+                        verification_exempt=bool(sheet_entry.get("verification_exempt", False)),
+                        period_type=str(sheet_entry.get("period_type", "fiscal_year")).strip()
+                        or "fiscal_year",
+                    )
                 )
-            )
     return plans
 
 
@@ -809,26 +790,6 @@ def _combined_category_path(
     if category.casefold() not in {part.casefold() for part in parts}:
         parts.append(category)
     return " / ".join(parts)
-
-
-def _usda_hierarchy(category_path: str, category: str) -> dict[str, str]:
-    """Split a USDA breadcrumb into explicit table and intermediate headings.
-
-    ``category`` remains the leaf label. The full ``category_path`` remains the
-    lossless representation. When a path has more than two intermediate
-    nodes, the remaining nodes are retained together in ``subsection``.
-    """
-
-    parts = [part.strip() for part in category_path.split(" / ") if part.strip()]
-    if parts and parts[-1].casefold() == category.strip().casefold():
-        ancestors = parts[:-1]
-    else:
-        ancestors = parts
-    return {
-        "table_title": ancestors[0] if ancestors else "",
-        "section": ancestors[1] if len(ancestors) > 1 else "",
-        "subsection": " / ".join(ancestors[2:]) if len(ancestors) > 2 else "",
-    }
 
 
 def _record(
@@ -1168,7 +1129,7 @@ def _records_for_sheet(worksheet, plan: SheetPlan) -> tuple[list[dict], str | No
 
 
 def run_transform(
-    parse_plan_path: Path = Path("config/workbook_parse_plan.yaml"),
+    parse_plan_path: Path = PARSE_PLANS_DIR,
     input_dir: Path = Path("data/raw"),
     output_dir: Path = Path("data/processed"),
     slice_name: str = "health",
@@ -1177,12 +1138,14 @@ def run_transform(
         raise ValueError(f"Unsupported slice: {slice_name}")
     plans = [plan for plan in _read_plan(parse_plan_path) if plan.include and _in_slice(plan, slice_name)]
     records_by_dataset: dict[str, list[dict]] = defaultdict(list)
+    workbook_by_dataset: dict[str, str] = {}
     errors: list[str] = []
     warnings: list[str] = []
 
     plans_by_workbook: dict[str, list[SheetPlan]] = defaultdict(list)
     for plan in plans:
         plans_by_workbook[plan.workbook].append(plan)
+        workbook_by_dataset.setdefault(plan.output_dataset, plan.workbook)
 
     for workbook_name, workbook_plans in plans_by_workbook.items():
         workbook_path = input_dir / workbook_name
@@ -1209,10 +1172,15 @@ def run_transform(
 
     output_dir.mkdir(parents=True, exist_ok=True)
     if slice_name == "all":
-        for existing_csv in output_dir.glob("*.csv"):
+        for existing_csv in output_dir.rglob("*.csv"):
             existing_csv.unlink()
     for dataset, rows in records_by_dataset.items():
-        _write_dataset(output_dir / f"{dataset}.csv", rows)
+        output_path = get_output_path(
+            output_dir,
+            workbook=workbook_by_dataset[dataset],
+            output_dataset=dataset,
+        )
+        _write_dataset(output_path, rows)
 
     error_path = output_dir / "parse_errors.log"
     error_body = "\n".join(errors)
@@ -1234,7 +1202,7 @@ def run_transform(
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Transform CBO baseline workbooks into tidy CSV datasets.")
-    parser.add_argument("--parse-plan", type=Path, default=Path("config/workbook_parse_plan.yaml"))
+    parser.add_argument("--parse-plan", type=Path, default=PARSE_PLANS_DIR)
     parser.add_argument("--input-dir", type=Path, default=Path("data/raw"))
     parser.add_argument("--output-dir", type=Path, default=Path("data/processed"))
     parser.add_argument("--slice", dest="slice_name", choices=SLICE_CHOICES, default="health")

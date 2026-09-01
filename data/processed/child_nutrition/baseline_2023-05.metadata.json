@@ -1,0 +1,90 @@
+{
+  "dataset": "child_nutrition",
+  "program_id": "51293",
+  "program": "Child Nutrition",
+  "vintage": "2023-05",
+  "data_file": "baseline_2023-05.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "df1c34989224928e5f07c66eaa9e9cbc101bb303ee0dfab626a09e03ac694451",
+  "row_count": 186,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2023,
+    "end_year": 2033
+  },
+  "period_coverage": {
+    "start_year": 2023,
+    "end_year": 2033
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51293-2023-05-childnutrition.xlsx"
+  ],
+  "source_sheets": [
+    "Child Nutrition_05-2023"
+  ],
+  "units": [
+    "Millions of dollars",
+    "Percent"
+  ],
+  "contains_totals": false,
+  "aggregation_note": null,
+  "annotations": [
+    {
+      "category_path": "Child Nutrition Programs / BUDGET INFORMATION / Estimated Outlaysa",
+      "marker": "a",
+      "variable_note": "The projections account for the estimated effects of a proposed rule that would lower the participation threshold for the Community Eligibility Provision (CEP). Under CEP, meal reimbursements are based on the share of students in the school or school district that are enrolled in certain federal programs, rather than on the household income of the child that received the meal. Under current law, schools and districts may participate if at least 40 percent of their students are enrolled in certain programs. The proposed rule would reduce that threshold to 25 percent. In accordance with CBO’s standard practice for incorporating the effects of proposed rules in its baseline projections, these projections reflect the assumption that there is a 50 percent chance that the rule would be finalized and take effect in 2024.",
+      "source_label": "Estimated Outlaysa",
+      "source": {
+        "file": "51293-2023-05-childnutrition.xlsx",
+        "sheet": "Child Nutrition_05-2023",
+        "row": 14,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Child Nutrition Programs / Other Spendingb / Budget Authority",
+      "marker": "b",
+      "variable_note": "“Other Spending” includes the Special Milk Program, the Food Service Management Institute, Team Nutrition, coordinated review, computer support and processing, child nutrition grants for the Northern Mariana Islands and American Samoa, and other activities. It also includes discretionary projects funded in annual appropriation acts.",
+      "source_label": "Other Spendingb",
+      "source": {
+        "file": "51293-2023-05-childnutrition.xlsx",
+        "sheet": "Child Nutrition_05-2023",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Child Nutrition Programs / Other Spendingb / Estimated Outlays",
+      "marker": "b",
+      "variable_note": "“Other Spending” includes the Special Milk Program, the Food Service Management Institute, Team Nutrition, coordinated review, computer support and processing, child nutrition grants for the Northern Mariana Islands and American Samoa, and other activities. It also includes discretionary projects funded in annual appropriation acts.",
+      "source_label": "Other Spendingb",
+      "source": {
+        "file": "51293-2023-05-childnutrition.xlsx",
+        "sheet": "Child Nutrition_05-2023",
+        "row": 42,
+        "column": 1
+      }
+    }
+  ]
+}

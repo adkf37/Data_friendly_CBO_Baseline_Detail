@@ -1,0 +1,313 @@
+workbooks:
+- workbook: 51312-2019-05-SNAP.xlsx
+  sheets:
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: snap_2019_05
+    verification_target: cbo-snap-2019-05
+    header_rows: 1-7
+    first_data_row: 8
+    year_column_strategy: column_index
+    year_columns:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Millions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51312-2020-01-snap.xlsx
+  sheets:
+  - sheet: SNAP
+    classification: data
+    include: true
+    output_dataset: snap_2020_01
+    verification_target: cbo-snap-2020-01
+    header_rows: 1-7
+    first_data_row: 8
+    year_column_strategy: column_index
+    year_columns:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Millions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51312-2020-03-snap.xlsx
+  sheets:
+  - sheet: SNAP
+    classification: data
+    include: true
+    output_dataset: snap_2020_03
+    verification_target: cbo-snap-2020-03
+    header_rows: 1-7
+    first_data_row: 8
+    year_column_strategy: column_index
+    year_columns:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Millions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51312-2021-02-snap.xlsx
+  sheets:
+  - sheet: SNAP_2-2021
+    classification: data
+    include: true
+    output_dataset: snap_2021_02
+    verification_target: cbo-snap-2021-02
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51312-2021-07-snap.xlsx
+  sheets:
+  - sheet: SNAP_07-2021
+    classification: data
+    include: true
+    output_dataset: snap_2021_07
+    verification_target: cbo-snap-2021-07
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51312-2022-05-snap.xlsx
+  sheets:
+  - sheet: SNAP_05-2022
+    classification: data
+    include: true
+    output_dataset: snap_2022_05
+    verification_target: cbo-snap-2022-05
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51312-2023-02-snap.xlsx
+  sheets:
+  - sheet: SNAP_02-2023
+    classification: data
+    include: true
+    output_dataset: snap_2023_02
+    verification_target: cbo-snap-2023-02
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51312-2023-05-snap.xlsx
+  sheets:
+  - sheet: SNAP_05-2023
+    classification: data
+    include: true
+    output_dataset: snap_2023_05
+    verification_target: cbo-snap-2023-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51312-2024-02-snap.xlsx
+  sheets:
+  - sheet: SNAP_02-2024-rev
+    classification: data
+    include: true
+    output_dataset: snap_2024_02
+    verification_target: cbo-snap-2024-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51312-2024-06-snap.xlsx
+  sheets:
+  - sheet: SNAP_06-2024
+    classification: data
+    include: true
+    output_dataset: snap_2024_06
+    verification_target: cbo-snap-2024-06
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51312-2025-01-snap.xlsx
+  sheets:
+  - sheet: SNAP_01-2025
+    classification: data
+    include: true
+    output_dataset: snap_2025_01
+    verification_target: cbo-snap-2025-01
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51312-2026-02-snap.xlsx
+  sheets:
+  - sheet: SNAP_02-2026
+    classification: data
+    include: true
+    output_dataset: snap_2026_02
+    verification_target: cbo-snap-2026-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split

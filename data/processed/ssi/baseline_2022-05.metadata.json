@@ -1,0 +1,141 @@
+{
+  "dataset": "ssi",
+  "program_id": "51313",
+  "program": "SSI",
+  "vintage": "2022-05",
+  "data_file": "baseline_2022-05.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "609e3945b54c2227328b92833c131a9f46ceae399823ef3eb125ea3f82636efe",
+  "row_count": 110,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2022,
+    "end_year": 2032
+  },
+  "period_coverage": {
+    "start_year": 2022,
+    "end_year": 2032
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51313-2022-05-ssi.xlsx"
+  ],
+  "source_sheets": [
+    "SSI_0x-2022"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Dollars per beneficiary",
+    "Number of paymentsb",
+    "Percentage",
+    "Thousands of people"
+  ],
+  "contains_totals": false,
+  "aggregation_note": null,
+  "annotations": [
+    {
+      "category_path": "Supplemental Security Income / BUDGET INFORMATION / Estimated Outlaysa",
+      "marker": "a",
+      "variable_note": "Because of the April 2020 decision of the U.S. Court of Appeals for the First Circuit in United States v. Vaello-Madero, 956 F.3d 12 (1st Cir. 2020), CBO’s baseline was constructed under the assumption that SSI payments would be provided to eligible residents of Puerto Rico. (The First Circuit’s decision would have required SSA to provide those benefits to residents of Puerto Rico.) However, shortly after CBO finalized the baseline, the Supreme Court, in United States v. Vaello-Madero, No. 20-303, 2022 U.S. LEXIS 2094 (April 21, 2022), overturned the First Circuit decision. As a result of the timing of that decision, CBO’s baseline projections include the cost of providing SSI benefits to residents of Puerto Rico—an amount that totals $11 billion over the 2022-2032 period. Any future cost estimate related to SSI would reflect the result of the Supreme Court's decision that residents of Puerto Rico are not eligible for SSI.",
+      "source_label": "Estimated Outlaysa",
+      "source": {
+        "file": "51313-2022-05-ssi.xlsx",
+        "sheet": "SSI_0x-2022",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Supplemental Security Income / Estimated Outlays for Benefitsa / Aged",
+      "marker": "a",
+      "variable_note": "Because of the April 2020 decision of the U.S. Court of Appeals for the First Circuit in United States v. Vaello-Madero, 956 F.3d 12 (1st Cir. 2020), CBO’s baseline was constructed under the assumption that SSI payments would be provided to eligible residents of Puerto Rico. (The First Circuit’s decision would have required SSA to provide those benefits to residents of Puerto Rico.) However, shortly after CBO finalized the baseline, the Supreme Court, in United States v. Vaello-Madero, No. 20-303, 2022 U.S. LEXIS 2094 (April 21, 2022), overturned the First Circuit decision. As a result of the timing of that decision, CBO’s baseline projections include the cost of providing SSI benefits to residents of Puerto Rico—an amount that totals $11 billion over the 2022-2032 period. Any future cost estimate related to SSI would reflect the result of the Supreme Court's decision that residents of Puerto Rico are not eligible for SSI.",
+      "source_label": "Estimated Outlays for Benefitsa",
+      "source": {
+        "file": "51313-2022-05-ssi.xlsx",
+        "sheet": "SSI_0x-2022",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Supplemental Security Income / Estimated Outlays for Benefitsa / Blind and disabled adults",
+      "marker": "a",
+      "variable_note": "Because of the April 2020 decision of the U.S. Court of Appeals for the First Circuit in United States v. Vaello-Madero, 956 F.3d 12 (1st Cir. 2020), CBO’s baseline was constructed under the assumption that SSI payments would be provided to eligible residents of Puerto Rico. (The First Circuit’s decision would have required SSA to provide those benefits to residents of Puerto Rico.) However, shortly after CBO finalized the baseline, the Supreme Court, in United States v. Vaello-Madero, No. 20-303, 2022 U.S. LEXIS 2094 (April 21, 2022), overturned the First Circuit decision. As a result of the timing of that decision, CBO’s baseline projections include the cost of providing SSI benefits to residents of Puerto Rico—an amount that totals $11 billion over the 2022-2032 period. Any future cost estimate related to SSI would reflect the result of the Supreme Court's decision that residents of Puerto Rico are not eligible for SSI.",
+      "source_label": "Estimated Outlays for Benefitsa",
+      "source": {
+        "file": "51313-2022-05-ssi.xlsx",
+        "sheet": "SSI_0x-2022",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Supplemental Security Income / Estimated Outlays for Benefitsa / Blind and disabled children",
+      "marker": "a",
+      "variable_note": "Because of the April 2020 decision of the U.S. Court of Appeals for the First Circuit in United States v. Vaello-Madero, 956 F.3d 12 (1st Cir. 2020), CBO’s baseline was constructed under the assumption that SSI payments would be provided to eligible residents of Puerto Rico. (The First Circuit’s decision would have required SSA to provide those benefits to residents of Puerto Rico.) However, shortly after CBO finalized the baseline, the Supreme Court, in United States v. Vaello-Madero, No. 20-303, 2022 U.S. LEXIS 2094 (April 21, 2022), overturned the First Circuit decision. As a result of the timing of that decision, CBO’s baseline projections include the cost of providing SSI benefits to residents of Puerto Rico—an amount that totals $11 billion over the 2022-2032 period. Any future cost estimate related to SSI would reflect the result of the Supreme Court's decision that residents of Puerto Rico are not eligible for SSI.",
+      "source_label": "Estimated Outlays for Benefitsa",
+      "source": {
+        "file": "51313-2022-05-ssi.xlsx",
+        "sheet": "SSI_0x-2022",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Supplemental Security Income / PARTICIPATION AND BENEFIT INFORMATION / Average Monthly Benefit Per Beneficiary (Dollars)a",
+      "marker": "a",
+      "variable_note": "Because of the April 2020 decision of the U.S. Court of Appeals for the First Circuit in United States v. Vaello-Madero, 956 F.3d 12 (1st Cir. 2020), CBO’s baseline was constructed under the assumption that SSI payments would be provided to eligible residents of Puerto Rico. (The First Circuit’s decision would have required SSA to provide those benefits to residents of Puerto Rico.) However, shortly after CBO finalized the baseline, the Supreme Court, in United States v. Vaello-Madero, No. 20-303, 2022 U.S. LEXIS 2094 (April 21, 2022), overturned the First Circuit decision. As a result of the timing of that decision, CBO’s baseline projections include the cost of providing SSI benefits to residents of Puerto Rico—an amount that totals $11 billion over the 2022-2032 period. Any future cost estimate related to SSI would reflect the result of the Supreme Court's decision that residents of Puerto Rico are not eligible for SSI.",
+      "source_label": "Average Monthly Benefit Per Beneficiary (Dollars)a",
+      "source": {
+        "file": "51313-2022-05-ssi.xlsx",
+        "sheet": "SSI_0x-2022",
+        "row": 28,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Supplemental Security Income / PARTICIPATION AND BENEFIT INFORMATION / Average Monthly Beneficiaries (Thousands of people)a",
+      "marker": "a",
+      "variable_note": "Because of the April 2020 decision of the U.S. Court of Appeals for the First Circuit in United States v. Vaello-Madero, 956 F.3d 12 (1st Cir. 2020), CBO’s baseline was constructed under the assumption that SSI payments would be provided to eligible residents of Puerto Rico. (The First Circuit’s decision would have required SSA to provide those benefits to residents of Puerto Rico.) However, shortly after CBO finalized the baseline, the Supreme Court, in United States v. Vaello-Madero, No. 20-303, 2022 U.S. LEXIS 2094 (April 21, 2022), overturned the First Circuit decision. As a result of the timing of that decision, CBO’s baseline projections include the cost of providing SSI benefits to residents of Puerto Rico—an amount that totals $11 billion over the 2022-2032 period. Any future cost estimate related to SSI would reflect the result of the Supreme Court's decision that residents of Puerto Rico are not eligible for SSI.",
+      "source_label": "Average Monthly Beneficiaries (Thousands of people)a",
+      "source": {
+        "file": "51313-2022-05-ssi.xlsx",
+        "sheet": "SSI_0x-2022",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Supplemental Security Income / OTHER INFORMATION / Supplemental Security Income",
+      "marker": "b",
+      "variable_note": "SSA is required to make SSI payments on the first day of the month. If that day falls on a holiday or a weekend, SSA will instead make the payments on the preceding business day. As a result, in any given fiscal year there may be 11, 12, or 13 payments.",
+      "source_label": "Number of Paymentsb",
+      "source": {
+        "file": "51313-2022-05-ssi.xlsx",
+        "sheet": "SSI_0x-2022",
+        "row": 36,
+        "column": 1
+      }
+    }
+  ]
+}

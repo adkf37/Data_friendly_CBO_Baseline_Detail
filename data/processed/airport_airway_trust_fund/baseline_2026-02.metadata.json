@@ -1,0 +1,270 @@
+{
+  "dataset": "airport_airway_trust_fund",
+  "program_id": "59126",
+  "program": "Airport and Airway Trust Fund",
+  "vintage": "2026-02",
+  "data_file": "baseline_2026-02.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "08b8a95623564e105962a0014309108fe179bd6a3c0716c2c4b07bf3148846b0",
+  "row_count": 209,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2026,
+    "end_year": 2036
+  },
+  "period_coverage": {
+    "start_year": 2026,
+    "end_year": 2036
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "59126-2026-02-aatf.xlsx"
+  ],
+  "source_sheets": [
+    "AATF_02-2026"
+  ],
+  "units": [
+    "Millions of dollars",
+    "Percentage"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Airport and Airway Trust Fund / Cash Balances / Start-of-Year Balancea",
+      "marker": "a",
+      "variable_note": "Amounts exclude the effects of general fund appropriations for the Airport Improvement Program.",
+      "source_label": "Start-of-Year Balancea",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 14,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Cash Balances / Outlaysa",
+      "marker": "a",
+      "variable_note": "Amounts exclude the effects of general fund appropriations for the Airport Improvement Program.",
+      "source_label": "Outlaysa",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Cash Balances / End-of-Year Balancea",
+      "marker": "a",
+      "variable_note": "Amounts exclude the effects of general fund appropriations for the Airport Improvement Program.",
+      "source_label": "End-of-Year Balancea",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 18,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Uncommitted Balancesb / Change in Balancec",
+      "marker": "b",
+      "variable_note": "The uncommitted balance is the cumulative value of amounts credited to the trust fund minus spending authority.",
+      "source_label": "Uncommitted Balancesb",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Uncommitted Balancesb / End-of-Year Balance",
+      "marker": "b",
+      "variable_note": "The uncommitted balance is the cumulative value of amounts credited to the trust fund minus spending authority.",
+      "source_label": "Uncommitted Balancesb",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Uncommitted Balancesb / Start-of-Year Balance",
+      "marker": "b",
+      "variable_note": "The uncommitted balance is the cumulative value of amounts credited to the trust fund minus spending authority.",
+      "source_label": "Uncommitted Balancesb",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Uncommitted Balancesb / Change in Balancec",
+      "marker": "c",
+      "variable_note": "The change in uncommitted balances equals excise tax revenues plus credited interest minus total spending authority.",
+      "source_label": "Change in Balancec",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Summary of Spending Authorityd / Derived from the general fund",
+      "marker": "d",
+      "variable_note": "Spending authority is the sum of discretionary budget authority for the FAA’s operations; facilities and equipment; research, engineering, and development; and payments to air carriers. It also includes mandatory contract authority for the Airport Improvement Program. Outlays are based on total discretionary resources, which include discretionary obligation limitations for the Airport Improvement Program instead of contract authority.",
+      "source_label": "Summary of Spending Authorityd",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 25,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Summary of Spending Authorityd / Derived from the trust fund",
+      "marker": "d",
+      "variable_note": "Spending authority is the sum of discretionary budget authority for the FAA’s operations; facilities and equipment; research, engineering, and development; and payments to air carriers. It also includes mandatory contract authority for the Airport Improvement Program. Outlays are based on total discretionary resources, which include discretionary obligation limitations for the Airport Improvement Program instead of contract authority.",
+      "source_label": "Summary of Spending Authorityd",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 25,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Summary of Spending Authorityd / FAA Operations Budget Authority",
+      "marker": "d",
+      "variable_note": "Spending authority is the sum of discretionary budget authority for the FAA’s operations; facilities and equipment; research, engineering, and development; and payments to air carriers. It also includes mandatory contract authority for the Airport Improvement Program. Outlays are based on total discretionary resources, which include discretionary obligation limitations for the Airport Improvement Program instead of contract authority.",
+      "source_label": "Summary of Spending Authorityd",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 25,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Summary of Spending Authorityd / FAA operations",
+      "marker": "d",
+      "variable_note": "Spending authority is the sum of discretionary budget authority for the FAA’s operations; facilities and equipment; research, engineering, and development; and payments to air carriers. It also includes mandatory contract authority for the Airport Improvement Program. Outlays are based on total discretionary resources, which include discretionary obligation limitations for the Airport Improvement Program instead of contract authority.",
+      "source_label": "Summary of Spending Authorityd",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 25,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Summary of Spending Authorityd / Facilities and equipment",
+      "marker": "d",
+      "variable_note": "Spending authority is the sum of discretionary budget authority for the FAA’s operations; facilities and equipment; research, engineering, and development; and payments to air carriers. It also includes mandatory contract authority for the Airport Improvement Program. Outlays are based on total discretionary resources, which include discretionary obligation limitations for the Airport Improvement Program instead of contract authority.",
+      "source_label": "Summary of Spending Authorityd",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 25,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Summary of Spending Authorityd / Grants-in-aid for airports (Contract authority)e",
+      "marker": "d",
+      "variable_note": "Spending authority is the sum of discretionary budget authority for the FAA’s operations; facilities and equipment; research, engineering, and development; and payments to air carriers. It also includes mandatory contract authority for the Airport Improvement Program. Outlays are based on total discretionary resources, which include discretionary obligation limitations for the Airport Improvement Program instead of contract authority.",
+      "source_label": "Summary of Spending Authorityd",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 25,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Summary of Spending Authorityd / Payments to air carriers",
+      "marker": "d",
+      "variable_note": "Spending authority is the sum of discretionary budget authority for the FAA’s operations; facilities and equipment; research, engineering, and development; and payments to air carriers. It also includes mandatory contract authority for the Airport Improvement Program. Outlays are based on total discretionary resources, which include discretionary obligation limitations for the Airport Improvement Program instead of contract authority.",
+      "source_label": "Summary of Spending Authorityd",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 25,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Summary of Spending Authorityd / Research, engineering, and development",
+      "marker": "d",
+      "variable_note": "Spending authority is the sum of discretionary budget authority for the FAA’s operations; facilities and equipment; research, engineering, and development; and payments to air carriers. It also includes mandatory contract authority for the Airport Improvement Program. Outlays are based on total discretionary resources, which include discretionary obligation limitations for the Airport Improvement Program instead of contract authority.",
+      "source_label": "Summary of Spending Authorityd",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 25,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Summary of Spending Authorityd / Total Spending Authority From the Trust Fund",
+      "marker": "d",
+      "variable_note": "Spending authority is the sum of discretionary budget authority for the FAA’s operations; facilities and equipment; research, engineering, and development; and payments to air carriers. It also includes mandatory contract authority for the Airport Improvement Program. Outlays are based on total discretionary resources, which include discretionary obligation limitations for the Airport Improvement Program instead of contract authority.",
+      "source_label": "Summary of Spending Authorityd",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 25,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Summary of Spending Authorityd / Grants-in-aid for airports (Contract authority)e",
+      "marker": "e",
+      "variable_note": "The FAA Reauthorization Act of 2024 provided $4 billion in annual contract authority (a form of mandatory budget authority) for the Airport Improvement Program through 2028. In keeping with the Balanced Budget and Emergency Deficit Control Act of 1985, CBO’s baseline reflects the assumption that funding provided by that law will continue at the same rate in each subsequent year.",
+      "source_label": "Grants-in-aid for airports (Contract authority)e",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 28,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Airport and Airway Trust Fund / Total New Discretionary Resources (Budget authority and / obligation limitations)d",
+      "marker": "d",
+      "variable_note": "Spending authority is the sum of discretionary budget authority for the FAA’s operations; facilities and equipment; research, engineering, and development; and payments to air carriers. It also includes mandatory contract authority for the Airport Improvement Program. Outlays are based on total discretionary resources, which include discretionary obligation limitations for the Airport Improvement Program instead of contract authority.",
+      "source_label": "obligation limitations)d",
+      "source": {
+        "file": "59126-2026-02-aatf.xlsx",
+        "sheet": "AATF_02-2026",
+        "row": 43,
+        "column": 2
+      }
+    }
+  ]
+}

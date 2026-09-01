@@ -1,0 +1,53 @@
+{
+  "dataset": "foster_care",
+  "program_id": "51299",
+  "program": "Foster Care",
+  "vintage": "2019-05",
+  "data_file": "baseline_2019-05.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "a85cc46f582af1cb053cd2ad582511d1d76069489685018d79cf708d0316f58c",
+  "row_count": 264,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2019,
+    "end_year": 2029
+  },
+  "period_coverage": {
+    "start_year": 2019,
+    "end_year": 2029
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51299-2019-05-foster-care .xlsx"
+  ],
+  "source_sheets": [
+    "Table 1"
+  ],
+  "units": [
+    "Millions of dollars",
+    "Thousands of cases"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": []
+}

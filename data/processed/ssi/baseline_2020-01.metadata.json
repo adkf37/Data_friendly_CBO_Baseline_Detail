@@ -1,0 +1,153 @@
+{
+  "dataset": "ssi",
+  "program_id": "51313",
+  "program": "SSI",
+  "vintage": "2020-01",
+  "data_file": "baseline_2020-01.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "8d61b1b9a818d9813bfde08e4a02cbff46eb25a2f96c2102927f52af561fb0c0",
+  "row_count": 242,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2020,
+    "end_year": 2030
+  },
+  "period_coverage": {
+    "start_year": 2020,
+    "end_year": 2030
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51313-2020-01-ssi_1.xlsx"
+  ],
+  "source_sheets": [
+    "SSI"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Dollars",
+    "Number of paymentsa",
+    "Percentage",
+    "Thousands"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Average Monthly Federal Benefit on December 31 (Dollars) / Unlabeled value (row 30)",
+      "marker": "a",
+      "variable_note": "The Social Security Administration (SSA) is to pay Supplemental Security Income payments on the first day of the month. If the first day of the month occurs on a holiday or a weekend, SSA will instead make the payments on the preceding business day. As a result, in any given fiscal year there may be 11, 12, or 13 payments.",
+      "source_label": "Number of Paymentsa",
+      "source": {
+        "file": "51313-2020-01-ssi_1.xlsx",
+        "sheet": "SSI",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Benefit Outlays (Billions of dollars) / Aged",
+      "marker": "a",
+      "variable_note": "The Social Security Administration (SSA) is to pay Supplemental Security Income payments on the first day of the month. If the first day of the month occurs on a holiday or a weekend, SSA will instead make the payments on the preceding business day. As a result, in any given fiscal year there may be 11, 12, or 13 payments.",
+      "source_label": "Number of Paymentsa",
+      "source": {
+        "file": "51313-2020-01-ssi_1.xlsx",
+        "sheet": "SSI",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Benefit Outlays (Billions of dollars) / Blind and disabled adults",
+      "marker": "a",
+      "variable_note": "The Social Security Administration (SSA) is to pay Supplemental Security Income payments on the first day of the month. If the first day of the month occurs on a holiday or a weekend, SSA will instead make the payments on the preceding business day. As a result, in any given fiscal year there may be 11, 12, or 13 payments.",
+      "source_label": "Number of Paymentsa",
+      "source": {
+        "file": "51313-2020-01-ssi_1.xlsx",
+        "sheet": "SSI",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Benefit Outlays (Billions of dollars) / Blind and disabled children",
+      "marker": "a",
+      "variable_note": "The Social Security Administration (SSA) is to pay Supplemental Security Income payments on the first day of the month. If the first day of the month occurs on a holiday or a weekend, SSA will instead make the payments on the preceding business day. As a result, in any given fiscal year there may be 11, 12, or 13 payments.",
+      "source_label": "Number of Paymentsa",
+      "source": {
+        "file": "51313-2020-01-ssi_1.xlsx",
+        "sheet": "SSI",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Benefit Outlays (Billions of dollars) / Other",
+      "marker": "a",
+      "variable_note": "The Social Security Administration (SSA) is to pay Supplemental Security Income payments on the first day of the month. If the first day of the month occurs on a holiday or a weekend, SSA will instead make the payments on the preceding business day. As a result, in any given fiscal year there may be 11, 12, or 13 payments.",
+      "source_label": "Number of Paymentsa",
+      "source": {
+        "file": "51313-2020-01-ssi_1.xlsx",
+        "sheet": "SSI",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Benefit Outlays (Billions of dollars) / Subtotal",
+      "marker": "a",
+      "variable_note": "The Social Security Administration (SSA) is to pay Supplemental Security Income payments on the first day of the month. If the first day of the month occurs on a holiday or a weekend, SSA will instead make the payments on the preceding business day. As a result, in any given fiscal year there may be 11, 12, or 13 payments.",
+      "source_label": "Number of Paymentsa",
+      "source": {
+        "file": "51313-2020-01-ssi_1.xlsx",
+        "sheet": "SSI",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Vocational Rehabilitation, Research, / Total, Mandatory Outlays",
+      "marker": "a",
+      "variable_note": "The Social Security Administration (SSA) is to pay Supplemental Security Income payments on the first day of the month. If the first day of the month occurs on a holiday or a weekend, SSA will instead make the payments on the preceding business day. As a result, in any given fiscal year there may be 11, 12, or 13 payments.",
+      "source_label": "Number of Paymentsa",
+      "source": {
+        "file": "51313-2020-01-ssi_1.xlsx",
+        "sheet": "SSI",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Vocational Rehabilitation, Research, / and Demonstration Projects",
+      "marker": "a",
+      "variable_note": "The Social Security Administration (SSA) is to pay Supplemental Security Income payments on the first day of the month. If the first day of the month occurs on a holiday or a weekend, SSA will instead make the payments on the preceding business day. As a result, in any given fiscal year there may be 11, 12, or 13 payments.",
+      "source_label": "Number of Paymentsa",
+      "source": {
+        "file": "51313-2020-01-ssi_1.xlsx",
+        "sheet": "SSI",
+        "row": 30,
+        "column": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+workbooks:
+- workbook: 60394-2024-06-fdic.xlsx
+  sheets:
+  - sheet: FDIC_06-2024
+    classification: data
+    include: true
+    output_dataset: fdic_2024_06
+    verification_target: cbo-fdic-2024-06
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 60394-2025-01-fdic.xlsx
+  sheets:
+  - sheet: FDIC_01-2025
+    classification: data
+    include: true
+    output_dataset: fdic_2025_01
+    verification_target: cbo-fdic-2025-01
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split

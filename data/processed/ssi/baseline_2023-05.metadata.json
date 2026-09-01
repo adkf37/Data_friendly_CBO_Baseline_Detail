@@ -1,0 +1,81 @@
+{
+  "dataset": "ssi",
+  "program_id": "51313",
+  "program": "SSI",
+  "vintage": "2023-05",
+  "data_file": "baseline_2023-05.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "fbda4000b084c1e8c1ea195554b2b7b006beb92e7c7ce3c953a8083238bd7395",
+  "row_count": 110,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2023,
+    "end_year": 2033
+  },
+  "period_coverage": {
+    "start_year": 2023,
+    "end_year": 2033
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51313-2023-05-ssi.xlsx"
+  ],
+  "source_sheets": [
+    "SSI_05-2023"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Dollars per beneficiary",
+    "Number of paymentsb",
+    "Percentage",
+    "Thousands of people"
+  ],
+  "contains_totals": false,
+  "aggregation_note": null,
+  "annotations": [
+    {
+      "category_path": "Supplemental Security Income / BUDGET INFORMATION / Estimated Outlaysa",
+      "marker": "a",
+      "variable_note": "Because the Supreme Court ruled in United States v. Vaello Madero,142 S.Ct. 1539 (2022), that the Fifth Amendment’s equal protection guarantee does not require the Congress to make SSI benefits available to residents of Puerto Rico, CBO’s baseline was constructed under the assumption that SSI payments will not be paid to residents of Puerto Rico.",
+      "source_label": "Estimated Outlaysa",
+      "source": {
+        "file": "51313-2023-05-ssi.xlsx",
+        "sheet": "SSI_05-2023",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Supplemental Security Income / OTHER INFORMATION / Supplemental Security Income",
+      "marker": "b",
+      "variable_note": "SSA is required to make SSI payments on the first day of the month. If that day falls on a holiday or a weekend, SSA will instead make the payments on the preceding business day. As a result, in any given fiscal year there may be 11, 12, or 13 payments.",
+      "source_label": "Number of Paymentsb",
+      "source": {
+        "file": "51313-2023-05-ssi.xlsx",
+        "sheet": "SSI_05-2023",
+        "row": 36,
+        "column": 1
+      }
+    }
+  ]
+}

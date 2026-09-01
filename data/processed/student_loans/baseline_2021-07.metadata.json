@@ -1,0 +1,447 @@
+{
+  "dataset": "student_loans",
+  "program_id": "51310",
+  "program": "Student Loans",
+  "vintage": "2021-07",
+  "data_file": "baseline_2021-07.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "c839e6ea6416eb9f893c9b142b3cbed04957dfd1950890d1ebbce75d8dfd39ef",
+  "row_count": 935,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_coverage": {
+    "start_year": 2021,
+    "end_year": 2032
+  },
+  "period_types": [
+    "award_year",
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51310-2021-07-studentloan.xlsx"
+  ],
+  "source_sheets": [
+    "T1-FCRA_07-2021",
+    "T3-NewLoans-FCRA_07-2021",
+    "T4-Admin_07-2021",
+    "T5-IntRates_07-2021",
+    "T6-FV_07-2021",
+    "T7-Subsidies_07-2021"
+  ],
+  "units": [
+    "Dollars",
+    "Millions of dollars",
+    "Percent",
+    "Percentage",
+    "Thousands"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Program Accounta / Budget Authority",
+      "marker": "a",
+      "variable_note": "Estimated spending for fiscal year 2021 includes additional adjustments based on current spending patterns projected by the Office of Management and Budget.",
+      "source_label": "Program Accounta",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T1-FCRA_07-2021",
+        "row": 15,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Program Accounta / Outlays",
+      "marker": "a",
+      "variable_note": "Estimated spending for fiscal year 2021 includes additional adjustments based on current spending patterns projected by the Office of Management and Budget.",
+      "source_label": "Program Accounta",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T1-FCRA_07-2021",
+        "row": 15,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Credit Reestimates and Modificationsb / Budget Authority",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2021. Those totals are based on the amounts that the Office of Management and Budget expects to record in fiscal year 2021. See Table 2 for more details.",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T1-FCRA_07-2021",
+        "row": 18,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Credit Reestimates and Modificationsb / Outlays",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2021. Those totals are based on the amounts that the Office of Management and Budget expects to record in fiscal year 2021. See Table 2 for more details.",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T1-FCRA_07-2021",
+        "row": 18,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Credit Reestimates and Modificationsb / Budget Authority",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2021. Those totals are based on the amounts that the Office of Management and Budget expects to record in fiscal year 2021. See Table 2 for more details.",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T1-FCRA_07-2021",
+        "row": 30,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Credit Reestimates and Modificationsb / Outlays",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2021. Those totals are based on the amounts that the Office of Management and Budget expects to record in fiscal year 2021. See Table 2 for more details.",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T1-FCRA_07-2021",
+        "row": 30,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Discretionaryc / Budget Authority",
+      "marker": "c",
+      "variable_note": "Projections of discretionary spending for administering student aid are calculated by inflating the budget authority provided in the most recent appropriation act rather than being made on the basis of the estimated future costs of administering the program.",
+      "source_label": "Discretionaryc",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T1-FCRA_07-2021",
+        "row": 38,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Discretionaryc / Outlays",
+      "marker": "c",
+      "variable_note": "Projections of discretionary spending for administering student aid are calculated by inflating the budget authority provided in the most recent appropriation act rather than being made on the basis of the estimated future costs of administering the program.",
+      "source_label": "Discretionaryc",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T1-FCRA_07-2021",
+        "row": 38,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Mandatoryd / Budget Authority",
+      "marker": "d",
+      "variable_note": "Projections of mandatory spending for administering student aid are based on estimated future costs of administering federal loan programs.",
+      "source_label": "Mandatoryd",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T1-FCRA_07-2021",
+        "row": 41,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Mandatoryd / Outlays",
+      "marker": "d",
+      "variable_note": "Projections of mandatory spending for administering student aid are based on estimated future costs of administering federal loan programs.",
+      "source_label": "Mandatoryd",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T1-FCRA_07-2021",
+        "row": 41,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / All New Loansa / Average Loan Amount (Dollars)",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2021.",
+      "source_label": "All New Loansa",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_07-2021",
+        "row": 14,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / All New Loansa / Net Annual Loan Volume (Millions of dollars)",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2021.",
+      "source_label": "All New Loansa",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_07-2021",
+        "row": 14,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / All New Loansa / Net Number of Loans (Thousands)",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2021.",
+      "source_label": "All New Loansa",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_07-2021",
+        "row": 14,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / All New Loansa / Subsidy Rate (Percent)b",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2021.",
+      "source_label": "All New Loansa",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_07-2021",
+        "row": 14,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / All New Loansa / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2022 federal cost associated with the $88,3952 million in new loan volume would be -$1,690 million or -1.90 percent of the new loan volume [$88,952 * -0.0190 = -$1,690]. The federal government will save, on average, about 2 cents for each new dollar lent in 2022. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 4). Subsidy rates were calculated using CBO’s March 2021 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_07-2021",
+        "row": 18,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / Subsidized Student Loans / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2022 federal cost associated with the $88,3952 million in new loan volume would be -$1,690 million or -1.90 percent of the new loan volume [$88,952 * -0.0190 = -$1,690]. The federal government will save, on average, about 2 cents for each new dollar lent in 2022. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 4). Subsidy rates were calculated using CBO’s March 2021 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_07-2021",
+        "row": 24,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / Unsubsidized Student Loans: Undergraduate / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2022 federal cost associated with the $88,3952 million in new loan volume would be -$1,690 million or -1.90 percent of the new loan volume [$88,952 * -0.0190 = -$1,690]. The federal government will save, on average, about 2 cents for each new dollar lent in 2022. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 4). Subsidy rates were calculated using CBO’s March 2021 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_07-2021",
+        "row": 30,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / Unsubsidized Student Loans: Graduate / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2022 federal cost associated with the $88,3952 million in new loan volume would be -$1,690 million or -1.90 percent of the new loan volume [$88,952 * -0.0190 = -$1,690]. The federal government will save, on average, about 2 cents for each new dollar lent in 2022. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 4). Subsidy rates were calculated using CBO’s March 2021 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_07-2021",
+        "row": 36,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / GradPLUS Student Loans / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2022 federal cost associated with the $88,3952 million in new loan volume would be -$1,690 million or -1.90 percent of the new loan volume [$88,952 * -0.0190 = -$1,690]. The federal government will save, on average, about 2 cents for each new dollar lent in 2022. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 4). Subsidy rates were calculated using CBO’s March 2021 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_07-2021",
+        "row": 42,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / Parent Loans / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2022 federal cost associated with the $88,3952 million in new loan volume would be -$1,690 million or -1.90 percent of the new loan volume [$88,952 * -0.0190 = -$1,690]. The federal government will save, on average, about 2 cents for each new dollar lent in 2022. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 4). Subsidy rates were calculated using CBO’s March 2021 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_07-2021",
+        "row": 48,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Aid Administration Costs / Default Prevention Fee Paid to Guaranty Agenciesa / Budget Authority",
+      "marker": "a",
+      "variable_note": "In the budget, funds for default prevention are included in the Student Loan Reserve Fund Account and funds for administering pre-1992 loans are included in the Liquidating Account. Both are included in this table’s total for administration.",
+      "source_label": "Default Prevention Fee Paid to Guaranty Agenciesa",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T4-Admin_07-2021",
+        "row": 20,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Aid Administration Costs / Default Prevention Fee Paid to Guaranty Agenciesa / Outlays",
+      "marker": "a",
+      "variable_note": "In the budget, funds for default prevention are included in the Student Loan Reserve Fund Account and funds for administering pre-1992 loans are included in the Liquidating Account. Both are included in this table’s total for administration.",
+      "source_label": "Default Prevention Fee Paid to Guaranty Agenciesa",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T4-Admin_07-2021",
+        "row": 20,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Aid Administration Costs / Loan Collection Costs on Pre-1992 Loansa / Budget Authority",
+      "marker": "a",
+      "variable_note": "In the budget, funds for default prevention are included in the Student Loan Reserve Fund Account and funds for administering pre-1992 loans are included in the Liquidating Account. Both are included in this table’s total for administration.",
+      "source_label": "Loan Collection Costs on Pre-1992 Loansa",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T4-Admin_07-2021",
+        "row": 23,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Aid Administration Costs / Loan Collection Costs on Pre-1992 Loansa / Outlays",
+      "marker": "a",
+      "variable_note": "In the budget, funds for default prevention are included in the Student Loan Reserve Fund Account and funds for administering pre-1992 loans are included in the Liquidating Account. Both are included in this table’s total for administration.",
+      "source_label": "Loan Collection Costs on Pre-1992 Loansa",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T4-Admin_07-2021",
+        "row": 23,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Aid Administration Costs / Discretionary Administrative Costsb / Budget Authority",
+      "marker": "b",
+      "variable_note": "Some of the funds for discretionary administrative costs are used for other student aid programs, such as the Pell grant program.",
+      "source_label": "Discretionary Administrative Costsb",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T4-Admin_07-2021",
+        "row": 38,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Aid Administration Costs / Discretionary Administrative Costsb / Outlays",
+      "marker": "b",
+      "variable_note": "Some of the funds for discretionary administrative costs are used for other student aid programs, such as the Pell grant program.",
+      "source_label": "Discretionary Administrative Costsb",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T4-Admin_07-2021",
+        "row": 38,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Aid Administration Costs / Total Administrative Costsa / Budget Authority",
+      "marker": "a",
+      "variable_note": "In the budget, funds for default prevention are included in the Student Loan Reserve Fund Account and funds for administering pre-1992 loans are included in the Liquidating Account. Both are included in this table’s total for administration.",
+      "source_label": "Total Administrative Costsa",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T4-Admin_07-2021",
+        "row": 42,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Aid Administration Costs / Total Administrative Costsa / Outlays",
+      "marker": "a",
+      "variable_note": "In the budget, funds for default prevention are included in the Student Loan Reserve Fund Account and funds for administering pre-1992 loans are included in the Liquidating Account. Both are included in this table’s total for administration.",
+      "source_label": "Total Administrative Costsa",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T4-Admin_07-2021",
+        "row": 42,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals, Fair-Value Estimating Procedures / Credit Reestimates and Modificationsa / Budget Authority",
+      "marker": "a",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2021. Those totals are based on the amounts that the Office of Management and Budget expects to record in fiscal year 2021. Is the copy in red okay? These should be 2021. I changed them.",
+      "source_label": "Credit Reestimates and Modificationsa",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T6-FV_07-2021",
+        "row": 18,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals, Fair-Value Estimating Procedures / Credit Reestimates and Modificationsa / Outlays",
+      "marker": "a",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2021. Those totals are based on the amounts that the Office of Management and Budget expects to record in fiscal year 2021. Is the copy in red okay? These should be 2021. I changed them.",
+      "source_label": "Credit Reestimates and Modificationsa",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T6-FV_07-2021",
+        "row": 18,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals, Fair-Value Estimating Procedures / Credit Reestimates and Modificationsa / Budget Authority",
+      "marker": "a",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2021. Those totals are based on the amounts that the Office of Management and Budget expects to record in fiscal year 2021. Is the copy in red okay? These should be 2021. I changed them.",
+      "source_label": "Credit Reestimates and Modificationsa",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T6-FV_07-2021",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals, Fair-Value Estimating Procedures / Credit Reestimates and Modificationsa / Outlays",
+      "marker": "a",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2021. Those totals are based on the amounts that the Office of Management and Budget expects to record in fiscal year 2021. Is the copy in red okay? These should be 2021. I changed them.",
+      "source_label": "Credit Reestimates and Modificationsa",
+      "source": {
+        "file": "51310-2021-07-studentloan.xlsx",
+        "sheet": "T6-FV_07-2021",
+        "row": 29,
+        "column": 2
+      }
+    }
+  ]
+}

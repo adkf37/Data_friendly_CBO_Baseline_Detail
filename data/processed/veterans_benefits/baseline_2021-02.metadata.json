@@ -1,0 +1,103 @@
+{
+  "dataset": "veterans_benefits",
+  "program_id": "53725",
+  "program": "Veterans Benefits",
+  "vintage": "2021-02",
+  "data_file": "baseline_2021-02.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "a6555525aff682b332e6ea101f35c4e1fa50ff486ac7995071775a794e716b7d",
+  "row_count": 242,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "53725-2021-02-veteransbenefit..xlsx"
+  ],
+  "source_sheets": [
+    "Veterans' C&P_2-2021"
+  ],
+  "units": [
+    "Dollars",
+    "Millions of dollars",
+    "Thousands of people"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Veterans' Disability Compensation and Pension Programs / Veterans / Adjustment for Payday Shifta",
+      "marker": "a",
+      "variable_note": "38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional paycheck in fiscal years 2022 and 2028 and one fewer paycheck in fiscal years 2024 and 2029.",
+      "source_label": "Adjustment for Payday Shifta",
+      "source": {
+        "file": "53725-2021-02-veteransbenefit..xlsx",
+        "sheet": "Veterans' C&P_2-2021",
+        "row": 16,
+        "column": 3
+      }
+    },
+    {
+      "category_path": "Veterans' Disability Compensation and Pension Programs / Survivors / Adjustment for Payday Shifta",
+      "marker": "a",
+      "variable_note": "38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional paycheck in fiscal years 2022 and 2028 and one fewer paycheck in fiscal years 2024 and 2029.",
+      "source_label": "Adjustment for Payday Shifta",
+      "source": {
+        "file": "53725-2021-02-veteransbenefit..xlsx",
+        "sheet": "Veterans' C&P_2-2021",
+        "row": 24,
+        "column": 3
+      }
+    },
+    {
+      "category_path": "Veterans' Disability Compensation and Pension Programs / Veterans / Adjustment for Payday Shifta",
+      "marker": "a",
+      "variable_note": "38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional paycheck in fiscal years 2022 and 2028 and one fewer paycheck in fiscal years 2024 and 2029.",
+      "source_label": "Adjustment for Payday Shifta",
+      "source": {
+        "file": "53725-2021-02-veteransbenefit..xlsx",
+        "sheet": "Veterans' C&P_2-2021",
+        "row": 38,
+        "column": 3
+      }
+    },
+    {
+      "category_path": "Veterans' Disability Compensation and Pension Programs / Survivors / Adjustment for Payday Shifta",
+      "marker": "a",
+      "variable_note": "38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional paycheck in fiscal years 2022 and 2028 and one fewer paycheck in fiscal years 2024 and 2029.",
+      "source_label": "Adjustment for Payday Shifta",
+      "source": {
+        "file": "53725-2021-02-veteransbenefit..xlsx",
+        "sheet": "Veterans' C&P_2-2021",
+        "row": 45,
+        "column": 3
+      }
+    }
+  ]
+}

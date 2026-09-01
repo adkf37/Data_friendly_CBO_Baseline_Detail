@@ -1,0 +1,380 @@
+workbooks:
+- workbook: 51317-2020-01-usda.xlsx
+  sheets:
+  - sheet: Sheet2
+    classification: data
+    include: true
+    output_dataset: usda_2020_01
+    verification_target: cbo-usda-2020-01
+    header_rows: 1-61
+    first_data_row: 62
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
+      during automated inspection
+- workbook: 51317-2020-03-usda.xlsx
+  sheets:
+  - sheet: Sheet1
+    classification: data
+    include: true
+    output_dataset: usda_2020_03
+    verification_target: cbo-usda-2020-03
+    header_rows: 1-55
+    first_data_row: 56
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
+      during automated inspection
+- workbook: 51317-2021-02-usda.xlsx
+  sheets:
+  - sheet: USDA_2-2021
+    classification: data
+    include: true
+    output_dataset: usda_2021_02
+    verification_target: cbo-usda-2021-02
+    header_rows: 1-56
+    first_data_row: 57
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
+      during automated inspection
+- workbook: 51317-2021-07-usda.xlsx
+  sheets:
+  - sheet: Sheet1
+    classification: data
+    include: true
+    output_dataset: usda_2021_07
+    verification_target: cbo-usda-2021-07
+    header_rows: 1-53
+    first_data_row: 54
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
+      during automated inspection
+- workbook: 51317-2022-05-usda.xlsx
+  sheets:
+  - sheet: Sheet1
+    classification: data
+    include: true
+    output_dataset: usda_2022_05
+    verification_target: cbo-usda-2022-05
+    header_rows: 1-55
+    first_data_row: 56
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
+      during automated inspection
+- workbook: 51317-2023-02-usda.xlsx
+  sheets:
+  - sheet: USDA Mand 02-2023
+    classification: data
+    include: true
+    output_dataset: usda_2023_02
+    verification_target: cbo-usda-2023-02
+    header_rows: 1-55
+    first_data_row: 56
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
+      during automated inspection
+  - sheet: Appendix Function 300 02-2023
+    classification: unknown
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51317-2023-05-usda.xlsx
+  sheets:
+  - sheet: USDA_05-2023
+    classification: data
+    include: true
+    output_dataset: usda_2023_05
+    verification_target: cbo-usda-2023-05
+    header_rows: 1-60
+    first_data_row: 61
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
+      during automated inspection
+  - sheet: App 117-169 CCC funding
+    classification: data
+    include: true
+    output_dataset: usda_2023_05
+    verification_target: cbo-usda-2023-05
+    header_rows: 1-18
+    first_data_row: 19
+    year_column_strategy: none
+    year_columns: []
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: complex multi-table farm programs appendix sheet; no reliable fiscal-year column structure
+      identified during automated inspection
+- workbook: 51317-2024-02-usda.xlsx
+  sheets:
+  - sheet: USDA 02-2024
+    classification: data
+    include: true
+    output_dataset: usda_2024_02
+    verification_target: cbo-usda-2024-02
+    header_rows: 1-55
+    first_data_row: 56
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
+      during automated inspection
+  - sheet: App PL 117-169
+    classification: data
+    include: true
+    output_dataset: usda_2024_02
+    verification_target: cbo-usda-2024-02
+    header_rows: 1-14
+    first_data_row: 15
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51317-2024-06-usda.xlsx
+  sheets:
+  - sheet: USDA_FarmProgBaseline_06-2024
+    classification: data
+    include: true
+    output_dataset: usda_2024_06
+    verification_target: cbo-usda-2024-06
+    header_rows: 1-52
+    first_data_row: 53
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
+      during automated inspection
+  - sheet: AppA_USDAFarmProg_06-2024
+    classification: data
+    include: true
+    output_dataset: usda_2024_06
+    verification_target: cbo-usda-2024-06
+    header_rows: 1-15
+    first_data_row: 16
+    year_column_strategy: none
+    year_columns: []
+    unit: Millions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: complex multi-table farm programs appendix; no reliable fiscal-year column structure identified
+      during automated inspection
+  - sheet: AppB_USDAFarmProg_06-2024
+    classification: data
+    include: true
+    output_dataset: usda_2024_06
+    verification_target: cbo-usda-2024-06
+    header_rows: 1-15
+    first_data_row: 16
+    year_column_strategy: none
+    year_columns: []
+    unit: Under the $30 Billion Borrowing Limit
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: complex multi-table farm programs appendix; no reliable fiscal-year column structure identified
+      during automated inspection
+- workbook: 51317-2025-01-usda.xlsx
+  sheets:
+  - sheet: USDA Baseline_01-2025
+    classification: data
+    include: true
+    output_dataset: usda_2025_01
+    verification_target: cbo-usda-2025-01
+    header_rows: 1-52
+    first_data_row: 53
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: complex multi-table farm programs sheet; no reliable fiscal-year column structure identified
+      during automated inspection
+  - sheet: AppA_USDA Baseline_01-2025
+    classification: data
+    include: true
+    output_dataset: usda_2025_01
+    verification_target: cbo-usda-2025-01
+    header_rows: 1-72
+    first_data_row: 73
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: AppB_USDA Baseline_01-2025
+    classification: data
+    include: true
+    output_dataset: usda_2025_01
+    verification_target: cbo-usda-2025-01
+    header_rows: 1-14
+    first_data_row: 15
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Under the $30 Billion Borrowing Limit
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51317-2026-02-usda.xlsx
+  sheets:
+  - sheet: USDA Baseline_02-2026
+    classification: data
+    include: true
+    output_dataset: usda_2026_02
+    verification_target: cbo-usda-2026-02-main
+    header_rows: 1-105
+    first_data_row: 106
+    year_column_strategy: header_label
+    year_columns: []
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - rows 48-96 are a table directory with page numbers, not source measures
+    - repeated table headers are detected throughout the worksheet
+  - sheet: AppA_USDA Baseline_02-2026
+    classification: data
+    include: true
+    output_dataset: usda_2026_02
+    verification_target: cbo-usda-2026-02-appendix-a
+    header_rows: 1-15
+    first_data_row: 16
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: By fiscal year, millions of dollars
+    notes:
+    - manually reviewed February 2026 layout
+  - sheet: AppB_USDA Baseline_02-2026
+    classification: data
+    include: true
+    output_dataset: usda_2026_02
+    verification_target: cbo-usda-2026-02-appendix-b
+    header_rows: 1-14
+    first_data_row: 15
+    year_column_strategy: column_index
+    year_columns:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout

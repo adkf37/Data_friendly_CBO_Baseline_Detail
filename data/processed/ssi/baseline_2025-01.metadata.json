@@ -1,0 +1,81 @@
+{
+  "dataset": "ssi",
+  "program_id": "51313",
+  "program": "SSI",
+  "vintage": "2025-01",
+  "data_file": "baseline_2025-01.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "5d9cf907f7a8999c9c71972773d970bc992b12b437d27a9c3f1f9a15bbbd9106",
+  "row_count": 132,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2025,
+    "end_year": 2035
+  },
+  "period_coverage": {
+    "start_year": 2025,
+    "end_year": 2035
+  },
+  "period_types": [
+    "calendar_year",
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51313-2025-01-ssi.xlsx"
+  ],
+  "source_sheets": [
+    "SSI_01-2025"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Dollars per beneficiary",
+    "Percentage",
+    "Thousands of people"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Supplemental Security Income / BUDGET INFORMATION / Adjustment for payday shifta",
+      "marker": "a",
+      "variable_note": "20 C.F.R § 416.402 directs that if the first day of the month falls on a weekend or a holiday, the Social Security Administration will make Supplemental Security Income payments on the preceding business day. That will result in one additional payment in fiscal years 2028 and 2033 and one fewer payment in fiscal years 2029 and 2035.",
+      "source_label": "Adjustment for payday shifta",
+      "source": {
+        "file": "51313-2025-01-ssi.xlsx",
+        "sheet": "SSI_01-2025",
+        "row": 14,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Supplemental Security Income / OTHER INFORMATION / Number of Payments (By fiscal year)a",
+      "marker": "a",
+      "variable_note": "20 C.F.R § 416.402 directs that if the first day of the month falls on a weekend or a holiday, the Social Security Administration will make Supplemental Security Income payments on the preceding business day. That will result in one additional payment in fiscal years 2028 and 2033 and one fewer payment in fiscal years 2029 and 2035.",
+      "source_label": "Number of Payments (By fiscal year)a",
+      "source": {
+        "file": "51313-2025-01-ssi.xlsx",
+        "sheet": "SSI_01-2025",
+        "row": 35,
+        "column": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "dataset": "child_nutrition",
+  "program_id": "51293",
+  "program": "Child Nutrition",
+  "vintage": "2021-02",
+  "data_file": "baseline_2021-02.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "1b40edc1fdeb8007076b4cfb9c0819ab039923514169f2a926b26de60f0cf98d",
+  "row_count": 186,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51293-2021-02-childnutrition.xlsx"
+  ],
+  "source_sheets": [
+    "Child Nutrition_2-2021"
+  ],
+  "units": [
+    "Millions of dollars",
+    "Percent"
+  ],
+  "contains_totals": false,
+  "aggregation_note": null,
+  "annotations": [
+    {
+      "category_path": "Child Nutrition Programs / Other spendinga / Budget Authority",
+      "marker": "a",
+      "variable_note": "Other spending includes the Special Milk Program, the Food Service Management Institute, Team Nutrition, coordinated review, computer support and processing, child nutrition grants for the Northern Marianas and American Samoa, and other activities. It also includes discretionary projects funded inannual appropriation acts.",
+      "source_label": "Other spendinga",
+      "source": {
+        "file": "51293-2021-02-childnutrition.xlsx",
+        "sheet": "Child Nutrition_2-2021",
+        "row": 45,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Child Nutrition Programs / Other spendinga / Estimated Outlays",
+      "marker": "a",
+      "variable_note": "Other spending includes the Special Milk Program, the Food Service Management Institute, Team Nutrition, coordinated review, computer support and processing, child nutrition grants for the Northern Marianas and American Samoa, and other activities. It also includes discretionary projects funded inannual appropriation acts.",
+      "source_label": "Other spendinga",
+      "source": {
+        "file": "51293-2021-02-childnutrition.xlsx",
+        "sheet": "Child Nutrition_2-2021",
+        "row": 45,
+        "column": 2
+      }
+    }
+  ]
+}

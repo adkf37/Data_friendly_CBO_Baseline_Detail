@@ -7,7 +7,7 @@ from pathlib import Path
 
 from openpyxl import Workbook
 
-from src import verify
+from etl import validate as verify
 
 
 def _write_workbook(path: Path) -> None:
@@ -74,7 +74,7 @@ class VerifyTests(unittest.TestCase):
         repo_root = Path(__file__).resolve().parent.parent
 
         result = subprocess.run(
-            [sys.executable, str(repo_root / "src" / "verify.py"), "--help"],
+            [sys.executable, str(repo_root / "etl" / "validate.py"), "--help"],
             cwd=repo_root,
             capture_output=True,
             text=True,

@@ -1,0 +1,91 @@
+{
+  "dataset": "dod_medicare",
+  "program_id": "54946",
+  "program": "DoD Medicare",
+  "vintage": "2023-05",
+  "data_file": "baseline_2023-05.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "e23eecc4238997a67802459c2497fbad8d969f8a6331cab7fad8166c23d9e0aa",
+  "row_count": 121,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2023,
+    "end_year": 2033
+  },
+  "period_coverage": {
+    "start_year": 2023,
+    "end_year": 2033
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "54946-2023-05-dodmedicare.xlsx"
+  ],
+  "source_sheets": [
+    "DoD-MERHCF_0x-2023"
+  ],
+  "units": [
+    "Dollars per beneficiary",
+    "Millions of dollars",
+    "Thousands of people"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / TRICARE for Lifea",
+      "marker": "a",
+      "variable_note": "TRICARE for Life beneficiaries include all military retirees, survivors, and their dependents who are eligible for benefits from the MERHCF unless they are enrolled in USFHP. For those enrolled in Medicare Part B, benefits include the TFL Medicare wrap-around benefit, pharmacy benefits, and any care provided to those beneficiaries at military treatment facilities. TFL beneficiaries shown in this table also include those non-USFHP beneficiaries who are ineligible to use TFL because they are not enrolled in Medicare Part B but are still eligible for some benefits from the MERHCF, such as direct care at military treatment facilities. CBO estimates that about 90 percent of beneficiaries who are eligible for TFL use the benefit.",
+      "source_label": "TRICARE for Lifea",
+      "source": {
+        "file": "54946-2023-05-dodmedicare.xlsx",
+        "sheet": "DoD-MERHCF_0x-2023",
+        "row": 23,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Department of Defense Medicare-Eligible Retiree Health Care Fund / Average Annual Beneficiaries (Thousands of people) / USFHPb",
+      "marker": "b",
+      "variable_note": "The beneficiary projections for USFHP include CBO’s projection of Medicare-eligible beneficiaries enrolled in that program and exclude beneficiaries enrolled in USFHP who are not Medicare eligible. Costs for those beneficiaries are not paid from the MERHCF. The enrollment of Medicare-eligible beneficiaries in USFHP is declining over time because the National Defense Authorization Act for Fiscal Year 2012 limits future enrollment of Medicare-eligible beneficiaries to those enrolled as of the start of fiscal year 2013.",
+      "source_label": "USFHPb",
+      "source": {
+        "file": "54946-2023-05-dodmedicare.xlsx",
+        "sheet": "DoD-MERHCF_0x-2023",
+        "row": 24,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Department of Defense Medicare-Eligible Retiree Health Care Fund / TRICARE for Life / USFHPc",
+      "marker": "c",
+      "variable_note": "The costs per capita to the MERHCF for USFHP beneficiaries are greater than for TFL beneficiaries because USFHP is responsible for the full cost of care for its enrollees, whereas TFL pays only the portion of allowable charges that are not paid for by Medicare or another form of health insurance.",
+      "source_label": "USFHPc",
+      "source": {
+        "file": "54946-2023-05-dodmedicare.xlsx",
+        "sheet": "DoD-MERHCF_0x-2023",
+        "row": 38,
+        "column": 1
+      }
+    }
+  ]
+}

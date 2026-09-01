@@ -1,0 +1,80 @@
+{
+  "dataset": "unemployment_insurance",
+  "program_id": "51316",
+  "program": "Unemployment Insurance",
+  "vintage": "2023-05",
+  "data_file": "baseline_2023-05.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "40fd9f22e98724661b10efe045b7d0f2613ffd2c7b668f02d262231fa8e789ea",
+  "row_count": 143,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2023,
+    "end_year": 2033
+  },
+  "period_coverage": {
+    "start_year": 2023,
+    "end_year": 2033
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51316-2023-05-unemployment.xlsx"
+  ],
+  "source_sheets": [
+    "UI and TAA_05-2023"
+  ],
+  "units": [
+    "Dollars",
+    "Millions of dollars",
+    "Millions of people",
+    "Percent"
+  ],
+  "contains_totals": false,
+  "aggregation_note": null,
+  "annotations": [
+    {
+      "category_path": "Unemployment Compensation and Trade Adjustment Assistance / Trade Adjustment Assistancea / Budget Authority",
+      "marker": "a",
+      "variable_note": "Authorization for the Trade Adjustment Assistance program expired at the end of June 2022. The amounts include cash and training benefits for workers certified before the program expired.",
+      "source_label": "Trade Adjustment Assistancea",
+      "source": {
+        "file": "51316-2023-05-unemployment.xlsx",
+        "sheet": "UI and TAA_05-2023",
+        "row": 27,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Unemployment Compensation and Trade Adjustment Assistance / Trade Adjustment Assistancea / Estimated Outlays",
+      "marker": "a",
+      "variable_note": "Authorization for the Trade Adjustment Assistance program expired at the end of June 2022. The amounts include cash and training benefits for workers certified before the program expired.",
+      "source_label": "Trade Adjustment Assistancea",
+      "source": {
+        "file": "51316-2023-05-unemployment.xlsx",
+        "sheet": "UI and TAA_05-2023",
+        "row": 27,
+        "column": 1
+      }
+    }
+  ]
+}

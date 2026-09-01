@@ -1,0 +1,151 @@
+{
+  "dataset": "veterans_benefits",
+  "program_id": "53725",
+  "program": "Veterans Benefits",
+  "vintage": "2025-01",
+  "data_file": "baseline_2025-01.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "2e4e1128b57278bec362cbe91376302221638e64ac28fdb1c87bff7ab70a2ccc",
+  "row_count": 176,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2025,
+    "end_year": 2035
+  },
+  "period_coverage": {
+    "start_year": 2025,
+    "end_year": 2035
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "53725-2025-01-veteransbenefit.xlsx"
+  ],
+  "source_sheets": [
+    "Veterans' C&P_01-2025"
+  ],
+  "units": [
+    "Dollars",
+    "Millions of dollars",
+    "Thousands of people"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Veterans’ Disability Compensation and Pension Programs / Survivors / Average Annual Benefit (Dollars)",
+      "marker": "a",
+      "variable_note": "38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional payment in fiscal years 2028 and 2033 and one fewer payment in fiscal years 2029 and 2035.",
+      "source_label": "Adjustment for Payday Shifta",
+      "source": {
+        "file": "53725-2025-01-veteransbenefit.xlsx",
+        "sheet": "Veterans' C&P_01-2025",
+        "row": 18,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Veterans’ Disability Compensation and Pension Programs / Survivors / Number of Survivors (Thousands of people)",
+      "marker": "a",
+      "variable_note": "38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional payment in fiscal years 2028 and 2033 and one fewer payment in fiscal years 2029 and 2035.",
+      "source_label": "Adjustment for Payday Shifta",
+      "source": {
+        "file": "53725-2025-01-veteransbenefit.xlsx",
+        "sheet": "Veterans' C&P_01-2025",
+        "row": 18,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Veterans’ Disability Compensation and Pension Programs / Survivors / Total Outlays for Disability Compensation",
+      "marker": "a",
+      "variable_note": "38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional payment in fiscal years 2028 and 2033 and one fewer payment in fiscal years 2029 and 2035.",
+      "source_label": "Adjustment for Payday Shifta",
+      "source": {
+        "file": "53725-2025-01-veteransbenefit.xlsx",
+        "sheet": "Veterans' C&P_01-2025",
+        "row": 18,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Veterans’ Disability Compensation and Pension Programs / Veterans / Average Annual Benefit (Dollars)",
+      "marker": "a",
+      "variable_note": "38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional payment in fiscal years 2028 and 2033 and one fewer payment in fiscal years 2029 and 2035.",
+      "source_label": "Adjustment for Payday Shifta",
+      "source": {
+        "file": "53725-2025-01-veteransbenefit.xlsx",
+        "sheet": "Veterans' C&P_01-2025",
+        "row": 18,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Veterans’ Disability Compensation and Pension Programs / Veterans / Number of Veterans (Thousands of people)",
+      "marker": "a",
+      "variable_note": "38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional payment in fiscal years 2028 and 2033 and one fewer payment in fiscal years 2029 and 2035.",
+      "source_label": "Adjustment for Payday Shifta",
+      "source": {
+        "file": "53725-2025-01-veteransbenefit.xlsx",
+        "sheet": "Veterans' C&P_01-2025",
+        "row": 18,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Veterans’ Disability Compensation and Pension Programs / Veterans / Outlays Estimated in Baseline",
+      "marker": "a",
+      "variable_note": "38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional payment in fiscal years 2028 and 2033 and one fewer payment in fiscal years 2029 and 2035.",
+      "source_label": "Adjustment for Payday Shifta",
+      "source": {
+        "file": "53725-2025-01-veteransbenefit.xlsx",
+        "sheet": "Veterans' C&P_01-2025",
+        "row": 18,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Veterans’ Disability Compensation and Pension Programs / Veterans / Adjustment for Payday Shifta",
+      "marker": "a",
+      "variable_note": "38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional payment in fiscal years 2028 and 2033 and one fewer payment in fiscal years 2029 and 2035.",
+      "source_label": "Adjustment for Payday Shifta",
+      "source": {
+        "file": "53725-2025-01-veteransbenefit.xlsx",
+        "sheet": "Veterans' C&P_01-2025",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Veterans’ Disability Compensation and Pension Programs / Survivors / Adjustment for Payday Shifta",
+      "marker": "a",
+      "variable_note": "38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional payment in fiscal years 2028 and 2033 and one fewer payment in fiscal years 2029 and 2035.",
+      "source_label": "Adjustment for Payday Shifta",
+      "source": {
+        "file": "53725-2025-01-veteransbenefit.xlsx",
+        "sheet": "Veterans' C&P_01-2025",
+        "row": 39,
+        "column": 2
+      }
+    }
+  ]
+}

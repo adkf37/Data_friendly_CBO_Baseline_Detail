@@ -1,0 +1,206 @@
+workbooks:
+- workbook: 53726-2019-05-Post911-GI-Bill.xlsx
+  sheets:
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: post911_gi_bill_2019_05
+    verification_target: cbo-post911-gi-bill-2019-05
+    header_rows: 1-7
+    first_data_row: 8
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Average Annual Benefit (Dollars)
+    notes:
+    - merged cells present — verify header parsing
+- workbook: 53726-2020-01-post911gibill.xlsx
+  sheets:
+  - sheet: Post-911 GI Bill
+    classification: data
+    include: true
+    output_dataset: post911gibill_2020_01
+    verification_target: cbo-post911gibill-2020-01
+    header_rows: 1-7
+    first_data_row: 8
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Average Annual Benefit (Dollars)
+    notes:
+    - merged cells present — verify header parsing
+- workbook: 53726-2020-03-post911gibill.xlsx
+  sheets:
+  - sheet: post911GI
+    classification: data
+    include: true
+    output_dataset: post911gibill_2020_03
+    verification_target: cbo-post911gibill-2020-03
+    header_rows: 1-7
+    first_data_row: 8
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Average Annual Benefit (Dollars)
+    notes:
+    - merged cells present — verify header parsing
+- workbook: 53726-2021-02-post911gibill.xlsx
+  sheets:
+  - sheet: Post-911_2-2021
+    classification: data
+    include: true
+    output_dataset: post911gibill_2021_02
+    verification_target: cbo-post911gibill-2021-02
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Outlays in Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 53726-2021-07-post911gibill.xlsx
+  sheets:
+  - sheet: Post911_
+    classification: data
+    include: true
+    output_dataset: post911gibill_2021_07
+    verification_target: cbo-post911gibill-2021-07
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Outlays in millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 53726-2022-05-post911gibill.xlsx
+  sheets:
+  - sheet: Post911_05-2022
+    classification: data
+    include: true
+    output_dataset: post911gibill_2022_05
+    verification_target: cbo-post911gibill-2022-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 53726-2023-05-post911gibill.xlsx
+  sheets:
+  - sheet: Post911_0x-2023
+    classification: data
+    include: true
+    output_dataset: post911gibill_2023_05
+    verification_target: cbo-post911gibill-2023-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 53726-2024-02-post911gibill.xlsx
+  sheets:
+  - sheet: Post911_02-2024
+    classification: data
+    include: true
+    output_dataset: post911gibill_2024_02
+    verification_target: cbo-post911gibill-2024-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split

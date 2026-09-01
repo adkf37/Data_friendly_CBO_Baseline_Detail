@@ -1,0 +1,92 @@
+{
+  "dataset": "snap",
+  "program_id": "51312",
+  "program": "SNAP",
+  "vintage": "2025-01",
+  "data_file": "baseline_2025-01.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "b09c8c459d81bfb3a2ac6f1a507c86e44262ad18e26639509776b301c628b359",
+  "row_count": 241,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2025,
+    "end_year": 2035
+  },
+  "period_coverage": {
+    "start_year": 2025,
+    "end_year": 2035
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51312-2025-01-snap.xlsx"
+  ],
+  "source_sheets": [
+    "SNAP_01-2025"
+  ],
+  "units": [
+    "Dollars per participant",
+    "Millions of dollars",
+    "Millions of people",
+    "Percent"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Supplemental Nutrition Assistance Program / Total Benefitsa / Budget Authority",
+      "marker": "a",
+      "variable_note": "CBO projects the cost of the Thrifty Food Plan (TFP) using a proxy food inflator. Additionally, CBO increases its projections of the cost of the TFP in 2027 and 2032, anticipating that reevaluations of the TFP, which occur every five years, would increase costs.",
+      "source_label": "Total Benefitsa",
+      "source": {
+        "file": "51312-2025-01-snap.xlsx",
+        "sheet": "SNAP_01-2025",
+        "row": 18,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Supplemental Nutrition Assistance Program / Thrifty Food Plan, Estimated Change / June/June Preceding Year, Lagged (Percent)a",
+      "marker": "a",
+      "variable_note": "CBO projects the cost of the Thrifty Food Plan (TFP) using a proxy food inflator. Additionally, CBO increases its projections of the cost of the TFP in 2027 and 2032, anticipating that reevaluations of the TFP, which occur every five years, would increase costs.",
+      "source_label": "June/June Preceding Year, Lagged (Percent)a",
+      "source": {
+        "file": "51312-2025-01-snap.xlsx",
+        "sheet": "SNAP_01-2025",
+        "row": 37,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Supplemental Nutrition Assistance Program / NUTRITION ASSISTANCE FOR PUERTO RICO AND AMERICAN SAMOA / State Administrationb",
+      "marker": "b",
+      "variable_note": "Excludes employment and training.",
+      "source_label": "State Administrationb",
+      "source": {
+        "file": "51312-2025-01-snap.xlsx",
+        "sheet": "SNAP_01-2025",
+        "row": 45,
+        "column": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "dataset": "social_security_trust_funds",
+  "program_id": "51309",
+  "program": "Social Security Trust Funds",
+  "vintage": "2020-01",
+  "data_file": "baseline_2020-01.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "808130d076b818a9625fa808a2db696995d3be5d5d33c774fb7692527b005a6d",
+  "row_count": 204,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2019,
+    "end_year": 2030
+  },
+  "period_coverage": {
+    "start_year": 2019,
+    "end_year": 2030
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51309-2020-01-trustfund.xlsx"
+  ],
+  "source_sheets": [
+    "SS Trust Funds"
+  ],
+  "units": [
+    "Billions of dollars"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Other Income / Federal payroll tax, employer sharea",
+      "marker": "a",
+      "variable_note": "Transfers from the general fund to the Social Security trust funds. Such transfers appear in the budget as both positive outlays (the general fund portion) and negative outlays, or offsetting receipts (the trust fund portion).",
+      "source_label": "Federal payroll tax, employer sharea",
+      "source": {
+        "file": "51309-2020-01-trustfund.xlsx",
+        "sheet": "SS Trust Funds",
+        "row": 11,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Other Income / Interesta",
+      "marker": "a",
+      "variable_note": "Transfers from the general fund to the Social Security trust funds. Such transfers appear in the budget as both positive outlays (the general fund portion) and negative outlays, or offsetting receipts (the trust fund portion).",
+      "source_label": "Interesta",
+      "source": {
+        "file": "51309-2020-01-trustfund.xlsx",
+        "sheet": "SS Trust Funds",
+        "row": 12,
+        "column": 1
+      }
+    }
+  ]
+}

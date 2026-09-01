@@ -1,0 +1,65 @@
+{
+  "dataset": "tanf",
+  "program_id": "51314",
+  "program": "TANF",
+  "vintage": "2023-05",
+  "data_file": "baseline_2023-05.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "fcd7ad5c8454e5cdde1937b2c2892b79469a90b51999a65a5b4551ec63ca61e4",
+  "row_count": 88,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2023,
+    "end_year": 2033
+  },
+  "period_coverage": {
+    "start_year": 2023,
+    "end_year": 2033
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51314-2023-05-tanf.xlsx"
+  ],
+  "source_sheets": [
+    "TANF_05-2023"
+  ],
+  "units": [
+    "Millions of dollars"
+  ],
+  "contains_totals": false,
+  "aggregation_note": null,
+  "annotations": [
+    {
+      "category_path": "Temporary Assistance for Needy Families / Budget Authority for TANF Components / Sequestrationa",
+      "marker": "a",
+      "variable_note": "The Infrastructure Investment and Jobs Act extended sequestration for mandatory spending through fiscal year 2031.",
+      "source_label": "Sequestrationa",
+      "source": {
+        "file": "51314-2023-05-tanf.xlsx",
+        "sheet": "TANF_05-2023",
+        "row": 23,
+        "column": 1
+      }
+    }
+  ]
+}

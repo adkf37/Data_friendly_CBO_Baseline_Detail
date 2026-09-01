@@ -1,0 +1,112 @@
+workbooks:
+- workbook: 60044-2024-02-Toxic-Exposures-Fund.xlsx
+  sheets:
+  - sheet: TEF-02-2024
+    classification: data
+    include: true
+    output_dataset: toxic_exposures_fund_2024_02
+    verification_target: cbo-toxic-exposures-fund-2024-02
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 60044-2024-06-tef.xlsx
+  sheets:
+  - sheet: TEF-06-2024
+    classification: data
+    include: true
+    output_dataset: tef_2024_06
+    verification_target: cbo-tef-2024-06
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 60044-2025-01-tef.xlsx
+  sheets:
+  - sheet: TEF-01-2025
+    classification: data
+    include: true
+    output_dataset: tef_2025_01
+    verification_target: cbo-tef-2025-01
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 60044-2026-02-tef.xlsx
+  sheets:
+  - sheet: TEF_02-2026
+    classification: data
+    include: true
+    output_dataset: tef_2026_02
+    verification_target: cbo-toxic-exposures-fund-2026-02
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout

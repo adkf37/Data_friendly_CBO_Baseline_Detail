@@ -1,0 +1,320 @@
+workbooks:
+- workbook: 54946-2019-05-DoDMedicare.xlsx
+  sheets:
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: dodmedicare_2019_05
+    verification_target: cbo-dodmedicare-2019-05
+    header_rows: 1-9
+    first_data_row: 10
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Cost per Beneficiary (Dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 54946-2020-01-dodmedicare.xlsx
+  sheets:
+  - sheet: DoD-MERHCF
+    classification: data
+    include: true
+    output_dataset: dodmedicare_2020_01
+    verification_target: cbo-dodmedicare-2020-01
+    header_rows: 1-10
+    first_data_row: 11
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Cost per Beneficiary (Dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 54946-2020-03-dodmedicare.xlsx
+  sheets:
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: dodmedicare_2020_03
+    verification_target: cbo-dodmedicare-2020-03
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Cost per Beneficiary (Dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 54946-2021-02-dodmedicare.xlsx
+  sheets:
+  - sheet: DoD-MERHCF_2-2021
+    classification: data
+    include: true
+    output_dataset: dodmedicare_2021_02
+    verification_target: cbo-dodmedicare-2021-02
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 54946-2021-07-dodmedicare.xlsx
+  sheets:
+  - sheet: DoD-MERHCF_07-2021
+    classification: data
+    include: true
+    output_dataset: dodmedicare_2021_07
+    verification_target: cbo-dodmedicare-2021-07
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: Sheet1
+    classification: unknown
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+- workbook: 54946-2022-05-dodmedicare.xlsx
+  sheets:
+  - sheet: DoD-MERHCF_05-2022
+    classification: data
+    include: true
+    output_dataset: dodmedicare_2022_05
+    verification_target: cbo-dodmedicare-2022-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Sheet1
+    classification: unknown
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+- workbook: 54946-2023-05-dodmedicare.xlsx
+  sheets:
+  - sheet: DoD-MERHCF_0x-2023
+    classification: data
+    include: true
+    output_dataset: dodmedicare_2023_05
+    verification_target: cbo-dodmedicare-2023-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Sheet1
+    classification: unknown
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+- workbook: 54946-2024-02-dodmedicare.xlsx
+  sheets:
+  - sheet: DoD-MERHCF_0x-2024
+    classification: data
+    include: true
+    output_dataset: dodmedicare_2024_02
+    verification_target: cbo-dodmedicare-2024-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Sheet1
+    classification: unknown
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+- workbook: 54946-2025-01-dodmedicare.xlsx
+  sheets:
+  - sheet: DoD-MERHCF_0x-2024
+    classification: data
+    include: true
+    output_dataset: dodmedicare_2025_01
+    verification_target: cbo-dodmedicare-2025-01
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Sheet1
+    classification: unknown
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+- workbook: 54946-2026-02-dodmedicare.xlsx
+  sheets:
+  - sheet: DoD-MERHCF_02-2026
+    classification: data
+    include: true
+    output_dataset: dodmedicare_2026_02
+    verification_target: cbo-dod-medicare-2026-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout

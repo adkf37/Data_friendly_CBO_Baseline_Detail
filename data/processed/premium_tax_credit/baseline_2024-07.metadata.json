@@ -1,0 +1,89 @@
+{
+  "dataset": "premium_tax_credit",
+  "program_id": "60523",
+  "program": "Premium Tax Credit",
+  "vintage": "2024-07",
+  "data_file": "baseline_2024-07.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "1dcddaf0e9f961f634a93ed0482ed4ced099303a1eb17d909e89b18ba785f2d8",
+  "row_count": 33,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2024,
+    "end_year": 2034
+  },
+  "period_coverage": {
+    "start_year": 2024,
+    "end_year": 2034
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "60523-2024-07-premium-tax-credit.xlsx"
+  ],
+  "source_sheets": [
+    "PTC_07-2024"
+  ],
+  "units": [
+    "Millions of people"
+  ],
+  "contains_totals": false,
+  "aggregation_note": null,
+  "annotations": [
+    {
+      "category_path": null,
+      "marker": "a",
+      "variable_note": "The risk-adjustment program is intended to stabilize premiums in the nongroup and small-group markets, without affecting the federal budget. The federal government collects fees from insurers with enrollees who are relatively more healthy and makes roughly offsetting payments to insurers with enrollees who are relatively less healthy.",
+      "source_label": "Collections for risk adjustmenta",
+      "source": {
+        "file": "60523-2024-07-premium-tax-credit.xlsx",
+        "sheet": "PTC_07-2024",
+        "row": 17,
+        "column": 2
+      }
+    },
+    {
+      "category_path": null,
+      "marker": "a",
+      "variable_note": "The risk-adjustment program is intended to stabilize premiums in the nongroup and small-group markets, without affecting the federal budget. The federal government collects fees from insurers with enrollees who are relatively more healthy and makes roughly offsetting payments to insurers with enrollees who are relatively less healthy.",
+      "source_label": "Payments for risk adjustmenta",
+      "source": {
+        "file": "60523-2024-07-premium-tax-credit.xlsx",
+        "sheet": "PTC_07-2024",
+        "row": 18,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "The Premium Tax Credit and Related Spending / Marketplace Enrollment / BHP Enrollmentb",
+      "marker": "b",
+      "variable_note": "Only Minnesota and Oregon currently operate a BHP. Estimates include enrollment in New York’s Essential Plan, which is funded through a section 1332 waiver and mirrors the BHP; enrollees with household income up to 250 percent of the federal poverty level are eligible.",
+      "source_label": "BHP Enrollmentb",
+      "source": {
+        "file": "60523-2024-07-premium-tax-credit.xlsx",
+        "sheet": "PTC_07-2024",
+        "row": 30,
+        "column": 1
+      }
+    }
+  ]
+}

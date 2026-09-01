@@ -1,0 +1,65 @@
+{
+  "dataset": "child_nutrition",
+  "program_id": "51293",
+  "program": "Child Nutrition",
+  "vintage": "2019-05",
+  "data_file": "baseline_2019-05.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "f17e09da50ba066a8292bf7dbb45d5bdb63ac21cab7024d36cab8686be27f4ff",
+  "row_count": 249,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2012,
+    "end_year": 2029
+  },
+  "period_coverage": {
+    "start_year": 2012,
+    "end_year": 2029
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51293-2019-05-Child-Nutrition.xlsx"
+  ],
+  "source_sheets": [
+    "CNP May 2019"
+  ],
+  "units": [
+    "Millions of dollars"
+  ],
+  "contains_totals": false,
+  "aggregation_note": null,
+  "annotations": [
+    {
+      "category_path": null,
+      "marker": "a",
+      "variable_note": "Other spending includes the Special Milk Program, the Food Service Management Institute, Team Nutrition, coordinated review, computer support and processing, child nutrition grants for the Northern Marianas and American Samoa, and other activities. It also includes discretionary projects funded in annual appropriation acts.",
+      "source_label": "Other spendinga",
+      "source": {
+        "file": "51293-2019-05-Child-Nutrition.xlsx",
+        "sheet": "CNP May 2019",
+        "row": 23,
+        "column": 3
+      }
+    }
+  ]
+}

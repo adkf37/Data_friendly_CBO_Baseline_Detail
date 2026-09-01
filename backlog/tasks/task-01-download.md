@@ -16,7 +16,7 @@ Discover every Excel workbook linked from the CBO baseline projections index pag
 ## Inputs
 
 - Source page: `https://www.cbo.gov/data/baseline-projections-selected-programs`
-- Runtime dependencies from `requirements.txt`
+- Runtime dependencies from `environment.yml`
 - Optional CLI flags: `--force`, `--timeout`, `--retries`
 
 ## Outputs

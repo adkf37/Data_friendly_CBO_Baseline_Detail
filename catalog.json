@@ -1,0 +1,2767 @@
+{
+  "title": "CBO Baseline Projections for Selected Programs",
+  "description": "Machine-readable catalog of processed baseline-detail datasets and vintages.",
+  "schema_version": "1.0.0",
+  "datasets": [
+    {
+      "dataset": "airport_airway_trust_fund",
+      "program_id": "59126",
+      "title": "Airport and Airway Trust Fund Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/airport_airway_trust_fund/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/airport_airway_trust_fund/baseline_2026-02.csv",
+          "metadata": "data/processed/airport_airway_trust_fund/baseline_2026-02.metadata.json",
+          "row_count": 209,
+          "period_coverage": {
+            "start_year": 2026,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/airport_airway_trust_fund/baseline_2025-01.csv",
+          "metadata": "data/processed/airport_airway_trust_fund/baseline_2025-01.metadata.json",
+          "row_count": 209,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/airport_airway_trust_fund/baseline_2024-06.csv",
+          "metadata": "data/processed/airport_airway_trust_fund/baseline_2024-06.metadata.json",
+          "row_count": 231,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/airport_airway_trust_fund/baseline_2024-02.csv",
+          "metadata": "data/processed/airport_airway_trust_fund/baseline_2024-02.metadata.json",
+          "row_count": 231,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/airport_airway_trust_fund/baseline_2023-05.csv",
+          "metadata": "data/processed/airport_airway_trust_fund/baseline_2023-05.metadata.json",
+          "row_count": 231,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2033
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "child_nutrition",
+      "program_id": "51293",
+      "title": "Child Nutrition Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/child_nutrition/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/child_nutrition/baseline_2026-02.csv",
+          "metadata": "data/processed/child_nutrition/baseline_2026-02.metadata.json",
+          "row_count": 218,
+          "period_coverage": {
+            "start_year": 2026,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/child_nutrition/baseline_2025-01.csv",
+          "metadata": "data/processed/child_nutrition/baseline_2025-01.metadata.json",
+          "row_count": 218,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/child_nutrition/baseline_2024-06.csv",
+          "metadata": "data/processed/child_nutrition/baseline_2024-06.metadata.json",
+          "row_count": 218,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/child_nutrition/baseline_2024-02.csv",
+          "metadata": "data/processed/child_nutrition/baseline_2024-02.metadata.json",
+          "row_count": 218,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/child_nutrition/baseline_2023-05.csv",
+          "metadata": "data/processed/child_nutrition/baseline_2023-05.metadata.json",
+          "row_count": 186,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/child_nutrition/baseline_2022-05.csv",
+          "metadata": "data/processed/child_nutrition/baseline_2022-05.metadata.json",
+          "row_count": 186,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/child_nutrition/baseline_2021-07.csv",
+          "metadata": "data/processed/child_nutrition/baseline_2021-07.metadata.json",
+          "row_count": 186,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/child_nutrition/baseline_2021-02.csv",
+          "metadata": "data/processed/child_nutrition/baseline_2021-02.metadata.json",
+          "row_count": 186,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/child_nutrition/baseline_2020-03.csv",
+          "metadata": "data/processed/child_nutrition/baseline_2020-03.metadata.json",
+          "row_count": 121,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/child_nutrition/baseline_2020-01.csv",
+          "metadata": "data/processed/child_nutrition/baseline_2020-01.metadata.json",
+          "row_count": 121,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/child_nutrition/baseline_2019-05.csv",
+          "metadata": "data/processed/child_nutrition/baseline_2019-05.metadata.json",
+          "row_count": 249,
+          "period_coverage": {
+            "start_year": 2012,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "child_support_enforcement",
+      "program_id": "51295",
+      "title": "Child Support Enforcement Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/child_support_enforcement/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/child_support_enforcement/baseline_2026-02.csv",
+          "metadata": "data/processed/child_support_enforcement/baseline_2026-02.metadata.json",
+          "row_count": 77,
+          "period_coverage": {
+            "start_year": 2026,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/child_support_enforcement/baseline_2025-01.csv",
+          "metadata": "data/processed/child_support_enforcement/baseline_2025-01.metadata.json",
+          "row_count": 65,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/child_support_enforcement/baseline_2024-06.csv",
+          "metadata": "data/processed/child_support_enforcement/baseline_2024-06.metadata.json",
+          "row_count": 54,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/child_support_enforcement/baseline_2024-02.csv",
+          "metadata": "data/processed/child_support_enforcement/baseline_2024-02.metadata.json",
+          "row_count": 55,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/child_support_enforcement/baseline_2023-05.csv",
+          "metadata": "data/processed/child_support_enforcement/baseline_2023-05.metadata.json",
+          "row_count": 55,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/child_support_enforcement/baseline_2022-05.csv",
+          "metadata": "data/processed/child_support_enforcement/baseline_2022-05.metadata.json",
+          "row_count": 55,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/child_support_enforcement/baseline_2021-07.csv",
+          "metadata": "data/processed/child_support_enforcement/baseline_2021-07.metadata.json",
+          "row_count": 44,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/child_support_enforcement/baseline_2021-02.csv",
+          "metadata": "data/processed/child_support_enforcement/baseline_2021-02.metadata.json",
+          "row_count": 88,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/child_support_enforcement/baseline_2020-03.csv",
+          "metadata": "data/processed/child_support_enforcement/baseline_2020-03.metadata.json",
+          "row_count": 55,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/child_support_enforcement/baseline_2020-01.csv",
+          "metadata": "data/processed/child_support_enforcement/baseline_2020-01.metadata.json",
+          "row_count": 55,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/child_support_enforcement/baseline_2019-05.csv",
+          "metadata": "data/processed/child_support_enforcement/baseline_2019-05.metadata.json",
+          "row_count": 55,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "chip",
+      "program_id": "51296",
+      "title": "CHIP Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/chip/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/chip/baseline_2026-02.csv",
+          "metadata": "data/processed/chip/baseline_2026-02.metadata.json",
+          "row_count": 55,
+          "period_coverage": {
+            "start_year": 2026,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/chip/baseline_2024-06.csv",
+          "metadata": "data/processed/chip/baseline_2024-06.metadata.json",
+          "row_count": 99,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/chip/baseline_2023-05.csv",
+          "metadata": "data/processed/chip/baseline_2023-05.metadata.json",
+          "row_count": 108,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/chip/baseline_2022-05.csv",
+          "metadata": "data/processed/chip/baseline_2022-05.metadata.json",
+          "row_count": 108,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/chip/baseline_2021-07.csv",
+          "metadata": "data/processed/chip/baseline_2021-07.metadata.json",
+          "row_count": 99,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/chip/baseline_2020-03.csv",
+          "metadata": "data/processed/chip/baseline_2020-03.metadata.json",
+          "row_count": 138,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/chip/baseline_2019-05.csv",
+          "metadata": "data/processed/chip/baseline_2019-05.metadata.json",
+          "row_count": 151,
+          "period_coverage": {
+            "start_year": 2018,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "customs_fees",
+      "program_id": "61170",
+      "title": "Customs Fees Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/customs_fees/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/customs_fees/baseline_2026-02.csv",
+          "metadata": "data/processed/customs_fees/baseline_2026-02.metadata.json",
+          "row_count": 60,
+          "period_coverage": {
+            "start_year": 2026,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/customs_fees/baseline_2025-01.csv",
+          "metadata": "data/processed/customs_fees/baseline_2025-01.metadata.json",
+          "row_count": 48,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2035
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "dod_medicare",
+      "program_id": "54946",
+      "title": "DoD Medicare Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/dod_medicare/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/dod_medicare/baseline_2026-02.csv",
+          "metadata": "data/processed/dod_medicare/baseline_2026-02.metadata.json",
+          "row_count": 121,
+          "period_coverage": {
+            "start_year": 2026,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/dod_medicare/baseline_2025-01.csv",
+          "metadata": "data/processed/dod_medicare/baseline_2025-01.metadata.json",
+          "row_count": 121,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/dod_medicare/baseline_2024-02.csv",
+          "metadata": "data/processed/dod_medicare/baseline_2024-02.metadata.json",
+          "row_count": 121,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/dod_medicare/baseline_2023-05.csv",
+          "metadata": "data/processed/dod_medicare/baseline_2023-05.metadata.json",
+          "row_count": 121,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/dod_medicare/baseline_2022-05.csv",
+          "metadata": "data/processed/dod_medicare/baseline_2022-05.metadata.json",
+          "row_count": 121,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/dod_medicare/baseline_2021-07.csv",
+          "metadata": "data/processed/dod_medicare/baseline_2021-07.metadata.json",
+          "row_count": 121,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/dod_medicare/baseline_2021-02.csv",
+          "metadata": "data/processed/dod_medicare/baseline_2021-02.metadata.json",
+          "row_count": 121,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/dod_medicare/baseline_2020-03.csv",
+          "metadata": "data/processed/dod_medicare/baseline_2020-03.metadata.json",
+          "row_count": 132,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/dod_medicare/baseline_2020-01.csv",
+          "metadata": "data/processed/dod_medicare/baseline_2020-01.metadata.json",
+          "row_count": 132,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/dod_medicare/baseline_2019-05.csv",
+          "metadata": "data/processed/dod_medicare/baseline_2019-05.metadata.json",
+          "row_count": 132,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "fdic",
+      "program_id": "60394",
+      "title": "FDIC Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/fdic/schema.json",
+      "releases": [
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/fdic/baseline_2025-01.csv",
+          "metadata": "data/processed/fdic/baseline_2025-01.metadata.json",
+          "row_count": 52,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/fdic/baseline_2024-06.csv",
+          "metadata": "data/processed/fdic/baseline_2024-06.metadata.json",
+          "row_count": 60,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2034
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "foster_care",
+      "program_id": "51299",
+      "title": "Foster Care Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/foster_care/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/foster_care/baseline_2026-02.csv",
+          "metadata": "data/processed/foster_care/baseline_2026-02.metadata.json",
+          "row_count": 253,
+          "period_coverage": {
+            "start_year": 2026,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/foster_care/baseline_2025-01.csv",
+          "metadata": "data/processed/foster_care/baseline_2025-01.metadata.json",
+          "row_count": 253,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/foster_care/baseline_2024-06.csv",
+          "metadata": "data/processed/foster_care/baseline_2024-06.metadata.json",
+          "row_count": 253,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/foster_care/baseline_2024-02.csv",
+          "metadata": "data/processed/foster_care/baseline_2024-02.metadata.json",
+          "row_count": 253,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/foster_care/baseline_2023-05.csv",
+          "metadata": "data/processed/foster_care/baseline_2023-05.metadata.json",
+          "row_count": 74,
+          "period_coverage": {
+            "start_year": 2003,
+            "end_year": 2055
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/foster_care/baseline_2022-05.csv",
+          "metadata": "data/processed/foster_care/baseline_2022-05.metadata.json",
+          "row_count": 253,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/foster_care/baseline_2021-07.csv",
+          "metadata": "data/processed/foster_care/baseline_2021-07.metadata.json",
+          "row_count": 275,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/foster_care/baseline_2021-02.csv",
+          "metadata": "data/processed/foster_care/baseline_2021-02.metadata.json",
+          "row_count": 275,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/foster_care/baseline_2020-03.csv",
+          "metadata": "data/processed/foster_care/baseline_2020-03.metadata.json",
+          "row_count": 275,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/foster_care/baseline_2020-01.csv",
+          "metadata": "data/processed/foster_care/baseline_2020-01.metadata.json",
+          "row_count": 275,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/foster_care/baseline_2019-05.csv",
+          "metadata": "data/processed/foster_care/baseline_2019-05.metadata.json",
+          "row_count": 264,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "health_insurance",
+      "program_id": "51298",
+      "title": "Health Insurance Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/health_insurance/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/health_insurance/baseline_2026-02.csv",
+          "metadata": "data/processed/health_insurance/baseline_2026-02.metadata.json",
+          "row_count": 482,
+          "period_coverage": {
+            "start_year": 2026,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/health_insurance/baseline_2024-06.csv",
+          "metadata": "data/processed/health_insurance/baseline_2024-06.metadata.json",
+          "row_count": 507,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-09",
+          "data": "data/processed/health_insurance/baseline_2023-09.csv",
+          "metadata": "data/processed/health_insurance/baseline_2023-09.metadata.json",
+          "row_count": 473,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/health_insurance/baseline_2023-05.csv",
+          "metadata": "data/processed/health_insurance/baseline_2023-05.metadata.json",
+          "row_count": 440,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-06",
+          "data": "data/processed/health_insurance/baseline_2022-06.csv",
+          "metadata": "data/processed/health_insurance/baseline_2022-06.metadata.json",
+          "row_count": 472,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/health_insurance/baseline_2021-07.csv",
+          "metadata": "data/processed/health_insurance/baseline_2021-07.metadata.json",
+          "row_count": 473,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-09",
+          "data": "data/processed/health_insurance/baseline_2020-09.csv",
+          "metadata": "data/processed/health_insurance/baseline_2020-09.metadata.json",
+          "row_count": 1187,
+          "period_coverage": {
+            "start_year": 2017,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/health_insurance/baseline_2020-03.csv",
+          "metadata": "data/processed/health_insurance/baseline_2020-03.metadata.json",
+          "row_count": 1156,
+          "period_coverage": {
+            "start_year": 2017,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/health_insurance/baseline_2019-05.csv",
+          "metadata": "data/processed/health_insurance/baseline_2019-05.metadata.json",
+          "row_count": 1297,
+          "period_coverage": {
+            "start_year": 2017,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "highway_trust_fund",
+      "program_id": "51300",
+      "title": "Highway Trust Fund Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/highway_trust_fund/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-06",
+          "data": "data/processed/highway_trust_fund/baseline_2026-06.csv",
+          "metadata": "data/processed/highway_trust_fund/baseline_2026-06.metadata.json",
+          "row_count": 110,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/highway_trust_fund/baseline_2026-02.csv",
+          "metadata": "data/processed/highway_trust_fund/baseline_2026-02.metadata.json",
+          "row_count": 110,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/highway_trust_fund/baseline_2025-01.csv",
+          "metadata": "data/processed/highway_trust_fund/baseline_2025-01.metadata.json",
+          "row_count": 116,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/highway_trust_fund/baseline_2024-06.csv",
+          "metadata": "data/processed/highway_trust_fund/baseline_2024-06.metadata.json",
+          "row_count": 108,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/highway_trust_fund/baseline_2024-02.csv",
+          "metadata": "data/processed/highway_trust_fund/baseline_2024-02.metadata.json",
+          "row_count": 108,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/highway_trust_fund/baseline_2023-05.csv",
+          "metadata": "data/processed/highway_trust_fund/baseline_2023-05.metadata.json",
+          "row_count": 134,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/highway_trust_fund/baseline_2022-05.csv",
+          "metadata": "data/processed/highway_trust_fund/baseline_2022-05.metadata.json",
+          "row_count": 134,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/highway_trust_fund/baseline_2021-07.csv",
+          "metadata": "data/processed/highway_trust_fund/baseline_2021-07.metadata.json",
+          "row_count": 127,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/highway_trust_fund/baseline_2021-02.csv",
+          "metadata": "data/processed/highway_trust_fund/baseline_2021-02.metadata.json",
+          "row_count": 126,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/highway_trust_fund/baseline_2020-03.csv",
+          "metadata": "data/processed/highway_trust_fund/baseline_2020-03.metadata.json",
+          "row_count": 103,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/highway_trust_fund/baseline_2020-01.csv",
+          "metadata": "data/processed/highway_trust_fund/baseline_2020-01.metadata.json",
+          "row_count": 103,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/highway_trust_fund/baseline_2019-05.csv",
+          "metadata": "data/processed/highway_trust_fund/baseline_2019-05.metadata.json",
+          "row_count": 106,
+          "period_coverage": {
+            "start_year": 2018,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "medicaid",
+      "program_id": "51301",
+      "title": "Medicaid Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/medicaid/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/medicaid/baseline_2026-02.csv",
+          "metadata": "data/processed/medicaid/baseline_2026-02.metadata.json",
+          "row_count": 336,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/medicaid/baseline_2024-06.csv",
+          "metadata": "data/processed/medicaid/baseline_2024-06.metadata.json",
+          "row_count": 308,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/medicaid/baseline_2023-05.csv",
+          "metadata": "data/processed/medicaid/baseline_2023-05.metadata.json",
+          "row_count": 336,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/medicaid/baseline_2022-05.csv",
+          "metadata": "data/processed/medicaid/baseline_2022-05.metadata.json",
+          "row_count": 336,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/medicaid/baseline_2021-07.csv",
+          "metadata": "data/processed/medicaid/baseline_2021-07.metadata.json",
+          "row_count": 336,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/medicaid/baseline_2020-03.csv",
+          "metadata": "data/processed/medicaid/baseline_2020-03.metadata.json",
+          "row_count": 316,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/medicaid/baseline_2019-05.csv",
+          "metadata": "data/processed/medicaid/baseline_2019-05.metadata.json",
+          "row_count": 316,
+          "period_coverage": {
+            "start_year": 2018,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "medicare",
+      "program_id": "51302",
+      "title": "Medicare Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/medicare/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/medicare/baseline_2026-02.csv",
+          "metadata": "data/processed/medicare/baseline_2026-02.metadata.json",
+          "row_count": 516,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/medicare/baseline_2024-06.csv",
+          "metadata": "data/processed/medicare/baseline_2024-06.metadata.json",
+          "row_count": 516,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/medicare/baseline_2023-05.csv",
+          "metadata": "data/processed/medicare/baseline_2023-05.metadata.json",
+          "row_count": 528,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/medicare/baseline_2022-05.csv",
+          "metadata": "data/processed/medicare/baseline_2022-05.metadata.json",
+          "row_count": 511,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/medicare/baseline_2021-07.csv",
+          "metadata": "data/processed/medicare/baseline_2021-07.metadata.json",
+          "row_count": 495,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/medicare/baseline_2020-03.csv",
+          "metadata": "data/processed/medicare/baseline_2020-03.metadata.json",
+          "row_count": 687,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/medicare/baseline_2019-05.csv",
+          "metadata": "data/processed/medicare/baseline_2019-05.metadata.json",
+          "row_count": 653,
+          "period_coverage": {
+            "start_year": 2018,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "military_retirement",
+      "program_id": "51303",
+      "title": "Military Retirement Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/military_retirement/schema.json",
+      "releases": [
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/military_retirement/baseline_2024-06.csv",
+          "metadata": "data/processed/military_retirement/baseline_2024-06.metadata.json",
+          "row_count": 96,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/military_retirement/baseline_2023-05.csv",
+          "metadata": "data/processed/military_retirement/baseline_2023-05.metadata.json",
+          "row_count": 96,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/military_retirement/baseline_2022-05.csv",
+          "metadata": "data/processed/military_retirement/baseline_2022-05.metadata.json",
+          "row_count": 96,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/military_retirement/baseline_2021-02.csv",
+          "metadata": "data/processed/military_retirement/baseline_2021-02.metadata.json",
+          "row_count": 88,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/military_retirement/baseline_2020-03.csv",
+          "metadata": "data/processed/military_retirement/baseline_2020-03.metadata.json",
+          "row_count": 99,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/military_retirement/baseline_2020-01.csv",
+          "metadata": "data/processed/military_retirement/baseline_2020-01.metadata.json",
+          "row_count": 99,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/military_retirement/baseline_2019-05.csv",
+          "metadata": "data/processed/military_retirement/baseline_2019-05.metadata.json",
+          "row_count": 99,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "mortgages",
+      "program_id": "51297",
+      "title": "Mortgages Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/mortgages/schema.json",
+      "releases": [
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/mortgages/baseline_2024-06.csv",
+          "metadata": "data/processed/mortgages/baseline_2024-06.metadata.json",
+          "row_count": 153,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/mortgages/baseline_2023-05.csv",
+          "metadata": "data/processed/mortgages/baseline_2023-05.metadata.json",
+          "row_count": 153,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/mortgages/baseline_2022-05.csv",
+          "metadata": "data/processed/mortgages/baseline_2022-05.metadata.json",
+          "row_count": 153,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/mortgages/baseline_2021-07.csv",
+          "metadata": "data/processed/mortgages/baseline_2021-07.metadata.json",
+          "row_count": 153,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/mortgages/baseline_2021-02.csv",
+          "metadata": "data/processed/mortgages/baseline_2021-02.metadata.json",
+          "row_count": 153,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/mortgages/baseline_2020-03.csv",
+          "metadata": "data/processed/mortgages/baseline_2020-03.metadata.json",
+          "row_count": 153,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/mortgages/baseline_2020-01.csv",
+          "metadata": "data/processed/mortgages/baseline_2020-01.metadata.json",
+          "row_count": 153,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/mortgages/baseline_2019-05.csv",
+          "metadata": "data/processed/mortgages/baseline_2019-05.metadata.json",
+          "row_count": 153,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "pbgc",
+      "program_id": "51305",
+      "title": "PBGC Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/pbgc/schema.json",
+      "releases": [
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/pbgc/baseline_2024-06.csv",
+          "metadata": "data/processed/pbgc/baseline_2024-06.metadata.json",
+          "row_count": 132,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/pbgc/baseline_2023-05.csv",
+          "metadata": "data/processed/pbgc/baseline_2023-05.metadata.json",
+          "row_count": 132,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/pbgc/baseline_2022-05.csv",
+          "metadata": "data/processed/pbgc/baseline_2022-05.metadata.json",
+          "row_count": 132,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/pbgc/baseline_2021-07.csv",
+          "metadata": "data/processed/pbgc/baseline_2021-07.metadata.json",
+          "row_count": 132,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/pbgc/baseline_2021-02.csv",
+          "metadata": "data/processed/pbgc/baseline_2021-02.metadata.json",
+          "row_count": 144,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/pbgc/baseline_2020-03.csv",
+          "metadata": "data/processed/pbgc/baseline_2020-03.metadata.json",
+          "row_count": 132,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/pbgc/baseline_2020-01.csv",
+          "metadata": "data/processed/pbgc/baseline_2020-01.metadata.json",
+          "row_count": 132,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/pbgc/baseline_2019-05.csv",
+          "metadata": "data/processed/pbgc/baseline_2019-05.metadata.json",
+          "row_count": 132,
+          "period_coverage": {
+            "start_year": 2018,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "pell_grant",
+      "program_id": "51304",
+      "title": "Pell Grant Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/pell_grant/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/pell_grant/baseline_2026-02.csv",
+          "metadata": "data/processed/pell_grant/baseline_2026-02.metadata.json",
+          "row_count": 517,
+          "period_coverage": {
+            "start_year": 2016,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/pell_grant/baseline_2025-01.csv",
+          "metadata": "data/processed/pell_grant/baseline_2025-01.metadata.json",
+          "row_count": 350,
+          "period_coverage": {
+            "start_year": 2015,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/pell_grant/baseline_2024-06.csv",
+          "metadata": "data/processed/pell_grant/baseline_2024-06.metadata.json",
+          "row_count": 318,
+          "period_coverage": {
+            "start_year": 2014,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/pell_grant/baseline_2023-05.csv",
+          "metadata": "data/processed/pell_grant/baseline_2023-05.metadata.json",
+          "row_count": 329,
+          "period_coverage": {
+            "start_year": 2013,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/pell_grant/baseline_2022-05.csv",
+          "metadata": "data/processed/pell_grant/baseline_2022-05.metadata.json",
+          "row_count": 318,
+          "period_coverage": {
+            "start_year": 2012,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/pell_grant/baseline_2021-07.csv",
+          "metadata": "data/processed/pell_grant/baseline_2021-07.metadata.json",
+          "row_count": 318,
+          "period_coverage": {
+            "start_year": 2011,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/pell_grant/baseline_2021-02.csv",
+          "metadata": "data/processed/pell_grant/baseline_2021-02.metadata.json",
+          "row_count": 318,
+          "period_coverage": {
+            "start_year": 2011,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/pell_grant/baseline_2020-03.csv",
+          "metadata": "data/processed/pell_grant/baseline_2020-03.metadata.json",
+          "row_count": 372,
+          "period_coverage": {
+            "start_year": 2011,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/pell_grant/baseline_2020-01.csv",
+          "metadata": "data/processed/pell_grant/baseline_2020-01.metadata.json",
+          "row_count": 393,
+          "period_coverage": {
+            "start_year": 2011,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/pell_grant/baseline_2019-05.csv",
+          "metadata": "data/processed/pell_grant/baseline_2019-05.metadata.json",
+          "row_count": 385,
+          "period_coverage": {
+            "start_year": 2009,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "post_911_gi_bill",
+      "program_id": "53726",
+      "title": "Post-9/11 GI Bill Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/post_911_gi_bill/schema.json",
+      "releases": [
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/post_911_gi_bill/baseline_2024-02.csv",
+          "metadata": "data/processed/post_911_gi_bill/baseline_2024-02.metadata.json",
+          "row_count": 55,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/post_911_gi_bill/baseline_2023-05.csv",
+          "metadata": "data/processed/post_911_gi_bill/baseline_2023-05.metadata.json",
+          "row_count": 55,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/post_911_gi_bill/baseline_2022-05.csv",
+          "metadata": "data/processed/post_911_gi_bill/baseline_2022-05.metadata.json",
+          "row_count": 55,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/post_911_gi_bill/baseline_2021-07.csv",
+          "metadata": "data/processed/post_911_gi_bill/baseline_2021-07.metadata.json",
+          "row_count": 55,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/post_911_gi_bill/baseline_2021-02.csv",
+          "metadata": "data/processed/post_911_gi_bill/baseline_2021-02.metadata.json",
+          "row_count": 55,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/post_911_gi_bill/baseline_2020-03.csv",
+          "metadata": "data/processed/post_911_gi_bill/baseline_2020-03.metadata.json",
+          "row_count": 55,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/post_911_gi_bill/baseline_2020-01.csv",
+          "metadata": "data/processed/post_911_gi_bill/baseline_2020-01.metadata.json",
+          "row_count": 55,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/post_911_gi_bill/baseline_2019-05.csv",
+          "metadata": "data/processed/post_911_gi_bill/baseline_2019-05.metadata.json",
+          "row_count": 55,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "premium_tax_credit",
+      "program_id": "60523",
+      "title": "Premium Tax Credit Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/premium_tax_credit/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/premium_tax_credit/baseline_2026-02.csv",
+          "metadata": "data/processed/premium_tax_credit/baseline_2026-02.metadata.json",
+          "row_count": 144,
+          "period_coverage": {
+            "start_year": 2026,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2024-07",
+          "data": "data/processed/premium_tax_credit/baseline_2024-07.csv",
+          "metadata": "data/processed/premium_tax_credit/baseline_2024-07.metadata.json",
+          "row_count": 33,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "railroad_retirement",
+      "program_id": "51306",
+      "title": "Railroad Retirement Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/railroad_retirement/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/railroad_retirement/baseline_2026-02.csv",
+          "metadata": "data/processed/railroad_retirement/baseline_2026-02.metadata.json",
+          "row_count": 66,
+          "period_coverage": {
+            "start_year": 2026,
+            "end_year": 2036
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "snap",
+      "program_id": "51312",
+      "title": "SNAP Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/snap/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/snap/baseline_2026-02.csv",
+          "metadata": "data/processed/snap/baseline_2026-02.metadata.json",
+          "row_count": 230,
+          "period_coverage": {
+            "start_year": 2026,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/snap/baseline_2025-01.csv",
+          "metadata": "data/processed/snap/baseline_2025-01.metadata.json",
+          "row_count": 241,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/snap/baseline_2024-06.csv",
+          "metadata": "data/processed/snap/baseline_2024-06.metadata.json",
+          "row_count": 241,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/snap/baseline_2024-02.csv",
+          "metadata": "data/processed/snap/baseline_2024-02.metadata.json",
+          "row_count": 241,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/snap/baseline_2023-05.csv",
+          "metadata": "data/processed/snap/baseline_2023-05.metadata.json",
+          "row_count": 253,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2023-02",
+          "data": "data/processed/snap/baseline_2023-02.csv",
+          "metadata": "data/processed/snap/baseline_2023-02.metadata.json",
+          "row_count": 253,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/snap/baseline_2022-05.csv",
+          "metadata": "data/processed/snap/baseline_2022-05.metadata.json",
+          "row_count": 252,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/snap/baseline_2021-07.csv",
+          "metadata": "data/processed/snap/baseline_2021-07.metadata.json",
+          "row_count": 252,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/snap/baseline_2021-02.csv",
+          "metadata": "data/processed/snap/baseline_2021-02.metadata.json",
+          "row_count": 252,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/snap/baseline_2020-03.csv",
+          "metadata": "data/processed/snap/baseline_2020-03.metadata.json",
+          "row_count": 241,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/snap/baseline_2020-01.csv",
+          "metadata": "data/processed/snap/baseline_2020-01.metadata.json",
+          "row_count": 241,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/snap/baseline_2019-05.csv",
+          "metadata": "data/processed/snap/baseline_2019-05.metadata.json",
+          "row_count": 241,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "social_security",
+      "program_id": "51308",
+      "title": "Social Security Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/social_security/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/social_security/baseline_2026-02.csv",
+          "metadata": "data/processed/social_security/baseline_2026-02.metadata.json",
+          "row_count": 368,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/social_security/baseline_2025-01.csv",
+          "metadata": "data/processed/social_security/baseline_2025-01.metadata.json",
+          "row_count": 368,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/social_security/baseline_2024-06.csv",
+          "metadata": "data/processed/social_security/baseline_2024-06.metadata.json",
+          "row_count": 369,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/social_security/baseline_2024-02.csv",
+          "metadata": "data/processed/social_security/baseline_2024-02.metadata.json",
+          "row_count": 366,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/social_security/baseline_2023-05.csv",
+          "metadata": "data/processed/social_security/baseline_2023-05.metadata.json",
+          "row_count": 371,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/social_security/baseline_2022-05.csv",
+          "metadata": "data/processed/social_security/baseline_2022-05.metadata.json",
+          "row_count": 395,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/social_security/baseline_2021-07.csv",
+          "metadata": "data/processed/social_security/baseline_2021-07.metadata.json",
+          "row_count": 393,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/social_security/baseline_2021-02.csv",
+          "metadata": "data/processed/social_security/baseline_2021-02.metadata.json",
+          "row_count": 393,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/social_security/baseline_2020-03.csv",
+          "metadata": "data/processed/social_security/baseline_2020-03.metadata.json",
+          "row_count": 405,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/social_security/baseline_2020-01.csv",
+          "metadata": "data/processed/social_security/baseline_2020-01.metadata.json",
+          "row_count": 393,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/social_security/baseline_2019-05.csv",
+          "metadata": "data/processed/social_security/baseline_2019-05.metadata.json",
+          "row_count": 392,
+          "period_coverage": {
+            "start_year": 2018,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "social_security_trust_funds",
+      "program_id": "51309",
+      "title": "Social Security Trust Funds Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/social_security_trust_funds/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/social_security_trust_funds/baseline_2026-02.csv",
+          "metadata": "data/processed/social_security_trust_funds/baseline_2026-02.metadata.json",
+          "row_count": 251,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/social_security_trust_funds/baseline_2025-01.csv",
+          "metadata": "data/processed/social_security_trust_funds/baseline_2025-01.metadata.json",
+          "row_count": 253,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/social_security_trust_funds/baseline_2024-06.csv",
+          "metadata": "data/processed/social_security_trust_funds/baseline_2024-06.metadata.json",
+          "row_count": 254,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/social_security_trust_funds/baseline_2024-02.csv",
+          "metadata": "data/processed/social_security_trust_funds/baseline_2024-02.metadata.json",
+          "row_count": 254,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/social_security_trust_funds/baseline_2023-05.csv",
+          "metadata": "data/processed/social_security_trust_funds/baseline_2023-05.metadata.json",
+          "row_count": 254,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/social_security_trust_funds/baseline_2022-05.csv",
+          "metadata": "data/processed/social_security_trust_funds/baseline_2022-05.metadata.json",
+          "row_count": 234,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/social_security_trust_funds/baseline_2021-07.csv",
+          "metadata": "data/processed/social_security_trust_funds/baseline_2021-07.metadata.json",
+          "row_count": 200,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/social_security_trust_funds/baseline_2021-02.csv",
+          "metadata": "data/processed/social_security_trust_funds/baseline_2021-02.metadata.json",
+          "row_count": 204,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/social_security_trust_funds/baseline_2020-03.csv",
+          "metadata": "data/processed/social_security_trust_funds/baseline_2020-03.metadata.json",
+          "row_count": 204,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/social_security_trust_funds/baseline_2020-01.csv",
+          "metadata": "data/processed/social_security_trust_funds/baseline_2020-01.metadata.json",
+          "row_count": 204,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/social_security_trust_funds/baseline_2019-05.csv",
+          "metadata": "data/processed/social_security_trust_funds/baseline_2019-05.metadata.json",
+          "row_count": 228,
+          "period_coverage": {
+            "start_year": 2018,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "ssdi",
+      "program_id": "51307",
+      "title": "SSDI Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/ssdi/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/ssdi/baseline_2026-02.csv",
+          "metadata": "data/processed/ssdi/baseline_2026-02.metadata.json",
+          "row_count": 288,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/ssdi/baseline_2025-01.csv",
+          "metadata": "data/processed/ssdi/baseline_2025-01.metadata.json",
+          "row_count": 288,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/ssdi/baseline_2024-06.csv",
+          "metadata": "data/processed/ssdi/baseline_2024-06.metadata.json",
+          "row_count": 288,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/ssdi/baseline_2024-02.csv",
+          "metadata": "data/processed/ssdi/baseline_2024-02.metadata.json",
+          "row_count": 288,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/ssdi/baseline_2023-05.csv",
+          "metadata": "data/processed/ssdi/baseline_2023-05.metadata.json",
+          "row_count": 288,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/ssdi/baseline_2022-05.csv",
+          "metadata": "data/processed/ssdi/baseline_2022-05.metadata.json",
+          "row_count": 288,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/ssdi/baseline_2021-07.csv",
+          "metadata": "data/processed/ssdi/baseline_2021-07.metadata.json",
+          "row_count": 288,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/ssdi/baseline_2021-02.csv",
+          "metadata": "data/processed/ssdi/baseline_2021-02.metadata.json",
+          "row_count": 288,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/ssdi/baseline_2020-03.csv",
+          "metadata": "data/processed/ssdi/baseline_2020-03.metadata.json",
+          "row_count": 312,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/ssdi/baseline_2020-01.csv",
+          "metadata": "data/processed/ssdi/baseline_2020-01.metadata.json",
+          "row_count": 312,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/ssdi/baseline_2019-05.csv",
+          "metadata": "data/processed/ssdi/baseline_2019-05.metadata.json",
+          "row_count": 312,
+          "period_coverage": {
+            "start_year": 2018,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "ssi",
+      "program_id": "51313",
+      "title": "SSI Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/ssi/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/ssi/baseline_2026-02.csv",
+          "metadata": "data/processed/ssi/baseline_2026-02.metadata.json",
+          "row_count": 132,
+          "period_coverage": {
+            "start_year": 2026,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/ssi/baseline_2025-01.csv",
+          "metadata": "data/processed/ssi/baseline_2025-01.metadata.json",
+          "row_count": 132,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/ssi/baseline_2024-06.csv",
+          "metadata": "data/processed/ssi/baseline_2024-06.metadata.json",
+          "row_count": 110,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/ssi/baseline_2024-02.csv",
+          "metadata": "data/processed/ssi/baseline_2024-02.metadata.json",
+          "row_count": 110,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/ssi/baseline_2023-05.csv",
+          "metadata": "data/processed/ssi/baseline_2023-05.metadata.json",
+          "row_count": 110,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/ssi/baseline_2022-05.csv",
+          "metadata": "data/processed/ssi/baseline_2022-05.metadata.json",
+          "row_count": 110,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/ssi/baseline_2021-07.csv",
+          "metadata": "data/processed/ssi/baseline_2021-07.metadata.json",
+          "row_count": 110,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/ssi/baseline_2021-02.csv",
+          "metadata": "data/processed/ssi/baseline_2021-02.metadata.json",
+          "row_count": 110,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/ssi/baseline_2020-03.csv",
+          "metadata": "data/processed/ssi/baseline_2020-03.metadata.json",
+          "row_count": 242,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/ssi/baseline_2020-01.csv",
+          "metadata": "data/processed/ssi/baseline_2020-01.metadata.json",
+          "row_count": 242,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/ssi/baseline_2019-05.csv",
+          "metadata": "data/processed/ssi/baseline_2019-05.metadata.json",
+          "row_count": 264,
+          "period_coverage": {
+            "start_year": 2018,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "student_loans",
+      "program_id": "51310",
+      "title": "Student Loans Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/student_loans/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/student_loans/baseline_2026-02.csv",
+          "metadata": "data/processed/student_loans/baseline_2026-02.metadata.json",
+          "row_count": 671,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2037
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/student_loans/baseline_2024-06.csv",
+          "metadata": "data/processed/student_loans/baseline_2024-06.metadata.json",
+          "row_count": 826,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/student_loans/baseline_2023-05.csv",
+          "metadata": "data/processed/student_loans/baseline_2023-05.metadata.json",
+          "row_count": 913,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/student_loans/baseline_2022-05.csv",
+          "metadata": "data/processed/student_loans/baseline_2022-05.metadata.json",
+          "row_count": 941,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/student_loans/baseline_2021-07.csv",
+          "metadata": "data/processed/student_loans/baseline_2021-07.metadata.json",
+          "row_count": 935,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/student_loans/baseline_2020-03.csv",
+          "metadata": "data/processed/student_loans/baseline_2020-03.metadata.json",
+          "row_count": 1037,
+          "period_coverage": {
+            "start_year": 2013,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/student_loans/baseline_2019-05.csv",
+          "metadata": "data/processed/student_loans/baseline_2019-05.metadata.json",
+          "row_count": 924,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "tanf",
+      "program_id": "51314",
+      "title": "TANF Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/tanf/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/tanf/baseline_2026-02.csv",
+          "metadata": "data/processed/tanf/baseline_2026-02.metadata.json",
+          "row_count": 88,
+          "period_coverage": {
+            "start_year": 2026,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/tanf/baseline_2025-01.csv",
+          "metadata": "data/processed/tanf/baseline_2025-01.metadata.json",
+          "row_count": 87,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/tanf/baseline_2024-06.csv",
+          "metadata": "data/processed/tanf/baseline_2024-06.metadata.json",
+          "row_count": 87,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/tanf/baseline_2024-02.csv",
+          "metadata": "data/processed/tanf/baseline_2024-02.metadata.json",
+          "row_count": 88,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/tanf/baseline_2023-05.csv",
+          "metadata": "data/processed/tanf/baseline_2023-05.metadata.json",
+          "row_count": 88,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/tanf/baseline_2022-05.csv",
+          "metadata": "data/processed/tanf/baseline_2022-05.metadata.json",
+          "row_count": 88,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/tanf/baseline_2021-07.csv",
+          "metadata": "data/processed/tanf/baseline_2021-07.metadata.json",
+          "row_count": 99,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/tanf/baseline_2021-02.csv",
+          "metadata": "data/processed/tanf/baseline_2021-02.metadata.json",
+          "row_count": 88,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/tanf/baseline_2020-03.csv",
+          "metadata": "data/processed/tanf/baseline_2020-03.metadata.json",
+          "row_count": 88,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/tanf/baseline_2020-01.csv",
+          "metadata": "data/processed/tanf/baseline_2020-01.metadata.json",
+          "row_count": 99,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/tanf/baseline_2019-05.csv",
+          "metadata": "data/processed/tanf/baseline_2019-05.metadata.json",
+          "row_count": 88,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "toxic_exposures_fund",
+      "program_id": "60044",
+      "title": "Toxic Exposures Fund Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/toxic_exposures_fund/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/toxic_exposures_fund/baseline_2026-02.csv",
+          "metadata": "data/processed/toxic_exposures_fund/baseline_2026-02.metadata.json",
+          "row_count": 89,
+          "period_coverage": {
+            "start_year": 2026,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/toxic_exposures_fund/baseline_2025-01.csv",
+          "metadata": "data/processed/toxic_exposures_fund/baseline_2025-01.metadata.json",
+          "row_count": 221,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/toxic_exposures_fund/baseline_2024-06.csv",
+          "metadata": "data/processed/toxic_exposures_fund/baseline_2024-06.metadata.json",
+          "row_count": 221,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/toxic_exposures_fund/baseline_2024-02.csv",
+          "metadata": "data/processed/toxic_exposures_fund/baseline_2024-02.metadata.json",
+          "row_count": 221,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "unemployment_insurance",
+      "program_id": "51316",
+      "title": "Unemployment Insurance Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/unemployment_insurance/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/unemployment_insurance/baseline_2026-02.csv",
+          "metadata": "data/processed/unemployment_insurance/baseline_2026-02.metadata.json",
+          "row_count": 99,
+          "period_coverage": {
+            "start_year": 2026,
+            "end_year": 2036
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/unemployment_insurance/baseline_2025-01.csv",
+          "metadata": "data/processed/unemployment_insurance/baseline_2025-01.metadata.json",
+          "row_count": 99,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/unemployment_insurance/baseline_2024-06.csv",
+          "metadata": "data/processed/unemployment_insurance/baseline_2024-06.metadata.json",
+          "row_count": 143,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/unemployment_insurance/baseline_2024-02.csv",
+          "metadata": "data/processed/unemployment_insurance/baseline_2024-02.metadata.json",
+          "row_count": 143,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/unemployment_insurance/baseline_2023-05.csv",
+          "metadata": "data/processed/unemployment_insurance/baseline_2023-05.metadata.json",
+          "row_count": 143,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/unemployment_insurance/baseline_2022-05.csv",
+          "metadata": "data/processed/unemployment_insurance/baseline_2022-05.metadata.json",
+          "row_count": 209,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/unemployment_insurance/baseline_2021-07.csv",
+          "metadata": "data/processed/unemployment_insurance/baseline_2021-07.metadata.json",
+          "row_count": 209,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/unemployment_insurance/baseline_2021-02.csv",
+          "metadata": "data/processed/unemployment_insurance/baseline_2021-02.metadata.json",
+          "row_count": 209,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/unemployment_insurance/baseline_2020-03.csv",
+          "metadata": "data/processed/unemployment_insurance/baseline_2020-03.metadata.json",
+          "row_count": 99,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/unemployment_insurance/baseline_2020-01.csv",
+          "metadata": "data/processed/unemployment_insurance/baseline_2020-01.metadata.json",
+          "row_count": 99,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/unemployment_insurance/baseline_2019-05.csv",
+          "metadata": "data/processed/unemployment_insurance/baseline_2019-05.metadata.json",
+          "row_count": 99,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2029
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "usda_farm_programs",
+      "program_id": "51317",
+      "title": "USDA Farm Programs Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "usda_baseline_detail",
+      "schema": "data/processed/usda_farm_programs/schema.json",
+      "releases": [
+        {
+          "vintage": "2026-02",
+          "data": "data/processed/usda_farm_programs/baseline_2026-02.csv",
+          "metadata": "data/processed/usda_farm_programs/baseline_2026-02.metadata.json",
+          "row_count": 10557,
+          "period_coverage": {
+            "start_year": 1972,
+            "end_year": 2074
+          }
+        },
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/usda_farm_programs/baseline_2025-01.csv",
+          "metadata": "data/processed/usda_farm_programs/baseline_2025-01.metadata.json",
+          "row_count": 11119,
+          "period_coverage": {
+            "start_year": 1963,
+            "end_year": 2041
+          }
+        },
+        {
+          "vintage": "2024-06",
+          "data": "data/processed/usda_farm_programs/baseline_2024-06.csv",
+          "metadata": "data/processed/usda_farm_programs/baseline_2024-06.metadata.json",
+          "row_count": 11698,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/usda_farm_programs/baseline_2024-02.csv",
+          "metadata": "data/processed/usda_farm_programs/baseline_2024-02.metadata.json",
+          "row_count": 11337,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/usda_farm_programs/baseline_2023-05.csv",
+          "metadata": "data/processed/usda_farm_programs/baseline_2023-05.metadata.json",
+          "row_count": 11358,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2023-02",
+          "data": "data/processed/usda_farm_programs/baseline_2023-02.csv",
+          "metadata": "data/processed/usda_farm_programs/baseline_2023-02.metadata.json",
+          "row_count": 10966,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/usda_farm_programs/baseline_2022-05.csv",
+          "metadata": "data/processed/usda_farm_programs/baseline_2022-05.metadata.json",
+          "row_count": 10854,
+          "period_coverage": {
+            "start_year": 1901,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-07",
+          "data": "data/processed/usda_farm_programs/baseline_2021-07.csv",
+          "metadata": "data/processed/usda_farm_programs/baseline_2021-07.metadata.json",
+          "row_count": 10942,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/usda_farm_programs/baseline_2021-02.csv",
+          "metadata": "data/processed/usda_farm_programs/baseline_2021-02.metadata.json",
+          "row_count": 10954,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/usda_farm_programs/baseline_2020-03.csv",
+          "metadata": "data/processed/usda_farm_programs/baseline_2020-03.metadata.json",
+          "row_count": 10909,
+          "period_coverage": {
+            "start_year": 2018,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/usda_farm_programs/baseline_2020-01.csv",
+          "metadata": "data/processed/usda_farm_programs/baseline_2020-01.metadata.json",
+          "row_count": 10850,
+          "period_coverage": {
+            "start_year": 2018,
+            "end_year": 2030
+          }
+        }
+      ]
+    },
+    {
+      "dataset": "veterans_benefits",
+      "program_id": "53725",
+      "title": "Veterans Benefits Baseline Detail",
+      "source_url": "https://www.cbo.gov/data/baseline-projections-selected-programs",
+      "schema_family": "baseline_detail",
+      "schema": "data/processed/veterans_benefits/schema.json",
+      "releases": [
+        {
+          "vintage": "2025-01",
+          "data": "data/processed/veterans_benefits/baseline_2025-01.csv",
+          "metadata": "data/processed/veterans_benefits/baseline_2025-01.metadata.json",
+          "row_count": 176,
+          "period_coverage": {
+            "start_year": 2025,
+            "end_year": 2035
+          }
+        },
+        {
+          "vintage": "2024-02",
+          "data": "data/processed/veterans_benefits/baseline_2024-02.csv",
+          "metadata": "data/processed/veterans_benefits/baseline_2024-02.metadata.json",
+          "row_count": 132,
+          "period_coverage": {
+            "start_year": 2024,
+            "end_year": 2034
+          }
+        },
+        {
+          "vintage": "2023-05",
+          "data": "data/processed/veterans_benefits/baseline_2023-05.csv",
+          "metadata": "data/processed/veterans_benefits/baseline_2023-05.metadata.json",
+          "row_count": 132,
+          "period_coverage": {
+            "start_year": 2023,
+            "end_year": 2033
+          }
+        },
+        {
+          "vintage": "2022-05",
+          "data": "data/processed/veterans_benefits/baseline_2022-05.csv",
+          "metadata": "data/processed/veterans_benefits/baseline_2022-05.metadata.json",
+          "row_count": 132,
+          "period_coverage": {
+            "start_year": 2022,
+            "end_year": 2032
+          }
+        },
+        {
+          "vintage": "2021-02",
+          "data": "data/processed/veterans_benefits/baseline_2021-02.csv",
+          "metadata": "data/processed/veterans_benefits/baseline_2021-02.metadata.json",
+          "row_count": 242,
+          "period_coverage": {
+            "start_year": 2021,
+            "end_year": 2031
+          }
+        },
+        {
+          "vintage": "2020-03",
+          "data": "data/processed/veterans_benefits/baseline_2020-03.csv",
+          "metadata": "data/processed/veterans_benefits/baseline_2020-03.metadata.json",
+          "row_count": 242,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2020-01",
+          "data": "data/processed/veterans_benefits/baseline_2020-01.csv",
+          "metadata": "data/processed/veterans_benefits/baseline_2020-01.metadata.json",
+          "row_count": 242,
+          "period_coverage": {
+            "start_year": 2020,
+            "end_year": 2030
+          }
+        },
+        {
+          "vintage": "2019-05",
+          "data": "data/processed/veterans_benefits/baseline_2019-05.csv",
+          "metadata": "data/processed/veterans_benefits/baseline_2019-05.metadata.json",
+          "row_count": 242,
+          "period_coverage": {
+            "start_year": 2019,
+            "end_year": 2029
+          }
+        }
+      ]
+    }
+  ]
+}

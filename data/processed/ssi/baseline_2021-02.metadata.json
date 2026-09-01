@@ -1,0 +1,70 @@
+{
+  "dataset": "ssi",
+  "program_id": "51313",
+  "program": "SSI",
+  "vintage": "2021-02",
+  "data_file": "baseline_2021-02.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "457c4a0932ec796bd96acdebcc2f4bfe48ec49052e617c77bca5691dae66bd2b",
+  "row_count": 110,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51313-2021-02-ssi.xlsx"
+  ],
+  "source_sheets": [
+    "SSI_2-2021"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Dollars",
+    "Dollars per beneficiary",
+    "Number of paymentsa",
+    "Percentage",
+    "Thousands of people"
+  ],
+  "contains_totals": false,
+  "aggregation_note": null,
+  "annotations": [
+    {
+      "category_path": "Supplemental Security Income",
+      "marker": "a",
+      "variable_note": "The Social Security Administration (SSA) is required to pay Supplemental Security Income payments on the first day of the month. If the first day of the month occurs on a holiday or a weekend, SSA will instead make the payments on the preceding business day. As a result, in any given fiscal year there may be 11, 12, or 13 payments.",
+      "source_label": "Number of Paymentsa",
+      "source": {
+        "file": "51313-2021-02-ssi.xlsx",
+        "sheet": "SSI_2-2021",
+        "row": 44,
+        "column": 2
+      }
+    }
+  ]
+}

@@ -1,0 +1,199 @@
+{
+  "dataset": "medicaid",
+  "program_id": "51301",
+  "program": "Medicaid",
+  "vintage": "2024-06",
+  "data_file": "baseline_2024-06.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "067ca4900caf8e611e23fb26df352ae6294f4825691cbb09364a49d8c83dd57f",
+  "row_count": 308,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2024,
+    "end_year": 2034
+  },
+  "period_coverage": {
+    "start_year": 2024,
+    "end_year": 2034
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51301-2024-06-medicaid.xlsx"
+  ],
+  "source_sheets": [
+    "Medicaid_06-2024-rev"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Dollars per enrollee",
+    "Millions of people"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Actual, / BUDGET INFORMATION / Estimated Outlaysa",
+      "marker": "a",
+      "variable_note": "On average, before fiscal year 2014, federal Medicaid payments represented approximately 57 percent of total Medicaid payments. The ACA, which expanded Medicaid coverage starting in 2014, provides enhanced federal matching rates for services to those made eligible by that act, leading to a federal share for all Medicaid payments of about 65 percent, on average. In addition, for the duration of the coronavirus public health emergency, the Families First Coronavirus Relief Act increased matching rates by 6.2 percentage points for services provided to people who were not made eligible by the ACA. The Consolidated Appropriations Act of 2023 terminated that provision, establishing a gradual phasedown of the increased matching rates beginning in April 2023 through the end of calendar year 2023.",
+      "source_label": "Estimated Outlaysa",
+      "source": {
+        "file": "51301-2024-06-medicaid.xlsx",
+        "sheet": "Medicaid_06-2024-rev",
+        "row": 14,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Actual, / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults—Made eligible by the ACA",
+      "marker": "b",
+      "variable_note": "These figures represent the number of beneficiaries with full and partial benefits who are enrolled on an average monthly basis. The total number of people enrolled in Medicaid for any length of time during the fiscal year is shown in the memorandum line.",
+      "source_label": "Average Monthly Enrollment by Eligibility Category (Millions of people)b",
+      "source": {
+        "file": "51301-2024-06-medicaid.xlsx",
+        "sheet": "Medicaid_06-2024-rev",
+        "row": 43,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Actual, / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Adults—Traditional eligibility categories",
+      "marker": "b",
+      "variable_note": "These figures represent the number of beneficiaries with full and partial benefits who are enrolled on an average monthly basis. The total number of people enrolled in Medicaid for any length of time during the fiscal year is shown in the memorandum line.",
+      "source_label": "Average Monthly Enrollment by Eligibility Category (Millions of people)b",
+      "source": {
+        "file": "51301-2024-06-medicaid.xlsx",
+        "sheet": "Medicaid_06-2024-rev",
+        "row": 43,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Actual, / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Aged",
+      "marker": "b",
+      "variable_note": "These figures represent the number of beneficiaries with full and partial benefits who are enrolled on an average monthly basis. The total number of people enrolled in Medicaid for any length of time during the fiscal year is shown in the memorandum line.",
+      "source_label": "Average Monthly Enrollment by Eligibility Category (Millions of people)b",
+      "source": {
+        "file": "51301-2024-06-medicaid.xlsx",
+        "sheet": "Medicaid_06-2024-rev",
+        "row": 43,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Actual, / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Blind and Disabled",
+      "marker": "b",
+      "variable_note": "These figures represent the number of beneficiaries with full and partial benefits who are enrolled on an average monthly basis. The total number of people enrolled in Medicaid for any length of time during the fiscal year is shown in the memorandum line.",
+      "source_label": "Average Monthly Enrollment by Eligibility Category (Millions of people)b",
+      "source": {
+        "file": "51301-2024-06-medicaid.xlsx",
+        "sheet": "Medicaid_06-2024-rev",
+        "row": 43,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Actual, / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Children",
+      "marker": "b",
+      "variable_note": "These figures represent the number of beneficiaries with full and partial benefits who are enrolled on an average monthly basis. The total number of people enrolled in Medicaid for any length of time during the fiscal year is shown in the memorandum line.",
+      "source_label": "Average Monthly Enrollment by Eligibility Category (Millions of people)b",
+      "source": {
+        "file": "51301-2024-06-medicaid.xlsx",
+        "sheet": "Medicaid_06-2024-rev",
+        "row": 43,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Actual, / Average Monthly Enrollment by Eligibility Category (Millions of people)b / Total",
+      "marker": "b",
+      "variable_note": "These figures represent the number of beneficiaries with full and partial benefits who are enrolled on an average monthly basis. The total number of people enrolled in Medicaid for any length of time during the fiscal year is shown in the memorandum line.",
+      "source_label": "Average Monthly Enrollment by Eligibility Category (Millions of people)b",
+      "source": {
+        "file": "51301-2024-06-medicaid.xlsx",
+        "sheet": "Medicaid_06-2024-rev",
+        "row": 43,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Actual, / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults–Made eligible by the ACA",
+      "marker": "c",
+      "variable_note": "These figures are based on the annual cost for enrollees who receive any Medicaid benefit—including those who receive only partial Medicaid benefits, such as family planning services or assistance with Medicare cost sharing and premiums.",
+      "source_label": "Average Federal Spending on Benefit Payments per Enrollee (Dollars)c",
+      "source": {
+        "file": "51301-2024-06-medicaid.xlsx",
+        "sheet": "Medicaid_06-2024-rev",
+        "row": 57,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Actual, / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Adults–Traditional eligibility categories",
+      "marker": "c",
+      "variable_note": "These figures are based on the annual cost for enrollees who receive any Medicaid benefit—including those who receive only partial Medicaid benefits, such as family planning services or assistance with Medicare cost sharing and premiums.",
+      "source_label": "Average Federal Spending on Benefit Payments per Enrollee (Dollars)c",
+      "source": {
+        "file": "51301-2024-06-medicaid.xlsx",
+        "sheet": "Medicaid_06-2024-rev",
+        "row": 57,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Actual, / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Aged",
+      "marker": "c",
+      "variable_note": "These figures are based on the annual cost for enrollees who receive any Medicaid benefit—including those who receive only partial Medicaid benefits, such as family planning services or assistance with Medicare cost sharing and premiums.",
+      "source_label": "Average Federal Spending on Benefit Payments per Enrollee (Dollars)c",
+      "source": {
+        "file": "51301-2024-06-medicaid.xlsx",
+        "sheet": "Medicaid_06-2024-rev",
+        "row": 57,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Actual, / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Blind and Disabled",
+      "marker": "c",
+      "variable_note": "These figures are based on the annual cost for enrollees who receive any Medicaid benefit—including those who receive only partial Medicaid benefits, such as family planning services or assistance with Medicare cost sharing and premiums.",
+      "source_label": "Average Federal Spending on Benefit Payments per Enrollee (Dollars)c",
+      "source": {
+        "file": "51301-2024-06-medicaid.xlsx",
+        "sheet": "Medicaid_06-2024-rev",
+        "row": 57,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Actual, / Average Federal Spending on Benefit Payments per Enrollee (Dollars)c / Children",
+      "marker": "c",
+      "variable_note": "These figures are based on the annual cost for enrollees who receive any Medicaid benefit—including those who receive only partial Medicaid benefits, such as family planning services or assistance with Medicare cost sharing and premiums.",
+      "source_label": "Average Federal Spending on Benefit Payments per Enrollee (Dollars)c",
+      "source": {
+        "file": "51301-2024-06-medicaid.xlsx",
+        "sheet": "Medicaid_06-2024-rev",
+        "row": 57,
+        "column": 1
+      }
+    }
+  ]
+}

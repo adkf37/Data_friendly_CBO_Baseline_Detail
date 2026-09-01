@@ -16,7 +16,7 @@ Profile every downloaded workbook so the team can decide which sheets should be 
 ## Inputs
 
 - `data/raw/*.xlsx` from `task-01-download`
-- `openpyxl` from `requirements.txt`
+- `openpyxl` from `environment.yml`
 
 ## Outputs
 

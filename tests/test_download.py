@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 from unittest.mock import patch
 
-from src import download
+from etl import download
 
 
 def xlsx_bytes(label="workbook"):
@@ -59,7 +59,7 @@ class DownloadTests(unittest.TestCase):
     def test_direct_script_help_does_not_shadow_standard_inspect_module(self):
         repo_root = Path(__file__).resolve().parent.parent
         result = subprocess.run(
-            [sys.executable, str(repo_root / "src" / "download.py"), "--help"],
+            [sys.executable, str(repo_root / "etl" / "download.py"), "--help"],
             cwd=repo_root,
             capture_output=True,
             text=True,

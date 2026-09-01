@@ -1,0 +1,103 @@
+{
+  "dataset": "military_retirement",
+  "program_id": "51303",
+  "program": "Military Retirement",
+  "vintage": "2020-01",
+  "data_file": "baseline_2020-01.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "d3f823754aa4e1c01bef82b3d38e2711a610bf4d210af9128f12ea89c72ac9bc",
+  "row_count": 99,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2020,
+    "end_year": 2030
+  },
+  "period_coverage": {
+    "start_year": 2020,
+    "end_year": 2030
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51303-2020-01-militaryretirement.xlsx"
+  ],
+  "source_sheets": [
+    "MilitaryRetirement"
+  ],
+  "units": [
+    "Dollars",
+    "Millions of dollars",
+    "Thousands"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "By Fiscal Year / Adjustment for Payday Shift / (Millions of dollars)a",
+      "marker": "a",
+      "variable_note": "Section 632 of the Ike Skelton National Defense Authorization Act for Fiscal Year 2011 (Public Law 111-383) requires the Department of Defense (DoD) to make retirement payments on the first day of each month. If the first day of the month occurs on a holiday or a weekend, DoD will instead make the payments on the preceding business day. That will result in one additional paycheck in fiscal years 2022 and 2028 and one fewer paycheck in fiscal years 2024 and 2029. Section 632 does not affect the timing of survivor benefit payments.",
+      "source_label": "(Millions of dollars)a",
+      "source": {
+        "file": "51303-2020-01-militaryretirement.xlsx",
+        "sheet": "MilitaryRetirement",
+        "row": 18,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Survivorsb / Average Annual Benefit (Dollars)",
+      "marker": "b",
+      "variable_note": "Total outlays from the Military Retirement Trust Fund include CBO's estimate of the effects of the National Defense Authorization Act for Fiscal Year 2020 (NDAA). Among other changes, the NDAA changes the benefit rules for surviving spouses who also receive compensation from the Department of Veterans Affairs. The estimated average annual benefits and outlays for survivors shown above do not reflect the NDAA change. CBO will incorporate that change into the Survivors section above when CBO releases its next baseline later in 2020.",
+      "source_label": "Survivorsb",
+      "source": {
+        "file": "51303-2020-01-militaryretirement.xlsx",
+        "sheet": "MilitaryRetirement",
+        "row": 23,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Survivorsb / Number (Thousands)",
+      "marker": "b",
+      "variable_note": "Total outlays from the Military Retirement Trust Fund include CBO's estimate of the effects of the National Defense Authorization Act for Fiscal Year 2020 (NDAA). Among other changes, the NDAA changes the benefit rules for surviving spouses who also receive compensation from the Department of Veterans Affairs. The estimated average annual benefits and outlays for survivors shown above do not reflect the NDAA change. CBO will incorporate that change into the Survivors section above when CBO releases its next baseline later in 2020.",
+      "source_label": "Survivorsb",
+      "source": {
+        "file": "51303-2020-01-militaryretirement.xlsx",
+        "sheet": "MilitaryRetirement",
+        "row": 23,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Total Outlays / (Millions of dollars)",
+      "marker": "b",
+      "variable_note": "Total outlays from the Military Retirement Trust Fund include CBO's estimate of the effects of the National Defense Authorization Act for Fiscal Year 2020 (NDAA). Among other changes, the NDAA changes the benefit rules for surviving spouses who also receive compensation from the Department of Veterans Affairs. The estimated average annual benefits and outlays for survivors shown above do not reflect the NDAA change. CBO will incorporate that change into the Survivors section above when CBO releases its next baseline later in 2020.",
+      "source_label": "Military Retirement Trust Fundb",
+      "source": {
+        "file": "51303-2020-01-militaryretirement.xlsx",
+        "sheet": "MilitaryRetirement",
+        "row": 32,
+        "column": 1
+      }
+    }
+  ]
+}

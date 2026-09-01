@@ -1,0 +1,700 @@
+{
+  "dataset": "student_loans",
+  "program_id": "51310",
+  "program": "Student Loans",
+  "vintage": "2026-02",
+  "data_file": "baseline_2026-02.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "0e6c6ef0481136898ecb049c1f96a5d3f78a89b5a4360265cd3afe29b6f6d3c7",
+  "row_count": 671,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2026,
+    "end_year": 2036
+  },
+  "period_coverage": {
+    "start_year": 2025,
+    "end_year": 2037
+  },
+  "period_types": [
+    "award_year",
+    "cumulative_fiscal_years",
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51310-2026-02-studentloan.xlsx"
+  ],
+  "source_sheets": [
+    "T1-FCRA costs",
+    "T2-current fiscal year",
+    "T3-NewLoanVolume",
+    "T4-Subsidy Rates_FCRA",
+    "T5-IntRates",
+    "T6-Fair Value Costs",
+    "T7-Subsidy Rates_FairVal"
+  ],
+  "units": [
+    "Dollars",
+    "Millions of dollars",
+    "Percent",
+    "Thousands"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals—Federal Credit Reform Act Estimating Procedures / Discretionary Accounta / Budget Authority",
+      "marker": "a",
+      "variable_note": "Projections of discretionary spending for administering student aid are calculated by inflating the budget authority provided in the most recent appropriation act rather than being made on the basis of the estimated future costs of administering federal loan programs.",
+      "source_label": "Discretionary Accounta",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T1-FCRA costs",
+        "row": 26,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals—Federal Credit Reform Act Estimating Procedures / Discretionary Accounta / Outlays",
+      "marker": "a",
+      "variable_note": "Projections of discretionary spending for administering student aid are calculated by inflating the budget authority provided in the most recent appropriation act rather than being made on the basis of the estimated future costs of administering federal loan programs.",
+      "source_label": "Discretionary Accounta",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T1-FCRA costs",
+        "row": 26,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals—Federal Credit Reform Act Estimating Procedures / Mandatory Accountb / Budget Authority",
+      "marker": "b",
+      "variable_note": "Projections of mandatory spending for administering student aid are based on the estimated future costs of administering federal loan programs.",
+      "source_label": "Mandatory Accountb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T1-FCRA costs",
+        "row": 29,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals—Federal Credit Reform Act Estimating Procedures / Mandatory Accountb / Outlays",
+      "marker": "b",
+      "variable_note": "Projections of mandatory spending for administering student aid are based on the estimated future costs of administering federal loan programs.",
+      "source_label": "Mandatory Accountb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T1-FCRA costs",
+        "row": 29,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Costs, as Estimated by the Office of Management and Budget—Federal Credit Reform Act Estimating Procedures / Direct Student Loans / Credit Reestimatesa",
+      "marker": "a",
+      "variable_note": "A credit reestimate is a revision in the estimated cost of an outstanding group of loans (called a cohort) arising from changes in assumptions about future cash flows associated with those loans. Credit reestimates are made annually and are based on new economic assumptions (concerning interest rates, for example) and new technical assumptions (for default rates, for example). The totals in this table are based on the amounts that the Office of Management and Budget (OMB) expects to record in fiscal year 2026. According to the Department of Education’s budget justification documents for fiscal year 2027, the 2026 direct loan reestimates are attributable mainly to fully integrating the Repayment Assistance Plan, routinely updating underlying economic assumptions, and using federal tax information to update borrower incomes and generate estimated repayments in income-driven repayment plans. See Office of Management and Budget, “Detailed Budget Estimates by Agency: Department of Education,” Budget of the U.S. Government, Fiscal Year 2027: Budget Appendix (April 2026), https://tinyurl.com/4nr7bsny. See also Department of Education, “Student Loans Overview,” Fiscal Year 2027 Budget Proposal (April 2026), https://tinyurl.com/576s3tbx.",
+      "source_label": "Credit Reestimatesa",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T2-current fiscal year",
+        "row": 16,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Costs, as Estimated by the Office of Management and Budget—Federal Credit Reform Act Estimating Procedures / Direct Student Loans / Modificationsb",
+      "marker": "b",
+      "variable_note": "A modification is a change in the estimated cost of an outstanding cohort of loans that arises from legislation or federal administrative actions that result in a difference in the future cash flows for those loans. The totals in this table are based on the amounts that OMB expects to record or has already recorded in fiscal year 2026. OMB’s totals in the President’s budget request for fiscal year 2027 did not include modification costs for outstanding direct student loans related to the Department of Education’s delay of collections, which OMB estimated to total around $3.5 billion. Because those modification costs were recorded in January 2026, CBO includes them in the total modification costs for direct student loans.",
+      "source_label": "Modificationsb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T2-current fiscal year",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Costs, as Estimated by the Office of Management and Budget—Federal Credit Reform Act Estimating Procedures / Guaranteed Student Loans / Credit Reestimatesa",
+      "marker": "a",
+      "variable_note": "A credit reestimate is a revision in the estimated cost of an outstanding group of loans (called a cohort) arising from changes in assumptions about future cash flows associated with those loans. Credit reestimates are made annually and are based on new economic assumptions (concerning interest rates, for example) and new technical assumptions (for default rates, for example). The totals in this table are based on the amounts that the Office of Management and Budget (OMB) expects to record in fiscal year 2026. According to the Department of Education’s budget justification documents for fiscal year 2027, the 2026 direct loan reestimates are attributable mainly to fully integrating the Repayment Assistance Plan, routinely updating underlying economic assumptions, and using federal tax information to update borrower incomes and generate estimated repayments in income-driven repayment plans. See Office of Management and Budget, “Detailed Budget Estimates by Agency: Department of Education,” Budget of the U.S. Government, Fiscal Year 2027: Budget Appendix (April 2026), https://tinyurl.com/4nr7bsny. See also Department of Education, “Student Loans Overview,” Fiscal Year 2027 Budget Proposal (April 2026), https://tinyurl.com/576s3tbx.",
+      "source_label": "Credit Reestimatesa",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T2-current fiscal year",
+        "row": 21,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Costs, as Estimated by the Office of Management and Budget—Federal Credit Reform Act Estimating Procedures / Guaranteed Student Loans / Modificationsb",
+      "marker": "b",
+      "variable_note": "A modification is a change in the estimated cost of an outstanding cohort of loans that arises from legislation or federal administrative actions that result in a difference in the future cash flows for those loans. The totals in this table are based on the amounts that OMB expects to record or has already recorded in fiscal year 2026. OMB’s totals in the President’s budget request for fiscal year 2027 did not include modification costs for outstanding direct student loans related to the Department of Education’s delay of collections, which OMB estimated to total around $3.5 billion. Because those modification costs were recorded in January 2026, CBO includes them in the total modification costs for direct student loans.",
+      "source_label": "Modificationsb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T2-current fiscal year",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Costs, as Estimated by the Office of Management and Budget—Federal Credit Reform Act Estimating Procedures / Total / Credit Reestimatesa",
+      "marker": "a",
+      "variable_note": "A credit reestimate is a revision in the estimated cost of an outstanding group of loans (called a cohort) arising from changes in assumptions about future cash flows associated with those loans. Credit reestimates are made annually and are based on new economic assumptions (concerning interest rates, for example) and new technical assumptions (for default rates, for example). The totals in this table are based on the amounts that the Office of Management and Budget (OMB) expects to record in fiscal year 2026. According to the Department of Education’s budget justification documents for fiscal year 2027, the 2026 direct loan reestimates are attributable mainly to fully integrating the Repayment Assistance Plan, routinely updating underlying economic assumptions, and using federal tax information to update borrower incomes and generate estimated repayments in income-driven repayment plans. See Office of Management and Budget, “Detailed Budget Estimates by Agency: Department of Education,” Budget of the U.S. Government, Fiscal Year 2027: Budget Appendix (April 2026), https://tinyurl.com/4nr7bsny. See also Department of Education, “Student Loans Overview,” Fiscal Year 2027 Budget Proposal (April 2026), https://tinyurl.com/576s3tbx.",
+      "source_label": "Credit Reestimatesa",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T2-current fiscal year",
+        "row": 27,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Costs, as Estimated by the Office of Management and Budget—Federal Credit Reform Act Estimating Procedures / Total / Modificationsb",
+      "marker": "b",
+      "variable_note": "A modification is a change in the estimated cost of an outstanding cohort of loans that arises from legislation or federal administrative actions that result in a difference in the future cash flows for those loans. The totals in this table are based on the amounts that OMB expects to record or has already recorded in fiscal year 2026. OMB’s totals in the President’s budget request for fiscal year 2027 did not include modification costs for outstanding direct student loans related to the Department of Education’s delay of collections, which OMB estimated to total around $3.5 billion. Because those modification costs were recorded in January 2026, CBO includes them in the total modification costs for direct student loans.",
+      "source_label": "Modificationsb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T2-current fiscal year",
+        "row": 28,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Volume of New Loans / All New Loansa / Average Loan Amount (Dollars)",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2026.",
+      "source_label": "All New Loansa",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T3-NewLoanVolume",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Volume of New Loans / All New Loansa / Net Annual Loan Volume (Millions of dollars)b",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2026.",
+      "source_label": "All New Loansa",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T3-NewLoanVolume",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Volume of New Loans / All New Loansa / Net Number of Loans (Thousands)c",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2026.",
+      "source_label": "All New Loansa",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T3-NewLoanVolume",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Volume of New Loans / All New Loansa / Net Annual Loan Volume (Millions of dollars)b",
+      "marker": "b",
+      "variable_note": "“Net Annual Loan Volume” does not equal the product of the net number of loans and average loan amounts because of rounding. It also does not equal the sum of loan volume for each loan type because of rounding.",
+      "source_label": "Net Annual Loan Volume (Millions of dollars)b",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T3-NewLoanVolume",
+        "row": 14,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Volume of New Loans / All New Loansa / Net Number of Loans (Thousands)c",
+      "marker": "c",
+      "variable_note": "“Net Number of Loans” does not represent the number of unique borrowers because borrowers may take out multiple loans and different types of loans in a single year.",
+      "source_label": "Net Number of Loans (Thousands)c",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T3-NewLoanVolume",
+        "row": 15,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Volume of New Loans / Net Annual Loan Volume, By Loan Type (Millions of dollars) / Grad PLUSd",
+      "marker": "d",
+      "variable_note": "Grad PLUS loans will be phased out beginning July 1, 2026.",
+      "source_label": "Grad PLUSd",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T3-NewLoanVolume",
+        "row": 23,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Volume of New Loans / Average Loan Amount, By Loan Type (Dollars) / Grad PLUSd",
+      "marker": "d",
+      "variable_note": "Grad PLUS loans will be phased out beginning July 1, 2026.",
+      "source_label": "Grad PLUSd",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T3-NewLoanVolume",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / By Loan Type / Grad PLUSa",
+      "marker": "a",
+      "variable_note": "Grad PLUS loans will be phased out beginning July 1, 2026.",
+      "source_label": "Grad PLUSa",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Estimated percent of loan volume that will be repaid by students enrolled in an income-driven repayment plan in 2027, by loan type: / Grad PLUSa",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Estimated percent of loan volume that will be repaid by students enrolled in an income-driven repayment plan in 2027, by loan type: / Graduate Unsubsidized",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Estimated percent of loan volume that will be repaid by students enrolled in an income-driven repayment plan in 2027, by loan type: / Subsidized",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Estimated percent of loan volume that will be repaid by students enrolled in an income-driven repayment plan in 2027, by loan type: / Undergraduate Unsubsidized",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Fixed-Term Repayment Plans / Grad PLUSa",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Fixed-Term Repayment Plans / Graduate Unsubsidized",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Fixed-Term Repayment Plans / Parent PLUSc",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Fixed-Term Repayment Plans / Subsidized",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Fixed-Term Repayment Plans / Undergraduate Unsubsidized",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Income-Driven Repayment Plans / Grad PLUSa",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Income-Driven Repayment Plans / Graduate Unsubsidized",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Income-Driven Repayment Plans / Subsidized",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Income-Driven Repayment Plans / Undergraduate Unsubsidized",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Fixed-Term Repayment Plans / Parent PLUSc",
+      "marker": "c",
+      "variable_note": "In general, borrowers with Parent PLUS loans are ineligible for income-driven repayment plans.",
+      "source_label": "Parent PLUSc",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 27,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Fixed-Term Repayment Plans / Grad PLUSa",
+      "marker": "a",
+      "variable_note": "Grad PLUS loans will be phased out beginning July 1, 2026.",
+      "source_label": "Grad PLUSa",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 28,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Income-Driven Repayment Plans / Grad PLUSa",
+      "marker": "a",
+      "variable_note": "Grad PLUS loans will be phased out beginning July 1, 2026.",
+      "source_label": "Grad PLUSa",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 34,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Federal Credit Reform Act Estimating Procedures / Estimated percent of loan volume that will be repaid by students enrolled in an income-driven repayment plan in 2027, by loan type: / Grad PLUSa",
+      "marker": "a",
+      "variable_note": "Grad PLUS loans will be phased out beginning July 1, 2026.",
+      "source_label": "Grad PLUSa",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T4-Subsidy Rates_FCRA",
+        "row": 42,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Interest Rates / Parent PLUS and Grad PLUSa / 10-year Treasury + 4.60% (Capped at 10.50%)",
+      "marker": "a",
+      "variable_note": "Grad PLUS loans will be phased out beginning July 1, 2026.",
+      "source_label": "Parent PLUS and Grad PLUSa",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T5-IntRates",
+        "row": 19,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals—Fair-Value Estimating Procedures / Discretionary Accounta / Budget Authority",
+      "marker": "a",
+      "variable_note": "Projections of discretionary spending for administering student aid are calculated by inflating the budget authority provided in the most recent appropriation act rather than being made on the basis of the estimated future costs of administering federal loan programs.",
+      "source_label": "Discretionary Accounta",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T6-Fair Value Costs",
+        "row": 25,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals—Fair-Value Estimating Procedures / Discretionary Accounta / Outlays",
+      "marker": "a",
+      "variable_note": "Projections of discretionary spending for administering student aid are calculated by inflating the budget authority provided in the most recent appropriation act rather than being made on the basis of the estimated future costs of administering federal loan programs.",
+      "source_label": "Discretionary Accounta",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T6-Fair Value Costs",
+        "row": 25,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals—Fair-Value Estimating Procedures / Mandatory Accountb / Budget Authority",
+      "marker": "b",
+      "variable_note": "Projections of mandatory spending for administering student aid are based on the estimated future costs of administering federal loan programs.",
+      "source_label": "Mandatory Accountb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T6-Fair Value Costs",
+        "row": 28,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals—Fair-Value Estimating Procedures / Mandatory Accountb / Outlays",
+      "marker": "b",
+      "variable_note": "Projections of mandatory spending for administering student aid are based on the estimated future costs of administering federal loan programs.",
+      "source_label": "Mandatory Accountb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T6-Fair Value Costs",
+        "row": 28,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Fair-Value Estimating Procedures / By Loan Type / Grad PLUSa",
+      "marker": "a",
+      "variable_note": "Grad PLUS loans will be phased out beginning July 1, 2026.",
+      "source_label": "Grad PLUSa",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T7-Subsidy Rates_FairVal",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Fair-Value Estimating Procedures / Fixed-Term Repayment Plans / Grad PLUSa",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T7-Subsidy Rates_FairVal",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Fair-Value Estimating Procedures / Fixed-Term Repayment Plans / Graduate Unsubsidized",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T7-Subsidy Rates_FairVal",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Fair-Value Estimating Procedures / Fixed-Term Repayment Plans / Parent PLUSc",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T7-Subsidy Rates_FairVal",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Fair-Value Estimating Procedures / Fixed-Term Repayment Plans / Subsidized",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T7-Subsidy Rates_FairVal",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Fair-Value Estimating Procedures / Fixed-Term Repayment Plans / Undergraduate Unsubsidized",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T7-Subsidy Rates_FairVal",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Fair-Value Estimating Procedures / Income-Driven Repayment Plans / Grad PLUSa",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T7-Subsidy Rates_FairVal",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Fair-Value Estimating Procedures / Income-Driven Repayment Plans / Graduate Unsubsidized",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T7-Subsidy Rates_FairVal",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Fair-Value Estimating Procedures / Income-Driven Repayment Plans / Subsidized",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T7-Subsidy Rates_FairVal",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Fair-Value Estimating Procedures / Income-Driven Repayment Plans / Undergraduate Unsubsidized",
+      "marker": "b",
+      "variable_note": "Moving loan volume between the two types of repayment plans would not necessarily result in the change in subsidy rates shown. Borrowers with certain characteristics and debt amounts are more likely to enroll in income-driven repayment plans than in fixed-term repayment plans.",
+      "source_label": "By Repayment Plan Typeb",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T7-Subsidy Rates_FairVal",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Fair-Value Estimating Procedures / Fixed-Term Repayment Plans / Parent PLUSc",
+      "marker": "c",
+      "variable_note": "In general, borrowers with Parent PLUS loans are ineligible for income-driven repayment plans.",
+      "source_label": "Parent PLUSc",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T7-Subsidy Rates_FairVal",
+        "row": 27,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Fair-Value Estimating Procedures / Fixed-Term Repayment Plans / Grad PLUSa",
+      "marker": "a",
+      "variable_note": "Grad PLUS loans will be phased out beginning July 1, 2026.",
+      "source_label": "Grad PLUSa",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T7-Subsidy Rates_FairVal",
+        "row": 28,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Direct Loan Program: Projected Subsidy Rates—Fair-Value Estimating Procedures / Income-Driven Repayment Plans / Grad PLUSa",
+      "marker": "a",
+      "variable_note": "Grad PLUS loans will be phased out beginning July 1, 2026.",
+      "source_label": "Grad PLUSa",
+      "source": {
+        "file": "51310-2026-02-studentloan.xlsx",
+        "sheet": "T7-Subsidy Rates_FairVal",
+        "row": 34,
+        "column": 2
+      }
+    }
+  ]
+}

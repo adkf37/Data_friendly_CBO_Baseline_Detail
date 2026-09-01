@@ -1,0 +1,222 @@
+{
+  "dataset": "medicare",
+  "program_id": "51302",
+  "program": "Medicare",
+  "vintage": "2026-02",
+  "data_file": "baseline_2026-02.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "2161a306d847d9c5207a201e7c78761fd7da6a9a12ee64c0c40edc7fa09301f6",
+  "row_count": 516,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2025,
+    "end_year": 2036
+  },
+  "period_coverage": {
+    "start_year": 2025,
+    "end_year": 2036
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51302-2026-02-medicare.xlsx"
+  ],
+  "source_sheets": [
+    "Medicare_02-2026"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Thousands of people"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Medicare Totals / Mandatory Outlaysa",
+      "marker": "a",
+      "variable_note": "“Mandatory Outlays” include the effects of sequestration on spending for Medicare benefits under the Balanced Budget and Emergency Deficit Control Act of 1985, as amended.",
+      "source_label": "Mandatory Outlaysa",
+      "source": {
+        "file": "51302-2026-02-medicare.xlsx",
+        "sheet": "Medicare_02-2026",
+        "row": 14,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare Totals / Total Offsetting Receiptsb",
+      "marker": "b",
+      "variable_note": "Offsetting receipts include premiums, rebates paid to the federal government by drug manufacturers whose products have prices that exceed an inflation-adjusted benchmark price, payments from states to Medicare Part D on behalf of enrollees who are eligible both for Medicare and for Medicaid, and amounts paid to providers and later recovered.",
+      "source_label": "Total Offsetting Receiptsb",
+      "source": {
+        "file": "51302-2026-02-medicare.xlsx",
+        "sheet": "Medicare_02-2026",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Benefits / Mandatory Administrationc",
+      "marker": "c",
+      "variable_note": "“Mandatory Administration” outlays include those for quality improvement organizations, certain activities against fraud and abuse, and certain administrative activities funded in authorization acts.",
+      "source_label": "Mandatory Administrationc",
+      "source": {
+        "file": "51302-2026-02-medicare.xlsx",
+        "sheet": "Medicare_02-2026",
+        "row": 31,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Components of Offsetting Receipts / Part B Premiums and Inflation Rebate Collectionsd",
+      "marker": "d",
+      "variable_note": "Part B premium receipts include income-related premiums.",
+      "source_label": "Part B Premiums and Inflation Rebate Collectionsd",
+      "source": {
+        "file": "51302-2026-02-medicare.xlsx",
+        "sheet": "Medicare_02-2026",
+        "row": 36,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Components of Offsetting Receipts / Part D Premiums and Inflation Rebate Collectionse",
+      "marker": "e",
+      "variable_note": "Part D premium receipts include income-related premiums but not premiums that enrollees pay directly to their plans or premiums covered by the low-income subsidy.",
+      "source_label": "Part D Premiums and Inflation Rebate Collectionse",
+      "source": {
+        "file": "51302-2026-02-medicare.xlsx",
+        "sheet": "Medicare_02-2026",
+        "row": 37,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Components of Offsetting Receipts / Payments Recovered From Providersf",
+      "marker": "f",
+      "variable_note": "Recoveries are amounts that are paid to providers and later recovered; they are included in the total for mandatory Medicare spending. CBO counts the initial payment of such recoveries as outlays for benefits and counts subsequent recoveries as offsetting receipts to conform to reporting in the Monthly Treasury Statements. In the past, Medicare’s trustees have reported benefits net of recoveries; those reports have not treated the recoveries as offsetting receipts.",
+      "source_label": "Payments Recovered From Providersf",
+      "source": {
+        "file": "51302-2026-02-medicare.xlsx",
+        "sheet": "Medicare_02-2026",
+        "row": 39,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Adjusted Benefit Spending / Capitation Payments (Number per year)g",
+      "marker": "g",
+      "variable_note": "Capitation payments to group health plans and prescription drug plans for the month of October are shifted into the prior fiscal year when October 1 falls on a weekend.",
+      "source_label": "Capitation Payments (Number per year)g",
+      "source": {
+        "file": "51302-2026-02-medicare.xlsx",
+        "sheet": "Medicare_02-2026",
+        "row": 44,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicare / Benefits, Adjusted for Recoveries and / Timing Shiftsf,g",
+      "marker": "f",
+      "variable_note": "Recoveries are amounts that are paid to providers and later recovered; they are included in the total for mandatory Medicare spending. CBO counts the initial payment of such recoveries as outlays for benefits and counts subsequent recoveries as offsetting receipts to conform to reporting in the Monthly Treasury Statements. In the past, Medicare’s trustees have reported benefits net of recoveries; those reports have not treated the recoveries as offsetting receipts.",
+      "source_label": "Timing Shiftsf,g",
+      "source": {
+        "file": "51302-2026-02-medicare.xlsx",
+        "sheet": "Medicare_02-2026",
+        "row": 46,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Medicare / Benefits, Adjusted for Recoveries and / Timing Shiftsf,g",
+      "marker": "g",
+      "variable_note": "Capitation payments to group health plans and prescription drug plans for the month of October are shifted into the prior fiscal year when October 1 falls on a weekend.",
+      "source_label": "Timing Shiftsf,g",
+      "source": {
+        "file": "51302-2026-02-medicare.xlsx",
+        "sheet": "Medicare_02-2026",
+        "row": 46,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Medicare / Benefits, Adjusted for Recoveries, / Timing Shifts, and Premiumsd,e,f,g",
+      "marker": "d",
+      "variable_note": "Part B premium receipts include income-related premiums.",
+      "source_label": "Timing Shifts, and Premiumsd,e,f,g",
+      "source": {
+        "file": "51302-2026-02-medicare.xlsx",
+        "sheet": "Medicare_02-2026",
+        "row": 48,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Medicare / Benefits, Adjusted for Recoveries, / Timing Shifts, and Premiumsd,e,f,g",
+      "marker": "e",
+      "variable_note": "Part D premium receipts include income-related premiums but not premiums that enrollees pay directly to their plans or premiums covered by the low-income subsidy.",
+      "source_label": "Timing Shifts, and Premiumsd,e,f,g",
+      "source": {
+        "file": "51302-2026-02-medicare.xlsx",
+        "sheet": "Medicare_02-2026",
+        "row": 48,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Medicare / Benefits, Adjusted for Recoveries, / Timing Shifts, and Premiumsd,e,f,g",
+      "marker": "f",
+      "variable_note": "Recoveries are amounts that are paid to providers and later recovered; they are included in the total for mandatory Medicare spending. CBO counts the initial payment of such recoveries as outlays for benefits and counts subsequent recoveries as offsetting receipts to conform to reporting in the Monthly Treasury Statements. In the past, Medicare’s trustees have reported benefits net of recoveries; those reports have not treated the recoveries as offsetting receipts.",
+      "source_label": "Timing Shifts, and Premiumsd,e,f,g",
+      "source": {
+        "file": "51302-2026-02-medicare.xlsx",
+        "sheet": "Medicare_02-2026",
+        "row": 48,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Medicare / Benefits, Adjusted for Recoveries, / Timing Shifts, and Premiumsd,e,f,g",
+      "marker": "g",
+      "variable_note": "Capitation payments to group health plans and prescription drug plans for the month of October are shifted into the prior fiscal year when October 1 falls on a weekend.",
+      "source_label": "Timing Shifts, and Premiumsd,e,f,g",
+      "source": {
+        "file": "51302-2026-02-medicare.xlsx",
+        "sheet": "Medicare_02-2026",
+        "row": 48,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Medicare / Average Monthly Enrollment in a Fiscal Year (Thousands of people) / Part Dh",
+      "marker": "h",
+      "variable_note": "Includes people enrolled in stand-alone prescription drug plans, Medicare Advantage plans with prescription drug coverage, employer group waiver plans, and the retiree drug subsidy.",
+      "source_label": "Part Dh",
+      "source": {
+        "file": "51302-2026-02-medicare.xlsx",
+        "sheet": "Medicare_02-2026",
+        "row": 58,
+        "column": 1
+      }
+    }
+  ]
+}

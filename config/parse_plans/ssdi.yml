@@ -1,0 +1,298 @@
+workbooks:
+- workbook: 51307-2019-05-SSDI.xlsx
+  sheets:
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: ssdi_2019_05
+    verification_target: cbo-ssdi-2019-05
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Average Monthly Benefit on December 31 (Dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51307-2020-01-ssdi.xlsx
+  sheets:
+  - sheet: SSDI
+    classification: data
+    include: true
+    output_dataset: ssdi_2020_01
+    verification_target: cbo-ssdi-2020-01
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Average Monthly Benefit on December 31 (Dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51307-2020-03-ssdi.xlsx
+  sheets:
+  - sheet: SSDI
+    classification: data
+    include: true
+    output_dataset: ssdi_2020_03
+    verification_target: cbo-ssdi-2020-03
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Average Monthly Benefit on December 31 (Dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51307-2021-02-ssdi..xlsx
+  sheets:
+  - sheet: SSDI_2-2021
+    classification: data
+    include: true
+    output_dataset: ssdi_2021_02
+    verification_target: cbo-ssdi-2021-02
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51307-2021-07-ssdi.xlsx
+  sheets:
+  - sheet: SSDI
+    classification: data
+    include: true
+    output_dataset: ssdi_2021_07
+    verification_target: cbo-ssdi-2021-07
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51307-2022-05-ssdi.xlsx
+  sheets:
+  - sheet: SSDI_05-2022
+    classification: data
+    include: true
+    output_dataset: ssdi_2022_05
+    verification_target: cbo-ssdi-2022-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: By Fiscal Year, Billions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51307-2023-05-ssdi.xlsx
+  sheets:
+  - sheet: SSDI_05-2023
+    classification: data
+    include: true
+    output_dataset: ssdi_2023_05
+    verification_target: cbo-ssdi-2023-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: By Fiscal Year, Billions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51307-2024-02-ssdi.xlsx
+  sheets:
+  - sheet: SSDI_02-2024-rev
+    classification: data
+    include: true
+    output_dataset: ssdi_2024_02
+    verification_target: cbo-ssdi-2024-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51307-2024-06-ssdi.xlsx
+  sheets:
+  - sheet: SSDI_06-2024
+    classification: data
+    include: true
+    output_dataset: ssdi_2024_06
+    verification_target: cbo-ssdi-2024-06
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51307-2025-01-ssdi.xlsx
+  sheets:
+  - sheet: SSDI_01-2025
+    classification: data
+    include: true
+    output_dataset: ssdi_2025_01
+    verification_target: cbo-ssdi-2025-01
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51307-2026-02-ssdi.xlsx
+  sheets:
+  - sheet: SSDI_02-2026
+    classification: data
+    include: true
+    output_dataset: ssdi_2026_02
+    verification_target: cbo-ssdi-2026-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split

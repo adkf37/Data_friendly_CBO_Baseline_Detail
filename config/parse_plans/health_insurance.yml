@@ -1,0 +1,826 @@
+workbooks:
+- workbook: 51298-2019-05-Health-Insurance.xlsx
+  sheets:
+  - sheet: Table 1-1
+    classification: data
+    include: true
+    output_dataset: health_insurance_2019_05
+    verification_target: cbo-health-insurance-2019-05
+    header_rows: 1-6
+    first_data_row: 7
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Millions of People, by Calendar Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Contents
+    classification: notes
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: health_insurance_2019_05
+    verification_target: cbo-health-insurance-2019-05
+    header_rows: 1-5
+    first_data_row: 6
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Millions of People, by Calendar Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 2-1
+    classification: data
+    include: true
+    output_dataset: health_insurance_2019_05
+    verification_target: cbo-health-insurance-2019-05
+    header_rows: 1-9
+    first_data_row: 10
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Billions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 2
+    classification: data
+    include: true
+    output_dataset: health_insurance_2019_05
+    verification_target: cbo-health-insurance-2019-05
+    header_rows: 1-5
+    first_data_row: 6
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Billions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 3-1
+    classification: data
+    include: true
+    output_dataset: health_insurance_2019_05
+    verification_target: cbo-health-insurance-2019-05
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    unit: (Millions of people)a
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 3
+    classification: data
+    include: true
+    output_dataset: health_insurance_2019_05
+    verification_target: cbo-health-insurance-2019-05
+    header_rows: 1-5
+    first_data_row: 6
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    unit: Insurance Coverage for the Yeara (Millions of people)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 4-1
+    classification: data
+    include: true
+    output_dataset: health_insurance_2019_05
+    verification_target: cbo-health-insurance-2019-05
+    header_rows: 1-10
+    first_data_row: 11
+    year_column_strategy: none
+    year_columns: []
+    unit: (Millions of people, calendar year 2018)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: historical comparison table (Sept 2017 vs May 2018 vs Actual 2018); not a fiscal-year time-series
+      — standard year-column verification does not apply
+  - sheet: Table 4
+    classification: data
+    include: true
+    output_dataset: health_insurance_2019_05
+    verification_target: cbo-health-insurance-2019-05
+    header_rows: 1-4
+    first_data_row: 5
+    year_column_strategy: none
+    year_columns: []
+    unit: Selected Categories of Health Insurance Coverage for People Under Age 65 (Millions of people, calendar year 2018)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: historical comparison table (Sept 2017 vs May 2018 vs Actual 2018); not a fiscal-year time-series
+      — standard year-column verification does not apply
+- workbook: 51298-2020-03-healthinsurance.xlsx
+  sheets:
+  - sheet: Table 1-1
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2020_03
+    verification_target: cbo-healthinsurance-2020-03
+    header_rows: 1-6
+    first_data_row: 7
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Millions of People, by Calendar Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Contents
+    classification: notes
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2020_03
+    verification_target: cbo-healthinsurance-2020-03
+    header_rows: 1-5
+    first_data_row: 6
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Millions of People, by Calendar Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 2-1
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2020_03
+    verification_target: cbo-healthinsurance-2020-03
+    header_rows: 1-9
+    first_data_row: 10
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Billions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 2
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2020_03
+    verification_target: cbo-healthinsurance-2020-03
+    header_rows: 1-5
+    first_data_row: 6
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Billions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+  - sheet: Table 3-1
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2020_03
+    verification_target: cbo-healthinsurance-2020-03
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    unit: (Millions of people)a
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 4-1
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2020_03
+    verification_target: cbo-healthinsurance-2020-03
+    header_rows: 1-10
+    first_data_row: 11
+    year_column_strategy: none
+    year_columns: []
+    unit: (Millions of people, calendar year 2018)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: historical comparison table; not a fiscal-year time-series — standard year-column verification
+      does not apply
+- workbook: 51298-2020-09-healthinsurance.xlsx
+  sheets:
+  - sheet: Table 1-1
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2020_09
+    verification_target: cbo-healthinsurance-2020-09
+    header_rows: 1-6
+    first_data_row: 7
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Millions of People, by Calendar Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Contents
+    classification: metadata
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2020_09
+    verification_target: cbo-healthinsurance-2020-09
+    header_rows: 1-5
+    first_data_row: 6
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Millions of People, by Calendar Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 2
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2020_09
+    verification_target: cbo-healthinsurance-2020-09
+    header_rows: 1-5
+    first_data_row: 6
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Billions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+  - sheet: Table 2-1
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2020_09
+    verification_target: cbo-healthinsurance-2020-09
+    header_rows: 1-9
+    first_data_row: 10
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Billions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 3-1
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2020_09
+    verification_target: cbo-healthinsurance-2020-09
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    unit: (Millions of people)a
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 3
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2020_09
+    verification_target: cbo-healthinsurance-2020-09
+    header_rows: 1-5
+    first_data_row: 6
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    unit: Insurance Coverage for the Yeara (Millions of people)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 4-1
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2020_09
+    verification_target: cbo-healthinsurance-2020-09
+    header_rows: 1-10
+    first_data_row: 11
+    year_column_strategy: none
+    year_columns: []
+    unit: (Millions of people, calendar year 2018)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+    verification_exempt: false
+    verification_exempt_reason: historical comparison table; not a fiscal-year time-series — standard year-column verification
+      does not apply
+- workbook: 51298-2021-07-healthinsurance.xlsx
+  sheets:
+  - sheet: Contents
+    classification: metadata
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2021_07
+    verification_target: cbo-healthinsurance-2021-07
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Millions of People, by Calendar Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 2
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2021_07
+    verification_target: cbo-healthinsurance-2021-07
+    header_rows: 1-7
+    first_data_row: 8
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Billions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+- workbook: 51298-2022-06-healthinsurance.xlsx
+  sheets:
+  - sheet: Contents
+    classification: notes
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2022_06
+    verification_target: cbo-healthinsurance-2022-06
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Millions of People, by Calendar Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 2
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2022_06
+    verification_target: cbo-healthinsurance-2022-06
+    header_rows: 1-9
+    first_data_row: 10
+    year_column_strategy: column_index
+    year_columns:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Billions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+- workbook: 51298-2023-05-healthinsurance.xlsx
+  sheets:
+  - sheet: Contents
+    classification: notes
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: On September 26, 2023, CBO reposted this file to show corrections to the calculation of premium tax credit revenue
+      reductions in Table 2. The corrections totaled $2 billion over the 2023–2033 period.
+    notes:
+    - first data row could not be inferred — manual review needed
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2023_05
+    verification_target: cbo-healthinsurance-2023-05
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Millions of People, by Calendar Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 2
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2023_05
+    verification_target: cbo-healthinsurance-2023-05
+    header_rows: 1-9
+    first_data_row: 10
+    year_column_strategy: column_index
+    year_columns:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Billions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+- workbook: 51298-2023-09-healthinsurance.xlsx
+  sheets:
+  - sheet: Contents
+    classification: notes
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2023_09
+    verification_target: cbo-healthinsurance-2023-09
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Millions of People, by Calendar Year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 2
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2023_09
+    verification_target: cbo-healthinsurance-2023-09
+    header_rows: 1-9
+    first_data_row: 10
+    year_column_strategy: column_index
+    year_columns:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Billions of Dollars, by Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+- workbook: 51298-2024-06-healthinsurance.xlsx
+  sheets:
+  - sheet: Contents
+    classification: notes
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2024_06
+    verification_target: cbo-healthinsurance-2024-06
+    header_rows: 1-8
+    first_data_row: 9
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Millions of people, by calendar year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Table 2
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2024_06
+    verification_target: cbo-healthinsurance-2024-06
+    header_rows: 1-9
+    first_data_row: 10
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+- workbook: 51298-2026-02-healthinsurance.xlsx
+  sheets:
+  - sheet: healthinsuranceT1_02-2026
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2026_02
+    verification_target: cbo-health-insurance-2026-02-table-1
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    period_type: calendar_year
+    year_columns:
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    unit: Millions of people, on average in each month, by calendar year
+    notes:
+    - manually reviewed February 2026 layout
+  - sheet: healthinsuranceT2_02-2026
+    classification: data
+    include: true
+    output_dataset: healthinsurance_2026_02
+    verification_target: cbo-health-insurance-2026-02-table-2
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - manually reviewed February 2026 layout

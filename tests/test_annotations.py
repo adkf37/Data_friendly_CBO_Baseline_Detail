@@ -6,7 +6,7 @@ from openpyxl import Workbook
 from openpyxl.cell.rich_text import CellRichText, TextBlock
 from openpyxl.cell.text import InlineFont
 
-from src import source_annotations
+from etl import annotations as source_annotations
 
 
 def _rich_label(base: str, markers: str) -> CellRichText:

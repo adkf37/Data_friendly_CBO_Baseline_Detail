@@ -1,0 +1,3425 @@
+{
+  "dataset": "health_insurance",
+  "program_id": "51298",
+  "program": "Health Insurance",
+  "vintage": "2019-05",
+  "data_file": "baseline_2019-05.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "f10cd0e58e5873e192ab4113754233ad6d9af4c7f56082a0d39f96bf70fd77ce",
+  "row_count": 1297,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2018,
+    "end_year": 2029
+  },
+  "period_coverage": {
+    "start_year": 2017,
+    "end_year": 2029
+  },
+  "period_types": [
+    "calendar_year",
+    "cumulative_fiscal_years",
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51298-2019-05-Health-Insurance.xlsx"
+  ],
+  "source_sheets": [
+    "Table 1",
+    "Table 1-1",
+    "Table 2",
+    "Table 2-1",
+    "Table 3",
+    "Table 3-1",
+    "Table 4",
+    "Table 4-1"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Dollars",
+    "Millions of people",
+    "Number of insured people"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Medicaid and CHIP a / Adults made eligible for Medicaid by the ACA",
+      "marker": "a",
+      "variable_note": "Includes only noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 10,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Medicaid and CHIP a / Adults otherwise eligible for Medicaid",
+      "marker": "a",
+      "variable_note": "Includes only noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 10,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Medicaid and CHIP a / Blind and disabled",
+      "marker": "a",
+      "variable_note": "Includes only noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 10,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Medicaid and CHIP a / CHIP",
+      "marker": "a",
+      "variable_note": "Includes only noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 10,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Medicaid and CHIP a / Children",
+      "marker": "a",
+      "variable_note": "Includes only noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 10,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Medicaid and CHIP a / Subtotal",
+      "marker": "a",
+      "variable_note": "Includes only noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 10,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Nongroup coverage purchased through marketplaces b / Coverage through the Basic Health Program c",
+      "marker": "b",
+      "variable_note": "Many people can purchase subsidized health insurance coverage through marketplaces established under the ACA, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplaces b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Nongroup coverage purchased through marketplaces b / Medicare d",
+      "marker": "b",
+      "variable_note": "Many people can purchase subsidized health insurance coverage through marketplaces established under the ACA, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplaces b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Nongroup coverage purchased through marketplaces b / Nongroup coverage purchased outside marketplaces",
+      "marker": "b",
+      "variable_note": "Many people can purchase subsidized health insurance coverage through marketplaces established under the ACA, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplaces b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Nongroup coverage purchased through marketplaces b / Other Coverage e",
+      "marker": "b",
+      "variable_note": "Many people can purchase subsidized health insurance coverage through marketplaces established under the ACA, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplaces b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Nongroup coverage purchased through marketplaces b / Subsidized",
+      "marker": "b",
+      "variable_note": "Many people can purchase subsidized health insurance coverage through marketplaces established under the ACA, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplaces b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Nongroup coverage purchased through marketplaces b / Subtotal",
+      "marker": "b",
+      "variable_note": "Many people can purchase subsidized health insurance coverage through marketplaces established under the ACA, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplaces b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Nongroup coverage purchased through marketplaces b / Total, nongroup coverage",
+      "marker": "b",
+      "variable_note": "Many people can purchase subsidized health insurance coverage through marketplaces established under the ACA, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplaces b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Nongroup coverage purchased through marketplaces b / Uninsured f",
+      "marker": "b",
+      "variable_note": "Many people can purchase subsidized health insurance coverage through marketplaces established under the ACA, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplaces b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Nongroup coverage purchased through marketplaces b / Unsubsidized",
+      "marker": "b",
+      "variable_note": "Many people can purchase subsidized health insurance coverage through marketplaces established under the ACA, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplaces b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 20,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Nongroup coverage purchased through marketplaces b / Coverage through the Basic Health Program c",
+      "marker": "c",
+      "variable_note": "The Basic Health Program, created under the ACA, allows states to establish a coverage program primarily for people with income between 138 percent and 200 percent of the federal poverty guidelines. To subsidize that coverage, the federal government provides states with funding equal to 95 percent of the subsidies for which those people would otherwise have been eligible through a marketplace.",
+      "source_label": "Coverage through the Basic Health Program c",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 27,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Nongroup coverage purchased through marketplaces b / Medicare d",
+      "marker": "d",
+      "variable_note": "Includes noninstitutionalized Medicare enrollees under age 65. Most Medicare-eligible people under age 65 qualify for Medicare because they participate in the Social Security Disability Insurance program.",
+      "source_label": "Medicare d",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 29,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Nongroup coverage purchased through marketplaces b / Other Coverage e",
+      "marker": "e",
+      "variable_note": "Includes people with other kinds of insurance, such as student health plans, coverage provided by the Indian Health Service, or coverage from foreign sources.",
+      "source_label": "Other Coverage e",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 31,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage, 2019 to 2029 / Nongroup coverage purchased through marketplaces b / Uninsured f",
+      "marker": "f",
+      "variable_note": "Includes noncitizens not lawfully present in this country, who are ineligible either for marketplace subsidies or for most Medicaid benefits; people ineligible for Medicaid because they live in a state that has not expanded coverage; people eligible for Medicaid or CHIP who do not enroll; people who purchase nongroup insurance policies that do not meet the agencies’ definition of comprehensive health insurance; and people who do not purchase insurance available through an employer, through the marketplaces, or directly from an insurer.",
+      "source_label": "Uninsured f",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1",
+        "row": 33,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Medicaid and CHIPa / Adults Made Eligible for Medicaid by the ACA",
+      "marker": "a",
+      "variable_note": "Includes noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPa",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 11,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Medicaid and CHIPa / Blind and Disabled",
+      "marker": "a",
+      "variable_note": "Includes noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPa",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 11,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Medicaid and CHIPa / CHIP",
+      "marker": "a",
+      "variable_note": "Includes noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPa",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 11,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Medicaid and CHIPa / Children",
+      "marker": "a",
+      "variable_note": "Includes noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPa",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 11,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Medicaid and CHIPa / Otherwise eligible for Medicaid",
+      "marker": "a",
+      "variable_note": "Includes noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPa",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 11,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Medicaid and CHIPa / Subtotal",
+      "marker": "a",
+      "variable_note": "Includes noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPa",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 11,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Nongroup coverage purchased through marketplacesb / Coverage through the Basic Health Programc",
+      "marker": "b",
+      "variable_note": "Under the ACA, many people can purchase subsidized health insurance coverage through marketplaces, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplacesb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Nongroup coverage purchased through marketplacesb / Health Insurance Coverage for People Under Age 65",
+      "marker": "b",
+      "variable_note": "Under the ACA, many people can purchase subsidized health insurance coverage through marketplaces, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplacesb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Nongroup coverage purchased through marketplacesb / Medicared",
+      "marker": "b",
+      "variable_note": "Under the ACA, many people can purchase subsidized health insurance coverage through marketplaces, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplacesb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Nongroup coverage purchased through marketplacesb / Nongroup coverage purchased outside marketplaces",
+      "marker": "b",
+      "variable_note": "Under the ACA, many people can purchase subsidized health insurance coverage through marketplaces, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplacesb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Nongroup coverage purchased through marketplacesb / Other Coveragee",
+      "marker": "b",
+      "variable_note": "Under the ACA, many people can purchase subsidized health insurance coverage through marketplaces, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplacesb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Nongroup coverage purchased through marketplacesb / Subsidized",
+      "marker": "b",
+      "variable_note": "Under the ACA, many people can purchase subsidized health insurance coverage through marketplaces, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplacesb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Nongroup coverage purchased through marketplacesb / Subtotal",
+      "marker": "b",
+      "variable_note": "Under the ACA, many people can purchase subsidized health insurance coverage through marketplaces, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplacesb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Nongroup coverage purchased through marketplacesb / Uninsuredf",
+      "marker": "b",
+      "variable_note": "Under the ACA, many people can purchase subsidized health insurance coverage through marketplaces, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplacesb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Nongroup coverage purchased through marketplacesb / Unsubsidized",
+      "marker": "b",
+      "variable_note": "Under the ACA, many people can purchase subsidized health insurance coverage through marketplaces, which are operated by the federal government, state governments, or partnerships between the federal and state governments.",
+      "source_label": "Nongroup coverage purchased through marketplacesb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Nongroup coverage purchased through marketplacesb / Coverage through the Basic Health Programc",
+      "marker": "c",
+      "variable_note": "The Basic Health Program, created under the ACA, allows states to establish a coverage program primarily for people with income between 138 percent and 200 percent of the federal poverty guidelines. To subsidize that coverage, the federal government provides states with funding equal to 95 percent of the subsidies for which those people would otherwise have been eligible through a marketplace.",
+      "source_label": "Coverage through the Basic Health Programc",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Nongroup coverage purchased through marketplacesb / Medicared",
+      "marker": "d",
+      "variable_note": "Includes noninstitutionalized Medicare enrollees under age 65. Most Medicare-eligible people under age 65 qualify for Medicare because they participate in the Social Security Disability Insurance program.",
+      "source_label": "Medicared",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 34,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Nongroup coverage purchased through marketplacesb / Other Coveragee",
+      "marker": "e",
+      "variable_note": "Includes people with other kinds of insurance, such as some plans that are sold to individuals but outside of the nongroup market, student health plans, coverage provided by the Indian Health Service, and coverage from foreign sources.",
+      "source_label": "Other Coveragee",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 36,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Health Insurance Coverage for People Under Age 65 / Nongroup coverage purchased through marketplacesb / Uninsuredf",
+      "marker": "f",
+      "variable_note": "Includes unauthorized immigrants, who are ineligible either for marketplace subsidies or for most Medicaid benefits; people ineligible for Medicaid because they live in a state that has not expanded coverage; people eligible for Medicaid who do not enroll; people who purchase nongroup insurance policies that do not meet the agencies' definition of comprehensive health insurance; and people who do not purchase insurance available through an employer, through the marketplaces, or directly from an insurer,",
+      "source_label": "Uninsuredf",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 1-1",
+        "row": 38,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated with Health Insurance Coverage, 2019 to 2029 / Work-Related Coverage / Tax exclusion for employment-based coverage a,b",
+      "marker": "a",
+      "variable_note": "Includes the effect on tax revenues of the exclusion of premiums for people under age 65 with employment-based insurance from federal income and payroll taxes and includes the effects on taxable wages of the excise tax on high-cost plans and penalty payments by employers. The estimates shown, which JCT produced, differ from the agency’s estimates of the tax expenditure for the exclusion of employer-paid health insurance because effects stemming from the exclusion for people over age 65 are not included here and because the Federal Insurance Contributions Act tax exclusion for employer-paid health insurance is included here.",
+      "source_label": "Tax exclusion for employment-based coverage a,b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2",
+        "row": 6,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated with Health Insurance Coverage, 2019 to 2029 / Work-Related Coverage / Tax exclusion for employment-based coverage a,b",
+      "marker": "b",
+      "variable_note": "Includes increases in outlays and reductions in revenues.",
+      "source_label": "Tax exclusion for employment-based coverage a,b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2",
+        "row": 6,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated with Health Insurance Coverage, 2019 to 2029 / Work-Related Coverage / Income tax deduction for self-employment health insurance c",
+      "marker": "c",
+      "variable_note": "The estimates shown, which JCT produced, do not include effects stemming from the deduction for people over age 65.",
+      "source_label": "Income tax deduction for self-employment health insurance c",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2",
+        "row": 7,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated with Health Insurance Coverage, 2019 to 2029 / Small-employer tax credits b / Subtotal",
+      "marker": "b",
+      "variable_note": "Includes increases in outlays and reductions in revenues.",
+      "source_label": "Small-employer tax credits b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2",
+        "row": 8,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated with Health Insurance Coverage, 2019 to 2029 / Medicaid and CHIP d / Adults made eligible for Medicaid by the ACA",
+      "marker": "d",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaid and CHIP d",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2",
+        "row": 12,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated with Health Insurance Coverage, 2019 to 2029 / Medicaid and CHIP d / Adults otherwise eligible for Medicaid",
+      "marker": "d",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaid and CHIP d",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2",
+        "row": 12,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated with Health Insurance Coverage, 2019 to 2029 / Medicaid and CHIP d / Blind and disabled",
+      "marker": "d",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaid and CHIP d",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2",
+        "row": 12,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated with Health Insurance Coverage, 2019 to 2029 / Medicaid and CHIP d / CHIP",
+      "marker": "d",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaid and CHIP d",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2",
+        "row": 12,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated with Health Insurance Coverage, 2019 to 2029 / Medicaid and CHIP d / Children",
+      "marker": "d",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaid and CHIP d",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2",
+        "row": 12,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated with Health Insurance Coverage, 2019 to 2029 / Medicaid and CHIP d / Subtotal",
+      "marker": "d",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaid and CHIP d",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2",
+        "row": 12,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated with Health Insurance Coverage, 2019 to 2029 / Marketplace-Related Coverage and the Basic Health Program / Medicare e",
+      "marker": "e",
+      "variable_note": "For Medicare, the outlays are for benefits net of offsetting receipts for noninstitutionalized Medicare beneficiaries under age 65.",
+      "source_label": "Medicare e",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated with Health Insurance Coverage, 2019 to 2029 / Taxes and Penalties Related to Coverage / Gross collections of excise tax on high-premium insurance plans f",
+      "marker": "f",
+      "variable_note": "Excludes the associated effects on revenues of changes in taxable compensation, which are included in the estimate of the tax exclusion for employment-based insurance. If those effects were included, net revenues stemming from the excise tax would total $193 billion over the 2020–2029 period, and revenues from penalty payments by employers would total $58 billion over that 10-year period.",
+      "source_label": "Gross collections of excise tax on high-premium insurance plans f",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2",
+        "row": 35,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated with Health Insurance Coverage, 2019 to 2029 / Taxes and Penalties Related to Coverage / Net receipts from tax on health insurance providers g",
+      "marker": "g",
+      "variable_note": "Net receipts include effects on individual and corporate tax receipts. The tax is suspended in 2019.",
+      "source_label": "Net receipts from tax on health insurance providers g",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2",
+        "row": 37,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated with Health Insurance Coverage, 2019 to 2029 / Taxes and Penalties Related to Coverage / Gross collections of employer penalties f",
+      "marker": "f",
+      "variable_note": "Excludes the associated effects on revenues of changes in taxable compensation, which are included in the estimate of the tax exclusion for employment-based insurance. If those effects were included, net revenues stemming from the excise tax would total $193 billion over the 2020–2029 period, and revenues from penalty payments by employers would total $58 billion over that 10-year period.",
+      "source_label": "Gross collections of employer penalties f",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2",
+        "row": 38,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated With Health Insurance Coverage for People Under Age 65 / Work-Related Coverage / Tax exclusion for employment-based coveragea,b",
+      "marker": "a",
+      "variable_note": "Includes the effect on tax revenues of the exclusion of premiums for people under age 65 with employment-based insurance from federal income and payroll taxes and includes the effects on taxable wages of the excise tax on high-cost plans and penalty payments by employers. JCT made this projection; it differs from JCT’s estimate of the tax expenditure for the exclusion of employer-paid health insurance because effects stemming from the exclusion for people over age 65 are excluded here and because the Federal Insurance Contributions Act tax exclusion for employer-paid health insurance is included here.",
+      "source_label": "Tax exclusion for employment-based coveragea,b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2-1",
+        "row": 10,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated With Health Insurance Coverage for People Under Age 65 / Work-Related Coverage / Tax exclusion for employment-based coveragea,b",
+      "marker": "b",
+      "variable_note": "Includes increases in outlays and reductions in revenues.",
+      "source_label": "Tax exclusion for employment-based coveragea,b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2-1",
+        "row": 10,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated With Health Insurance Coverage for People Under Age 65 / Work-Related Coverage / Income tax deduction for self-employment health insurancec",
+      "marker": "c",
+      "variable_note": "JCT made this projection; it does not include effects stemming from the deduction for people over age 65.",
+      "source_label": "Income tax deduction for self-employment health insurancec",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2-1",
+        "row": 11,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated With Health Insurance Coverage for People Under Age 65 / Small-employer tax creditsb / Subtotal",
+      "marker": "b",
+      "variable_note": "Includes increases in outlays and reductions in revenues.",
+      "source_label": "Small-employer tax creditsb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2-1",
+        "row": 12,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated With Health Insurance Coverage for People Under Age 65 / Medicaid and CHIPd / Adults Made Eligible for Medicaid by the ACA",
+      "marker": "d",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits. Also, the federal government covers a larger share of costs for Medicaid enrollees whom the ACA made eligible for the program than for people otherwise eligible for Medicaid; the government therefore tracks those groups separately.",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2-1",
+        "row": 16,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated With Health Insurance Coverage for People Under Age 65 / Medicaid and CHIPd / Blind and Disabled",
+      "marker": "d",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits. Also, the federal government covers a larger share of costs for Medicaid enrollees whom the ACA made eligible for the program than for people otherwise eligible for Medicaid; the government therefore tracks those groups separately.",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2-1",
+        "row": 16,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated With Health Insurance Coverage for People Under Age 65 / Medicaid and CHIPd / CHIP",
+      "marker": "d",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits. Also, the federal government covers a larger share of costs for Medicaid enrollees whom the ACA made eligible for the program than for people otherwise eligible for Medicaid; the government therefore tracks those groups separately.",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2-1",
+        "row": 16,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated With Health Insurance Coverage for People Under Age 65 / Medicaid and CHIPd / Children",
+      "marker": "d",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits. Also, the federal government covers a larger share of costs for Medicaid enrollees whom the ACA made eligible for the program than for people otherwise eligible for Medicaid; the government therefore tracks those groups separately.",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2-1",
+        "row": 16,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated With Health Insurance Coverage for People Under Age 65 / Medicaid and CHIPd / Net Federal Subsidies Associated With Health Insurance Coverage for People Under Age 65",
+      "marker": "d",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits. Also, the federal government covers a larger share of costs for Medicaid enrollees whom the ACA made eligible for the program than for people otherwise eligible for Medicaid; the government therefore tracks those groups separately.",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2-1",
+        "row": 16,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated With Health Insurance Coverage for People Under Age 65 / Medicaid and CHIPd / Otherwise eligible for Medicaid",
+      "marker": "d",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits. Also, the federal government covers a larger share of costs for Medicaid enrollees whom the ACA made eligible for the program than for people otherwise eligible for Medicaid; the government therefore tracks those groups separately.",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2-1",
+        "row": 16,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated With Health Insurance Coverage for People Under Age 65 / Marketplace-Related Coverage and the Basic Health Program / Medicaree",
+      "marker": "e",
+      "variable_note": "For Medicare, the outlays are for benefits net of offsetting receipts for noninstitutionalized Medicare beneficiaries under age 65.",
+      "source_label": "Medicaree",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2-1",
+        "row": 37,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated With Health Insurance Coverage for People Under Age 65 / Taxes and Penalties Related to Coverage / Gross collections of excise tax on high-premium insurance plansf",
+      "marker": "f",
+      "variable_note": "The tax is scheduled to go into effect in 2022. Excludes the associated effects on revenues of changes in taxable compensation, which are included in the estimate of the tax exclusion for employment-based insurance. If those effects were included, net revenues stemming from the excise tax would total $193 billion over the 2020-2029 period, and revenues from penalty payments by employers would total $54 billion over that 10-year period.",
+      "source_label": "Gross collections of excise tax on high-premium insurance plansf",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2-1",
+        "row": 40,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated With Health Insurance Coverage for People Under Age 65 / Taxes and Penalties Related to Coverage / Net receipts from tax on health insurance providersg",
+      "marker": "g",
+      "variable_note": "Net receipts include effects of the excise tax on individual and corporate tax receipts. The tax is suspended in 2019.",
+      "source_label": "Net receipts from tax on health insurance providersg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2-1",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Net Federal Subsidies Associated With Health Insurance Coverage for People Under Age 65 / Taxes and Penalties Related to Coverage / Gross collections of employer penaltiesf",
+      "marker": "f",
+      "variable_note": "The tax is scheduled to go into effect in 2022. Excludes the associated effects on revenues of changes in taxable compensation, which are included in the estimate of the tax exclusion for employment-based insurance. If those effects were included, net revenues stemming from the excise tax would total $193 billion over the 2020-2029 period, and revenues from penalty payments by employers would total $54 billion over that 10-year period.",
+      "source_label": "Gross collections of employer penaltiesf",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 2-1",
+        "row": 43,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Employment-Based Coverage",
+      "marker": "a",
+      "variable_note": "The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in every year of the projection period, between 11 million and 12 million people (or about 5 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "Insurance Coverage for the Yeara (Millions of people)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 5,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Medicaid and CHIP b / Adults made eligible for Medicaid by the ACA",
+      "marker": "a",
+      "variable_note": "The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in every year of the projection period, between 11 million and 12 million people (or about 5 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "Insurance Coverage for the Yeara (Millions of people)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 5,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Medicaid and CHIP b / CHIP",
+      "marker": "a",
+      "variable_note": "The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in every year of the projection period, between 11 million and 12 million people (or about 5 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "Insurance Coverage for the Yeara (Millions of people)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 5,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Medicaid and CHIP b / People otherwise eligible for Medicaid",
+      "marker": "a",
+      "variable_note": "The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in every year of the projection period, between 11 million and 12 million people (or about 5 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "Insurance Coverage for the Yeara (Millions of people)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 5,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Medicaid and CHIP b / Total",
+      "marker": "a",
+      "variable_note": "The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in every year of the projection period, between 11 million and 12 million people (or about 5 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "Insurance Coverage for the Yeara (Millions of people)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 5,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Nongroup Coverage and the Basic Health Program / Coverage through the Basic Health Program c",
+      "marker": "a",
+      "variable_note": "The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in every year of the projection period, between 11 million and 12 million people (or about 5 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "Insurance Coverage for the Yeara (Millions of people)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 5,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Nongroup Coverage and the Basic Health Program / Medicare d",
+      "marker": "a",
+      "variable_note": "The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in every year of the projection period, between 11 million and 12 million people (or about 5 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "Insurance Coverage for the Yeara (Millions of people)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 5,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Nongroup Coverage and the Basic Health Program / Other Coverage e",
+      "marker": "a",
+      "variable_note": "The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in every year of the projection period, between 11 million and 12 million people (or about 5 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "Insurance Coverage for the Yeara (Millions of people)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 5,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Nongroup Coverage and the Basic Health Program / Subsidized nongroup",
+      "marker": "a",
+      "variable_note": "The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in every year of the projection period, between 11 million and 12 million people (or about 5 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "Insurance Coverage for the Yeara (Millions of people)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 5,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Nongroup Coverage and the Basic Health Program / Total, nongroup coverage",
+      "marker": "a",
+      "variable_note": "The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in every year of the projection period, between 11 million and 12 million people (or about 5 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "Insurance Coverage for the Yeara (Millions of people)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 5,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Nongroup Coverage and the Basic Health Program / Uninsured f",
+      "marker": "a",
+      "variable_note": "The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in every year of the projection period, between 11 million and 12 million people (or about 5 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "Insurance Coverage for the Yeara (Millions of people)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 5,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Nongroup Coverage and the Basic Health Program / Unsubsidized nongroup",
+      "marker": "a",
+      "variable_note": "The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in every year of the projection period, between 11 million and 12 million people (or about 5 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "Insurance Coverage for the Yeara (Millions of people)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 5,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Total Population",
+      "marker": "a",
+      "variable_note": "The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in every year of the projection period, between 11 million and 12 million people (or about 5 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "Insurance Coverage for the Yeara (Millions of people)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 5,
+        "column": 2
+      }
+    },
+    {
+      "category_path": null,
+      "marker": "a",
+      "variable_note": "The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in every year of the projection period, between 11 million and 12 million people (or about 5 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "Average Insurance Coverage Over the Perioda (Millions of people)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 5,
+        "column": 6
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Medicaid and CHIP b / Adults made eligible for Medicaid by the ACA",
+      "marker": "b",
+      "variable_note": "Includes only noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIP b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 10,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Medicaid and CHIP b / CHIP",
+      "marker": "b",
+      "variable_note": "Includes only noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIP b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 10,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Medicaid and CHIP b / People otherwise eligible for Medicaid",
+      "marker": "b",
+      "variable_note": "Includes only noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIP b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 10,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Medicaid and CHIP b / Total",
+      "marker": "b",
+      "variable_note": "Includes only noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIP b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 10,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Nongroup Coverage and the Basic Health Program / Coverage through the Basic Health Program c",
+      "marker": "c",
+      "variable_note": "The Basic Health Program, created under the ACA, allows states to establish a coverage program primarily for people with income between 138 percent and 200 percent of the federal poverty guidelines. To subsidize that coverage, the federal government provides states with funding equal to 95 percent of the subsidies for which those people would otherwise have been eligible through a marketplace.",
+      "source_label": "Coverage through the Basic Health Program c",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 21,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Nongroup Coverage and the Basic Health Program / Medicare d",
+      "marker": "d",
+      "variable_note": "Includes noninstitutionalized Medicare enrollees under age 65. Most Medicare-eligible people under age 65 qualify for Medicare because they participate in the Social Security Disability Insurance program.",
+      "source_label": "Medicare d",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 23,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Nongroup Coverage and the Basic Health Program / Other Coverage e",
+      "marker": "e",
+      "variable_note": "Includes people with other kinds of insurance, such as student health plans, coverage provided by the Indian Health Service, and coverage from foreign sources.",
+      "source_label": "Other Coverage e",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 25,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Nongroup Coverage and the Basic Health Program / Uninsured f",
+      "marker": "f",
+      "variable_note": "Includes noncitizens not lawfully present in this country, who are ineligible either for marketplace subsidies or for most Medicaid benefits; people ineligible for Medicaid because they live in a state that has not expanded coverage; people eligible for Medicaid or CHIP who do not enroll; people who purchase nongroup insurance policies that do not meet the agencies’ definition of comprehensive health insurance; and people who do not purchase insurance available through an employer, through the marketplaces, or directly from an insurer.",
+      "source_label": "Uninsured f",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 27,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Marketplace-Related Coverage and the Basic Health Program / Outlays for the Basic Health Program",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Marketplace-Related Coverage and the Basic Health Program / Premium tax credits",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Medicaid and CHIP j / Adults made eligible for Medicaid by the ACA",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Medicaid and CHIP j / CHIP",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Medicaid and CHIP j / People otherwise eligible for Medicaid",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Medicaid and CHIP j / Subtotal",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Net collections and payments for risk adjustment and reinsurance / Medicare k",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Net collections and payments for risk adjustment and reinsurance / Subtotal",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Taxes and Penalties Related to Coverage / Gross collections of employer penalties l",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Taxes and Penalties Related to Coverage / Gross collections of excise tax on high-premium insurance plans l",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Taxes and Penalties Related to Coverage / Net Subsidies",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Taxes and Penalties Related to Coverage / Net receipts from tax on health insurance providers m",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Taxes and Penalties Related to Coverage / Penalty payments by uninsured people",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Taxes and Penalties Related to Coverage / Subtotal",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Work-Related Coverage / Income tax deduction for self-employment health insurance i",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Work-Related Coverage / Small-employer tax credits",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Work-Related Coverage / Subtotal",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Work-Related Coverage / Tax exclusion for employment-based coverage h",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficit g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 2
+      }
+    },
+    {
+      "category_path": null,
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Cumulative Federal Deficit Over the Period g (Billions of dollars)",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 29,
+        "column": 6
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Work-Related Coverage / Tax exclusion for employment-based coverage h",
+      "marker": "h",
+      "variable_note": "Includes the effect on tax revenues of the exclusion of premiums for people under age 65 with employment-based insurance from federal income and payroll taxes and includes the effects on taxable wages of the excise tax on high-cost plans and penalty payments by employers. The estimates shown, which JCT produced, differ from the agency’s estimate of the tax expenditure for the exclusion of employer-paid health insurance because effects stemming from the exclusion for people over age 65 are not included here and because the Federal Insurance Contributions Act tax exclusion for employer-paid health insurance is included here.",
+      "source_label": "Tax exclusion for employment-based coverage h",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 31,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Work-Related Coverage / Income tax deduction for self-employment health insurance i",
+      "marker": "i",
+      "variable_note": "The estimates shown, which JCT produced, do not include effects stemming from the deduction for people over age 65.",
+      "source_label": "Income tax deduction for self-employment health insurance i",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Medicaid and CHIP j / Adults made eligible for Medicaid by the ACA",
+      "marker": "j",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaid and CHIP j",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 37,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Medicaid and CHIP j / CHIP",
+      "marker": "j",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaid and CHIP j",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 37,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Medicaid and CHIP j / People otherwise eligible for Medicaid",
+      "marker": "j",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaid and CHIP j",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 37,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Medicaid and CHIP j / Subtotal",
+      "marker": "j",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaid and CHIP j",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 37,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Net collections and payments for risk adjustment and reinsurance / Medicare k",
+      "marker": "k",
+      "variable_note": "For Medicare, the outlays are for benefits net of offsetting receipts for noninstitutionalized beneficiaries under age 65.",
+      "source_label": "Medicare k",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 51,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Taxes and Penalties Related to Coverage / Gross collections of excise tax on high-premium insurance plans l",
+      "marker": "l",
+      "variable_note": "Excludes the associated effects on revenues of changes in taxable compensation, which are included in the estimate of the tax exclusion for employment-based insurance.",
+      "source_label": "Gross collections of excise tax on high-premium insurance plans l",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 54,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Taxes and Penalties Related to Coverage / Net receipts from tax on health insurance providers m",
+      "marker": "m",
+      "variable_note": "Net receipts include the effects on individual and corporate tax receipts. The tax is suspended in 2019.",
+      "source_label": "Net receipts from tax on health insurance providers m",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 56,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies / Taxes and Penalties Related to Coverage / Gross collections of employer penalties l",
+      "marker": "l",
+      "variable_note": "Excludes the associated effects on revenues of changes in taxable compensation, which are included in the estimate of the tax exclusion for employment-based insurance.",
+      "source_label": "Gross collections of employer penalties l",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3",
+        "row": 57,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Employment-Based Coverage",
+      "marker": "a",
+      "variable_note": "Estimates include noninstitutionalized civilian residents of the 50 states and the District of Columbia who are younger than 65. The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in most years, 11 million people (or 4 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "(Millions of people)a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 7,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Medicaid and CHIPb / CHIP",
+      "marker": "a",
+      "variable_note": "Estimates include noninstitutionalized civilian residents of the 50 states and the District of Columbia who are younger than 65. The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in most years, 11 million people (or 4 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "(Millions of people)a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 7,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Medicaid and CHIPb / Made eligible for Medicaid by the ACA",
+      "marker": "a",
+      "variable_note": "Estimates include noninstitutionalized civilian residents of the 50 states and the District of Columbia who are younger than 65. The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in most years, 11 million people (or 4 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "(Millions of people)a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 7,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Medicaid and CHIPb / Otherwise eligible for Medicaid",
+      "marker": "a",
+      "variable_note": "Estimates include noninstitutionalized civilian residents of the 50 states and the District of Columbia who are younger than 65. The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in most years, 11 million people (or 4 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "(Millions of people)a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 7,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Medicaid and CHIPb / Total",
+      "marker": "a",
+      "variable_note": "Estimates include noninstitutionalized civilian residents of the 50 states and the District of Columbia who are younger than 65. The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in most years, 11 million people (or 4 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "(Millions of people)a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 7,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Nongroup Coverage and the Basic Health Program / Coverage through the Basic Health Programc",
+      "marker": "a",
+      "variable_note": "Estimates include noninstitutionalized civilian residents of the 50 states and the District of Columbia who are younger than 65. The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in most years, 11 million people (or 4 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "(Millions of people)a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 7,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Nongroup Coverage and the Basic Health Program / Medicared",
+      "marker": "a",
+      "variable_note": "Estimates include noninstitutionalized civilian residents of the 50 states and the District of Columbia who are younger than 65. The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in most years, 11 million people (or 4 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "(Millions of people)a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 7,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Nongroup Coverage and the Basic Health Program / Other Coveragee",
+      "marker": "a",
+      "variable_note": "Estimates include noninstitutionalized civilian residents of the 50 states and the District of Columbia who are younger than 65. The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in most years, 11 million people (or 4 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "(Millions of people)a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 7,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Nongroup Coverage and the Basic Health Program / Subsidized nongroup",
+      "marker": "a",
+      "variable_note": "Estimates include noninstitutionalized civilian residents of the 50 states and the District of Columbia who are younger than 65. The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in most years, 11 million people (or 4 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "(Millions of people)a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 7,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Nongroup Coverage and the Basic Health Program / Total",
+      "marker": "a",
+      "variable_note": "Estimates include noninstitutionalized civilian residents of the 50 states and the District of Columbia who are younger than 65. The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in most years, 11 million people (or 4 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "(Millions of people)a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 7,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Nongroup Coverage and the Basic Health Program / Uninsuredf",
+      "marker": "a",
+      "variable_note": "Estimates include noninstitutionalized civilian residents of the 50 states and the District of Columbia who are younger than 65. The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in most years, 11 million people (or 4 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "(Millions of people)a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 7,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Nongroup Coverage and the Basic Health Program / Unsubsidized nongroup",
+      "marker": "a",
+      "variable_note": "Estimates include noninstitutionalized civilian residents of the 50 states and the District of Columbia who are younger than 65. The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in most years, 11 million people (or 4 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "(Millions of people)a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 7,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Total Population",
+      "marker": "a",
+      "variable_note": "Estimates include noninstitutionalized civilian residents of the 50 states and the District of Columbia who are younger than 65. The components do not sum to the total population because some people report multiple sources of coverage. CBO and JCT estimate that in most years, 11 million people (or 4 percent of insured people) have multiple sources of coverage, such as employment-based coverage and Medicaid. Estimates reflect average monthly enrollment over the course of a year and include spouses and dependents covered under family policies.",
+      "source_label": "(Millions of people)a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 7,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Medicaid and CHIPb / CHIP",
+      "marker": "b",
+      "variable_note": "Includes noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Medicaid and CHIPb / Made eligible for Medicaid by the ACA",
+      "marker": "b",
+      "variable_note": "Includes noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Medicaid and CHIPb / Otherwise eligible for Medicaid",
+      "marker": "b",
+      "variable_note": "Includes noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Medicaid and CHIPb / Total",
+      "marker": "b",
+      "variable_note": "Includes noninstitutionalized enrollees with full Medicaid benefits. Estimates are adjusted to account for people enrolled in more than one state.",
+      "source_label": "Medicaid and CHIPb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 13,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Nongroup Coverage and the Basic Health Program / Coverage through the Basic Health Programc",
+      "marker": "c",
+      "variable_note": "The Basic Health Program, created under the ACA, allows states to establish a coverage program primarily for people with income between 138 percent and 200 percent of the federal poverty guidelines. To subsidize that coverage, the federal government provides states with funding equal to 95 percent of the subsidies for which those people would otherwise have been eligible through a marketplace.",
+      "source_label": "Coverage through the Basic Health Programc",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 26,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Nongroup Coverage and the Basic Health Program / Medicared",
+      "marker": "d",
+      "variable_note": "Includes noninstitutionalized Medicare enrollees under age 65. Most Medicare-eligible people under age 65 qualify for Medicare because they participate in the Social Security Disability Insurance program.",
+      "source_label": "Medicared",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 28,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Nongroup Coverage and the Basic Health Program / Other Coveragee",
+      "marker": "e",
+      "variable_note": "Includes people with other kinds of insurance, such as some plans that are sold to individuals but outside of the nongroup market, student health plans, coverage provided by the Indian Health Service, and coverage from foreign sources.",
+      "source_label": "Other Coveragee",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Nongroup Coverage and the Basic Health Program / Uninsuredf",
+      "marker": "f",
+      "variable_note": "Includes unauthorized immigrants, who are ineligible either for marketplace subsidies or for most Medicaid benefits; people ineligible for Medicaid because they live in a state that has not expanded coverage; people eligible for Medicaid who do not enroll; people who purchase nongroup insurance policies that do not meet the agencies' definition of comprehensive health insurance; and people who do not purchase insurance available through an employer, through the marketplaces, or directly from an insurer.",
+      "source_label": "Uninsuredf",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Marketplace-Related Coverage and the Basic Health Program / Medicarek",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Marketplace-Related Coverage and the Basic Health Program / Outlays for the Basic Health Program",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Marketplace-Related Coverage and the Basic Health Program / Premium tax credits",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Marketplace-Related Coverage and the Basic Health Program / Subtotal",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Medicaid and CHIPj / CHIP",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Medicaid and CHIPj / Made eligible for Medicaid by the ACA",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Medicaid and CHIPj / Otherwise eligible for Medicaid",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Medicaid and CHIPj / Subtotal",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Taxes and Penalties Related to Coverage / Gross collections of employer penaltiesl",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Taxes and Penalties Related to Coverage / Gross collections of excise tax on high-premium insurance plansl",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Taxes and Penalties Related to Coverage / Net Subsidiesm",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Taxes and Penalties Related to Coverage / Net receipts from tax on health insurance providersm",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Taxes and Penalties Related to Coverage / Penalty payments by uninsured people",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Taxes and Penalties Related to Coverage / Subtotal",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Work-Related Coverage / Income tax deduction for self-employment health insurancei",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Work-Related Coverage / Small-employer tax credits",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Work-Related Coverage / Subtotal",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Work-Related Coverage / Tax exclusion for employment-based coverageh",
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Federal Deficitg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 2
+      }
+    },
+    {
+      "category_path": null,
+      "marker": "g",
+      "variable_note": "Positive numbers indicate an increase in the deficit, and negative numbers indicate a decrease in the deficit.",
+      "source_label": "Effects on the Cumulative Federal Deficit Over the Periodg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 35,
+        "column": 11
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Work-Related Coverage / Tax exclusion for employment-based coverageh",
+      "marker": "h",
+      "variable_note": "Includes the effect on tax revenues of the exclusion of premiums for people under age 65 with employment-based insurance from federal income and payroll taxes and includes the effects on taxable wages of the excise tax on high-cost plans and employer penalties. JCT made this projection; it differs from JCT’s estimate of the tax expenditure for the exclusion of employer-paid health insurance because effects stemming from the exclusion for people over age 65 are excluded here and because the Federal Insurance Contributions Act tax exclusion for employer-paid health insurance is included here.",
+      "source_label": "Tax exclusion for employment-based coverageh",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 39,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Work-Related Coverage / Income tax deduction for self-employment health insurancei",
+      "marker": "i",
+      "variable_note": "JCT made this projection; it does not include effects stemming from the deduction for people over age 65.",
+      "source_label": "Income tax deduction for self-employment health insurancei",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 40,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Medicaid and CHIPj / CHIP",
+      "marker": "j",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits. Also, the federal government covers a larger share of costs for Medicaid enrollees whom the ACA made eligible for the program than for people otherwise eligible for Medicaid; the government therefore tracks those groups separately.",
+      "source_label": "Medicaid and CHIPj",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 45,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Medicaid and CHIPj / Made eligible for Medicaid by the ACA",
+      "marker": "j",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits. Also, the federal government covers a larger share of costs for Medicaid enrollees whom the ACA made eligible for the program than for people otherwise eligible for Medicaid; the government therefore tracks those groups separately.",
+      "source_label": "Medicaid and CHIPj",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 45,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Medicaid and CHIPj / Otherwise eligible for Medicaid",
+      "marker": "j",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits. Also, the federal government covers a larger share of costs for Medicaid enrollees whom the ACA made eligible for the program than for people otherwise eligible for Medicaid; the government therefore tracks those groups separately.",
+      "source_label": "Medicaid and CHIPj",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 45,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Medicaid and CHIPj / Subtotal",
+      "marker": "j",
+      "variable_note": "For Medicaid, the outlays reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits. Also, the federal government covers a larger share of costs for Medicaid enrollees whom the ACA made eligible for the program than for people otherwise eligible for Medicaid; the government therefore tracks those groups separately.",
+      "source_label": "Medicaid and CHIPj",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 45,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Marketplace-Related Coverage and the Basic Health Program / Medicarek",
+      "marker": "k",
+      "variable_note": "For Medicare, the outlays are for benefits net of offsetting receipts for noninstitutionalized Medicare beneficiaries under age 65.",
+      "source_label": "Medicarek",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 59,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Taxes and Penalties Related to Coverage / Gross collections of excise tax on high-premium insurance plansl",
+      "marker": "l",
+      "variable_note": "Excludes the associated effects on revenues of changes in taxable compensation, which are included in the estimate of the tax exclusion for employment-based insurance.",
+      "source_label": "Gross collections of excise tax on high-premium insurance plansl",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 62,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Taxes and Penalties Related to Coverage / Net receipts from tax on health insurance providersm",
+      "marker": "m",
+      "variable_note": "Net receipts include the effects of the excise tax on individual and corporate tax receipts. The tax is suspended in 2019.",
+      "source_label": "Net receipts from tax on health insurance providersm",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 64,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Taxes and Penalties Related to Coverage / Gross collections of employer penaltiesl",
+      "marker": "l",
+      "variable_note": "Excludes the associated effects on revenues of changes in taxable compensation, which are included in the estimate of the tax exclusion for employment-based insurance.",
+      "source_label": "Gross collections of employer penaltiesl",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 65,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Comparison of Current and Previous Projections of Health Insurance Coverage and Net Federal Subsidies for People Under Age 65 / Taxes and Penalties Related to Coverage / Net Subsidiesm",
+      "marker": "m",
+      "variable_note": "Net receipts include the effects of the excise tax on individual and corporate tax receipts. The tax is suspended in 2019.",
+      "source_label": "Net Subsidiesm",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 3-1",
+        "row": 69,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / CHIP / Actual Amounts",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / CHIP / Difference, May 2018",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / CHIP / Difference, September 2017",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / CHIP / May 2018 Projection",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / CHIP / September 2017 Projection",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / Medicaid b / Actual Amounts",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / Medicaid b / Difference, May 2018",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / Medicaid b / Difference, September 2017",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / Medicaid b / May 2018 Projection",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / Medicaid b / September 2017 Projection",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / Total / Actual Amounts",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / Total / Difference, May 2018",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / Total / Difference, September 2017",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / Total / May 2018 Projection",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / Total / September 2017 Projection",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicaid and CHIP a",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / Medicaid b / Actual Amounts",
+      "marker": "b",
+      "variable_note": "Actual value reported by the Department of the Treasury adjusted to reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaid b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 33,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / Medicaid b / Difference, May 2018",
+      "marker": "b",
+      "variable_note": "Actual value reported by the Department of the Treasury adjusted to reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaid b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 33,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / Medicaid b / Difference, September 2017",
+      "marker": "b",
+      "variable_note": "Actual value reported by the Department of the Treasury adjusted to reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaid b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 33,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / Medicaid b / May 2018 Projection",
+      "marker": "b",
+      "variable_note": "Actual value reported by the Department of the Treasury adjusted to reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaid b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 33,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIP a / Medicaid b / September 2017 Projection",
+      "marker": "b",
+      "variable_note": "Actual value reported by the Department of the Treasury adjusted to reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaid b",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 33,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Premium tax credits c / Actual Amounts",
+      "marker": "c",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of the Treasury” (March 2019), pp. 958–959, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Premium tax credits c",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 39,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Premium tax credits c / Difference, September 2017",
+      "marker": "c",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of the Treasury” (March 2019), pp. 958–959, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Premium tax credits c",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 39,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Premium tax credits c / May 2018 Projection",
+      "marker": "c",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of the Treasury” (March 2019), pp. 958–959, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Premium tax credits c",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 39,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Premium tax credits c / September 2017 Projection",
+      "marker": "c",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of the Treasury” (March 2019), pp. 958–959, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Premium tax credits c",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 39,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Payments for cost-sharing reductions d / Actual Amounts",
+      "marker": "d",
+      "variable_note": "On October 12, 2017, the Administration announced that, without an appropriation, it would no longer make payments to insurers for cost-sharing reductions.",
+      "source_label": "Payments for cost-sharing reductions d",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 40,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Payments for cost-sharing reductions d / Difference, May 2018",
+      "marker": "d",
+      "variable_note": "On October 12, 2017, the Administration announced that, without an appropriation, it would no longer make payments to insurers for cost-sharing reductions.",
+      "source_label": "Payments for cost-sharing reductions d",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 40,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Payments for cost-sharing reductions d / Difference, September 2017",
+      "marker": "d",
+      "variable_note": "On October 12, 2017, the Administration announced that, without an appropriation, it would no longer make payments to insurers for cost-sharing reductions.",
+      "source_label": "Payments for cost-sharing reductions d",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 40,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Payments for cost-sharing reductions d / May 2018 Projection",
+      "marker": "d",
+      "variable_note": "On October 12, 2017, the Administration announced that, without an appropriation, it would no longer make payments to insurers for cost-sharing reductions.",
+      "source_label": "Payments for cost-sharing reductions d",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 40,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Payments for cost-sharing reductions d / September 2017 Projection",
+      "marker": "d",
+      "variable_note": "On October 12, 2017, the Administration announced that, without an appropriation, it would no longer make payments to insurers for cost-sharing reductions.",
+      "source_label": "Payments for cost-sharing reductions d",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 40,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Outlays for the Basic Health Program c / Actual Amounts",
+      "marker": "c",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of the Treasury” (March 2019), pp. 958–959, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Outlays for the Basic Health Program c",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 41,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Outlays for the Basic Health Program c / Difference, May 2018",
+      "marker": "c",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of the Treasury” (March 2019), pp. 958–959, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Outlays for the Basic Health Program c",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 41,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Outlays for the Basic Health Program c / Difference, September 2017",
+      "marker": "c",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of the Treasury” (March 2019), pp. 958–959, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Outlays for the Basic Health Program c",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 41,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Outlays for the Basic Health Program c / May 2018 Projection",
+      "marker": "c",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of the Treasury” (March 2019), pp. 958–959, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Outlays for the Basic Health Program c",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 41,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Outlays for the Basic Health Program c / September 2017 Projection",
+      "marker": "c",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of the Treasury” (March 2019), pp. 958–959, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Outlays for the Basic Health Program c",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 41,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Collections for risk adjustment and reinsurance e / Actual Amounts",
+      "marker": "e",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of Health and Human Services” (March 2019), pp. 451–452, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Collections for risk adjustment and reinsurance e",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Collections for risk adjustment and reinsurance e / May 2018 Projection",
+      "marker": "e",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of Health and Human Services” (March 2019), pp. 451–452, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Collections for risk adjustment and reinsurance e",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Collections for risk adjustment and reinsurance e / September 2017 Projection",
+      "marker": "e",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of Health and Human Services” (March 2019), pp. 451–452, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Collections for risk adjustment and reinsurance e",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Payments for risk adjustment and reinsurance e / Actual Amounts",
+      "marker": "e",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of Health and Human Services” (March 2019), pp. 451–452, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Payments for risk adjustment and reinsurance e",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 43,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Payments for risk adjustment and reinsurance e / Difference, May 2018",
+      "marker": "e",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of Health and Human Services” (March 2019), pp. 451–452, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Payments for risk adjustment and reinsurance e",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 43,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Payments for risk adjustment and reinsurance e / Difference, September 2017",
+      "marker": "e",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of Health and Human Services” (March 2019), pp. 451–452, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Payments for risk adjustment and reinsurance e",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 43,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Payments for risk adjustment and reinsurance e / May 2018 Projection",
+      "marker": "e",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of Health and Human Services” (March 2019), pp. 451–452, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Payments for risk adjustment and reinsurance e",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 43,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Payments for risk adjustment and reinsurance e / September 2017 Projection",
+      "marker": "e",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, “Detailed Budget Estimates by Agency: Department of Health and Human Services” (March 2019), pp. 451–452, https://go.usa.gov/xmKQf (PDF, 13.9 MB).",
+      "source_label": "Payments for risk adjustment and reinsurance e",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 43,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicare a,f / Actual Amounts",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicare a,f",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 47,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicare a,f / Actual Amounts",
+      "marker": "f",
+      "variable_note": "Actual value reported by the Department of the Treasury, adjusted to reflect benefits net of offsetting receipts for noninstitutionalized Medicare beneficiaries under age 65.",
+      "source_label": "Medicare a,f",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 47,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicare a,f / Difference, May 2018",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicare a,f",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 47,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicare a,f / Difference, May 2018",
+      "marker": "f",
+      "variable_note": "Actual value reported by the Department of the Treasury, adjusted to reflect benefits net of offsetting receipts for noninstitutionalized Medicare beneficiaries under age 65.",
+      "source_label": "Medicare a,f",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 47,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicare a,f / Difference, September 2017",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicare a,f",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 47,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicare a,f / Difference, September 2017",
+      "marker": "f",
+      "variable_note": "Actual value reported by the Department of the Treasury, adjusted to reflect benefits net of offsetting receipts for noninstitutionalized Medicare beneficiaries under age 65.",
+      "source_label": "Medicare a,f",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 47,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicare a,f / May 2018 Projection",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicare a,f",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 47,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicare a,f / May 2018 Projection",
+      "marker": "f",
+      "variable_note": "Actual value reported by the Department of the Treasury, adjusted to reflect benefits net of offsetting receipts for noninstitutionalized Medicare beneficiaries under age 65.",
+      "source_label": "Medicare a,f",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 47,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicare a,f / September 2017 Projection",
+      "marker": "a",
+      "variable_note": "See Department of the Treasury, “Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods” (October 2018), https://go.usa.gov/xmKQk (PDF, 1.8 MB).",
+      "source_label": "Medicare a,f",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 47,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicare a,f / September 2017 Projection",
+      "marker": "f",
+      "variable_note": "Actual value reported by the Department of the Treasury, adjusted to reflect benefits net of offsetting receipts for noninstitutionalized Medicare beneficiaries under age 65.",
+      "source_label": "Medicare a,f",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 47,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Penalty Payments by Uninsured People g / Actual Amounts",
+      "marker": "g",
+      "variable_note": "Actual value based on preliminary data from the Internal Revenue Service. See Internal Revenue Service, “SOI Tax Stats–Individual Income Tax Returns” (accessed April 11, 2019), https://go.usa.gov/xm5ju.",
+      "source_label": "Penalty Payments by Uninsured People g",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 49,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Penalty Payments by Uninsured People g / Difference, September 2017",
+      "marker": "g",
+      "variable_note": "Actual value based on preliminary data from the Internal Revenue Service. See Internal Revenue Service, “SOI Tax Stats–Individual Income Tax Returns” (accessed April 11, 2019), https://go.usa.gov/xm5ju.",
+      "source_label": "Penalty Payments by Uninsured People g",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 49,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Penalty Payments by Uninsured People g / May 2018 Projection",
+      "marker": "g",
+      "variable_note": "Actual value based on preliminary data from the Internal Revenue Service. See Internal Revenue Service, “SOI Tax Stats–Individual Income Tax Returns” (accessed April 11, 2019), https://go.usa.gov/xm5ju.",
+      "source_label": "Penalty Payments by Uninsured People g",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 49,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Penalty Payments by Uninsured People g / September 2017 Projection",
+      "marker": "g",
+      "variable_note": "Actual value based on preliminary data from the Internal Revenue Service. See Internal Revenue Service, “SOI Tax Stats–Individual Income Tax Returns” (accessed April 11, 2019), https://go.usa.gov/xm5ju.",
+      "source_label": "Penalty Payments by Uninsured People g",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4",
+        "row": 49,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and Basic Health Program / Basic Health Programb / Actual",
+      "marker": "b",
+      "variable_note": "Actual value based on information published by the state governments of Minnesota and New York, which are the only states that have used the program. See Minnesota Department of Human Services, “Managed Care Enrollment Figures” (accessed March 26, 2019), http://tinyurl.com/y53ub5de; and New York State Department of Health, “Basic Health Program Annual Reports” (accessed March 26, 2019), https://go.usa.gov/xm3eG, and NY State of Health, “Enrollment Data” (accessed March 26, 2019), https://info.nystateofhealth.ny.gov/enrollmentdata.",
+      "source_label": "Basic Health Programb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 31,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and Basic Health Program / Basic Health Programb / Difference, 7.461999999999989",
+      "marker": "b",
+      "variable_note": "Actual value based on information published by the state governments of Minnesota and New York, which are the only states that have used the program. See Minnesota Department of Human Services, “Managed Care Enrollment Figures” (accessed March 26, 2019), http://tinyurl.com/y53ub5de; and New York State Department of Health, “Basic Health Program Annual Reports” (accessed March 26, 2019), https://go.usa.gov/xm3eG, and NY State of Health, “Enrollment Data” (accessed March 26, 2019), https://info.nystateofhealth.ny.gov/enrollmentdata.",
+      "source_label": "Basic Health Programb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 31,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and Basic Health Program / Basic Health Programb / May18 7.461999999999989",
+      "marker": "b",
+      "variable_note": "Actual value based on information published by the state governments of Minnesota and New York, which are the only states that have used the program. See Minnesota Department of Human Services, “Managed Care Enrollment Figures” (accessed March 26, 2019), http://tinyurl.com/y53ub5de; and New York State Department of Health, “Basic Health Program Annual Reports” (accessed March 26, 2019), https://go.usa.gov/xm3eG, and NY State of Health, “Enrollment Data” (accessed March 26, 2019), https://info.nystateofhealth.ny.gov/enrollmentdata.",
+      "source_label": "Basic Health Programb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 31,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and Basic Health Program / Basic Health Programb / Projection",
+      "marker": "b",
+      "variable_note": "Actual value based on information published by the state governments of Minnesota and New York, which are the only states that have used the program. See Minnesota Department of Human Services, “Managed Care Enrollment Figures” (accessed March 26, 2019), http://tinyurl.com/y53ub5de; and New York State Department of Health, “Basic Health Program Annual Reports” (accessed March 26, 2019), https://go.usa.gov/xm3eG, and NY State of Health, “Enrollment Data” (accessed March 26, 2019), https://info.nystateofhealth.ny.gov/enrollmentdata.",
+      "source_label": "Basic Health Programb",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 31,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and Basic Health Program / Uninsuredc / Actual",
+      "marker": "c",
+      "variable_note": "Actual value reflects the number of uninsured people reported by the National Health Interview Survey adjusted downward to exclude people with Indian Health Service coverage, which CBO and JCT consider to be health insurance coverage. See Tainya C. Clarke, Tina Norris, and Jeannine S. Schiller, Early Release of Selected Estimates Based on Data From the January–September 2018 National Health Interview Survey (National Center for Health Statistics, February 2019), https://go.usa.gov/xm3e7 (PDF, 594 KB).",
+      "source_label": "Uninsuredc",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 37,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and Basic Health Program / Uninsuredc / Difference, 7.461999999999989",
+      "marker": "c",
+      "variable_note": "Actual value reflects the number of uninsured people reported by the National Health Interview Survey adjusted downward to exclude people with Indian Health Service coverage, which CBO and JCT consider to be health insurance coverage. See Tainya C. Clarke, Tina Norris, and Jeannine S. Schiller, Early Release of Selected Estimates Based on Data From the January–September 2018 National Health Interview Survey (National Center for Health Statistics, February 2019), https://go.usa.gov/xm3e7 (PDF, 594 KB).",
+      "source_label": "Uninsuredc",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 37,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and Basic Health Program / Uninsuredc / May18 7.461999999999989",
+      "marker": "c",
+      "variable_note": "Actual value reflects the number of uninsured people reported by the National Health Interview Survey adjusted downward to exclude people with Indian Health Service coverage, which CBO and JCT consider to be health insurance coverage. See Tainya C. Clarke, Tina Norris, and Jeannine S. Schiller, Early Release of Selected Estimates Based on Data From the January–September 2018 National Health Interview Survey (National Center for Health Statistics, February 2019), https://go.usa.gov/xm3e7 (PDF, 594 KB).",
+      "source_label": "Uninsuredc",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 37,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and Basic Health Program / Uninsuredc / Projection",
+      "marker": "c",
+      "variable_note": "Actual value reflects the number of uninsured people reported by the National Health Interview Survey adjusted downward to exclude people with Indian Health Service coverage, which CBO and JCT consider to be health insurance coverage. See Tainya C. Clarke, Tina Norris, and Jeannine S. Schiller, Early Release of Selected Estimates Based on Data From the January–September 2018 National Health Interview Survey (National Center for Health Statistics, February 2019), https://go.usa.gov/xm3e7 (PDF, 594 KB).",
+      "source_label": "Uninsuredc",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 37,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIPd / CHIP / Actual",
+      "marker": "d",
+      "variable_note": "See Department of the Treasury, \"Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods\" (October 2018), https://www.fiscal.treasury.gov/files/reports-statements/mts/mts0918.pdf",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIPd / CHIP / Difference, 7.461999999999989",
+      "marker": "d",
+      "variable_note": "See Department of the Treasury, \"Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods\" (October 2018), https://www.fiscal.treasury.gov/files/reports-statements/mts/mts0918.pdf",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIPd / CHIP / May18 7.461999999999989",
+      "marker": "d",
+      "variable_note": "See Department of the Treasury, \"Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods\" (October 2018), https://www.fiscal.treasury.gov/files/reports-statements/mts/mts0918.pdf",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIPd / CHIP / Projection",
+      "marker": "d",
+      "variable_note": "See Department of the Treasury, \"Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods\" (October 2018), https://www.fiscal.treasury.gov/files/reports-statements/mts/mts0918.pdf",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIPd / Medicaide / Actual",
+      "marker": "d",
+      "variable_note": "See Department of the Treasury, \"Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods\" (October 2018), https://www.fiscal.treasury.gov/files/reports-statements/mts/mts0918.pdf",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIPd / Medicaide / Difference, 7.461999999999989",
+      "marker": "d",
+      "variable_note": "See Department of the Treasury, \"Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods\" (October 2018), https://www.fiscal.treasury.gov/files/reports-statements/mts/mts0918.pdf",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIPd / Medicaide / May18 7.461999999999989",
+      "marker": "d",
+      "variable_note": "See Department of the Treasury, \"Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods\" (October 2018), https://www.fiscal.treasury.gov/files/reports-statements/mts/mts0918.pdf",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIPd / Medicaide / Projection",
+      "marker": "d",
+      "variable_note": "See Department of the Treasury, \"Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods\" (October 2018), https://www.fiscal.treasury.gov/files/reports-statements/mts/mts0918.pdf",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIPd / Subtotal / Actual",
+      "marker": "d",
+      "variable_note": "See Department of the Treasury, \"Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods\" (October 2018), https://www.fiscal.treasury.gov/files/reports-statements/mts/mts0918.pdf",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIPd / Subtotal / Difference, 7.461999999999989",
+      "marker": "d",
+      "variable_note": "See Department of the Treasury, \"Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods\" (October 2018), https://www.fiscal.treasury.gov/files/reports-statements/mts/mts0918.pdf",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIPd / Subtotal / May18 7.461999999999989",
+      "marker": "d",
+      "variable_note": "See Department of the Treasury, \"Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods\" (October 2018), https://www.fiscal.treasury.gov/files/reports-statements/mts/mts0918.pdf",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIPd / Subtotal / Projection",
+      "marker": "d",
+      "variable_note": "See Department of the Treasury, \"Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods\" (October 2018), https://www.fiscal.treasury.gov/files/reports-statements/mts/mts0918.pdf",
+      "source_label": "Medicaid and CHIPd",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIPd / Medicaide / Actual",
+      "marker": "e",
+      "variable_note": "Actual value reported by the Department of the Treasury adjusted to reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaide",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 43,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIPd / Medicaide / Difference, 7.461999999999989",
+      "marker": "e",
+      "variable_note": "Actual value reported by the Department of the Treasury adjusted to reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaide",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 43,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIPd / Medicaide / May18 7.461999999999989",
+      "marker": "e",
+      "variable_note": "Actual value reported by the Department of the Treasury adjusted to reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaide",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 43,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Medicaid and CHIPd / Medicaide / Projection",
+      "marker": "e",
+      "variable_note": "Actual value reported by the Department of the Treasury adjusted to reflect only medical services for noninstitutionalized enrollees under age 65 who have full Medicaid benefits.",
+      "source_label": "Medicaide",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 43,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Premium tax creditsf / Actual",
+      "marker": "f",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, \"Detailed Budget Estimates by Agency: Department of the Treasury\" (March 2019), p. 958, https://www.whitehouse.gov/wp-content/uploads/2019/03/appendix-fy2020.pdf",
+      "source_label": "Premium tax creditsf",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 49,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Premium tax creditsf / Difference, 7.461999999999989",
+      "marker": "f",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, \"Detailed Budget Estimates by Agency: Department of the Treasury\" (March 2019), p. 958, https://www.whitehouse.gov/wp-content/uploads/2019/03/appendix-fy2020.pdf",
+      "source_label": "Premium tax creditsf",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 49,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Premium tax creditsf / May18 7.461999999999989",
+      "marker": "f",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, \"Detailed Budget Estimates by Agency: Department of the Treasury\" (March 2019), p. 958, https://www.whitehouse.gov/wp-content/uploads/2019/03/appendix-fy2020.pdf",
+      "source_label": "Premium tax creditsf",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 49,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Premium tax creditsf / Projection",
+      "marker": "f",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, \"Detailed Budget Estimates by Agency: Department of the Treasury\" (March 2019), p. 958, https://www.whitehouse.gov/wp-content/uploads/2019/03/appendix-fy2020.pdf",
+      "source_label": "Premium tax creditsf",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 49,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Outlays for the Basic Health Programf / Actual",
+      "marker": "f",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, \"Detailed Budget Estimates by Agency: Department of the Treasury\" (March 2019), p. 958, https://www.whitehouse.gov/wp-content/uploads/2019/03/appendix-fy2020.pdf",
+      "source_label": "Outlays for the Basic Health Programf",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 50,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Outlays for the Basic Health Programf / Difference, 7.461999999999989",
+      "marker": "f",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, \"Detailed Budget Estimates by Agency: Department of the Treasury\" (March 2019), p. 958, https://www.whitehouse.gov/wp-content/uploads/2019/03/appendix-fy2020.pdf",
+      "source_label": "Outlays for the Basic Health Programf",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 50,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Outlays for the Basic Health Programf / May18 7.461999999999989",
+      "marker": "f",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, \"Detailed Budget Estimates by Agency: Department of the Treasury\" (March 2019), p. 958, https://www.whitehouse.gov/wp-content/uploads/2019/03/appendix-fy2020.pdf",
+      "source_label": "Outlays for the Basic Health Programf",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 50,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Outlays for the Basic Health Programf / Projection",
+      "marker": "f",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, \"Detailed Budget Estimates by Agency: Department of the Treasury\" (March 2019), p. 958, https://www.whitehouse.gov/wp-content/uploads/2019/03/appendix-fy2020.pdf",
+      "source_label": "Outlays for the Basic Health Programf",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 50,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Collections for risk adjustment and reinsuranceg / Actual",
+      "marker": "g",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, \"Detailed Budget Estimates by Agency: Department of Health and Human Services\" (March 2019), pp. 451, https://www.whitehouse.gov/wp-content/uploads/2019/03/appendix-fy2020.pdf",
+      "source_label": "Collections for risk adjustment and reinsuranceg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 51,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Collections for risk adjustment and reinsuranceg / Difference, 7.461999999999989",
+      "marker": "g",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, \"Detailed Budget Estimates by Agency: Department of Health and Human Services\" (March 2019), pp. 451, https://www.whitehouse.gov/wp-content/uploads/2019/03/appendix-fy2020.pdf",
+      "source_label": "Collections for risk adjustment and reinsuranceg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 51,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Collections for risk adjustment and reinsuranceg / May18 7.461999999999989",
+      "marker": "g",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, \"Detailed Budget Estimates by Agency: Department of Health and Human Services\" (March 2019), pp. 451, https://www.whitehouse.gov/wp-content/uploads/2019/03/appendix-fy2020.pdf",
+      "source_label": "Collections for risk adjustment and reinsuranceg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 51,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Collections for risk adjustment and reinsuranceg / Projection",
+      "marker": "g",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, \"Detailed Budget Estimates by Agency: Department of Health and Human Services\" (March 2019), pp. 451, https://www.whitehouse.gov/wp-content/uploads/2019/03/appendix-fy2020.pdf",
+      "source_label": "Collections for risk adjustment and reinsuranceg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 51,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Payments for risk adjustment and reinsuranceg / Actual",
+      "marker": "g",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, \"Detailed Budget Estimates by Agency: Department of Health and Human Services\" (March 2019), pp. 451, https://www.whitehouse.gov/wp-content/uploads/2019/03/appendix-fy2020.pdf",
+      "source_label": "Payments for risk adjustment and reinsuranceg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 52,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Payments for risk adjustment and reinsuranceg / Difference, 7.461999999999989",
+      "marker": "g",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, \"Detailed Budget Estimates by Agency: Department of Health and Human Services\" (March 2019), pp. 451, https://www.whitehouse.gov/wp-content/uploads/2019/03/appendix-fy2020.pdf",
+      "source_label": "Payments for risk adjustment and reinsuranceg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 52,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Payments for risk adjustment and reinsuranceg / May18 7.461999999999989",
+      "marker": "g",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, \"Detailed Budget Estimates by Agency: Department of Health and Human Services\" (March 2019), pp. 451, https://www.whitehouse.gov/wp-content/uploads/2019/03/appendix-fy2020.pdf",
+      "source_label": "Payments for risk adjustment and reinsuranceg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 52,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Payments for risk adjustment and reinsuranceg / Projection",
+      "marker": "g",
+      "variable_note": "Office of Management and Budget, Budget of the U.S. Government: Appendix, \"Detailed Budget Estimates by Agency: Department of Health and Human Services\" (March 2019), pp. 451, https://www.whitehouse.gov/wp-content/uploads/2019/03/appendix-fy2020.pdf",
+      "source_label": "Payments for risk adjustment and reinsuranceg",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 52,
+        "column": 2
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicared,h / Actual",
+      "marker": "d",
+      "variable_note": "See Department of the Treasury, \"Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods\" (October 2018), https://www.fiscal.treasury.gov/files/reports-statements/mts/mts0918.pdf",
+      "source_label": "Medicared,h",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 56,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicared,h / Actual",
+      "marker": "h",
+      "variable_note": "Actual value reported by the Department of the Treasury adjusted to reflect benefits net of offsetting receipts for noninstitutionalized Medicare beneficiaries under age 65.",
+      "source_label": "Medicared,h",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 56,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicared,h / Difference, 7.461999999999989",
+      "marker": "d",
+      "variable_note": "See Department of the Treasury, \"Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods\" (October 2018), https://www.fiscal.treasury.gov/files/reports-statements/mts/mts0918.pdf",
+      "source_label": "Medicared,h",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 56,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicared,h / Difference, 7.461999999999989",
+      "marker": "h",
+      "variable_note": "Actual value reported by the Department of the Treasury adjusted to reflect benefits net of offsetting receipts for noninstitutionalized Medicare beneficiaries under age 65.",
+      "source_label": "Medicared,h",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 56,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicared,h / May18 7.461999999999989",
+      "marker": "d",
+      "variable_note": "See Department of the Treasury, \"Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods\" (October 2018), https://www.fiscal.treasury.gov/files/reports-statements/mts/mts0918.pdf",
+      "source_label": "Medicared,h",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 56,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicared,h / May18 7.461999999999989",
+      "marker": "h",
+      "variable_note": "Actual value reported by the Department of the Treasury adjusted to reflect benefits net of offsetting receipts for noninstitutionalized Medicare beneficiaries under age 65.",
+      "source_label": "Medicared,h",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 56,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicared,h / Projection",
+      "marker": "d",
+      "variable_note": "See Department of the Treasury, \"Final Monthly Treasury Statement of Receipts and Outlays of the United States Government for Fiscal Year 2018 Through September 30, 2018, and Other Periods\" (October 2018), https://www.fiscal.treasury.gov/files/reports-statements/mts/mts0918.pdf",
+      "source_label": "Medicared,h",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 56,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Medicared,h / Projection",
+      "marker": "h",
+      "variable_note": "Actual value reported by the Department of the Treasury adjusted to reflect benefits net of offsetting receipts for noninstitutionalized Medicare beneficiaries under age 65.",
+      "source_label": "Medicared,h",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 56,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Penalty Payments by Uninsured Peoplei / Actual",
+      "marker": "i",
+      "variable_note": "Actual value based on preliminary data from the Internal Revenue Service. See Internal Revenue Service, \"SOI Tax Stats–Individual Income Tax Returns” (accessed April 11,2019), https://go.usa.gov/xQ5pn.",
+      "source_label": "Penalty Payments by Uninsured Peoplei",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 58,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Penalty Payments by Uninsured Peoplei / Difference, 7.461999999999989",
+      "marker": "i",
+      "variable_note": "Actual value based on preliminary data from the Internal Revenue Service. See Internal Revenue Service, \"SOI Tax Stats–Individual Income Tax Returns” (accessed April 11,2019), https://go.usa.gov/xQ5pn.",
+      "source_label": "Penalty Payments by Uninsured Peoplei",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 58,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Penalty Payments by Uninsured Peoplei / May18 7.461999999999989",
+      "marker": "i",
+      "variable_note": "Actual value based on preliminary data from the Internal Revenue Service. See Internal Revenue Service, \"SOI Tax Stats–Individual Income Tax Returns” (accessed April 11,2019), https://go.usa.gov/xQ5pn.",
+      "source_label": "Penalty Payments by Uninsured Peoplei",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 58,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Nongroup Coverage and the Basic Health Program / Penalty Payments by Uninsured Peoplei / Projection",
+      "marker": "i",
+      "variable_note": "Actual value based on preliminary data from the Internal Revenue Service. See Internal Revenue Service, \"SOI Tax Stats–Individual Income Tax Returns” (accessed April 11,2019), https://go.usa.gov/xQ5pn.",
+      "source_label": "Penalty Payments by Uninsured Peoplei",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 58,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "or Basic Health Program Enrollee / (Dollars, calendar year 2017)j / Actual",
+      "marker": "j",
+      "variable_note": "Estimates of actual spending per person are the ratios of spending to subsidized enrollment through the health insurance marketplaces or the Basic Health Program in a calendar year.",
+      "source_label": "(Dollars, calendar year 2017)j",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 63,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "or Basic Health Program Enrollee / (Dollars, calendar year 2017)j / Difference, 7.461999999999989",
+      "marker": "j",
+      "variable_note": "Estimates of actual spending per person are the ratios of spending to subsidized enrollment through the health insurance marketplaces or the Basic Health Program in a calendar year.",
+      "source_label": "(Dollars, calendar year 2017)j",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 63,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "or Basic Health Program Enrollee / (Dollars, calendar year 2017)j / May18 7.461999999999989",
+      "marker": "j",
+      "variable_note": "Estimates of actual spending per person are the ratios of spending to subsidized enrollment through the health insurance marketplaces or the Basic Health Program in a calendar year.",
+      "source_label": "(Dollars, calendar year 2017)j",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 63,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "or Basic Health Program Enrollee / (Dollars, calendar year 2017)j / Projection",
+      "marker": "j",
+      "variable_note": "Estimates of actual spending per person are the ratios of spending to subsidized enrollment through the health insurance marketplaces or the Basic Health Program in a calendar year.",
+      "source_label": "(Dollars, calendar year 2017)j",
+      "source": {
+        "file": "51298-2019-05-Health-Insurance.xlsx",
+        "sheet": "Table 4-1",
+        "row": 63,
+        "column": 1
+      }
+    }
+  ]
+}

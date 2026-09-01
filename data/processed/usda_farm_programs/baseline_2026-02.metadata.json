@@ -1,0 +1,1133 @@
+{
+  "dataset": "usda_farm_programs",
+  "program_id": "51317",
+  "program": "USDA Farm Programs",
+  "vintage": "2026-02",
+  "data_file": "baseline_2026-02.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "cc56daed62b5e641417a252a20d89f82f36137f4b379744476db95d60faffd56",
+  "row_count": 10557,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "table_title",
+    "section",
+    "subsection",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 1972,
+    "end_year": 2074
+  },
+  "period_coverage": {
+    "start_year": 1972,
+    "end_year": 2074
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51317-2026-02-usda.xlsx"
+  ],
+  "source_sheets": [
+    "AppA_USDA Baseline_02-2026",
+    "AppB_USDA Baseline_02-2026",
+    "USDA Baseline_02-2026"
+  ],
+  "units": [
+    "Dollars per bushel",
+    "Dollars per hundredweight",
+    "Dollars per pound",
+    "Millions",
+    "Millions of dollars",
+    "Percent",
+    "Percentage of base acres",
+    "Thousands"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Under the $30 Billion Borrowing Limit / CCC Price Support and Related Programs / Outlays Before Administrative Transfersa",
+      "marker": "a",
+      "variable_note": "These amounts are shown in the table, Commodity Credit Corporation Account Plus Other Accounts Comparable to the USDA Baseline (Details), on page 4.",
+      "source_label": "Outlays Before Administrative Transfersa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "AppB_USDA Baseline_02-2026",
+        "row": 15,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Under the $30 Billion Borrowing Limit / CCC Price Support and Related Programs / CCC Conservation Programsb",
+      "marker": "b",
+      "variable_note": "These amounts are shown in the table, Commodity Credit Corporation Account Plus Other Accounts Comparable to the USDA Baseline (Summary), on page 3.",
+      "source_label": "CCC Conservation Programsb",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "AppB_USDA Baseline_02-2026",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Under the $30 Billion Borrowing Limit / CCC Price Support and Related Programs / Transfers From CCC To NRCS Conservation Programsc",
+      "marker": "c",
+      "variable_note": "The transfers for NRCS Conservation programs are similar to the budget authority, not the outlays, for those programs. Thus, budget authority is used in this calculation.",
+      "source_label": "Transfers From CCC To NRCS Conservation Programsc",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "AppB_USDA Baseline_02-2026",
+        "row": 21,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Under the $30 Billion Borrowing Limit / Transfers From CCC for Animal and Plant / CCC Net Realized Losses (Before section 5 use)d",
+      "marker": "d",
+      "variable_note": "CCC Net Realized Losses is the net amount of CCC funds spent in a given fiscal year. This amount includes outlays from the CCC account as well as transfers of CCC funds to other USDA accounts. Net realized losses are usually reimbursed by appropriations shortly after the close of the fiscal year.",
+      "source_label": "CCC Net Realized Losses (Before section 5 use)d",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "AppB_USDA Baseline_02-2026",
+        "row": 29,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Under the $30 Billion Borrowing Limit / Subtract Amounts Needed in Reserve Until Reimbursement for / Net Realized Lossese",
+      "marker": "e",
+      "variable_note": "Current law authorizes an annual appropriation for reimbursement of CCC’s net realized losses. USDA’s interpretation of the law until late 2025 was that the authorized reimbursement could not occur until after USDA audits and closes the books on CCC for each fiscal year. The reimbursement typically occurred at the end of December—the end of the first quarter of the next fiscal year. USDA’s new interpretation of the law is that 90 percent of the expected reimbursement for CCC’s net realized losses can be provided as soon as October 1, provided that the liquidating appropriation has been enacted. The remaining 10 percent of net realized losses will be provided after completion of the audit. The change in interpretation of the timing of CCC reimbursement frees a significant amount of CCC borrowing authority that would not have been available under the previous interpretation of the law.",
+      "source_label": "Net Realized Lossese",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "AppB_USDA Baseline_02-2026",
+        "row": 38,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Under the $30 Billion Borrowing Limit / Subtract Amounts Needed in Reserve Until Reimbursement for / Available Borrowing Authority for Section 5 Usef",
+      "marker": "f",
+      "variable_note": "Amounts in this row show the maximum that USDA can spend using CCC section 5 authority.",
+      "source_label": "Available Borrowing Authority for Section 5 Usef",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "AppB_USDA Baseline_02-2026",
+        "row": 40,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Under the $30 Billion Borrowing Limit / Subtract Amounts Needed in Reserve Until Reimbursement for / Estimated CCC Section 5 Useg",
+      "marker": "g",
+      "variable_note": "This is the amount projected to be transferred for CCC section 5 programs. The outlays of those transfers are subject to sequestration of 5.7 percent through fiscal year 2031 and 2.8 percent in fiscal year 2032 and take several years to be spent completely.",
+      "source_label": "Estimated CCC Section 5 Useg",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "AppB_USDA Baseline_02-2026",
+        "row": 42,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Summary) / Commodity Credit Corporation Price / Support and Related Programsa",
+      "marker": "a",
+      "variable_note": "This is the account for Commodity Credit Corporation price support programs in budget function 350 (agriculture). It includes those activities listed on the following page. It does not include conservation programs. CRP and several conservation programs were added to the CCC in 1996 but remain under budget function 300 (natural resources and environment).",
+      "source_label": "Support and Related Programsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 107,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Summary) / Commodity Credit Corporation Price / CCC Conservation Programsb",
+      "marker": "b",
+      "variable_note": "These amounts reflect projected direct spending for conservation programs shown by OMB under the CCC account total.",
+      "source_label": "CCC Conservation Programsb",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 109,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Summary) / Commodity Credit Corporation Price / CCC Totalc",
+      "marker": "c",
+      "variable_note": "This total is consistent with categories included in USDA’s CCC total for budget functions 350 and 300. The fiscal year 2025 and 2026 totals do not reflect $12.75 billion and $3.0 billion, respectively, in transfers from the CCC to other agencies using Section 5 authority.",
+      "source_label": "CCC Totalc",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 111,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Summary) / Commodity Credit Corporation Price / NRCS Conservation Programsd",
+      "marker": "d",
+      "variable_note": "These amounts reflect projected direct spending for conservation programs shown by OMB under the NRCS account.",
+      "source_label": "NRCS Conservation Programsd",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 113,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Summary) / Commodity Credit Corporation Price / Conservation Program Totale",
+      "marker": "e",
+      "variable_note": "This total is the sum of CCC plus NRCS conservation direct spending.",
+      "source_label": "Conservation Program Totale",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 115,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Exporta",
+      "marker": "a",
+      "variable_note": "Export Outlays",
+      "source_label": "Exporta",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 156,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Other Noncommodityb",
+      "marker": "b",
+      "variable_note": "Other Noncommodity Outlays",
+      "source_label": "Other Noncommodityb",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 157,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Net Interestc",
+      "marker": "c",
+      "variable_note": "Interest Outlays",
+      "source_label": "Net Interestc",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 158,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Sequestered Amounts for Programs Aboved",
+      "marker": "d",
+      "variable_note": "Estimates of fiscal year 2025 program outlays reflect sequestration.",
+      "source_label": "Sequestered Amounts for Programs Aboved",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 159,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Total Outlays Before Administrative Transferse",
+      "marker": "e",
+      "variable_note": "Outlay estimates are based on market conditions as of December 9, 2025, and exclude CCC conservation programs.",
+      "source_label": "Total Outlays Before Administrative Transferse",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 163,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Animal and Plant Health Protection Transfersf",
+      "marker": "f",
+      "variable_note": "Outlays from transfer authority provided by the Animal Health Protection Act and Plant Protection Act are recorded in the recipient account for the Animal and Plant Health Inspection Service.",
+      "source_label": "Animal and Plant Health Protection Transfersf",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 165,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Section 5 Transfersg",
+      "marker": "g",
+      "variable_note": "Denotes use by USDA of spending authority provided in section 5 of the CCC Charter Act. Appendix B shows how projected use of this authority is estimated. Outlays of known transfers are recorded in the recipient accounts and are subject to sequestration of 5.7 percent through fiscal year 2031 and 2.8 percent in fiscal year 2032. Outlays of projected transfers are recorded in the CCC account and are subject to sequestration of 5.7 percent through 2031 and 2.8 percent in 2032.",
+      "source_label": "Section 5 Transfersg",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 166,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "ACCOUNTS COMPARABLE TO THE USDA BASELINE (Details) / Program / Outlays of Projected Section 5 Transfersg",
+      "marker": "g",
+      "variable_note": "Denotes use by USDA of spending authority provided in section 5 of the CCC Charter Act. Appendix B shows how projected use of this authority is estimated. Outlays of known transfers are recorded in the recipient accounts and are subject to sequestration of 5.7 percent through fiscal year 2031 and 2.8 percent in fiscal year 2032. Outlays of projected transfers are recorded in the CCC account and are subject to sequestration of 5.7 percent through 2031 and 2.8 percent in 2032.",
+      "source_label": "Outlays of Projected Section 5 Transfersg",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 169,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Price Loss Coveragea / Barley",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Price Loss Coveragea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 241,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Price Loss Coveragea / Corn",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Price Loss Coveragea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 241,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Price Loss Coveragea / Dry Peas",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Price Loss Coveragea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 241,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Price Loss Coveragea / Large Chickpeas",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Price Loss Coveragea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 241,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Price Loss Coveragea / Lentils",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Price Loss Coveragea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 241,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Price Loss Coveragea / Oats",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Price Loss Coveragea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 241,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Price Loss Coveragea / Other Oilseeds",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Price Loss Coveragea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 241,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Price Loss Coveragea / Peanuts",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Price Loss Coveragea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 241,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Price Loss Coveragea / Rice",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Price Loss Coveragea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 241,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Price Loss Coveragea / Seed Cotton",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Price Loss Coveragea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 241,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Price Loss Coveragea / Small Chickpeas",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Price Loss Coveragea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 241,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Price Loss Coveragea / Sorghum",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Price Loss Coveragea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 241,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Price Loss Coveragea / Soybeans",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Price Loss Coveragea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 241,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Price Loss Coveragea / Total Feed Grains",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Price Loss Coveragea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 241,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Price Loss Coveragea / Total Price Loss Coverage",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Price Loss Coveragea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 241,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Price Loss Coveragea / Wheat",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Price Loss Coveragea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 241,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Agriculture Risk Coverage—Countya / Barley",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Agriculture Risk Coverage—Countya",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 263,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Agriculture Risk Coverage—Countya / Corn",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Agriculture Risk Coverage—Countya",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 263,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Agriculture Risk Coverage—Countya / Dry Peas",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Agriculture Risk Coverage—Countya",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 263,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Agriculture Risk Coverage—Countya / Large Chickpeas",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Agriculture Risk Coverage—Countya",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 263,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Agriculture Risk Coverage—Countya / Lentils",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Agriculture Risk Coverage—Countya",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 263,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Agriculture Risk Coverage—Countya / Oats",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Agriculture Risk Coverage—Countya",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 263,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Agriculture Risk Coverage—Countya / Other Oilseeds",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Agriculture Risk Coverage—Countya",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 263,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Agriculture Risk Coverage—Countya / Peanuts",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Agriculture Risk Coverage—Countya",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 263,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Agriculture Risk Coverage—Countya / Rice",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Agriculture Risk Coverage—Countya",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 263,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Agriculture Risk Coverage—Countya / Seed Cotton",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Agriculture Risk Coverage—Countya",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 263,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Agriculture Risk Coverage—Countya / Small Chickpeas",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Agriculture Risk Coverage—Countya",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 263,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Agriculture Risk Coverage—Countya / Sorghum",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Agriculture Risk Coverage—Countya",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 263,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Agriculture Risk Coverage—Countya / Soybeans",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Agriculture Risk Coverage—Countya",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 263,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Agriculture Risk Coverage—Countya / Total County Coverage",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Agriculture Risk Coverage—Countya",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 263,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Agriculture Risk Coverage—Countya / Total Feed Grains",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Agriculture Risk Coverage—Countya",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 263,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Agriculture Risk Coverage—Countya / Wheat",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Agriculture Risk Coverage—Countya",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 263,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Barley",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Corn",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Dry Peas",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / ELS Cotton",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Honey",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Large Chickpeas",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Lentils",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Mohair",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Oats",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Other Oilseeds",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Peanuts",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Rice",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Small Chickpeas",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Sorghum",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Soybeans",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Total Feed Grains",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Total Payments Listed",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Upland Cotton",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Wheat",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Total Paymentsa / Wool",
+      "marker": "a",
+      "variable_note": "P.L. 119-21 provides eligible farmers with the higher of ARC or PLC payments for crop year 2025. By law, these payments will be made in fiscal year 2027. Because CBO estimates program payments on a national basis (as opposed to county by county) and the national average payment rate for PLC is greater than for ARC, 100 percent of 2025 crop payments are assumed to be for PLC. For some covered commodities at the individual county level, the higher per acre payment rate could be for ARC.",
+      "source_label": "Total Paymentsa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 339,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Other Payments (Not included above) / Agriculture Risk Coverage—ICb",
+      "marker": "b",
+      "variable_note": "Total payments by commodity do not include ARC-IC payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops. ELS Cotton Competitiveness payments are listed separately, in Other Payments.",
+      "source_label": "Agriculture Risk Coverage—ICb",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 381,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "PROGRAM PAYMENT SUMMARY / Other Payments (Not included above) / ELS Cotton Competitiveness Paymentsb",
+      "marker": "b",
+      "variable_note": "Total payments by commodity do not include ARC-IC payments. Those payments are based on all covered crops grown on the farm and, hence, cannot be readily assigned to individual crops. ELS Cotton Competitiveness payments are listed separately, in Other Payments.",
+      "source_label": "ELS Cotton Competitiveness Paymentsb",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 383,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "DAIRY PROGRAM / Receipts / Annual Administrative Feea",
+      "marker": "a",
+      "variable_note": "Administrative fees are received in a different account and thus not counted among total receipts for the CCC.",
+      "source_label": "Annual Administrative Feea",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 922,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Conservation Stewardship Program—2014a / Budget Authority",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A: Additional Funding Provided by Public Law 117-169 for USDA Conservation Programs in Budget Function 300.",
+      "source_label": "Conservation Stewardship Program—2014a",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 1059,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Conservation Stewardship Program—2014a / Outlays",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A: Additional Funding Provided by Public Law 117-169 for USDA Conservation Programs in Budget Function 300.",
+      "source_label": "Conservation Stewardship Program—2014a",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 1059,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Conservation Stewardship Program—2018a / Budget Authority",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A: Additional Funding Provided by Public Law 117-169 for USDA Conservation Programs in Budget Function 300.",
+      "source_label": "Conservation Stewardship Program—2018a",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 1062,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Conservation Stewardship Program—2018a / Outlays",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A: Additional Funding Provided by Public Law 117-169 for USDA Conservation Programs in Budget Function 300.",
+      "source_label": "Conservation Stewardship Program—2018a",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 1062,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Environmental Quality Incentives Programa / Budget Authority",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A: Additional Funding Provided by Public Law 117-169 for USDA Conservation Programs in Budget Function 300.",
+      "source_label": "Environmental Quality Incentives Programa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 1065,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Environmental Quality Incentives Programa / Outlays",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A: Additional Funding Provided by Public Law 117-169 for USDA Conservation Programs in Budget Function 300.",
+      "source_label": "Environmental Quality Incentives Programa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 1065,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Agricultural Conservation Easement Programa / Budget Authority",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A: Additional Funding Provided by Public Law 117-169 for USDA Conservation Programs in Budget Function 300.",
+      "source_label": "Agricultural Conservation Easement Programa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 1068,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Agricultural Conservation Easement Programa / Outlays",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A: Additional Funding Provided by Public Law 117-169 for USDA Conservation Programs in Budget Function 300.",
+      "source_label": "Agricultural Conservation Easement Programa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 1068,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Regional Conservation Partnership Programa / Budget Authority",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A: Additional Funding Provided by Public Law 117-169 for USDA Conservation Programs in Budget Function 300.",
+      "source_label": "Regional Conservation Partnership Programa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 1071,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Regional Conservation Partnership Programa / Outlays",
+      "marker": "a",
+      "variable_note": "Additional spending for existing conservation programs was authorized in reconciliation legislation (Public Law 117-169) enacted in August 2022. That information is shown in Appendix A: Additional Funding Provided by Public Law 117-169 for USDA Conservation Programs in Budget Function 300.",
+      "source_label": "Regional Conservation Partnership Programa",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 1071,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Other Programsb / Budget Authority",
+      "marker": "b",
+      "variable_note": "Includes spending on the Grassroots Source Water Protection, Feral Swine Eradication, Conservation User Fees, and transfer of amounts to the Farm Production and Conservation Business Center.",
+      "source_label": "Other Programsb",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 1098,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Other Programsb / Outlays",
+      "marker": "b",
+      "variable_note": "Includes spending on the Grassroots Source Water Protection, Feral Swine Eradication, Conservation User Fees, and transfer of amounts to the Farm Production and Conservation Business Center.",
+      "source_label": "Other Programsb",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 1098,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Announced Sequestrationc / Budget Authority",
+      "marker": "c",
+      "variable_note": "The Budget Control Act of 2011 requires the annual sequestration of nonexempt mandatory spending programs. OMB determines which accounts are subject to reductions under that law. OMB has determined that USDA conservation programs in budget function 300 are subject to sequestration; budget authority is reduced by 5.7 percent to reflect that determination through 2031, and 2.8 percent in 2032.",
+      "source_label": "Announced Sequestrationc",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 1101,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "CCC CONSERVATION PROGRAMS (Details) / Announced Sequestrationc / Outlays",
+      "marker": "c",
+      "variable_note": "The Budget Control Act of 2011 requires the annual sequestration of nonexempt mandatory spending programs. OMB determines which accounts are subject to reductions under that law. OMB has determined that USDA conservation programs in budget function 300 are subject to sequestration; budget authority is reduced by 5.7 percent to reflect that determination through 2031, and 2.8 percent in 2032.",
+      "source_label": "Announced Sequestrationc",
+      "source": {
+        "file": "51317-2026-02-usda.xlsx",
+        "sheet": "USDA Baseline_02-2026",
+        "row": 1101,
+        "column": 1
+      }
+    }
+  ]
+}

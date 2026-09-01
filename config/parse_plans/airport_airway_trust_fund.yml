@@ -1,0 +1,167 @@
+workbooks:
+- workbook: 59126-2023-05-aatf_0.xlsx
+  sheets:
+  - sheet: AATF_05-2023
+    classification: data
+    include: true
+    output_dataset: aatf_0_2023_05
+    verification_target: cbo-aatf-0-2023-05
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Sheet1
+    classification: unknown
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+- workbook: 59126-2024-02-aatf.xlsx
+  sheets:
+  - sheet: AATF_02-2024
+    classification: data
+    include: true
+    output_dataset: aatf_2024_02
+    verification_target: cbo-aatf-2024-02
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Sheet1
+    classification: unknown
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+- workbook: 59126-2024-06-aatf.xlsx
+  sheets:
+  - sheet: AATF_06-2024
+    classification: data
+    include: true
+    output_dataset: aatf_2024_06
+    verification_target: cbo-aatf-2024-06
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 59126-2025-01-aatf.xlsx
+  sheets:
+  - sheet: AATF_01-2025
+    classification: data
+    include: true
+    output_dataset: aatf_2025_01
+    verification_target: cbo-aatf-2025-01
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Sheet1
+    classification: unknown
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+- workbook: 59126-2026-02-aatf.xlsx
+  sheets:
+  - sheet: AATF_02-2026
+    classification: data
+    include: true
+    output_dataset: aatf_2026_02
+    verification_target: cbo-aatf-2026-02
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split

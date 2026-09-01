@@ -1,0 +1,116 @@
+{
+  "dataset": "chip",
+  "program_id": "51296",
+  "program": "CHIP",
+  "vintage": "2020-03",
+  "data_file": "baseline_2020-03.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "8f4d2d4591a9cb1e0e9ce789a76588f8a6800849b38cc34716ecabefaa4959a0",
+  "row_count": 138,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2019,
+    "end_year": 2030
+  },
+  "period_coverage": {
+    "start_year": 2019,
+    "end_year": 2030
+  },
+  "period_types": [
+    "cumulative_fiscal_years",
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51296-2020-03-chip.xlsx"
+  ],
+  "source_sheets": [
+    "CHIP"
+  ],
+  "units": [
+    "Billions of dollars",
+    "Dollars per enrollee",
+    "Millions of people"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "By Fiscal Year / Federal Funding (Billions of dollars) / Budget Authoritya",
+      "marker": "a",
+      "variable_note": "Title XXI of the Social Security Act provides funding through September 2027. Consistent with statutory guidelines, CBO assumes in its baseline spending projections that annual funding for the program in later years will continue at $15.3 billion.",
+      "source_label": "Budget Authoritya",
+      "source": {
+        "file": "51296-2020-03-chip.xlsx",
+        "sheet": "CHIP",
+        "row": 8,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Enrollment at Baseline Funding Amountsb / Adults",
+      "marker": "b",
+      "variable_note": "These figures represent the number of beneficiaries enrolled on an average monthly basis in the 50 states and the District of Columbia, but they do not include enrollment in the U.S. territories.",
+      "source_label": "Enrollment at Baseline Funding Amountsb",
+      "source": {
+        "file": "51296-2020-03-chip.xlsx",
+        "sheet": "CHIP",
+        "row": 12,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Enrollment at Baseline Funding Amountsb / Children",
+      "marker": "b",
+      "variable_note": "These figures represent the number of beneficiaries enrolled on an average monthly basis in the 50 states and the District of Columbia, but they do not include enrollment in the U.S. territories.",
+      "source_label": "Enrollment at Baseline Funding Amountsb",
+      "source": {
+        "file": "51296-2020-03-chip.xlsx",
+        "sheet": "CHIP",
+        "row": 12,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Enrollment at Baseline Funding Amountsb / Total Enrollment",
+      "marker": "b",
+      "variable_note": "These figures represent the number of beneficiaries enrolled on an average monthly basis in the 50 states and the District of Columbia, but they do not include enrollment in the U.S. territories.",
+      "source_label": "Enrollment at Baseline Funding Amountsb",
+      "source": {
+        "file": "51296-2020-03-chip.xlsx",
+        "sheet": "CHIP",
+        "row": 12,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Average Annual Federal Spending on / Benefit Payments per Enrollee (dollars)c",
+      "marker": "c",
+      "variable_note": "Average federal spending on benefit payments per enrollee in 2019 reflects a 23 percentage-point increase in the enhanced federal medical assistance percentage. In 2020 that increase falls to 11.5 percentage points, and in 2021 there is no additional percentage-point increase, resulting in an average federal matching rate of 70 percent.",
+      "source_label": "Benefit Payments per Enrollee (dollars)c",
+      "source": {
+        "file": "51296-2020-03-chip.xlsx",
+        "sheet": "CHIP",
+        "row": 19,
+        "column": 1
+      }
+    }
+  ]
+}

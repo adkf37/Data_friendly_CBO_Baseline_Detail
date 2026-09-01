@@ -1,0 +1,470 @@
+{
+  "dataset": "student_loans",
+  "program_id": "51310",
+  "program": "Student Loans",
+  "vintage": "2023-05",
+  "data_file": "baseline_2023-05.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "9caa5c496d7edeb66b8a83e2a6379c33455d4c90714c39cd869bb42013c343f5",
+  "row_count": 913,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2023,
+    "end_year": 2033
+  },
+  "period_coverage": {
+    "start_year": 2023,
+    "end_year": 2034
+  },
+  "period_types": [
+    "award_year",
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51310-2023-05-studentloan.xlsx"
+  ],
+  "source_sheets": [
+    "T1-FCRA_05-2023",
+    "T3-NewLoans-FCRA_05-2023",
+    "T4-Admin_05-2023",
+    "T5-IntRates_05-2023",
+    "T6-Subsidies_05-2023",
+    "T7-FV_05-2023"
+  ],
+  "units": [
+    "Dollars",
+    "Millions of dollars",
+    "Percent",
+    "Thousands"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Program Accounta / Budget Authority",
+      "marker": "a",
+      "variable_note": "Estimated spending for fiscal year 2023 includes additional adjustments based on current spending patterns projected by OMB. Estimated spending for fiscal years 2023 to 2033 includes only 50 percent of the effects of the Department of Education’s January 2023 notice of proposed rulemaking on income driven repayment (see Table 2).",
+      "source_label": "Program Accounta",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T1-FCRA_05-2023",
+        "row": 15,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Program Accounta / Outlays",
+      "marker": "a",
+      "variable_note": "Estimated spending for fiscal year 2023 includes additional adjustments based on current spending patterns projected by OMB. Estimated spending for fiscal years 2023 to 2033 includes only 50 percent of the effects of the Department of Education’s January 2023 notice of proposed rulemaking on income driven repayment (see Table 2).",
+      "source_label": "Program Accounta",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T1-FCRA_05-2023",
+        "row": 15,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Credit Reestimates and Modificationsb / Budget Authority",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2023. Those totals are based on the amounts that OMB has announced it will record in fiscal year 2023 as well as 50 percent of the cost for outstanding loans in the Department of Education’s January 2023 notice of proposed rulemaking.",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T1-FCRA_05-2023",
+        "row": 18,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Credit Reestimates and Modificationsb / Outlays",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2023. Those totals are based on the amounts that OMB has announced it will record in fiscal year 2023 as well as 50 percent of the cost for outstanding loans in the Department of Education’s January 2023 notice of proposed rulemaking.",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T1-FCRA_05-2023",
+        "row": 18,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Credit Reestimates and Modificationsb / Budget Authority",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2023. Those totals are based on the amounts that OMB has announced it will record in fiscal year 2023 as well as 50 percent of the cost for outstanding loans in the Department of Education’s January 2023 notice of proposed rulemaking.",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T1-FCRA_05-2023",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Credit Reestimates and Modificationsb / Outlays",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2023. Those totals are based on the amounts that OMB has announced it will record in fiscal year 2023 as well as 50 percent of the cost for outstanding loans in the Department of Education’s January 2023 notice of proposed rulemaking.",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T1-FCRA_05-2023",
+        "row": 30,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Discretionaryc / Budget Authority",
+      "marker": "c",
+      "variable_note": "Projections of discretionary spending for administering student aid are calculated by inflating the budget authority provided in the most recent appropriation act rather than being made on the basis of the estimated future costs of administering the program.",
+      "source_label": "Discretionaryc",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T1-FCRA_05-2023",
+        "row": 38,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Discretionaryc / Outlays",
+      "marker": "c",
+      "variable_note": "Projections of discretionary spending for administering student aid are calculated by inflating the budget authority provided in the most recent appropriation act rather than being made on the basis of the estimated future costs of administering the program.",
+      "source_label": "Discretionaryc",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T1-FCRA_05-2023",
+        "row": 38,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Mandatoryd / Budget Authority",
+      "marker": "d",
+      "variable_note": "Projections of mandatory spending for administering student aid are based on estimated future costs of administering federal loan programs.",
+      "source_label": "Mandatoryd",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T1-FCRA_05-2023",
+        "row": 41,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Program: Budget Account Totals, Federal Credit Reform Act Estimates / Mandatoryd / Outlays",
+      "marker": "d",
+      "variable_note": "Projections of mandatory spending for administering student aid are based on estimated future costs of administering federal loan programs.",
+      "source_label": "Mandatoryd",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T1-FCRA_05-2023",
+        "row": 41,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / All New Loansa / Average Loan Amount (Dollars)",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2023. Estimated volume and subsidy rates for fiscal years 2023 to 2033 include only 50 percent of the effects of the Department of Education’s January 2023 notice of proposed rulemaking on income driven repayment (see Table 2).",
+      "source_label": "All New Loansa",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_05-2023",
+        "row": 12,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / All New Loansa / Net Annual Loan Volume (Millions of dollars)",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2023. Estimated volume and subsidy rates for fiscal years 2023 to 2033 include only 50 percent of the effects of the Department of Education’s January 2023 notice of proposed rulemaking on income driven repayment (see Table 2).",
+      "source_label": "All New Loansa",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_05-2023",
+        "row": 12,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / All New Loansa / Net Number of Loans (Thousands)",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2023. Estimated volume and subsidy rates for fiscal years 2023 to 2033 include only 50 percent of the effects of the Department of Education’s January 2023 notice of proposed rulemaking on income driven repayment (see Table 2).",
+      "source_label": "All New Loansa",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_05-2023",
+        "row": 12,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / All New Loansa / Subsidy Rate (Percent)b",
+      "marker": "a",
+      "variable_note": "Totals exclude consolidation loans stemming from loans issued before 2023. Estimated volume and subsidy rates for fiscal years 2023 to 2033 include only 50 percent of the effects of the Department of Education’s January 2023 notice of proposed rulemaking on income driven repayment (see Table 2).",
+      "source_label": "All New Loansa",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_05-2023",
+        "row": 12,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / All New Loansa / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2024 federal cost associated with the $88,442 million in new loan volume would be $14,151 million or 16.0 percent of the new loan volume [$88,442 * 0.160 = $14,151]. The government will spend, on average, 16 cents for each new dollar lent in 2024. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 4). Subsidy rates were calculated using CBO’s February 2023 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_05-2023",
+        "row": 16,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / Subsidized Student Loans / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2024 federal cost associated with the $88,442 million in new loan volume would be $14,151 million or 16.0 percent of the new loan volume [$88,442 * 0.160 = $14,151]. The government will spend, on average, 16 cents for each new dollar lent in 2024. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 4). Subsidy rates were calculated using CBO’s February 2023 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_05-2023",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / Unsubsidized Student Loans: Undergraduate / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2024 federal cost associated with the $88,442 million in new loan volume would be $14,151 million or 16.0 percent of the new loan volume [$88,442 * 0.160 = $14,151]. The government will spend, on average, 16 cents for each new dollar lent in 2024. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 4). Subsidy rates were calculated using CBO’s February 2023 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_05-2023",
+        "row": 28,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / Unsubsidized Student Loans: Graduate / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2024 federal cost associated with the $88,442 million in new loan volume would be $14,151 million or 16.0 percent of the new loan volume [$88,442 * 0.160 = $14,151]. The government will spend, on average, 16 cents for each new dollar lent in 2024. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 4). Subsidy rates were calculated using CBO’s February 2023 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_05-2023",
+        "row": 34,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / GradPLUS Student Loans / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2024 federal cost associated with the $88,442 million in new loan volume would be $14,151 million or 16.0 percent of the new loan volume [$88,442 * 0.160 = $14,151]. The government will spend, on average, 16 cents for each new dollar lent in 2024. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 4). Subsidy rates were calculated using CBO’s February 2023 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_05-2023",
+        "row": 40,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Total Direct Student Loan Program (New Loans Only), Federal Credit Reform Act Estimates / Parent Loans / Subsidy Rate (Percent)b",
+      "marker": "b",
+      "variable_note": "The subsidy rate is the net present value of future federal cash flows divided by the amount in loans disbursed to borrowers each year. For example, the 2024 federal cost associated with the $88,442 million in new loan volume would be $14,151 million or 16.0 percent of the new loan volume [$88,442 * 0.160 = $14,151]. The government will spend, on average, 16 cents for each new dollar lent in 2024. Subsidy rates exclude federal administrative costs associated with disbursing and servicing loans. Those costs are included in the budget on a cash basis (see Table 4). Subsidy rates were calculated using CBO’s February 2023 interest rate forecast.",
+      "source_label": "Subsidy Rate (Percent)b",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T3-NewLoans-FCRA_05-2023",
+        "row": 46,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Aid Administration Costs / Default Prevention Fee Paid to Guaranty Agenciesa / Budget Authority",
+      "marker": "a",
+      "variable_note": "In the budget, funds for default prevention are included in the Student Loan Reserve Fund Account and funds for administering pre-1992 loans are included in the Liquidating Account. Both are included in this table’s total for administration.",
+      "source_label": "Default Prevention Fee Paid to Guaranty Agenciesa",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T4-Admin_05-2023",
+        "row": 19,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Aid Administration Costs / Default Prevention Fee Paid to Guaranty Agenciesa / Outlays",
+      "marker": "a",
+      "variable_note": "In the budget, funds for default prevention are included in the Student Loan Reserve Fund Account and funds for administering pre-1992 loans are included in the Liquidating Account. Both are included in this table’s total for administration.",
+      "source_label": "Default Prevention Fee Paid to Guaranty Agenciesa",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T4-Admin_05-2023",
+        "row": 19,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Aid Administration Costs / Loan Collection Costs on Pre-1992 Loansa / Budget Authority",
+      "marker": "a",
+      "variable_note": "In the budget, funds for default prevention are included in the Student Loan Reserve Fund Account and funds for administering pre-1992 loans are included in the Liquidating Account. Both are included in this table’s total for administration.",
+      "source_label": "Loan Collection Costs on Pre-1992 Loansa",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T4-Admin_05-2023",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Aid Administration Costs / Loan Collection Costs on Pre-1992 Loansa / Outlays",
+      "marker": "a",
+      "variable_note": "In the budget, funds for default prevention are included in the Student Loan Reserve Fund Account and funds for administering pre-1992 loans are included in the Liquidating Account. Both are included in this table’s total for administration.",
+      "source_label": "Loan Collection Costs on Pre-1992 Loansa",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T4-Admin_05-2023",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Aid Administration Costs / Discretionary Administrative Costsb / Budget Authority",
+      "marker": "b",
+      "variable_note": "Some of the funds for discretionary administrative costs are used for other student aid programs, such as the Pell grant program.",
+      "source_label": "Discretionary Administrative Costsb",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T4-Admin_05-2023",
+        "row": 34,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Aid Administration Costs / Discretionary Administrative Costsb / Outlays",
+      "marker": "b",
+      "variable_note": "Some of the funds for discretionary administrative costs are used for other student aid programs, such as the Pell grant program.",
+      "source_label": "Discretionary Administrative Costsb",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T4-Admin_05-2023",
+        "row": 34,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Aid Administration Costs / Total Administrative Costsa / Budget Authority",
+      "marker": "a",
+      "variable_note": "In the budget, funds for default prevention are included in the Student Loan Reserve Fund Account and funds for administering pre-1992 loans are included in the Liquidating Account. Both are included in this table’s total for administration.",
+      "source_label": "Total Administrative Costsa",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T4-Admin_05-2023",
+        "row": 38,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Aid Administration Costs / Total Administrative Costsa / Outlays",
+      "marker": "a",
+      "variable_note": "In the budget, funds for default prevention are included in the Student Loan Reserve Fund Account and funds for administering pre-1992 loans are included in the Liquidating Account. Both are included in this table’s total for administration.",
+      "source_label": "Total Administrative Costsa",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T4-Admin_05-2023",
+        "row": 38,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals, Fair-Value Estimating Procedures / Program Costsa / Budget Authority",
+      "marker": "a",
+      "variable_note": "Estimated spending for fiscal years 2023 to 2033 includes only 50 percent of the effects of the Department of Education’s January 2023 notice of proposed rulemaking on income driven repayment (see Table 2).",
+      "source_label": "Program Costsa",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T7-FV_05-2023",
+        "row": 14,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals, Fair-Value Estimating Procedures / Program Costsa / Outlays",
+      "marker": "a",
+      "variable_note": "Estimated spending for fiscal years 2023 to 2033 includes only 50 percent of the effects of the Department of Education’s January 2023 notice of proposed rulemaking on income driven repayment (see Table 2).",
+      "source_label": "Program Costsa",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T7-FV_05-2023",
+        "row": 14,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals, Fair-Value Estimating Procedures / Credit Reestimates and Modificationsb / Budget Authority",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2023. Those totals are based on the amounts that OMB has announced it will record in fiscal year 2023, as well as 50 percent of the cost for outstanding loans in the Department of Education’s January 2023 notice of proposed rulemaking.",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T7-FV_05-2023",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals, Fair-Value Estimating Procedures / Credit Reestimates and Modificationsb / Outlays",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2023. Those totals are based on the amounts that OMB has announced it will record in fiscal year 2023, as well as 50 percent of the cost for outstanding loans in the Department of Education’s January 2023 notice of proposed rulemaking.",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T7-FV_05-2023",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals, Fair-Value Estimating Procedures / Credit Reestimates and Modificationsb / Budget Authority",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2023. Those totals are based on the amounts that OMB has announced it will record in fiscal year 2023, as well as 50 percent of the cost for outstanding loans in the Department of Education’s January 2023 notice of proposed rulemaking.",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T7-FV_05-2023",
+        "row": 28,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Federal Student Loan Programs: Budget Account Totals, Fair-Value Estimating Procedures / Credit Reestimates and Modificationsb / Outlays",
+      "marker": "b",
+      "variable_note": "Costs for credit reestimates and modifications are changes to the estimated costs of outstanding loans originated before 2023. Those totals are based on the amounts that OMB has announced it will record in fiscal year 2023, as well as 50 percent of the cost for outstanding loans in the Department of Education’s January 2023 notice of proposed rulemaking.",
+      "source_label": "Credit Reestimates and Modificationsb",
+      "source": {
+        "file": "51310-2023-05-studentloan.xlsx",
+        "sheet": "T7-FV_05-2023",
+        "row": 28,
+        "column": 1
+      }
+    }
+  ]
+}

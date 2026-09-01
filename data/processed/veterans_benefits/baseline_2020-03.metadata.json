@@ -1,0 +1,104 @@
+{
+  "dataset": "veterans_benefits",
+  "program_id": "53725",
+  "program": "Veterans Benefits",
+  "vintage": "2020-03",
+  "data_file": "baseline_2020-03.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "7424e32a585afb23a13b1d74c2ecd395d146c7cec3fc7bb26647d1a3348af8c9",
+  "row_count": 242,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2020,
+    "end_year": 2030
+  },
+  "period_coverage": {
+    "start_year": 2020,
+    "end_year": 2030
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "53725-2020-03-veteransbenefit.xlsx"
+  ],
+  "source_sheets": [
+    "Compensation",
+    "Pension"
+  ],
+  "units": [
+    "Dollars",
+    "Millions of dollars",
+    "Thousands"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "By Fiscal Year / Adjustment for Payday Shifta / (Millions of dollars)",
+      "marker": "a",
+      "variable_note": "38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional paycheck in fiscal years 2022 and 2028 and one fewer paycheck in fiscal years 2024 and 2029.",
+      "source_label": "Adjustment for Payday Shifta",
+      "source": {
+        "file": "53725-2020-03-veteransbenefit.xlsx",
+        "sheet": "Compensation",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Adjustment for Payday Shifta / (Millions of dollars)",
+      "marker": "a",
+      "variable_note": "38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional paycheck in fiscal years 2022 and 2028 and one fewer paycheck in fiscal years 2024 and 2029.",
+      "source_label": "Adjustment for Payday Shifta",
+      "source": {
+        "file": "53725-2020-03-veteransbenefit.xlsx",
+        "sheet": "Compensation",
+        "row": 32,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Adjustment for Payday Shifta / (Millions of dollars)",
+      "marker": "a",
+      "variable_note": "38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional paycheck in fiscal years 2022 and 2028 and one fewer paycheck in fiscal years 2024 and 2029.",
+      "source_label": "Adjustment for Payday Shifta",
+      "source": {
+        "file": "53725-2020-03-veteransbenefit.xlsx",
+        "sheet": "Pension",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "By Fiscal Year / Adjustment for Payday Shifta / (Millions of dollars)",
+      "marker": "a",
+      "variable_note": "38 U.S. Code § 5120 directs that if the first day of the month occurs on a holiday or weekend, the Department of Veterans Affairs will make benefit payments on the preceding business day. That will result in one additional paycheck in fiscal years 2022 and 2028 and one fewer paycheck in fiscal years 2024 and 2029.",
+      "source_label": "Adjustment for Payday Shifta",
+      "source": {
+        "file": "53725-2020-03-veteransbenefit.xlsx",
+        "sheet": "Pension",
+        "row": 32,
+        "column": 1
+      }
+    }
+  ]
+}

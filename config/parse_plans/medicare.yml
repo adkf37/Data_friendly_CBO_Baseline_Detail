@@ -1,0 +1,238 @@
+workbooks:
+- workbook: 51302-2019-05-Medicare.xlsx
+  sheets:
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: medicare_2019_05
+    verification_target: cbo-medicare-2019-05
+    header_rows: 1-6
+    first_data_row: 7
+    year_column_strategy: column_index
+    year_columns:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Medicare Totals (Billions of dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51302-2020-03-medicare.xlsx
+  sheets:
+  - sheet: Medicare
+    classification: data
+    include: true
+    output_dataset: medicare_2020_03
+    verification_target: cbo-medicare-2020-03
+    header_rows: 1-6
+    first_data_row: 7
+    year_column_strategy: column_index
+    year_columns:
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Medicare Totals (Billions of dollars)
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51302-2021-07-medicare.xlsx
+  sheets:
+  - sheet: Medicare_07-2021
+    classification: data
+    include: true
+    output_dataset: medicare_2021_07
+    verification_target: cbo-medicare-2021-07
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+  - sheet: Sheet1
+    classification: unknown
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+- workbook: 51302-2022-05-medicare.xlsx
+  sheets:
+  - sheet: Medicare_05-2022
+    classification: data
+    include: true
+    output_dataset: medicare_2022_05
+    verification_target: cbo-medicare-2022-05
+    header_rows: 1-14
+    first_data_row: 15
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: By Fiscal Year, Billions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Sheet1
+    classification: unknown
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+- workbook: 51302-2023-05-medicare.xlsx
+  sheets:
+  - sheet: Medicare_05-2023
+    classification: data
+    include: true
+    output_dataset: medicare_2023_05
+    verification_target: cbo-medicare-2023-05
+    header_rows: 1-14
+    first_data_row: 15
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: By Fiscal Year, Billions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Sheet1
+    classification: unknown
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+- workbook: 51302-2024-06-medicare.xlsx
+  sheets:
+  - sheet: Medicare_06-2024
+    classification: data
+    include: true
+    output_dataset: medicare_2024_06
+    verification_target: cbo-medicare-2024-06
+    header_rows: 1-14
+    first_data_row: 15
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+  - sheet: Sheet1
+    classification: unknown
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+- workbook: 51302-2026-02-medicare.xlsx
+  sheets:
+  - sheet: Medicare_02-2026
+    classification: data
+    include: true
+    output_dataset: medicare_2026_02
+    verification_target: cbo-medicare-2026-02
+    header_rows: 1-13
+    first_data_row: 14
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Billions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split

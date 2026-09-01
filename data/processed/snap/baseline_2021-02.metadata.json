@@ -1,0 +1,68 @@
+{
+  "dataset": "snap",
+  "program_id": "51312",
+  "program": "SNAP",
+  "vintage": "2021-02",
+  "data_file": "baseline_2021-02.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "e4b2885614c46ff7e2eb96147c2410fe6101821d4dd262551dd8847fca8c5e78",
+  "row_count": 252,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_coverage": {
+    "start_year": 2021,
+    "end_year": 2031
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51312-2021-02-snap.xlsx"
+  ],
+  "source_sheets": [
+    "SNAP_2-2021"
+  ],
+  "units": [
+    "Dollars per participant",
+    "Millions of dollars",
+    "Millions of people",
+    "Percent"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": [
+    {
+      "category_path": "Supplemental Nutrition Assistance Program / By fiscal year / State Administrationa",
+      "marker": "a",
+      "variable_note": "Excludes employment and training.",
+      "source_label": "State Administrationa",
+      "source": {
+        "file": "51312-2021-02-snap.xlsx",
+        "sheet": "SNAP_2-2021",
+        "row": 48,
+        "column": 2
+      }
+    }
+  ]
+}

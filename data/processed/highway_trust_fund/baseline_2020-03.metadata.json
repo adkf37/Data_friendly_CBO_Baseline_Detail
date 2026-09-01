@@ -1,0 +1,125 @@
+{
+  "dataset": "highway_trust_fund",
+  "program_id": "51300",
+  "program": "Highway Trust Fund",
+  "vintage": "2020-03",
+  "data_file": "baseline_2020-03.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "ac09765b76495d5eab2feb30958784dc182361995fa39eb99764dd6ed98f2c61",
+  "row_count": 103,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2019,
+    "end_year": 2030
+  },
+  "period_coverage": {
+    "start_year": 2019,
+    "end_year": 2030
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51300-2020-03-highwaytrustfund.xlsx"
+  ],
+  "source_sheets": [
+    "Highway Trust Fund"
+  ],
+  "units": [
+    "Millions of dollars"
+  ],
+  "contains_totals": false,
+  "aggregation_note": null,
+  "annotations": [
+    {
+      "category_path": "Flexed Balancesb",
+      "marker": "b",
+      "variable_note": "Flexed balances are amounts transferred from the highway account to the transit account.",
+      "source_label": "Flexed Balancesb",
+      "source": {
+        "file": "51300-2020-03-highwaytrustfund.xlsx",
+        "sheet": "Highway Trust Fund",
+        "row": 9,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Revenues and Interestc",
+      "marker": "c",
+      "variable_note": "Some of the taxes that are credited to the Highway Trust Fund are scheduled to expire on September 30, 2022, including the taxes on tires and all but 4.3 cents of the federal tax on motor fuels. However, under the rules governing baseline projections, these estimates reflect the assumption that all of the expiring taxes credited to the fund will continue to be collected after fiscal year 2022.",
+      "source_label": "Revenues and Interestc",
+      "source": {
+        "file": "51300-2020-03-highwaytrustfund.xlsx",
+        "sheet": "Highway Trust Fund",
+        "row": 10,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Flexed Balancesb",
+      "marker": "b",
+      "variable_note": "Flexed balances are amounts transferred from the highway account to the transit account.",
+      "source_label": "Flexed Balancesb",
+      "source": {
+        "file": "51300-2020-03-highwaytrustfund.xlsx",
+        "sheet": "Highway Trust Fund",
+        "row": 16,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Revenues and Interestc",
+      "marker": "c",
+      "variable_note": "Some of the taxes that are credited to the Highway Trust Fund are scheduled to expire on September 30, 2022, including the taxes on tires and all but 4.3 cents of the federal tax on motor fuels. However, under the rules governing baseline projections, these estimates reflect the assumption that all of the expiring taxes credited to the fund will continue to be collected after fiscal year 2022.",
+      "source_label": "Revenues and Interestc",
+      "source": {
+        "file": "51300-2020-03-highwaytrustfund.xlsx",
+        "sheet": "Highway Trust Fund",
+        "row": 17,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Cumulative Shortfalla / Highway Account",
+      "marker": "a",
+      "variable_note": "Under current law, the Highway Trust Fund cannot incur negative balances. However, following the rules governing baseline projections in the Balanced Budget and Emergency Deficit Control Act of 1985, CBO's baseline for surface transportation spending reflects the assumption that obligations presented to the Highway Trust Fund will be paid in full. The memorandum to this table shows the cumulative shortfall of fund balances, assuming spending amounts consistent with CBO's March 2020 baseline. Following the rules for baseline construction, those amounts are estimated by adjusting the obligation limitations enacted under P.L. 116-94, the Further Consolidated Appropriations Act, 2020, by projected inflation.",
+      "source_label": "Cumulative Shortfalla",
+      "source": {
+        "file": "51300-2020-03-highwaytrustfund.xlsx",
+        "sheet": "Highway Trust Fund",
+        "row": 22,
+        "column": 1
+      }
+    },
+    {
+      "category_path": "Cumulative Shortfalla / Transit Account",
+      "marker": "a",
+      "variable_note": "Under current law, the Highway Trust Fund cannot incur negative balances. However, following the rules governing baseline projections in the Balanced Budget and Emergency Deficit Control Act of 1985, CBO's baseline for surface transportation spending reflects the assumption that obligations presented to the Highway Trust Fund will be paid in full. The memorandum to this table shows the cumulative shortfall of fund balances, assuming spending amounts consistent with CBO's March 2020 baseline. Following the rules for baseline construction, those amounts are estimated by adjusting the obligation limitations enacted under P.L. 116-94, the Further Consolidated Appropriations Act, 2020, by projected inflation.",
+      "source_label": "Cumulative Shortfalla",
+      "source": {
+        "file": "51300-2020-03-highwaytrustfund.xlsx",
+        "sheet": "Highway Trust Fund",
+        "row": 22,
+        "column": 1
+      }
+    }
+  ]
+}

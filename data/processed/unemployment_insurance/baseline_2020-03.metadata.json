@@ -1,0 +1,55 @@
+{
+  "dataset": "unemployment_insurance",
+  "program_id": "51316",
+  "program": "Unemployment Insurance",
+  "vintage": "2020-03",
+  "data_file": "baseline_2020-03.csv",
+  "schema": "schema.json",
+  "schema_version": "1.0.0",
+  "sha256": "a5c0dd14afe38505aaf6d157aa6c356b1980ff95e3a171a916fbe564e43899f8",
+  "row_count": 99,
+  "columns": [
+    "program",
+    "category",
+    "fiscal_year",
+    "value",
+    "unit",
+    "source_file",
+    "source_sheet",
+    "is_total",
+    "program_id",
+    "category_path",
+    "period_type",
+    "period_start_year",
+    "period_end_year",
+    "period_label",
+    "source_row",
+    "source_column"
+  ],
+  "fiscal_year_coverage": {
+    "start_year": 2020,
+    "end_year": 2030
+  },
+  "period_coverage": {
+    "start_year": 2020,
+    "end_year": 2030
+  },
+  "period_types": [
+    "fiscal_year"
+  ],
+  "source_files": [
+    "51316-2020-03-unemployment.xlsx"
+  ],
+  "source_sheets": [
+    "Unemployment & Trade Adjustment"
+  ],
+  "units": [
+    "Dollars",
+    "Millions of dollars",
+    "Millions of people",
+    "Percent"
+  ],
+  "contains_totals": true,
+  "aggregation_note": "Exclude rows where is_total is true before summing across categories to avoid double-counting.",
+  "annotations": []
+}

@@ -1,0 +1,294 @@
+workbooks:
+- workbook: 51314-2019-05-TANF.xlsx
+  sheets:
+  - sheet: Table 1
+    classification: data
+    include: true
+    output_dataset: tanf_2019_05
+    verification_target: cbo-tanf-2019-05
+    header_rows: 1-6
+    first_data_row: 7
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Millions of Dollars, By Fiscal Year
+    notes: []
+- workbook: 51314-2020-01-tanf.xlsx
+  sheets:
+  - sheet: TANF
+    classification: data
+    include: true
+    output_dataset: tanf_2020_01
+    verification_target: cbo-tanf-2020-01
+    header_rows: 1-6
+    first_data_row: 7
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Millions of Dollars, By Fiscal Year
+    notes: []
+  - sheet: Sheet1
+    classification: unknown
+    include: false
+    output_dataset: null
+    verification_target: null
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: none
+    year_columns: []
+    unit: ''
+    notes:
+    - first data row could not be inferred — manual review needed
+- workbook: 51314-2020-03-tanf.xlsx
+  sheets:
+  - sheet: TANF
+    classification: data
+    include: true
+    output_dataset: tanf_2020_03
+    verification_target: cbo-tanf-2020-03
+    header_rows: 1-6
+    first_data_row: 7
+    year_column_strategy: column_index
+    year_columns:
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    unit: Millions of Dollars, By Fiscal Year
+    notes:
+    - merged cells present — verify header parsing
+- workbook: 51314-2021-02-tanf.xlsx
+  sheets:
+  - sheet: TANF 2-2021
+    classification: data
+    include: true
+    output_dataset: tanf_2021_02
+    verification_target: cbo-tanf-2021-02
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51314-2021-07-tanf.xlsx
+  sheets:
+  - sheet: TANF_
+    classification: data
+    include: true
+    output_dataset: tanf_2021_07
+    verification_target: cbo-tanf-2021-07
+    header_rows: 1-1
+    first_data_row: null
+    year_column_strategy: column_index
+    year_columns:
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - first data row could not be inferred — manual review needed
+- workbook: 51314-2022-05-tanf.xlsx
+  sheets:
+  - sheet: TANF_05-2022
+    classification: data
+    include: true
+    output_dataset: tanf_2022_05
+    verification_target: cbo-tanf-2022-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51314-2023-05-tanf.xlsx
+  sheets:
+  - sheet: TANF_05-2023
+    classification: data
+    include: true
+    output_dataset: tanf_2023_05
+    verification_target: cbo-tanf-2023-05
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: By Fiscal Year, Millions of Dollars
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51314-2024-02-tanf.xlsx
+  sheets:
+  - sheet: TANF_02-2024
+    classification: data
+    include: true
+    output_dataset: tanf_2024_02
+    verification_target: cbo-tanf-2024-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51314-2024-06-tanf.xlsx
+  sheets:
+  - sheet: TANF_06-2024
+    classification: data
+    include: true
+    output_dataset: tanf_2024_06
+    verification_target: cbo-tanf-2024-06
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51314-2025-01-tanf.xlsx
+  sheets:
+  - sheet: TANF_01-2025
+    classification: data
+    include: true
+    output_dataset: tanf_2025_01
+    verification_target: cbo-tanf-2025-01
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
+- workbook: 51314-2026-02-tanf.xlsx
+  sheets:
+  - sheet: TANF_02-2026
+    classification: data
+    include: true
+    output_dataset: tanf_2026_02
+    verification_target: cbo-tanf-2026-02
+    header_rows: 1-12
+    first_data_row: 13
+    year_column_strategy: column_index
+    year_columns:
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    unit: Millions of dollars, by fiscal year
+    notes:
+    - merged cells present — verify header parsing
+    - multiple logical tables detected — may need manual split
