@@ -1,28 +1,44 @@
 # Data Friendly CBO Baseline Detail
 
-A reproducible ETL pipeline that turns the Congressional Budget Office's
+A reproducible ETL pipeline that converts the Congressional Budget Office's
 [Baseline Projections for Selected Programs](https://www.cbo.gov/data/baseline-projections-selected-programs)
 Excel workbooks into versioned, machine-readable CSV datasets.
 
-All source data is published by the Congressional Budget Office (CBO). This
-repository preserves the original workbook, worksheet, row, and column for
-every processed observation.
+All source data is published by the Congressional Budget Office (CBO). Each
+processed observation retains its source workbook, worksheet, row, and column.
 
 ## Prerequisites
 
 - Miniconda, Anaconda, or another compatible Conda installation
-- Internet access for downloading new workbooks
+- Internet access when downloading new workbooks
 
 ## Install
+
+Create and activate the repository's Conda environment:
 
 ```bash
 conda env create -f environment.yml
 conda activate cbo-baseline-detail
 ```
 
+To update an existing environment after `environment.yml` changes:
+
+```bash
+conda env update -f environment.yml --prune
+```
+
+Run all commands below from the repository root.
+
 ## Quick Start
 
-Run the complete cached-data pipeline:
+Run the complete pipeline, including discovery and download from cbo.gov:
+
+```bash
+python scripts/run_pipeline.py
+```
+
+Rebuild from the workbooks already stored in `data/raw/` without accessing the
+network:
 
 ```bash
 python scripts/run_pipeline.py --step inspect
@@ -31,23 +47,78 @@ python scripts/run_pipeline.py --step schema
 python scripts/run_pipeline.py --step verify
 ```
 
-Run every step, including the network download:
+The pipeline stops on the first failed step. Its steps run in this order:
 
-```bash
-python scripts/run_pipeline.py
+```text
+cbo.gov -> data/raw/ -> inspection -> transformation -> schemas/metadata -> verification
+              |              |              |                 |                 |
+        manifest.json   inspection report   CSVs        schemas + catalog   verification report
 ```
 
-Individual ETL modules are also runnable directly:
+## Repository Layout
+
+```text
+environment.yml                 Conda environment and Python dependencies
+
+etl/                            Importable ETL implementation
+  annotations.py                Superscript-marker and note extraction
+  config.py                     Paths and logical-dataset configuration loader
+  download.py                   Workbook discovery, download, and manifest creation
+  inspect.py                    Raw-workbook structural inspection
+  transform.py                  Workbook-to-CSV transformation
+  schema.py                     Schema, metadata, annotation, and catalog generation
+  validate.py                   Processed-to-source reconciliation
+  datasets/usda.py              USDA-specific hierarchy adapter
+
+scripts/                        Repository-level command entry points
+  run_pipeline.py               Complete pipeline or one named pipeline step
+  build_schemas.py              Rebuild schemas, metadata, and catalog
+  build_catalog.py              Rebuild only catalog.json from existing artifacts
+  generate_parse_plans.py       Regenerate parse plans from the inspection report
+
+config/
+  datasets.yml                  Stable registry of the 30 logical datasets
+  parse_plans/*.yml             Workbook- and sheet-specific parsing instructions
+
+data/
+  raw/                          Original CBO workbooks and manifest.json
+  processed/<dataset>/          Versioned CSVs, dataset schema, and release metadata
+
+schemas/                        Shared JSON Schema row contracts and schema index
+catalog.json                    Machine-readable dataset and release index
+docs/                           Generated inspection and verification reports
+tests/                          Unit and pipeline tests
+```
+
+`config/datasets.yml` and `config/parse_plans/*.yml` are the maintained inputs
+that describe how source workbooks map to logical datasets. Processed CSVs,
+metadata sidecars, shared schemas, `catalog.json`, and files in `docs/` are
+generated artifacts.
+
+## Commands
+
+Run one pipeline step:
+
+```bash
+python scripts/run_pipeline.py --step download
+python scripts/run_pipeline.py --step inspect
+python scripts/run_pipeline.py --step transform
+python scripts/run_pipeline.py --step schema
+python scripts/run_pipeline.py --step verify
+```
+
+The underlying ETL modules can also be invoked directly when custom arguments
+are needed:
 
 ```bash
 python -m etl.download --help
 python -m etl.inspect --help
-python -m etl.transform --slice all
-python -m etl.schema
-python -m etl.validate
+python -m etl.transform --help
+python -m etl.schema --help
+python -m etl.validate --help
 ```
 
-Repository-wide build utilities live in `scripts/`:
+Maintenance utilities are available for narrower rebuilds:
 
 ```bash
 python scripts/build_schemas.py
@@ -55,93 +126,94 @@ python scripts/build_catalog.py
 python scripts/generate_parse_plans.py
 ```
 
-## Repository Layout
-
-```text
-etl/                         Importable download, transform, schema, and validation package
-etl/datasets/                Dataset-specific adapters, including USDA hierarchy handling
-scripts/                     Thin repository-level build commands
-config/datasets.yml          Stable logical dataset registry
-config/parse_plans/*.yml     Workbook- and sheet-specific parsing instructions
-data/raw/                    Original CBO workbooks and download manifest
-data/processed/<dataset>/    Versioned CSV releases, schema.json, and metadata sidecars
-schemas/                     Shared JSON Schema row contracts
-catalog.json                 Machine-readable dataset and release index
-docs/                        Inspection and source-cell verification reports
-```
+`generate_parse_plans.py` rewrites `config/parse_plans/*.yml` from
+`docs/inspection_report.md`; review those configuration changes before running
+the transform.
 
 ## Processed Data
 
-Each logical dataset has its own directory. Release filenames use a consistent
-vintage convention:
+Each logical dataset has one directory, one stable dataset schema, and one CSV
+plus metadata sidecar for every available release:
 
 ```text
 data/processed/child_nutrition/
-├── schema.json
-├── baseline_2025-01.csv
-├── baseline_2025-01.metadata.json
-├── baseline_2026-02.csv
-└── baseline_2026-02.metadata.json
+|-- schema.json
+|-- baseline_2025-01.csv
+|-- baseline_2025-01.metadata.json
+|-- baseline_2026-02.csv
+`-- baseline_2026-02.metadata.json
 ```
 
 The standard processed row contains:
 
 | Column | Description |
 |---|---|
-| `program`, `program_id` | Canonical program identity and stable CBO identifier |
+| `program`, `program_id` | Canonical program name and stable CBO identifier |
 | `category` | Leaf source label |
-| `category_path` | Full hierarchy-aware breadcrumb |
+| `category_path` | Complete hierarchy-aware breadcrumb |
 | `fiscal_year` | Fiscal year for annual fiscal-year observations |
 | `period_type` | Fiscal, calendar, award, school, cumulative, or unmapped period |
-| `period_start_year`, `period_end_year`, `period_label` | Explicit period bounds and label |
+| `period_start_year`, `period_end_year`, `period_label` | Explicit period bounds and source label |
 | `value`, `unit` | Parsed numeric value and source unit |
 | `is_total` | Whether the row represents an aggregate total or subtotal |
 | `source_file`, `source_sheet`, `source_row`, `source_column` | Exact source-cell lineage |
 
 USDA Farm Programs releases additionally contain `table_title`, `section`, and
-`subsection`. The original `category_path` remains as the lossless hierarchy.
+`subsection`. These expose the deeper USDA hierarchy as queryable columns while
+retaining `category_path` as its lossless representation.
 
 Rows where `is_total` is `true` may overlap with detailed rows. Exclude them
-before summing across categories unless the intended result is a source total.
+before summing categories unless the intended result is a source total.
 
-## Schema Model
+## Schema and Metadata Model
 
-Schemas and release metadata have separate responsibilities:
+Stable structure and release-specific information are kept separate:
 
 1. [`schemas/common_fields.schema.json`](schemas/common_fields.schema.json)
    defines reusable field types and constraints.
 2. [`schemas/baseline_detail.schema.json`](schemas/baseline_detail.schema.json)
-   and [`schemas/usda_baseline_detail.schema.json`](schemas/usda_baseline_detail.schema.json)
-   define the two stable row layouts.
-3. Each logical dataset directory contains one `schema.json` that fixes the
+   defines the standard row layout.
+3. [`schemas/usda_baseline_detail.schema.json`](schemas/usda_baseline_detail.schema.json)
+   extends that layout with USDA hierarchy fields.
+4. Each `data/processed/<dataset>/schema.json` fixes the logical dataset's
    program identity and references the appropriate shared row schema.
-4. Each CSV has a `.metadata.json` sidecar containing vintage-specific source
-   files, worksheets, row counts, coverage, units, hashes, and annotations.
+5. Each release's `.metadata.json` contains its vintage, source files,
+   worksheets, row count, period coverage, units, CSV hash, and annotations.
 
-The complete schema index is in [`schemas/README.md`](schemas/README.md), and
-[`catalog.json`](catalog.json) indexes every logical dataset and release.
+The generated [`schemas/README.md`](schemas/README.md) indexes the dataset
+schemas. The root [`catalog.json`](catalog.json) indexes every logical dataset
+and release for machine discovery.
 
 ## Superscript Notes
 
-The schema build opens the raw XLSX files with rich-text support and extracts
-actual superscript letter markers. Resolved note text is stored in the affected
-release's `.metadata.json` file, keyed to `category_path` and the exact source
-label cell. Notes are not placed in the stable dataset schema because their
-wording and marker assignments can change between vintages.
+During the schema step, the raw XLSX files are opened with rich-text support so
+actual superscript markers can be associated with their note definitions.
+Resolved annotations are stored in the affected release's `.metadata.json`,
+keyed to `category_path` and the exact source label cell.
 
-The schema step fails if a referenced source workbook or worksheet is missing,
-a superscript marker has no definition, or a resolved source annotation is not
-represented in release metadata.
+Annotations are not embedded in the stable row schemas because their wording
+and marker assignments can vary by release. Schema generation exits nonzero if
+a referenced source file or sheet is unavailable, or if an annotation marker
+cannot be resolved.
+
+## Adding or Updating Releases
+
+1. Run the download step, or place the source workbook in `data/raw/`.
+2. Run the inspection step and review `docs/inspection_report.md`.
+3. Add or adjust the appropriate file in `config/parse_plans/` if the workbook
+   structure is new or changed.
+4. Run the transform, schema, and verify steps.
+5. Review `docs/verification_report.md` and the changes under `data/processed/`.
 
 ## Validation
 
-Run the complete unit test suite:
+Run the unit test suite:
 
 ```bash
 python -m unittest discover -s tests -v
 ```
 
-Run source-cell reconciliation against all cached workbooks:
+Reconcile processed observations against the cached source workbooks:
 
 ```bash
 python -m etl.validate
